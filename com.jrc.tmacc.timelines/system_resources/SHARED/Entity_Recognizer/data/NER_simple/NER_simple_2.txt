@@ -1,0 +1,47 @@
+
+
+%
+%  Shared Task 2017
+%  author: Jakub Piksorski
+%  last modification: March 2017
+%
+
+
+%
+% Settings
+%
+
+SETTINGS:
+
+{  % Modules (currently use Corleone components)
+   
+    MODULES: <babelnetGazetteer>
+
+
+    % Search mode
+
+    %SEARCH_MODE: all_match
+    SEARCH_MODE: longest_match
+
+    %SEARCH_MODE: all_longest_matches
+    
+
+    % Output
+    OUTPUT: grammar_and_unconsumed
+}
+
+%%
+
+PATTERNS:
+
+match_babelnet_names :> ( gazetteer & [GTYPE: #type]                     
+                   ):out
+-> out: shared_out & [TYPE: #type, ORIGIN:"babelnet"].
+
+propagate_jrc_names :> ( shared_out & [TYPE: #type, ID: #id, ORIGIN:"jrc_names"]
+                       ):out
+-> out: shared_out & [TYPE: #type, ID: #id, ORIGIN:"jrc_names"].
+
+
+
+END_PATTERNS:

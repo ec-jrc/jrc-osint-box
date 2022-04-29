@@ -1,0 +1,3 @@
+{to=5, maanantai=2, lauantai=7, torstai=5, keskiviikko=4, ti=3, pe=6, ke=4, ma=2, su=1, la=7, perjantai=6, sunnuntai=1, tiistai=3}
+{elokuu=7, heinä=6, marraskuu=10, kesäkuu=5, helmi=1, elo=7, syys=8, huhti=3, huhtikuu=3, tammi=0, toukokuu=4, loka=9, lokakuu=9, joulu=11, touko=4, helmikuu=1, tammikuu=0, heinäkuu=6, joulukuu=11, marras=10, syyskuu=8, maalis=2, maaliskuu=2, kesä=5}
+{ap.=0, ip.=1}

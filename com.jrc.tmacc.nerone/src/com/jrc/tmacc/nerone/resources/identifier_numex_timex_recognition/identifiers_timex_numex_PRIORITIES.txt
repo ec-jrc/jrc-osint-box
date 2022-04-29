@@ -1,0 +1,30 @@
+
+
+
+
+ip_address: 10
+email_address: 10
+credit_card_number: 10
+coordinate_latitude: 10
+coordinate_longitude: 10
+phone_international: 10
+phone_national: 10
+url: 10
+date_simple_1: 10
+date_simple_1_A: 10
+date_simple_1_B: 10
+date_simple_2: 10
+date_EU: 10
+date_english: 10
+date_hungarian: 10
+date_lithuanian: 10
+date_latvian: 10
+vat_simple: 10
+vat_simple_2: 10
+iban: 10
+twitter_user: 10
+currency: 10
+currency_2: 10
+currency_reversed: 10
+measurement: 10
+

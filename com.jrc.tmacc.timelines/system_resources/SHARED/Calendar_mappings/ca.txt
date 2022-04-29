@@ -1,0 +1,3 @@
+{dissabte=7, dijous=5, dilluns=2, dc.=4, dv.=6, divendres=6, dimarts=3, dt.=3, diumenge=1, dg.=1, ds.=7, dimecres=4, dl.=2, dj.=5}
+{abril=3, set.=8, desembre=11, ag.=7, des.=11, maig=4, gener=0, feb.=1, juny=5, juliol=6, març=2, nov.=10, agost=7, gen.=0, novembre=10, abr.=3, oct.=9, febrer=1, octubre=9, jul.=6, setembre=8}
+{PM=1, AM=0}

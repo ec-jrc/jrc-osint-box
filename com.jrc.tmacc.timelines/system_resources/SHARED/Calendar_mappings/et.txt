@@ -1,0 +1,3 @@
+{E=2, teisipäev=3, neljapäev=5, L=7, N=5, kolmapäev=4, reede=6, K=4, T=3, P=1, pühapäev=1, laupäev=7, R=6, esmaspäev=2}
+{Detsember=11, Veebr=1, Aprill=3, Nov=10, Dets=11, Märts=2, Aug=7, Mai=4, Jaanuar=0, Veebruar=1, Juuli=6, August=7, Apr=3, November=10, Jaan=0, Juuni=5, Sept=8, Oktoober=9, Okt=9, September=8}
+{PM=1, AM=0}

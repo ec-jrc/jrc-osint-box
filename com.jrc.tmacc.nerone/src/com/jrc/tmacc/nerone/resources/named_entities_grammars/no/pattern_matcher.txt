@@ -1,0 +1,1000 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-no.txt
+# content : PM lexicon for grammatical units (Norvegian)
+# date	  : September 2016
+# author  :  Jacquet
+# *********
+
+
+
+og | GTYPE>coordination#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_position-no.txt
+# content : pattern matcher lexicon for norvegian positions
+# author  : M. Ehrmann from bruno's files, w/o revision
+# ---> To be revised/refined
+# date	  : February 2013
+#**********************************************
+
+
+
+forsvarsminister | GTYPE>position
+statsminister | GTYPE>position
+utviklingsminister | GTYPE>position
+landbruksminister | GTYPE>position
+generalsekretær% | GTYPE>position
+president| GTYPE>position
+statsminister| GTYPE>position
+minister| GTYPE>position#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_profession-no.txt
+# content : pattern matcher lexicon for norvegian positions
+# author  : M. Ehrmann from bruno's files, w/o revision
+# ---> this file contains profession AND positions
+# ---> To be revised/refined
+# date	  : February 2013
+#**********************************************
+
+
+
+adjunkt  | GTYPE>profession
+administrasjonsekretær  | GTYPE>profession
+administrerende direktør  | GTYPE>profession
+advokat  | GTYPE>profession
+advokatfullmektig  | GTYPE>profession
+afis-fullmektig  | GTYPE>profession
+agronom  | GTYPE>profession
+agronom i økologisk landbruk  | GTYPE>profession
+aktivitør  | GTYPE>profession
+aktuar  | GTYPE>profession
+allmennlærer  | GTYPE>profession
+ambassadør  | GTYPE>profession
+ambulansearbeider  | GTYPE>profession
+animatør  | GTYPE>profession
+anleggsarbeider  | GTYPE>profession
+anleggsgartner  | GTYPE>profession
+anleggsmaskinfører  | GTYPE>profession
+anleggsmaskinreparatør  | GTYPE>profession
+antikvarbokhandler  | GTYPE>profession
+apoteker  | GTYPE>profession
+apotektekniker  | GTYPE>profession
+arkeolog  | GTYPE>profession
+arkitekt  | GTYPE>profession
+arkivar  | GTYPE>profession
+asfaltør  | GTYPE>profession
+astronom  | GTYPE>profession
+attføringskonsulent  | GTYPE>profession
+au pair  | GTYPE>profession
+audiograf  | GTYPE>profession
+automatiker  | GTYPE>profession
+automatikkmekaniker  | GTYPE>profession
+autorisert fotterapeut  | GTYPE>profession
+autorisert regnskapsfører  | GTYPE>profession
+avioniker  | GTYPE>profession
+avløser  | GTYPE>profession
+badebetjent  | GTYPE>profession
+badevakt  | GTYPE>profession
+baker  | GTYPE>profession
+bakkepersonale  | GTYPE>profession
+ballettpedagog  | GTYPE>profession
+banemontør  | GTYPE>profession
+barn- og ungomsarbeider  | GTYPE>profession
+barnarbeider  | GTYPE>profession
+barnehageassistent  | GTYPE>profession
+barnevernkonsulent  | GTYPE>profession
+barnevernpedagog  | GTYPE>profession
+bartender  | GTYPE>profession
+bedriftsleder  | GTYPE>profession
+befrakter  | GTYPE>profession
+bergfagarbeider  | GTYPE>profession
+betongarbeider  | GTYPE>profession
+betongindustriarbeider  | GTYPE>profession
+bibliotekar  | GTYPE>profession
+billakkerer  | GTYPE>profession
+bilmekaniker  | GTYPE>profession
+biloppretter  | GTYPE>profession
+bilskadereparatør  | GTYPE>profession
+bioingeniør  | GTYPE>profession
+biolog  | GTYPE>profession
+bistandsarbeider  | GTYPE>profession
+blomsterdekoratør  | GTYPE>profession
+blyglassmester  | GTYPE>profession
+bokhandler  | GTYPE>profession
+bokhandlermedhjelper  | GTYPE>profession
+brannkonstabel  | GTYPE>profession
+broderer  | GTYPE>profession
+bryggeriarbeider  | GTYPE>profession
+bryggerioperatør  | GTYPE>profession
+brønnoperatør  | GTYPE>profession
+bud  | GTYPE>profession
+bunadtilvirker  | GTYPE>profession
+buntmaker  | GTYPE>profession
+bussjåfør  | GTYPE>profession
+butikkekspeditør  | GTYPE>profession
+butikkfaglært  | GTYPE>profession
+butikkleder  | GTYPE>profession
+butikkmedarbeider  | GTYPE>profession
+butikksjef  | GTYPE>profession
+butikkslakter  | GTYPE>profession
+byggtapetserer  | GTYPE>profession
+byggvareekspeditør  | GTYPE>profession
+bøkker  | GTYPE>profession
+børsemaker  | GTYPE>profession
+controller  | GTYPE>profession
+dame- og herrefrisør  | GTYPE>profession
+damefrisør  | GTYPE>profession
+dansepedagog  | GTYPE>profession
+danser  | GTYPE>profession
+dataingeniør  | GTYPE>profession
+dekksoffiser  | GTYPE>profession
+dekoratør  | GTYPE>profession
+demograf  | GTYPE>profession
+diakon  | GTYPE>profession
+dimensjonskontrollør  | GTYPE>profession
+diplomat  | GTYPE>profession
+dispasjør  | GTYPE>profession
+domkantor  | GTYPE>profession
+dommer  | GTYPE>profession
+dommerfullmektig  | GTYPE>profession
+domstolsjurist  | GTYPE>profession
+draktsyer  | GTYPE>profession
+driftsleder  | GTYPE>profession
+driftsoperatør  | GTYPE>profession
+driftstekniker  | GTYPE>profession
+drosjesjåfør  | GTYPE>profession
+dykker  | GTYPE>profession
+dyrepleier  | GTYPE>profession
+dyrlege  | GTYPE>profession
+eiendomsmegler  | GTYPE>profession
+eksportsjef  | GTYPE>profession
+elektriker  | GTYPE>profession
+elektroautomasjonstekniker  | GTYPE>profession
+elektroingeniør  | GTYPE>profession
+elektromotor- og transformatorreparatør  | GTYPE>profession
+elektromotorreparatør  | GTYPE>profession
+elektroreparatør  | GTYPE>profession
+energimontør  | GTYPE>profession
+energioperatør  | GTYPE>profession
+ergoterapeut  | GTYPE>profession
+ernæringsfysiolog  | GTYPE>profession
+etnolog  | GTYPE>profession
+eurytmist  | GTYPE>profession
+f&b sjef  | GTYPE>profession
+fabrikksjef  | GTYPE>profession
+fagarbeider  | GTYPE>profession
+fagkonsulent  | GTYPE>profession
+faglaborant  | GTYPE>profession
+faglærer  | GTYPE>profession
+fagoperatør  | GTYPE>profession
+farmasøyt  | GTYPE>profession
+feiersvenn  | GTYPE>profession
+fengselsbetjent  | GTYPE>profession
+fiberplateproduksjonsfaget  | GTYPE>profession
+filigransarbeider  | GTYPE>profession
+filmfotograf  | GTYPE>profession
+filmregissør   | GTYPE>profession
+filolog  | GTYPE>profession
+filolog   | GTYPE>profession
+filosof  | GTYPE>profession
+finmekaniker  | GTYPE>profession
+finmekanikerfaget  | GTYPE>profession
+fiolinmaker  | GTYPE>profession
+fiskehandler  | GTYPE>profession
+fiskehelsebiolog  | GTYPE>profession
+fisker  | GTYPE>profession
+fiskerifag  | GTYPE>profession
+fjellarbeider  | GTYPE>profession
+fjernsynsfotograf  | GTYPE>profession
+flyfagarbeider  | GTYPE>profession
+flygeleder  | GTYPE>profession
+flygelederassistent  | GTYPE>profession
+flyger  | GTYPE>profession
+flyktningekonsulent  | GTYPE>profession
+flyvert  | GTYPE>profession
+flyvertinne  | GTYPE>profession
+folkehøgskolelærer  | GTYPE>profession
+food and beverage sjef  | GTYPE>profession
+forfatter  | GTYPE>profession
+forgyller  | GTYPE>profession
+forlagskonsulent  | GTYPE>profession
+forlagsredaktør  | GTYPE>profession
+forsikringsrådgiver  | GTYPE>profession
+forskalingsfaget  | GTYPE>profession
+forskalingssnekker  | GTYPE>profession
+forsker  | GTYPE>profession
+fotograf  | GTYPE>profession
+fotojournalist  | GTYPE>profession
+fotolaborant  | GTYPE>profession
+fotomodell  | GTYPE>profession
+fotterapeut  | GTYPE>profession
+frelsesarmeoffiser  | GTYPE>profession
+frisør  | GTYPE>profession
+fritidsleder  | GTYPE>profession
+fu-operatør   | GTYPE>profession
+fysiker  | GTYPE>profession
+fysioterapeut  | GTYPE>profession
+førskolelærer  | GTYPE>profession
+galopptrener  | GTYPE>profession
+galvanisør  | GTYPE>profession
+galvanisørfaget  | GTYPE>profession
+gartner  | GTYPE>profession
+gartneriarbeider  | GTYPE>profession
+garver  | GTYPE>profession
+garverifaget  | GTYPE>profession
+geofysiker  | GTYPE>profession
+geolog  | GTYPE>profession
+gipsmaker  | GTYPE>profession
+gjenvinningsoperatør  | GTYPE>profession
+glasiolog  | GTYPE>profession
+glassblåser  | GTYPE>profession
+glassfagarbeider  | GTYPE>profession
+glassfaget   | GTYPE>profession
+glasshåndtverker  | GTYPE>profession
+glassliper  | GTYPE>profession
+glassliperfaget  | GTYPE>profession
+gradør  | GTYPE>profession
+grafisk designer  | GTYPE>profession
+grafisk formgiver  | GTYPE>profession
+gravør  | GTYPE>profession
+grøntmiljøansvarlig  | GTYPE>profession
+guide  | GTYPE>profession
+gullsmed  | GTYPE>profession
+gårdbruker  | GTYPE>profession
+hagebrukskandidat  | GTYPE>profession
+hattemaker  | GTYPE>profession
+havbunnsinstallatør  | GTYPE>profession
+havfisker  | GTYPE>profession
+havforsker  | GTYPE>profession
+heismontør  | GTYPE>profession
+helikopterflyger  | GTYPE>profession
+helse, miljø, sikkerhet ingeniør   | GTYPE>profession | STRICT > (?i:helse, miljø, sikkerhet ingeniør)
+helse- og treningsterapeut  | GTYPE>profession
+helsesekretær  | GTYPE>profession
+helsesøster  | GTYPE>profession
+herrefrisør  | GTYPE>profession
+herreskredder  | GTYPE>profession
+hjelpepleier  | GTYPE>profession
+hjemmehjelp  | GTYPE>profession
+hjulutrustningsfaget  | GTYPE>profession
+hms ingeniør   | GTYPE>profession
+homøopat  | GTYPE>profession
+hotelleder  | GTYPE>profession
+hovmester  | GTYPE>profession
+hovslager  | GTYPE>profession
+hovslagerfaget  | GTYPE>profession
+hudpleier  | GTYPE>profession
+husøkonom  | GTYPE>profession
+hydrolog  | GTYPE>profession
+håndvever  | GTYPE>profession
+håndveverfaget   | GTYPE>profession
+idrettlseder  | GTYPE>profession
+idrettsanleggsfaget  | GTYPE>profession
+idrettskonsulent  | GTYPE>profession
+idrettstrener  | GTYPE>profession
+idéhistoriker  | GTYPE>profession
+ikt-driftsoperatør  | GTYPE>profession
+illustratør  | GTYPE>profession
+industridesigner  | GTYPE>profession
+industrimaler  | GTYPE>profession
+industrimekaniker  | GTYPE>profession
+industrirørlegger  | GTYPE>profession
+industrisøm  | GTYPE>profession
+industrisømfaget  | GTYPE>profession
+industritapetserer  | GTYPE>profession
+informasjonskonsulent  | GTYPE>profession
+ingeniør  | GTYPE>profession
+innkjøper  | GTYPE>profession
+innspillingsleder  | GTYPE>profession
+inspisient  | GTYPE>profession
+institusjonskokk  | GTYPE>profession
+instruktør  | GTYPE>profession
+interiørarkitekt  | GTYPE>profession
+interiørkonsulent  | GTYPE>profession
+isolatør  | GTYPE>profession
+jernbinder  | GTYPE>profession
+jockey  | GTYPE>profession
+jordmor  | GTYPE>profession
+jordskiftetekniker  | GTYPE>profession
+journalist  | GTYPE>profession
+jurist  | GTYPE>profession
+kabelbygger  | GTYPE>profession
+kabelbyggerfaget  | GTYPE>profession
+kabinpersonale  | GTYPE>profession
+kantor  | GTYPE>profession
+karosserimaker  | GTYPE>profession
+kartkonstruktør  | GTYPE>profession
+kartograf  | GTYPE>profession
+kateket  | GTYPE>profession
+keramiker  | GTYPE>profession
+kirkemusiker  | GTYPE>profession
+kirketjener  | GTYPE>profession
+kiropraktor  | GTYPE>profession
+kjemiker  | GTYPE>profession
+kjemilaborant  | GTYPE>profession
+kjole- og draktsyer  | GTYPE>profession
+kjolesyer  | GTYPE>profession
+kjøkkensjef  | GTYPE>profession
+kjøttskjærer  | GTYPE>profession
+klesdesigner  | GTYPE>profession
+klokker  | GTYPE>profession
+kokk  | GTYPE>profession
+kommunalt ansatt  | GTYPE>profession
+komponist  | GTYPE>profession
+konditor  | GTYPE>profession
+konduktør  | GTYPE>profession
+konservator  | GTYPE>profession
+konsulent  | GTYPE>profession
+kontorfaglært  | GTYPE>profession
+kontormedarbeider  | GTYPE>profession
+koreograf  | GTYPE>profession
+korrekturleser  | GTYPE>profession
+kosmetolog  | GTYPE>profession
+kostymedesigner  | GTYPE>profession
+kostymesyer  | GTYPE>profession
+kostøkonom  | GTYPE>profession
+kranfagarbeider  | GTYPE>profession
+kriminolog  | GTYPE>profession
+kritiker  | GTYPE>profession
+kuldemaskinist  | GTYPE>profession
+kuldemontør  | GTYPE>profession
+kuldetekniker  | GTYPE>profession
+kulturkonsulent  | GTYPE>profession
+kultursekretær  | GTYPE>profession
+kultursjef  | GTYPE>profession
+kundekonsulent  | GTYPE>profession
+kunderådgiver  | GTYPE>profession
+kundeveileder  | GTYPE>profession
+kunsthistoriker  | GTYPE>profession
+kunsthåndverker  | GTYPE>profession
+kunstner  | GTYPE>profession
+kurvmaker  | GTYPE>profession
+kurvmakerfaget    | GTYPE>profession
+kvalitetsleder  | GTYPE>profession
+kystskipper  | GTYPE>profession
+laboratoriefaget   | GTYPE>profession
+lagermedararbeider  | GTYPE>profession
+lagersjef  | GTYPE>profession
+landbrukskonsulent  | GTYPE>profession
+landbruksmaskinmekaniker  | GTYPE>profession
+landbruksveileder  | GTYPE>profession
+landmåler  | GTYPE>profession
+landskapsarkitekt  | GTYPE>profession
+lastearbeider   | GTYPE>profession
+lastebil- og vogntogfører  | GTYPE>profession
+lastebilfører  | GTYPE>profession
+lege  | GTYPE>profession
+lektor  | GTYPE>profession
+lensmann  | GTYPE>profession
+lensmannsbetjent  | GTYPE>profession
+lingvist  | GTYPE>profession
+litteraturviter  | GTYPE>profession
+logistikkleder  | GTYPE>profession
+logoped  | GTYPE>profession
+lokomotivfører  | GTYPE>profession
+losse- og lastearbeider  | GTYPE>profession
+lossearbeider  | GTYPE>profession
+lufthavnbetjent  | GTYPE>profession
+lyddesigner  | GTYPE>profession
+lydmester  | GTYPE>profession
+lydtekniker  | GTYPE>profession
+lysdesigner  | GTYPE>profession
+lysmester  | GTYPE>profession
+lystekniker  | GTYPE>profession
+låsesmed  | GTYPE>profession
+låsesmedfaget  | GTYPE>profession
+lærer  | GTYPE>profession
+maler  | GTYPE>profession
+malerfaget   | GTYPE>profession
+mannekeng  | GTYPE>profession
+manusforfatter  | GTYPE>profession
+marinbiolog  | GTYPE>profession
+marinteknolog  | GTYPE>profession
+markedsanalytiker  | GTYPE>profession
+markedsføringskonsulent  | GTYPE>profession
+markedssjef  | GTYPE>profession
+maskin- og industrimaler  | GTYPE>profession
+maskinarbeider  | GTYPE>profession
+maskiningeniør  | GTYPE>profession
+maskinist  | GTYPE>profession
+maskinmaler  | GTYPE>profession
+maskinoffiser  | GTYPE>profession
+maskinoperatør  | GTYPE>profession
+maskinsjef  | GTYPE>profession
+maskør  | GTYPE>profession
+matematiker  | GTYPE>profession
+materialadministrasjonsfaget  | GTYPE>profession
+matros  | GTYPE>profession
+medarbeider  | GTYPE>profession
+medisinsk forsker  | GTYPE>profession
+mellomleder  | GTYPE>profession
+menighetssekretær  | GTYPE>profession
+metallformerfaget  | GTYPE>profession
+metallvareproduksjonsfaget  | GTYPE>profession
+meteorolog  | GTYPE>profession
+miljø- og kvalitetsleder  | GTYPE>profession
+#miljø/kvalitetsleder  | GTYPE>profession | STRICT > (?i:miljø/kvalitetsleder)
+miljøarbeider  | GTYPE>profession
+miljøleder  | GTYPE>profession
+miljørådgiver  | GTYPE>profession
+miljøterapeut  | GTYPE>profession
+miljøvernkonsulent  | GTYPE>profession
+miljøvernleder  | GTYPE>profession
+misjonær  | GTYPE>profession
+modellsnekker  | GTYPE>profession
+modellør  | GTYPE>profession
+modist  | GTYPE>profession
+motedesigner  | GTYPE>profession
+motormann  | GTYPE>profession
+motormekaniker  | GTYPE>profession
+motorsykkelreparatør  | GTYPE>profession
+motorsykkelreparatørfaget  | GTYPE>profession
+murer  | GTYPE>profession
+musikkinstrumentmaker  | GTYPE>profession
+musikkpedagog  | GTYPE>profession
+musikkterapeut  | GTYPE>profession
+møbel og tretekniker  | GTYPE>profession
+møbeldesigner  | GTYPE>profession
+møbelsnekker  | GTYPE>profession
+møbeltapetserer  | GTYPE>profession
+møbeltekniker  | GTYPE>profession
+mønsteroperatør  | GTYPE>profession
+naturforvalter  | GTYPE>profession
+naturgeograf  | GTYPE>profession
+nautisk instrumentmaker  | GTYPE>profession
+ndt-kontrollør  | GTYPE>profession
+næringsmiddeltekniker  | GTYPE>profession
+næringsmiddelteknolog  | GTYPE>profession
+offiser  | GTYPE>profession
+okonomisekretær  | GTYPE>profession
+omsorgsarbeider  | GTYPE>profession
+omviser  | GTYPE>profession
+operasanger  | GTYPE>profession
+optiker  | GTYPE>profession
+optroniker  | GTYPE>profession
+organisasjonskonsulent  | GTYPE>profession
+organist  | GTYPE>profession
+orgelbygger  | GTYPE>profession
+orkesterdirigent  | GTYPE>profession
+ortopediingeniør  | GTYPE>profession
+ortopedisk fottøymaker  | GTYPE>profession
+oseanograf  | GTYPE>profession
+oversetter  | GTYPE>profession
+parkettfaget  | GTYPE>profession
+parksjef  | GTYPE>profession
+parykkmaker  | GTYPE>profession
+personalsjef  | GTYPE>profession
+petroleumsingeniør  | GTYPE>profession
+pikkolo  | GTYPE>profession
+pilot  | GTYPE>profession
+platearbeider  | GTYPE>profession
+platearbeiderfaget  | GTYPE>profession
+politibetjent  | GTYPE>profession
+pottemaker  | GTYPE>profession
+pottemakerfaget  | GTYPE>profession
+presstøper  | GTYPE>profession
+presstøperfaget  | GTYPE>profession
+prest  | GTYPE>profession
+produksjonstekniker  | GTYPE>profession
+produksjonsteknisk fagoperatør  | GTYPE>profession
+produktdesigner  | GTYPE>profession
+produktsjef  | GTYPE>profession
+produktutvikler  | GTYPE>profession
+prosessfagarbeider  | GTYPE>profession
+prosesstekniker  | GTYPE>profession
+psykiater  | GTYPE>profession
+psykolog  | GTYPE>profession
+purser  | GTYPE>profession
+pølsemaker  | GTYPE>profession
+radiograf  | GTYPE>profession
+redaksjonssekretær  | GTYPE>profession
+redaktør  | GTYPE>profession
+regissør  | GTYPE>profession
+regnskapsmedarbeider  | GTYPE>profession
+reindrift  | GTYPE>profession
+reise- og turoperatør  | GTYPE>profession
+reisebyråmedarbeider  | GTYPE>profession
+reisekonsulent  | GTYPE>profession
+reiseleder  | GTYPE>profession
+reiselivssjef  | GTYPE>profession
+reiseoperatør  | GTYPE>profession
+reklamekonsulent  | GTYPE>profession
+rengjøringsassistent  | GTYPE>profession
+renholdsoperatør  | GTYPE>profession
+reparatør  | GTYPE>profession
+resepsjonist  | GTYPE>profession
+resepsjonssjef  | GTYPE>profession
+reseptar  | GTYPE>profession
+reservedelsekspetitør  | GTYPE>profession
+reservoar ingeniør  | GTYPE>profession
+restaurantsjef  | GTYPE>profession
+revisor  | GTYPE>profession
+rideinstruktør  | GTYPE>profession
+ridelærer  | GTYPE>profession
+ringleder  | GTYPE>profession
+rådgiver  | GTYPE>profession
+rådmann  | GTYPE>profession
+rørlegger  | GTYPE>profession
+saksbehandler  | GTYPE>profession
+salgsingeniør  | GTYPE>profession
+salgskonsulent   | GTYPE>profession
+salgsrepresentant  | GTYPE>profession
+salmaker  | GTYPE>profession
+salmakerfaget   | GTYPE>profession
+samfunnsgeograf  | GTYPE>profession
+samfunnsøkonom   | GTYPE>profession
+sanger  | GTYPE>profession
+sceneinstruktør  | GTYPE>profession
+scenemester  | GTYPE>profession
+scenograf  | GTYPE>profession
+seilmaker  | GTYPE>profession
+seilmakerfaget  | GTYPE>profession
+sekretær  | GTYPE>profession
+selger  | GTYPE>profession
+serviceelektroniker  | GTYPE>profession
+servitør  | GTYPE>profession
+signalmontør  | GTYPE>profession
+sivilingeniør  | GTYPE>profession
+siviløkonom  | GTYPE>profession
+sjefssekretær  | GTYPE>profession
+skadebehandler  | GTYPE>profession
+skadeoppgjørskonsulent  | GTYPE>profession
+skattefogd  | GTYPE>profession
+skipper  | GTYPE>profession
+skipselektriker  | GTYPE>profession
+skipskokk  | GTYPE>profession
+skipsmegler  | GTYPE>profession
+skipsoperatør  | GTYPE>profession
+skipstekniker  | GTYPE>profession
+skofagoperatør  | GTYPE>profession
+skogsarbeider  | GTYPE>profession
+skogsarbeiderfaget  | GTYPE>profession
+skogsforvalter  | GTYPE>profession
+skogsmaskinfører  | GTYPE>profession
+skolerådgiver  | GTYPE>profession
+skomaker  | GTYPE>profession
+skuespiller  | GTYPE>profession
+skytebas  | GTYPE>profession
+slakter  | GTYPE>profession
+sminkør  | GTYPE>profession
+snekker  | GTYPE>profession
+sorenskriver  | GTYPE>profession
+sosialantropolog  | GTYPE>profession
+sosialarbeider  | GTYPE>profession
+sosiolog  | GTYPE>profession
+sosionom  | GTYPE>profession
+speditør  | GTYPE>profession
+spesialpedagog  | GTYPE>profession
+språkkonsulent  | GTYPE>profession
+språkviter  | GTYPE>profession
+statistiker  | GTYPE>profession
+statsadvokat  | GTYPE>profession
+statsautorisert revisor  | GTYPE>profession
+statsautorisert tolk  | GTYPE>profession
+statsautorsert eiendomsmegler   | GTYPE>profession
+statsviter  | GTYPE>profession
+steinerpedagog  | GTYPE>profession
+steinfagarbeider  | GTYPE>profession
+steward  | GTYPE>profession
+stillasbygger  | GTYPE>profession
+strikker  | GTYPE>profession
+studiekonsulent  | GTYPE>profession
+studieveileder  | GTYPE>profession
+stuert  | GTYPE>profession
+stylist  | GTYPE>profession
+styrmann  | GTYPE>profession
+stålgravør  | GTYPE>profession
+støper  | GTYPE>profession
+støperifaget  | GTYPE>profession
+sufflør  | GTYPE>profession
+sveiser  | GTYPE>profession
+sykepleier  | GTYPE>profession
+sykkelreparatør  | GTYPE>profession
+sølvgravør  | GTYPE>profession
+sølvsmed  | GTYPE>profession
+taksidermist  | GTYPE>profession
+taktekker  | GTYPE>profession
+tannhelsesekretær  | GTYPE>profession
+tannlege  | GTYPE>profession
+tannpleier  | GTYPE>profession
+tanntekniker  | GTYPE>profession
+taxisjåfør  | GTYPE>profession
+tegnspråktolk  | GTYPE>profession
+teknisk tegner  | GTYPE>profession
+tekstforfatter  | GTYPE>profession
+tekstildesigner  | GTYPE>profession
+tekstilkunstner  | GTYPE>profession
+tekstiloperatør  | GTYPE>profession
+tekstilrenholder  | GTYPE>profession
+telekommunikasjonsmontør  | GTYPE>profession
+teolog  | GTYPE>profession
+terminalarbeider  | GTYPE>profession
+termisk sprøyter  | GTYPE>profession
+tidligere legesekretær  | GTYPE>profession
+tingrettsdommer  | GTYPE>profession
+togelektriker  | GTYPE>profession
+togfører  | GTYPE>profession
+tolk  | GTYPE>profession
+tollbetjent  | GTYPE>profession
+trafikkbetjent  | GTYPE>profession
+trafikklærer  | GTYPE>profession
+transformatormontør  | GTYPE>profession
+transformatorreparatør  | GTYPE>profession
+translatør  | GTYPE>profession
+transportøkonom  | GTYPE>profession
+travtrener  | GTYPE>profession
+tre- og byggvareekspeditør  | GTYPE>profession
+trebåtbyggerfaget  | GTYPE>profession
+tredreier  | GTYPE>profession
+treekspeditør  | GTYPE>profession
+treskjærer  | GTYPE>profession
+tretekniker  | GTYPE>profession
+trevare- og møbelsnekker  | GTYPE>profession
+trevaresnekker  | GTYPE>profession
+trikkefører  | GTYPE>profession
+truckfører  | GTYPE>profession
+tunnel- og fjellarbeider  | GTYPE>profession
+tunnelarbeider  | GTYPE>profession
+turistsjef  | GTYPE>profession
+turoperatør  | GTYPE>profession
+tv-fotograf   | GTYPE>profession
+tømrer  | GTYPE>profession
+ungdomsarbeider  | GTYPE>profession
+urmaker  | GTYPE>profession
+utenrikstjenestemann  | GTYPE>profession
+utviklingshjelpmedartbeider  | GTYPE>profession
+vaktmester  | GTYPE>profession
+varmforsinker  | GTYPE>profession
+vei- og anleggsarbeider  | GTYPE>profession
+veiarbeider  | GTYPE>profession
+vekter  | GTYPE>profession
+verktøymaker  | GTYPE>profession
+verktøymakerfaget  | GTYPE>profession
+vernepleier  | GTYPE>profession
+veterinær  | GTYPE>profession
+vikler  | GTYPE>profession
+vinduspusser  | GTYPE>profession
+vogntogfører  | GTYPE>profession
+yrkesdykker  | GTYPE>profession
+yrkesfaglærer  | GTYPE>profession
+yrkesrådgiver  | GTYPE>profession
+yrkessjåfør  | GTYPE>profession
+økonom  | GTYPE>profession
+økonomikonsulent  | GTYPE>profession
+økonomimedarbeider  | GTYPE>profession
+økonomisjef  | GTYPE>profession
+økonomisk rådgiver  | GTYPE>profession

@@ -1,0 +1,377 @@
+
+
+%
+%  Sample verb_group grammar
+%  author: Vanni Zavarella
+%  last modification: August 24 June 2017
+%
+%  
+% Settings
+%
+
+SETTINGS:
+
+{  % Modules (currently use Corleone components)
+   
+    MODULES: <CorleoneTokenizer>, <CorleoneBasicTokenizer>, <CorleoneMorphGazetteer>
+
+    % Search mode
+    %SEARCH_MODE: all_longest_matches
+    SEARCH_MODE: longest_match
+    %SEARCH_MODE: all_match
+    % Output
+
+    OUTPUT: all
+
+}
+
+
+
+PATTERNS:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Added by Vanni Zavarella, January 2017   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%   ATTRIBUTE MAPPING FROM verbgroup TYPE TO EVENT class:  %%%%%%%%%%%%%%%%%%%%%%%
+%%%% ITEM1 --> eventDescription
+%%%% ITEM2 --> tense
+%%%% ITEM3 --> aspect
+%%%% ITEM4 --> scope
+%%%% ITEM5 --> type
+%%%% ITEM6 --> domain
+%%%% ITEM7 --> modality
+%%%% ITEM8 --> argument_slot
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% "goes"
+verbgroup_rule00 :> ( verb & [SURFACE:#surf, TYPE:"m", VFORM:#vform, TENSE:#tense, ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms]):head
+-> head: verbgroup & [ITEM1:#core,ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, RULE:"verbgroup_rule00"]
+& #core := ConcWithBlanks(#surf)
+& MemberOf(#vform,"i","c","s").
+
+
+%% if #base contains "not", modality = NEG, otherwise modality = null
+
+% "does not go", "must go"
+verbgroup_rule10 :> ( ( verb & [BASEFORM:#base,VFORM:#vform,  TYPE:"o", TENSE:#tense]
+						| verb & [BASEFORM:"do+not" #base,VFORM:#vform,  TYPE:"a", TENSE:#tense]
+						  | (verb & [SURFACE:#surf0,VFORM:#vform, TYPE:"a", TENSE:#tense] adverb & [SURFACE:"not"#base]) )
+						  adverb?
+                    verb & [SURFACE:#surf, TYPE:"m", VFORM:"n", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms] ):head
+-> head: verbgroup & [ITEM1:#core,ITEM2:#tense,ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#base, RULE:"verbgroup_rule10"]
+& #core := ConcWithBlanks(#surf)
+& MemberOf(#vform,"i","c","s").
+
+
+% "is going", "was going"
+verbgroup_rule20 :> ( ( verb & [TYPE:"a", BASEFORM:"be" #base, VFORM:"i", TENSE:#tense]
+						|  verb & [TYPE:"a", BASEFORM:"be+not" #base, VFORM:"i", TENSE:#tense]
+							| (verb & [SURFACE:#surf0,TYPE:"a", BASEFORM:"be", VFORM:"i", TENSE:#tense] adverb & [SURFACE:"not"#base] ))
+							adverb?
+                       verb & [SURFACE:#surf, TYPE:"m", VFORM:"p", TENSE:"p", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms] ):head
+-> head:  verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#base, RULE:"verbgroup_rule20"]
+& #core := ConcWithBlanks(#surf).
+
+%% if #base contains "not", modality = NEG, otherwise modality = null
+
+
+
+% "has gone", "had gone"
+verbgroup_rule30 :> (  ( verb & [TYPE:"a", BASEFORM:"have" #base, VFORM:"i", TENSE:#tense]
+						 |  verb & [TYPE:"a", BASEFORM:"have+not" #base, VFORM:"i", TENSE:#tense]
+							| (verb & [TYPE:"a", BASEFORM:"have", VFORM:"i", TENSE:#tense] adverb & [SURFACE:"not"#base] ))
+						adverb?
+					  verb & [SURFACE:#surf, TYPE:"m",VFORM:"p", TENSE:"s" #tense , ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms] )	:head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#base, RULE:"verbgroup_rule30"]
+& #core := ConcWithBlanks(#surf).
+ 
+%%% if #base contains "not", modality = NEG, otherwise modality = null
+ 
+  
+ 
+%%%% "was going", "has been going", "hasn't been going"
+verbgroup_rule40 :> ( (verb &[TYPE:"a", BASEFORM:"be" #base, VFORM:"i"] 
+						| verb &[TYPE:"a", BASEFORM:"be+not" #base, VFORM:"i"] 
+                           | verb &[TYPE:"a", VFORM:"i", BASEFORM:"have" #base,  TENSE:#tense]       
+								| verb &[TYPE:"a", VFORM:"i", BASEFORM:"have+not"#base,  TENSE:#tense]
+								   | (verb &[TYPE:"a", VFORM:"i", BASEFORM:"have"] adverb & [SURFACE:"not"#base]) )
+									(verb & [BASEFORM:"be" , VFORM:"p", TENSE:"s" #tense, TYPE:"a"] )?
+									adverb?
+						verb & [SURFACE:#surf, TYPE:"m", VFORM:"p", TENSE:"p", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms] ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain,ITEM7:#base, RULE:"verbgroup_rule40"]
+& #core := ConcWithBlanks(#surf).
+
+
+% "will leave", "won't be leaving"
+verbgroup_rule50 :> ( ( verb &[TYPE:"o", BASEFORM:"will" #base,  TENSE:#tense] 
+                        | verb &[TYPE:"o", BASEFORM:"will+not" #base,  TENSE:#tense]
+							| (verb &[TYPE:"o", BASEFORM:"will",  TENSE:#tense] adverb & [SURFACE:"not"#base])
+						  | verb &[TYPE:"o", BASEFORM:"shall" #base,  TENSE:#tense]
+						    | verb &[TYPE:"o", BASEFORM:"shall+not" #base,  TENSE:#tense]
+								| (verb &[TYPE:"o", BASEFORM:"shall",  TENSE:#tense] adverb & [SURFACE:"not"#base]))
+								adverb?
+						 verb &[TYPE:"a", BASEFORM:"be" , VFORM:"n"]?
+						verb &[SURFACE:#surf, TYPE:"m", VFORM:"n", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms] ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#base, RULE:"verbgroup_rule50"]
+& #core := ConcWithBlanks(#surf).
+
+
+
+
+
+
+
+
+% "is going to go",
+verbgroup_rule60 :> ( ( verb & [TYPE:"a", BASEFORM:"be" #base, VFORM:"i", TENSE:#tense]
+						| verb & [TYPE:"a", BASEFORM:"be+not" #base, VFORM:"i", TENSE:#tense]
+						 | (verb & [TYPE:"a", BASEFORM:"be", VFORM:"i", TENSE:#tense] adverb & [SURFACE:"not"#base]))
+                        verb & [TYPE:"m", BASEFORM:"go", VFORM:"p", TENSE:"p"]
+						token & [SURFACE:"to"]
+						 adverb?
+						 verb & [SURFACE:#surf, TYPE:"m", VFORM:"n", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms]):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#base,RULE:"verbgroup_rule60"]
+& #core := ConcWithBlanks(#surf).
+
+
+
+
+%"has to", "would have to"
+has_to_rule :> (    ( verb & [BASEFORM:#base,VFORM:#vform,  TYPE:"o", TENSE:#tense]
+						  | (verb & [SURFACE:#surf0,VFORM:#vform, TYPE:"a", TENSE:#tense] adverb & [SURFACE:"not"#base]) 
+							 | verb & [TYPE:"o", BASEFORM:"will" #base,  TENSE:#tense] 
+								| verb & [TYPE:"o", BASEFORM:"will+not" #base,  TENSE:#tense]
+									| (verb & [TYPE:"o", BASEFORM:"will",  TENSE:#tense] adverb & [SURFACE:"not"#base])
+										| verb & [TYPE:"o", BASEFORM:"shall" #base,  TENSE:#tense]
+											| verb & [TYPE:"o", BASEFORM:"shall+not" #base,  TENSE:#tense]
+												| (verb & [TYPE:"o", BASEFORM:"shall",  TENSE:#tense] adverb & [SURFACE:"not"#base])
+													| verb & [TYPE:"o", BASEFORM:"would" #base,  TENSE:#tense]
+														| verb & [TYPE:"o", BASEFORM:"would+not" #base,  TENSE:#tense]
+															| (verb & [TYPE:"o", BASEFORM:"would",  TENSE:#tense] adverb & [SURFACE:"not"#base]) )?
+						     adverb?
+						     verb & [SURFACE:#surf1, BASEFORM:"have"]
+							 token & [SURFACE:"to" #surf2]	 ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:"NECESSITY",RULE:"has_to_rule"]
+& #core := ConcWithBlanks(#surf0,#base,#surf1,#surf2).
+
+
+
+
+% "is accepted"
+passive_verb_group_rule00 :> ( verb & [SURFACE:#surf1, BASEFORM:"be", TYPE:"a", VFORM:"i", TENSE:#tense] 
+									adverb?
+					  verb & [SURFACE:#surf2, TYPE:"m", VFORM:"p", TENSE:"s" #tense1 , ASPECT:#aspct1, INTENSION:#intns1, WN_DOMAIN:#domain1, WN_HYPERNYM:#hypernms1] ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct1, ITEM4:#intns1, ITEM5:#hypernms1, ITEM6:#domain1, ITEM7:#base, RULE:"passive_verb_group_rule00"]
+& #core := ConcWithBlanks(#surf1,#surf2).
+ 
+%%% if #base contains "not", modality = NEG, otherwise modality = null
+
+
+% "has been prepared"
+passive_verb_group_rule0 :> (  ( verb & [SURFACE:#surf1,TYPE:"a", BASEFORM:"have" #base, VFORM:"i", TENSE:#tense]
+									|  verb & [SURFACE:#surf1,TYPE:"a", BASEFORM:"have+not" #base, VFORM:"i", TENSE:#tense]
+											| (verb & [SURFACE:#surf1,TYPE:"a", BASEFORM:"have", VFORM:"i", TENSE:#tense] adverb & [SURFACE:"not"#base] ) )  
+									adverb?											
+									verb & [SURFACE:#surf2, BASEFORM:"be", TYPE:"a", VFORM:"p", TENSE:"s" #tense , ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms] 
+									adverb?
+					  verb & [SURFACE:#surf3, TYPE:"m", VFORM:"p", TENSE:"s" #tense1 , ASPECT:#aspct1, INTENSION:#intns1, WN_DOMAIN:#domain1, WN_HYPERNYM:#hypernms1] ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct1, ITEM4:#intns1, ITEM5:#hypernms1, ITEM6:#domain1, ITEM7:#base, RULE:"passive_verb_group_rule0"]
+& #core := ConcWithBlanks(#surf1,#surf2,#surf3).
+ 
+%%% if #base contains "not", modality = NEG, otherwise modality = null
+
+
+
+
+% "will be prepared", "won't be prepared"
+passive_verb_group_rule1 :> ( ( verb &[SURFACE:#surf1,TYPE:"o", BASEFORM:"can" #base,  TENSE:#tense] 
+								  | verb &[SURFACE:#surf1,TYPE:"o", BASEFORM:"will" #base,  TENSE:#tense] 
+								     | verb &[SURFACE:#surf1,TYPE:"o", BASEFORM:"will+not" #base,  TENSE:#tense]
+										| (verb &[SURFACE:#surf1,TYPE:"o", BASEFORM:"will",  TENSE:#tense] adverb & [SURFACE:"not"#base])
+											| verb &  [SURFACE:#surf1,TYPE:"o", BASEFORM:"shall" #base,  TENSE:#tense]
+													| verb &[SURFACE:#surf1,TYPE:"o", BASEFORM:"shall+not" #base,  TENSE:#tense]
+														| (verb &[SURFACE:#surf1,TYPE:"o", BASEFORM:"shall",  TENSE:#tense] adverb & [SURFACE:"not"#base]) )
+														adverb?
+						 verb & [SURFACE:#surf2, BASEFORM:"be", TYPE:"a", VFORM:"n", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms]
+						 adverb?
+						 verb & [SURFACE:#surf3, TYPE:"m", VFORM:"p", TENSE:"s" #tense1 , ASPECT:#aspct1, INTENSION:#intns1, WN_DOMAIN:#domain1, WN_HYPERNYM:#hypernms1] ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct1, ITEM4:#intns1, ITEM5:#hypernms1, ITEM6:#domain1, ITEM7:#base, RULE:"passive_verb_group_rule1"]
+& #core := ConcWithBlanks(#surf1,#surf2,#surf3).
+
+
+
+
+
+% "may have been accepted"
+passive_verb_group_rule2 :> (  verb & [SURFACE:#surf0,TYPE:"m", BASEFORM:#base0, VFORM:"i", TENSE:#tense0]
+								adverb?
+                                 ( verb & [SURFACE:#surf1,TYPE:"a", BASEFORM:"have" #base, VFORM:"i", TENSE:#tense]
+									|  verb & [SURFACE:#surf1,TYPE:"a", BASEFORM:"have+not" #base, VFORM:"i", TENSE:#tense]
+											| (verb & [SURFACE:#surf1,TYPE:"a", BASEFORM:"have", VFORM:"i", TENSE:#tense] adverb & [SURFACE:"not"#base] ) )  
+									adverb?											
+									verb & [SURFACE:#surf2, BASEFORM:"be", TYPE:"a", VFORM:"p", TENSE:"s" #tense , ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms] 
+									adverb?
+					  verb & [SURFACE:#surf3, TYPE:"m", VFORM:"p", TENSE:"s" #tense1 , ASPECT:#aspct1, INTENSION:#intns1, WN_DOMAIN:#domain1, WN_HYPERNYM:#hypernms1] ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct1, ITEM4:#intns1, ITEM5:#hypernms1, ITEM6:#domain1, ITEM7:#base, RULE:"passive_verb_group_rule2"]
+& #core := ConcWithBlanks(#surf0, #surf1,#surf2,#surf3).
+ 
+%%% if #base contains "not", modality = NEG, otherwise modality = null
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%  INFINITIVE(NONE)   %%%%%%%%%%%
+
+% "to leave", "leaving"
+verbgroup_rule70 :> (  ( token & [SURFACE:"to"]
+                            verb &[SURFACE:#surf,TYPE:"m", VFORM:"n", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms])
+						     | verb &[SURFACE:#surf,TYPE:"m",VFORM:"p", TENSE:"p", ASPECT:#aspct, INTENSION:#intns, WN_DOMAIN:#domain, WN_HYPERNYM:#hypernms]  ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:"", ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain,RULE:"verbgroup_rule70"]
+& #core := ConcWithBlanks(#surf).
+
+
+% "to be leaving"
+verbgroup_rule71 :> (  token & [SURFACE:"to" #surf0]
+                       verb & [SURFACE:#surf1, BASEFORM:"be", TYPE:"a", VFORM:"n"]
+					   adverb?
+					   verb &[SURFACE:#surf2,TYPE:"m",VFORM:"p", TENSE:"p", ASPECT:#aspct2, INTENSION:#intns2, WN_DOMAIN:#domain2, WN_HYPERNYM:#hypernms2]  ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:"", ITEM3:#aspct2, ITEM4:#intns2, ITEM5:#hypernms2, ITEM6:#domain2, RULE:"verbgroup_rule71"]
+& #core := ConcWithBlanks( #surf0,#surf1,#surf2).
+
+
+
+% "to be attacked", "being attacked"
+verbgroup_rule72 :> (  ( (token & [SURFACE:"to" #surf0]
+							verb & [SURFACE:#surf1, BASEFORM:"be", TYPE:"a", VFORM:"n"])
+								| verb & [SURFACE:#surf1, BASEFORM:"be", TYPE:"a",VFORM:"p", TENSE:"p"] )
+						adverb?
+						verb & [SURFACE:#surf2, TYPE:"m", VFORM:"p", TENSE:"s" #tense1 , ASPECT:#aspct1, INTENSION:#intns1, WN_DOMAIN:#domain1, WN_HYPERNYM:#hypernms1] ):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:"", ITEM3:#aspct1, ITEM4:#intns1, ITEM5:#hypernms1, ITEM6:#domain1,RULE:"verbgroup_rule72"]
+& #core := ConcWithBlanks( #surf0, #surf1,#surf2).
+
+
+
+%%%%%%%%%%%%%%%%%%%%      NOMINALIZATION RULES:     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% "acquisition"
+nominalization_rule00 :> ( ( (token & [TYPE:"first_capital_word", SURFACE:#w]
+					    | token & [TYPE:"mixed_word_first_capital", SURFACE:#w]
+						    |  token & [TYPE:"word_with_hyphen_first_capital", SURFACE:#w]
+								| token & [TYPE:"word_with_apostrophe_first_capital"]
+									| noun & [SURFACE:#w] 
+										| adjective & [SURFACE:#w]
+											| adverb & [SURFACE:#w]
+												| pronoun & [SURFACE:#w] 
+													| determiner & [SURFACE:#w] 
+														| article & [SURFACE:#w] )<1,2>
+					         (adposition & [SURFACE: #q] | adposition & [SURFACE:"to"#q] ))?
+                           noun & [SURFACE:#surf, NOMINALIZATION:#nom]
+						   adposition & [SURFACE: #p]?  ):nom
+-> nom: verbgroup & [ITEM1:#core, ITEM10:"true", RULE:"nominalization_rule00"]
+& #core := ConcWithBlanks(#w,#q,#surf,#p)
+& IsNotUnspecified(#nom).
+
+
+
+%%%%%%%%%%%%%%%%%%%%      POS-TAGGING RULES:     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%  These are supposed to eliminate POS-ambiguity of English verb forms, by selecting
+%%%% the context typical of nouns and produce an empty output type for them.
+
+%np_rule0 :> (determiner verb? verb):np
+%-> np: object & [RULE:"np_rule0"].
+
+
+
+%np_rule1 :> (adjective verb? verb):np
+%-> np: object & [RULE:"np_rule1"].
+
+
+%np_rule2 :> (verb & [TYPE:"m"] verb & [TYPE:"a"]):np
+%-> np: object & [RULE:"np_rule2"].
+
+%np_rule3 :> (basic-token & [SURFACE:"."] verb & [TYPE:"m"] ):np
+%-> np: object & [RULE:"np_rule3"].
+
+%"as closed as ..."
+np_rule4 :> (basic-token & [SURFACE:"as"]  verb & [TYPE:"m", TENSE:"s"]):np
+-> np: object & [RULE:"np_rule4"].
+
+%"is like"
+%np_rule5 :> (verb & [BASEFORM:"be", VFORM:"i"]  verb & [TYPE:"m", VFORM:"i", TENSE:"p"]):np
+%-> np: object & [RULE:"np_rule5"].
+
+%"in turn"
+%np_rule6 :> ( adposition & [SURFACE:#surf]  verb & [TYPE:"m", VFORM:"i", TENSE:"p"] ):np
+%-> np: object & [RULE:"np_rule6"]
+%& IsDiff(#surf,"to").
+
+
+
+%"last year", "last month's", ...
+np_rule7 :> ( verb & [BASEFORM:"last", VFORM:"i", TENSE:"p"]
+			  token & [SURFACE:#surf]):np
+-> np: object & [RULE:"np_rule7"]
+& MemberOf(#surf,"year","century","month","week","day").
+
+
+
+copula_rule0 :> (verb & [BASEFORM:"be"]):copula
+-> copula: object & [RULE:"copula_rule0"].
+
+has_rule0 :> (verb & [BASEFORM:"have"]):copula
+-> copula: object & [RULE:"has_rule0"].
+
+
+genitive_rule :>  ( basic-token & [SURFACE:#uppercasetoken]
+					 (verb & [SURFACE:"'s"] 
+						| verb & [SURFACE:"‘s"] 
+						   |  verb & [SURFACE:"’s"]) ) :gen
+-> gen: object & [RULE:"genitive_rule"]
+& IsCapitalized(#uppercasetoken).
+
+
+hyphenated_rule :>  ( basic-token & [SURFACE:#uppercasetoken]
+                      basic-token & [SURFACE:"-"]
+				       verb & [TENSE:"p", VFORM:"p"] ):hyphenated
+-> hyphenated: object & [RULE:"hyphenated_rule"].
+
+hyphenated_rule1 :>  ( (token & [TYPE:"word_with_hyphen_first_capital", SURFACE:#uppercasetoken]
+						| token & [TYPE:"word_with_hyphen_first_lower", SURFACE:#uppercasetoken]) ):hyphenated
+-> hyphenated: object & [RULE:"hyphenated_rule1"].
+
+
+
+question_context_rule0 :> ( (verb & [BASEFORM:"do", PERSON:#per1 ] | verb & [BASEFORM:"do+not" , PERSON:#per1])
+							 pronoun & [PERSON:#per2]
+							 adverb?  ):interr
+-> interr: question_context & [RULE:"question_context_rule0"]
+& IsNotUnspecified(#per1)
+& IsNotUnspecified(#per2)
+& Equals(#per1,#per2).
+
+
+%"impersonal pronoun blocking rule"
+impersonal_pron_rule :> ( pronoun & [BASEFORM:"it",PERSON:"3",NUMBER:"s"]
+                          verb  ):vp
+-> vp: object & [RULE:"impersonal_pron_rule"].
+
+
+neg_auxiliaty_alone_blocking_rule :> (( verb &[TYPE:"o", BASEFORM:"will" #base,  TENSE:#tense] 
+										| verb &[TYPE:"o", BASEFORM:"will+not" #base,  TENSE:#tense]
+											| (verb &[TYPE:"o", BASEFORM:"will",  TENSE:#tense] adverb & [SURFACE:"not"#base])
+												| verb &[TYPE:"o", BASEFORM:"shall" #base,  TENSE:#tense]
+													| verb &[TYPE:"o", BASEFORM:"shall+not" #base,  TENSE:#tense]
+														| (verb &[TYPE:"o", BASEFORM:"shall",  TENSE:#tense] adverb & [SURFACE:"not"#base]))):vp
+-> vp: object & [RULE:"neg_auxiliaty_alone_blocking_rule"].
+
+
+END_PATTERNS:

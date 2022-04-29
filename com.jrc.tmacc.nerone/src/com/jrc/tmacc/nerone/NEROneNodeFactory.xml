@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./NERone.png" type="Source" xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+    <name>NEROne</name>
+    
+    <shortDescription>
+        
+    </shortDescription>
+    
+    <fullDescription>
+        <intro>NEROne is a module for Named-Entities Recognition, performing known entities lookup, geo-localisation and
+        entity guessing. </intro>
+        
+        
+        <option name="Input option">The selection to define whether to use a Document input or String column inputs</option>
+        <option name="Document column">The column containing the Document</option>
+        <option name="Text column">The column containing the text</option>
+        <option name="Title column">The column containing the title</option>
+        <option name="Language column">The column containing the language</option>
+        <option name="Insert missing value if no results"> If no results are detected, use MissingValues; empty strings otherwise</option>
+        <option name="include advanced JSON output"> Adds a new column to the resulting table, with a detailled output</option>
+        
+        
+        <!-- possibly more options that can also be grouped by tabs -->
+        <!--
+        <tab name="Standard Options">
+            <option name="short name of first option (like in the dialog)">description of first option</option>
+            <option name="short name of second option (like in the dialog)">description of second option</option>
+        </tab>
+        <tab name="Advanced Options">
+            <option name="short name of first advanced option (like in the dialog)">description of first advanced option</option>
+        </tab>
+        -->
+    </fullDescription>
+    
+    <ports>
+        <inPort index="0" name="In-Port name">An input data table containing String cells and or a Document cell</inPort>
+        <!-- possibly more input ports here-->
+        <outPort index="0" name="Out-Port name">An output table containing the data of the input table as well as a column with a list of found entities. In addition it can contain a String result in JSON format in an additional column.</outPort>
+        <!-- possibly more output ports here-->
+    </ports>    
+<!--     <views> -->
+<!--         <view index="0" name="name of first view">Description of first view...</view> -->
+<!--         view index="1" name="name of second view">Description of second view...</view -->
+<!--     </views> -->
+</knimeNode>

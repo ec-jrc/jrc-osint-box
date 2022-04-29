@@ -1,0 +1,92 @@
+%  Sample person-name grammar
+%  author: Jakub Piksorski
+%  last modification: 1 August 2006
+%
+
+
+%
+% Settings
+%
+
+SETTINGS:
+
+{  % Modules
+   MODULES: <CorleoneBasicTokenizer>
+
+    % Search mode
+    %SEARCH_MODE: all_longest_matches
+    
+SEARCH_MODE: longest_match
+%SEARCH_MODE: all_longest_matches
+    % Output
+    OUTPUT: grammar
+
+}
+
+
+
+PATTERNS:
+
+
+%%%%%%%%%%%%%%%%%%%%%%   ATTRIBUTE MAPPING FROM verbgroup TYPE TO EVENT class:  %%%%%%%%%%%%%%%%%%%%%%%
+%%%% ITEM1 --> eventDescription
+%%%% ITEM2 --> tense 
+%%%% ITEM3 --> aspect
+%%%% ITEM4 --> scope
+%%%% ITEM5 --> type
+%%%% ITEM6 --> domain
+%%%% ITEM7 --> modality
+%%%% ITEM8 --> argument_slot
+%%%% ITEM9 --> coordinated
+%%%% ITEM10 --> nominalized
+
+
+
+%%%%%%%%%%%%       
+verbgroup_coordination_00 :> ( (verbgroup & [ITEM1:#item11, ITEM2:#item21, ITEM3:#item31, ITEM4:#item41, ITEM5:#item51, ITEM6:#item61, ITEM7:#item71, ITEM8:#item81, RULE:#rule1]):head1
+							    basic-token & [SURFACE:#tkn]<0,8>
+								conjunction
+							    adverb?
+                              ( verbgroup & [ITEM1:#item12, ITEM2:#item22, ITEM3:#item32, ITEM4:#item42, ITEM5:#item52, ITEM6:#item62, ITEM7:#item72, ITEM8:#item82, RULE:#rule2]):head2 )
+-> head1: verbgroup & [ITEM1:#item11, ITEM2:#item21, ITEM3:#item31, ITEM4:#item41, ITEM5:#item51, ITEM6:#item61, ITEM7:#item71, ITEM8:#item81, RULE:"verbgroup_coordination_00"],
+   head2: verbgroup & [ITEM1:#item12, ITEM2:#item22, ITEM3:#item32, ITEM4:#item42, ITEM5:#item52, ITEM6:#item62, ITEM7:#item72, ITEM8:#item82, ITEM9:"true", RULE:"verbgroup_coordination_00"]
+   & IsDiff(#tkn,",")
+   & IsDiff(#tkn,";")
+   & IsDiff(#tkn,":")
+   & IsDiff(#tkn,".").
+
+
+
+% "protests broke up"
+nominalization_verb_composition :> ( verbgroup & [ITEM1:#surf, ITEM5:#type, ITEM6:#domain, ITEM10:"true"]
+                                     verbgroup & [ITEM1:#item1, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#nom]):x
+-> x: verbgroup & [ITEM1:#comp, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM5:#type, ITEM6:#domain, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#item10, RULE:"nominalization_verb_composition"]
+& #comp := ConcWithBlanks(#surf,#item1)
+& IsDiff(#nom,"true").
+
+
+
+verbgroup_wrapping_rule :> ( verbgroup & [ITEM1:#item1, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM5:#item5, ITEM6:#item6, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#item10]):head
+-> head: verbgroup & [ITEM1:#item1, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM5:#item5, ITEM6:#item6, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#item10, RULE:"verbgroup_wrapping_rule"]
+& NotMemberOf(#item1,"is","has","am","are","have","had","were","was","do", "did", "is not", "isn't", "were not","weren't","are not","aren't","am not", "did not", "do not", "don't", "didn't", "has not", "hasn't", "has not", "hasn't", "had not", "hadn't")
+& IsNotUnspecified(#item2).
+
+
+
+verbgroup_wrapping_rule_for_nominalization :> ( verbgroup & [ITEM1:#item1, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM5:#item5, ITEM6:#item6, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#item10]):head
+-> head: verbgroup & [ITEM1:#item1, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM5:#item5, ITEM6:#item6, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#item10, RULE:"verbgroup_wrapping_rule_for_nominalization"]
+& NotMemberOf(#item1,"is","has","am","are","have","had","were","was","do","does","don't","did", "didn't")
+& Equals(#item10,"true").
+
+
+
+
+question_context_rule0 :> ( question_context  verbgroup  ):interr
+-> interr: object & [RULE:"question_context_rule0"].
+
+
+
+
+END_PATTERNS:
+
+

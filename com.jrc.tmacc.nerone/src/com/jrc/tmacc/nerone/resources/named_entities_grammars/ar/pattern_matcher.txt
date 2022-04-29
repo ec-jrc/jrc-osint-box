@@ -1,0 +1,3577 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-ar.txt
+# content : PM lexicon for grammatical units (Arabic)
+# date	  : September 2016
+# author  :  Jacquet
+# *********
+
+
+and |GTYPE>coordination
+أيضا |GTYPE>coordination
+واو العطف |GTYPE>coordination
+و |GTYPE>coordination
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : location_names-ar.txt
+# content : PM lexicon for Arabic locations names
+# date	  : July 2012
+# author  : Mohammed Ebrahim, (Maud Ehrmann)
+# *********
+#**********************************************
+
+
+
+
+آسيا الصغرى | GTYPE>location
+أبوظبي | GTYPE>location
+أتلانتا | GTYPE>location
+أثينا | GTYPE>location
+أثيوبيا | GTYPE>location
+أذربيجان | GTYPE>location
+أراضي القطب الجنوبي | GTYPE>location
+أرض المحيط الهندي البريطانية | GTYPE>location
+أرمينيا | GTYPE>location
+أروبا | GTYPE>location
+أريحا | GTYPE>location
+أسبانيا | GTYPE>location
+أستراليا | GTYPE>location
+أستونيا | GTYPE>location
+أسيوط | GTYPE>location
+أغادير | GTYPE>location
+أفغانستان | GTYPE>location
+أكسفورد | GTYPE>location
+ألاسكا | GTYPE>location
+ألبانيا | GTYPE>location
+ألبرتا | GTYPE>location
+ألمانيا | GTYPE>location
+أمريكا | GTYPE>location
+أمستردام | GTYPE>location
+أميركا | GTYPE>location
+أنتيجوا باربدا | GTYPE>location
+أنجولا | GTYPE>location
+أنجويلا | GTYPE>location
+أندر سي فيتشر | GTYPE>location | STRICT > (?i:أندر سي فيتشر)
+أندورا | GTYPE>location
+أندونيسيا | GTYPE>location
+أنغولا | GTYPE>location
+أنقرة | GTYPE>location
+أوتاوا | GTYPE>location
+أورجواي  | GTYPE>location
+أورشليم | GTYPE>location | STRICT > (?i:أورشليم)
+أورلاندو | GTYPE>location
+أوروبا | GTYPE>location
+أوروغواي | GTYPE>location
+أوزبكستان | GTYPE>location
+أوسلو | GTYPE>location
+أوغندا | GTYPE>location
+أوغندة | GTYPE>location
+أوكرانيا | GTYPE>location
+أوكلاهوما | GTYPE>location
+أوكيناوا | GTYPE>location
+أوهايو | GTYPE>location
+أيرلاينز | GTYPE>location
+أيرلندا | GTYPE>location
+أيسلندا | GTYPE>location
+أيلاند | GTYPE>location
+أيندهوفن | GTYPE>location
+إريتريا | GTYPE>location
+إسبانيا | GTYPE>location
+إستونيا | GTYPE>location
+إسرائيل | GTYPE>location
+إسطنبول | GTYPE>location
+إسكتلندا | GTYPE>location
+إكوادور | GTYPE>location
+إمارات | GTYPE>location
+إنجلترا | GTYPE>location
+إندونيسيا | GTYPE>location
+إنديانا | GTYPE>location
+إيران | GTYPE>location
+إيران جمهورية  الإسلامية | GTYPE>location
+إيرلندا | GTYPE>location
+إيسلندا | GTYPE>location
+إيطاليا | GTYPE>location
+ابشي | GTYPE>location | STRICT > (?i:ابشي)
+ابو سنبل | GTYPE>location
+ابو ظبي | GTYPE>location
+ابوجا | GTYPE>location
+ابوظبي | GTYPE>location
+ابيدجان | GTYPE>location
+اتلانتا | GTYPE>location
+اتلانتيك | GTYPE>location
+اثينا | GTYPE>location
+اثيوبيا | GTYPE>location
+ادرار | GTYPE>location
+ادرنة | GTYPE>location
+ادرياتيك | GTYPE>location
+ادفو | GTYPE>location
+اذربيجان | GTYPE>location
+اربد | GTYPE>location
+اربيل | GTYPE>location
+ارجنتين | GTYPE>location
+ارجنتينا | GTYPE>location
+ارجنتينه | GTYPE>location
+اردبيل | GTYPE>location
+اردبيلي | GTYPE>location
+ارسنال | GTYPE>location
+ارضروم | GTYPE>location
+ارفنبرغ | GTYPE>location
+ارفيداس | GTYPE>location
+ارلاندا | GTYPE>location
+ارلندا | GTYPE>location
+ارمينيا | GTYPE>location
+ارواد | GTYPE>location
+اروبا | GTYPE>location
+اريتريا | GTYPE>location
+اريحا | GTYPE>location
+اريغوي | GTYPE>location
+اريفان | GTYPE>location
+ازبكستان | GTYPE>location
+ازتيكا | GTYPE>location
+ازربيجان | GTYPE>location
+ازمير | GTYPE>location
+ازيلال | GTYPE>location
+اسبارطة | GTYPE>location
+اسبانا | GTYPE>location
+اسبانيا | GTYPE>location
+استانبول | GTYPE>location
+استريا | GTYPE>location
+استنبول | GTYPE>location
+استوكهولم | GTYPE>location
+استونيا | GTYPE>location
+استونية | GTYPE>location
+اسدود | GTYPE>location
+اسرائيل | GTYPE>location
+اسطنبول | GTYPE>location
+اسكتلاندا | GTYPE>location
+اسكتلندا | GTYPE>location
+اسكندرونة | GTYPE>location
+اسمرة | GTYPE>location
+اسوان | GTYPE>location
+اسوانجزيرة | GTYPE>location
+اسوج | GTYPE>location
+اسيوط | GTYPE>location
+اشبيليا | GTYPE>location | STRICT > (?i:اشبيليا)
+اصبهان | GTYPE>location
+اصفهان | GTYPE>location
+اطلانتيك | GTYPE>location
+اغادير | GTYPE>location
+افريست | GTYPE>location
+افريقا | GTYPE>location
+افريكا | GTYPE>location
+افغانستان | GTYPE>location
+اقجوجت | GTYPE>location
+اقردات | GTYPE>location
+اكادير | GTYPE>location
+اكسفورد | GTYPE>location
+اكوادور | GTYPE>location
+الأرجنتين | GTYPE>location
+الأردن | GTYPE>location
+الأرسنال | GTYPE>location
+الأناضول | GTYPE>location
+الأندلس | GTYPE>location
+الأنديز | GTYPE>location
+الأوروغواي | GTYPE>location
+الإكوادور | GTYPE>location
+الإمارات | GTYPE>location
+الإمارات العربية المتحدة | GTYPE>location
+الاباما | GTYPE>location
+الابيضالبحر | GTYPE>location
+الاتحاد الروسي | GTYPE>location
+الادرياتيك | GTYPE>location
+الاراضي المنخفضة | GTYPE>location
+الارانة | GTYPE>location
+الارجنتين | GTYPE>location
+الاردن | GTYPE>location
+الاسبرانتو | GTYPE>location
+الاسكندرية | GTYPE>location
+الاسمائيلية | GTYPE>location
+الاغواط | GTYPE>location
+الاق | GTYPE>location
+الاقصر | GTYPE>location
+الاكوادور | GTYPE>location
+الالب | GTYPE>location
+الالزاس | GTYPE>location
+الامارات | GTYPE>location
+الامازون | GTYPE>location
+الاناضول | GTYPE>location
+الاندلس | GTYPE>location
+الاورغواي | GTYPE>location
+الباراغواي | GTYPE>location
+البارغواي | GTYPE>location
+الباكستان | GTYPE>location
+الباليار | GTYPE>location
+البانيا | GTYPE>location
+الباهاما | GTYPE>location
+البحرين | GTYPE>location
+البرازيل | GTYPE>location
+البراغواي | GTYPE>location
+البربادوس | GTYPE>location
+البرتا | GTYPE>location
+البرتغال | GTYPE>location
+البسفور | GTYPE>location
+البصرة | GTYPE>location
+البلجيك | GTYPE>location
+البلقان | GTYPE>location
+البلوفر | GTYPE>location
+البليدة | GTYPE>location
+البنجاب | GTYPE>location
+البندقية | GTYPE>location
+البنغال | GTYPE>location
+البهاما | GTYPE>location
+البوسفور | GTYPE>location
+البوسنة | GTYPE>location
+البوسنة والهرسك | GTYPE>location
+البوليساريو | GTYPE>location
+البولينيسيا الفرنسية | GTYPE>location
+البويرة | GTYPE>location
+البياض | GTYPE>location
+البيرو | GTYPE>location
+البيلاروس | GTYPE>location
+التاميز | GTYPE>location
+التايغا | GTYPE>location
+التايلاند | GTYPE>location
+التايلند | GTYPE>location
+التلمسان | GTYPE>location
+التوجو | GTYPE>location
+التوغو | GTYPE>location
+التونس | GTYPE>location
+الجابون | GTYPE>location
+الجاكت | GTYPE>location
+الجالوت | GTYPE>location
+الجبيهة | GTYPE>location
+الجزائر | GTYPE>location
+الجزر البريطانية | GTYPE>location
+الجزيرة الخضراء | GTYPE>location
+الجلفة | GTYPE>location
+الجماهيرية العربية الليبية | GTYPE>location
+الجمهورية التشيكية | GTYPE>location | STRICT > (?i:الجمهورية التشيكية)
+الجنوب | GTYPE>location
+الجيزة | GTYPE>location
+الحاجب | GTYPE>location
+الحبشة | GTYPE>location | STRICT > (?i:الحبشة)
+الحجاز | GTYPE>location
+الحسيمة | GTYPE>location
+الخالداتالجزائر | GTYPE>location
+الخرطوم | GTYPE>location
+الخرطوم بحري | GTYPE>location
+الخليل | GTYPE>location
+الخميسات | GTYPE>location
+الخوربلدية | GTYPE>location
+الدار البيضاء | GTYPE>location
+الدار البيضاء الكبرى | GTYPE>location
+الدانمارك | GTYPE>location
+الدانمرك | GTYPE>location
+الدانوب | GTYPE>location
+الدجلة | GTYPE>location
+الدريم | GTYPE>location
+الدمنهور | GTYPE>location
+الدنمارك | GTYPE>location
+الدنمرك | GTYPE>location
+الدوحة | GTYPE>location
+الراشيدية | GTYPE>location | STRICT > (?i:الراشيدية)
+الرباط | GTYPE>location
+الرجاءالصالحرأس | GTYPE>location
+الرقة | GTYPE>location
+الرها | GTYPE>location
+الرياض | GTYPE>location
+الزاس | GTYPE>location
+الزحل | GTYPE>location
+الزقازيق | GTYPE>location
+الزمالك | GTYPE>location
+الزنجبار | GTYPE>location
+السد العالي | GTYPE>location
+السعودية | GTYPE>location
+السلفادور | GTYPE>location
+السموع | GTYPE>location
+السنغال | GTYPE>location
+السوازيلاند | GTYPE>location
+السودان | GTYPE>location
+السوفيات | GTYPE>location
+السوفيت | GTYPE>location
+السوهاج | GTYPE>location
+السويد | GTYPE>location
+السويس | GTYPE>location
+السويسقناة | GTYPE>location
+السينا | GTYPE>location
+السينغال | GTYPE>location
+الشارقة | GTYPE>location | STRICT > (?i:الشارقة)
+الشام | GTYPE>location | STRICT > (?i:الشام)
+الشاوية-ورديغة | GTYPE>location | STRICT > (?i:الشاوية-ورديغة)
+الشرقاط | GTYPE>location | STRICT > (?i:الشرقاط)
+الشلف | GTYPE>location | STRICT > (?i:الشلف)
+الشيشان | GTYPE>location | STRICT > (?i:الشيشان)
+الصعيد | GTYPE>location
+الصفاقس | GTYPE>location
+الصومال | GTYPE>location
+الصويرة | GTYPE>location
+الصين | GTYPE>location
+الطاجيك | GTYPE>location
+الطاجيكستان | GTYPE>location
+الطفيلة | GTYPE>location
+العال | GTYPE>location
+العجمان | GTYPE>location
+العرائش | GTYPE>location | STRICT > (?i:العرائش)
+العراق | GTYPE>location
+العظمى وأيرلندا الشمالية | GTYPE>location | STRICT > (?i:العظمى وأيرلندا الشمالية)
+العلى | GTYPE>location
+العيزرية | GTYPE>location
+العيون | GTYPE>location
+الغابون | GTYPE>location
+الفاتيكان | GTYPE>location
+الفجيرة | GTYPE>location
+الفلبين | GTYPE>location
+الفلسطين | GTYPE>location
+الفليبين | GTYPE>location
+الفولتا | GTYPE>location
+الفيتنام | GTYPE>location
+الفيلبين | GTYPE>location
+الفيليبين | GTYPE>location
+الفيوم | GTYPE>location
+القادسية | GTYPE>location
+القارة القطبية الجنوبية | GTYPE>location
+القامشلية | GTYPE>location | STRICT > (?i:القامشلية)
+القاهرة | GTYPE>location
+القاهرة القديمة | GTYPE>location
+القحطان | GTYPE>location
+القدس | GTYPE>location
+القرم | GTYPE>location
+القريات | GTYPE>location
+القزوين | GTYPE>location
+القصرين | GTYPE>location
+القضارف | GTYPE>location
+القطيف | GTYPE>location
+القمر | GTYPE>location
+القيروان | GTYPE>location
+الكاب | GTYPE>location
+الكاف | GTYPE>location
+الكامرون | GTYPE>location
+الكاميرون | GTYPE>location
+الكرسي الرسولي | GTYPE>location
+الكرك | GTYPE>location
+الكركوك | GTYPE>location
+الكرنك | GTYPE>location
+الكنغو | GTYPE>location
+الكوت | GTYPE>location
+الكوريا | GTYPE>location
+الكوفة | GTYPE>location
+الكونجو | GTYPE>location
+الكونغو | GTYPE>location
+الكويت | GTYPE>location
+اللاذقية | GTYPE>location
+المارتينيخ | GTYPE>location
+المالاوي | GTYPE>location
+المالديف | GTYPE>location
+المانش | GTYPE>location | STRICT > (?i:المانش)
+المانيا | GTYPE>location
+المجدل | GTYPE>location
+المجر | GTYPE>location
+المحيطات | GTYPE>location
+المخا | GTYPE>location
+المدية | GTYPE>location
+المدينة | GTYPE>location
+المريخ | GTYPE>location
+المغرب | GTYPE>location
+المغيرية | GTYPE>location
+المكسيك | GTYPE>location
+المملكة العربية السعودية | GTYPE>location
+المملكة المتحدة | GTYPE>location
+المملكة المتحدة لبريطانيا العظمى وإيرلندا الشمالية | GTYPE>location | STRICT > (?i:المملكة المتحدة لبريطانيا العظمى وإيرلندا الشمالية)
+المملكة المتحدة لبريطانيــــــا | GTYPE>location
+المنامة | GTYPE>location
+المنستير | GTYPE>location
+المنسطير | GTYPE>location
+المنيا | GTYPE>location
+المهدية | GTYPE>location
+الموزامبيق | GTYPE>location
+الموزانبيق | GTYPE>location
+الموزمبيق | GTYPE>location
+الموصل | GTYPE>location
+الناصرة | GTYPE>location
+النبتون | GTYPE>location
+النجف | GTYPE>location
+النروج | GTYPE>location
+النرويج | GTYPE>location
+النعامة | GTYPE>location
+النمسا | GTYPE>location
+النورويج | GTYPE>location
+النيجر | GTYPE>location
+النيويورك | GTYPE>location
+الهافر | GTYPE>location
+الهرسك | GTYPE>location
+الهفوف | GTYPE>location
+الهمالايا | GTYPE>location
+الهملايا | GTYPE>location
+الهناجر | GTYPE>location
+الهند | GTYPE>location
+الهند باساس دي | GTYPE>location
+الهندوراس | GTYPE>location
+الهوتو | GTYPE>location
+الهوندوراس | GTYPE>location
+الهونغ | GTYPE>location
+الوادي | GTYPE>location
+الوكرةبلدية | GTYPE>location
+الولايات المتحدة الأمريكية | GTYPE>location
+الولايات المتحدة الامريكية | GTYPE>location
+اليابان | GTYPE>location
+اليابان  | GTYPE>location
+اليابسوادي | GTYPE>location
+اليرموك | GTYPE>location
+اليزي | GTYPE>location
+اليمن | GTYPE>location
+اليمن الجنوبية | GTYPE>location
+اليمن الشمالية | GTYPE>location | STRICT > (?i:اليمن الشمالية)
+اليونان | GTYPE>location
+ام البواغي | GTYPE>location
+ام درمان | GTYPE>location
+امازون | GTYPE>location
+امركة | GTYPE>location
+امريكا | GTYPE>location
+امستردام | GTYPE>location
+اميركا | GTYPE>location
+اناتولي | GTYPE>location
+اناضول | GTYPE>location
+انجلترا | GTYPE>location
+انجولا | GTYPE>location
+اندانغ | GTYPE>location
+اندرتون | GTYPE>location
+اندرلخت | GTYPE>location
+اندلس | GTYPE>location
+اندورا | GTYPE>location
+اندونيسيا | GTYPE>location
+انديانابوليس | GTYPE>location
+انديز | GTYPE>location
+انغولا | GTYPE>location
+انغوليم | GTYPE>location
+انفرس | GTYPE>location
+انقرة | GTYPE>location
+انكا | GTYPE>location
+انكلترا | GTYPE>location
+انكليز | GTYPE>location
+اوبوك | GTYPE>location
+اوتاوا | GTYPE>location
+اوترخت | GTYPE>location
+اوتو | GTYPE>location
+اوجدة | GTYPE>location
+اورجواي | GTYPE>location
+اورغواي | GTYPE>location
+اورلاندو | GTYPE>location
+اوروبا | GTYPE>location
+اوروغواي | GTYPE>location
+اوريجون | GTYPE>location
+اوريخا | GTYPE>location
+اوريغون | GTYPE>location
+اوزبكستان | GTYPE>location
+اوسترافا | GTYPE>location
+اوستريا | GTYPE>location
+اوستن | GTYPE>location
+اوسلو | GTYPE>location
+اوسيتيا | GTYPE>location
+اوغندا | GTYPE>location
+اوغندة | GTYPE>location
+اوكرانيا | GTYPE>location
+اوكراينا | GTYPE>location
+اوكسير | GTYPE>location
+اوكلاهوما | GTYPE>location
+اوكيناوا | GTYPE>location
+اوهايو | GTYPE>location
+اياكس | GTYPE>location
+ايتشيبيريا | GTYPE>location | STRICT > (?i:ايتشيبيريا)
+ايران | GTYPE>location
+ايرلاينز | GTYPE>location
+ايرلندا | GTYPE>location
+ايستيبان | GTYPE>location
+ايسلاندا | GTYPE>location
+ايسلندا | GTYPE>location
+ايطاليا | GTYPE>location
+ايفران | GTYPE>location
+اينتراخت | GTYPE>location
+ايندهوفن | GTYPE>location
+بئر السبع | GTYPE>location
+بابل | GTYPE>location
+باتنة | GTYPE>location
+باجة | GTYPE>location
+باراجواي | GTYPE>location
+باراغواي | GTYPE>location
+باربادوس | GTYPE>location
+باكستان | GTYPE>location
+بالارجنتين | GTYPE>location
+بالاردن | GTYPE>location
+بالارسنال | GTYPE>location
+بالو | GTYPE>location
+بجاية | GTYPE>location
+بخارى | GTYPE>location
+برتغال | GTYPE>location
+برج بو عريريج | GTYPE>location
+برطانيا العظمى | GTYPE>location
+برمودا | GTYPE>location
+بروناي | GTYPE>location
+بريتال | GTYPE>location
+بسكرة | GTYPE>location
+بشار | GTYPE>location | STRICT > (?i:بشار)
+بعلبك | GTYPE>location
+بغداد | GTYPE>location
+بلاد الصعيد | GTYPE>location
+بلتين | GTYPE>location
+بلجيكا | GTYPE>location
+بلغاريا | GTYPE>location
+بلنسية | GTYPE>location
+بليز | GTYPE>location
+بن سليمان | GTYPE>location
+بن عروس | GTYPE>location
+بنادر | GTYPE>location
+بنجلاديش | GTYPE>location | STRICT > (?i:بنجلاديش)
+بنزرت | GTYPE>location
+بنغازي | GTYPE>location
+بنغلاديش | GTYPE>location | STRICT > (?i:بنغلاديش)
+بنما | GTYPE>location
+بنن | GTYPE>location
+بني سويف | GTYPE>location
+بني ملال | GTYPE>location
+بنين | GTYPE>location
+بو مرداس | GTYPE>location
+بوتان | GTYPE>location
+بوتسوانا | GTYPE>location
+بور سعيد | GTYPE>location
+بور سودان | GTYPE>location
+بورتوريكو | GTYPE>location
+بوركينا فاسو | GTYPE>location
+بوركينا فاصو | GTYPE>location
+بورما | GTYPE>location
+بوروندي | GTYPE>location
+بوساسو | GTYPE>location
+بولمان | GTYPE>location
+بولندا | GTYPE>location
+بولنيا | GTYPE>location
+بوليفيا | GTYPE>location
+بونقور | GTYPE>location
+بيت دجن | GTYPE>location
+بيت عور الفوقا | GTYPE>location
+بيت قاد | GTYPE>location
+بيت لحم | GTYPE>location
+بيت هاعارابة | GTYPE>location
+بيتين | GTYPE>location
+بيرو | GTYPE>location
+بيروت | GTYPE>location
+بيروتمحافظة | GTYPE>location
+بيلاروس | GTYPE>location
+بيلوروسيا | GTYPE>location
+بيليز | GTYPE>location
+بينين | GTYPE>location
+تاجورة | GTYPE>location
+تادلة--ازيلال | GTYPE>location
+تاديران | GTYPE>location
+تارودنت | GTYPE>location
+تاكاهارا | GTYPE>location
+تاكين | GTYPE>location
+تاكيناردي | GTYPE>location
+تالاهاسي | GTYPE>location
+تالبوت | GTYPE>location
+تاليباو | GTYPE>location
+تامنغست | GTYPE>location
+تاميل | GTYPE>location
+تانسو | GTYPE>location
+تانيلا | GTYPE>location
+تاوان | GTYPE>location
+تاون | GTYPE>location
+تاونات | GTYPE>location
+تايغا | GTYPE>location
+تايلاند | GTYPE>location
+تايلاندا | GTYPE>location
+تايلند | GTYPE>location
+تايلندا | GTYPE>location
+تايوان | GTYPE>location
+تبت | GTYPE>location
+تبسة | GTYPE>location
+تدمر | GTYPE>location
+تراينيداد توباجو | GTYPE>location
+تركستان | GTYPE>location
+تركمانستان | GTYPE>location
+تركمانيا | GTYPE>location
+تركيا | GTYPE>location
+ترينيداد | GTYPE>location
+تشاد | GTYPE>location | STRICT > (?i:تشاد)
+تشلسي | GTYPE>location | STRICT > (?i:تشلسي)
+تطاوين | GTYPE>location
+تطوان | GTYPE>location
+تعنك | GTYPE>location
+تكريت | GTYPE>location
+تكساس | GTYPE>location
+تل ابيب | GTYPE>location
+تل رفعة | GTYPE>location
+تلمسان | GTYPE>location
+تمبكتو | GTYPE>location
+تندوف | GTYPE>location
+تنزانيا | GTYPE>location
+توباغو | GTYPE>location
+توجو | GTYPE>location
+توركمنستان | GTYPE>location
+تورونتو | GTYPE>location
+توريس | GTYPE>location
+تورينو | GTYPE>location
+توزر | GTYPE>location
+توغو | GTYPE>location
+توفالو | GTYPE>location
+توكيلاو | GTYPE>location
+تولوز | GTYPE>location
+تونجا | GTYPE>location
+تونس | GTYPE>location
+تيارت | GTYPE>location
+تيبازة | GTYPE>location
+تيرانا | GTYPE>location
+تيزنيت | GTYPE>location
+تيزي وزو | GTYPE>location
+تيسمسيلت | GTYPE>location
+تيلاند | GTYPE>location
+تيمور | GTYPE>location
+تيمور الشرقية | GTYPE>location | STRICT > (?i:تيمور الشرقية)
+جاكارتا | GTYPE>location
+جالوت | GTYPE>location
+جامايكا | GTYPE>location
+جامبيا | GTYPE>location
+جاميكا | GTYPE>location
+جان ميين | GTYPE>location
+جانفرانكو | GTYPE>location
+جبل طارق | GTYPE>location
+جبل لبنان | GTYPE>location
+جبل لبنانمحافظة | GTYPE>location
+جبيل | GTYPE>location
+جدة | GTYPE>location
+جرابلس | GTYPE>location
+جرادة | GTYPE>location
+جربةجزيرة | GTYPE>location
+جرينادا | GTYPE>location
+جرينتش | GTYPE>location | STRICT > (?i:جرينتش)
+جرينلاند | GTYPE>location
+جزر أشمور كارتير | GTYPE>location | STRICT > (?i:جزر أشمور كارتير)
+جزر الأنتيل الهولندية | GTYPE>location
+جزر البحر المرجانية | GTYPE>location
+جزر القمر | GTYPE>location
+جزر الكوك | GTYPE>location
+جزر باراسيل | GTYPE>location
+جزر بيتكيرن | GTYPE>location
+جزر جلوريوسو | GTYPE>location
+جزر جوز الهند | GTYPE>location
+جزر سبراتلي | GTYPE>location
+جزر سولومون | GTYPE>location
+جزر فارو | GTYPE>location
+جزر فوكلاند | GTYPE>location
+جزر كوك | GTYPE>location
+جزر كيكوس التركية | GTYPE>location
+جزر مارشال | GTYPE>location | STRICT > (?i:جزر مارشال)
+جزر مكدونالد  | GTYPE>location
+جزرالكايمان | GTYPE>location
+جزيرة الأوروبا | GTYPE>location
+جزيرة الرجل | GTYPE>location
+جزيرة الكريستمز | GTYPE>location
+جزيرة بوفيت | GTYPE>location
+جزيرة تروميلين | GTYPE>location
+جزيرة جوان دونوفا | GTYPE>location
+جزيرة كليبيرتون | GTYPE>location
+جزيرة نورفولك | GTYPE>location
+جمهورية آفريقيا الاوسطى | GTYPE>location
+جمهورية إفريقيا الوسطى | GTYPE>location
+جمهورية التشيك | GTYPE>location | STRICT > (?i:جمهورية التشيك)
+جمهورية الدومينكان | GTYPE>location
+جمهورية الكونغو الديمقراطية | GTYPE>location
+جمهورية تنـزانيا المتحدة | GTYPE>location
+جمهورية كوريا | GTYPE>location
+جمهورية كوريا الشعبية الديمقراطية | GTYPE>location | STRICT > (?i:جمهورية كوريا الشعبية الديمقراطية)
+جمهورية لاو الديمقراطية الشعبية | GTYPE>location | STRICT > (?i:جمهورية لاو الديمقراطية الشعبية)
+جمهورية مقدونيا اليوغوسلافية السابقة | GTYPE>location
+جندوبة | GTYPE>location
+جنقلي | GTYPE>location
+جنوب أفريقيا | GTYPE>location
+جنوب كردفان | GTYPE>location
+جنيف | GTYPE>location
+جنين | GTYPE>location
+جهارقند | GTYPE>location
+جوادلوب | GTYPE>location
+جورجيا | GTYPE>location
+جورجيا الجنوبية  | GTYPE>location
+جوهانسبرج | GTYPE>location
+جوهانسبرغ | GTYPE>location
+جوهانسبورغ | GTYPE>location
+جويانا | GTYPE>location
+جيبوتي | GTYPE>location
+جيجل | GTYPE>location
+جيزة | GTYPE>location
+حجاز | GTYPE>location
+حجيلان | GTYPE>location
+حزما | GTYPE>location
+حضرموت | GTYPE>location
+حطين | GTYPE>location
+حلب | GTYPE>location
+حلحول | GTYPE>location
+حماه | GTYPE>location
+حمص | GTYPE>location
+حودور | GTYPE>location
+حيدرآباد | GTYPE>location
+حيدراباد | GTYPE>location
+حيفا | GTYPE>location
+خاسانسك | GTYPE>location
+خانيونس | GTYPE>location
+خراسان | GTYPE>location
+خريبقة | GTYPE>location
+خنشلة | GTYPE>location | STRICT > (?i:خنشلة)
+خنيفرة | GTYPE>location
+خوزستان | GTYPE>location
+خوى | GTYPE>location
+دار السلام | GTYPE>location
+دارفور | GTYPE>location
+داغستان | GTYPE>location
+داقوق | GTYPE>location
+داكا | GTYPE>location
+داكار | GTYPE>location
+دالتون | GTYPE>location
+دامرونغ | GTYPE>location
+دانفورث | GTYPE>location
+دانمارك | GTYPE>location
+دانوب | GTYPE>location
+دايتون | GTYPE>location
+دبلن | GTYPE>location
+دبي | GTYPE>location
+دجلة | GTYPE>location
+دخيل | GTYPE>location
+درسدن | GTYPE>location
+درغام | GTYPE>location
+دروري | GTYPE>location
+دريكس | GTYPE>location
+دريم | GTYPE>location
+دستايند | GTYPE>location
+دسلدورف | GTYPE>location
+دكالة-عبدة | GTYPE>location
+دلهي | GTYPE>location
+دمشق | GTYPE>location | STRICT > (?i:دمشق)
+دمنهور | GTYPE>location
+دمياط | GTYPE>location
+دميرة | GTYPE>location
+دنكان | GTYPE>location
+دنمارك | GTYPE>location
+دوبا | GTYPE>location
+دورا | GTYPE>location
+دورتموند | GTYPE>location
+دوسلدورف | GTYPE>location
+دوشنبة | GTYPE>location | STRICT > (?i:دوشنبة)
+دومينيكا | GTYPE>location
+ردموند | GTYPE>location
+رشيد | GTYPE>location | STRICT > (?i:رشيد)
+رمانة | GTYPE>location
+رمون | GTYPE>location
+رواندا | GTYPE>location
+روسيا | GTYPE>location
+روسيا البيضاء | GTYPE>location
+روصو | GTYPE>location
+رومانيا | GTYPE>location
+ريونيون | GTYPE>location
+زائير | GTYPE>location
+زامبوانغا | GTYPE>location
+زامبيا | GTYPE>location
+زغرب | GTYPE>location
+زغوان | GTYPE>location
+زنجبار | GTYPE>location
+زنزبار | GTYPE>location
+زهانجيانغ | GTYPE>location
+زيلاندا | GTYPE>location
+زيلندا | GTYPE>location
+زيمبابوي | GTYPE>location
+زيوريخ | GTYPE>location
+ساحل العاج | GTYPE>location
+ساراييفو | GTYPE>location
+ساره | GTYPE>location
+ساكرامنتو | GTYPE>location
+ساكيسان | GTYPE>location
+سامراء | GTYPE>location
+سامو | GTYPE>location
+ساموا | GTYPE>location
+سان مارينو | GTYPE>location
+سانت بيير ميكيلون  | GTYPE>location
+سانت فينسينت  | GTYPE>location
+سانت كيتس نيفيس  | GTYPE>location
+سانت كيتس ونيفيس | GTYPE>location
+سانت لوتشيا | GTYPE>location | STRICT > (?i:سانت لوتشيا)
+سانت لوسيا | GTYPE>location
+سانت هيلينا   | GTYPE>location
+ساو توم  | GTYPE>location
+ساوث | GTYPE>location
+سايجون | GTYPE>location
+سايغون | GTYPE>location
+سبأ | GTYPE>location
+سبارتا | GTYPE>location
+سبتة | GTYPE>location
+سبسطية | GTYPE>location
+ستراسبورغ | GTYPE>location
+سدوم | GTYPE>location
+سراييفو | GTYPE>location
+سرتخليج | GTYPE>location
+سردينيا | GTYPE>location
+سرقسطة | GTYPE>location
+سريبان | GTYPE>location
+سريلانكا | GTYPE>location
+سطات | GTYPE>location
+سطيف | GTYPE>location
+سعيدة | GTYPE>location
+سفالبارد  | GTYPE>location
+سفرو | GTYPE>location
+سكاربوروه | GTYPE>location
+سكتلاند | GTYPE>location
+سكتلاندا | GTYPE>location
+سكتلند | GTYPE>location
+سكتلندا | GTYPE>location
+سكوبلار | GTYPE>location
+سكيكدة | GTYPE>location
+سلاء | GTYPE>location
+سلاب | GTYPE>location
+سلافيانكا | GTYPE>location
+سلانيك | GTYPE>location
+سلفادور | GTYPE>location
+سلفادوري | GTYPE>location
+سلوفاكيا | GTYPE>location
+سلوفانيا | GTYPE>location
+سلوفينيا | GTYPE>location
+سليانة | GTYPE>location
+سمرقند | GTYPE>location
+سنغافورة | GTYPE>location
+سوازيلاند | GTYPE>location
+سودان | GTYPE>location
+سوريا | GTYPE>location
+سورينام | GTYPE>location
+سوزا | GTYPE>location
+سوسة | GTYPE>location
+سوق اهراس | GTYPE>location
+سولم | GTYPE>location
+سومر | GTYPE>location
+سومطرة | GTYPE>location
+سوهاج | GTYPE>location
+سويد | GTYPE>location
+سويس | GTYPE>location
+سويسا | GTYPE>location
+سويسرا | GTYPE>location
+سياتل | GTYPE>location
+سيدي بن العباس | GTYPE>location
+سيدي بو زيد | GTYPE>location
+سيراكوز | GTYPE>location
+سيراليون | GTYPE>location
+سيراليوني | GTYPE>location
+سيراليونيا | GTYPE>location
+سيراليونية | GTYPE>location
+سيراليونيون | GTYPE>location
+سيراليونيين | GTYPE>location
+سيشل | GTYPE>location | STRICT > (?i:سيشل)
+سيشلجزائر | GTYPE>location | STRICT > (?i:سيشلجزائر)
+سيشيل | GTYPE>location | STRICT > (?i:سيشيل)
+سيفيرومورسك | GTYPE>location
+سيلان | GTYPE>location
+سيوةواحات | GTYPE>location
+شتوتغارت | GTYPE>location | STRICT > (?i:شتوتغارت)
+شحات | GTYPE>location | STRICT > (?i:شحات)
+شمال كردفان | GTYPE>location | STRICT > (?i:شمال كردفان)
+شمشمال | GTYPE>location | STRICT > (?i:شمشمال)
+شنغهاي | GTYPE>location | STRICT > (?i:شنغهاي)
+شيشاوة | GTYPE>location | STRICT > (?i:شيشاوة)
+شيكاجو | GTYPE>location | STRICT > (?i:شيكاجو)
+شيكاغو | GTYPE>location | STRICT > (?i:شيكاغو)
+شيلي | GTYPE>location | STRICT > (?i:شيلي)
+صافي | GTYPE>location
+صربيا والجبل الأسود | GTYPE>location
+صفاقس | GTYPE>location
+صقلية | GTYPE>location
+صنعاء | GTYPE>location
+صور | GTYPE>location
+صومال | GTYPE>location
+صومالا | GTYPE>location
+صيدا | GTYPE>location
+صين | GTYPE>location
+طابور | GTYPE>location
+طاجكستان | GTYPE>location
+طاجيكستان | GTYPE>location
+طاق كسرى | GTYPE>location
+طبرية | GTYPE>location
+طرابزون | GTYPE>location
+طرابلس | GTYPE>location
+طروادة | GTYPE>location
+طشقند | GTYPE>location | STRICT > (?i:طشقند)
+طليطلة | GTYPE>location
+طنجة | GTYPE>location
+طنطا | GTYPE>location
+طهران | GTYPE>location
+طوز حرماتو | GTYPE>location
+طوكيو | GTYPE>location
+طولكرم | GTYPE>location
+عاقر | GTYPE>location
+عبادان | GTYPE>location
+عجمان | GTYPE>location
+عرابة المدفونة | GTYPE>location
+عراعر | GTYPE>location
+عراق | GTYPE>location
+عشقاباد | GTYPE>location | STRICT > (?i:عشقاباد)
+عصب | GTYPE>location
+عطارد | GTYPE>location
+عطروز | GTYPE>location
+عكا | GTYPE>location
+عكاظ | GTYPE>location
+عمان | GTYPE>location
+عمرمرج ابن | GTYPE>location
+عنابة | GTYPE>location
+عين الدفلة | GTYPE>location
+عين تموشنت | GTYPE>location | STRICT > (?i:عين تموشنت)
+عُمان | GTYPE>location
+غابون | GTYPE>location
+غارمينديا | GTYPE>location
+غانا | GTYPE>location
+غدامس | GTYPE>location
+غرب كردفان | GTYPE>location
+غرداية | GTYPE>location
+غرناطة | GTYPE>location
+غروزني | GTYPE>location
+غرينادا | GTYPE>location
+غرينتش | GTYPE>location | STRICT > (?i:غرينتش)
+غزة | GTYPE>location
+غزةقطاع | GTYPE>location
+غلاسكو | GTYPE>location
+غليزان | GTYPE>location
+غواتيمالا | GTYPE>location
+غوانتانامو | GTYPE>location
+غوانتنامو | GTYPE>location
+غوايانا | GTYPE>location
+غودرميس | GTYPE>location
+غوندار | GTYPE>location
+غيمارايش | GTYPE>location | STRICT > (?i:غيمارايش)
+غينيا | GTYPE>location
+غينيا الاستوائية | GTYPE>location
+غينيا الجديدة | GTYPE>location
+غينيا الفرنسية | GTYPE>location
+فاس | GTYPE>location
+فالارجنتين | GTYPE>location
+فالاردن | GTYPE>location
+فالاسبان | GTYPE>location
+فالبرت | GTYPE>location
+فالبنغاليون | GTYPE>location
+فالصومال | GTYPE>location
+فالصين | GTYPE>location
+فالعراق | GTYPE>location
+فالغابون | GTYPE>location
+فالفاتيكان | GTYPE>location
+فالفيليبين | GTYPE>location
+فانواتو | GTYPE>location
+فانوتو | GTYPE>location
+فايا لارجو | GTYPE>location
+فديرك | GTYPE>location
+فرانسا | GTYPE>location
+فرانكفورت | GTYPE>location
+فرايبورغ | GTYPE>location
+فرغانة | GTYPE>location
+فرنسا | GTYPE>location
+فرنسة | GTYPE>location
+فرنكفورت | GTYPE>location
+فقيق | GTYPE>location
+فلسطين | GTYPE>location
+فنزويلا | GTYPE>location
+فنـزويلا  | GTYPE>location
+فنلندا | GTYPE>location
+فنلندا  | GTYPE>location
+فومبوني | GTYPE>location
+فيانا | GTYPE>location
+فيتنام | GTYPE>location
+فيجي | GTYPE>location
+فيرجينيا | GTYPE>location
+فيلادلفيا | GTYPE>location
+فيلانويفا | GTYPE>location
+فيليبين | GTYPE>location
+فينا | GTYPE>location
+فينيكس | GTYPE>location
+فيورنتينا | GTYPE>location
+فييت نام | GTYPE>location
+فيينا | GTYPE>location
+فييوم | GTYPE>location
+قابس | GTYPE>location
+قابسخليج | GTYPE>location
+قازاخستان | GTYPE>location
+قالمة | GTYPE>location
+قاهرة | GTYPE>location
+قبرص | GTYPE>location
+قبلي | GTYPE>location
+قحطان | GTYPE>location
+قربان | GTYPE>location
+قرطاج | GTYPE>location
+قرطاجا | GTYPE>location
+قرطاجنة | GTYPE>location
+قرطبة | GTYPE>location
+قرطجنة | GTYPE>location
+قرغيزستان | GTYPE>location
+قرغيزيا | GTYPE>location
+قرهكوم | GTYPE>location
+قزوين | GTYPE>location
+قسطنطين | GTYPE>location
+قسنطين | GTYPE>location
+قسنطينة | GTYPE>location
+قطر | GTYPE>location
+قطيف | GTYPE>location
+قفصة | GTYPE>location
+قلعة السراغنة | GTYPE>location
+قم | GTYPE>location
+قنا | GTYPE>location
+قندهار | GTYPE>location
+قندوز | GTYPE>location
+قوتلي | GTYPE>location
+قوقاز | GTYPE>location
+قوقريال | GTYPE>location
+قوم | GTYPE>location
+قيرغيزستان | GTYPE>location
+كازاخستان | GTYPE>location
+كازاكستان | GTYPE>location
+كاصفهان | GTYPE>location
+كالدونيا الجديدة | GTYPE>location
+كامبوديا | GTYPE>location
+كراتشي | GTYPE>location | STRICT > (?i:كراتشي)
+كراكاس | GTYPE>location
+كراكوفيا | GTYPE>location
+كراينر | GTYPE>location
+كربلاء | GTYPE>location
+كردفان | GTYPE>location
+كركوك | GTYPE>location
+كرملين | GTYPE>location
+كرن | GTYPE>location
+كرواتيا | GTYPE>location
+كرواندا | GTYPE>location
+كريد | GTYPE>location
+كسلا | GTYPE>location
+كلكتا | GTYPE>location
+كماليزيا | GTYPE>location
+كمبالا | GTYPE>location
+كمبردج | GTYPE>location
+كمبوديا | GTYPE>location
+كموريتانيا | GTYPE>location
+كندا | GTYPE>location
+كنعان | GTYPE>location
+كوالالمبور | GTYPE>location
+كوبا | GTYPE>location
+كوبنهاجن | GTYPE>location
+كوبنهاغن | GTYPE>location
+كوت ديفوار | GTYPE>location
+كوتبوس | GTYPE>location
+كوتي دلفوير  | GTYPE>location
+كورجستان | GTYPE>location
+كورسيكا | GTYPE>location
+كوريا الجنوبية | GTYPE>location
+كوريا الشمالية | GTYPE>location | STRICT > (?i:كوريا الشمالية)
+كوستا | GTYPE>location
+كوستا ريكا | GTYPE>location
+كوستاريكا | GTYPE>location
+كوستيللو | GTYPE>location
+كوسفو | GTYPE>location
+كوسوفا | GTYPE>location
+كوسوفو | GTYPE>location
+كولومبيا | GTYPE>location
+كولونيا | GTYPE>location
+كونج | GTYPE>location
+كونستنزا | GTYPE>location
+كونغو | GTYPE>location
+كيب فيردي | GTYPE>location
+كيريباتي | GTYPE>location
+كيسمايو | GTYPE>location
+كينشاسا | GTYPE>location | STRICT > (?i:كينشاسا)
+كينغستون | GTYPE>location
+كينه | GTYPE>location
+كينيا | GTYPE>location
+كيهيدي | GTYPE>location
+كيوتو | GTYPE>location
+لاتفيا | GTYPE>location
+لاغوس | GTYPE>location
+لاهاي | GTYPE>location
+لاهورا | GTYPE>location
+لاو | GTYPE>location
+لاي | GTYPE>location
+لبنان | GTYPE>location
+لبنان الشمالي | GTYPE>location | STRICT > (?i:لبنان الشمالي)
+لبنانجبل | GTYPE>location
+لتوانيا | GTYPE>location
+لختنشتاين | GTYPE>location | STRICT > (?i:لختنشتاين)
+لشبونة | GTYPE>location | STRICT > (?i:لشبونة)
+لكسمبرغ | GTYPE>location
+لندن | GTYPE>location
+لود | GTYPE>location
+لوكسمبورج | GTYPE>location
+ليبيا | GTYPE>location
+ليبية | GTYPE>location
+ليبيريا | GTYPE>location
+ليتوانيا | GTYPE>location
+ليختنشتين | GTYPE>location | STRICT > (?i:ليختنشتين)
+ليسوتو | GTYPE>location
+مادبا | GTYPE>location
+ماركا | GTYPE>location
+ماعين | GTYPE>location
+ماكاو | GTYPE>location
+مالاوي | GTYPE>location
+مالديف | GTYPE>location
+مالطا | GTYPE>location
+مالطة | GTYPE>location
+مالقة | GTYPE>location
+مالي | GTYPE>location
+ماليزيا | GTYPE>location
+مامودزو | GTYPE>location
+مانشستر | GTYPE>location | STRICT > (?i:مانشستر)
+مانهاتن | GTYPE>location
+مانيلا | GTYPE>location
+مجدل | GTYPE>location
+محمرة | GTYPE>location
+مدريد | GTYPE>location
+مدغشقر | GTYPE>location | STRICT > (?i:مدغشقر)
+مدنين | GTYPE>location
+مراكش | GTYPE>location | STRICT > (?i:مراكش)
+الحوز | GTYPE>location
+مرسى مطروح | GTYPE>location
+مرسيليا | GTYPE>location
+مريخ | GTYPE>location
+مستغانم | GTYPE>location
+مسقط | GTYPE>location
+مصر | GTYPE>location
+مصر بحري | GTYPE>location
+مصراتة | GTYPE>location
+مصوع | GTYPE>location
+معسكر | GTYPE>location
+مقدونيا | GTYPE>location
+مقديشو | GTYPE>location | STRICT > (?i:مقديشو)
+مكة | GTYPE>location
+مكسكو | GTYPE>location
+مكسيك | GTYPE>location
+مكسيكو | GTYPE>location
+مكناس | GTYPE>location
+مكناس--تافيلالت | GTYPE>location
+ملديف | GTYPE>location
+مليلية | GTYPE>location
+منستير | GTYPE>location
+منغوليا | GTYPE>location
+منف | GTYPE>location
+موتسامودو | GTYPE>location
+موراتينوس | GTYPE>location
+موروني | GTYPE>location
+موريتانيا | GTYPE>location
+موريشيوس | GTYPE>location | STRICT > (?i:موريشيوس)
+موزامبيق | GTYPE>location
+موزمبيق | GTYPE>location
+موستار | GTYPE>location
+موستر | GTYPE>location
+موسكو | GTYPE>location
+موسيفيني | GTYPE>location
+مولدافيا | GTYPE>location
+موناكو | GTYPE>location
+مونبولييه | GTYPE>location
+مونتريال | GTYPE>location
+مونتسيرات | GTYPE>location
+مونتيفيديو | GTYPE>location
+مونتينيغرو | GTYPE>location
+موندو | GTYPE>location
+مونقو | GTYPE>location
+مونيخ | GTYPE>location
+ميامي | GTYPE>location
+ميرون | GTYPE>location
+ميكرونيسيا | GTYPE>location
+ميلانو | GTYPE>location
+ميلة | GTYPE>location
+مينيسوتا | GTYPE>location
+ميوت | GTYPE>location
+ميونيخ | GTYPE>location
+نابل | GTYPE>location
+نابلس | GTYPE>location
+نابولي | GTYPE>location
+ناميبيا | GTYPE>location
+نانت | GTYPE>location
+نبتون | GTYPE>location
+نجران | GTYPE>location
+نواكشوت | GTYPE>location | STRICT > (?i:نواكشوت)
+نواكشوط | GTYPE>location | STRICT > (?i:نواكشوط)
+نورفولك | GTYPE>location
+نورو | GTYPE>location
+نومانز لاند | GTYPE>location
+ني | GTYPE>location
+نيبال | GTYPE>location
+نيجر | GTYPE>location
+نيجيريا | GTYPE>location
+نيروبي | GTYPE>location
+نيغارد | GTYPE>location
+نيفادا | GTYPE>location
+نيقوسيا | GTYPE>location
+نيكاراجوا | GTYPE>location
+نيكاراغوا | GTYPE>location
+نينوى | GTYPE>location
+نيودلهي | GTYPE>location
+نيوزلندا | GTYPE>location
+نيوزويك | GTYPE>location
+نيوزيلاندا | GTYPE>location
+نيوزيلندا | GTYPE>location
+نيوكاسل | GTYPE>location
+نيويورك | GTYPE>location
+هافيلاند | GTYPE>location
+هامبورج | GTYPE>location
+هامبورغ | GTYPE>location
+هانوفر | GTYPE>location
+هانوي | GTYPE>location
+هاواي | GTYPE>location
+هاوايي | GTYPE>location
+هاورد | GTYPE>location
+هايتي | GTYPE>location
+هرات | GTYPE>location
+هرر | GTYPE>location
+هلسنكي | GTYPE>location
+هلسينكي | GTYPE>location
+همالايا | GTYPE>location
+هملايا | GTYPE>location
+هند | GTYPE>location
+هندوراس | GTYPE>location
+هنغاريا | GTYPE>location
+هولاندا | GTYPE>location
+هولندا | GTYPE>location
+هونج | GTYPE>location
+هونج كونج | GTYPE>location
+هوندوراس | GTYPE>location
+هونغ | GTYPE>location
+هونولولو | GTYPE>location
+هيروشيما | GTYPE>location | STRICT > (?i:هيروشيما)
+هيوستن | GTYPE>location
+وادي الحجارة | GTYPE>location
+وادي الوليد | GTYPE>location
+واليس فيوتنا | GTYPE>location
+ورجلة | GTYPE>location
+ورزازات | GTYPE>location
+وهران | GTYPE>location
+يابان | GTYPE>location
+يافا | GTYPE>location
+يافث | GTYPE>location
+يالو | GTYPE>location
+يطة | GTYPE>location
+يوغسلافيا | GTYPE>location
+يوهانسبورغ | GTYPE>location
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : name_affix.txt
+# content : pattern matcher lexicon for person name affixes (pre-in-suffix)
+# author  : M. Ehrmann
+# date	  : February 2012
+#**********************************************
+
+
+# prefixes
+al | GTYPE>name_prefix 
+#al'| GTYPE>name_prefix | STRICT > (?i:al['´’‘`])
+# abu = father of, umm = mother of 
+abu| GTYPE>name_prefix
+umm| GTYPE>name_prefix
+
+
+# arabic infixes (can be prefixed as well)
+# ibn = son of, bint = daughter of 
+bin  | GTYPE>name_infix
+bint | GTYPE>name_infix
+
+de | GTYPE>name_infix
+de+la | GTYPE>name_infix
+de+los | GTYPE>name_infix
+del | GTYPE>name_infix #to ambiguous and does not hram removing it
+#dal | GTYPE>name_infix #to ambiguous and does not hram removing it
+de | GTYPE>name_infix
+da | GTYPE>name_infix
+v+d | GTYPE>name_infix
+v | GTYPE>name_infix
+van+de | GTYPE>name_infix
+van+den | GTYPE>name_infix
+van+der | GTYPE>name_infix
+van | GTYPE>name_infix
+der | GTYPE>name_infix
+von+d | GTYPE>name_infix
+von+de | GTYPE>name_infix
+von+den | GTYPE>name_infix
+von+der | GTYPE>name_infix	
+von | GTYPE>name_infix
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_demonyms-ar.txt
+# content : PM lexicon for Arabic demonyms names
+# date	  : July 2012
+# author  : (B. Pouliquen), Mohammed Ebrahim, (Maud Ehrmann)
+# *********
+# n.b.: for now only perl resources conversion
+# need to be improved
+#**********************************************
+
+
+تركمانستانى | GTYPE>demonym
+والسودانى | GTYPE>demonym
+السودانى | GTYPE>demonym
+القيادى | GTYPE>demonym
+القيادى الشيوعى | GTYPE>demonym | STRICT > (?i:القيادى الشيوعى)
+الشيوعى | GTYPE>demonym | STRICT > (?i:الشيوعى)
+الأصولى | GTYPE>demonym
+الأمريكى | GTYPE>demonym
+الأميركى | GTYPE>demonym
+الأنجليكانى | GTYPE>demonym
+الإيرانى | GTYPE>demonym
+الايرانى | GTYPE>demonym
+التركى | GTYPE>demonym
+التونسى | GTYPE>demonym
+الجزائرى | GTYPE>demonym
+الجندى | GTYPE>demonym
+الخبير المالى | GTYPE>demonym
+الداعية الإنجيلى | GTYPE>demonym
+الروائى | GTYPE>demonym
+السياسى | GTYPE>demonym
+الشيعى | GTYPE>demonym | STRICT > (?i:الشيعى)
+الصهيونى | GTYPE>demonym
+العراقى | GTYPE>demonym
+العنصرى | GTYPE>demonym
+الفلسطينى | GTYPE>demonym
+الفيزياوى | GTYPE>demonym
+الكردستانى | GTYPE>demonym
+الكردى | GTYPE>demonym
+الكوميدى | GTYPE>demonym
+الكويتى | GTYPE>demonym
+الماركسى | GTYPE>demonym
+الماشى | GTYPE>demonym | STRICT > (?i:الماشى)
+الماوى | GTYPE>demonym
+المتحدى | GTYPE>demonym
+المربى | GTYPE>demonym
+المصرى | GTYPE>demonym
+المعلق الصحفى | GTYPE>demonym
+المغربى | GTYPE>demonym
+الملكى | GTYPE>demonym
+الموالى | GTYPE>demonym
+ىمينى | GTYPE>demonym
+آيرلندى | GTYPE>demonym
+إسبانى | GTYPE>demonym
+إسكتلندى | GTYPE>demonym
+إسكتلندى  | GTYPE>demonym
+إكوادورى | GTYPE>demonym
+الآذربيجانى | GTYPE>demonym
+الآسيوى | GTYPE>demonym
+الآشورى | GTYPE>demonym | STRICT > (?i:الآشورى)
+الآيسلندى | GTYPE>demonym
+الأثيوبى | GTYPE>demonym
+الأرتيرى | GTYPE>demonym
+الأرجنتينى | GTYPE>demonym
+الأردنى | GTYPE>demonym
+الأرمنى | GTYPE>demonym
+الأروبى | GTYPE>demonym
+الأستونى | GTYPE>demonym
+الأفريقانى | GTYPE>demonym
+الأفريقى | GTYPE>demonym
+الأفريقى الجنوبى | GTYPE>demonym
+الأفريقى المركزى | GTYPE>demonym
+الأفغانى | GTYPE>demonym
+الألبانى | GTYPE>demonym
+الألمانى | GTYPE>demonym
+الأمريكى | GTYPE>demonym
+الأنتيجوانى | GTYPE>demonym
+الأنجليكانى | GTYPE>demonym
+الأنجيلى | GTYPE>demonym
+الأندونوسى | GTYPE>demonym
+الأنغولى | GTYPE>demonym
+الأورغوايى | GTYPE>demonym
+الأوروبى | GTYPE>demonym
+الأوزبكى | GTYPE>demonym
+الأوغندى | GTYPE>demonym
+الأوكرانى | GTYPE>demonym
+الإسبانى | GTYPE>demonym
+الإسترالى | GTYPE>demonym
+الإسرائيلى | GTYPE>demonym
+الإيرانى | GTYPE>demonym
+الإيطالى | GTYPE>demonym
+الاندورانى | GTYPE>demonym
+البارغوايى | GTYPE>demonym
+الباكستانى | GTYPE>demonym
+البحرينى | GTYPE>demonym
+البرازيلى | GTYPE>demonym
+البربادينى | GTYPE>demonym
+البرتغالى | GTYPE>demonym
+البرونى | GTYPE>demonym
+البريطانى | GTYPE>demonym
+البفارى | GTYPE>demonym
+البلجيكى | GTYPE>demonym
+البلغارى | GTYPE>demonym
+البنغلاديشى | GTYPE>demonym | STRICT > (?i:البنغلاديشى)
+البنمى | GTYPE>demonym
+البنينى | GTYPE>demonym
+البهامى | GTYPE>demonym
+البوذى | GTYPE>demonym
+البورمى | GTYPE>demonym
+البورندى | GTYPE>demonym
+البوسنى | GTYPE>demonym
+البوليفى | GTYPE>demonym
+البيروى | GTYPE>demonym
+التانزانى | GTYPE>demonym
+التايوانى | GTYPE>demonym
+التركى | GTYPE>demonym
+الترينيدادى | GTYPE>demonym
+التشادى | GTYPE>demonym | STRICT > (?i:التشادى)
+التشيكى | GTYPE>demonym | STRICT > (?i:التشيكى)
+التشيلى | GTYPE>demonym | STRICT > (?i:التشيلى)
+التوباجونى | GTYPE>demonym
+التوفالى | GTYPE>demonym
+التونجانى | GTYPE>demonym
+التونسى | GTYPE>demonym
+التيبتى | GTYPE>demonym
+الجامايكى | GTYPE>demonym
+الجرين لاندى | GTYPE>demonym
+الجزائرى | GTYPE>demonym
+الجورجى | GTYPE>demonym
+الجيبوتى | GTYPE>demonym
+الدنماركى | GTYPE>demonym
+الدومنيكى | GTYPE>demonym
+الديمقراطى | GTYPE>demonym
+الرواندى | GTYPE>demonym
+الروسى | GTYPE>demonym
+الرومانى | GTYPE>demonym
+الزامبى | GTYPE>demonym
+الزمبابوى | GTYPE>demonym
+السامون الأمريكى | GTYPE>demonym
+السانت لوسى | GTYPE>demonym
+الساو تومى | GTYPE>demonym
+السريلانكى | GTYPE>demonym
+السلوفاكى | GTYPE>demonym
+السلوفينى | GTYPE>demonym
+السنغافورى | GTYPE>demonym
+السنيغالى | GTYPE>demonym
+السوازى | GTYPE>demonym
+السورى | GTYPE>demonym
+السويدى | GTYPE>demonym
+السويسرى | GTYPE>demonym
+الصربى | GTYPE>demonym
+الصومالى | GTYPE>demonym
+الطاجيكى | GTYPE>demonym
+العثمانى | GTYPE>demonym
+العراقى | GTYPE>demonym
+العربى | GTYPE>demonym
+العربى السعودى | GTYPE>demonym
+العمانى | GTYPE>demonym
+الغابونى | GTYPE>demonym
+الغامبى | GTYPE>demonym
+الغانى | GTYPE>demonym
+الغرينادى | GTYPE>demonym
+الغواتيمالى | GTYPE>demonym
+الغينى | GTYPE>demonym
+الغينى الإستوائى | GTYPE>demonym
+الفارسى | GTYPE>demonym
+الفلبينى | GTYPE>demonym
+الفلسطينى | GTYPE>demonym
+الفنلندى | GTYPE>demonym
+الفيتنامى | GTYPE>demonym
+الفيجى | GTYPE>demonym
+الفينزويلى | GTYPE>demonym
+الفينسنتى | GTYPE>demonym
+القبرصى | GTYPE>demonym
+القطرى | GTYPE>demonym
+الكاريبى | GTYPE>demonym
+الكاميرونى | GTYPE>demonym
+الكرواتى | GTYPE>demonym
+الكشميرى | GTYPE>demonym | STRICT > (?i:الكشميرى)
+الكمبودى | GTYPE>demonym
+الكندى | GTYPE>demonym
+الكوبى | GTYPE>demonym
+الكورى الجنوبى | GTYPE>demonym
+الكورى الشمالى | GTYPE>demonym | STRICT > (?i:الكورى الشمالى)
+الكوستريكى | GTYPE>demonym
+الكولمبى | GTYPE>demonym
+الكونغولى | GTYPE>demonym
+الكويتى | GTYPE>demonym
+الكيمى | GTYPE>demonym
+الكينى | GTYPE>demonym
+اللاتفى | GTYPE>demonym
+الاسرائيلى | GTYPE>demonym
+اللاوسى | GTYPE>demonym
+اللبنانى | GTYPE>demonym
+اللوكسمبورغى | GTYPE>demonym
+الليبى | GTYPE>demonym
+الليبيرى | GTYPE>demonym
+الليثوانى | GTYPE>demonym
+الليختنشتاينى | GTYPE>demonym | STRICT > (?i:الليختنشتاينى)
+المارشالى | GTYPE>demonym | STRICT > (?i:المارشالى)
+الماكرونى | GTYPE>demonym
+المالديفى | GTYPE>demonym
+المالطى | GTYPE>demonym
+المالى | GTYPE>demonym
+الماليزى | GTYPE>demonym
+المسلم | GTYPE>demonym
+المصرى | GTYPE>demonym
+المغربى | GTYPE>demonym
+المقدونى | GTYPE>demonym
+المكسيكى | GTYPE>demonym
+الملاوى | GTYPE>demonym
+المنغولى | GTYPE>demonym
+المواطن الأمريكى | GTYPE>demonym
+الموريتانى | GTYPE>demonym
+الموزمبيقى | GTYPE>demonym
+المولدوفى | GTYPE>demonym
+الناميبى | GTYPE>demonym
+النايجيرى | GTYPE>demonym
+النرويجى | GTYPE>demonym
+النمساوى | GTYPE>demonym
+النوروانى | GTYPE>demonym
+النيبالى | GTYPE>demonym
+النيجرى | GTYPE>demonym
+النيكاراغوى | GTYPE>demonym
+النيوزيلندى | GTYPE>demonym
+الهايتى | GTYPE>demonym
+الهملايى | GTYPE>demonym
+الهندوراسى | GTYPE>demonym
+الهندى | GTYPE>demonym
+الهنغارى | GTYPE>demonym
+الهولندى | GTYPE>demonym
+الويلزى  | GTYPE>demonym
+اليمنى | GTYPE>demonym
+اليهودى | GTYPE>demonym
+اليوغوسلافى | GTYPE>demonym
+اليونانى | GTYPE>demonym
+بروتستانتى | GTYPE>demonym
+برونى | GTYPE>demonym
+بريطانى | GTYPE>demonym
+بوتسوانى | GTYPE>demonym
+بوروندى | GTYPE>demonym
+بولينيزى | GTYPE>demonym
+تركى | GTYPE>demonym
+تسمانى | GTYPE>demonym
+جيبوتى | GTYPE>demonym
+دانماركى | GTYPE>demonym
+ساكن الجزيرة العذراء البريطانى | GTYPE>demonym
+ساكن جزيرة ماريانا الشمالى | GTYPE>demonym | STRICT > (?i:ساكن جزيرة ماريانا الشمالى)
+سانمارينى | GTYPE>demonym
+ساهراوى | GTYPE>demonym
+سلوفاكى | GTYPE>demonym
+سنى | GTYPE>demonym
+سويدى | GTYPE>demonym
+سيراليونى | GTYPE>demonym
+سيسيليان | GTYPE>demonym
+صومالى | GTYPE>demonym
+عاجى | GTYPE>demonym
+فلبينى | GTYPE>demonym
+فلندى | GTYPE>demonym
+فيجى | GTYPE>demonym
+كاثوليكى | GTYPE>demonym
+كاليفورنى | GTYPE>demonym
+كردى | GTYPE>demonym
+كورى | GTYPE>demonym
+مارتينيكوى | GTYPE>demonym
+ملاغاشى | GTYPE>demonym | STRICT > (?i:ملاغاشى)
+موناكى | GTYPE>demonym
+مونتسيريتى | GTYPE>demonym
+هندوسى | GTYPE>demonym
+هولندى | GTYPE>demonym
+ىهودى | GTYPE>demonym
+تركمانستاني | GTYPE>demonym
+والسوداني | GTYPE>demonym
+السوداني | GTYPE>demonym
+القيادي | GTYPE>demonym
+القيادي الشيوعي | GTYPE>demonym | STRICT > (?i:القيادي الشيوعي)
+الشيوعي | GTYPE>demonym | STRICT > (?i:الشيوعي)
+الأصولي | GTYPE>demonym
+الأمريكي | GTYPE>demonym
+الأميركي | GTYPE>demonym
+الأنجليكاني | GTYPE>demonym
+الإيراني | GTYPE>demonym
+الايراني | GTYPE>demonym
+التركي | GTYPE>demonym
+التونسي | GTYPE>demonym
+الجزائري | GTYPE>demonym
+الجندي | GTYPE>demonym
+الخبير المالي | GTYPE>demonym
+الداعية الإنجيلي | GTYPE>demonym
+الروائي | GTYPE>demonym
+السياسي | GTYPE>demonym
+الشيعي | GTYPE>demonym | STRICT > (?i:الشيعي)
+الصهيوني | GTYPE>demonym
+العراقي | GTYPE>demonym
+العنصري | GTYPE>demonym
+الفلسطيني | GTYPE>demonym
+الفيزياوي | GTYPE>demonym
+الكردستاني | GTYPE>demonym
+الكردي | GTYPE>demonym
+الكوميدي | GTYPE>demonym
+الكويتي | GTYPE>demonym
+الماركسي | GTYPE>demonym
+الماشي | GTYPE>demonym | STRICT > (?i:الماشي)
+الماوي | GTYPE>demonym
+المتحدي | GTYPE>demonym
+المربي | GTYPE>demonym
+المصري | GTYPE>demonym
+المعلق الصحفي | GTYPE>demonym
+المغربي | GTYPE>demonym
+الملكي | GTYPE>demonym
+الموالي | GTYPE>demonym
+يميني | GTYPE>demonym
+آيرلندي | GTYPE>demonym
+إسباني | GTYPE>demonym
+إسكتلندي | GTYPE>demonym
+إسكتلندي  | GTYPE>demonym
+إكوادوري | GTYPE>demonym
+الآذربيجاني | GTYPE>demonym
+الآسيوي | GTYPE>demonym
+الآشوري | GTYPE>demonym | STRICT > (?i:الآشوري)
+الآيسلندي | GTYPE>demonym
+الأثيوبي | GTYPE>demonym
+الأرتيري | GTYPE>demonym
+الأرجنتيني | GTYPE>demonym
+الأردني | GTYPE>demonym
+الأرمني | GTYPE>demonym
+الأروبي | GTYPE>demonym
+الأستوني | GTYPE>demonym
+الأفريقاني | GTYPE>demonym
+الأفريقي | GTYPE>demonym
+الأفريقي الجنوبي | GTYPE>demonym
+الأفريقي المركزي | GTYPE>demonym
+الأفغاني | GTYPE>demonym
+الألباني | GTYPE>demonym
+الألماني | GTYPE>demonym
+الأمريكي | GTYPE>demonym
+الأنتيجواني | GTYPE>demonym
+الأنجليكاني | GTYPE>demonym
+الأنجيلي | GTYPE>demonym
+الأندونوسي | GTYPE>demonym
+الأنغولي | GTYPE>demonym
+الأورغوايي | GTYPE>demonym
+الأوروبي | GTYPE>demonym
+الأوزبكي | GTYPE>demonym
+الأوغندي | GTYPE>demonym
+الأوكراني | GTYPE>demonym
+الإسباني | GTYPE>demonym
+الإسترالي | GTYPE>demonym
+الإسرائيلي | GTYPE>demonym
+الإيراني | GTYPE>demonym
+الإيطالي | GTYPE>demonym
+الاندوراني | GTYPE>demonym
+البارغوايي | GTYPE>demonym
+الباكستاني | GTYPE>demonym
+البحريني | GTYPE>demonym
+البرازيلي | GTYPE>demonym
+البرباديني | GTYPE>demonym
+البرتغالي | GTYPE>demonym
+البروني | GTYPE>demonym
+البريطاني | GTYPE>demonym
+البفاري | GTYPE>demonym
+البلجيكي | GTYPE>demonym
+البلغاري | GTYPE>demonym
+البنغلاديشي | GTYPE>demonym | STRICT > (?i:البنغلاديشي)
+البنمي | GTYPE>demonym
+البنيني | GTYPE>demonym
+البهامي | GTYPE>demonym
+البوذي | GTYPE>demonym
+البورمي | GTYPE>demonym
+البورندي | GTYPE>demonym
+البوسني | GTYPE>demonym
+البوليفي | GTYPE>demonym
+البيروي | GTYPE>demonym
+التانزاني | GTYPE>demonym
+التايواني | GTYPE>demonym
+التركي | GTYPE>demonym
+الترينيدادي | GTYPE>demonym
+التشادي | GTYPE>demonym | STRICT > (?i:التشادي)
+التشيكي | GTYPE>demonym | STRICT > (?i:التشيكي)
+التشيلي | GTYPE>demonym | STRICT > (?i:التشيلي)
+التوباجوني | GTYPE>demonym
+التوفالي | GTYPE>demonym
+التونجاني | GTYPE>demonym
+التونسي | GTYPE>demonym
+التيبتي | GTYPE>demonym
+الجامايكي | GTYPE>demonym
+الجرين لاندي | GTYPE>demonym
+الجزائري | GTYPE>demonym
+الجورجي | GTYPE>demonym
+الجيبوتي | GTYPE>demonym
+الدنماركي | GTYPE>demonym
+الدومنيكي | GTYPE>demonym
+الديمقراطي | GTYPE>demonym
+الرواندي | GTYPE>demonym
+الروسي | GTYPE>demonym
+الروماني | GTYPE>demonym
+الزامبي | GTYPE>demonym
+الزمبابوي | GTYPE>demonym
+السامون الأمريكي | GTYPE>demonym
+السانت لوسي | GTYPE>demonym
+الساو تومي | GTYPE>demonym
+السريلانكي | GTYPE>demonym
+السلوفاكي | GTYPE>demonym
+السلوفيني | GTYPE>demonym
+السنغافوري | GTYPE>demonym
+السنيغالي | GTYPE>demonym
+السوازي | GTYPE>demonym
+السوري | GTYPE>demonym
+السويدي | GTYPE>demonym
+السويسري | GTYPE>demonym
+الصربي | GTYPE>demonym
+الصومالي | GTYPE>demonym
+الطاجيكي | GTYPE>demonym
+العثماني | GTYPE>demonym
+العراقي | GTYPE>demonym
+العربي | GTYPE>demonym
+العربي السعودي | GTYPE>demonym
+العماني | GTYPE>demonym
+الغابوني | GTYPE>demonym
+الغامبي | GTYPE>demonym
+الغاني | GTYPE>demonym
+الغرينادي | GTYPE>demonym
+الغواتيمالي | GTYPE>demonym
+الغيني | GTYPE>demonym
+الغيني الإستوائي | GTYPE>demonym
+الفارسي | GTYPE>demonym
+الفلبيني | GTYPE>demonym
+الفلسطيني | GTYPE>demonym
+الفنلندي | GTYPE>demonym
+الفيتنامي | GTYPE>demonym
+الفيجي | GTYPE>demonym
+الفينزويلي | GTYPE>demonym
+الفينسنتي | GTYPE>demonym
+القبرصي | GTYPE>demonym
+القطري | GTYPE>demonym
+الكاريبي | GTYPE>demonym
+الكاميروني | GTYPE>demonym
+الكرواتي | GTYPE>demonym
+الكشميري | GTYPE>demonym | STRICT > (?i:الكشميري)
+الكمبودي | GTYPE>demonym
+الكندي | GTYPE>demonym
+الكوبي | GTYPE>demonym
+الكوري الجنوبي | GTYPE>demonym
+الكوري الشمالي | GTYPE>demonym | STRICT > (?i:الكوري الشمالي)
+الكوستريكي | GTYPE>demonym
+الكولمبي | GTYPE>demonym
+الكونغولي | GTYPE>demonym
+الكويتي | GTYPE>demonym
+الكيمي | GTYPE>demonym
+الكيني | GTYPE>demonym
+اللاتفي | GTYPE>demonym
+الاسرائيلي | GTYPE>demonym
+اللاوسي | GTYPE>demonym
+اللبناني | GTYPE>demonym
+اللوكسمبورغي | GTYPE>demonym
+الليبي | GTYPE>demonym
+الليبيري | GTYPE>demonym
+الليثواني | GTYPE>demonym
+الليختنشتايني | GTYPE>demonym | STRICT > (?i:الليختنشتايني)
+المارشالي | GTYPE>demonym | STRICT > (?i:المارشالي)
+الماكروني | GTYPE>demonym
+المالديفي | GTYPE>demonym
+المالطي | GTYPE>demonym
+المالي | GTYPE>demonym
+الماليزي | GTYPE>demonym
+المسلم | GTYPE>demonym
+المصري | GTYPE>demonym
+المغربي | GTYPE>demonym
+المقدوني | GTYPE>demonym
+المكسيكي | GTYPE>demonym
+الملاوي | GTYPE>demonym
+المنغولي | GTYPE>demonym
+المواطن الأمريكي | GTYPE>demonym
+الموريتاني | GTYPE>demonym
+الموزمبيقي | GTYPE>demonym
+المولدوفي | GTYPE>demonym
+الناميبي | GTYPE>demonym
+النايجيري | GTYPE>demonym
+النرويجي | GTYPE>demonym
+النمساوي | GTYPE>demonym
+النورواني | GTYPE>demonym
+النيبالي | GTYPE>demonym
+النيجري | GTYPE>demonym
+النيكاراغوي | GTYPE>demonym
+النيوزيلندي | GTYPE>demonym
+الهايتي | GTYPE>demonym
+الهملايي | GTYPE>demonym
+الهندوراسي | GTYPE>demonym
+الهندي | GTYPE>demonym
+الهنغاري | GTYPE>demonym
+الهولندي | GTYPE>demonym
+الويلزي  | GTYPE>demonym
+اليمني | GTYPE>demonym
+اليهودي | GTYPE>demonym
+اليوغوسلافي | GTYPE>demonym
+اليوناني | GTYPE>demonym
+بروتستانتي | GTYPE>demonym
+بروني | GTYPE>demonym
+بريطاني | GTYPE>demonym
+بوتسواني | GTYPE>demonym
+بوروندي | GTYPE>demonym
+بولينيزي | GTYPE>demonym
+تركي | GTYPE>demonym
+تسماني | GTYPE>demonym
+جيبوتي | GTYPE>demonym
+دانماركي | GTYPE>demonym
+ساكن الجزيرة العذراء البريطاني | GTYPE>demonym
+ساكن جزيرة ماريانا الشمالي | GTYPE>demonym | STRICT > (?i:ساكن جزيرة ماريانا الشمالي)
+سانماريني | GTYPE>demonym
+ساهراوي | GTYPE>demonym
+سلوفاكي | GTYPE>demonym
+سني | GTYPE>demonym
+سويدي | GTYPE>demonym
+سيراليوني | GTYPE>demonym
+سيسيليان | GTYPE>demonym
+صومالي | GTYPE>demonym
+عاجي | GTYPE>demonym
+فلبيني | GTYPE>demonym
+فلندي | GTYPE>demonym
+فيجي | GTYPE>demonym
+كاثوليكي | GTYPE>demonym
+كاليفورني | GTYPE>demonym
+كردي | GTYPE>demonym
+كوري | GTYPE>demonym
+مارتينيكوي | GTYPE>demonym
+ملاغاشي | GTYPE>demonym | STRICT > (?i:ملاغاشي)
+موناكي | GTYPE>demonym
+مونتسيريتي | GTYPE>demonym
+هندوسي | GTYPE>demonym
+هولندي | GTYPE>demonym
+يهودي | GTYPE>demonym
+الأصولية | GTYPE>demonym
+الأمريكية | GTYPE>demonym
+الأميركية | GTYPE>demonym
+الأنجليكانية | GTYPE>demonym
+الإيرانية | GTYPE>demonym
+الايرانية | GTYPE>demonym
+التركية | GTYPE>demonym
+التونسية | GTYPE>demonym
+الجزائرية | GTYPE>demonym
+الجندية | GTYPE>demonym
+الخبير المالية | GTYPE>demonym
+الداعية الإنجيلية | GTYPE>demonym
+الروائية | GTYPE>demonym
+السياسية | GTYPE>demonym
+الشيعية | GTYPE>demonym | STRICT > (?i:الشيعية)
+الصهيونية | GTYPE>demonym
+العراقية | GTYPE>demonym
+العنصرية | GTYPE>demonym
+الفلسطينية | GTYPE>demonym
+الفيزياوية | GTYPE>demonym
+الكردستانية | GTYPE>demonym
+الكردية | GTYPE>demonym
+الكوميدية | GTYPE>demonym
+الكويتية | GTYPE>demonym
+الماركسية | GTYPE>demonym
+الماشية | GTYPE>demonym | STRICT > (?i:الماشية)
+الماوية | GTYPE>demonym
+المتحدية | GTYPE>demonym
+المربية | GTYPE>demonym
+المصرية | GTYPE>demonym
+المعلق الصحفية | GTYPE>demonym
+المغربية | GTYPE>demonym
+الملكية | GTYPE>demonym
+الموالية | GTYPE>demonym
+يمينية | GTYPE>demonym
+آيرلندية | GTYPE>demonym
+إسبانية | GTYPE>demonym
+إسكتلندية | GTYPE>demonym
+إكوادورية | GTYPE>demonym
+الآذربيجانية | GTYPE>demonym
+الآسيوية | GTYPE>demonym
+الآشورية | GTYPE>demonym | STRICT > (?i:الآشورية)
+الآيسلندية | GTYPE>demonym
+الأثيوبية | GTYPE>demonym
+الأرتيرية | GTYPE>demonym
+الأرجنتينية | GTYPE>demonym
+الأردنية | GTYPE>demonym
+الأرمنية | GTYPE>demonym
+الأروبية | GTYPE>demonym
+الأستونية | GTYPE>demonym
+الأفريقانية | GTYPE>demonym
+الأفريقي الجنوبية | GTYPE>demonym
+الأفريقي المركزية | GTYPE>demonym
+الأفريقية | GTYPE>demonym
+الأفغانية | GTYPE>demonym
+الألبانية | GTYPE>demonym
+الألمانية | GTYPE>demonym
+الأمريكية | GTYPE>demonym
+الأنتيجوانية | GTYPE>demonym
+الأنجليكانية | GTYPE>demonym
+الأنجيلية | GTYPE>demonym
+الأندونوسية | GTYPE>demonym
+الأنغولية | GTYPE>demonym
+الأورغوايية | GTYPE>demonym
+الأوروبية | GTYPE>demonym
+الأوزبكية | GTYPE>demonym
+الأوغندية | GTYPE>demonym
+الأوكرانية | GTYPE>demonym
+الإسبانية | GTYPE>demonym
+الإسترالية | GTYPE>demonym
+الإسرائيلية | GTYPE>demonym
+الإيرانية | GTYPE>demonym
+الإيطالية | GTYPE>demonym
+الاندورانية | GTYPE>demonym
+البارغوايية | GTYPE>demonym
+الباكستانية | GTYPE>demonym
+البحرينية | GTYPE>demonym
+البرازيلية | GTYPE>demonym
+البربادينية | GTYPE>demonym
+البرتغالية | GTYPE>demonym
+البرونية | GTYPE>demonym
+البريطانية | GTYPE>demonym
+البفارية | GTYPE>demonym
+البلجيكية | GTYPE>demonym
+البلغارية | GTYPE>demonym
+البنغلاديشية | GTYPE>demonym | STRICT > (?i:البنغلاديشية)
+البنمية | GTYPE>demonym
+البنينية | GTYPE>demonym
+البهامية | GTYPE>demonym
+البوذية | GTYPE>demonym
+البورمية | GTYPE>demonym
+البورندية | GTYPE>demonym
+البوسنية | GTYPE>demonym
+البوليفية | GTYPE>demonym
+البيروية | GTYPE>demonym
+التانزانية | GTYPE>demonym
+التايوانية | GTYPE>demonym
+التركية | GTYPE>demonym
+الترينيدادية | GTYPE>demonym
+التشادية | GTYPE>demonym | STRICT > (?i:التشادية)
+التشيكية | GTYPE>demonym | STRICT > (?i:التشيكية)
+التشيلية | GTYPE>demonym | STRICT > (?i:التشيلية)
+التوباجونية | GTYPE>demonym
+التوفالية | GTYPE>demonym
+التونجانية | GTYPE>demonym
+التونسية | GTYPE>demonym
+التيبتية | GTYPE>demonym
+الجامايكية | GTYPE>demonym
+الجرين لاندية | GTYPE>demonym
+الجزائرية | GTYPE>demonym
+الجورجية | GTYPE>demonym
+الجيبوتية | GTYPE>demonym
+الدنماركية | GTYPE>demonym
+الدومنيكية | GTYPE>demonym
+الديمقراطية | GTYPE>demonym
+الرواندية | GTYPE>demonym
+الروسية | GTYPE>demonym
+الرومانية | GTYPE>demonym
+الزامبية | GTYPE>demonym
+الزمبابوية | GTYPE>demonym
+السامون الأمريكية | GTYPE>demonym
+السانت لوسية | GTYPE>demonym
+الساو تومية | GTYPE>demonym
+السريلانكية | GTYPE>demonym
+السلوفاكية | GTYPE>demonym
+السلوفينية | GTYPE>demonym
+السنغافورية | GTYPE>demonym
+السنيغالية | GTYPE>demonym
+السوازية | GTYPE>demonym
+السورية | GTYPE>demonym
+السويدية | GTYPE>demonym
+السويسرية | GTYPE>demonym
+الصربية | GTYPE>demonym
+الصومالية | GTYPE>demonym
+الطاجيكية | GTYPE>demonym
+العثمانية | GTYPE>demonym
+العراقية | GTYPE>demonym
+العربي السعودية | GTYPE>demonym
+العربية | GTYPE>demonym
+العمانية | GTYPE>demonym
+الغابونية | GTYPE>demonym
+الغامبية | GTYPE>demonym
+الغانية | GTYPE>demonym
+الغرينادية | GTYPE>demonym
+الغواتيمالية | GTYPE>demonym
+الغيني الإستوائية | GTYPE>demonym
+الغينية | GTYPE>demonym
+الفارسية | GTYPE>demonym
+الفلبينية | GTYPE>demonym
+الفلسطينية | GTYPE>demonym
+الفنلندية | GTYPE>demonym
+الفيتنامية | GTYPE>demonym
+الفيجية | GTYPE>demonym
+الفينزويلية | GTYPE>demonym
+الفينسنتية | GTYPE>demonym
+القبرصية | GTYPE>demonym
+القطرية | GTYPE>demonym
+الكاريبية | GTYPE>demonym
+الكاميرونية | GTYPE>demonym
+الكرواتية | GTYPE>demonym
+الكشميرية | GTYPE>demonym | STRICT > (?i:الكشميرية)
+الكمبودية | GTYPE>demonym
+الكندية | GTYPE>demonym
+الكوبية | GTYPE>demonym
+الكوري الجنوبية | GTYPE>demonym
+الكوري الشمالية | GTYPE>demonym | STRICT > (?i:الكوري الشمالية)
+الكوستريكية | GTYPE>demonym
+الكولمبية | GTYPE>demonym
+الكونغولية | GTYPE>demonym
+الكويتية | GTYPE>demonym
+الكيمية | GTYPE>demonym
+الكينية | GTYPE>demonym
+اللاتفية | GTYPE>demonym
+اللاوسية | GTYPE>demonym
+اللبنانية | GTYPE>demonym
+اللوكسمبورغية | GTYPE>demonym
+الليبية | GTYPE>demonym
+الليبيرية | GTYPE>demonym
+الليثوانية | GTYPE>demonym
+الليختنشتاينية | GTYPE>demonym | STRICT > (?i:الليختنشتاينية)
+المارشالية | GTYPE>demonym | STRICT > (?i:المارشالية)
+الماكرونية | GTYPE>demonym
+المالديفية | GTYPE>demonym
+المالطية | GTYPE>demonym
+المالية | GTYPE>demonym
+الماليزية | GTYPE>demonym
+المصرية | GTYPE>demonym
+المغربية | GTYPE>demonym
+المقدونية | GTYPE>demonym
+المكسيكية | GTYPE>demonym
+الملاوية | GTYPE>demonym
+المنغولية | GTYPE>demonym
+المواطن الأمريكية | GTYPE>demonym
+الموريتانية | GTYPE>demonym
+الموزمبيقية | GTYPE>demonym
+المولدوفية | GTYPE>demonym
+الناميبية | GTYPE>demonym
+النايجيرية | GTYPE>demonym
+النرويجية | GTYPE>demonym
+النمساوية | GTYPE>demonym
+النوروانية | GTYPE>demonym
+النيبالية | GTYPE>demonym
+النيجرية | GTYPE>demonym
+النيكاراغوية | GTYPE>demonym
+النيوزيلندية | GTYPE>demonym
+الهايتية | GTYPE>demonym
+الهملايية | GTYPE>demonym
+الهندوراسية | GTYPE>demonym
+الهندية | GTYPE>demonym
+الهنغارية | GTYPE>demonym
+الهولندية | GTYPE>demonym
+اليمنية | GTYPE>demonym
+اليهودية | GTYPE>demonym
+اليوغوسلافية | GTYPE>demonym
+اليونانية | GTYPE>demonym
+بروتستانتية | GTYPE>demonym
+برونية | GTYPE>demonym
+بريطانية | GTYPE>demonym
+بوتسوانية | GTYPE>demonym
+بوروندية | GTYPE>demonym
+بولينيزية | GTYPE>demonym
+تركية | GTYPE>demonym
+تسمانية | GTYPE>demonym
+جيبوتية | GTYPE>demonym
+دانماركية | GTYPE>demonym
+ساكن الجزيرة العذراء البريطانية | GTYPE>demonym
+ساكن جزيرة ماريانا الشمالية | GTYPE>demonym | STRICT > (?i:ساكن جزيرة ماريانا الشمالية)
+سانمارينية | GTYPE>demonym
+ساهراوية | GTYPE>demonym
+سلوفاكية | GTYPE>demonym
+سنية | GTYPE>demonym
+سويدية | GTYPE>demonym
+سيراليونية | GTYPE>demonym
+صومالية | GTYPE>demonym
+عاجية | GTYPE>demonym
+فلبينية | GTYPE>demonym
+فلندية | GTYPE>demonym
+فيجية | GTYPE>demonym
+كاثوليكية | GTYPE>demonym
+كاليفورنية | GTYPE>demonym
+كردية | GTYPE>demonym
+كورية | GTYPE>demonym
+مارتينيكوية | GTYPE>demonym
+ملاغاشية | GTYPE>demonym | STRICT > (?i:ملاغاشية)
+موناكية | GTYPE>demonym
+مونتسيريتية | GTYPE>demonym
+هندوسية | GTYPE>demonym
+هولندية | GTYPE>demonym
+يهودية | GTYPE>demonym
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_positions-ar.txt
+# content : PM lexicon for Arabic positions names
+# date	  : July 2012
+# author  : (B. Pouliquen), Mohammed Ebrahim, (Maud Ehrmann)
+# *********
+# n.b.: for now only perl resources conversion
+# need to be improved
+#**********************************************
+
+البروفيسور |GTYPE>position
+القائد |GTYPE>position
+العقيد |GTYPE>position
+المقدّم |GTYPE>position
+العميد |GTYPE>position
+المساعد |GTYPE>position
+الجنرال |GTYPE>position
+الجنرال |GTYPE>position
+الجنرال |GTYPE>position
+جنرال في الجيش |GTYPE>position | STRICT > (?i:جنرال في الجيش)
+العميد |GTYPE>position
+القائد |GTYPE>position
+العريف |GTYPE>position
+العميد |GTYPE>position
+اللواء البحري |GTYPE>position
+العميد البحري |GTYPE>position
+الضابط |GTYPE>position
+مدير الشرطة |GTYPE>position | STRICT > (?i:مدير الشرطة)
+القائد |GTYPE>position
+القائد |GTYPE>position
+القائد الأعلى |GTYPE>position
+المغوار |GTYPE>position
+العريف |GTYPE>position
+نائب العريف |GTYPE>position
+قائد دبابة |GTYPE>position
+قائد |GTYPE>position
+السيد |GTYPE>position
+الشيخ |GTYPE>position | STRICT > (?i:الشيخ)
+العقيد |GTYPE>position
+الدكتور |GTYPE>position
+الدكتورة |GTYPE>position
+الرئيس |GTYPE>position
+الرئيسة |GTYPE>position
+.د |GTYPE>position | STRICT > (?i:\.د)
+نائب رئيس التجمع |GTYPE>position
+نائب رئيس |GTYPE>position
+الفريق |GTYPE>position
+الرئيس السابق  |GTYPE>position
+المبعوث |GTYPE>position
+العاهل |GTYPE>position
+ولي العهد |GTYPE>position
+ولى العهد |GTYPE>position
+المستقيل  |GTYPE>position
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_professions-ar.txt
+# content : PM lexicon for Arabic professions names
+# date	  : July 2012
+# author  : (B. Pouliquen), Mohammed Ebrahim, (Maud Ehrmann)
+# *********
+# n.b.: for now only perl resources conversion
+# need to be improved
+#**********************************************
+
+
+السنيور| GTYPE>profession
+السنيورة| GTYPE>profession
+بزعامة| GTYPE>profession
+هو| GTYPE>profession
+اسم الرجل هو| GTYPE>profession
+ملك| GTYPE>profession
+والي| GTYPE>profession
+وزير| GTYPE>profession
+وزيرة| GTYPE>profession
+مساعد| GTYPE>profession
+القاضي| GTYPE>profession
+عضو البرلمان الأوربي| GTYPE>profession
+المحامي| GTYPE>profession
+الشيوعي| GTYPE>profession | STRICT > (?i:الشيوعي)
+الشرطي| GTYPE>profession | STRICT > (?i:الشرطي)
+الديموقراطي| GTYPE>profession
+الدبلوماسي| GTYPE>profession
+المدير التنفيذي| GTYPE>profession
+المندوب السامي| GTYPE>profession
+الصحفي| GTYPE>profession
+المحامي| GTYPE>profession
+التحرري| GTYPE>profession
+القاضي| GTYPE>profession
+المراسل السياسي| GTYPE>profession
+السكرتير الصحفي| GTYPE>profession
+المدعي| GTYPE>profession
+المدّعي| GTYPE>profession
+العالم النفساني| GTYPE>profession
+المغني| GTYPE>profession
+الإشتراكي| GTYPE>profession | STRICT > (?i:الإشتراكي)
+المحامي| GTYPE>profession
+مؤلّف الأغاني| GTYPE>profession
+عضو البرلمان| GTYPE>profession
+سكرتير السّيدة| GTYPE>profession
+رئيس الوزراء| GTYPE>profession
+الممثل| GTYPE>profession
+الممثلة| GTYPE>profession
+المدير| GTYPE>profession
+المستشار| GTYPE>profession | STRICT > (?i:المستشار)
+السفير| GTYPE>profession
+رئيس الأساقفة| GTYPE>profession
+الفنان| GTYPE>profession
+الملحق| GTYPE>profession
+المؤلف| GTYPE>profession
+الآية الله| GTYPE>profession
+آية الله| GTYPE>profession
+البارون| GTYPE>profession
+الأسقف| GTYPE>profession
+الرئيس| GTYPE>profession
+المرشّح| GTYPE>profession | STRICT > (?i:المرشّح)
+الكاردينال| GTYPE>profession
+الرئيس| GTYPE>profession
+الانقلابي| GTYPE>profession
+الرئيسات| GTYPE>profession
+المستشار| GTYPE>profession | STRICT > (?i:المستشار)
+الرئيس| GTYPE>profession
+الرئيس| GTYPE>profession
+كبير القضاة| GTYPE>profession
+رئيس هيئة الأركان| GTYPE>profession
+المعلّق| GTYPE>profession
+المفوض| GTYPE>profession
+المفوّض| GTYPE>profession
+الملحن| GTYPE>profession
+المراقب| GTYPE>profession
+المستشار| GTYPE>profession | STRICT > (?i:المستشار)
+الكونجرس| GTYPE>profession
+القنصل| GTYPE>profession
+جهاز السيطرة| GTYPE>profession
+المنسّق| GTYPE>profession
+قاض التحقيق بالوفاة| GTYPE>profession
+قاض التحقيق | GTYPE>profession
+المراسل| GTYPE>profession
+المجلس| GTYPE>profession
+عضو المجلس| GTYPE>profession
+المستشار| GTYPE>profession | STRICT > (?i:المستشار)
+المستشار لـ| GTYPE>profession | STRICT > (?i:المستشار لـ)
+المستشار للإدّعاء| GTYPE>profession | STRICT > (?i:المستشار للإدّعاء)
+محامي دفاع| GTYPE>profession
+محامي الدفاع| GTYPE>profession
+مستشار دفاع| GTYPE>profession | STRICT > (?i:مستشار دفاع)
+النائب| GTYPE>profession
+المصّمّم| GTYPE>profession
+الطاغية| GTYPE>profession
+الدكتاتور| GTYPE>profession
+الوجيه| GTYPE>profession
+المدير| GTYPE>profession
+مدير الشؤون العامّة| GTYPE>profession | STRICT > (?i:مدير الشؤون العامّة)
+المنشقّ| GTYPE>profession | STRICT > (?i:المنشقّ)
+الطبيب| GTYPE>profession
+الدوق| GTYPE>profession
+الإمبراطور| GTYPE>profession
+المستخدم| GTYPE>profession
+الخبير| GTYPE>profession
+صيّاد السمك| GTYPE>profession
+المدير العامّ| GTYPE>profession
+الرئيس| GTYPE>profession
+رئيس المجموعة| GTYPE>profession
+رئيس القطاع| GTYPE>profession
+رئيس الدولة| GTYPE>profession
+رئيس الوحدة| GTYPE>profession
+المدير| GTYPE>profession
+المديرة| GTYPE>profession
+الإمام| GTYPE>profession
+المفتش| GTYPE>profession | STRICT > (?i:المفتش)
+الملك| GTYPE>profession
+العامل| GTYPE>profession
+العامل| GTYPE>profession
+الزعيم اليميني| GTYPE>profession
+الزعيم اليساري| GTYPE>profession
+السيدة| GTYPE>profession
+الزعيم| GTYPE>profession
+رئيس البلدية المحليّ| GTYPE>profession
+اللورد| GTYPE>profession
+عدالة لورد| GTYPE>profession
+لورد عدالة كاتب| GTYPE>profession
+المدير| GTYPE>profession
+مدير الإدارة| GTYPE>profession
+السيد| GTYPE>profession
+رئيس البلدية| GTYPE>profession
+الوزير| GTYPE>profession
+المفاوض| GTYPE>profession
+الضابط| GTYPE>profession
+المعارض| GTYPE>profession
+المحارب| GTYPE>profession
+اللاعب| GTYPE>profession
+الشاعر| GTYPE>profession | STRICT > (?i:الشاعر)
+رئيس الشرطة| GTYPE>profession | STRICT > (?i:رئيس الشرطة)
+البابا| GTYPE>profession
+رئيس الوزراء| GTYPE>profession
+الرئيس| GTYPE>profession
+رئيس| GTYPE>profession
+رئيس البرلمان| GTYPE>profession
+رئيس وزراء سكرتير| GTYPE>profession
+الأمير| GTYPE>profession
+الرئيس| GTYPE>profession
+الحكّام| GTYPE>profession
+الأستاذ| GTYPE>profession
+المدعي العام| GTYPE>profession
+محاكمة المستشار| GTYPE>profession | STRICT > (?i:محاكمة المستشار)
+رئيس المجلس| GTYPE>profession
+الملكة| GTYPE>profession
+الثائر| GTYPE>profession
+المراسل| GTYPE>profession
+الممثل| GTYPE>profession
+الحاكم| GTYPE>profession
+البحّار| GTYPE>profession
+السكرتير| GTYPE>profession
+وزير الخارجية| GTYPE>profession
+المدير التنفيذي الكبير| GTYPE>profession
+المتكلّم| GTYPE>profession
+الناطق| GTYPE>profession
+الناطق| GTYPE>profession
+المتحدثات| GTYPE>profession
+النجم| GTYPE>profession
+وزير دولة سكرتير| GTYPE>profession
+الوريث| GTYPE>profession
+المدير| GTYPE>profession
+المؤيد| GTYPE>profession
+المتعاطف| GTYPE>profession
+المعلّم| GTYPE>profession
+أمين الصندوق| GTYPE>profession
+وكيل الوزارة| GTYPE>profession
+نائب الرئيس| GTYPE>profession
+الكاتب| GTYPE>profession
+الخبير| GTYPE>profession
+المستهلك| GTYPE>profession
+المؤرخ| GTYPE>profession
+المراقب| GTYPE>profession
+الملاكم| GTYPE>profession
+السمسار| GTYPE>profession
+الثائر| GTYPE>profession
+الملتمس| GTYPE>profession
+الناشر| GTYPE>profession | STRICT > (?i:الناشر)
+المؤسس| GTYPE>profession
+مدير الرقص| GTYPE>profession
+المستهلك| GTYPE>profession
+الراقص| GTYPE>profession
+المرسل| GTYPE>profession
+الرائد| GTYPE>profession
+الواعظ عبر التلفزيون| GTYPE>profession
+القومي المتطرّف| GTYPE>profession
+عالم الحيوان| GTYPE>profession
+المتحرر| GTYPE>profession
+الساحر| GTYPE>profession
+المهندس| GTYPE>profession
+المتطرّف| GTYPE>profession
+المقاتل| GTYPE>profession
+حارس المرمى| GTYPE>profession
+مذيع أخبار| GTYPE>profession
+المذيع| GTYPE>profession
+المسافر| GTYPE>profession
+العازف المنفرد| GTYPE>profession
+الفيلسوف| GTYPE>profession
+عالم الإنسانيات| GTYPE>profession
+السجّان| GTYPE>profession
+الموسيقار| GTYPE>profession
+المتطوّع| GTYPE>profession
+منتج الأفلام| GTYPE>profession
+أحد أفراد العصابة| GTYPE>profession
+المروّج| GTYPE>profession
+المؤمّن| GTYPE>profession
+الفائز| GTYPE>profession
+المحافظ على البيئة| GTYPE>profession
+المستكشف| GTYPE>profession | STRICT > (?i:المستكشف)
+عازف البيانو| GTYPE>profession
+الأخصائي بعلم الوراثة| GTYPE>profession
+مغني الراب| GTYPE>profession
+المدرّب| GTYPE>profession
+عازف الكمان| GTYPE>profession
+المطوّر| GTYPE>profession
+السائق| GTYPE>profession
+وكيل المراهنات| GTYPE>profession
+إختصاصي البيئة| GTYPE>profession
+متسلق الجبال| GTYPE>profession
+البائع| GTYPE>profession
+طبيب الأسنان| GTYPE>profession
+المستشار المنتهية ولايته| GTYPE>profession | STRICT > (?i:المستشار المنتهية ولايته)
+المستشار| GTYPE>profession | STRICT > (?i:المستشار)
+الرئيس المنتهية ولايته| GTYPE>profession
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_titles-ar.txt
+# content : PM lexicon for Arabic titles names
+# date	  : July 2012
+# author  : (B. Pouliquen), Mohammed Ebrahim, (Maud Ehrmann)
+# *********
+# n.b.: for now only perl resources conversion
+# need to be improved
+#**********************************************
+
+الأمير | GTYPE>title 
+الأميرة | GTYPE>title 
+الباحث | GTYPE>title 
+الباحثة | GTYPE>title 
+الراحل | GTYPE>title 
+الراحل. | GTYPE>title | STRICT > (?i:الراحل\.)
+الراحل، | GTYPE>title 
+السابق | GTYPE>title 
+السفير | GTYPE>title 
+العم | GTYPE>title 
+العميد | GTYPE>title 
+العميدة | GTYPE>title 
+القائم | GTYPE>title 
+اللواء | GTYPE>title 
+المحافظ | GTYPE>title 
+المحامي | GTYPE>title 
+المخرج | GTYPE>title 
+المخضرم | GTYPE>title 
+المدعو | GTYPE>title 
+المستشار | GTYPE>title | STRICT > (?i:المستشار)
+المطلوب | GTYPE>title 
+الملك | GTYPE>title 
+النائب | GTYPE>title 
+النائبة | GTYPE>title 
+النائبين | GTYPE>title 
+النجم | GTYPE>title 
+الوالي | GTYPE>title 
+الوزير | GTYPE>title 
+الوزير الأول | GTYPE>title 
+الوزيرة | GTYPE>title 
+بالشيخ | GTYPE>title | STRICT > (?i:بالشيخ)
+بالعاهل | GTYPE>title 
+بالملك | GTYPE>title 
+رئيس | GTYPE>title 
+رئيس الوزراء | GTYPE>title 
+رئيسة | GTYPE>title 
+عميد | GTYPE>title 
+للأمير | GTYPE>title 
+للأميرة | GTYPE>title 
+للباحث | GTYPE>title 
+للباحثة | GTYPE>title 
+للدكتور | GTYPE>title 
+للدكتورة | GTYPE>title 
+للرئيس | GTYPE>title 
+للرئيسة | GTYPE>title 
+للسفير | GTYPE>title 
+للسيد | GTYPE>title 
+للشيخ | GTYPE>title | STRICT > (?i:للشيخ)
+للعقيد | GTYPE>title 
+للعم | GTYPE>title 
+للعميد | GTYPE>title 
+للعميدة | GTYPE>title 
+للقائم | GTYPE>title 
+لللواء | GTYPE>title 
+للمحافظ | GTYPE>title 
+للمحامي | GTYPE>title 
+للمخرج | GTYPE>title 
+للمخضرم | GTYPE>title 
+للمدعو | GTYPE>title 
+للمستشار | GTYPE>title | STRICT > (?i:للمستشار)
+للمطلوب | GTYPE>title 
+للملك | GTYPE>title 
+للنائب | GTYPE>title 
+للنائبة | GTYPE>title 
+للنائبين | GTYPE>title 
+للنبي | GTYPE>title 
+للنجم | GTYPE>title 
+للوالي | GTYPE>title 
+للوزير | GTYPE>title 
+للوزير الأول | GTYPE>title 
+للوزيرة | GTYPE>title 
+لوداع | GTYPE>title 
+لوفاة | GTYPE>title 
+ليصبح | GTYPE>title 
+مأتم | GTYPE>title 
+مستشار | GTYPE>title | STRICT > (?i:مستشار)
+نائبيه | GTYPE>title 
+نجله | GTYPE>title 
+والأمير | GTYPE>title 
+والأميرة | GTYPE>title 
+والأمين | GTYPE>title 
+والباحث | GTYPE>title 
+والباحثة | GTYPE>title 
+والد | GTYPE>title 
+والدكتور | GTYPE>title 
+والدكتورة | GTYPE>title 
+والرئيس | GTYPE>title 
+والرئيسة | GTYPE>title 
+والسابق | GTYPE>title 
+والسفير | GTYPE>title 
+والسيد | GTYPE>title 
+والشيخ | GTYPE>title | STRICT > (?i:والشيخ)
+والصحافي | GTYPE>title 
+والعقيد | GTYPE>title 
+والعم | GTYPE>title 
+والعميد | GTYPE>title 
+والعميدة | GTYPE>title 
+والقائم | GTYPE>title 
+واللواء | GTYPE>title 
+والمحافظ | GTYPE>title 
+والمحامي | GTYPE>title 
+والمخرج | GTYPE>title 
+والمخضرم | GTYPE>title 
+والمدعو | GTYPE>title 
+والمستشار | GTYPE>title | STRICT > (?i:والمستشار)
+والمطلوب | GTYPE>title 
+والملك | GTYPE>title 
+والنائب | GTYPE>title 
+والنائبة | GTYPE>title 
+والنائبين | GTYPE>title 
+والنجم | GTYPE>title 
+والوالي | GTYPE>title 
+والوزير | GTYPE>title 
+والوزير الأول | GTYPE>title 
+والوزيرة | GTYPE>title 
+ورئيس | GTYPE>title 
+وزيرة | GTYPE>title 
+ولأمير | GTYPE>title 
+ولأميرة | GTYPE>title 
+ولباحث | GTYPE>title 
+ولباحثة | GTYPE>title 
+ولدكتور | GTYPE>title 
+ولدكتورة | GTYPE>title 
+ولرئيس | GTYPE>title 
+ولرئيسة | GTYPE>title 
+ولسابق | GTYPE>title 
+ولسفير | GTYPE>title 
+ولسيد | GTYPE>title 
+ولشيخ | GTYPE>title | STRICT > (?i:ولشيخ)
+ولعقيد | GTYPE>title 
+ولعم | GTYPE>title 
+ولعميد | GTYPE>title 
+ولعميدة | GTYPE>title 
+ولقائم | GTYPE>title 
+وللأمير | GTYPE>title 
+وللأميرة | GTYPE>title 
+وللباحث | GTYPE>title 
+وللباحثة | GTYPE>title 
+وللدكتور | GTYPE>title 
+وللدكتورة | GTYPE>title 
+وللرئيس | GTYPE>title 
+وللرئيسة | GTYPE>title 
+وللسابق | GTYPE>title 
+وللسفير | GTYPE>title 
+وللسيد | GTYPE>title 
+وللشيخ | GTYPE>title | STRICT > (?i:وللشيخ)
+وللعقيد | GTYPE>title 
+وللعم | GTYPE>title 
+وللعميد | GTYPE>title 
+وللعميدة | GTYPE>title 
+وللقائم | GTYPE>title 
+ولللواء | GTYPE>title 
+وللمحافظ | GTYPE>title 
+وللمحامي | GTYPE>title 
+وللمخرج | GTYPE>title 
+وللمخضرم | GTYPE>title 
+وللمدعو | GTYPE>title 
+وللمستشار | GTYPE>title | STRICT > (?i:وللمستشار)
+وللمطلوب | GTYPE>title 
+وللملك | GTYPE>title 
+وللنائب | GTYPE>title 
+وللنائبة | GTYPE>title 
+وللنائبين | GTYPE>title 
+وللنجم | GTYPE>title 
+وللواء | GTYPE>title 
+وللوالي | GTYPE>title 
+وللوزير | GTYPE>title 
+وللوزير الأول | GTYPE>title 
+وللوزيرة | GTYPE>title 
+ولمحافظ | GTYPE>title 
+ولمحامي | GTYPE>title 
+ولمخرج | GTYPE>title 
+ولمخضرم | GTYPE>title 
+ولمدعو | GTYPE>title 
+ولمستشار | GTYPE>title | STRICT > (?i:ولمستشار)
+ولمطلوب | GTYPE>title 
+ولملك | GTYPE>title 
+ولنائب | GTYPE>title 
+ولنائبة | GTYPE>title 
+ولنائبين | GTYPE>title 
+ولنجم | GTYPE>title 
+ولوالي | GTYPE>title 
+ولوزير | GTYPE>title 
+ولوزير الأول | GTYPE>title 
+ولوزيرة | GTYPE>title 
+ولي العهد | GTYPE>title 
+ونُقل | GTYPE>title 
+ووصف | GTYPE>title 
+ووصفت | GTYPE>title 
+ويدعى | GTYPE>title 
+ويطالب | GTYPE>title 
+ويعقد | GTYPE>title 
+ويلتقي | GTYPE>title 
+يتزعمه | GTYPE>title 
+يرأسها | GTYPE>title 
+يقول | GTYPE>title 
+يقوم | GTYPE>title 
+يلتقي | GTYPE>title 
+ينشده | GTYPE>title | STRICT > (?i:ينشده)
+وزير التعليم | GTYPE>title 
+وزيرة التعليم | GTYPE>title 
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopPartName-ar.txt
+# content : PM lexicon for Arabic stopwords
+# date	  : July 2012
+# author  : (B. Pouliquen), Mohammed Ebrahim, (Maud Ehrmann)
+# *********
+# n.b.: for now only perl resources conversion
+# need to be improved
+#**********************************************
+
+آدیس آبابا | STOPWORD>all
+الايطالي رومانو | STOPWORD>all
+كوريا الشمالية | STOPWORD>all
+مکزیکو سیتی | STOPWORD>all
+محمد بن عبدالله | STOPWORD>all
+جيش | STOPWORD>all
+بحيرة تنجانيقا | STOPWORD>all
+ایالات متحده آمریکا | STOPWORD>all
+نوردراين-فيستفالن | STOPWORD>all
+سرزمین استاوروپول | STOPWORD>all
+یوتا | STOPWORD>all
+اروپای شرقی | STOPWORD>all
+روسيا البيضاء | STOPWORD>all
+یوٹاہ | STOPWORD>all
+هنگ‌کنگ | STOPWORD>all
+محمد الحسن | STOPWORD>all
+الرأس الأخضر | STOPWORD>all
+سلمان بن عبدالعزيز أمير | STOPWORD>all
+مقاطعة لمريك | STOPWORD>all
+محمد سليم | STOPWORD>all
+فينيتو | STOPWORD>all
+فارو | STOPWORD>all
+خالد بن فهد بن | STOPWORD>all
+السعودية عبد الله | STOPWORD>all
+سری لنکا | STOPWORD>all
+جمهوری کارلیا | STOPWORD>all
+عكا | STOPWORD>all
+مااليه أدميم | STOPWORD>all
+وسليمان بن محمد | STOPWORD>all
+نیو ساوت ولز | STOPWORD>all
+شكيب بن | STOPWORD>all
+كالينينغراد أوبلاست | STOPWORD>all
+كولومبيا البريطانية | STOPWORD>all
+بحیرہ عرب | STOPWORD>all
+المپیا | STOPWORD>all
+شرق أوسط | STOPWORD>all
+إن إي | STOPWORD>all
+جمهورية كاريليا | STOPWORD>all
+تميم بن حمد ولي | STOPWORD>all
+شلالات فيكتوريا | STOPWORD>all
+جزر الأنتيل الهولندية | STOPWORD>all
+جاده ابریشم | STOPWORD>all
+برج إيفل | STOPWORD>all
+فرناندو دی نوروها | STOPWORD>all
+کلورمون فران | STOPWORD>all
+جبل إتنا | STOPWORD>all
+علي بن | STOPWORD>all
+كشمير | STOPWORD>all
+الشانزلزيه | STOPWORD>all
+كانتون تورغو | STOPWORD>all
+تميم بن حمد آل | STOPWORD>all
+سلاح ناري | STOPWORD>all
+فيصل بن | STOPWORD>all
+مولداوی | STOPWORD>all
+محمد بن زيد | STOPWORD>all
+مونالیزا | STOPWORD>all
+إيميليا رومانيا | STOPWORD>all
+عيد الاضحي | STOPWORD>all
+هلند | STOPWORD>all
+تاج محل | STOPWORD>all
+أحمد بن عبدالعزيز نائب | STOPWORD>all
+هراره | STOPWORD>all
+دریای عرب | STOPWORD>all
+شرق أفريقيا | STOPWORD>all
+جمہوریہ گنی | STOPWORD>all
+قراتشاي - تشيركيسيا | STOPWORD>all
+سلطان بن عبدالعزيز ولي | STOPWORD>all
+بریتیش کلمبیا | STOPWORD>all
+پادشاهی متحد بریتانیای کبیر و ایرلند شمالی | STOPWORD>all
+إفريقيا السوداء | STOPWORD>all
+كلايف ستافورد سميث | STOPWORD>all
+جبل لبنان | STOPWORD>all
+افریقای شمالی | STOPWORD>all
+نيودلهي | STOPWORD>all
+كانتون زيوغ | STOPWORD>all
+أحمد بن خليفة آل | STOPWORD>all
+الإمارات العربية المتحدة | STOPWORD>all
+بن سعيد | STOPWORD>all
+إبراهيم آل | STOPWORD>all
+حمد بن عيسى | STOPWORD>all
+مون بلون | STOPWORD>all
+نيو أورلينز، لويزيانا | STOPWORD>all
+بحر اوقیانوس | STOPWORD>all
+بالو ألتو، كاليفورنيا | STOPWORD>all
+خانتي-مانسييسك | STOPWORD>all
+تيزي وزو | STOPWORD>all
+وسيرين عبد النور | STOPWORD>all
+جبل إفرست | STOPWORD>all
+ولاية هلمند | STOPWORD>all
+مقاطعة لاويس | STOPWORD>all
+بوئنوس آیرس | STOPWORD>all
+لویزیانا | STOPWORD>all
+بحر العرب | STOPWORD>all
+بیت لاهیا | STOPWORD>all
+طاق نصرت | STOPWORD>all
+المقاطعات الشمالية الغربية | STOPWORD>all
+سده‌های میانه | STOPWORD>all
+بوركينا فاصو | STOPWORD>all
+كانتون غروباندن | STOPWORD>all
+گینه بیسائو | STOPWORD>all
+لوس أنجلوس، كاليفورنيا | STOPWORD>all
+استان آذربایجان غربی | STOPWORD>all
+مونٹ بلانک | STOPWORD>all
+رود تیمز | STOPWORD>all
+دي موين، آيوا | STOPWORD>all
+بن جابر | STOPWORD>all
+پل گلدن گیت | STOPWORD>all
+لعبد الله | STOPWORD>all
+ذاته علي | STOPWORD>all
+اوستیای شمالی-آلانیا | STOPWORD>all
+كانتون فاليز | STOPWORD>all
+کارولینای شمالی | STOPWORD>all
+افریقای جنوبی | STOPWORD>all
+گنی بساؤ | STOPWORD>all
+فستیوال سن فرمین | STOPWORD>all
+جنگ‌افزار گرم | STOPWORD>all
+جمهورية الكونغو | STOPWORD>all
+سانت بطرسبرغ | STOPWORD>all
+آروناچال پرادش | STOPWORD>all
+نهر مسيسيبي | STOPWORD>all
+محمد المحمد | STOPWORD>all
+نهر الأردن | STOPWORD>all
+أوركسترا | STOPWORD>all
+مزارع شبعا | STOPWORD>all
+غرب أفريقيا | STOPWORD>all
+ارارات | STOPWORD>all
+دریاچه تانگانیکا | STOPWORD>all
+ممدوح بن عبدالعزيز وصاحب | STOPWORD>all
+كانتون شفيتز | STOPWORD>all
+کاباردینو-بالکاریا | STOPWORD>all
+ترين کوت | STOPWORD>all
+علوم سیاسی | STOPWORD>all
+جزیره من | STOPWORD>all
+مقاطعة أنترم | STOPWORD>all
+صالح آل | STOPWORD>all
+نیژنی نووگورود | STOPWORD>all
+كارولاينا الشمالية | STOPWORD>all
+کشمیر | STOPWORD>all
+المكسيك | STOPWORD>all
+لاس پالماس | STOPWORD>all
+عماد محمد | STOPWORD>all
+نیواورلئان | STOPWORD>all
+الولايات المتحدة | STOPWORD>all
+لشکرگاه | STOPWORD>all
+عيد الفيتر | STOPWORD>all
+ام افحم | STOPWORD>all
+آفریقای سیاه | STOPWORD>all
+بوينو اير | STOPWORD>all
+شليسفغ-هولشتاين | STOPWORD>all
+سييرا ليون | STOPWORD>all
+مناکو | STOPWORD>all
+محافظة الأنبار | STOPWORD>all
+جمهوری دموکراتیک کنگو | STOPWORD>all
+اقیانوس اطلس | STOPWORD>all
+بنغال الغربية | STOPWORD>all
+الشرق الأوسط | STOPWORD>all
+عبدالله بن خالد بن | STOPWORD>all
+نيو برانزويك | STOPWORD>all
+صحراء غربية | STOPWORD>all
+مراسلة بي | STOPWORD>all
+جنوبی افریقہ | STOPWORD>all
+تيمور الشرقية | STOPWORD>all
+أوروبا الشرقية | STOPWORD>all
+دلتا النيجر | STOPWORD>all
+راس لانوف | STOPWORD>all
+سعيد بن محمد آل | STOPWORD>all
+مسؤولون أم | STOPWORD>all
+تگزاس | STOPWORD>all
+أبو ظبي | STOPWORD>all
+ساو باولو | STOPWORD>all
+شلالات نياجارا | STOPWORD>all
+جنوب افريقيا | STOPWORD>all
+لاكورونيا | STOPWORD>all
+نیویورک | STOPWORD>all
+كبردينو-بلقاريا | STOPWORD>all
+بورکینافاسو | STOPWORD>all
+سانتياغو دي كومبوستيلا | STOPWORD>all
+کرانه باختری | STOPWORD>all
+سوات | STOPWORD>all
+بورتو أليغري | STOPWORD>all
+نوا اسکوشیا | STOPWORD>all
+حضرت محمد صلی اللہ علیہ و الہ وسلم | STOPWORD>all
+کره شمالی | STOPWORD>all
+بلاروس | STOPWORD>all
+قرن إفريقي | STOPWORD>all
+لويس جوميز | STOPWORD>all
+أن اير | STOPWORD>all
+جزيرة إيستر | STOPWORD>all
+قره‌باغ | STOPWORD>all
+سيناء | STOPWORD>all
+كاليدونيا الجديدة | STOPWORD>all
+زلاند نو | STOPWORD>all
+سعودية | STOPWORD>all
+أحمد فهد | STOPWORD>all
+سانتا کروس د لا سیرا | STOPWORD>all
+تميم بن حمد وولي | STOPWORD>all
+ترینیداد و توباگو | STOPWORD>all
+عصر حجري | STOPWORD>all
+مقاطعة روسكومون | STOPWORD>all
+ساحل العاج | STOPWORD>all
+الضفة الغربية | STOPWORD>all
+محمد عويضة | STOPWORD>all
+صخره‌های مرجانی بزرگ استرالیا | STOPWORD>all
+رود سن | STOPWORD>all
+آل خليفة | STOPWORD>all
+رہوڈ آئی لینڈ | STOPWORD>all
+كانتون تيسينو | STOPWORD>all
+اتحاد سوفييتي | STOPWORD>all
+پارک بولوین | STOPWORD>all
+بيلو هوريزونتي | STOPWORD>all
+خالد بن | STOPWORD>all
+محمود محمود | STOPWORD>all
+إمارات عربية متحدة | STOPWORD>all
+باندا آتشيه | STOPWORD>all
+حسن أحمد | STOPWORD>all
+سلمان بن | STOPWORD>all
+أم الفحم | STOPWORD>all
+سیرالئون | STOPWORD>all
+شمال أفريقيا | STOPWORD>all
+محمد علي | STOPWORD>all
+جنوب أفريقيا | STOPWORD>all
+ریو مایور | STOPWORD>all
+صالح بن | STOPWORD>all
+سائوتومه | STOPWORD>all
+هونغ كونغ | STOPWORD>all
+جنوبی کیرولینا | STOPWORD>all
+أبو موسى | STOPWORD>all
+صربيا و الجبل الأسود | STOPWORD>all
+مقاطعة مايو | STOPWORD>all
+کوسٹاریکا | STOPWORD>all
+بیلاروس | STOPWORD>all
+محافظة آذربایجان غربي | STOPWORD>all
+كانتون زيورخ | STOPWORD>all
+لس‌آنجلس | STOPWORD>all
+خالد بن احمد | STOPWORD>all
+كانتون فود | STOPWORD>all
+جبل أرارات | STOPWORD>all
+هيلاري بن | STOPWORD>all
+عید قربان | STOPWORD>all
+استان انبار | STOPWORD>all
+جنوب أوستيا | STOPWORD>all
+سان‌فرانسیسکو | STOPWORD>all
+بن عبد الله | STOPWORD>all
+حامد بن زايد | STOPWORD>all
+مقاطعة ميث | STOPWORD>all
+ایرلند شمالی | STOPWORD>all
+سان فرانسيسكو | STOPWORD>all
+سطام بن عبدالعزيز أمير | STOPWORD>all
+رأس الرجاء الصالح | STOPWORD>all
+سالفادو | STOPWORD>all
+امارات متحده عربی | STOPWORD>all
+آل علي | STOPWORD>all
+العزيز آل | STOPWORD>all
+جموں و کشمیر | STOPWORD>all
+سومطرة الشمالية | STOPWORD>all
+رأس أخضر | STOPWORD>all
+بوستو أرسيتسيو | STOPWORD>all
+عضو بن سعيد السرحاني | STOPWORD>all
+ساحة القديس بطرس | STOPWORD>all
+کاراچای-چرکسیا | STOPWORD>all
+عربستان سعودی | STOPWORD>all
+بحر أسود | STOPWORD>all
+مصادر أم | STOPWORD>all
+جنوبی یورپ | STOPWORD>all
+جزیره ایستر | STOPWORD>all
+طارق أبو | STOPWORD>all
+جاوة شرق | STOPWORD>all
+جان كلود | STOPWORD>all
+عبدالله آل | STOPWORD>all
+عبدالله بن محمد بن | STOPWORD>all
+جنوب آفریقا | STOPWORD>all
+لاس بالماس دي جران كناريا | STOPWORD>all
+صلى الله | STOPWORD>all
+كوريا الجنوبية | STOPWORD>all
+بیلارس | STOPWORD>all
+علي بي | STOPWORD>all
+سيوداد خواريز | STOPWORD>all
+باتون روژ | STOPWORD>all
+کوستاریکا | STOPWORD>all
+محمد بن | STOPWORD>all
+سومطرة الغربية | STOPWORD>all
+لوس انجلس | STOPWORD>all
+سن پترزبورگ | STOPWORD>all
+حسين عبد | STOPWORD>all
+الايطالية رومانو | STOPWORD>all
+دریای سیاه | STOPWORD>all
+کاستاریکا | STOPWORD>all
+كوستاريكا | STOPWORD>all
+كانتون سولوتورن | STOPWORD>all
+استان هلمند | STOPWORD>all
+عصر سنگ | STOPWORD>all
+عبدالعزيز بن عبدالله آل | STOPWORD>all
+علي إي | STOPWORD>all
+پورت الیزابت | STOPWORD>all
+وکٹوریا آبشار | STOPWORD>all
+هولندا | STOPWORD>all
+قناة السويس | STOPWORD>all
+محمد علي أحمد | STOPWORD>all
+بيغ بين | STOPWORD>all
+يوجنو-ساخالينسك | STOPWORD>all
+جزایر مارشال | STOPWORD>all
+عبدالرحمن بن | STOPWORD>all
+بن عبد | STOPWORD>all
+سستو فيورنتينو | STOPWORD>all
+بابوا غينيا الجديدة | STOPWORD>all
+عبد الله عبد | STOPWORD>all
+اسپایس گرلز | STOPWORD>all
+ريونيون | STOPWORD>all
+کشتزارهای شبعا | STOPWORD>all
+بادن-وورتمبرگ | STOPWORD>all
+گینه استوایی | STOPWORD>all
+في واشنطن | STOPWORD>all
+عبدالعزيز بن محمد بن | STOPWORD>all
+غينيا | STOPWORD>all
+سيراليون | STOPWORD>all
+أوروبا الشمالية | STOPWORD>all
+جمهورية أفريقيا الوسطى | STOPWORD>all
+بورت إيلزابيث | STOPWORD>all
+كانتون جنيف | STOPWORD>all
+جاوة الوسطى | STOPWORD>all
+لوس انجلوس | STOPWORD>all
+قبردينو - بلقاريا | STOPWORD>all
+رئونیون | STOPWORD>all
+ٹیکساس | STOPWORD>all
+نوفا سكوشيا | STOPWORD>all
+بحر اليابان | STOPWORD>all
+برطانیہ | STOPWORD>all
+لاس فيغاس | STOPWORD>all
+آل ثاني | STOPWORD>all
+غينيا بيساو | STOPWORD>all
+بحر إيجة | STOPWORD>all
+محمود محمد | STOPWORD>all
+مون بلان | STOPWORD>all
+محمد بن زايد | STOPWORD>all
+کوه آرارات | STOPWORD>all
+بوش بن | STOPWORD>all
+اوستیای جنوبی | STOPWORD>all
+حرب عالمية ثانية | STOPWORD>all
+موناكو | STOPWORD>all
+ایالات متحده‌ امریکا | STOPWORD>all
+مدينة بنين | STOPWORD>all
+سعد بن محمد آل | STOPWORD>all
+کوہ ایٹنا | STOPWORD>all
+حمد بن خليفة بن | STOPWORD>all
+كانتون أوري | STOPWORD>all
+في بيا | STOPWORD>all
+برج ایفل | STOPWORD>all
+سرزمین آلتایی | STOPWORD>all
+مقدونیه | STOPWORD>all
+ساكسن-أنهالت | STOPWORD>all
+آفریقای شمالی | STOPWORD>all
+شمالی افریقہ | STOPWORD>all
+السين | STOPWORD>all
+أوستيا الشمالية-ألانيا | STOPWORD>all
+ويلز | STOPWORD>all
+كانتون أرجاو | STOPWORD>all
+متحدہ عرب امارات | STOPWORD>all
+سولومن آئلینڈ | STOPWORD>all
+بحر أحمر | STOPWORD>all
+دریای جنوبی چین | STOPWORD>all
+بندر بن فهد بن | STOPWORD>all
+نيوساوث ويلز | STOPWORD>all
+مدريد | STOPWORD>all
+لس آنجلس | STOPWORD>all
+دریائے ٹیمز | STOPWORD>all
+دانشگاه ایالتی اورگن | STOPWORD>all
+ماتو غروسو | STOPWORD>all
+بن عبدالعزيز | STOPWORD>all
+عبد العزيز بن | STOPWORD>all
+جان مارك | STOPWORD>all
+محافظة ذي قار | STOPWORD>all
+جبل آثوس | STOPWORD>all
+أوروبا الوسطى | STOPWORD>all
+رودخانه نیجر | STOPWORD>all
+مدیترانه | STOPWORD>all
+شمالی کوریا | STOPWORD>all
+رود آيلاند | STOPWORD>all
+مشعل بن عبدالله بن | STOPWORD>all
+بيلاروس | STOPWORD>all
+کارولینای جنوبی | STOPWORD>all
+شاخ آفریقا | STOPWORD>all
+شهر هوشی‌مین | STOPWORD>all
+ألطاي كراي | STOPWORD>all
+قاضي القضاة | STOPWORD>all
+الخليج الفارسي | STOPWORD>all
+أحمد خان | STOPWORD>all
+هضبة الجولان | STOPWORD>all
+حمد بن | STOPWORD>all
+تكساس | STOPWORD>all
+شانزه‌لیزه | STOPWORD>all
+إقليم الباسك | STOPWORD>all
+عبدالعزيز آل | STOPWORD>all
+أروناتشال براديش | STOPWORD>all
+زاکسن-آنهالت | STOPWORD>all
+محمد أحمد المهدي | STOPWORD>all
+خان يونس | STOPWORD>all
+بروناي دار السلام | STOPWORD>all
+ساكسونيا السفلى | STOPWORD>all
+کالدونیای جدید | STOPWORD>all
+مضيق جولدن جيت | STOPWORD>all
+دار السلام | STOPWORD>all
+پاپوا نیو گنی | STOPWORD>all
+عبدالله بن محمود آل | STOPWORD>all
+محمد الحماد | STOPWORD>all
+أحمد بن زايد | STOPWORD>all
+سريلانكا | STOPWORD>all
+تشيك | STOPWORD>all
+اتنا | STOPWORD>all
+نوردراين فيستفالن | STOPWORD>all
+عبد العزيز | STOPWORD>all
+مملكة متحدة | STOPWORD>all
+ولاية باجا كاليفورنيا | STOPWORD>all
+مکزیک | STOPWORD>all
+محمد حسان | STOPWORD>all
+شمالی کیرولینا | STOPWORD>all
+فالي دا أوستا | STOPWORD>all
+ساو تومي | STOPWORD>all
+مقاطعة تيبيراري | STOPWORD>all
+نخست‌وزیر | STOPWORD>all
+جزایر قناری | STOPWORD>all
+ميكلينبورغ-فوربومرن | STOPWORD>all
+جمهوری کنگو | STOPWORD>all
+جزیره ابوموسی | STOPWORD>all
+بوركينا فاسو | STOPWORD>all
+نيجني نوفغورود | STOPWORD>all
+ان اير | STOPWORD>all
+غامبيا | STOPWORD>all
+مدينة هوشي منه | STOPWORD>all
+جزر سليمان | STOPWORD>all
+أمريكا الجنوبية | STOPWORD>all
+محمد آل | STOPWORD>all
+قرة باغ | STOPWORD>all
+كارولاينا الجنوبية | STOPWORD>all
+عيد الأضحى | STOPWORD>all
+نیدرزاکسن | STOPWORD>all
+عبد الله | STOPWORD>all
+دی‌موین | STOPWORD>all
+محمد أحمد | STOPWORD>all
+خاورمیانه | STOPWORD>all
+صالح محمد | STOPWORD>all
+محمد بو | STOPWORD>all
+دهلی نو | STOPWORD>all
+يوتا | STOPWORD>all
+ویلز | STOPWORD>all
+عبد الله إلى | STOPWORD>all
+غے یونیوں | STOPWORD>all
+عباس لي | STOPWORD>all
+غينيا الاستوائية | STOPWORD>all
+جزایر آندامان | STOPWORD>all
+خالد بن أحمد | STOPWORD>all
+اولان‌باتور | STOPWORD>all
+موناکو | STOPWORD>all
+خاور دور | STOPWORD>all
+دلتا النيل | STOPWORD>all
+حمد بن خليفة آل | STOPWORD>all
+أبي زيد | STOPWORD>all
+ولايات متحدة أمريكية | STOPWORD>all
+امریکہ | STOPWORD>all
+پرل ہاربر | STOPWORD>all
+بادن-فورتمبيرغ | STOPWORD>all
+دریای ژاپن | STOPWORD>all
+استان کالینینگراد | STOPWORD>all
+حسين محمد | STOPWORD>all
+كوبيك | STOPWORD>all
+مصدر أم | STOPWORD>all
+أديس أبابا | STOPWORD>all
+الصين | STOPWORD>all
+لوس انجيليس | STOPWORD>all
+أمريكا الشمالية | STOPWORD>all
+اروپای مرکزی | STOPWORD>all
+آئل آف مین | STOPWORD>all
+طلال بن بدر بن | STOPWORD>all
+مقرن بن عبدالعزيز رئيس | STOPWORD>all
+نيومكسيكو | STOPWORD>all
+لوس أنجليس | STOPWORD>all
+آل سعد | STOPWORD>all
+هيلاري بين | STOPWORD>all
+بلطيق | STOPWORD>all
+تل أبيب | STOPWORD>all
+ایمیلیا رومانیا | STOPWORD>all
+سری لانکا | STOPWORD>all
+لاهه | STOPWORD>all
+بحیرہ اسود | STOPWORD>all
+اشلسویگ-هولشتاین | STOPWORD>all
+منطقة جزر الكناري ذاتية الحكم | STOPWORD>all
+محيط أطلسي | STOPWORD>all
+پورت او پرنس | STOPWORD>all
+سانتیاگو د کامپوستلا | STOPWORD>all
+أبي مصعب | STOPWORD>all
+جزيرة تورا | STOPWORD>all
+آفریقای جنوبی | STOPWORD>all
+وینیتو | STOPWORD>all
+عيسى آل خليفة | STOPWORD>all
+بحر متوسط | STOPWORD>all
+آن آربر، ميشيغان | STOPWORD>all
+قطاع غزة | STOPWORD>all
+گالاپاگوس | STOPWORD>all
+رودخانه هادسون | STOPWORD>all
+بادن بادن | STOPWORD>all
+جزر فوكلاند | STOPWORD>all
+ویلا نوا دگایا | STOPWORD>all
+عبدالعزيز بن عبدالله ال | STOPWORD>all
+كراسنودار كراي | STOPWORD>all
+ايل بويرتو دي سانتا ماريا | STOPWORD>all
+بن علي | STOPWORD>all
+بلوک شرق | STOPWORD>all
+جمهورية الكونغو الديمقراطية | STOPWORD>all
+بحیرہ روم | STOPWORD>all
+دریائے مسیسپی | STOPWORD>all
+جزيرة عيد الميلاد | STOPWORD>all
+بگ بین | STOPWORD>all
+دوس سانتوس | STOPWORD>all
+تل‌آویو | STOPWORD>all
+جبل القديس ميشيل | STOPWORD>all
+جزر فارو | STOPWORD>all
+فهد بن عبدالله بن | STOPWORD>all
+مراسل بي | STOPWORD>all
+لاهاي | STOPWORD>all
+ساحة تيانانمن | STOPWORD>all
+منطقة مدريد الذاتية الحكم | STOPWORD>all
+بالما دي مايوركا | STOPWORD>all
+أولان باتور | STOPWORD>all
+أوليمبياكوس بيرايس | STOPWORD>all
+علي سعيد | STOPWORD>all
+جمهوری دومینیکن | STOPWORD>all
+نیویارک شہر | STOPWORD>all
+عبدالله بن عبدالعزيز وسمو | STOPWORD>all
+جمهورية الدومنيكان | STOPWORD>all
+موناليزا | STOPWORD>all
+آل سعيد | STOPWORD>all
+مشرقی یورپ | STOPWORD>all
+پورت مورسبی | STOPWORD>all
+بحر الصين الجنوبي | STOPWORD>all
+مدينة مكسيكو | STOPWORD>all
+الحاجز المرجاني العظيم | STOPWORD>all
+أن أم | STOPWORD>all
+سان لويس أوبيسبو، سان لويس أوبيسبو، كاليفورنيا | STOPWORD>all
+شبه جزيرة أيبيريا | STOPWORD>all
+مشعل المپیک | STOPWORD>all
+بنگال غربی | STOPWORD>all
+ايرلندا | STOPWORD>all
+نابريجناي تشلني | STOPWORD>all
+عيد الفطر | STOPWORD>all
+مولدافيا | STOPWORD>all
+جزائر سولومون | STOPWORD>all
+فيبو فالينتيا | STOPWORD>all
+جنوبی کوریا | STOPWORD>all
+بوش في بيا | STOPWORD>all
+بيرل هاربر | STOPWORD>all
+أحمد بن | STOPWORD>all
+دریای بارنتز | STOPWORD>all
+عبدالله بن | STOPWORD>all
+مسؤول أم | STOPWORD>all
+ديرة داوا | STOPWORD>all
+تيمز | STOPWORD>all
+شتلند | STOPWORD>all
+ماديا براديش | STOPWORD>all
+كانتون لوسيرن | STOPWORD>all
+تیمور شرقی | STOPWORD>all
+پاپوآ گینه نو | STOPWORD>all
+سليمان بن | STOPWORD>all
+محمد يونس | STOPWORD>all
+اتحاد جماهیر شوروی سوسیالیستی | STOPWORD>all
+پورتو الگره | STOPWORD>all
+خلیج فارس | STOPWORD>all
+سرزمین کراسنودار | STOPWORD>all
+بوينس آيرس | STOPWORD>all
+پرل هاربر | STOPWORD>all
+مقاطعة موناغان | STOPWORD>all
+أولان-أودي | STOPWORD>all
+البحر الأبيض المتوسط | STOPWORD>all
+جاوة غرب | STOPWORD>all
+الجزر العذراء | STOPWORD>all
+طريق الحرير | STOPWORD>all
+كلوج-نابوكا | STOPWORD>all
+سطام بن عبدالعزيز وأمير | STOPWORD>all
+لوساکا | STOPWORD>all
+كانتون فريبورغ | STOPWORD>all
+أيرلندا الشمالية | STOPWORD>all
+سلطان بن محمد بن | STOPWORD>all
+وطلال ابو دان | STOPWORD>all
+گینه | STOPWORD>all
+عصور وسطى | STOPWORD>all
+کانال سوئز | STOPWORD>all
+عبد الله آل | STOPWORD>all
+حمد بن خليفة على | STOPWORD>all
+عید فطر | STOPWORD>all
+ولاية ساو باولو | STOPWORD>all
+مغربی افریقہ | STOPWORD>all
+مقاطعة ويكلاو | STOPWORD>all
+نوردراین-وستفالن | STOPWORD>all
+رودخانه میسیسیپی | STOPWORD>all
+نيوزيلندا | STOPWORD>all
+ريو دي جانيرو | STOPWORD>all
+ولاية سان لويس بوتوسي | STOPWORD>all
+متعب بن عبدالعزيز وزير | STOPWORD>all
+هراري | STOPWORD>all
+عبدالله بن ناصر بن | STOPWORD>all
+يوم كيبور | STOPWORD>all
+فهد بن | STOPWORD>all
+پالما د مایورکا | STOPWORD>all
+ریو دوژانیرو | STOPWORD>all
+لوساكا | STOPWORD>all
+وسجن أبو غريب | STOPWORD>all
+سرزمین باسک | STOPWORD>all
+تلعفر | STOPWORD>all
+ستافروبول كراي | STOPWORD>all
+جزایر سلیمان | STOPWORD>all
+سيدي إفني | STOPWORD>all
+پالو آلتو | STOPWORD>all
+سلطان بن | STOPWORD>all
+مادرید | STOPWORD>all
+محيط هادي | STOPWORD>all
+مکلنبورگ-فورپومرن | STOPWORD>all
+لوس أنجلوس | STOPWORD>all
+جمہوریہ ڈومینیکا | STOPWORD>all
+وادی آوستہ | STOPWORD>all
+رود آیلند | STOPWORD>all
+ريدجو إيميليا | STOPWORD>all
+برانڈ نبرگ گیٹ | STOPWORD>all
+التيار الصدر | STOPWORD>all
+مشرقی وسطٰی | STOPWORD>all
+ترينيداد وتوباغو | STOPWORD>all
+جسر البوابة الذهبية | STOPWORD>all
+أطلسي | STOPWORD>all
+أحمد علي | STOPWORD>all
+اديس ابابا | STOPWORD>all
+لوكالة فرانس | STOPWORD>all
+کره جنوبی | STOPWORD>all
+میڈرڈ | STOPWORD>all
+تيمور | STOPWORD>all
+لوس انجليس | STOPWORD>all
+كانتون برن | STOPWORD>all
+محمد الأحمد | STOPWORD>all
+محمد أحمد أمين | STOPWORD>all
+بن محمد | STOPWORD>all
+نوفي يورنغوي | STOPWORD>all
+شعلة أولمبية | STOPWORD>all
+محمود حسن | STOPWORD>all
+جزر مارشال | STOPWORD>all
+سان مارينو | STOPWORD>all
+عبداللطيف آل | STOPWORD>all
+عبد الله بن | STOPWORD>all
+ابو موسى | STOPWORD>all
+عبدالله بن محمد آل | STOPWORD>all
+علي سيف | STOPWORD>all
+أرخبيل غالاباغوس | STOPWORD>all
+علي شاه | STOPWORD>all
+دریاچه ایری | STOPWORD>all
+دریائے سین | STOPWORD>all
+کوه آثوس | STOPWORD>all
+محمد باقر | STOPWORD>all
+مقاطعة ريفيرسايد، كاليفورنيا | STOPWORD>all
+حمد بن خليفة بين | STOPWORD>all
+مانايتاغورسك | STOPWORD>all
+فى بيا | STOPWORD>all
+راس امید | STOPWORD>all
+کیپ ورد | STOPWORD>all
+شمال قبرص التركية | STOPWORD>all
+بيت لاهيا | STOPWORD>all
+محمد حسن | STOPWORD>all
+ریاستہائے متحدہ امریکہ | STOPWORD>all

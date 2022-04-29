@@ -1,0 +1,3 @@
+{Il-Ġimgħa=6, Ħad=1, Il-Ħadd=1, Il-Ħamis=5, Ġim=6, It-Tnejn=2, Erb=4, L-Erbgħa=4, Tli=3, Ħam=5, Sib=7, Is-Sibt=7, Tne=2, It-Tlieta=3}
+{Mej=4, Fra=1, Ott=9, Awissu=7, Mar=2, Lulju=6, Ġunju=5, Nov=10, Awi=7, Diċembru=11, Ġun=5, April=3, Marzu=2, Apr=3, Frar=1, Ottubru=9, Jan=0, Lul=6, Set=8, Jannar=0, Mejju=4, Diċ=11, Settembru=8, Novembru=10}
+{QN=0, WN=1}

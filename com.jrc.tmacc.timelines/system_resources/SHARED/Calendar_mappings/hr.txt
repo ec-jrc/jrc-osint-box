@@ -1,0 +1,3 @@
+{sub=7, četvrtak=5, utorak=3, srijeda=4, pon=2, sri=4, pet=6, nedjelja=1, ponedjeljak=2, čet=5, petak=6, ned=1, uto=3, subota=7}
+{ruj=8, lis=9, lip=5, svi=4, tra=3, prosinac=11, srpanj=6, lipanj=5, srp=6, stu=10, travanj=3, ožu=2, siječanj=0, kolovoz=7, vel=1, kol=7, svibanj=4, listopad=9, pro=11, sij=0, ožujak=2, veljača=1, rujan=8, studeni=10}
+{PM=1, AM=0}

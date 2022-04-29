@@ -1,0 +1,3 @@
+{to=5, tysdag=3, laurdag=7, lau=7, må=2, ty=3, fredag=6, måndag=2, su=1, torsdag=5, on=4, fr=6, onsdag=4, sundag=1}
+{juni=5, november=10, des=11, apr=3, februar=1, april=3, januar=0, oktober=9, jul=6, jun=5, juli=6, mai=4, mars=2, desember=11, feb=1, nov=10, august=7, sep=8, jan=0, mar=2, aug=7, okt=9, september=8}
+{PM=1, AM=0}

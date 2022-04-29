@@ -1,0 +1,3 @@
+{środa=4, niedziela=1, piątek=6, Wt=3, N=1, poniedziałek=2, sobota=7, Pn=2, Śr=4, Cz=5, So=7, Pt=6, wtorek=3, czwartek=5}
+{sie=7, sierpień=7, kwi=3, lis=10, marzec=2, lip=6, styczeń=0, kwiecień=3, paź=9, maj=4, luty=1, wrz=8, lipiec=6, czerwiec=5, listopad=10, lut=1, grudzień=11, mar=2, październik=9, wrzesień=8, sty=0, gru=11, cze=5}
+{PM=1, AM=0}

@@ -1,0 +1,508 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-et.txt
+# content : PM lexicon for grammatical units (Estonian)
+# date	  : February 2012
+# author  :  M. Ehrmann
+# *********
+
+and |GTYPE>coordination
+ja |GTYPE>coordination
+ning |GTYPE>coordination
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_demonyms-et.txt
+# content : PM lexicon for person demonyms by continent, country and other
+# author  : B. Pouliquen, (M. Ehrmann)
+# date    : February 2013
+#**********************************************
+
+
+briti | GTYPE>demonym
+ameeriklase | GTYPE>demonym
+prantsusmaa  | GTYPE>demonym
+Saksamaa  | GTYPE>demonym
+hispaania | GTYPE>demonym
+portugali | GTYPE>demonym
+ZN | GTYPE>demonym
+austraallanna | GTYPE>demonym
+itaallane | GTYPE>demonym
+iraagi | GTYPE>demonym
+afganistanis | GTYPE>demonym
+jordaanlase | GTYPE>demonym
+iisraeli| GTYPE>demonym
+iraani | GTYPE>demonym#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_position-et.txt
+# content : PM lexicon for person position, estonian
+# author  : B. Pouliquen, (M. Ehrmann)
+# date    : February 2013
+# TO BE REVISED
+#**********************************************
+
+president | GTYPE>position
+presidendi | GTYPE>position
+presidenti | GTYPE>position
+presidendilt | GTYPE>position
+presidendid | GTYPE>position
+presidendil | GTYPE>position
+presidendile | GTYPE>position
+presidendist | GTYPE>position
+presidendiks| GTYPE>position
+
+
+kandidaadi  | GTYPE>position
+kandidaati  | GTYPE>position
+kandidaadilt  | GTYPE>position
+kandidaadid  | GTYPE>position
+kandidaadil  | GTYPE>position
+kandidaadile  | GTYPE>position
+kandidaadist  | GTYPE>position
+kandidaadiks  | GTYPE>position
+kandidaatide | GTYPE>position
+kandidaat | GTYPE>position
+
+minister | GTYPE>position
+ministrile | GTYPE>position
+ministri | GTYPE>position
+ministrit | GTYPE>position
+ministriks | GTYPE>position
+
+
+poliitikuid  | GTYPE>position
+liider | GTYPE>position
+liidri | GTYPE>position
+lider | GTYPE>position
+direktor | GTYPE>position
+eks-direktor | GTYPE>position
+direktor | GTYPE>position
+direktorile | GTYPE>position
+direktori | GTYPE>position
+direktorit | GTYPE>position
+direktoriks | GTYPE>position
+asedirektor_ | GTYPE>position
+peadirektor_ | GTYPE>position
+sekretär | GTYPE>position
+sekretäri | GTYPE>position
+sekretärile | GTYPE>position
+riigissekretär_ | GTYPE>position
+peasekretär_ | GTYPE>position
+
+senaator_  | GTYPE>position
+riigipea | GTYPE>position
+kuninganna | GTYPE>position
+kantsler| GTYPE>position
+liidukantsler| GTYPE>position
+kantsleri| GTYPE>position
+liidukantsleri| GTYPE>position
+kantslerilt| GTYPE>position
+liidukantslerilt | GTYPE>position
+
+
+
+ase | GTYPE>position_domain
+välis | GTYPE>position_domain
+väli | GTYPE>position_domain
+pea | GTYPE>position_domain
+kaitse | GTYPE>position_domain
+arenguabi | GTYPE>position_domain
+rahandus | GTYPE>position_domain
+haridus | GTYPE>position_domain
+justiits | GTYPE>position_domain
+julgeoleku | GTYPE>position_domain
+sise | GTYPE>position_domain
+pőllu | GTYPE>position_domain
+majandus | GTYPE>position_domain
+nafta | GTYPE>position_domain
+elamuehitus | GTYPE>position_domain
+kaubandus | GTYPE>position_domain
+kultuuri | GTYPE>position_domain
+transpordi | GTYPE>position_domain
+tervishoiu | GTYPE>position_domain
+reformi | GTYPE>position_domain
+keskkonna | GTYPE>position_domain
+sotsiaal | GTYPE>position_domain
+tehnoloogia | GTYPE>position_domain
+sise | GTYPE>position_domain
+
+
+
+
+
+
+
+
+
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_profession-et.txt
+# content : PM lexicon for person profession, estonian
+# author  : B. Pouliquen, (M. Ehrmann)
+# date    : February 2013
+# TO BE REVISED
+#**********************************************
+
+piloot | GTYPE>profession
+testpiloot| GTYPE>profession
+naiskosmonaut| GTYPE>profession
+spiooni| GTYPE>profession
+artiste| GTYPE>profession
+sir	söör| GTYPE>profession
+staar| GTYPE>profession
+staari| GTYPE>profession
+staarid| GTYPE>profession
+superfilmistaar_ | GTYPE>profession
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_qualification-et.txt
+# content : PM lexicon for person qualification, estonian
+# author  : B. Pouliquen, (M. Ehrmann)
+# date    : February 2013
+# TO BE REVISED
+#**********************************************
+
+
+emokraat | GTYPE>persQualif
+demokraadi | GTYPE>persQualif
+sotsialisti | GTYPE>persQualif
+sotsiaaldemokraat | GTYPE>persQualif
+sotsiaaldemokraadist | GTYPE>persQualif
+kommunist | GTYPE>persQualif

@@ -1,0 +1,121 @@
+%  Sample person-name grammar
+%  author: Jakub Piksorski
+%  last modification: 1 August 2006
+%
+
+
+%
+% Settings
+%
+
+SETTINGS:
+
+{  % Modules
+   MODULES: <CorleoneBasicTokenizer>
+
+    % Search mode
+    %SEARCH_MODE: all_longest_matches
+    
+SEARCH_MODE: all_longest_matches
+
+    % Output
+    OUTPUT: grammar
+
+}
+
+
+
+PATTERNS:
+
+
+%%%%%%%%%%%%%%%%%%%%%%   ATTRIBUTE MAPPING FROM verbgroup TYPE TO EVENT class:  %%%%%%%%%%%%%%%%%%%%%%%
+%%%% ITEM1 --> eventDescription
+%%%% ITEM2 --> tense 
+%%%% ITEM3 --> aspect
+%%%% ITEM4 --> scope
+%%%% ITEM5 --> type
+%%%% ITEM6 --> domain
+%%%% ITEM7 --> modality
+%%%% ITEM8 --> argument_slot
+
+
+
+%%%%%%%%%%%%%%%%%     ReVerb PATTERNS:    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% V prep? adv?
+reVerb_rule1 :> ( verbgroup & [ITEM1:#surf,ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod, ITEM10:#nom]
+				  adposition & [SURFACE: #p]?
+			      adverb & [SURFACE: #a]?	 ):head
+-> head: verbgroup & [ ITEM1:#core,ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod, RULE:"reVerb_rule1" ]
+& #core := ConcWithBlanks(#surf,#p,#a)
+& IsDiff(#nom,"true") .
+
+
+% V (prep|inf-marker)
+reVerb_rule2 :> ( verbgroup & [ITEM1:#surf,ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod, ITEM10:#nom]
+				  adposition & [SURFACE: #p]?
+			      adverb & [SURFACE: #a]?
+			      (adposition & [SURFACE: #q] | adposition & [SURFACE:"to"#q]) ):head
+-> head: verbgroup & [ITEM1:#core,ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod, RULE:"reVerb_rule2"]
+& #core := ConcWithBlanks(#surf,#p,#a,#q)
+& IsDiff(#nom,"true") .
+
+
+
+% V (noun|adj|adv|pron|det)* (prep|inf-marker)
+reVerb_rule3 :> ( verbgroup & [ ITEM1:#surf,ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod, ITEM10:#nom ]
+				  adposition & [SURFACE: #p]?
+			      adverb & [SURFACE: #a]?
+	  		  (token & [TYPE:"first_capital_word", SURFACE:#w]
+					    | token & [TYPE:"mixed_word_first_capital", SURFACE:#w]
+						    |  token & [TYPE:"word_with_hyphen_first_capital", SURFACE:#w]
+								| token & [TYPE:"word_with_apostrophe_first_capital"]
+									| noun & [SURFACE:#w] 
+										| adjective & [SURFACE:#w]
+											| adverb & [SURFACE:#w]
+												| pronoun & [SURFACE:#w] 
+													| determiner & [SURFACE:#w] 
+														| article & [SURFACE:#w] )<1,4>
+					  (adposition & [SURFACE: #q] | adposition & [SURFACE:"to"#q] )   ):head
+-> head: verbgroup & [ITEM1:#core,ITEM2:#tense, ITEM3:#aspct, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod, RULE:"reVerb_rule3"]
+& #core := ConcWithBlanks(#surf,#p,#a,#w,#q)
+& IsDiff(#nom,"true") .
+
+verbgroup_wrapping_rule :> ( verbgroup & [ITEM1:#item1, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM5:#item5, ITEM6:#item6, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#item10 ]):head
+-> head: verbgroup & [ITEM1:#item1, ITEM2:#item2, ITEM3:#item3, ITEM4:#item4, ITEM5:#item5, ITEM6:#item6, ITEM7:#item7, ITEM8:#item8, ITEM9:#item9, ITEM10:#item10, RULE:"verbgroup_wrapping_rule"].
+
+
+
+
+%%%%%%%%%%%% stopped detaining          
+verbgroup_rule16 :> ( verbgroup & [ITEM1:#surf1, ITEM2:#tense, ITEM3:#aspct, ITEM7:#mod]  
+                      verbgroup & [ITEM1:#surf2, ITEM2:"", ITEM5:#hypernms, ITEM6:#domain, ITEM8:#item8]):head
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM3:#aspct, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod, ITEM8:#item8, RULE:"verbgroup_rule16"]
+& #core := ConcWithBlanks(#surf1,#surf2)
+& IsNotUnspecified(#aspct).
+
+
+%%%%%%%%%%% promised to leave
+verbgroup_rule17 :> ( verbgroup & [ITEM1:#surf1,ITEM2:#tense, ITEM4:#intns, ITEM7:#mod]  
+                      verbgroup & [ITEM1:#surf2, ITEM2:"", ITEM5:#hypernms, ITEM6:#domain, ITEM8:#item8]):head 
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod,ITEM8:#item8, RULE:"verbgroup_rule17"]
+& #core := ConcWithBlanks(#surf1,#surf2)
+& IsNotUnspecified(#intns).
+
+
+
+%%%%%%%%%%% will have to do it
+verbgroup_rule18 :> ( verbgroup & [ITEM1:#surf1,ITEM2:#tense, ITEM4:#intns, ITEM7:#mod]  
+                      verbgroup & [ITEM1:#surf2, ITEM5:#hypernms, ITEM6:#domain, ITEM8:#item8]):head 
+-> head: verbgroup & [ITEM1:#core, ITEM2:#tense, ITEM4:#intns, ITEM5:#hypernms, ITEM6:#domain, ITEM7:#mod,ITEM8:#item8, RULE:"verbgroup_rule18"]
+& #core := ConcWithBlanks(#surf1,#surf2)
+& IsNotUnspecified(#mod).
+
+
+question_context_wrapping_rule :> ( question_context):head
+-> head: question_context.
+
+END_PATTERNS:
+
+

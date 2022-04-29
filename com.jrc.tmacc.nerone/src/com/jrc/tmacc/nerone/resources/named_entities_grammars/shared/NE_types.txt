@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Joint Research Center - OPTIMA
+% Copyright (c) 2012 European Commission
+% File	   :	NE_types.txt
+% Content  :	Type specification for NE grammar
+% Date     :    2010
+% Author   :    Maud Ehrmann                                                   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%MODULES
+basic-token := [SURFACE]
+token := [TYPE,SURFACE]
+attribute-token := [TYPE,SURFACE,STOPWORD,STOPNAME]
+patternmatch := [TYPE,SURFACE,GTYPE,GSUBTYPE,SUBTYPE,GENDER,AMBIG,STOPWORD,STOPNAME,NUMBER,GNUMBER,BASEFORM,ACRO,ORIGIN,CODE,SF,LF,AUTO,ATTRIBUTE]
+
+%KNOWN entities coming from Known matcher
+%(not used yet)
+emmentity := [ID, TYPE, NAME, SURFACE]
+emmgeorss := [ID, NAME, CLASS, SCORE, SURFACE]
+
+
+%gazetteer :=[GTYPE,SURFACE,GDIST]
+
+%PERSON
+person_name := [RULENAME,RULECONFIDENCE,TYPE,NAME,ATTRIBUTE,BNAME,INAME,FIRST_NAME,LAST_NAME,GFIRST_NAME,GLAST_NAME,BFIRST_NAME,BLAST_NAME,TITLE,FUNCTION,FUNCTION_TYPE,NATIONALITY]
+person_pos := [RULENAME,SURFACE,NAME,TYPE,COUNTRY]
+person_prof := [RULENAME,SURFACE,TYPE,COUNTRY]
+position_domain := [RULENAME,SURFACE]
+
+%ORGANISATION
+org_name := [RULENAME,RULECONFIDENCE,TYPE,NAME,SUBTYPE,COUNTRY, ATTRIBUTE]
+
+%OTHER
+location := [RULENAME,RULECONFIDENCE,TYPE,NAME,SUBTYPE, TRIGGER, LOC_1, LOC_2, ATTRIBUTE]
+identifier := [RULENAME,RULECONFIDENCE,TYPE,NAME,SUBTYPE,PRIMARY_NUMBER, SECONDARY_NUMBER, TRIGGER, LOC_1, LOC_2, ATTRIBUTE]
+product := [RULENAME,RULECONFIDENCE,TYPE,NAME,SUBTYPE, ATTRIBUTE]
+event := [RULENAME,RULECONFIDENCE,TYPE,NAME,SUBTYPE, ATTRIBUTE]
+
+
+%GRAMMAR AND INTERNAL STUFFS
+punct :=[NAME,SURFACE]
+initials := [RULENAME,INITIALS,NUMBER]
+toIgnore := [RULENAME,TYPE]
+acronym := [RULENAME,TYPE,NAME,SF,LF]
+
+potential_name := [NAME,SURFACE]
+potential_code := [CODE,SURFACE]
+
+
+

@@ -1,0 +1,252 @@
+people | SURFACE:people
+police | SURFACE:police
+staff | SURFACE:staff
+season | SURFACE:season
+school | SURFACE:school
+building | SURFACE:building
+further | SURFACE:further
+projects | SURFACE:projects
+documents | SURFACE:documents
+center | SURFACE:center
+budget | SURFACE:budget
+people in | SURFACE:people in
+radio | SURFACE:radio
+programme | SURFACE:programme
+including | SURFACE:including
+according | SURFACE:according
+following | SURFACE:following
+regarding | SURFACE:regarding
+allegedly | SURFACE:allegedly
+in  | SURFACE:in
+the | SURFACE:the
+government | SURFACE:government
+governments | SURFACE:governments
+government's | SURFACE:government's
+government’s | SURFACE:government’s
+equipment | SURFACE:equipment
+equipments | SURFACE:equipments
+administrations | SURFACE:administrations
+administration’s | SURFACE:administration’s
+administration's | SURFACE:administration's
+administration | SURFACE:administration
+information | SURFACE:information
+price for | SURFACE:price for
+population | SURFACE:population
+constitution | SURFACE:constitution
+summary of | SURFACE:summary of
+ministry | SURFACE:ministry
+ministries | SURFACE:ministries
+ministries of | SURFACE:ministries of
+prime minister’s | SURFACE:prime minister’s
+prime minister's | SURFACE:prime minister's
+ministry’s | SURFACE:ministry’s
+ministry's | SURFACE:ministry's
+insurance | SURFACE:insurance
+organizations | SURFACE:organizations
+legislation | SURFACE:legislation
+documentation | SURFACE:documentation
+definition | SURFACE:definition
+image of | SURFACE:image of
+establishments | SURFACE:establishments
+expectations | SURFACE:expectations
+accommodation | SURFACE:accommodation
+populations | SURFACE:populations
+boredom | SURFACE:boredom
+summary | SURFACE:summary
+regulations | SURFACE:regulations
+prosperity | SURFACE:prosperity
+basis | SURFACE:basis
+central bank | SURFACE:central bank
+central bank's | SURFACE:central bank's
+central bank’s | SURFACE:central bank’s
+central banks | SURFACE:central banks
+centre | SURFACE:centre
+centre’s | SURFACE:centre’s
+centre's | SURFACE:centre's
+including | SURFACE:including
+chain | SURFACE:chain
+chains | SURFACE:chains
+chain's | SURFACE:chain's
+chain’s | SURFACE:chain’s
+civilization | SURFACE:civilization
+competitiveness | SURFACE:competitiveness
+club | SURFACE:club
+congregation | SURFACE:congregation
+clubs | SURFACE:clubs
+club's | SURFACE:club's
+club’s | SURFACE:club’s
+companies | SURFACE:companies
+company | SURFACE:company
+company's | SURFACE:company's
+company’s | SURFACE:company’s
+country | SURFACE:country
+countries | SURFACE:countries
+country's | SURFACE:country's
+country’s | SURFACE:country’s
+crisis | SURFACE:crisis
+currently | SURFACE:currently
+customer | SURFACE:customer
+customers | SURFACE:customers
+days | SURFACE:days
+group’s | SURFACE:group’s
+group's | SURFACE:group's
+healthcare | SURFACE:healthcare
+health's | SURFACE:health's
+health’s | SURFACE:health’s
+high | SURFACE:high
+highest | SURFACE:highest
+his | SURFACE:his
+how | SURFACE:how
+immediate | SURFACE:immediate
+in | SURFACE:in
+list of | SURFACE:list of
+long-term | SURFACE:long-term
+necessary | SURFACE:necessary
+number of | SURFACE:number of
+on | SURFACE:on
+one | SURFACE:one
+ones | SURFACE:ones
+only | SURFACE:only
+one'sent | SURFACE:one'sent
+one’sent | SURFACE:one’sent
+prime minister's | SURFACE:prime minister's
+prime minister’s | SURFACE:prime minister’s
+regarding | SURFACE:regarding
+regards to | SURFACE:regards to
+site | SURFACE:site
+site's | SURFACE:site's
+site’s | SURFACE:site’s
+state's | SURFACE:state's
+state’s | SURFACE:state’s
+tourism | SURFACE:tourism
+view of | SURFACE:view of
+year | SURFACE:year
+year's | SURFACE:year's
+year’s | SURFACE:year’s
+years | SURFACE:years
+you | SURFACE:you
+year | SURFACE:year
+accommodation | SURFACE:accommodation
+a | SURFACE:a
+an | SURFACE:an
+any | SURFACE:any
+about | SURFACE:about
+the people | SURFACE:people
+the police | SURFACE:police
+the staff | SURFACE:staff
+the season | SURFACE:season
+the school | SURFACE:school
+the building | SURFACE:building
+the further | SURFACE:further
+the projects | SURFACE:projects
+the documents | SURFACE:documents
+the center | SURFACE:center
+the budget | SURFACE:budget
+the people in | SURFACE:people in
+the radio | SURFACE:radio
+the programme | SURFACE:programme
+the including | SURFACE:including
+the according | SURFACE:according
+the following | SURFACE:following
+the regarding | SURFACE:regarding
+the allegedly | SURFACE:allegedly
+the in  | SURFACE:in
+the | SURFACE:the
+the government | SURFACE:government
+the governments | SURFACE:governments
+the government's | SURFACE:government's
+the government’s | SURFACE:government’s
+the equipment | SURFACE:equipment
+the equipments | SURFACE:equipments
+the administrations | SURFACE:administrations
+the administration’s | SURFACE:administration’s
+the administration's | SURFACE:administration's
+the administration | SURFACE:administration
+the information | SURFACE:information
+the price for | SURFACE:price for
+the population | SURFACE:population
+the constitution | SURFACE:constitution
+the summary of | SURFACE:summary of
+the ministry | SURFACE:ministry
+the ministries | SURFACE:ministries
+the ministries of | SURFACE:ministries of
+the prime minister’s | SURFACE:prime minister’s
+the prime minister's | SURFACE:prime minister's
+the ministry's | SURFACE:ministry's
+the ministry’s | SURFACE:ministry’s
+the insurance | SURFACE:insurance
+the organizations | SURFACE:organizations
+the legislation | SURFACE:legislation
+the documentation | SURFACE:documentation
+the definition | SURFACE:definition
+the image of | SURFACE:image of
+the establishments | SURFACE:establishments
+the expectations | SURFACE:expectations
+the accommodation | SURFACE:accommodation
+the populations | SURFACE:populations
+the boredom | SURFACE:boredom
+the summary | SURFACE:summary
+the regulations | SURFACE:regulations
+the prosperity | SURFACE:prosperity
+the basis | SURFACE:basis
+the central bank | SURFACE:central bank
+the central bank's | SURFACE:central bank's
+the central bank’s | SURFACE:central bank’s
+the central banks | SURFACE:central banks
+the centre | SURFACE:centre
+the centre’s | SURFACE:centre’s
+the centre's | SURFACE:centre's
+the chain | SURFACE:chain
+the chains | SURFACE:chains
+the chain's | SURFACE:chain's
+the chain’s | SURFACE:chain’s
+the civilization | SURFACE:civilization
+the competitiveness | SURFACE:competitiveness
+the club | SURFACE:club
+the congregation | SURFACE:congregation
+the clubs | SURFACE:clubs
+the club's | SURFACE:club's
+the club’s | SURFACE:club’s
+the companies | SURFACE:companies
+the company | SURFACE:company
+the company's | SURFACE:company's
+the company’s | SURFACE:company’s
+the country | SURFACE:country
+the countries | SURFACE:countries
+the country's | SURFACE:country's
+the country’s | SURFACE:country’s
+the crisis | SURFACE:crisis
+the currently | SURFACE:currently
+the customer | SURFACE:customer
+the customers | SURFACE:customers
+the days | SURFACE:days
+the group’s | SURFACE:group’s
+the group's | SURFACE:group's
+the healthcare | SURFACE:healthcare
+the health's | SURFACE:health's
+the health’s | SURFACE:health’s
+the high | SURFACE:high
+the highest | SURFACE:highest
+the immediate | SURFACE:immediate
+the list of | SURFACE:list of
+the long-term | SURFACE:long-term
+the necessary | SURFACE:necessary
+the number of | SURFACE:number of
+the one | SURFACE:one
+the ones | SURFACE:ones
+the only | SURFACE:only
+the prime minister's | SURFACE:prime minister's
+the prime minister’s | SURFACE:prime minister’s
+the site | SURFACE:site
+the site's | SURFACE:site's
+the site’s | SURFACE:site’s
+the state's | SURFACE:state's
+the state’s | SURFACE:state’s
+the tourism | SURFACE:tourism
+the view of | SURFACE:view of
+the year | SURFACE:year
+the year's | SURFACE:year's
+the year’s | SURFACE:year’s
+the years | SURFACE:years
+the year | SURFACE:year
+the accommodation | SURFACE:accommodation

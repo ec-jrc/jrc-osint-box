@@ -1,0 +1,1243 @@
+
+January | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:January | G_LANG:EN
+February | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:February | G_LANG:EN
+March | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:March | G_LANG:EN
+April | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:April | G_LANG:EN
+May | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:May | G_LANG:EN
+June | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:June | G_LANG:EN
+July | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:July | G_LANG:EN
+August | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:August | G_LANG:EN
+September | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:September | G_LANG:EN
+October | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:October | G_LANG:EN
+November | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:November | G_LANG:EN
+December | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:December | G_LANG:EN
+
+Jan. | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:Jan. | G_LANG:EN
+Feb. | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:Feb. | G_LANG:EN
+Mar. | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:Mar. | G_LANG:EN
+Apr. | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:Apr. | G_LANG:EN
+May. | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:May. | G_LANG:EN
+Jun. | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:Jun. | G_LANG:EN
+Jul. | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:Jul. | G_LANG:EN
+Aug. | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:Aug. | G_LANG:EN
+Sep. | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:Sep. | G_LANG:EN
+Oct. | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:Oct. | G_LANG:EN
+Nov. | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:Nov. | G_LANG:EN
+Dec. | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:Dec. | G_LANG:EN
+
+JAN | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:JAN | G_LANG:EN
+FEB | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:FEB | G_LANG:EN
+MAR | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:MAR | G_LANG:EN
+APR | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:APR | G_LANG:EN
+MAY | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:MAY | G_LANG:EN
+JUN | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:JUN | G_LANG:EN
+JUL | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:JUL | G_LANG:EN
+AUG | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:AUG | G_LANG:EN
+SEP | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:SEP | G_LANG:EN
+OCT | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:OCT | G_LANG:EN
+NOV | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:NOV | G_LANG:EN
+DEC | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:DEC | G_LANG:EN
+
+Dic | GTYPE:gaz_month | G_LEMMA:December | SURFACE:Dic | G_NUM_BASE:12 | G_LANG:IT
+Ott | GTYPE:gaz_month | G_LEMMA:October | SURFACE:Ott | G_NUM_BASE:10 | G_LANG:IT
+Feb | GTYPE:gaz_month | G_LEMMA:February | SURFACE:Feb | G_NUM_BASE:02 | G_LANG:IT
+Mar | GTYPE:gaz_month | G_LEMMA:March | SURFACE:Mar | G_NUM_BASE:03 | G_LANG:IT
+Apr | GTYPE:gaz_month | G_LEMMA:April | SURFACE:Apr | G_NUM_BASE:04 | G_LANG:IT
+Ago | GTYPE:gaz_month | G_LEMMA:August | SURFACE:Ago | G_NUM_BASE:08 | G_LANG:IT
+Lug | GTYPE:gaz_month | G_LEMMA:July | SURFACE:Lug | G_NUM_BASE:07 | G_LANG:IT
+Giu | GTYPE:gaz_month | G_LEMMA:June | SURFACE:Giu | G_NUM_BASE:06 | G_LANG:IT
+Nov | GTYPE:gaz_month | G_LEMMA:November | SURFACE:Nov | G_NUM_BASE:11 | G_LANG:IT
+Mag | GTYPE:gaz_month | G_LEMMA:May | SURFACE:Mag | G_NUM_BASE:05 | G_LANG:IT
+Set | GTYPE:gaz_month | G_LEMMA:September | SURFACE:Set | G_NUM_BASE:09 | G_LANG:IT
+Gen | GTYPE:gaz_month | G_LEMMA:January | SURFACE:Gen | G_NUM_BASE:01 | G_LANG:IT
+
+Dec | GTYPE:gaz_month | G_LEMMA:December | SURFACE:Dic | G_NUM_BASE:12 | G_LANG:FR
+Déc | GTYPE:gaz_month | G_LEMMA:December | SURFACE:Déc | G_NUM_BASE:12 | G_LANG:FR
+Oct | GTYPE:gaz_month | G_LEMMA:October | SURFACE:Oct | G_NUM_BASE:10 | G_LANG:FR
+Fev | GTYPE:gaz_month | G_LEMMA:February | SURFACE:Fev | G_NUM_BASE:02 | G_LANG:FR
+Fév | GTYPE:gaz_month | G_LEMMA:February | SURFACE:Fév | G_NUM_BASE:02 | G_LANG:FR
+Mar | GTYPE:gaz_month | G_LEMMA:March | SURFACE:Mar | G_NUM_BASE:03 | G_LANG:FR
+Avr | GTYPE:gaz_month | G_LEMMA:April | SURFACE:Avr | G_NUM_BASE:04 | G_LANG:FR
+Aout | GTYPE:gaz_month | G_LEMMA:August | SURFACE:Aout | G_NUM_BASE:08 | G_LANG:FR
+Août | GTYPE:gaz_month | G_LEMMA:August | SURFACE:Août | G_NUM_BASE:08 | G_LANG:FR
+Juil | GTYPE:gaz_month | G_LEMMA:July | SURFACE:Juil | G_NUM_BASE:07 | G_LANG:FR
+Juin | GTYPE:gaz_month | G_LEMMA:June | SURFACE:Juin | G_NUM_BASE:06 | G_LANG:FR
+Nov | GTYPE:gaz_month | G_LEMMA:November | SURFACE:Nov | G_NUM_BASE:11 | G_LANG:FR
+Mai | GTYPE:gaz_month | G_LEMMA:May | SURFACE:Mai | G_NUM_BASE:05 | G_LANG:FR
+Sept | GTYPE:gaz_month | G_LEMMA:September | SURFACE:Sept | G_NUM_BASE:09 | G_LANG:FR
+Jan | GTYPE:gaz_month | G_LEMMA:January | SURFACE:Jan | G_NUM_BASE:01 | G_LANG:FR
+
+Januar | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:Januar | G_LANG:DE
+Februar | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:Februar | G_LANG:DE
+März | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:März | G_LANG:DE
+April | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:April | G_LANG:DE
+Mai | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:Mai | G_LANG:DE
+Juni | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:Juni | G_LANG:DE
+Juli | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:Juli | G_LANG:DE
+August | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:August | G_LANG:DE
+September | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:September | G_LANG:DE
+Oktober | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:Oktober | G_LANG:DE
+November | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:November | G_LANG:DE
+Dezember | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:Dezember | G_LANG:DE
+
+януари | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:януари | G_LANG:BG
+февруари | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:февруари | G_LANG:BG
+март | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:март | G_LANG:BG
+април | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:април | G_LANG:BG
+май | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:май | G_LANG:BG
+юни | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:юни | G_LANG:BG
+юли | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:юли | G_LANG:BG
+август | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:август | G_LANG:BG
+септември | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:септември | G_LANG:BG
+октомври | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:октомври | G_LANG:BG
+ноември | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:ноември | G_LANG:BG
+декември | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:декември | G_LANG:BG
+
+janvier | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:janvier | G_LANG:FR
+février | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:février | G_LANG:FR
+mars | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:mars | G_LANG:FR
+avril | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:avril | G_LANG:FR
+mai | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:mai | G_LANG:FR
+juin | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:juin | G_LANG:FR
+juillet | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:juillet | G_LANG:FR
+août | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:août | G_LANG:FR
+septembre | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:septembre | G_LANG:FR
+octobre | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:octobre | G_LANG:FR
+novembre | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:novembre | G_LANG:FR
+décembre | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:décembre | G_LANG:FR
+
+gennaio | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:gennaio | G_LANG:IT
+febbraio | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:febbraio | G_LANG:IT
+marzo | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marzo | G_LANG:IT
+aprile | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:aprile | G_LANG:IT
+maggio | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:maggio | G_LANG:IT
+giugno | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:giugno | G_LANG:IT
+luglio | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:luglio | G_LANG:IT
+agosto | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:agosto | G_LANG:IT
+settembre | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:settembre | G_LANG:IT
+ottobre | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:ottobre | G_LANG:IT
+novembre | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:novembre | G_LANG:IT
+dicembre | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:dicembre | G_LANG:IT
+
+
+enero | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:enero | G_LANG:ES
+febrero | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:febrero | G_LANG:ES
+marzo | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marzo | G_LANG:ES
+abril | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:abril | G_LANG:ES
+mayo | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:mayo | G_LANG:ES
+junio | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:junio | G_LANG:ES
+julio | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:julio | G_LANG:ES
+agosto | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:agosto | G_LANG:ES
+septiembre | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:septiembre | G_LANG:ES
+octubre | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:octubre | G_LANG:ES
+noviembre | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:noviembre | G_LANG:ES
+diciembre | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:diciembre | G_LANG:ES
+
+januari | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:januari | G_LANG:NL
+februari | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februari | G_LANG:NL
+maart | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:maart | G_LANG:NL
+april | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:april | G_LANG:NL
+mei | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:mei | G_LANG:NL
+juni | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:juni | G_LANG:NL
+juli | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:juli | G_LANG:NL
+augustus | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:augustus | G_LANG:NL
+september | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:september | G_LANG:NL
+oktober | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktober | G_LANG:NL
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:NL
+december | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:december | G_LANG:NL
+
+januari | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:januari | G_LANG:SE
+februari | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februari | G_LANG:SE
+mars | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:mars | G_LANG:SE
+april | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:april | G_LANG:SE
+maj | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:maj | G_LANG:SE
+juni | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:juni | G_LANG:SE
+juli | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:juli | G_LANG:SE
+augusti | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:augusti | G_LANG:SE
+september | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:september | G_LANG:SE
+oktober | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktober | G_LANG:SE
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:SE
+december | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:december | G_LANG:SE
+ 	 
+januar | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:januar | G_LANG:NO
+februari | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februari | G_LANG:NO
+mars | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:mars | G_LANG:NO
+april | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:april | G_LANG:NO
+mai | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:mai | G_LANG:NO
+juni | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:juni | G_LANG:NO
+juli | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:juli | G_LANG:NO
+august | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:august | G_LANG:NO
+september | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:september | G_LANG:NO
+oktober | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktober | G_LANG:NO
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:NO
+desember | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:desember | G_LANG:NO
+
+januar | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:januar | G_LANG:DK
+februar | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februar | G_LANG:DK
+marts | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marts | G_LANG:DK
+april | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:april | G_LANG:DK
+maj | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:maj | G_LANG:DK
+juni | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:juni | G_LANG:DK
+juli | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:juli | G_LANG:DK
+august | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:august | G_LANG:DK
+september | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:september | G_LANG:DK
+oktober | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktober | G_LANG:DK
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:DK
+december | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:december | G_LANG:DK
+
+ianuarie | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:ianuarie | G_LANG:RO
+februarie | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februarie | G_LANG:RO
+martie | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:martie | G_LANG:RO
+aprilie | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:aprilie | G_LANG:RO
+mai | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:mai | G_LANG:RO
+iunie | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:iunie | G_LANG:RO
+iulie | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:iulie | G_LANG:RO
+august | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:august | G_LANG:RO
+septembrie | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:septembrie | G_LANG:RO
+octombrie | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:octombrie | G_LANG:RO
+noiembrie | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:noiembrie | G_LANG:RO
+decembrie | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:decembrie | G_LANG:RO
+
+janeiro | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:janeiro | G_LANG:PT
+fevereiro | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:fevereiro | G_LANG:PT
+março | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:março | G_LANG:PT
+abril | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:abril | G_LANG:PT
+maio | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:maio | G_LANG:PT
+junho | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:junho | G_LANG:PT
+julho | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:julho | G_LANG:PT
+agosto | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:agosto | G_LANG:PT
+setembro | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:setembro | G_LANG:PT
+outubro | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:outubro | G_LANG:PT
+novembro | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:novembro | G_LANG:PT
+dezembro | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:dezembro | G_LANG:PT
+
+
+januára | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:januára | G_LANG:SK
+februára | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februára | G_LANG:SK
+marca | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marca | G_LANG:SK
+apríla | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:apríla | G_LANG:SK
+mája | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:mája | G_LANG:SK
+júna | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:júna | G_LANG:SK
+júla | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:júla | G_LANG:SK
+augusta | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:augusta | G_LANG:SK
+septembra | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:septembra | G_LANG:SK
+októbra | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:októbra | G_LANG:SK
+novembra | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:novembra | G_LANG:SK
+decembra | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:decembra | G_LANG:SK
+
+január | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:január | G_LANG:SK
+február | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:február | G_LANG:SK
+marec | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marec | G_LANG:SK
+apríl | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:apríl | G_LANG:SK
+máj | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:máj | G_LANG:SK
+jún | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:jún | G_LANG:SK
+júl | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:júl | G_LANG:SK
+august | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:august | G_LANG:SK
+september | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:september | G_LANG:SK
+október | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:október | G_LANG:SK
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:SK
+december | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:december | G_LANG:SK
+
+	
+januarja | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:januarja | G_LANG:SI
+februarja | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februarja | G_LANG:SI
+marca | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marca | G_LANG:SI
+aprila | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:apríla | G_LANG:SI
+maja | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:maja | G_LANG:SI
+junija | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:junija | G_LANG:SI
+julija | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:julija | G_LANG:SI
+avgusta | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:avgusta | G_LANG:SI
+septembra | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:septembra | G_LANG:SI
+oktobra | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktobra | G_LANG:SI
+novembra | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:novembra | G_LANG:SI
+decembra | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:decembra | G_LANG:SI
+	
+januar | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:januar | G_LANG:SI
+februar | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februar | G_LANG:SI
+marec | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marec | G_LANG:SI
+april | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:apríl | G_LANG:SI
+maj | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:maj | G_LANG:SI
+junij | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:junij | G_LANG:SI
+julij | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:julij | G_LANG:SI
+avgust | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:avgust | G_LANG:SI
+september | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:september | G_LANG:SI
+oktober | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktober | G_LANG:SI
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:SI
+december | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:december | G_LANG:SI
+
+
+tammikuu | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:tammikuu | G_LANG:FI
+helmikuu | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:helmikuu | G_LANG:FI
+maaliskuu | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:maaliskuu | G_LANG:FI
+huhtikuu | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:huhtikuu | G_LANG:FI
+toukokuu | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:toukokuu | G_LANG:FI
+kesäkuu | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:kesäkuu | G_LANG:FI
+heinäkuu | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:heinäkuu | G_LANG:FI
+elokuu | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:elokuu | G_LANG:FI
+syyskuu | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:syyskuu | G_LANG:FI
+lokakuu | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:lokakuu | G_LANG:FI
+marraskuu | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:marraskuu | G_LANG:FI
+joulukuu | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:joulukuu | G_LANG:FI
+
+tammikuuta | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:tammikuuta | G_LANG:FI
+helmikuuta | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:helmikuuta | G_LANG:FI
+maaliskuuta | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:maaliskuuta | G_LANG:FI
+huhtikuuta | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:huhtikuuta | G_LANG:FI
+toukokuuta | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:toukokuuta | G_LANG:FI
+kesäkuuta | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:kesäkuuta | G_LANG:FI
+heinäkuuta | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:heinäkuuta | G_LANG:FI
+elokuuta | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:elokuuta | G_LANG:FI
+syyskuuta | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:syyskuuta | G_LANG:FI
+lokakuuta | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:lokakuuta | G_LANG:FI
+marraskuuta | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:marraskuuta | G_LANG:FI
+joulukuuta | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:joulukuuta | G_LANG:FI
+
+leden | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:leden | G_LANG:CZ
+únor | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:únor | G_LANG:CZ
+březen | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:březen | G_LANG:CZ
+duben | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:duben | G_LANG:CZ
+květen | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:květen | G_LANG:CZ
+červen | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:červen | G_LANG:CZ
+červenec | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:červenec | G_LANG:CZ
+srpen | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:srpen | G_LANG:CZ
+září | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:září | G_LANG:CZ
+říjen | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:říjen | G_LANG:CZ
+listopad | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:listopad | G_LANG:CZ
+prosinec | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:prosinec | G_LANG:CZ
+
+ledna | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:ledna | G_LANG:CZ
+února | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:února | G_LANG:CZ
+března | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:března | G_LANG:CZ
+dubna | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:dubna | G_LANG:CZ
+května | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:května | G_LANG:CZ
+června | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:června | G_LANG:CZ
+července | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:července | G_LANG:CZ
+srpna | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:srpna | G_LANG:CZ
+září | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:září | G_LANG:CZ
+října | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:října | G_LANG:CZ
+listopadu | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:listopadu | G_LANG:CZ
+prosince | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:prosince | G_LANG:CZ
+
+siječanj | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:siječanj | G_LANG:HR
+veljača | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:veljača | G_LANG:HR
+ožujak | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:ožujak | G_LANG:HR
+travanj | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:travanj | G_LANG:HR
+svibanj | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:svibanj | G_LANG:HR
+lipanj | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:lipanj | G_LANG:HR
+srpanj | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:srpanj | G_LANG:HR
+kolovoz | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:kolovoz | G_LANG:HR
+rujan | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:rujan | G_LANG:HR
+listopad | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:listopad | G_LANG:HR
+studeni | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:studeni | G_LANG:HR
+prosinac | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:prosinac | G_LANG:HR
+
+sijeĉnja | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:sijeĉnja | G_LANG:HR
+veljaĉe | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:veljaĉe | G_LANG:HR
+oţujka | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:oţujka | G_LANG:HR
+travnja | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:travnja | G_LANG:HR
+svibnja | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:svibnja | G_LANG:HR
+lipnja | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:lipnja | G_LANG:HR
+srpnja | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:srpnja | G_LANG:HR
+kolovoza | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:kolovoza | G_LANG:HR
+rujna | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:rujna | G_LANG:HR
+listopada | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:listopada | G_LANG:HR
+studenog | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:studenog | G_LANG:HR
+prosinca | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:prosinca | G_LANG:HR
+
+sausis | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:sausis | G_LANG:LT
+vasaris | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:vasaris | G_LANG:LT
+kovas | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:kovas | G_LANG:LT
+balandis | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:balandis | G_LANG:LT
+gegužė | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:gegužė | G_LANG:LT
+birželis | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:birželis | G_LANG:LT
+liepa | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:liepa | G_LANG:LT
+rugpjūtis | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:rugpjūtis | G_LANG:LT
+rugsėjis | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:rugsėjis | G_LANG:LT
+spalis | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:spalis | G_LANG:LT
+lapkritis | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:lapkritis | G_LANG:LT
+gruodis | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:gruodis | G_LANG:LT
+
+Sausis | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:Sausis | G_LANG:LT
+Vasaris | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:Vasaris | G_LANG:LT
+Kovas | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:Kovas | G_LANG:LT
+Balandis | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:Balandis | G_LANG:LT
+Gegužė | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:Gegužė | G_LANG:LT
+Birželis | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:Birželis | G_LANG:LT
+Liepa | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:Liepa | G_LANG:LT
+Rugpjūtis | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:Rugpjūtis | G_LANG:LT
+Rugsėjis | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:Rugsėjis | G_LANG:LT
+Spalis | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:Spalis | G_LANG:LT
+Lapkritis | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:Lapkritis | G_LANG:LT
+Gruodis | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:Gruodis | G_LANG:LT
+
+sausio | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:sausio | G_LANG:LT
+vasario | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:vasario | G_LANG:LT
+kovo | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:kovo | G_LANG:LT
+balandžio | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:balandžio | G_LANG:LT
+gegužės | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:gegužės | G_LANG:LT
+birželio | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:birželio | G_LANG:LT
+liepos | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:liepos | G_LANG:LT
+rugpjūčio | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:rugpjūčio | G_LANG:LT
+rugsėjo | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:rugsėjo | G_LANG:LT
+spalio | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:spalio | G_LANG:LT
+lapkričio | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:lapkričio | G_LANG:LT
+gruodžio | GTYPE:gaz_month | GSUBTYPE:gaz_month_special | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:gruodžio | G_LANG:LT
+
+janvāris | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:janvāris | G_LANG:LV
+februāris | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:februāris | G_LANG:LV
+marts | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:marts | G_LANG:LV
+aprīlis | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:aprīlis | G_LANG:LV
+maijs | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:maijs | G_LANG:LV
+jūnijs | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:jūnijs | G_LANG:LV
+jūlijs | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:jūlijs | G_LANG:LV
+augusts | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:augusts | G_LANG:LV
+septembris | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:septembris | G_LANG:LV
+oktobris | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktobris | G_LANG:LV
+novembris | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:novembris | G_LANG:LV
+decembris | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:decembris | G_LANG:LV
+
+Janvāris | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:Janvāris | G_LANG:LV
+Februāris | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:Februāris | G_LANG:LV
+Marts | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:Marts | G_LANG:LV
+Aprīlis | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:Aprīlis | G_LANG:LV
+Maijs | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:Maijs | G_LANG:LV
+Jūnijs | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:Jūnijs | G_LANG:LV
+Jūlijs | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:Jūlijs | G_LANG:LV
+Augusts | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:Augusts | G_LANG:LV
+Septembris | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:Septembris | G_LANG:LV
+Oktobris | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:Oktobris | G_LANG:LV
+Novembris | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:Novembris | G_LANG:LV
+Decembris | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:Decembris | G_LANG:LV
+
+január | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:január | G_LANG:HU
+február | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:február | G_LANG:HU
+március | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:március | G_LANG:HU
+április | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:április | G_LANG:HU
+május | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:május | G_LANG:HU
+június | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:június | G_LANG:HU
+július | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:július | G_LANG:HU
+augusztus | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:augusztus | G_LANG:HU
+szeptember | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:szeptember | G_LANG:HU
+október | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:október | G_LANG:HU
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:HU
+december | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:december | G_LANG:HU
+
+
+jaanuar | GTYPE:gaz_month | G_LEMMA:January | G_NUM_BASE:01 | SURFACE:jaanuar | G_LANG:EE
+veebruar | GTYPE:gaz_month | G_LEMMA:February | G_NUM_BASE:02 | SURFACE:veebruar | G_LANG:EE
+märts | GTYPE:gaz_month | G_LEMMA:March | G_NUM_BASE:03 | SURFACE:märts | G_LANG:EE
+aprill | GTYPE:gaz_month | G_LEMMA:April | G_NUM_BASE:04 | SURFACE:aprill | G_LANG:EE
+mai | GTYPE:gaz_month | G_LEMMA:May | G_NUM_BASE:05 | SURFACE:mai | G_LANG:EE
+juuni | GTYPE:gaz_month | G_LEMMA:June | G_NUM_BASE:06 | SURFACE:juuni | G_LANG:EE
+juuli | GTYPE:gaz_month | G_LEMMA:July | G_NUM_BASE:07 | SURFACE:juuli | G_LANG:EE
+august | GTYPE:gaz_month | G_LEMMA:August | G_NUM_BASE:08 | SURFACE:august | G_LANG:EE
+september | GTYPE:gaz_month | G_LEMMA:September | G_NUM_BASE:09 | SURFACE:september | G_LANG:EE
+oktoober | GTYPE:gaz_month | G_LEMMA:October | G_NUM_BASE:10 | SURFACE:oktoober | G_LANG:EE
+november | GTYPE:gaz_month | G_LEMMA:November | G_NUM_BASE:11 | SURFACE:november | G_LANG:EE
+detsember | GTYPE:gaz_month | G_LEMMA:December | G_NUM_BASE:12 | SURFACE:detsember | G_LANG:EE
+	
+	
+czerwca | GTYPE:gaz_month | G_LEMMA:czerwiec | G_NUM_BASE:06 | SURFACE:czerwca | G_LANG:PL
+czerwiec | GTYPE:gaz_month | G_LEMMA:czerwiec | G_NUM_BASE:06 | SURFACE:czerwiec | G_LANG:PL
+grudnia | GTYPE:gaz_month | G_LEMMA:grudzień | G_NUM_BASE:12 | SURFACE:grudnia | G_LANG:PL
+grudzień | GTYPE:gaz_month | G_LEMMA:grudzień | G_NUM_BASE:12 | SURFACE:grudzień | G_LANG:PL
+kwiecień | GTYPE:gaz_month | G_LEMMA:kwiecień | G_NUM_BASE:04 | SURFACE:kwiecień | G_LANG:PL
+kwietnia | GTYPE:gaz_month | G_LEMMA:kwiecień | G_NUM_BASE:04 | SURFACE:kwietnia | G_LANG:PL
+lipca | GTYPE:gaz_month | G_LEMMA:lipiec | G_NUM_BASE:07 | SURFACE:lipca | G_LANG:PL
+lipiec | GTYPE:gaz_month | G_LEMMA:lipiec | G_NUM_BASE:07 | SURFACE:lipiec | G_LANG:PL
+listopada | GTYPE:gaz_month | G_LEMMA:listopad | G_NUM_BASE:11 | SURFACE:listopada | G_LANG:PL
+listopad | GTYPE:gaz_month | G_LEMMA:listopad | G_NUM_BASE:11 | SURFACE:listopad | G_LANG:PL
+lutego | GTYPE:gaz_month | G_LEMMA:luty | G_NUM_BASE:02 | SURFACE:lutego | G_LANG:PL
+luty | GTYPE:gaz_month | G_LEMMA:luty | G_NUM_BASE:02 | SURFACE:luty | G_LANG:PL
+maja | GTYPE:gaz_month | G_LEMMA:maj | G_NUM_BASE:05 | SURFACE:maja | G_LANG:PL
+maj | GTYPE:gaz_month | G_LEMMA:maj | G_NUM_BASE:05 | SURFACE:maj | G_LANG:PL
+marca | GTYPE:gaz_month | G_LEMMA:marzec | G_NUM_BASE:03 | SURFACE:marca | G_LANG:PL
+marzec | GTYPE:gaz_month | G_LEMMA:marzec | G_NUM_BASE:03 | SURFACE:marzec | G_LANG:PL
+października | GTYPE:gaz_month | G_LEMMA:październik | G_NUM_BASE:10 | SURFACE:października | G_LANG:PL
+październik | GTYPE:gaz_month | G_LEMMA:październik | G_NUM_BASE:10 | SURFACE:października | G_LANG:PL
+sierpień | GTYPE:gaz_month | G_LEMMA:sierpień | G_NUM_BASE:08 | SURFACE:sierpień | G_LANG:PL
+sierpnia | GTYPE:gaz_month | G_LEMMA:sierpień | G_NUM_BASE:08 | SURFACE:sierpnia | G_LANG:PL
+styczeń | GTYPE:gaz_month | G_LEMMA:styczeń | G_NUM_BASE:01 | SURFACE:styczeń | G_LANG:PL
+stycznia | GTYPE:gaz_month | G_LEMMA:styczeń | G_NUM_BASE:01 | SURFACE:stycznia | G_LANG:PL
+wrzesień | GTYPE:gaz_month | G_LEMMA:wrzesień | G_NUM_BASE:09 | SURFACE:wrzesień | G_LANG:PL
+września | GTYPE:gaz_month | G_LEMMA:wrzesień | G_NUM_BASE:09 | SURFACE:września | G_LANG:PL
+
+złote | GTYPE:gaz_currency | G_LEMMA:pln | SURFACE:złote | G_LANG:PL
+złotych | GTYPE:gaz_currency | G_LEMMA:pln | SURFACE:złotych | G_LANG:PL
+zł. | GTYPE:gaz_currency | G_LEMMA:pln | SURFACE:zł. | G_LANG:PL
+zł | GTYPE:gaz_currency | G_LEMMA:pln | SURFACE:zł | G_LANG:PL
+dolary | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dolary | G_LANG:PL
+dolarów | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dolarów | G_LANG:PL
+dol. | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dol.
+dolary US | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dolary US | G_LANG:PL
+dolarów US | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dolarów US | G_LANG:PL
+dol. US | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dol. US
+dolary amerykańskie | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dolary amerykańskie | G_LANG:PL
+dolarów amerykańskich | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dolarów amerykańskich | G_LANG:PL
+dol. amerykańskich | GTYPE:gaz_currency | G_LEMMA:usd | SURFACE:dol. amerykańskich | G_LANG:PL
+dolary australijskie | GTYPE:gaz_currency | G_LEMMA:aud | SURFACE:dolary australijskie | G_LANG:PL
+dolarów australijskich | GTYPE:gaz_currency | G_LEMMA:aud | SURFACE:dolarów australijskich | G_LANG:PL
+dol. australijskich | GTYPE:gaz_currency | G_LEMMA:aud | SURFACE:dol. australijskich | G_LANG:PL
+dolary kanadyjskie | GTYPE:gaz_currency | G_LEMMA:cad | SURFACE:dolary kanadyjskie | G_LANG:PL
+dolarów kanadyjskich | GTYPE:gaz_currency | G_LEMMA:cad | SURFACE:dolarów kanadyjskich | G_LANG:PL
+dol. kanadyjskich | GTYPE:gaz_currency | G_LEMMA:cad | SURFACE:dol. kanadyjskich | G_LANG:PL
+franki szwajcarskie | GTYPE:gaz_currency | G_LEMMA:chf | SURFACE:franki szwajcarskie | G_LANG:PL
+franków szwajcarskich | GTYPE:gaz_currency | G_LEMMA:chf | SURFACE:franków szwajcarskich | G_LANG:PL
+funty | GTYPE:gaz_currency | G_LEMMA:gbp | SURFACE:funty | G_LANG:PL
+funtów | GTYPE:gaz_currency | G_LEMMA:gbp | SURFACE:funtów | G_LANG:PL
+funty brytyjskie | GTYPE:gaz_currency | G_LEMMA:gbp | SURFACE:funty brytyjskie | G_LANG:PL
+funtów brytyjskich | GTYPE:gaz_currency | G_LEMMA:gbp | SURFACE:funtów brytyjskich | G_LANG:PL
+rubli | GTYPE:gaz_currency | G_LEMMA:rub | SURFACE:rubli | G_LANG:PL
+ruble | GTYPE:gaz_currency | G_LEMMA:rub | SURFACE:ruble | G_LANG:PL
+korony czeskie | GTYPE:gaz_currency | G_LEMMA:czk | SURFACE:korony czeskie | G_LANG:PL
+koron czeskich | GTYPE:gaz_currency | G_LEMMA:czk | SURFACE:koron czeskich | G_LANG:PL
+korony szwedzkie | GTYPE:gaz_currency | G_LEMMA:sek | SURFACE:korony szwedzkie | G_LANG:PL
+koron szwedzkich | GTYPE:gaz_currency | G_LEMMA:sek | SURFACE:koron szwedzkich | G_LANG:PL
+korony duńskie | GTYPE:gaz_currency | G_LEMMA:dkk | SURFACE:korony duńskie | G_LANG:PL
+koron duńskich | GTYPE:gaz_currency | G_LEMMA:dkk | SURFACE:koron duńskich | G_LANG:PL
+korony norweskie | GTYPE:gaz_currency | G_LEMMA:nok | SURFACE:korony norweskie | G_LANG:PL
+koron norweskich | GTYPE:gaz_currency | G_LEMMA:nok | SURFACE:koron norweskich | G_LANG:PL
+korony słowackie | GTYPE:gaz_currency | G_LEMMA:skk | SURFACE:korony słowackie | G_LANG:PL
+koron słowackich | GTYPE:gaz_currency | G_LEMMA:skk | SURFACE:koron słowackich | G_LANG:PL
+korony estońskie | GTYPE:gaz_currency | G_LEMMA:eek | SURFACE:korony estońskie | G_LANG:PL
+koron estońskich | GTYPE:gaz_currency | G_LEMMA:eek | SURFACE:koron estońskich | G_LANG:PL
+korony | GTYPE:gaz_currency | SURFACE:korony | G_LANG:PL
+koron | GTYPE:gaz_currency | SURFACE:koron | G_LANG:PL
+peso | GTYPE:gaz_currency | SURFACE:peso
+riale | GTYPE:gaz_currency | G_LEMMA:sar | SURFACE:riale | G_LANG:PL
+riali | GTYPE:gaz_currency | G_LEMMA:sar | SURFACE:riali | G_LANG:PL
+reale | GTYPE:gaz_currency | G_LEMMA:brl | SURFACE:reale | G_LANG:PL 
+reali | GTYPE:gaz_currency | G_LEMMA:brl | SURFACE:reali | G_LANG:PL
+lewa | GTYPE:gaz_currency | G_LEMMA:bgn | SURFACE:lewa | G_LANG:PL
+juanów | GTYPE:gaz_currency | G_LEMMA:cny | SURFACE:juanów | G_LANG:PL
+juany | GTYPE:gaz_currency | G_LEMMA:cny | SURFACE:juany | G_LANG:PL
+kuny | GTYPE:gaz_currency | G_LEMMA:hrk | SURFACE:kuny | G_LANG:PL
+kun | GTYPE:gaz_currency | G_LEMMA:hrk | SURFACE:kun | G_LANG:PL
+nowe szekele | GTYPE:gaz_currency | G_LEMMA:ils | SURFACE:nowe szekele | G_LANG:PL
+wowych szekeli | GTYPE:gaz_currency | G_LEMMA:ils | SURFACE:wowych szekeli | G_LANG:PL
+jeny | GTYPE:gaz_currency | G_LEMMA:jpy | SURFACE:jeny | G_LANG:PL
+jenów | GTYPE:gaz_currency | G_LEMMA:jpy | SURFACE:jenów | G_LANG:PL
+lity | GTYPE:gaz_currency | G_LEMMA:ltl | SURFACE:lity | G_LANG:PL
+litów | GTYPE:gaz_currency | G_LEMMA:ltl | SURFACE:litów | G_LANG:PL
+lyty | GTYPE:gaz_currency | G_LEMMA:lvl | SURFACE:lyty | G_LANG:PL
+lytów | GTYPE:gaz_currency | G_LEMMA:lvl | SURFACE:lytów | G_LANG:PL
+dinary | GTYPE:gaz_currency | G_LEMMA:csd | SURFACE:dinary | G_LANG:PL
+dinarów | GTYPE:gaz_currency | G_LEMMA:csd | SURFACE:dinarów | G_LANG:PL
+hrywny | GTYPE:gaz_currency | G_LEMMA:uah | SURFACE:hrywny | G_LANG:PL
+hrywien | GTYPE:gaz_currency | G_LEMMA:uah | SURFACE:hrywien | G_LANG:PL
+hrywn | GTYPE:gaz_currency | G_LEMMA:uah | SURFACE:hrywn | G_LANG:PL
+forinty | GTYPE:gaz_currency | G_LEMMA:huf | SURFACE:forinty | G_LANG:PL
+forintów | GTYPE:gaz_currency | G_LEMMA:huf | SURFACE:forintów | G_LANG:PL
+
+евро | GTYPE:gaz_currency | G_LEMMA:eur | SURFACE:евро | G_LANG:BG
+euroa | GTYPE:gaz_currency | G_LEMMA:eur | SURFACE:euroa | G_LANG:FI
+ευρώ | GTYPE:gaz_currency | G_LEMMA:eur | SURFACE:ευρώ | G_LANG:EL
+euró | GTYPE:gaz_currency | G_LEMMA:eur | SURFACE:euró | G_LANG:HU
+евро | GTYPE:gaz_currency | G_LEMMA:eur | SURFACE:euró | G_LANG:RU
+euros | GTYPE:gaz_currency | G_LEMMA:eur | SURFACE:euros | G_LANG:ES
+
+euro | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:eur | SURFACE:euro
+EURO | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:eur | SURFACE:EURO 
+Eur | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:eur | SURFACE:Eur
+
+HKD | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:hkd | SURFACE:HKD
+JPY | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:jpy | SURFACE:JPY
+EUR | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:eur | SURFACE:EUR
+USD | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:usd | SURFACE:USD
+PLN | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:pln | SURFACE:PLN
+SEK | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:sek | SURFACE:SEK
+CHF | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:chf | SURFACE:CHF
+GBP | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:gbp | SURFACE:GBP
+RUB | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:rub | SURFACE:RUB
+CZK | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:czk | SURFACE:CZK
+SAR | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:sar | SURFACE:SAR
+ARS | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:ars | SURFACE:ARS
+AUD | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:aud | SURFACE:AUD
+BRL | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:brl | SURFACE:BRL
+BGN | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:bgn | SURFACE:BGN
+CNY | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:cny | SURFACE:CNY
+HRK | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:hrk | SURFACE:HRK
+CYP | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:cyp | SURFACE:CYP
+DKK | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:dkk | SURFACE:DKK
+EEK | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:eek | SURFACE:EEK
+ILS | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:ils | SURFACE:ILS
+CAD | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:cad | SURFACE:CAD
+LTL | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:ltl | SURFACE:LTL
+LVL | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:lvl | SURFACE:LVL
+NOK | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:nok | SURFACE:NOK
+PEN | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:pen | SURFACE:PEN
+CSD | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:csd | SURFACE:CSD
+SKK | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:skk | SURFACE:SKK
+SIT | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:sit | SURFACE:SIT
+UAH | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:uah | SURFACE:UAH
+VEB | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:veb | SURFACE:VEB
+HUF | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:huf | SURFACE:HUF
+AED | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:aed | SURFACE:AED
+
+hkd | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:hkd | SURFACE:hkd
+jpy | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:jpy | SURFACE:jpy
+eur | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:eur | SURFACE:eur
+usd | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:usd | SURFACE:usd
+pln | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:pln | SURFACE:pln
+sek | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:sek | SURFACE:sek
+chf | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:chf | SURFACE:chf
+gbp | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:gbp | SURFACE:gbp
+rub | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:rub | SURFACE:rub
+czk | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:czk | SURFACE:czk
+sar | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:sar | SURFACE:sar
+ars | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:ars | SURFACE:ars
+aud | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:aud | SURFACE:aud
+brl | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:brl | SURFACE:brl
+bgn | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:bgn | SURFACE:bgn
+cny | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:cny | SURFACE:cny
+hrk | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:hrk | SURFACE:hrk
+cyp | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:cyp | SURFACE:cyp
+dkk | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:dkk | SURFACE:dkk
+eek | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:eek | SURFACE:eek
+ils | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:ils | SURFACE:ils
+cad | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:cad | SURFACE:cad
+ltl | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:ltl | SURFACE:ltl
+lvl | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:lvl | SURFACE:lvl
+nok | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:nok | SURFACE:nok
+pen | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:pen | SURFACE:pen
+csd | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:csd | SURFACE:csd
+skk | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:skk | SURFACE:skk
+sit | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:sit | SURFACE:sit
+uah | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:uah | SURFACE:uah
+veb | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:veb | SURFACE:veb
+huf | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:huf | SURFACE:huf
+aed | GTYPE:gaz_currency | GSUBTYPE:gaz_currency_abbrev | G_LEMMA:aed | SURFACE:aed
+
+1st | GTYPE:gaz_ordinal | G_VAL:1 | SURFACE:1st | G_LANG:EN
+2nd | GTYPE:gaz_ordinal | G_VAL:2 | SURFACE:2nd | G_LANG:EN
+3rd | GTYPE:gaz_ordinal | G_VAL:3 | SURFACE:3rd | G_LANG:EN
+4th | GTYPE:gaz_ordinal | G_VAL:4 | SURFACE:4th | G_LANG:EN
+5th | GTYPE:gaz_ordinal | G_VAL:5 | SURFACE:5th | G_LANG:EN
+6th | GTYPE:gaz_ordinal | G_VAL:6 | SURFACE:6th | G_LANG:EN
+7th | GTYPE:gaz_ordinal | G_VAL:7 | SURFACE:7th | G_LANG:EN
+8th | GTYPE:gaz_ordinal | G_VAL:8 | SURFACE:8th | G_LANG:EN
+9th | GTYPE:gaz_ordinal | G_VAL:9 | SURFACE:9th | G_LANG:EN
+10th | GTYPE:gaz_ordinal |  G_VAL:10 | SURFACE:10th | G_LANG:EN
+11th | GTYPE:gaz_ordinal | G_VAL:11 | SURFACE:11th | G_LANG:EN
+12th | GTYPE:gaz_ordinal | G_VAL:12 | SURFACE:12th | G_LANG:EN
+13th | GTYPE:gaz_ordinal | G_VAL:13 | SURFACE:13th | G_LANG:EN
+14th | GTYPE:gaz_ordinal | G_VAL:14 | SURFACE:14th | G_LANG:EN
+15th | GTYPE:gaz_ordinal | G_VAL:15 | SURFACE:15th | G_LANG:EN
+16th | GTYPE:gaz_ordinal | G_VAL:16 | SURFACE:16th | G_LANG:EN
+17th | GTYPE:gaz_ordinal | G_VAL:17 | SURFACE:17th | G_LANG:EN
+18th | GTYPE:gaz_ordinal | G_VAL:18 | SURFACE:18th | G_LANG:EN
+19th | GTYPE:gaz_ordinal | G_VAL:19 | SURFACE:19th | G_LANG:EN
+20th | GTYPE:gaz_ordinal | G_VAL:20 | SURFACE:20th | G_LANG:EN
+21th | GTYPE:gaz_ordinal | G_VAL:21 | SURFACE:21th | G_LANG:EN
+22th | GTYPE:gaz_ordinal | G_VAL:22 | SURFACE:22th | G_LANG:EN
+23rd | GTYPE:gaz_ordinal | G_VAL:23 | SURFACE:23th | G_LANG:EN
+24th | GTYPE:gaz_ordinal | G_VAL:24 | SURFACE:24th | G_LANG:EN
+25th | GTYPE:gaz_ordinal | G_VAL:25 | SURFACE:25th | G_LANG:EN
+26th | GTYPE:gaz_ordinal | G_VAL:26 | SURFACE:26th | G_LANG:EN
+27th | GTYPE:gaz_ordinal | G_VAL:27 | SURFACE:27th | G_LANG:EN
+28th | GTYPE:gaz_ordinal | G_VAL:28 | SURFACE:28th | G_LANG:EN
+29th | GTYPE:gaz_ordinal | G_VAL:29 | SURFACE:29th | G_LANG:EN
+30th | GTYPE:gaz_ordinal | G_VAL:30 | SURFACE:30th | G_LANG:EN
+31st | GTYPE:gaz_ordinal | G_VAL:31 | SURFACE:31th | G_LANG:EN
+
+million | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:million | G_LEMMA:million | G_LANG:EN
+billion | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:billion | G_LEMMA:billion | G_LANG:EN
+m | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:m | G_LEMMA:million | G_LANG:EN
+bn | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:b | G_LEMMA:billion | G_LANG:EN
+
+милиона | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:милиона | G_LEMMA:милиона | G_LANG:BG
+milioni di | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milioni di | G_LEMMA:milioni | G_LANG:IT
+milione | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milione | G_LEMMA:milione | G_LANG:IT
+milioane de | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milioane de | G_LEMMA:milioane | G_LANG:RO
+Millionen | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:millionen | G_LEMMA:million | G_LANG:DE 
+Million | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:million | G_LEMMA:million | G_LANG:DE 
+
+milijuna | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milijuna | G_LEMMA:milijuna | G_LANG:HR
+milión | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milión | G_LEMMA:milión | G_LANG:CZ
+millioner | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:millioner | G_LEMMA:millioner | G_LANG:DK
+miljoen | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miljoen | G_LEMMA:miljoen | G_LANG:NL
+miljon | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miljon | G_LEMMA:miljon | G_LANG:EE
+miljoona | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miljoona | G_LEMMA:miljoona | G_LANG:EE
+miljoonaa | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miljoonaa | G_LEMMA:miljoonaa | G_LANG:EE
+εκατομμύριο | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:εκατομμύριο | G_LEMMA:εκατομμύριο | G_LANG:EL
+εκατ. | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:εκατ. | G_LEMMA:εκατομμύριο | G_LANG:EL 
+millió | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:millió | G_LEMMA:millió | G_LANG:HU
+milljónir | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milljónir | G_LEMMA:milljónir | G_LANG:IS
+millioner | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:millioner | G_LEMMA:millioner | G_LANG:IS
+miljons | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miljons | G_LEMMA:miljons | G_LANG:LV
+milijonas | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milijonas | G_LEMMA:milijonas | G_LANG:LT
+miljun | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miljun | G_LEMMA:miljun | G_LANG:MT
+milhão | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milhão | G_LEMMA:milhão | G_LANG:PT
+миллиона | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:миллиона | G_LEMMA:миллиона | G_LANG:RU
+млн. | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:млн. | G_LEMMA:миллиона | G_LANG:RU
+milión | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milión | G_LEMMA:milión | G_LANG:SK
+milijonov | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milijonov | G_LEMMA:milijonov | G_LANG:SI
+millón | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:millón | G_LEMMA:millón | G_LANG:ES
+millónes de | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:millónes de | G_LEMMA:millón | G_LANG:ES
+miljoner | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miljoner | G_LEMMA:miljoner | G_LANG:SE
+
+ 
+miliard | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliard | G_LEMMA:miliard | G_LANG:PL
+miliarda | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliarda | G_LEMMA:miliard | G_LANG:PL
+miliardy | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardy | G_LEMMA:miliard | G_LANG:PL
+miliardom | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardom | G_LEMMA:miliard | G_LANG:PL
+miliardowi | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardowi | G_LEMMA:miliard | G_LANG:PL
+miliardem | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardem | G_LEMMA:miliard | G_LANG:PL
+miliardzie | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardzie | G_LEMMA:miliard | G_LANG:PL
+miliardów | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardów | G_LEMMA:miliard | G_LANG:PL
+miliardami | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardami | G_LEMMA:miliard | G_LANG:PL
+miliardach | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:miliardach | G_LEMMA:miliard | G_LANG:PL
+
+milion | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milion | G_LEMMA:milion | G_LANG:PL
+miliona | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miliona | G_LEMMA:milion | G_LANG:PL
+milionowi | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milionowi | G_LEMMA:milion | G_LANG:PL
+milionem | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milionem | G_LEMMA:milion | G_LANG:PL
+milionie | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milionie | G_LEMMA:milion | G_LANG:PL
+miliony | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:miliony | G_LEMMA:milion | G_LANG:PL
+milionom | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milionom | G_LEMMA:milion | G_LANG:PL
+milionami | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milionami | G_LEMMA:milion | G_LANG:PL
+milionach | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milionach | G_LEMMA:milion | G_LANG:PL
+milionów | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:milionów | G_LEMMA:milion | G_LANG:PL
+
+mln | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:mln | G_LEMMA:milion | G_LANG:PL
+mln. | GTYPE:gaz_numberword | G_VAL:1000000 | SURFACE:mln. | G_LEMMA:milion | G_LANG:PL
+mrd | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:mrd | G_LEMMA:miliard | G_LANG:PL
+mrd. | GTYPE:gaz_numberword | G_VAL:1000000000 | SURFACE:mrd. | G_LEMMA:miliard | G_LANG:PL
+
+tys. | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tys. | G_LEMMA:tysiąc | G_LANG:PL
+tysiąc | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiąc | G_LEMMA:tysiąc | G_LANG:PL
+tysiąca | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiąca | G_LEMMA:tysiąc | G_LANG:PL
+tysiącowi | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiącowi | G_LEMMA:tysiąc | G_LANG:PL
+tysiącem | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiącem | G_LEMMA:tysiąc | G_LANG:PL
+tysiącu | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiącu | G_LEMMA:tysiąc | G_LANG:PL
+tysiące | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiące | G_LEMMA:tysiąc | G_LANG:PL
+tysięcom | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiącom | G_LEMMA:tysiąc | G_LANG:PL
+tysiącami | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiącami | G_LEMMA:tysiąc | G_LANG:PL
+tysiącach | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysiącach | G_LEMMA:tysiąc | G_LANG:PL
+tysięcy | GTYPE:gaz_numberword | G_VAL:1000 | SURFACE:tysięcy | G_LEMMA:tysiąc | G_LANG:PL
+
+mol | GTYPE:gaz_measurement | G_M_UNIT:mole | SURFACE:mol 
+Bq | GTYPE:gaz_measurement | G_M_UNIT:becquerelc | SURFACE:Bq
+Ci | GTYPE:gaz_measurement | G_M_UNIT:curie | SURFACE:Ci
+cpm | GTYPE:gaz_measurement | G_M_UNIT:counts per minute | SURFACE:cpm
+rpm | GTYPE:gaz_measurement | G_M_UNIT:revolutions per minute | SURFACE:rpm
+Hz | GTYPE:gaz_measurement | G_M_UNIT:hertz | SURFACE:Hz
+°C | GTYPE:gaz_measurement | G_M_UNIT:celsius | SURFACE:°C
+K | GTYPE:gaz_measurement | G_M_UNIT:kelvin | SURFACE:K
+cal | GTYPE:gaz_measurement | G_M_UNIT:calorie | SURFACE:cal
+kcal | GTYPE:gaz_measurement | G_M_UNIT:kilocalorie | SURFACE:kcal
+J | GTYPE:gaz_measurement | G_M_UNIT:joule | SURFACE:J
+G | GTYPE:gaz_measurement | G_M_UNIT:gauss | SURFACE:G
+A | GTYPE:gaz_measurement | G_M_UNIT:ampere | SURFACE:A
+V | GTYPE:gaz_measurement | G_M_UNIT:volt | SURFACE:V
+
+milimetr | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetr | G_LANG:PL
+milimetra | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetra | G_LANG:PL
+milimetrowi | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetrowi | G_LANG:PL
+milimetrem | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetrem | G_LANG:PL
+milimetrze | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetrze | G_LANG:PL
+centymetr | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetr | G_LANG:PL
+centymetra | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetra | G_LANG:PL
+centymetrowi | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetrowi | G_LANG:PL
+centymetrem | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetrem | G_LANG:PL
+centymetrze | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetrze | G_LANG:PL
+metr | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metr | G_LANG:PL
+metra | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metra | G_LANG:PL
+metrowi | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metrowi | G_LANG:PL
+metrem | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metrem | G_LANG:PL
+metrze | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metrze | G_LANG:PL
+kilometr | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometr | G_LANG:PL
+kilometra | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometra | G_LANG:PL
+kilometrowi | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometrowi | G_LANG:PL
+kilometrem | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometrem | G_LANG:PL
+kilometrze | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometrze | G_LANG:PL
+mm | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:mm
+cm | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:cm
+m | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:m
+km | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:km
+milimetry | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetry | G_LANG:PL
+milimetrami | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetrami | G_LANG:PL
+milimetrom | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetrom | G_LANG:PL
+milimetrach | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetrach | G_LANG:PL
+milimetrów | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:milimeter | SURFACE:milimetrów | G_LANG:PL
+centymetry | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetry | G_LANG:PL
+centymetrami | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetrami | G_LANG:PL
+centymetrom | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetrom | G_LANG:PL
+centymetrach | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetrach | G_LANG:PL
+centymetrów | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:centimeter | SURFACE:centymetrów | G_LANG:PL
+metry | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metry | G_LANG:PL
+metrami | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metrami | G_LANG:PL
+metrom | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metrom | G_LANG:PL
+metrach | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metrach | G_LANG:PL
+metrów | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:meter | SURFACE:metrów | G_LANG:PL
+kilometry | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometry |G_LANG:PL 
+kilometrami | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometrami | G_LANG:PL
+kilometrom | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometrom | G_LANG:PL
+kilometrach | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometrach | G_LANG:PL
+kilometrów | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:kilometer | SURFACE:kilometrów | G_LANG:PL
+milimetr kwadratowy | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetr kwadratowy | G_LANG:PL
+milimetra kwadratowego | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetra kwadratowego | G_LANG:PL
+milimetrowi kwadratowemu | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrowi kwadratowemu | G_LANG:PL
+milimetrem kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrem kwadratowym | G_LANG:PL
+milimetrze kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrze kwadratowym | G_LANG:PL
+centymetr kwadratowy | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetr kwadratowy | G_LANG:PL
+centymetra kwadratowego | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetra kwadratowego | G_LANG:PL
+centymetrowi kwadratowemu | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrowi kwadratowemu | G_LANG:PL
+centymetrem kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrem kwadratowym | G_LANG:PL
+centymetrze kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrze kwadratowym | G_LANG:PL
+metr kwadratowy | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metr kwadratowy | G_LANG:PL
+metra kwadratowego | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metra kwadratowego | G_LANG:PL
+metrowi kwadratowemu | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrowi kwadratowemu | G_LANG:PL
+metrem kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrem kwadratowym | G_LANG:PL
+metrze kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrze kwadratowym | G_LANG:PL
+kilometr kwadratowy | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometr kwadratowy | G_LANG:PL
+kilometra kwadratowego | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometra kwadratowego | G_LANG:PL
+kilometrowi kwadratowemu | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrowi kwadratowemu | G_LANG:PL
+kilometrem kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrem kwadratowym | G_LANG:PL
+kilometrze kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrze kwadratowym | G_LANG:PL
+milimetry kwadratowe | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetry kwadratowe | G_LANG:PL
+milimetrami kwadratowymi | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrami kwadratowymi | G_LANG:PL
+milimetrom kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrom kwadratowym | G_LANG:PL
+milimetrach kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrach kwadratowych | G_LANG:PL
+milimetrów kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrów kwadratowych | G_LANG:PL
+centymetry kwadratowe | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetry kwadratowe | G_LANG:PL
+centymetrami kwadratowymi | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrami kwadratowymi | G_LANG:PL
+centymetrom kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrom kwadratowym | G_LANG:PL
+centymetrach kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrach kwadratowych | G_LANG:PL
+centymetrów kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrów kwadratowych | G_LANG:PL
+metry kwadratowe | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metry kwadratowe | G_LANG:PL
+metrami kwadratowymi | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrami kwadratowymi | G_LANG:PL
+metrom kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrom kwadratowym | G_LANG:PL
+metrach kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrach kwadratowych | G_LANG:PL
+metrów kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrów kwadratowych | G_LANG:PL
+kilometry kwadratowe | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometry kwadratowe | G_LANG:PL
+kilometrami kwadratowymi | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrami kwadratowymi | G_LANG:PL
+kilometrom kwadratowym | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrom kwadratowym | G_LANG:PL
+kilometrach kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrach kwadratowych | G_LANG:PL
+kilometrów kwadratowych | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrów kwadratowych | G_LANG:PL
+milimetr kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetr kwadr. | G_LANG:PL
+milimetra kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetra kwadr. | G_LANG:PL
+milimetrowi kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrowi kwadr. | G_LANG:PL
+milimetrem kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrem kwadr. | G_LANG:PL
+milimetrze kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrze kwadr. | G_LANG:PL
+centymetr kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetr kwadr. | G_LANG:PL
+centymetra kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetra kwadr. | G_LANG:PL
+centymetrowi kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrowi kwadr. | G_LANG:PL
+centymetrem kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrem kwadr. | G_LANG:PL
+centymetrze kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrze kwadr. | G_LANG:PL
+metr kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metr kwadr. | G_LANG:PL
+metra kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metra kwadr. | G_LANG:PL
+metrowi kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrowi kwadr. | G_LANG:PL
+metrem kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrem kwadr. | G_LANG:PL
+metrze kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrze kwadr. | G_LANG:PL
+kilometr kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometr kwadr. | G_LANG:PL
+kilometra kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometra kwadr. | G_LANG:PL
+kilometrowi kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrowi kwadr. | G_LANG:PL
+kilometrem kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrem kwadr. | G_LANG:PL
+kilometrze kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrze kwadr. | G_LANG:PL
+milimetry kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetry kwadr. | G_LANG:PL
+milimetrami kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrami kwadr. | G_LANG:PL
+milimetrom kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrom kwadr. | G_LANG:PL
+milimetrach kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrach kwadr. | G_LANG:PL
+milimetrów kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrów kwadr. | G_LANG:PL
+centymetry kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetry kwadr. | G_LANG:PL
+centymetrami kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrami kwadr. | G_LANG:PL
+centymetrom kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrom kwadr. | G_LANG:PL
+centymetrach kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrach kwadr. | G_LANG:PL
+centymetrów kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrów kwadr. | G_LANG:PL
+metry kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metry kwadr. | G_LANG:PL
+metrami kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrami kwadr. | G_LANG:PL
+metrom kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrom kwadr. | G_LANG:PL
+metrach kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrach kwadr. | G_LANG:PL
+metrów kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrów kwadr. | G_LANG:PL
+kilometry kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometry kwadr. |G_LANG:PL 
+kilometrami kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrami kwadr. | G_LANG:PL
+kilometrom kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrom kwadr. | G_LANG:PL
+kilometrach kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrach kwadr. | G_LANG:PL
+kilometrów kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrów kwadr. | G_LANG:PL
+mm kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:mm kwadr. | G_LANG:PL
+cm kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:cm kwadr. | G_LANG:PL
+m kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:m kwadr. | G_LANG:PL
+km kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:km kwadr. | G_LANG:PL
+mm. kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:mm. kwadr. | G_LANG:PL
+cm. kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:cm. kwadr. | G_LANG:PL
+m. kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:m. kwadr. | G_LANG:PL
+km. kwadr. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:km. kwadr. | G_LANG:PL
+milimetr kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetr kwad. | G_LANG:PL
+milimetra kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetra kwad. | G_LANG:PL
+milimetrowi kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrowi kwad. | G_LANG:PL
+milimetrem kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrem kwad. | G_LANG:PL
+milimetrze kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrze kwad. | G_LANG:PL
+centymetr kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetr kwad. | G_LANG:PL
+centymetra kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetra kwad. | G_LANG:PL
+centymetrowi kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrowi kwad. | G_LANG:PL
+centymetrem kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrem kwad. | G_LANG:PL
+centymetrze kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrze kwad. | G_LANG:PL
+metr kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metr kwad. | G_LANG:PL
+metra kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metra kwad. | G_LANG:PL
+metrowi kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrowi kwad. | G_LANG:PL
+metrem kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrem kwad. | G_LANG:PL
+metrze kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrze kwad. | G_LANG:PL
+kilometr kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometr kwad. | G_LANG:PL
+kilometra kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometra kwad. | G_LANG:PL
+kilometrowi kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrowi kwad. | G_LANG:PL
+kilometrem kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrem kwad. | G_LANG:PL
+kilometrze kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrze kwad. | G_LANG:PL
+milimetry kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetry kwad. | G_LANG:PL
+milimetrami kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrami kwad. | G_LANG:PL
+milimetrom kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrom kwad. | G_LANG:PL
+milimetrach kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrach kwad. | G_LANG:PL
+milimetrów kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrów kwad. | G_LANG:PL
+centymetry kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetry kwad. | G_LANG:PL
+centymetrami kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrami kwad. | G_LANG:PL
+centymetrom kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrom kwad. | G_LANG:PL
+centymetrach kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrach kwad. | G_LANG:PL
+centymetrów kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrów kwad. | G_LANG:PL
+metry kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metry kwad. | G_LANG:PL
+metrami kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrami kwad. | G_LANG:PL
+metrom kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrom kwad. | G_LANG:PL
+metrach kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrach kwad. | G_LANG:PL
+metrów kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrów kwad. | G_LANG:PL
+kilometry kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometry kwad. | G_LANG:PL
+kilometrami kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrami kwad. | G_LANG:PL
+kilometrom kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrom kwad. | G_LANG:PL
+kilometrach kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrach kwad. | G_LANG:PL
+kilometrów kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrów kwad. | G_LANG:PL
+mm kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:mm kwad. | G_LANG:PL
+cm kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:cm kwad. | G_LANG:PL
+m kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:m kwad. | G_LANG:PL
+km kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:km kwad. | G_LANG:PL
+mm. kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:mm. kwad. | G_LANG:PL
+cm. kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:cm. kwad. | G_LANG:PL
+m. kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:m. kwad. | G_LANG:PL
+km. kwad. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:km. kwad. | G_LANG:PL
+milimetr kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetr kw. | G_LANG:PL
+milimetra kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetra kw. | G_LANG:PL
+milimetrowi kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrowi kw. | G_LANG:PL
+milimetrem kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrem kw. | G_LANG:PL
+milimetrze kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrze kw. | G_LANG:PL
+centymetr kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetr kw. | G_LANG:PL
+centymetra kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetra kw. | G_LANG:PL
+centymetrowi kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrowi kw. | G_LANG:PL
+centymetrem kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrem kw. | G_LANG:PL
+centymetrze kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrze kw. | G_LANG:PL
+metr kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metr kw. | G_LANG:PL
+metra kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metra kw. | G_LANG:PL
+metrowi kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrowi kw. | G_LANG:PL
+metrem kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrem kw. | G_LANG:PL
+metrze kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrze kw. | G_LANG:PL
+kilometr kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometr kw. | G_LANG:PL
+kilometra kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometra kw. | G_LANG:PL
+kilometrowi kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrowi kw. | G_LANG:PL
+kilometrem kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrem kw. | G_LANG:PL
+kilometrze kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrze kw. | G_LANG:PL
+milimetry kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetry kw. | G_LANG:PL
+milimetrami kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrami kw. | G_LANG:PL
+milimetrom kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrom kw. | G_LANG:PL
+milimetrach kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrach kw. | G_LANG:PL
+milimetrów kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:milimetrów kw. | G_LANG:PL
+centymetry kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetry kw. | G_LANG:PL
+centymetrami kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrami kw. | G_LANG:PL
+centymetrom kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrom kw. | G_LANG:PL
+centymetrach kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrach kw. | G_LANG:PL
+centymetrów kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:centymetrów kw. | G_LANG:PL
+metry kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metry kw. | G_LANG:PL
+metrami kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrami kw. | G_LANG:PL
+metrom kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrom kw. | G_LANG:PL
+metrach kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrach kw. | G_LANG:PL
+metrów kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:metrów kw. | G_LANG:PL
+kilometry kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometry kw. |G_LANG:PL 
+kilometrami kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrami kw. | G_LANG:PL
+kilometrom kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrom kw. | G_LANG:PL
+kilometrach kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrach kw. | G_LANG:PL
+kilometrów kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:kilometrów kw. | G_LANG:PL
+mm kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:mm kw. | G_LANG:PL
+cm kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:cm kw. | G_LANG:PL
+m kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:m kw. | G_LANG:PL
+km kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:km kw. | G_LANG:PL
+mm. kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:mm. kw. | G_LANG:PL
+cm. kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:cm. kw. | G_LANG:PL
+m. kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:m. kw. | G_LANG:PL
+km. kw. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:km. kw. | G_LANG:PL
+mm2 | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:milimeter2 | SURFACE:mm2
+cm2 | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:centimeter2 | SURFACE:cm2 
+m2 | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:meter2 | SURFACE:m2 
+km2 | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:kilometer2 | SURFACE:km2 
+milimetr sześcienny | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetr sześcienny | G_LANG:PL
+milimetra sześciennego | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetra sześciennego | G_LANG:PL
+milimetrowi sześciennemu | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrowi sześciennemu | G_LANG:PL
+milimetrem sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrem sześciennym | G_LANG:PL
+milimetrze sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrze sześciennym | G_LANG:PL
+centymetr sześcienny | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetr sześcienny | G_LANG:PL
+centymetra sześciennego | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetra sześciennego | G_LANG:PL
+centymetrowi sześciennemu | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrowi sześciennemu | G_LANG:PL
+centymetrem sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrem sześciennym | G_LANG:PL
+centymetrze sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrze sześciennym | G_LANG:PL
+metr sześcienny | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metr sześcienny | G_LANG:PL
+metra sześciennego | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metra sześciennego | G_LANG:PL
+metrowi sześciennemu | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrowi sześciennemu | G_LANG:PL
+metrem sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrem sześciennym | G_LANG:PL
+metrze sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrze sześciennym | G_LANG:PL
+kilometr sześcienny | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometr sześcienny | G_LANG:PL
+kilometra sześciennego | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometra sześciennego | G_LANG:PL
+kilometrowi sześciennemu | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrowi sześciennemu | G_LANG:PL
+kilometrem sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrem sześciennym | G_LANG:PL
+kilometrze sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrze sześciennym | G_LANG:PL
+milimetry sześcienne | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetry sześcienne | G_LANG:PL
+milimetrami sześciennymi | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrami sześciennymi | G_LANG:PL
+milimetrom sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrom sześciennym | G_LANG:PL
+milimetrach sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrach sześciennych | G_LANG:PL
+milimetrów sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrów sześciennych | G_LANG:PL
+centymetry sześcienne | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetry sześcienne | G_LANG:PL
+centymetrami sześciennymi | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrami sześciennymi | G_LANG:PL
+centymetrom sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrom sześciennym | G_LANG:PL
+centymetrach sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrach sześciennych | G_LANG:PL
+centymetrów sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrów sześciennych | G_LANG:PL
+metry sześcienne | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metry sześcienne | G_LANG:PL
+metrami sześciennymi | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrami sześciennymi | G_LANG:PL
+metrom sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrom sześciennym | G_LANG:PL
+metrach sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrach sześciennych | G_LANG:PL
+metrów sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrów sześciennych | G_LANG:PL
+kilometry sześcienne | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometry sześcienne | G_LANG:PL
+kilometrami sześciennymi | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrami sześciennymi | G_LANG:PL
+kilometrom sześciennym | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrom sześciennym | G_LANG:PL
+kilometrach sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrach sześciennych | G_LANG:PL
+kilometrów sześciennych | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrów sześciennych | G_LANG:PL
+milimetr sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetr sześć. | G_LANG:PL
+milimetra sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetra sześć. | G_LANG:PL
+milimetrowi sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrowi sześć. | G_LANG:PL
+milimetrem sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrem sześć. | G_LANG:PL
+milimetrze sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrze sześć. | G_LANG:PL
+centymetr sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetr sześć. | G_LANG:PL
+centymetra sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetra sześć. | G_LANG:PL
+centymetrowi sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrowi sześć. | G_LANG:PL
+centymetrem sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrem sześć. | G_LANG:PL
+centymetrze sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrze sześć. | G_LANG:PL
+metr sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metr sześć. | G_LANG:PL
+metra sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metra sześć. | G_LANG:PL
+metrowi sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrowi sześć. | G_LANG:PL
+metrem sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrem sześć. | G_LANG:PL
+metrze sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrze sześć. | G_LANG:PL
+kilometr sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometr sześć. | G_LANG:PL
+kilometra sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometra sześć. | G_LANG:PL
+kilometrowi sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrowi sześć. | G_LANG:PL
+kilometrem sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrem sześć. | G_LANG:PL
+kilometrze sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrze sześć. | G_LANG:PL
+milimetry sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetry sześć. | G_LANG:PL
+milimetrami sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrami sześć. | G_LANG:PL
+milimetrom sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrom sześć. | G_LANG:PL
+milimetrach sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrach sześć. | G_LANG:PL
+milimetrów sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:milimetrów sześć. | G_LANG:PL
+centymetry sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetry sześć. | G_LANG:PL
+centymetrami sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrami sześć. | G_LANG:PL
+centymetrom sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrom sześć. | G_LANG:PL
+centymetrach sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrach sześć. | G_LANG:PL
+centymetrów sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:centymetrów sześć. | G_LANG:PL
+metry sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metry sześć. | G_LANG:PL
+metrami sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrami sześć. | G_LANG:PL
+metrom sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrom sześć. | G_LANG:PL
+metrach sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrach sześć. | G_LANG:PL
+metrów sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:metrów sześć. | G_LANG:PL
+kilometry sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometry sześć. | G_LANG:PL 
+kilometrami sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrami sześć. | G_LANG:PL
+kilometrom sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrom sześć. | G_LANG:PL
+kilometrach sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrach sześć. | G_LANG:PL
+kilometrów sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:kilometrów sześć. | G_LANG:PL
+mm sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:mm sześć. | G_LANG:PL
+cm sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:cm sześć. | G_LANG:PL
+m sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:m sześć. | G_LANG:PL
+km sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:km sześć. | G_LANG:PL
+mm. sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:mm. sześć. | G_LANG:PL
+cm. sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:cm. sześć. | G_LANG:PL
+m. sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:m. sześć. | G_LANG:PL
+km. sześć. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:km. sześć. | G_LANG:PL
+mm3 | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:milimeter3 | SURFACE:mm3
+cm3 | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:centimeter3 | SURFACE:cm3
+m3 | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:meter3 | SURFACE:m3
+km3 | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:kilometer3 | SURFACE:km3
+metr na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metr na sekundę | G_LANG:PL
+metra na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metra na sekundę | G_LANG:PL
+metrowi na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metrowi na sekundę | G_LANG:PL
+metrem na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metrem na sekundę | G_LANG:PL
+metrze na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metrze na sekundę | G_LANG:PL
+metry na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metry na sekundę | G_LANG:PL
+metrami na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metrami na sekundę | G_LANG:PL
+metrom na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metrom na sekundę | G_LANG:PL
+metrach na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metrach na sekundę | G_LANG:PL
+metrów na sekundę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:metrów na sekundę | G_LANG:PL
+kilometr na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:kilometr na godzinę | G_LANG:PL
+kilometra na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometra na godzinę | G_LANG:PL
+kilometrowi na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometrowi na godzinę | G_LANG:PL
+kilometrem na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometrem na godzinę | G_LANG:PL
+kilometrze na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometrze na godzinę | G_LANG:PL
+kilometry na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometry na godzinę | G_LANG:PL
+kilometrami na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometrami na godzinę | G_LANG:PL
+kilometrom na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometrom na godzinę | G_LANG:PL
+kilometrach na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometrach na godzinę | G_LANG:PL
+kilometrów na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:kilometrów na godzinę | G_LANG:PL
+km/h | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:km/h
+km na godz. | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:km na godz. | G_LANG:PL
+km. na godz. | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:km. na godz. | G_LANG:PL
+km/godz. | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:km/godz. | G_LANG:PL
+km/godz | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:km/godz | G_LANG:PL
+km. na godzinę | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:km-h | SURFACE:km. na godzinę | G_LANG:PL
+m/s | GTYPE:gaz_measurement | G_M_TYPE:speed | G_M_UNIT:m-s | SURFACE:m/s 
+stopa | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:foot | SURFACE:stopa | G_LANG:PL
+stopy | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:foot | SURFACE:stopy | G_LANG:PL
+stóp | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:foot | SURFACE:stóp | G_LANG:PL
+cal | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:inch | SURFACE:cal | G_LANG:PL
+cala | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:inch | SURFACE:cala | G_LANG:PL
+cali | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:inch | SURFACE:cali | G_LANG:PL
+calem | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:inch | SURFACE:calem | G_LANG:PL
+cale | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:inch | SURFACE:cale | G_LANG:PL
+calami | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:inch | SURFACE:calami | G_LANG:PL
+yard | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:yard | SURFACE:yard 
+jard | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:yard | SURFACE:jard | G_LANG:PL
+jarda | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:yard | SURFACE:jarda | G_LANG:PL
+jardem | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:yard | SURFACE:jardem | G_LANG:PL
+jardów | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:yard | SURFACE:jardów | G_LANG:PL
+jardom | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:yard | SURFACE:jardom | G_LANG:PL
+jardami | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:yard | SURFACE:jardami | G_LANG:PL
+mila | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:mila | G_LANG:PL
+mili | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:mili | G_LANG:PL
+milą | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:milą | G_LANG:PL
+mile | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:mile | G_LANG:PL
+milami | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:milami | G_LANG:PL
+milach | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:milach | G_LANG:PL
+milom | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:milom | G_LANG:PL
+mil | GTYPE:gaz_measurement | G_M_TYPE:physical_extent | G_M_UNIT:mile | SURFACE:mil | G_LANG:PL
+kilogram | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogram | 
+kilograma | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilograma | G_LANG:PL
+kilogramowi | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramowi | G_LANG:PL
+kilogramem | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramem | G_LANG:PL
+kilogramie | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramie | G_LANG:PL
+kilogramy | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramy | G_LANG:PL
+kilogramów | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramów | G_LANG:PL
+kilogramom | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramom | G_LANG:PL
+kilogramach | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramach | G_LANG:PL
+kilogramami | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kilogramami | G_LANG:PL
+kg | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kg
+kg. | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:kilogram | SURFACE:kg.
+gram | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gram | 
+grama | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:grama | G_LANG:PL
+gramowi | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramowi | G_LANG:PL
+gramem | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramem | G_LANG:PL
+gramie | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramie | G_LANG:PL
+gramy | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramy | G_LANG:PL
+gramów | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramów | G_LANG:PL
+gramach | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramach | G_LANG:PL
+gramom | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramom | G_LANG:PL
+gramami | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:gramami | G_LANG:PL
+g. | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:g.
+g | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:gram | SURFACE:g
+miligram | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligram | 
+miligrama | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligrama | G_LANG:PL
+miligramowi | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramowi | G_LANG:PL
+miligramem | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramem | G_LANG:PL
+miligramie | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramie | G_LANG:PL
+miligramy | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramy | G_LANG:PL
+miligramów | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramów | G_LANG:PL
+miligramom | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramom | G_LANG:PL
+miligramach | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramach | G_LANG:PL
+miligramami | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:miligramami | G_LANG:PL
+mg. | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:mg.
+mg | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:miligram | SURFACE:mg
+dekagram | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagram | 
+dekagrama | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagrama | G_LANG:PL
+dekagramowi | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramowi | G_LANG:PL
+dekagramem | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramem | G_LANG:PL
+dekagramie | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramie | G_LANG:PL
+dekagramy | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramy | G_LANG:PL
+dekagramów | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramów | G_LANG:PL
+dekagramach | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramach | G_LANG:PL
+dekagramom | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramom | G_LANG:PL
+dekagramami | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dekagramami | G_LANG:PL
+dkg. | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dkg.
+dkg | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:decagram | SURFACE:dkg
+tona | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tona | G_LANG:PL
+ton | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:ton | G_LANG:PL
+tony | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tony | G_LANG:PL
+tonę | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tonę | G_LANG:PL
+toną | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:toną | G_LANG:PL
+tonie | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tonie | G_LANG:PL
+tony | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tony | G_LANG:PL
+tonami | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tonami | G_LANG:PL
+tonom | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tonom | G_LANG:PL
+tonach | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tonach | G_LANG:PL
+tonami | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:tonami | G_LANG:PL
+t | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:tone | SURFACE:t | G_LANG:PL
+kwintal | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwintal | G_LANG:PL
+kwintali | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwintali | G_LANG:PL 
+kwintala | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwintala | G_LANG:PL
+kwintalem | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwintalem | G_LANG:PL
+kwintalu | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwintalu | G_LANG:PL
+kwinatalami | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwinatalami | G_LANG:PL
+kwinatalom | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwinatalom | G_LANG:PL
+kwintale | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwintale | G_LANG:PL
+kwintalach | GTYPE:gaz_measurement | G_M_TYPE:weight | G_M_UNIT:quintal | SURFACE:kwintalach | G_LANG:PL
+ar | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:ar | G_LANG:PL
+arem | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:arem | G_LANG:PL
+arowi | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:arowi | G_LANG:PL
+arów | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:arów | G_LANG:PL
+ary | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:ary | G_LANG:PL
+arami | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:arami | G_LANG:PL
+arom | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:arom | G_LANG:PL
+arach | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:ar | SURFACE:arach | G_LANG:PL
+hektar | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektar | G_LANG:PL
+hektara | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektara | G_LANG:PL
+hektarowi | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektarowi | G_LANG:PL
+hektarem | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektarem | G_LANG:PL
+hektarze | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektarze | G_LANG:PL
+hektary | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektary | G_LANG:PL
+hektarami | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektarami | G_LANG:PL
+hektarów | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektarów | G_LANG:PL
+hektarom | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektarom | G_LANG:PL
+hektarach | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hektarach | G_LANG:PL
+hekt. | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hekt. | G_LANG:PL
+hekt | GTYPE:gaz_measurement | G_M_TYPE:space | G_M_UNIT:hectar | SURFACE:hekt | G_LANG:PL
+litr | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litr | G_LANG:PL
+litra | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litra | G_LANG:PL
+litrem | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litrem | G_LANG:PL
+litrowi | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litrowi | G_LANG:PL
+litrze | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litrze | G_LANG:PL
+litry | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litry | G_LANG:PL
+litrami | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litrami | G_LANG:PL
+litrom | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litrom | G_LANG:PL
+litrach | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litrach | G_LANG:PL
+litrów | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:litrów | G_LANG:PL
+l | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:l
+l. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:liter | SURFACE:l.
+mililitr | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitr 
+mililitra | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitra | G_LANG:PL
+mililitrem | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitrem | G_LANG:PL
+mililitrowi | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitrowi | G_LANG:PL
+mililitrze | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitrze | G_LANG:PL
+mililitry | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitry | G_LANG:PL
+mililitrami | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitrami | G_LANG:PL
+mililitrom | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitrom | G_LANG:PL
+mililitrach | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitrach | G_LANG:PL
+mililitrów | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:mililitrów | G_LANG:PL
+ml | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:ml
+ml. | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:mililiter | SURFACE:ml.
+galon | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galon | 
+galona | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galona | G_LANG:PL
+galonem | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galonem | G_LANG:PL
+galonowi | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galonowi | G_LANG:PL
+galonie | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galonie | G_LANG:PL
+galony | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galony | G_LANG:PL
+galonom | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galonom | G_LANG:PL
+galonami | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galonami | G_LANG:PL
+galonach | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galonach | G_LANG:PL
+galonów | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:galon | SURFACE:galonów | G_LANG:PL
+baryłka | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłka | G_LANG:PL
+baryłki | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłki | G_LANG:PL
+baryłce | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłce | G_LANG:PL
+baryłką | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłką | G_LANG:PL
+baryłkę | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłkę | G_LANG:PL
+baryłki | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłki | G_LANG:PL
+baryłkom | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłkom | G_LANG:PL
+baryłkach | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłkach | G_LANG:PL
+baryłkami | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłkami | G_LANG:PL
+baryłek | GTYPE:gaz_measurement | G_M_TYPE:volume | G_M_UNIT:barrel | SURFACE:baryłek | G_LANG:PL
+
+

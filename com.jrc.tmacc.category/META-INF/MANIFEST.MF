@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TMACC OSINT Box CategoryMatcher-Node
+Bundle-SymbolicName: com.jrc.tmacc.category; singleton:=true
+Bundle-Version: 1.0.1.qualifier
+Bundle-ClassPath: categorymatcher.jar
+Bundle-Activator: com.jrc.tmacc.category.CategoryMatcherNodePlugin
+Bundle-Vendor: 
+ JRC I.3
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base,
+ org.knime.ext.textprocessing,
+ it.jrc.category
+Bundle-ActivationPolicy: lazy
+Export-Package: com.jrc.tmacc.category;
+  uses:="org.osgi.framework,
+   org.eclipse.core.runtime,
+   org.knime.core.node.defaultnodesettings,
+   org.knime.core.node"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.jrc.tmacc.category
+

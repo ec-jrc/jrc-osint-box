@@ -1,0 +1,3 @@
+{Sobota=7, Út=3, Pátek=6, Středa=4, Čtvrtek=5, Čt=5, Po=2, Pá=6, So=7, Úterý=3, Neděle=1, Ne=1, Pondělí=2, St=4}
+{II=1, červen=5, prosinec=11, VIII=7, duben=3, VII=6, XI=10, I=0, IV=3, VI=5, srpen=7, IX=8, leden=0, březen=2, V=4, listopad=10, září=8, červenec=6, květen=4, říjen=9, III=2, X=9, XII=11, únor=1}
+{odp.=1, dop.=0}

@@ -1,0 +1,3 @@
+{mer.=4, sam.=7, lun.=2, vendredi=6, jeu.=5, dimanche=1, samedi=7, mercredi=4, dim.=1, mardi=3, ven.=6, mar.=3, jeudi=5, lundi=2}
+{juillet=6, décembre=11, avril=3, juil.=6, déc.=11, février=1, juin=5, août=7, sept.=8, octobre=9, avr.=3, janv.=0, mai=4, mars=2, septembre=8, janvier=0, nov.=10, novembre=10, oct.=9, févr.=1}
+{PM=1, AM=0}

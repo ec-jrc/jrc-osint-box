@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./timelines.png" type="Manipulator" xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+    <name>Timelines</name>
+    
+    <shortDescription>
+        Extract timelines concerning a specified entity from input data
+    </shortDescription>
+    
+    <fullDescription>
+        <intro>
+        	Timelines tool takes as an input an arbitrary collection of free text documents 
+        	(e.g., news articles,wikipedia pages, etc.) and for a given target entity profile
+        	 (consisting of a canonical form, name variants,gender and type information, etc.) 
+        	 computes a sequence of so called "timeline items", each consisting of,i.a.:
+        	 <br/>        	 
+        	 <br/> - a sentence where the target entity was mentioned
+        	 <br/> - a mention of an open-domain event (e.g. "has purchased", "has met with", "resignation", etc) in that sentence in which the target entity potentially participated
+			 <br/> - a coarse-grained generic event category(ies) (e.g.,Birth,Ownership,Law-related,Statement,etc.)
+			 <br/> - mentions of related entities in the same sentence
+			 <br/> - time stamp of the event (if relevant information is available in the document context)
+			 <br/> - more fine-grained information on the event itself, e.g. boolean flag specifying whether the target entity is participant in the event
+			 <br/> - creation date of the document from which the event was extracted and other document-related meta-data
+			<br/><br/>
+			It is possible to configure the timelines extraction, but this is recommended only for expert users
+        </intro>
+        
+     <option name="Enter the path for the Entities Profile file">a path to the file with the target entity profile ( a definition of the entity)</option>
+     <option name="Select the column to be analyzed">the column of the input table to be analyzed - always make sure the select one</option>
+	<option name="Insert missing value if no results">Tick for having missing values treated as KNIME Missing Value; empty String otherwise</option>
+	<option name="Include advanced JSON output">Tick for including the whole JSON format output, with more details</option>
+	<option name="Include Target Entity">Tick for including the target entity in the results</option>     
+
+ 
+    <option name= "Specify whether extended matching will be used to match an expanded version of the match (true)">
+	    Specify whether extended matching will be used to match an expanded version of the match e.g.," The European Commission" instead of "Commission"</option>
+	 <option name= "Anaphora resolver (true)">
+	    Attribute that specifies whether anaphora resolution component will be used
+	 </option>
+	 <option name= "Specify whether applying additional heuristics to filter out guessed entities (true)">
+	    Attribute which specifies whether guessing heuristics will be used by the Related Entity Recognizer
+	 </option> 
+	 <option name= "Specify whether trimming first item in the sentence (true)">
+	    Attribute that specifies whether first item in the sentence should undergo trimming (stopword removal)
+	 </option>
+	 <option name= "Apply POS Tagger to discard unplausible event groups (true)">
+	    Attribute that specifies whether POS Tagger will be used to discard implausible event groups
+	 </option> 
+	 <option name= "Specify whether fuzzy matching will be used by the Entity Matcher (true)">
+	    Attribute specifying whether fuzzy matching will be used by the Entity Matcher (using some string distance metrics)
+	 </option>
+	 <option name= "Maximum distance to consider a fuzzy match as a mention of the target entity (0.25)">
+	    Specifies the maximum allowed distance for a candidate string to be considered a variant of the target entity
+	 </option> 
+	 <option name= "Specify the string distance metric to be used (WeightedLongestCommonSubstrings)">
+	    Specifies the string distance metric to be used for fuzzy matching. 
+	    Possible values are "Levenshtein", "MongeElkan", "LongestCommonSubstrings", "WeightedLongestCommonSubstrings"
+	 </option> 
+	<!-- <option name= "ENTITY.MATCHER.FUZZYMATCHING.METRIC.PARAMETERS">
+	    specifies additional parameters (if applicable) of the string distance metric used
+	 </option> -->
+	 
+	<!-- <option name= "ENTITY.MATCHER.FILTERINGHEURISTICS">
+	    specifies whether filtering heuristics will be used
+	 </option> --> 	 
+	 <option name= "Specify the event duplicate removal strategy (complex)">
+	    Specifies the strategy to be used when removing event duplicates.
+	    Available options are: simple, simple-aggressive, moderate, complex, and none)
+	 </option> 	 
+	 <option name="Language"> language (2-letter iso code) -"en", "fr", "de","es","it"</option> 
+	 
+ 
+       
+         <!-- possibly more options that can also be grouped by tabs -->
+        <!--
+        <tab name="Standard Options">
+            <option name="short name of first option (like in the dialog)">description of first option</option>
+            <option name="short name of second option (like in the dialog)">description of second option</option>
+        </tab>
+        <tab name="Advanced Options">
+            <option name="short name of first advanced option (like in the dialog)">description of first advanced option</option>
+        </tab>
+        -->
+    </fullDescription>
+    
+    <ports>
+        <inPort index="0" name="Input">A table containing at least a String column to analyze</inPort>
+        <!--<inPort index="1" name="Entity" >The input table which contains formatted Entity.</inPort>-->
+        <!-- possibly more input ports here-->
+        <outPort index="0" name="Results">The input table, with an added column with the sentences in which the entity was detected.
+         Possible further columns include a full detailled JSON output and the target entity</outPort>
+        <!-- possibly more output ports here-->
+    </ports>    
+    <!--<views>
+        <view index="0" name="name of first view">Description of first view...</view>
+        <view index="1" name="name of second view">Description of second view...</view>
+    </views>-->
+</knimeNode>

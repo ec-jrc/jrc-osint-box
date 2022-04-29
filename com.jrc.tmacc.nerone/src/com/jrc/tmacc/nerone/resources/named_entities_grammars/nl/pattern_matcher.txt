@@ -1,0 +1,3057 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-nl.txt
+# content : PM lexicon for grammatical units (Dutch)
+# date	  : April 2012
+# author  : M. Ehrmann
+#**********************************************
+
+
+die | GTYPE>article
+een | GTYPE>article
+de | GTYPE>article
+het | GTYPE>article
+
+van | GTYPE>prep_for_position 
+voor | GTYPE>prep_for_position 
+de | GTYPE>prep_for_position 
+en | GTYPE>prep_for_position 
+
+en | GTYPE>coordination#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : location_names-nl.txt
+# content : PM lexicon for Dutch location names 
+# date	  : March 2012
+# author  : M. Ehrmann
+# *********
+# GTYPE	  	: location
+# GSUBTYPE	: countryName|regionName|provinceName|countryCapital|regionCapital|provinceCapital
+# This file has been produced from data provided by Stefano Bucci
+# original file: locationNamesFromSBucci.txt in /lexiconSourceFiles
+# the loc names in this file had the tag "nl"  in the original one.
+# N.B.: a lot of entries should be in location_names.txt
+#**********************************************
+
+
+
+Albanië | GTYPE>location | SUBTYPE> countryName
+Algerije | GTYPE>location | SUBTYPE> countryName
+Antigua en Barbuda | GTYPE>location | SUBTYPE> countryName
+Argentinië | GTYPE>location | SUBTYPE> countryName
+Armenië | GTYPE>location | SUBTYPE> countryName
+Australië | GTYPE>location | SUBTYPE> countryName
+Oostenrijk | GTYPE>location | SUBTYPE> countryName
+Azerbeidzjan | GTYPE>location | SUBTYPE> countryName
+Bahama's | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Bahama['´’‘`]s)
+Bahama’s | GTYPE>location | SUBTYPE> countryName
+Bahrein | GTYPE>location | SUBTYPE> countryName
+Wit-Rusland | GTYPE>location | SUBTYPE> countryName
+België | GTYPE>location | SUBTYPE> countryName
+Koninkrijk België | GTYPE>location | SUBTYPE> countryName
+Brunei Darussalam | GTYPE>location | SUBTYPE> countryName
+Bouveteiland | GTYPE>location | SUBTYPE> countryName
+Brazilië | GTYPE>location | SUBTYPE> countryName
+Brits Territorium in de Indische Oceaan | GTYPE>location | SUBTYPE> countryName
+Britse Maagdeneilanden | GTYPE>location | SUBTYPE> countryName
+Bulgarije | GTYPE>location | SUBTYPE> countryName
+Burkina Faso | GTYPE>location | SUBTYPE> countryName
+Cambodja | GTYPE>location | SUBTYPE> countryName
+Kameroen | GTYPE>location | SUBTYPE> countryName
+Kaapverdië | GTYPE>location | SUBTYPE> countryName
+Caymaneilanden | GTYPE>location | SUBTYPE> countryName
+Centraal-Afrikaanse Republiek | GTYPE>location | SUBTYPE> countryName
+Tsjaad | GTYPE>location | SUBTYPE> countryName
+Chili | GTYPE>location | SUBTYPE> countryName
+Volksrepubliek China | GTYPE>location | SUBTYPE> countryName
+Christmaseiland | GTYPE>location | SUBTYPE> countryName
+Comoren | GTYPE>location | SUBTYPE> countryName
+Congo | GTYPE>location | SUBTYPE> countryName
+Congo-Brazzaville | GTYPE>location | SUBTYPE> countryName
+Ivoorkust | GTYPE>location | SUBTYPE> countryName
+Kroatië | GTYPE>location | SUBTYPE> countryName
+Tsjechië | GTYPE>location | SUBTYPE> countryName
+Zuid-Korea | GTYPE>location | SUBTYPE> countryName
+Korea, Democratische Volksrepubliek | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Korea, Democratische Volksrepubliek)
+Korea, Republiek | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Korea, Republiek)
+Noord-Korea | GTYPE>location | SUBTYPE> countryName
+Congo-Brazzaville | GTYPE>location | SUBTYPE> countryName
+Congo-Kinshasa | GTYPE>location | SUBTYPE> countryName
+Congo, Democratische Republiek | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Congo, Democratische Republiek)
+Congo | GTYPE>location | SUBTYPE> countryName
+Denemarken | GTYPE>location | SUBTYPE> countryName
+Dominicaanse Republiek | GTYPE>location | SUBTYPE> countryName
+Dominicaanse Republiek | GTYPE>location | SUBTYPE> countryName
+Equatoriaal-Guinea | GTYPE>location | SUBTYPE> countryName
+Estland | GTYPE>location | SUBTYPE> countryName
+Ethiopië | GTYPE>location | SUBTYPE> countryName
+Falklandeilanden | GTYPE>location | SUBTYPE> countryName
+Faeröer | GTYPE>location | SUBTYPE> countryName
+Frankrijk | GTYPE>location | SUBTYPE> countryName
+Frans-Guyana | GTYPE>location | SUBTYPE> countryName
+Georgië | GTYPE>location | SUBTYPE> countryName
+Duitsland | GTYPE>location | SUBTYPE> countryName
+Griekenland | GTYPE>location | SUBTYPE> countryName
+Groenland | GTYPE>location | SUBTYPE> countryName
+Guinee-Bissau | GTYPE>location | SUBTYPE> countryName
+Guinee | GTYPE>location | SUBTYPE> countryName
+Papoea-Nieuw-Guinea | GTYPE>location | SUBTYPE> countryName
+Haïti | GTYPE>location | SUBTYPE> countryName
+Heard- en McDonaldeilanden | GTYPE>location | SUBTYPE> countryName
+Hongarije | GTYPE>location | SUBTYPE> countryName
+Pitcairn | GTYPE>location | SUBTYPE> countryName
+IJsland | GTYPE>location | SUBTYPE> countryName
+Indonesië | GTYPE>location | SUBTYPE> countryName
+Iran  | GTYPE>location | SUBTYPE> countryName 
+Iran (Islamitische Republiek) | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Iran \(Islamitische Republiek\))
+Ierland | GTYPE>location | SUBTYPE> countryName
+Man | GTYPE>location | SUBTYPE> countryName
+Israël | GTYPE>location | SUBTYPE> countryName
+Italië | GTYPE>location | SUBTYPE> countryName
+Jordanië | GTYPE>location | SUBTYPE> countryName
+Kazachstan | GTYPE>location | SUBTYPE> countryName
+Koeweit | GTYPE>location | SUBTYPE> countryName
+Kirgizstan | GTYPE>location | SUBTYPE> countryName
+Kirgizië | GTYPE>location | SUBTYPE> countryName
+Letland | GTYPE>location | SUBTYPE> countryName
+Libanon | GTYPE>location | SUBTYPE> countryName
+Libische Arabische Republiek | GTYPE>location | SUBTYPE> countryName
+Libië | GTYPE>location | SUBTYPE> countryName
+Litouwen | GTYPE>location | SUBTYPE> countryName
+Luxemburg | GTYPE>location | SUBTYPE> countryName
+Macao | GTYPE>location | SUBTYPE> countryName
+Madagaskar | GTYPE>location | SUBTYPE> countryName
+Maleisië | GTYPE>location | SUBTYPE> countryName
+Maldiven | GTYPE>location | SUBTYPE> countryName
+Marshalleilanden | GTYPE>location | SUBTYPE> countryName
+Mauritanië | GTYPE>location | SUBTYPE> countryName
+Micronesië, Federale Staten van | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Micronesië, Federale Staten van)
+Mongolië | GTYPE>location | SUBTYPE> countryName
+Marokko | GTYPE>location | SUBTYPE> countryName
+Namibië | GTYPE>location | SUBTYPE> countryName
+Nederland | GTYPE>location | SUBTYPE> countryName
+Koninkrijk der Nederlanden | GTYPE>location | SUBTYPE> countryName
+Nieuw-Zeeland | GTYPE>location | SUBTYPE> countryName
+Niger | GTYPE>location | SUBTYPE> countryName
+Norfolk | GTYPE>location | SUBTYPE> countryName
+Noordelijke Marianen | GTYPE>location | SUBTYPE> countryName
+Noorwegen | GTYPE>location | SUBTYPE> countryName
+Papoea-Nieuw-Guinea | GTYPE>location | SUBTYPE> countryName
+Filipijnen | GTYPE>location | SUBTYPE> countryName
+Polen | GTYPE>location | SUBTYPE> countryName
+Zuid-Korea | GTYPE>location | SUBTYPE> countryName
+Korea, Republiek | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Korea, Republiek)
+Roemenië | GTYPE>location | SUBTYPE> countryName
+Russische Federatie | GTYPE>location | SUBTYPE> countryName
+Rusland | GTYPE>location | SUBTYPE> countryName
+Saint Kitts en Nevis | GTYPE>location | SUBTYPE> countryName
+St. Kitts en Nevis | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:St\. Kitts en Nevis)
+St. Lucia | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:St\. Lucia)
+Saint Vincent en de Grenadines | GTYPE>location | SUBTYPE> countryName
+St. Vincent en de Grenadines | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:St\. Vincent en de Grenadines)
+Sao Tomé en Principe | GTYPE>location | SUBTYPE> countryName
+São Tomé and Príncipe | GTYPE>location | SUBTYPE> countryName
+Saoedi-Arabië | GTYPE>location | SUBTYPE> countryName
+Saudi-Arabië | GTYPE>location | SUBTYPE> countryName
+Seychellen | GTYPE>location | SUBTYPE> countryName
+Slowakije | GTYPE>location | SUBTYPE> countryName
+Slowakije  | GTYPE>location | SUBTYPE> countryName 
+Slowakije (Slowaakse Republiek) | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Slowakije \(Slowaakse Republiek\))
+Slovenië | GTYPE>location | SUBTYPE> countryName
+Salomonseilanden | GTYPE>location | SUBTYPE> countryName
+Somalië | GTYPE>location | SUBTYPE> countryName
+Zuid-Afrika | GTYPE>location | SUBTYPE> countryName
+Spanje | GTYPE>location | SUBTYPE> countryName
+Republiek Suriname | GTYPE>location | SUBTYPE> countryName
+Zweden | GTYPE>location | SUBTYPE> countryName
+Zwitserland | GTYPE>location | SUBTYPE> countryName
+Syrië | GTYPE>location | SUBTYPE> countryName
+Tadzjikistan | GTYPE>location | SUBTYPE> countryName
+Macedonië, Republiek | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Macedonië, Republiek)
+Voormalige Joegoslavische Republiek Macedonië | GTYPE>location | SUBTYPE> countryName
+Macedonië | GTYPE>location | SUBTYPE> countryName
+Oost-Timor | GTYPE>location | SUBTYPE> countryName
+Trinidad en Tobago | GTYPE>location | SUBTYPE> countryName
+Tunesië | GTYPE>location | SUBTYPE> countryName
+Turkije | GTYPE>location | SUBTYPE> countryName
+Oeganda | GTYPE>location | SUBTYPE> countryName
+Oekraïne | GTYPE>location | SUBTYPE> countryName
+Verenigde Arabische Emiraten | GTYPE>location | SUBTYPE> countryName
+Verenigd Koninkrijk | GTYPE>location | SUBTYPE> countryName
+Amerikaanse Maagdeneilanden | GTYPE>location | SUBTYPE> countryName
+Verenigde Staten | GTYPE>location | SUBTYPE> countryName
+Oezbekistan | GTYPE>location | SUBTYPE> countryName
+West-Sahara | GTYPE>location | SUBTYPE> countryName
+Jemen | GTYPE>location | SUBTYPE> countryName
+Servië | GTYPE>location | SUBTYPE> countryName
+Hongkong | GTYPE>location | SUBTYPE> countryName
+Soedan | GTYPE>location | SUBTYPE> countryName
+Moldavië | GTYPE>location | SUBTYPE> countryName
+Republiek Moldavië | GTYPE>location | SUBTYPE> countryName
+Bosnië Herzegovina | GTYPE>location | SUBTYPE> countryName
+Bosnië-Herzegovina | GTYPE>location | SUBTYPE> countryName
+Bosnië en Herzegovina | GTYPE>location | SUBTYPE> countryName
+Cookeilanden | GTYPE>location | SUBTYPE> countryName
+Palestina | GTYPE>location | SUBTYPE> countryName
+Waver | GTYPE>location | SUBTYPE> provinceCapital
+Haifa | GTYPE>location | SUBTYPE> provinceCapital
+Utrecht | GTYPE>location | SUBTYPE> regionCapital
+Netanja | GTYPE>location | SUBTYPE> provinceCapital
+Trente | GTYPE>location | SUBTYPE> regionCapital
+Maastricht | GTYPE>location | SUBTYPE> regionCapital
+Rouaan | GTYPE>location | SUBTYPE> regionCapital
+Berlijn | GTYPE>location | SUBTYPE> countryCapital
+Venetië | GTYPE>location | SUBTYPE> regionCapital
+Assen | GTYPE>location | SUBTYPE> provinceCapital
+Seoel | GTYPE>location | SUBTYPE> countryCapital
+Seoel | GTYPE>location | SUBTYPE> countryCapital
+Medina | GTYPE>location | SUBTYPE> regionCapital
+Rotterdam | GTYPE>location | SUBTYPE> regionCapital
+Sjanghai | GTYPE>location | SUBTYPE> regionCapital
+Beiroet | GTYPE>location | SUBTYPE> countryCapital
+Wenen | GTYPE>location | SUBTYPE> countryCapital
+Armentiers | GTYPE>location | SUBTYPE> provinceCapital
+Rethimnon | GTYPE>location | SUBTYPE> provinceCapital
+Boedapest | GTYPE>location | SUBTYPE> countryCapital
+Patras | GTYPE>location | SUBTYPE> regionCapital
+Reykjavik | GTYPE>location | SUBTYPE> countryCapital
+Lelystad | GTYPE>location | SUBTYPE> provinceCapital
+Moskou | GTYPE>location | SUBTYPE> countryCapital
+Groningen | GTYPE>location | SUBTYPE> regionCapital
+Aden | GTYPE>location | SUBTYPE> regionCapital
+Damascus | GTYPE>location | SUBTYPE> countryCapital
+Ciudad Trujillo | GTYPE>location | SUBTYPE> countryCapital
+Ciudad Trujillo | GTYPE>location | SUBTYPE> countryCapital
+Zwolle | GTYPE>location | SUBTYPE> provinceCapital
+Boekarest | GTYPE>location | SUBTYPE> countryCapital
+Manamah | GTYPE>location | SUBTYPE> countryCapital
+Messina | GTYPE>location | SUBTYPE> provinceCapital
+Arnhem | GTYPE>location | SUBTYPE> regionCapital
+Ndjamena | GTYPE>location | SUBTYPE> countryCapital
+Florence | GTYPE>location | SUBTYPE> regionCapital
+Caïro | GTYPE>location | SUBTYPE> countryCapital
+Kaïro | GTYPE>location | SUBTYPE> countryCapital
+Odenburg | GTYPE>location | SUBTYPE> provinceCapital
+Aarlen | GTYPE>location | SUBTYPE> provinceCapital
+Nanking | GTYPE>location | SUBTYPE> regionCapital
+Reggio Calabria  | GTYPE>location | SUBTYPE> regionCapital 
+Reggio Calabria (stad) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Reggio Calabria \(stad\))
+Praag | GTYPE>location | SUBTYPE> countryCapital
+Maskate | GTYPE>location | SUBTYPE> countryCapital
+Masqat | GTYPE>location | SUBTYPE> countryCapital
+Antwerpen | GTYPE>location | SUBTYPE> regionCapital
+Atrecht | GTYPE>location | SUBTYPE> provinceCapital
+Parijs | GTYPE>location | SUBTYPE> countryCapital
+Aken | GTYPE>location | SUBTYPE> regionCapital
+Sparta | GTYPE>location | SUBTYPE> provinceCapital
+Borgworm | GTYPE>location | SUBTYPE> provinceCapital
+Temse | GTYPE>location | SUBTYPE> provinceCapital
+Victoriavallen | GTYPE>location | SUBTYPE> provinceCapital
+Triëst | GTYPE>location | SUBTYPE> regionCapital
+Vila Real  | GTYPE>location | SUBTYPE> provinceCapital 
+Vila Real (stad) | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Vila Real \(stad\))
+Korinthe | GTYPE>location | SUBTYPE> provinceCapital
+Stara Zagora  | GTYPE>location | SUBTYPE> regionCapital 
+Stara Zagora (stad) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Stara Zagora \(stad\))
+Oost Londen | GTYPE>location | SUBTYPE> regionCapital
+Rangoon | GTYPE>location | SUBTYPE> countryCapital
+Khartoem | GTYPE>location | SUBTYPE> countryCapital
+Khartoem | GTYPE>location | SUBTYPE> countryCapital
+Namen | GTYPE>location | SUBTYPE> regionCapital
+Gothenburg | GTYPE>location | SUBTYPE> regionCapital
+Doesjanbe | GTYPE>location | SUBTYPE> countryCapital
+Veurne | GTYPE>location | SUBTYPE> provinceCapital
+Mexico-stad | GTYPE>location | SUBTYPE> countryCapital
+Le Mans  | GTYPE>location | SUBTYPE> regionCapital 
+Le Mans (stad) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Le Mans \(stad\))
+Turijn | GTYPE>location | SUBTYPE> regionCapital
+Tarente | GTYPE>location | SUBTYPE> regionCapital
+Batoem | GTYPE>location | SUBTYPE> regionCapital
+Adrianopel | GTYPE>location | SUBTYPE> regionCapital
+Phnom-Penh | GTYPE>location | SUBTYPE> countryCapital
+Syracuse | GTYPE>location | SUBTYPE> regionCapital
+Kaboel | GTYPE>location | SUBTYPE> countryCapital
+Kanton | GTYPE>location | SUBTYPE> regionCapital
+Rio de Janeiro  | GTYPE>location | SUBTYPE> regionCapital 
+Rio de Janeiro (stad) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Rio de Janeiro \(stad\))
+Rio de Janeiro Het | GTYPE>location | SUBTYPE> regionCapital
+Rio de Janeiro Izaan | GTYPE>location | SUBTYPE> regionCapital
+Trebizonde | GTYPE>location | SUBTYPE> regionCapital
+Constantinopel | GTYPE>location | SUBTYPE> regionCapital
+Haiderabad | GTYPE>location | SUBTYPE> regionCapital
+Tirana  | GTYPE>location | SUBTYPE> countryCapital 
+Tirana (stad) | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Tirana \(stad\))
+Soerabaja | GTYPE>location | SUBTYPE> regionCapital
+Londen | GTYPE>location | SUBTYPE> countryCapital
+Haiderabad | GTYPE>location | SUBTYPE> regionCapital
+Warschau | GTYPE>location | SUBTYPE> countryCapital
+Veracruz  | GTYPE>location | SUBTYPE> regionCapital 
+Veracruz (stad) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Veracruz \(stad\))
+(Santa Fé de) Bogota | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:(Santa Fé de) Bogota)
+Athene | GTYPE>location | SUBTYPE> countryCapital
+Matâ'utu | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Matâ['´’‘`]utu)
+Tongeren | GTYPE>location | SUBTYPE> provinceCapital
+Koeweit stad | GTYPE>location | SUBTYPE> countryCapital
+Nazareth | GTYPE>location | SUBTYPE> provinceCapital
+Manilla | GTYPE>location | SUBTYPE> countryCapital
+Dawhah | GTYPE>location | SUBTYPE> countryCapital
+Toerkonje | GTYPE>location | SUBTYPE> provinceCapital
+Haarlem | GTYPE>location | SUBTYPE> regionCapital
+Manamah | GTYPE>location | SUBTYPE> countryCapital
+Djedda | GTYPE>location | SUBTYPE> regionCapital
+Nijmegen | GTYPE>location | SUBTYPE> regionCapital
+Bazel | GTYPE>location | SUBTYPE> regionCapital
+Fort Portal | GTYPE>location | SUBTYPE> provinceCapital
+Bastenaken | GTYPE>location | SUBTYPE> provinceCapital
+Lier | GTYPE>location | SUBTYPE> provinceCapital
+Keulen | GTYPE>location | SUBTYPE> regionCapital
+Milaan | GTYPE>location | SUBTYPE> regionCapital
+Wezet | GTYPE>location | SUBTYPE> provinceCapital
+Ronse | GTYPE>location | SUBTYPE> provinceCapital
+Batavia | GTYPE>location | SUBTYPE> countryCapital
+Luxemburg  | GTYPE>location | SUBTYPE> countryCapital 
+Luxemburg (stad) | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Luxemburg \(stad\))
+Vilvoorde | GTYPE>location | SUBTYPE> provinceCapital
+Iraklion | GTYPE>location | SUBTYPE> regionCapital
+Ascoli Piceno  | GTYPE>location | SUBTYPE> provinceCapital 
+Ascoli Piceno (stad) | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Ascoli Piceno \(stad\))
+Walvisbaai | GTYPE>location | SUBTYPE> regionCapital
+Neurenberg | GTYPE>location | SUBTYPE> regionCapital
+Kasserine | GTYPE>location | SUBTYPE> provinceCapital
+Tlaxcala de Xicoténcatl | GTYPE>location | SUBTYPE> regionCapital
+Veracruz Llave | GTYPE>location | SUBTYPE> regionCapital
+Teziutlán | GTYPE>location | SUBTYPE> provinceCapital
+Nijvel | GTYPE>location | SUBTYPE> provinceCapital
+Hasselt | GTYPE>location | SUBTYPE> provinceCapital
+Leiden | GTYPE>location | SUBTYPE> regionCapital
+Robaais | GTYPE>location | SUBTYPE> provinceCapital
+Hilversum | GTYPE>location | SUBTYPE> provinceCapital
+Maagdenburg | GTYPE>location | SUBTYPE> regionCapital
+Kleef | GTYPE>location | SUBTYPE> provinceCapital
+Mechelen | GTYPE>location | SUBTYPE> provinceCapital
+Kales | GTYPE>location | SUBTYPE> provinceCapital
+Luik | GTYPE>location | SUBTYPE> regionCapital
+Oudenaarde | GTYPE>location | SUBTYPE> provinceCapital
+Doornik | GTYPE>location | SUBTYPE> provinceCapital
+Tienen | GTYPE>location | SUBTYPE> provinceCapital
+Roeselare | GTYPE>location | SUBTYPE> provinceCapital
+Gabès | GTYPE>location | SUBTYPE> provinceCapital
+Toluca de Lerdo | GTYPE>location | SUBTYPE> regionCapital
+Graven | GTYPE>location | SUBTYPE> provinceCapital
+Den Haag | GTYPE>location | SUBTYPE> regionCapital
+'s Gravenhage | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:['´’‘`]s Gravenhage)
+Rijsel | GTYPE>location | SUBTYPE> regionCapital
+Emmerik | GTYPE>location | SUBTYPE> provinceCapital
+Amphoe Mueang Samut Prakan | GTYPE>location | SUBTYPE> provinceCapital
+Bozen | GTYPE>location | SUBTYPE> regionCapital
+Straatsburg | GTYPE>location | SUBTYPE> regionCapital
+Hilla | GTYPE>location | SUBTYPE> provinceCapital
+Dendermonde | GTYPE>location | SUBTYPE> provinceCapital
+Pakxe | GTYPE>location | SUBTYPE> provinceCapital
+Zinnik | GTYPE>location | SUBTYPE> provinceCapital
+Yazd | GTYPE>location | SUBTYPE> regionCapital
+Scherpenheuvel | GTYPE>location | SUBTYPE> provinceCapital
+Napels | GTYPE>location | SUBTYPE> regionCapital
+Oostende | GTYPE>location | SUBTYPE> provinceCapital
+Ciudad Guzmán | GTYPE>location | SUBTYPE> provinceCapital
+Tsjeljabinsk | GTYPE>location | SUBTYPE> regionCapital
+Halle | GTYPE>location | SUBTYPE> regionCapital
+Baní | GTYPE>location | SUBTYPE> provinceCapital
+Geraardsbergen | GTYPE>location | SUBTYPE> provinceCapital
+Bergen | GTYPE>location | SUBTYPE> provinceCapital
+Leuven | GTYPE>location | SUBTYPE> provinceCapital
+Menen | GTYPE>location | SUBTYPE> provinceCapital
+Salé | GTYPE>location | SUBTYPE> provinceCapital
+Dowaai | GTYPE>location | SUBTYPE> provinceCapital
+La Coruña | GTYPE>location | SUBTYPE> regionCapital
+Gent | GTYPE>location | SUBTYPE> regionCapital
+Halle | GTYPE>location | SUBTYPE> provinceCapital
+San Francisco de Macorís | GTYPE>location | SUBTYPE> provinceCapital
+Kortrijk | GTYPE>location | SUBTYPE> provinceCapital
+Duinkerke | GTYPE>location | SUBTYPE> provinceCapital 
+Duinkerke(n) | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Duinkerke\(n\))
+Duinkerken | GTYPE>location | SUBTYPE> provinceCapital
+Duinkerke | GTYPE>location | SUBTYPE> provinceCapital
+Bakoe | GTYPE>location | SUBTYPE> countryCapital
+Hoei | GTYPE>location | SUBTYPE> provinceCapital
+Lessen | GTYPE>location | SUBTYPE> provinceCapital
+Brugge | GTYPE>location | SUBTYPE> regionCapital
+Santiago de Querétaro | GTYPE>location | SUBTYPE> regionCapital
+Kamerijk | GTYPE>location | SUBTYPE> provinceCapital
+Kathmandu | GTYPE>location | SUBTYPE> countryCapital
+Korinthos | GTYPE>location | SUBTYPE> provinceCapital
+Edingen | GTYPE>location | SUBTYPE> provinceCapital
+Ieper | GTYPE>location | SUBTYPE> provinceCapital
+IJpres | GTYPE>location | SUBTYPE> provinceCapital
+Karmelgebergte | GTYPE>location | SUBTYPE> provinceCapital
+Hamelen | GTYPE>location | SUBTYPE> provinceCapital
+Frans Komen | GTYPE>location | SUBTYPE> provinceCapital
+Leeuwarden | GTYPE>location | SUBTYPE> provinceCapital
+León de los Aldamas | GTYPE>location | SUBTYPE> provinceCapital
+Khwaeng Savannakhet | GTYPE>location | SUBTYPE> provinceCapital
+Khwaeng_Savannakhet | GTYPE>location | SUBTYPE> provinceCapital
+Evere | GTYPE>location | SUBTYPE> provinceCapital
+Ganshoren | GTYPE>location | SUBTYPE> provinceCapital
+Keflavik | GTYPE>location | SUBTYPE> provinceCapital
+Koningsbergen | GTYPE>location | SUBTYPE> regionCapital
+Terrassa | GTYPE>location | SUBTYPE> regionCapital
+Rashjt | GTYPE>location | SUBTYPE> provinceCapital
+Aat | GTYPE>location | SUBTYPE> provinceCapital
+Amphoe Aranya Prathet | GTYPE>location | SUBTYPE> provinceCapital
+Kretinga | GTYPE>location | SUBTYPE> provinceCapital
+Prienai | GTYPE>location | SUBTYPE> provinceCapital
+Magnesia ad Sipylum | GTYPE>location | SUBTYPE> regionCapital
+Teschen | GTYPE>location | SUBTYPE> provinceCapital
+Brunswijk | GTYPE>location | SUBTYPE> regionCapital
+Tsjoengking | GTYPE>location | SUBTYPE> regionCapital
+Lagos de Moreno | GTYPE>location | SUBTYPE> provinceCapital
+Alexandrië | GTYPE>location | SUBTYPE> provinceCapital
+Jakoetsk | GTYPE>location | SUBTYPE> regionCapital
+Sint Petersburg | GTYPE>location | SUBTYPE> regionCapital
+Irkoetsk | GTYPE>location | SUBTYPE> regionCapital
+Karaj | GTYPE>location | SUBTYPE> provinceCapital
+Jurbarkas | GTYPE>location | SUBTYPE> provinceCapital
+Vila Real | GTYPE>location | SUBTYPE> provinceCapital
+Pueblo | GTYPE>location | SUBTYPE> provinceCapital
+Ndjamena | GTYPE>location | SUBTYPE> countryCapital
+Gotenburg | GTYPE>location | SUBTYPE> regionCapital
+Baguio City | GTYPE>location | SUBTYPE> provinceCapital
+Luik | GTYPE>location | SUBTYPE> regionCapital
+Kalvarija | GTYPE>location | SUBTYPE> provinceCapital
+Sao Tomé | GTYPE>location | SUBTYPE> countryCapital
+Batticaloa | GTYPE>location | SUBTYPE> provinceCapital
+Banda Atjeh | GTYPE>location | SUBTYPE> provinceCapital
+Westminster | GTYPE>location | SUBTYPE> provinceCapital
+Vlissingen | GTYPE>location | SUBTYPE> provinceCapital
+Thessaloniki | GTYPE>location | SUBTYPE> regionCapital
+Middelburg | GTYPE>location | SUBTYPE> provinceCapital
+Victoriawatervallen | GTYPE>location | SUBTYPE> provinceCapital
+Norðurþing | GTYPE>location | SUBTYPE> provinceCapital
+Khouribga | GTYPE>location | SUBTYPE> provinceCapital
+Pisco | GTYPE>location | SUBTYPE> provinceCapital
+Livermore | GTYPE>location | SUBTYPE> provinceCapital
+Tríkala | GTYPE>location | SUBTYPE> provinceCapital
+Ioannina | GTYPE>location | SUBTYPE> provinceCapital
+Sint Niklaas | GTYPE>location | SUBTYPE> provinceCapital
+Simi Valley | GTYPE>location | SUBTYPE> provinceCapital
+Schruns | GTYPE>location | SUBTYPE> provinceCapital
+Gasteiz | GTYPE>location | SUBTYPE> regionCapital
+Overland Park | GTYPE>location | SUBTYPE> provinceCapital
+Carrollton | GTYPE>location | SUBTYPE> provinceCapital
+Grand Prairie | GTYPE>location | SUBTYPE> provinceCapital
+Kirkoek | GTYPE>location | SUBTYPE> provinceCapital
+Shanwei | GTYPE>location | SUBTYPE> provinceCapital
+West Valley City | GTYPE>location | SUBTYPE> provinceCapital
+Arvada | GTYPE>location | SUBTYPE> provinceCapital
+Deyang | GTYPE>location | SUBTYPE> provinceCapital
+Prisjtina | GTYPE>location | SUBTYPE> regionCapital
+Dumaguete City | GTYPE>location | SUBTYPE> provinceCapital
+Daly City | GTYPE>location | SUBTYPE> provinceCapital
+Shunde | GTYPE>location | SUBTYPE> provinceCapital
+Port-Vila | GTYPE>location | SUBTYPE> countryCapital
+Tripolis | GTYPE>location | SUBTYPE> provinceCapital
+Larache | GTYPE>location | SUBTYPE> provinceCapital
+Abu Dhabi  | GTYPE>location | SUBTYPE> countryCapital 
+Abu Dhabi (stad) | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Abu Dhabi \(stad\))
+Cabanatuan City | GTYPE>location | SUBTYPE> provinceCapital
+Tervuren | GTYPE>location | SUBTYPE> provinceCapital
+Concord | GTYPE>location | SUBTYPE> provinceCapital
+Stabiae | GTYPE>location | SUBTYPE> provinceCapital
+Orange | GTYPE>location | SUBTYPE> provinceCapital
+Garden Grove | GTYPE>location | SUBTYPE> provinceCapital
+Costa Mesa | GTYPE>location | SUBTYPE> provinceCapital
+Beër Sjeva | GTYPE>location | SUBTYPE> provinceCapital
+Brig | GTYPE>location | SUBTYPE> provinceCapital
+Man | GTYPE>location | SUBTYPE> provinceCapital
+Ascoli Piceno | GTYPE>location | SUBTYPE> provinceCapital
+Al Hoceima | GTYPE>location | SUBTYPE> provinceCapital
+Gemeente_Aalter | GTYPE>location | SUBTYPE> provinceCapital
+Caudium | GTYPE>location | SUBTYPE> provinceCapital
+Hernani | GTYPE>location | SUBTYPE> provinceCapital
+San Sebastian | GTYPE>location | SUBTYPE> regionCapital
+Gembloers | GTYPE>location | SUBTYPE> provinceCapital
+Wuustwezel | GTYPE>location | SUBTYPE> provinceCapital
+Binzhou | GTYPE>location | SUBTYPE> provinceCapital
+Poona | GTYPE>location | SUBTYPE> regionCapital
+Beni Mellal | GTYPE>location | SUBTYPE> provinceCapital
+Velbert | GTYPE>location | SUBTYPE> provinceCapital
+Viersen | GTYPE>location | SUBTYPE> provinceCapital
+Grevenbroich | GTYPE>location | SUBTYPE> provinceCapital
+Sebastopol | GTYPE>location | SUBTYPE> regionCapital
+Santiago de Compostella | GTYPE>location | SUBTYPE> provinceCapital
+Zonnebeke | GTYPE>location | SUBTYPE> provinceCapital
+Escondido | GTYPE>location | SUBTYPE> provinceCapital
+Tacloban City | GTYPE>location | SUBTYPE> provinceCapital
+Ormoc City | GTYPE>location | SUBTYPE> provinceCapital
+Reggio Calabria | GTYPE>location | SUBTYPE> regionCapital
+Suceava | GTYPE>location | SUBTYPE> regionCapital
+Ouahigouya | GTYPE>location | SUBTYPE> provinceCapital
+Jiangyan | GTYPE>location | SUBTYPE> provinceCapital
+Qujing | GTYPE>location | SUBTYPE> provinceCapital
+Rheine | GTYPE>location | SUBTYPE> provinceCapital
+Dezhou | GTYPE>location | SUBTYPE> provinceCapital
+Castelldefels | GTYPE>location | SUBTYPE> provinceCapital
+Troisdorf | GTYPE>location | SUBTYPE> provinceCapital
+Tolbiac | GTYPE>location | SUBTYPE> provinceCapital
+Wipperfürth | GTYPE>location | SUBTYPE> provinceCapital
+Zülpich | GTYPE>location | SUBTYPE> provinceCapital
+Ontario | GTYPE>location | SUBTYPE> provinceCapital
+Rancho Cucamonga | GTYPE>location | SUBTYPE> provinceCapital
+Fontana | GTYPE>location | SUBTYPE> provinceCapital
+Unna | GTYPE>location | SUBTYPE> provinceCapital
+Lünen | GTYPE>location | SUBTYPE> provinceCapital
+St. Helens | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:St\. Helens)
+Riaad | GTYPE>location | SUBTYPE> countryCapital
+Riaad | GTYPE>location | SUBTYPE> countryCapital
+Semey | GTYPE>location | SUBTYPE> provinceCapital
+Port Arthur | GTYPE>location | SUBTYPE> provinceCapital
+Safi | GTYPE>location | SUBTYPE> provinceCapital
+Uitenhage | GTYPE>location | SUBTYPE> provinceCapital
+Xichang | GTYPE>location | SUBTYPE> provinceCapital
+Changshu | GTYPE>location | SUBTYPE> provinceCapital
+denhelder | GTYPE>location | SUBTYPE> provinceCapital
+Mansfield | GTYPE>location | SUBTYPE> provinceCapital
+Taza | GTYPE>location | SUBTYPE> provinceCapital
+Suzhou | GTYPE>location | SUBTYPE> provinceCapital
+El Monte | GTYPE>location | SUBTYPE> provinceCapital
+Pomona | GTYPE>location | SUBTYPE> provinceCapital
+Santa Clarita | GTYPE>location | SUBTYPE> provinceCapital
+West Covina | GTYPE>location | SUBTYPE> provinceCapital
+Fuenlabrada | GTYPE>location | SUBTYPE> regionCapital
+Coslada | GTYPE>location | SUBTYPE> provinceCapital
+Alcorcón | GTYPE>location | SUBTYPE> regionCapital
+Pozuelo de Alarcón | GTYPE>location | SUBTYPE> provinceCapital
+Alcobendas | GTYPE>location | SUBTYPE> provinceCapital
+Puerto Princesa City | GTYPE>location | SUBTYPE> provinceCapital
+Doedinka | GTYPE>location | SUBTYPE> provinceCapital
+Petropavlovsk-Kamtsjatski | GTYPE>location | SUBTYPE> regionCapital
+Drachten | GTYPE>location | SUBTYPE> provinceCapital
+Franeker | GTYPE>location | SUBTYPE> provinceCapital
+Ashton-under-Lyne | GTYPE>location | SUBTYPE> provinceCapital
+Apeldoorne | GTYPE>location | SUBTYPE> regionCapital
+Manzhouli | GTYPE>location | SUBTYPE> provinceCapital
+Dudley | GTYPE>location | SUBTYPE> regionCapital
+Marrakesh | GTYPE>location | SUBTYPE> regionCapital
+Cirié | GTYPE>location | SUBTYPE> provinceCapital
+Saguntum | GTYPE>location | SUBTYPE> provinceCapital
+Ak-Dovoerak | GTYPE>location | SUBTYPE> provinceCapital
+Hazebroek | GTYPE>location | SUBTYPE> provinceCapital
+Oeroes-Martan | GTYPE>location | SUBTYPE> provinceCapital
+Yílán | GTYPE>location | SUBTYPE> regionCapital
+Grevelingen | GTYPE>location | SUBTYPE> provinceCapital
+Gorno-Altajsk | GTYPE>location | SUBTYPE> provinceCapital
+Haar | GTYPE>location | SUBTYPE> provinceCapital
+Demmin | GTYPE>location | SUBTYPE> provinceCapital
+Landau in der Pfalz | GTYPE>location | SUBTYPE> provinceCapital
+Hildesheim | GTYPE>location | SUBTYPE> regionCapital
+Leer | GTYPE>location | SUBTYPE> provinceCapital
+Chanty-Mansiejsk | GTYPE>location | SUBTYPE> provinceCapital
+Soergoet | GTYPE>location | SUBTYPE> provinceCapital
+Kizljar | GTYPE>location | SUBTYPE> provinceCapital
+Boejnaksk | GTYPE>location | SUBTYPE> provinceCapital
+Oessoeriejsk | GTYPE>location | SUBTYPE> provinceCapital
+Nikolajevsk aan de Amoer | GTYPE>location | SUBTYPE> provinceCapital
+Rybinsk | GTYPE>location | SUBTYPE> regionCapital
+Moerom | GTYPE>location | SUBTYPE> regionCapital
+Koersk | GTYPE>location | SUBTYPE> regionCapital
+Heihe | GTYPE>location | SUBTYPE> provinceCapital
+Oelan-Oede | GTYPE>location | SUBTYPE> provinceCapital
+Glazov | GTYPE>location | SUBTYPE> provinceCapital
+Voronezj | GTYPE>location | SUBTYPE> regionCapital
+Kaloega | GTYPE>location | SUBTYPE> regionCapital
+Novorossiejsk | GTYPE>location | SUBTYPE> regionCapital
+Kronsjtadt | GTYPE>location | SUBTYPE> provinceCapital
+Biejsk | GTYPE>location | SUBTYPE> provinceCapital
+Novotroitsk | GTYPE>location | SUBTYPE> provinceCapital
+Doebna | GTYPE>location | SUBTYPE> provinceCapital
+Ramenskoje | GTYPE>location | SUBTYPE> provinceCapital
+Sjachty | GTYPE>location | SUBTYPE> regionCapital
+Alapajevsk | GTYPE>location | SUBTYPE> provinceCapital
+Kansk | GTYPE>location | SUBTYPE> provinceCapital
+Oefa | GTYPE>location | SUBTYPE> regionCapital
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : name_affix.txt
+# content : pattern matcher lexicon for person name affixes (pre-in-suffix)
+# author  : M. Ehrmann
+# date	  : February 2012
+#**********************************************
+
+
+# prefixes
+al | GTYPE>name_prefix 
+#al'| GTYPE>name_prefix | STRICT > (?i:al['´’‘`])
+# abu = father of, umm = mother of 
+abu| GTYPE>name_prefix
+umm| GTYPE>name_prefix
+
+
+# arabic infixes (can be prefixed as well)
+# ibn = son of, bint = daughter of 
+bin  | GTYPE>name_infix
+bint | GTYPE>name_infix
+
+de | GTYPE>name_infix
+de+la | GTYPE>name_infix
+de+los | GTYPE>name_infix
+#del | GTYPE>name_infix #to ambiguous and does not hram removing it
+#dal | GTYPE>name_infix #to ambiguous and does not hram removing it
+de | GTYPE>name_infix
+da | GTYPE>name_infix
+v+d | GTYPE>name_infix
+v | GTYPE>name_infix
+van+de | GTYPE>name_infix
+van+den | GTYPE>name_infix
+van+der | GTYPE>name_infix
+van | GTYPE>name_infix
+der | GTYPE>name_infix
+von+d | GTYPE>name_infix
+von+de | GTYPE>name_infix
+von+den | GTYPE>name_infix
+von+der | GTYPE>name_infix	
+von | GTYPE>name_infix
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_demonyms-fr.txt
+# content : PM lexicon for person demonyms by continent, country and other
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+#**********************************************
+
+andorrees | GTYPE>demonym
+andorrese | GTYPE>demonym
+andorrees | GTYPE>demonym
+van de verenigde arabische emiraten | GTYPE>demonym
+afghaan | GTYPE>demonym
+afghaanse | GTYPE>demonym
+afghaans | GTYPE>demonym
+van antigua en barbuda | GTYPE>demonym
+anguillaan | GTYPE>demonym
+anguillaanse | GTYPE>demonym
+anguillaans | GTYPE>demonym
+albanees | GTYPE>demonym
+albanese | GTYPE>demonym
+albanees | GTYPE>demonym
+armeniër | GTYPE>demonym
+armeense | GTYPE>demonym
+armeens | GTYPE>demonym
+nederlands-antilliaan | GTYPE>demonym
+nederlands-antilliaanse | GTYPE>demonym
+nederlands-antilliaans | GTYPE>demonym
+angolees | GTYPE>demonym
+angolese | GTYPE>demonym
+angolees | GTYPE>demonym
+antarctisch | GTYPE>demonym
+argentijn | GTYPE>demonym
+argentijnse | GTYPE>demonym
+argentijns | GTYPE>demonym
+amerikaans-samoaan | GTYPE>demonym
+amerikaans-samoaanse | GTYPE>demonym
+amerikaans-samoaans | GTYPE>demonym
+oostenrijker | GTYPE>demonym
+oostenrijkse | GTYPE>demonym
+oostenrijks | GTYPE>demonym
+australiër | GTYPE>demonym
+australische | GTYPE>demonym
+australisch | GTYPE>demonym
+arubaan | GTYPE>demonym
+arubaanse | GTYPE>demonym
+arubaans | GTYPE>demonym
+azerbeidzjaan | GTYPE>demonym
+azerbeidzjaanse | GTYPE>demonym
+azeri | GTYPE>demonym
+azerbeidzjaans | GTYPE>demonym
+bosniër | GTYPE>demonym
+bosnische | GTYPE>demonym
+bosnisch | GTYPE>demonym
+barbadiaan | GTYPE>demonym
+barbadiaanse | GTYPE>demonym
+barbadiaans | GTYPE>demonym
+bengalees | GTYPE>demonym
+bengalese | GTYPE>demonym
+bengalees | GTYPE>demonym
+belg | GTYPE>demonym
+belgische | GTYPE>demonym
+belgisch | GTYPE>demonym
+burkinees | GTYPE>demonym
+burkinese | GTYPE>demonym
+burkinees | GTYPE>demonym
+bulgaar | GTYPE>demonym
+bulgaarse | GTYPE>demonym
+bulgaars | GTYPE>demonym
+bahreiner | GTYPE>demonym
+bahreinse | GTYPE>demonym
+bahreini | GTYPE>demonym
+bahreins | GTYPE>demonym
+burundees | GTYPE>demonym
+burundese | GTYPE>demonym
+burundees | GTYPE>demonym
+beniner | GTYPE>demonym
+beninse | GTYPE>demonym
+benins | GTYPE>demonym
+bermudaan | GTYPE>demonym
+bermudaanse | GTYPE>demonym
+bermudaans | GTYPE>demonym
+bruneier | GTYPE>demonym
+bruneise | GTYPE>demonym
+bruneis | GTYPE>demonym
+boliviaan | GTYPE>demonym
+boliviaanse | GTYPE>demonym
+boliviaans | GTYPE>demonym
+braziliaan | GTYPE>demonym
+braziliaanse | GTYPE>demonym
+braziliaans | GTYPE>demonym
+bahamaan | GTYPE>demonym
+bahamaanse | GTYPE>demonym
+bahamaans | GTYPE>demonym
+bhutaan | GTYPE>demonym
+bhutaanse | GTYPE>demonym
+bhutaans | GTYPE>demonym
+botswaan | GTYPE>demonym
+botswaanse | GTYPE>demonym
+botswaans | GTYPE>demonym
+belarus | GTYPE>demonym
+belarussische | GTYPE>demonym
+wit-rus | GTYPE>demonym
+wit-russische | GTYPE>demonym
+belarussisch | GTYPE>demonym
+wit-russisch | GTYPE>demonym
+belizaan | GTYPE>demonym
+belizaanse | GTYPE>demonym
+belizaans | GTYPE>demonym
+canadees | GTYPE>demonym
+canadese | GTYPE>demonym
+canadees | GTYPE>demonym
+cocoseilander | GTYPE>demonym
+cocoseilandse | GTYPE>demonym
+cocoseilands | GTYPE>demonym
+congolees | GTYPE>demonym
+congolese | GTYPE>demonym
+van de democratische republiek congo | GTYPE>demonym
+congolees | GTYPE>demonym
+van de democratische republiek congo | GTYPE>demonym
+centraal-afrikaan | GTYPE>demonym
+centraal-afrikaanse | GTYPE>demonym
+centraal-afrikaans | GTYPE>demonym
+congolees | GTYPE>demonym
+congolese | GTYPE>demonym
+congolees | GTYPE>demonym
+zwitser | GTYPE>demonym
+zwitserse | GTYPE>demonym
+zwitsers | GTYPE>demonym
+ivoriaan | GTYPE>demonym
+ivoriaanse | GTYPE>demonym
+ivoriaans | GTYPE>demonym
+cookeilander | GTYPE>demonym
+cookeilandse | GTYPE>demonym
+cookeilands | GTYPE>demonym
+chileen | GTYPE>demonym
+chileense | GTYPE>demonym
+chileens | GTYPE>demonym
+kameroener | GTYPE>demonym
+kameroense | GTYPE>demonym
+kameroens | GTYPE>demonym
+chinees | GTYPE>demonym
+chinese | GTYPE>demonym
+chinees | GTYPE>demonym
+colombiaan | GTYPE>demonym
+colombiaanse | GTYPE>demonym
+colombiaans | GTYPE>demonym
+costaricaan | GTYPE>demonym
+costaricaanse | GTYPE>demonym
+costaricaans | GTYPE>demonym
+cubaan | GTYPE>demonym
+cubaanse | GTYPE>demonym
+cubaans | GTYPE>demonym
+kaapverdiër | GTYPE>demonym
+kaapverdische | GTYPE>demonym
+kaapverdisch | GTYPE>demonym
+christmaseilander | GTYPE>demonym
+christmaseilandse | GTYPE>demonym
+christmaseilands | GTYPE>demonym
+cyprioot | GTYPE>demonym
+cypriotische | GTYPE>demonym
+cypriotisch | GTYPE>demonym
+cyprisch | GTYPE>demonym
+tsjech | GTYPE>demonym
+tsjechische | GTYPE>demonym
+tsjechisch | GTYPE>demonym
+duitser | GTYPE>demonym
+duitse | GTYPE>demonym
+duits | GTYPE>demonym
+djiboutiaan | GTYPE>demonym
+djiboutiaanse | GTYPE>demonym
+djiboutiaans | GTYPE>demonym
+deen | GTYPE>demonym
+deense | GTYPE>demonym
+deens | GTYPE>demonym
+dominicaan | GTYPE>demonym
+dominicaanse | GTYPE>demonym
+dominicaans | GTYPE>demonym
+dominicaan | GTYPE>demonym
+dominicaanse | GTYPE>demonym
+dominicaans | GTYPE>demonym
+algerijn | GTYPE>demonym
+algerijnse | GTYPE>demonym
+algerijns | GTYPE>demonym
+ecuadoraan | GTYPE>demonym
+ecuadoraanse | GTYPE>demonym
+ecuadoraans | GTYPE>demonym
+estlander | GTYPE>demonym
+est | GTYPE>demonym
+estlandse | GTYPE>demonym
+estse | GTYPE>demonym
+estlands | GTYPE>demonym
+ests | GTYPE>demonym
+egyptenaar | GTYPE>demonym
+egyptische | GTYPE>demonym
+egyptisch | GTYPE>demonym
+saharaan | GTYPE>demonym
+saharaanse | GTYPE>demonym
+saharaans | GTYPE>demonym
+eritreeër | GTYPE>demonym
+eritrese | GTYPE>demonym
+eritrees | GTYPE>demonym
+spanjaard | GTYPE>demonym
+spaanse | GTYPE>demonym
+spaans | GTYPE>demonym
+ethiopiër | GTYPE>demonym
+ethiopische | GTYPE>demonym
+ethiopisch | GTYPE>demonym
+fin | GTYPE>demonym
+finse | GTYPE>demonym
+fins | GTYPE>demonym
+fijiër | GTYPE>demonym
+fijische | GTYPE>demonym
+fijisch | GTYPE>demonym
+falklandeilander | GTYPE>demonym
+falklandeilandse | GTYPE>demonym
+falklandeilands | GTYPE>demonym
+micronesiër | GTYPE>demonym
+micronesische | GTYPE>demonym
+micronesisch | GTYPE>demonym
+faeröerder | GTYPE>demonym
+faeröerse | GTYPE>demonym
+faeröers | GTYPE>demonym
+fransman | GTYPE>demonym
+française | GTYPE>demonym
+franse | GTYPE>demonym
+frans | GTYPE>demonym
+gabonees | GTYPE>demonym
+gabonese | GTYPE>demonym
+gabonees | GTYPE>demonym
+brit | GTYPE>demonym
+britse | GTYPE>demonym
+brits | GTYPE>demonym
+van het verenigd koninkrijk | GTYPE>demonym
+grenadaan | GTYPE>demonym
+grenadaanse | GTYPE>demonym
+grenadaans | GTYPE>demonym
+georgiër | GTYPE>demonym
+georgische | GTYPE>demonym
+georgisch | GTYPE>demonym
+frans-guyaan | GTYPE>demonym
+frans-guyanees | GTYPE>demonym
+frans-guyaanse | GTYPE>demonym
+frans-guyanese | GTYPE>demonym
+frans-guyaans | GTYPE>demonym
+frans-guyanees | GTYPE>demonym
+ghanees | GTYPE>demonym
+ghanese | GTYPE>demonym
+ghanees | GTYPE>demonym
+gibraltarees | GTYPE>demonym
+gibraltarese | GTYPE>demonym
+gibraltarees | GTYPE>demonym
+groenlander | GTYPE>demonym
+groenlandse | GTYPE>demonym
+groenlands | GTYPE>demonym
+gambiaan | GTYPE>demonym
+gambiaanse | GTYPE>demonym
+gambiaans | GTYPE>demonym
+guineeër | GTYPE>demonym
+guinese | GTYPE>demonym
+guinees | GTYPE>demonym
+guadelouper | GTYPE>demonym
+guadeloupse | GTYPE>demonym
+guadeloups | GTYPE>demonym
+equatoriaal-guineeër | GTYPE>demonym
+equatoriaal-guinese | GTYPE>demonym
+equatoriaal-guinees | GTYPE>demonym
+griek | GTYPE>demonym
+griekse | GTYPE>demonym
+grieks | GTYPE>demonym
+guatemalaan | GTYPE>demonym
+guatemalteek | GTYPE>demonym
+guatemalaanse | GTYPE>demonym
+guatemalteekse | GTYPE>demonym
+guatemalaans | GTYPE>demonym
+guatemalteeks | GTYPE>demonym
+guamees | GTYPE>demonym
+guamese | GTYPE>demonym
+guamees | GTYPE>demonym
+guinee-bissauer | GTYPE>demonym
+guinee-bissause | GTYPE>demonym
+guinee-bissaus | GTYPE>demonym
+guyaan | GTYPE>demonym
+guyanees | GTYPE>demonym
+guyaanse | GTYPE>demonym
+guyanese | GTYPE>demonym
+guyaans | GTYPE>demonym
+guyanees | GTYPE>demonym
+hongkonger | GTYPE>demonym
+hongkongse | GTYPE>demonym
+hongkongs | GTYPE>demonym
+hondurees | GTYPE>demonym
+hondurese | GTYPE>demonym
+hondurees | GTYPE>demonym
+kroaat | GTYPE>demonym
+kroatische | GTYPE>demonym
+kroatisch | GTYPE>demonym
+haïtiaan | GTYPE>demonym
+haïtiaanse | GTYPE>demonym
+haïtiaans | GTYPE>demonym
+hongaar | GTYPE>demonym
+hongaarse | GTYPE>demonym
+hongaars | GTYPE>demonym
+indonesiër | GTYPE>demonym
+indonesische | GTYPE>demonym
+indonesisch | GTYPE>demonym
+ier | GTYPE>demonym
+ierse | GTYPE>demonym
+iers | GTYPE>demonym
+israëliër | GTYPE>demonym
+israëlische | GTYPE>demonym
+israëli | GTYPE>demonym
+israëlisch | GTYPE>demonym
+indiër | GTYPE>demonym
+indiase | GTYPE>demonym
+indiaas | GTYPE>demonym
+irakees | GTYPE>demonym
+irakese | GTYPE>demonym
+iraki | GTYPE>demonym
+iraqi | GTYPE>demonym
+iraaks | GTYPE>demonym
+iraniër | GTYPE>demonym
+iraanse | GTYPE>demonym
+iraans | GTYPE>demonym
+ijslander | GTYPE>demonym
+ijslandse | GTYPE>demonym
+ijslands | GTYPE>demonym
+italiaan | GTYPE>demonym
+italiaanse | GTYPE>demonym
+italiaans | GTYPE>demonym
+jamaicaan | GTYPE>demonym
+jamaicaanse | GTYPE>demonym
+jamaicaans | GTYPE>demonym
+jordaniër | GTYPE>demonym
+jordaanse | GTYPE>demonym
+jordaans | GTYPE>demonym
+japanner | GTYPE>demonym
+japanse | GTYPE>demonym
+japans | GTYPE>demonym
+keniaan | GTYPE>demonym
+kenyaan | GTYPE>demonym
+keniaanse | GTYPE>demonym
+kenyaanse | GTYPE>demonym
+keniaans | GTYPE>demonym
+kenyaans | GTYPE>demonym
+kirgies | GTYPE>demonym
+kirgizische | GTYPE>demonym
+kirgizisch | GTYPE>demonym
+cambodjaan | GTYPE>demonym
+cambodjaanse | GTYPE>demonym
+cambodjaans | GTYPE>demonym
+kiribatiër | GTYPE>demonym
+kiribatische | GTYPE>demonym
+kiribatisch | GTYPE>demonym
+comorees | GTYPE>demonym
+comorese | GTYPE>demonym
+comorees | GTYPE>demonym
+van saint kitts en nevis | GTYPE>demonym
+noord-koreaan | GTYPE>demonym
+noord-koreaanse | GTYPE>demonym
+noord-koreaans | GTYPE>demonym
+zuid-koreaan | GTYPE>demonym
+zuid-koreaanse | GTYPE>demonym
+zuid-koreaans | GTYPE>demonym
+koeweiter | GTYPE>demonym
+koeweitse | GTYPE>demonym
+koeweiti | GTYPE>demonym
+koeweits | GTYPE>demonym
+caymaneilander | GTYPE>demonym
+caymaneilandse | GTYPE>demonym
+caymaneilands | GTYPE>demonym
+kazach | GTYPE>demonym
+kazak | GTYPE>demonym
+kazachse | GTYPE>demonym
+kazakse | GTYPE>demonym
+kazachs | GTYPE>demonym
+kazaks | GTYPE>demonym
+laotiaan | GTYPE>demonym
+laotiaanse | GTYPE>demonym
+laotiaans | GTYPE>demonym
+libanees | GTYPE>demonym
+libanese | GTYPE>demonym
+libanees | GTYPE>demonym
+saint-luciaan | GTYPE>demonym
+saint-luciaanse | GTYPE>demonym
+saint-luciaans | GTYPE>demonym
+liechtensteiner | GTYPE>demonym
+liechtensteinse | GTYPE>demonym
+liechtensteins | GTYPE>demonym
+srilankaan | GTYPE>demonym
+srilankaanse | GTYPE>demonym
+srilankaans | GTYPE>demonym
+liberiaan | GTYPE>demonym
+liberiaanse | GTYPE>demonym
+liberiaans | GTYPE>demonym
+lesothaan | GTYPE>demonym
+lesothaanse | GTYPE>demonym
+lesothaans | GTYPE>demonym
+litouwer | GTYPE>demonym
+litouwse | GTYPE>demonym
+litouws | GTYPE>demonym
+luxemburger | GTYPE>demonym
+luxemburgse | GTYPE>demonym
+luxemburgs | GTYPE>demonym
+let | GTYPE>demonym
+letlander | GTYPE>demonym
+letse | GTYPE>demonym
+letlandse | GTYPE>demonym
+letlands | GTYPE>demonym
+lets | GTYPE>demonym
+libiër | GTYPE>demonym
+libische | GTYPE>demonym
+libisch | GTYPE>demonym
+marokkaan | GTYPE>demonym
+marokkaanse | GTYPE>demonym
+marokkaans | GTYPE>demonym
+monegask | GTYPE>demonym
+monegaskische | GTYPE>demonym
+monegaskisch | GTYPE>demonym
+moldaviër | GTYPE>demonym
+moldavische | GTYPE>demonym
+moldavisch | GTYPE>demonym
+malagassiër | GTYPE>demonym
+malagassische | GTYPE>demonym
+malagassisch | GTYPE>demonym
+marshalleilander | GTYPE>demonym
+marshalleilandse | GTYPE>demonym
+marshalleilands | GTYPE>demonym
+van de voormalige joegoslavische republiek macedonië | GTYPE>demonym
+malinees | GTYPE>demonym
+malinese | GTYPE>demonym
+malinees | GTYPE>demonym
+myanmarees | GTYPE>demonym
+birmees | GTYPE>demonym
+birmaan | GTYPE>demonym
+myanmarees | GTYPE>demonym
+birmees | GTYPE>demonym
+birmaans | GTYPE>demonym
+mongoliër | GTYPE>demonym
+mongolische | GTYPE>demonym
+mongolisch | GTYPE>demonym
+macauer | GTYPE>demonym
+macause | GTYPE>demonym
+macaus | GTYPE>demonym
+mariaan | GTYPE>demonym
+mariaanse | GTYPE>demonym
+mariaans | GTYPE>demonym
+martinikaan | GTYPE>demonym
+martinikaanse | GTYPE>demonym
+martinikaans | GTYPE>demonym
+mauritaniër | GTYPE>demonym
+mauritaanse | GTYPE>demonym
+mauritaans | GTYPE>demonym
+montserrataan | GTYPE>demonym
+montserrataanse | GTYPE>demonym
+montserrataans | GTYPE>demonym
+maltees | GTYPE>demonym
+maltese | GTYPE>demonym
+maltees | GTYPE>demonym
+mauritiaan | GTYPE>demonym
+mauritiaanse | GTYPE>demonym
+mauritiaans | GTYPE>demonym
+maldiviër | GTYPE>demonym
+maldivische | GTYPE>demonym
+maldivisch | GTYPE>demonym
+malawiër | GTYPE>demonym
+malawische | GTYPE>demonym
+malawisch | GTYPE>demonym
+mexicaan | GTYPE>demonym
+mexicaanse | GTYPE>demonym
+mexicaans | GTYPE>demonym
+maleisiër | GTYPE>demonym
+maleisische | GTYPE>demonym
+maleisisch | GTYPE>demonym
+mozambikaan | GTYPE>demonym
+mozambikaanse | GTYPE>demonym
+mozambikaans | GTYPE>demonym
+namibiër | GTYPE>demonym
+namibische | GTYPE>demonym
+namibisch | GTYPE>demonym
+nieuw-caledoniër | GTYPE>demonym
+nieuw-caledonische | GTYPE>demonym
+nieuw-caledonisch | GTYPE>demonym
+nigerees | GTYPE>demonym
+nigerese | GTYPE>demonym
+nigerees | GTYPE>demonym
+norfolkeilander | GTYPE>demonym
+norfolkeilandse | GTYPE>demonym
+norfolkeilands | GTYPE>demonym
+nigeriaan | GTYPE>demonym
+nigeriaanse | GTYPE>demonym
+nigeriaans | GTYPE>demonym
+nicaraguaan | GTYPE>demonym
+nicaraguaanse | GTYPE>demonym
+nicaraguaans | GTYPE>demonym
+nederlander | GTYPE>demonym
+nederlandse | GTYPE>demonym
+nederlands | GTYPE>demonym
+noor | GTYPE>demonym
+noorse | GTYPE>demonym
+noors | GTYPE>demonym
+nepalees | GTYPE>demonym
+nepalese | GTYPE>demonym
+nepalees | GTYPE>demonym
+nauruaan | GTYPE>demonym
+nauruaanse | GTYPE>demonym
+nauruaans | GTYPE>demonym
+van niue | GTYPE>demonym
+nieuw-zeelander | GTYPE>demonym
+nieuw-zeelandse | GTYPE>demonym
+nieuw-zeelands | GTYPE>demonym
+omani | GTYPE>demonym
+omaans | GTYPE>demonym
+panamees | GTYPE>demonym
+panamese | GTYPE>demonym
+panamees | GTYPE>demonym
+peruaan | GTYPE>demonym
+peruviaan | GTYPE>demonym
+peruaanse | GTYPE>demonym
+peruviaanse | GTYPE>demonym
+peruaans | GTYPE>demonym
+peruviaans | GTYPE>demonym
+frans-polynesiër | GTYPE>demonym
+frans-polynesische | GTYPE>demonym
+frans-polynesisch | GTYPE>demonym
+van papoea-nieuw-guinea | GTYPE>demonym
+filipijn | GTYPE>demonym
+filipijnse | GTYPE>demonym
+filipijns | GTYPE>demonym
+pakistaan | GTYPE>demonym
+pakistaanse | GTYPE>demonym
+pakistani | GTYPE>demonym
+pakistaans | GTYPE>demonym
+pool | GTYPE>demonym
+poolse | GTYPE>demonym
+pools | GTYPE>demonym
+van saint-pierre en miquelon | GTYPE>demonym
+pitcairneilander | GTYPE>demonym
+pitcairneilandse | GTYPE>demonym
+pitcairneilands | GTYPE>demonym
+puertoricaan | GTYPE>demonym
+portoricaan | GTYPE>demonym
+puertoricaanse | GTYPE>demonym
+portoricaanse | GTYPE>demonym
+puertoricaans | GTYPE>demonym
+portoricaans | GTYPE>demonym
+portugees | GTYPE>demonym
+portugese | GTYPE>demonym
+portugees | GTYPE>demonym
+palauer | GTYPE>demonym
+palause | GTYPE>demonym
+palaus | GTYPE>demonym
+paraguayaan | GTYPE>demonym
+paraguees | GTYPE>demonym
+paraguayaanse | GTYPE>demonym
+paraguese | GTYPE>demonym
+paraguayaans | GTYPE>demonym
+paraguees | GTYPE>demonym
+qatarees | GTYPE>demonym
+qatarese | GTYPE>demonym
+qatari | GTYPE>demonym
+qatarees | GTYPE>demonym
+van réunion | GTYPE>demonym
+réunions | GTYPE>demonym
+roemeen | GTYPE>demonym
+roemeense | GTYPE>demonym
+roemeens | GTYPE>demonym
+rus | GTYPE>demonym
+russin | GTYPE>demonym
+russische | GTYPE>demonym
+russisch | GTYPE>demonym
+rwandees | GTYPE>demonym
+rwandese | GTYPE>demonym
+rwandees | GTYPE>demonym
+saudiër | GTYPE>demonym
+saudische | GTYPE>demonym
+saudi | GTYPE>demonym
+saudisch | GTYPE>demonym
+saudi-arabisch | GTYPE>demonym
+van de salomonseilanden | GTYPE>demonym
+seycheller | GTYPE>demonym
+seychelse | GTYPE>demonym
+seychels | GTYPE>demonym
+sudanees | GTYPE>demonym
+sudanese | GTYPE>demonym
+sudanees | GTYPE>demonym
+zweed | GTYPE>demonym
+zweedse | GTYPE>demonym
+zweeds | GTYPE>demonym
+singaporees | GTYPE>demonym
+singaporese | GTYPE>demonym
+singaporees | GTYPE>demonym
+sint-helener | GTYPE>demonym
+sint-heleense | GTYPE>demonym
+sint-heleens | GTYPE>demonym
+sloveen | GTYPE>demonym
+sloveense | GTYPE>demonym
+sloveens | GTYPE>demonym
+van svalbard en jan mayen | GTYPE>demonym
+slowaak | GTYPE>demonym
+slovaak | GTYPE>demonym
+slowaakse | GTYPE>demonym
+slovaakse | GTYPE>demonym
+slowaaks | GTYPE>demonym
+slovaaks | GTYPE>demonym
+sierraleoner | GTYPE>demonym
+sierraleoonse | GTYPE>demonym
+sierraleoons | GTYPE>demonym
+sanmarinees | GTYPE>demonym
+sanmarinese | GTYPE>demonym
+sanmarinees | GTYPE>demonym
+senegalees | GTYPE>demonym
+senegalese | GTYPE>demonym
+senegalees | GTYPE>demonym
+somaliër | GTYPE>demonym
+somalische | GTYPE>demonym
+somalisch | GTYPE>demonym
+surinamer | GTYPE>demonym
+surinaamse | GTYPE>demonym
+surinaams | GTYPE>demonym
+santomees | GTYPE>demonym
+santomese | GTYPE>demonym
+santomees | GTYPE>demonym
+salvadoraan | GTYPE>demonym
+salvadoraanse | GTYPE>demonym
+salvadoraans | GTYPE>demonym
+syriër | GTYPE>demonym
+syrische | GTYPE>demonym
+syrisch | GTYPE>demonym
+swaziër | GTYPE>demonym
+swazische | GTYPE>demonym
+swazi | GTYPE>demonym
+swazisch | GTYPE>demonym
+van de turks- en caicoseilanden | GTYPE>demonym
+tsjadiër | GTYPE>demonym
+tsjadische | GTYPE>demonym
+tsjadisch | GTYPE>demonym
+togolees | GTYPE>demonym
+togolese | GTYPE>demonym
+togolees | GTYPE>demonym
+thailander | GTYPE>demonym
+thai | GTYPE>demonym
+thailandse | GTYPE>demonym
+thaise | GTYPE>demonym
+thais | GTYPE>demonym
+thailands | GTYPE>demonym
+tadzjiek | GTYPE>demonym
+tadzjiekse | GTYPE>demonym
+tadzjieks | GTYPE>demonym
+tokelau-eilander | GTYPE>demonym
+tokelau-eilandse | GTYPE>demonym
+tokelau-eilands | GTYPE>demonym
+oost-timorees | GTYPE>demonym
+oost-timorese | GTYPE>demonym
+oost-timorees | GTYPE>demonym
+turkmeen | GTYPE>demonym
+turkmeense | GTYPE>demonym
+turkmeens | GTYPE>demonym
+tunesiër | GTYPE>demonym
+tunesische | GTYPE>demonym
+tunesisch | GTYPE>demonym
+tongaan | GTYPE>demonym
+tongaanse | GTYPE>demonym
+tongaans | GTYPE>demonym
+turk | GTYPE>demonym
+turkse | GTYPE>demonym
+turks | GTYPE>demonym
+van trinidad en tobago | GTYPE>demonym
+tuvaluaan | GTYPE>demonym
+tuvaluaanse | GTYPE>demonym
+tuvaluaans | GTYPE>demonym
+taiwanees | GTYPE>demonym
+taiwanese | GTYPE>demonym
+taiwanees | GTYPE>demonym
+tanzaniaan | GTYPE>demonym
+tanzaniaanse | GTYPE>demonym
+tanzaniaans | GTYPE>demonym
+oekraïner | GTYPE>demonym
+oekraïnse | GTYPE>demonym
+oekraïns | GTYPE>demonym
+ugandees | GTYPE>demonym
+ugandese | GTYPE>demonym
+ugandees | GTYPE>demonym
+amerikaan | GTYPE>demonym
+amerikaanse | GTYPE>demonym
+amerikaans | GTYPE>demonym
+uruguayaan | GTYPE>demonym
+uruguees | GTYPE>demonym
+uruguayaanse | GTYPE>demonym
+uruguese | GTYPE>demonym
+urugayaans | GTYPE>demonym
+uruguees | GTYPE>demonym
+oezbeek | GTYPE>demonym
+oezbeekse | GTYPE>demonym
+oezbeeks | GTYPE>demonym
+van vaticaanstad | GTYPE>demonym
+vaticaans | GTYPE>demonym
+van saint vincent en de grenadines | GTYPE>demonym
+venezolaan | GTYPE>demonym
+venezolaanse | GTYPE>demonym
+venezolaans | GTYPE>demonym
+van de britse maagdeneilanden | GTYPE>demonym
+van de amerikaanse maagdeneilanden | GTYPE>demonym
+vietnamees | GTYPE>demonym
+vietnamese | GTYPE>demonym
+vietnamees | GTYPE>demonym
+vanuatuaan | GTYPE>demonym
+vanuatuaanse | GTYPE>demonym
+vanuatuaans | GTYPE>demonym
+van wallis en futuna | GTYPE>demonym
+samoaan | GTYPE>demonym
+samoaanse | GTYPE>demonym
+samoaans | GTYPE>demonym
+jemeniet | GTYPE>demonym
+jemenitische | GTYPE>demonym
+jemenitisch | GTYPE>demonym
+van mayotte | GTYPE>demonym
+joegoslaviër | GTYPE>demonym
+joegoslaaf | GTYPE>demonym
+joegoslavische | GTYPE>demonym
+joegoslavisch | GTYPE>demonym
+zuid-afrikaan | GTYPE>demonym
+zuid-afrikaanse | GTYPE>demonym
+zuid-afrikaans | GTYPE>demonym
+zambiaan | GTYPE>demonym
+zambiaanse | GTYPE>demonym
+zambiaans | GTYPE>demonym
+zimbabwaan | GTYPE>demonym
+zimbabwaanse | GTYPE>demonym
+zimbabwaans | GTYPE>demonym
+
+# tdg new ones:
+afrikaan | GTYPE>demonym
+amerikanen | GTYPE>demonym
+argentijnen | GTYPE>demonym
+iraakse | GTYPE>demonym
+italianen | GTYPE>demonym
+Europese | GTYPE>demonym
+Aziatisch | GTYPE>demonym
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright   2012 European Commission.
+# file    : person_position-nl.txt
+# content : PM lexicon for dutch titles
+# date| GTYPE>position
+# author  :  M. Ehrmann
+#**********************************************
+
+#source: http://taaladvies.net/taal/advies/tekst/21
+# To be revised!!
+
+
+# MILITARY POSITIONS
+
+brigadegeneraal | GTYPE>position | GSUBTYPE>military
+commandant | GTYPE>position | GSUBTYPE>military
+kapitein | GTYPE>position | GSUBTYPE>military
+korporaal | GTYPE>position | GSUBTYPE>military
+luitenant | GTYPE>position | GSUBTYPE>military
+majoor | GTYPE>position | GSUBTYPE>military
+soldaat | GTYPE>position | GSUBTYPE>military
+luitenant-admiraal  | GTYPE>position | GSUBTYPE>military
+LADM  | GTYPE>position |GSUBTYPE>religious
+generaal  | GTYPE>position | GSUBTYPE>military
+vice-admiraal  | GTYPE>position | GSUBTYPE>military
+VADM  | GTYPE>position |GSUBTYPE>religious
+luitenant-generaal  | GTYPE>position | GSUBTYPE>military
+schout-bij-nacht  | GTYPE>position | GSUBTYPE>military
+generaal-majoor  | GTYPE>position | GSUBTYPE>military
+Commandeur | GTYPE>position | GSUBTYPE>military
+brigadegeneraal  | GTYPE>position | GSUBTYPE>military
+Commodore | GTYPE>position |GSUBTYPE>religious
+kapitein ter zee  | GTYPE>position | GSUBTYPE>military
+KTZ  | GTYPE>position |GSUBTYPE>religious
+kolonel | GTYPE>position | GSUBTYPE>military
+kol  | GTYPE>position |GSUBTYPE>religious
+kapitein-luitenant ter zee  | GTYPE>position | GSUBTYPE>military
+KLTZ  | GTYPE>position |GSUBTYPE>religious
+luitenant-kolonel  | GTYPE>position | GSUBTYPE>military
+lkol  | GTYPE>position |GSUBTYPE>religious
+luitenant ter zee der eerste klasse | GTYPE>position | GSUBTYPE>military
+LTZ1  | GTYPE>position |GSUBTYPE>religious
+majoor  | GTYPE>position | GSUBTYPE>military
+maj  | GTYPE>position |GSUBTYPE>religious
+luitenant ter zee der tweede klasse  | GTYPE>position | GSUBTYPE>military
+LTZ2OC  | GTYPE>position |GSUBTYPE>religious
+kapitein  | GTYPE>position | GSUBTYPE>military
+kap  | GTYPE>position | GSUBTYPE>military
+ritmeester  | GTYPE>position | GSUBTYPE>military
+ritm  | GTYPE>position |GSUBTYPE>religious
+eerste luitenant  | GTYPE>position | GSUBTYPE>military
+tweede luitenant  | GTYPE>position | GSUBTYPE>military
+
+# ACADEMIC POSITIONS
+
+doctor   | GTYPE>position | GSUBTYPE>academic
+meester   | GTYPE>position | GSUBTYPE>academic
+ingenieur   | GTYPE>position | GSUBTYPE>academic
+ir.  | GTYPE>position | GSUBTYPE>academic | STRICT > (?i:ir\.)
+doctorandus   | GTYPE>position | GSUBTYPE>academic
+drs.   | GTYPE>position | GSUBTYPE>academic | STRICT > (?i:drs\.)
+
+# RELIGIOUS POSITIONS
+
+paus | GTYPE>position |GSUBTYPE>religious
+kardinaal | GTYPE>position |GSUBTYPE>religious
+aartsbisschop | GTYPE>position |GSUBTYPE>religious
+bisschop | GTYPE>position |GSUBTYPE>religious
+aartsbischop | GTYPE>position |GSUBTYPE>religious
+nuntius | GTYPE>position |GSUBTYPE>religious
+pronuntius | GTYPE>position |GSUBTYPE>religious
+monseigneur | GTYPE>position |GSUBTYPE>religious
+protonotarius | GTYPE>position |GSUBTYPE>religious
+ereprelaat | GTYPE>position |GSUBTYPE>religious
+kapelaan van zijne heiligheid | GTYPE>position |GSUBTYPE>religious
+vicaris-generaal | GTYPE>position |GSUBTYPE>religious
+bisschoppelijk vicaris | GTYPE>position |GSUBTYPE>religious
+deken | GTYPE>position |GSUBTYPE>religious
+abt | GTYPE>position |GSUBTYPE>religious
+prior | GTYPE>position |GSUBTYPE>religious
+provinciaal | GTYPE>position |GSUBTYPE>religious
+kanunnik | GTYPE>position |GSUBTYPE>religious
+plebaan | GTYPE>position |GSUBTYPE>religious
+pastoor | GTYPE>position |GSUBTYPE>religious
+overste van een klooster | GTYPE>position |GSUBTYPE>religious
+moeder-overste | GTYPE>position |GSUBTYPE>religious
+kapelaan | GTYPE>position |GSUBTYPE>religious
+diaken | GTYPE>position |GSUBTYPE>religious
+pater | GTYPE>position |GSUBTYPE>religious
+broeder  | GTYPE>position |GSUBTYPE>religious
+religieuze | GTYPE>position |GSUBTYPE>religious
+lid van synode | GTYPE>position |GSUBTYPE>religious
+predikant  | GTYPE>position |GSUBTYPE>religious
+opperrabbijn | GTYPE>position |GSUBTYPE>religious
+rabbinale assessor| GTYPE>position |GSUBTYPE>religious
+rabbijn | GTYPE>position |GSUBTYPE>religious
+ayatollah | GTYPE>position |GSUBTYPE>religious
+imam | GTYPE>position |GSUBTYPE>religious
+
+
+#POLITICAL/GOV POSITIONS
+
+koning | GTYPE>position |GSUBTYPE>pol
+koningin | GTYPE>position |GSUBTYPE>pol
+ambassadeur | GTYPE>position |GSUBTYPE>pol
+bondkanselier | GTYPE>position |GSUBTYPE>pol
+bondskanselier | GTYPE>position |GSUBTYPE>pol
+bondspresident | GTYPE>position |GSUBTYPE>pol
+burgemeester   | GTYPE>position |GSUBTYPE>pol
+commissaris  | GTYPE>position |GSUBTYPE>pol
+commissaris van politie   | GTYPE>position |GSUBTYPE>pol
+congreslid | GTYPE>position |GSUBTYPE>pol
+congresvoorzitter | GTYPE>position |GSUBTYPE>pol
+consul | GTYPE>position |GSUBTYPE>pol
+consul-generaal | GTYPE>position |GSUBTYPE>pol
+europarlementariër | GTYPE>position |GSUBTYPE>pol
+europarlementslid | GTYPE>position |GSUBTYPE>pol
+gouverneur | GTYPE>position |GSUBTYPE>pol
+kamerfractieleider | GTYPE>position |GSUBTYPE>pol
+kamerleden | GTYPE>position |GSUBTYPE>pol
+kamerlid   | GTYPE>position |GSUBTYPE>pol
+kamerlid | GTYPE>position |GSUBTYPE>pol 
+kamervoorzitter | GTYPE>position |GSUBTYPE>pol
+kanselier | GTYPE>position |GSUBTYPE>pol
+kroonprins | GTYPE>position |GSUBTYPE>pol
+prins | GTYPE>position |GSUBTYPE>pol
+prinses | GTYPE>position |GSUBTYPE>pol
+minister | GTYPE>position |GSUBTYPE>pol
+minister-president | GTYPE>position |GSUBTYPE>pol
+parlementsvoorzitter | GTYPE>position |GSUBTYPE>pol 
+partijvoorzitter | GTYPE>position |GSUBTYPE>pol
+politiechef | GTYPE>position |GSUBTYPE>pol 
+politiecommissaris | GTYPE>position |GSUBTYPE>pol
+president  | GTYPE>position |GSUBTYPE>pol
+presidenten | GTYPE>position |GSUBTYPE>pol
+senaatsvoorzitter | GTYPE>position |GSUBTYPE>pol
+senaatsvoorzitster | GTYPE>position |GSUBTYPE>pol
+senator | GTYPE>position |GSUBTYPE>pol
+senatoren| GTYPE>position |GSUBTYPE>pol
+staatssecretaris | GTYPE>position |GSUBTYPE>pol
+vice-consul | GTYPE>position|GSUBTYPE>pol
+staatshoofd | GTYPE>position|GSUBTYPE>pol
+staatsleider | GTYPE>position|GSUBTYPE>pol
+staatspresident | GTYPE>position|GSUBTYPE>pol
+staatssecretarissen | GTYPE>position|GSUBTYPE>pol
+staatsssecretaris | GTYPE>position|GSUBTYPE>pol
+
+
+
+begrotingsminister | GTYPE>position |GSUBTYPE>gov
+defensieminister | GTYPE>position |GSUBTYPE>gov
+defensieminister | GTYPE>position |GSUBTYPE>gov
+economieminister | GTYPE>position |GSUBTYPE>gov
+energieminister | GTYPE>position |GSUBTYPE>gov
+gezondheidsminister | GTYPE>position |GSUBTYPE>gov
+gezondheidsminister | GTYPE>position |GSUBTYPE>gov
+handelsminister | GTYPE>position |GSUBTYPE>gov
+justitieminister | GTYPE>position |GSUBTYPE>gov
+justitieminister | GTYPE>position |GSUBTYPE>gov
+landbouwminister | GTYPE>position |GSUBTYPE>gov
+mediaminister | GTYPE>position |GSUBTYPE>gov
+mediaminister | GTYPE>position |GSUBTYPE>gov
+milieuminister | GTYPE>position |GSUBTYPE>gov
+milieuminister | GTYPE>position |GSUBTYPE>gov
+mobiliteitsminister | GTYPE>position |GSUBTYPE>gov
+mobiliteitsminister | GTYPE>position |GSUBTYPE>gov
+onderminister | GTYPE>position |GSUBTYPE>gov
+onderwijsminister | GTYPE>position |GSUBTYPE>gov
+onderwijsminister | GTYPE>position |GSUBTYPE>gov
+verkeersminister | GTYPE>position |GSUBTYPE>gov
+verkeersminister | GTYPE>position |GSUBTYPE>gov
+voogdijminister | GTYPE>position |GSUBTYPE>gov
+welzijnsminister | GTYPE>position |GSUBTYPE>gov
+wetenschapsminister | GTYPE>position |GSUBTYPE>gov
+
+
+# EDUCATION
+
+professor  | GTYPE>position |GSUBTYPE>academic
+
+
+# GENERAL POSITIONS (not classified yet)
+
+rector | GTYPE>position
+officiaal | GTYPE>position 
+attaché | GTYPE>position
+college van burgemeester en wethouders | GTYPE>position
+curator   | GTYPE>position
+directeur | GTYPE>position
+directeur-generaal | GTYPE>position
+gemeenteraadslid | GTYPE>position
+gezant | GTYPE>position
+gouverneur van overzeese rijksdelen | GTYPE>position
+hoofdinspecteur  | GTYPE>position
+hoofdinspecteur der directe belastingen | GTYPE>position
+hoogleraar | GTYPE>position
+inspecteur  | GTYPE>position
+inspecteur van belastingen | GTYPE>position
+inspecteur van het hoger onderwijs | GTYPE>position
+inspecteur van het middelbaar onderwijs | GTYPE>position
+inspecteur van politie | GTYPE>position
+inspecteur-generaal van politie | GTYPE>position
+inspecteur-generaal | GTYPE>position
+kandidaat-notaris | GTYPE>position
+kantonrechter | GTYPE>position
+lid van Algemene Rekenkamer | GTYPE>position
+lid van Gedeputeerde Staten | GTYPE>position
+lid van Hoge Raad der Nederlanden | GTYPE>position
+lid van Provinciale Staten | GTYPE>position
+lid van Raad van State | GTYPE>position
+lid van gerechtshof | GTYPE>position
+officier van justitie | GTYPE>position
+officier van politie | GTYPE>position
+oud-minister | GTYPE>position
+procureur-generaal   | GTYPE>position
+schoolopziener | GTYPE>position
+substituut-officier van justitie | GTYPE>position
+wethouder | GTYPE>position
+perfusionist  | GTYPE>position
+ontwerper  | GTYPE>position
+vormgever  | GTYPE>position
+interim directeur | GTYPE>position
+alternatief genezer | GTYPE>position
+technisch tekenaar | GTYPE>position
+assistent in opleiding | GTYPE>position
+directeur | GTYPE>position
+
+
+#POSITION DOMAINS
+
+anatoom | GTYPE>position_domain
+binnenlandse zaken en justitie | GTYPE>position_domain
+binnenlandse zaken | GTYPE>position_domain
+binnenlandse zaken | GTYPE>position_domain
+binnenlandse | GTYPE>position_domain
+buitenlandse handel | GTYPE>position_domain
+buitenlandse zaken | GTYPE>position_domain
+buitenlandse zaken | GTYPE>position_domain
+buitenlandse | GTYPE>position_domain
+cultuur | GTYPE>position_domain
+defensie | GTYPE>position_domain
+economie en buitenlandse handel | GTYPE>position_domain
+economie en financiën | GTYPE>position_domain
+economie | GTYPE>position_domain
+energie | GTYPE>position_domain
+europese zaken | GTYPE>position_domain
+financiën en economie | GTYPE>position_domain
+financiën en ruimtelijke ordening | GTYPE>position_domain
+financiën | GTYPE>position_domain
+gezondheid | GTYPE>position_domain
+handel | GTYPE>position_domain
+justitie | GTYPE>position_domain
+onderwijs | GTYPE>position_domain
+politie | GTYPE>position_domain
+ruimtelijke ordening | GTYPE>position_domain
+sociale zaken en volksgezondheid | GTYPE>position_domain
+sociale zaken | GTYPE>position_domain
+sport | GTYPE>position_domain
+sociale | GTYPE>position_domain
+vluchtelingen | GTYPE>position_domain
+volksgezondheid | GTYPE>position_domain
+welzijn en volksgezondheid | GTYPE>position_domain
+welzijn | GTYPE>position_domain
+infrastructuur en milieu | GTYPE>position_domain
+economische zaken, landbouw en innovatie | GTYPE>position_domain | STRICT > (?i:economische zaken, landbouw en innovatie)
+sociale zaken en werkgelegenheid | GTYPE>position_domain
+immigratie, integratie en asiel | GTYPE>position_domain | STRICT > (?i:immigratie, integratie en asiel)
+veiligheid en justitie | GTYPE>position_domain
+
+
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_profession-nl.txt
+# content : PM lexicon for en profession and qualification names
+# date	  : February 2012
+# author  : (B. Pouliquen), M. Ehrmann
+#**********************************************
+
+#HEALTH
+
+anaestesist | GTYPE>profession| GSUBTYPE>health
+anatoom | GTYPE>profession| GSUBTYPE>health
+apotheker | GTYPE>profession| GSUBTYPE>health
+apothekersassistente | GTYPE>profession| GSUBTYPE>health
+audiotherapeut | GTYPE>profession| GSUBTYPE>health
+chirurg | GTYPE>profession| GSUBTYPE>health
+doktersassistente | GTYPE>profession| GSUBTYPE>health
+fysiotherapeut | GTYPE>profession| GSUBTYPE>health
+logotherapeut | GTYPE>profession| GSUBTYPE>health
+contactlensspecialist | GTYPE>profession| GSUBTYPE>health
+manueel therapeut | GTYPE>profession| GSUBTYPE>health
+neuroloog | GTYPE>profession| GSUBTYPE>health
+patholoog anatoom | GTYPE>profession| GSUBTYPE>health
+pedicure | GTYPE>profession| GSUBTYPE>health
+oncoloog | GTYPE>profession| GSUBTYPE>health
+opticien | GTYPE>profession| GSUBTYPE>health
+orthodontist | GTYPE>profession| GSUBTYPE>health
+orthopedagoog | GTYPE>profession| GSUBTYPE>health
+psycholoog | GTYPE>profession| GSUBTYPE>health
+psychotherapeut | GTYPE>profession| GSUBTYPE>health
+
+#ART
+
+gitarist | GTYPE>profession| GSUBTYPE>art
+illusionist | GTYPE>profession| GSUBTYPE>art
+jongleur | GTYPE>profession| GSUBTYPE>art
+choreograaf | GTYPE>profession| GSUBTYPE>art
+circusartiest | GTYPE>profession| GSUBTYPE>art
+acrobaat | GTYPE>profession| GSUBTYPE>art
+balletdanser | GTYPE>profession| GSUBTYPE>art
+clown | GTYPE>profession| GSUBTYPE>art
+musicus | GTYPE>profession| GSUBTYPE>art
+pianist | GTYPE>profession| GSUBTYPE>art
+pianostemmer | GTYPE>profession| GSUBTYPE>art
+trompettist	 | GTYPE>profession| GSUBTYPE>art
+jazztrompettist | GTYPE>profession| GSUBTYPE>art
+straatmuzikant | GTYPE>profession| GSUBTYPE>art
+sessiemuzikant | GTYPE>profession| GSUBTYPE>art
+accordeonist | GTYPE>profession| GSUBTYPE>art
+arrangeur | GTYPE>profession| GSUBTYPE>art
+bassist | GTYPE>profession| GSUBTYPE>art
+beiaardier | GTYPE>profession| GSUBTYPE>art
+cellist | GTYPE>profession| GSUBTYPE>art
+componist | GTYPE>profession| GSUBTYPE>art
+live-dj | GTYPE>profession| GSUBTYPE>art
+dirigent | GTYPE>profession| GSUBTYPE>art
+drummer | GTYPE>profession| GSUBTYPE>art
+fagottist | GTYPE>profession| GSUBTYPE>art
+fluitist | GTYPE>profession| GSUBTYPE>art
+gitarist | GTYPE>profession| GSUBTYPE>art
+harpist | GTYPE>profession| GSUBTYPE>art
+hoboïst | GTYPE>profession| GSUBTYPE>art
+hoornist | GTYPE>profession| GSUBTYPE>art
+klarinettist | GTYPE>profession| GSUBTYPE>art
+kleinkunstenaar | GTYPE>profession| GSUBTYPE>art
+mondharmonicaspeler | GTYPE>profession| GSUBTYPE>art
+organist | GTYPE>profession| GSUBTYPE>art
+pianist | GTYPE>profession| GSUBTYPE>art
+rapper | GTYPE>profession| GSUBTYPE>art
+saxofonist | GTYPE>profession| GSUBTYPE>art
+singer-songwriter | GTYPE>profession| GSUBTYPE>art
+slagwerker | GTYPE>profession| GSUBTYPE>art
+toetsenist | GTYPE>profession| GSUBTYPE>art
+trombonist | GTYPE>profession| GSUBTYPE>art
+trompettist | GTYPE>profession| GSUBTYPE>art
+vibrafonist | GTYPE>profession| GSUBTYPE>art
+violist | GTYPE>profession| GSUBTYPE>art
+zanger | GTYPE>profession| GSUBTYPE>art
+paukenist | GTYPE>profession| GSUBTYPE>art
+acteur | GTYPE>profession| GSUBTYPE>art
+actor | GTYPE>profession| GSUBTYPE>art
+actrice | GTYPE>profession| GSUBTYPE>art
+komediante | GTYPE>profession| GSUBTYPE>art
+komediant | GTYPE>profession| GSUBTYPE>art
+toneelspeelster | GTYPE>profession| GSUBTYPE>art
+toneelspeler | GTYPE>profession| GSUBTYPE>art
+romanschrijver | GTYPE>profession| GSUBTYPE>art
+schrijver  | GTYPE>profession| GSUBTYPE>art
+zangeres | GTYPE>profession| GSUBTYPE>art
+filmmaker | GTYPE>profession| GSUBTYPE>art
+filmregisseur | GTYPE>profession| GSUBTYPE>art
+filmsterren | GTYPE>profession| GSUBTYPE>art
+hollywoodacteur | GTYPE>profession| GSUBTYPE>art
+hollywoodster | GTYPE>profession| GSUBTYPE>art
+topman | GTYPE>profession| GSUBTYPE>art
+topmodel | GTYPE>profession| GSUBTYPE>art
+rockzangeres | GTYPE>profession| GSUBTYPE>art
+cineast | GTYPE>profession| GSUBTYPE>art
+dramaturg | GTYPE>profession| GSUBTYPE>art
+festivaldirecteur | GTYPE>profession| GSUBTYPE>art
+fotografe | GTYPE>profession| GSUBTYPE>art
+fotomodel | GTYPE>profession| GSUBTYPE>art
+
+
+
+
+
+#MEDIA
+
+journalist | GTYPE>profession| GSUBTYPE>media
+correspondent | GTYPE>profession| GSUBTYPE>media
+hoofdredacteur  | GTYPE>profession| GSUBTYPE>media
+tekstschrijver | GTYPE>profession| GSUBTYPE>media
+correspondent | GTYPE>profession| GSUBTYPE>media
+verslaggever | GTYPE>profession| GSUBTYPE>media
+reporter | GTYPE>profession| GSUBTYPE>media
+correspondente | GTYPE>profession| GSUBTYPE>media
+verslaggeefster | GTYPE>profession| GSUBTYPE>media
+journaliste ter plaatse | GTYPE>profession| GSUBTYPE>media
+journaliste  | GTYPE>profession| GSUBTYPE>media
+
+#SCIENCE
+
+biochemicus  | GTYPE>profession| GSUBTYPE>science
+alchemist  | GTYPE>profession| GSUBTYPE>science
+astronaut  | GTYPE>profession| GSUBTYPE>science
+astrochemicus  | GTYPE>profession| GSUBTYPE>science
+astrofysicus  | GTYPE>profession| GSUBTYPE>science
+astronoom  | GTYPE>profession| GSUBTYPE>science
+astroloog  | GTYPE>profession| GSUBTYPE>science
+audioloog  | GTYPE>profession| GSUBTYPE>science
+chemicus  | GTYPE>profession| GSUBTYPE>science
+fysicus  | GTYPE>profession| GSUBTYPE>science
+fysioloog  | GTYPE>profession| GSUBTYPE>science
+etymoloog  | GTYPE>profession| GSUBTYPE>science
+etnograaf  | GTYPE>profession| GSUBTYPE>science
+etnoloog  | GTYPE>profession| GSUBTYPE>science
+oceanoloog  | GTYPE>profession| GSUBTYPE>science
+ornitoloog  | GTYPE>profession| GSUBTYPE>science
+
+#JUSTICE
+advocaat-generaal  | GTYPE>profession| GSUBTYPE>justice
+griffier   | GTYPE>profession| GSUBTYPE>justice
+officier van justitie  | GTYPE>profession| GSUBTYPE>justice
+notaris  | GTYPE>profession| GSUBTYPE>justice
+jurist  | GTYPE>profession| GSUBTYPE>justice
+procureur  | GTYPE>profession| GSUBTYPE>justice
+kantonrechter  | GTYPE>profession| GSUBTYPE>justice
+vrederechter  | GTYPE>profession| GSUBTYPE>justice
+politierechter  | GTYPE>profession| GSUBTYPE>justice
+rechter-rapporteur  | GTYPE>profession| GSUBTYPE>justice
+advocaat  | GTYPE>profession| GSUBTYPE>justice
+advocaten | GTYPE>profession| GSUBTYPE>justice
+
+#SPORT
+
+grensrechter  | GTYPE>profession| GSUBTYPE>sport
+lijnrechter  | GTYPE>profession| GSUBTYPE>sport
+scheidsrechter  | GTYPE>profession| GSUBTYPE>sport
+arbiter  | GTYPE>profession| GSUBTYPE>sport
+atleet  | GTYPE>profession| GSUBTYPE>sport
+atlete  | GTYPE>profession| GSUBTYPE>sport
+autocoureur  | GTYPE>profession| GSUBTYPE>sport
+autopiloot  | GTYPE>profession| GSUBTYPE>sport
+bokskampioen  | GTYPE>profession| GSUBTYPE>sport
+golfer  | GTYPE>profession| GSUBTYPE>sport
+golfster  | GTYPE>profession| GSUBTYPE>sport
+judoka  | GTYPE>profession| GSUBTYPE>sport
+voetballegende  | GTYPE>profession| GSUBTYPE>sport
+voetbaltrainer  | GTYPE>profession| GSUBTYPE>sport
+tafeltennisser  | GTYPE>profession| GSUBTYPE>sport
+tennisser  | GTYPE>profession| GSUBTYPE>sport
+tennisster  | GTYPE>profession| GSUBTYPE>sport
+wereldkampioen  | GTYPE>profession| GSUBTYPE>sport
+basketballer  | GTYPE>profession| GSUBTYPE>sport
+finaliste  | GTYPE>profession| GSUBTYPE>sport
+kampioen  | GTYPE>profession| GSUBTYPE>sport
+kampioene  | GTYPE>profession| GSUBTYPE>sport
+kickbokser  | GTYPE>profession| GSUBTYPE>sport
+
+#NOT YET CLASSIFIED, should be some duplicates
+# all marked as profession but there are qualifications and positions as well...
+# --> to revise
+
+Abt | GTYPE>profession
+CEO | GTYPE>profession
+Caféhouder | GTYPE>profession
+DJ | GTYPE>profession
+KNO-arts | GTYPE>profession
+Kok | GTYPE>profession
+Röntgenoloog | GTYPE>profession
+VJ | GTYPE>profession
+aanklager | GTYPE>profession
+aannemer | GTYPE>profession
+aanvaller | GTYPE>profession
+aanvoerder | GTYPE>profession
+aartsrivaal | GTYPE>profession
+accountant | GTYPE>profession
+accountmanager | GTYPE>profession
+acteur | GTYPE>profession
+adjudant | GTYPE>profession
+administrateur | GTYPE>profession
+adviseur | GTYPE>profession
+advocaat | GTYPE>profession
+afperser | GTYPE>profession
+agent | GTYPE>profession
+agente | GTYPE>profession
+agoog | GTYPE>profession
+agrariër | GTYPE>profession
+aktiviteitenbegeleider | GTYPE>profession
+alternatief genezer | GTYPE>profession
+ambtenaar | GTYPE>profession
+ambtgenoot | GTYPE>profession
+analist  | GTYPE>position
+analist | GTYPE>profession
+andragoog | GTYPE>profession
+anesthesioloog | GTYPE>profession
+animator | GTYPE>profession
+antiquair | GTYPE>profession
+arbeider | GTYPE>profession
+architect | GTYPE>profession
+arrangeur | GTYPE>profession
+arts | GTYPE>profession
+assistent in opleiding | GTYPE>profession
+assuradeur | GTYPE>profession
+astroloog | GTYPE>profession
+astronauten | GTYPE>profession
+auteur | GTYPE>profession
+autobouwer | GTYPE>profession
+autodesigner | GTYPE>profession
+baanrenners | GTYPE>profession
+baas | GTYPE>profession
+bakker | GTYPE>profession
+bankbediende | GTYPE>profession
+bankdirecteur | GTYPE>profession
+banketbakker | GTYPE>profession
+bankier | GTYPE>profession
+bankpresident | GTYPE>profession
+barman | GTYPE>profession
+bedrijfskundige | GTYPE>profession
+beeldhouwer | GTYPE>profession
+belegger | GTYPE>profession
+bemiddelaar | GTYPE>profession
+berggids | GTYPE>profession
+beroepsactivist | GTYPE>profession
+bestuurder | GTYPE>profession
+bestuurskundige | GTYPE>profession
+bestuursvoorzitter | GTYPE>profession
+beul | GTYPE>profession
+bevelhebber | GTYPE>profession
+bewaker | GTYPE>profession
+bibliothecaris | GTYPE>profession
+bierbrouwer | GTYPE>profession
+binnenhuisarchitect | GTYPE>profession
+biograaf | GTYPE>profession
+bioloog | GTYPE>profession
+bisschop | GTYPE>profession
+blogger | GTYPE>profession
+boegbeeld | GTYPE>profession
+boekbinder | GTYPE>profession
+boekhouder | GTYPE>profession
+boer | GTYPE>profession
+bondscoach | GTYPE>profession
+boordwerktuigkundige | GTYPE>profession
+boswachter | GTYPE>profession
+bouwopzichter | GTYPE>profession
+bouwvakarbeider | GTYPE>profession
+bouwvakker | GTYPE>profession
+broer | GTYPE>profession
+buikspreker | GTYPE>profession
+buitenlandcoördinator | GTYPE>profession
+buschauffeur | GTYPE>profession
+butler | GTYPE>profession
+cabaretier | GTYPE>profession
+caissière | GTYPE>profession
+calculator | GTYPE>profession
+cameraman | GTYPE>profession
+campanoloog | GTYPE>profession
+cargadoor | GTYPE>profession
+chauffeur | GTYPE>profession
+chef | GTYPE>profession
+choreograaf | GTYPE>profession
+cipier | GTYPE>profession
+circusdirecteur | GTYPE>profession
+civiel ingenieur | GTYPE>profession
+clown | GTYPE>profession
+coach | GTYPE>profession
+collega | GTYPE>profession
+colporteur | GTYPE>profession
+columnist | GTYPE>profession
+comapatiente | GTYPE>profession
+comapatiënte | GTYPE>profession
+commissaris van politie | GTYPE>profession
+componist | GTYPE>profession
+computerprogrammeur | GTYPE>profession
+concurrent | GTYPE>profession
+conducteur | GTYPE>profession
+consensusfiguur | GTYPE>profession
+constructeur | GTYPE>profession
+coureur | GTYPE>profession
+coureurs | GTYPE>profession
+criticus | GTYPE>profession
+croupeur | GTYPE>profession
+curiekardinaal | GTYPE>profession
+danser | GTYPE>profession
+declarant | GTYPE>profession
+defensiespecialist | GTYPE>profession
+designer | GTYPE>profession
+detective | GTYPE>profession
+deurwaarder | GTYPE>profession
+dichter | GTYPE>profession
+dictator | GTYPE>profession
+dieetgoeroe | GTYPE>profession
+dierenarts | GTYPE>profession
+diplomaat | GTYPE>profession
+dirigent | GTYPE>profession
+docent | GTYPE>profession
+dochter | GTYPE>profession
+doctor of medicine | GTYPE>profession
+documentalist | GTYPE>profession
+doelman | GTYPE>profession
+dokter | GTYPE>profession
+dominee | GTYPE>profession
+drukker | GTYPE>profession
+duiker | GTYPE>profession
+echtgenoot | GTYPE>profession
+econoom | GTYPE>profession
+edelsmid | GTYPE>profession
+editor | GTYPE>profession
+eigenaar | GTYPE>profession
+elektrotechnicus | GTYPE>profession
+encyclopedist | GTYPE>profession
+engelsen | GTYPE>profession
+engelsman | GTYPE>profession
+entertainer | GTYPE>profession
+essayist | GTYPE>profession
+expediteur | GTYPE>profession
+exporteur | GTYPE>profession
+fabrieksarbeider | GTYPE>profession
+fabrieksdirecteur | GTYPE>profession
+fietsenmaker | GTYPE>profession
+filosoof | GTYPE>profession
+financieel analist | GTYPE>profession
+fluitbouwer | GTYPE>profession
+forumvoorzitter | GTYPE>profession
+fotograaf | GTYPE>profession
+fractieleider | GTYPE>profession
+fractieleiders | GTYPE>profession
+fractieleidster | GTYPE>profession
+fractievoorzitter | GTYPE>profession
+frontman | GTYPE>profession
+fruitteler | GTYPE>profession
+geblesseerde | GTYPE>profession
+geestelijke | GTYPE>profession
+gemeenschapssenator | GTYPE>profession
+generaal | GTYPE>profession
+geograaf | GTYPE>profession
+geoloog | GTYPE>profession
+gerant | GTYPE>profession
+gevangenbewaarder | GTYPE>profession
+gezagvoerder | GTYPE>profession
+gids | GTYPE>profession
+glamourkoppel | GTYPE>profession
+glasblazer | GTYPE>profession
+glazenwasser | GTYPE>profession
+goochelaar | GTYPE>profession
+grafdelver | GTYPE>profession
+graficus | GTYPE>profession
+grafisch ontwerper | GTYPE>profession
+grafisch vormgever | GTYPE>profession
+grafoloog | GTYPE>profession
+graveur | GTYPE>profession
+groententeler | GTYPE>profession
+groepsleider | GTYPE>profession
+grondwerker | GTYPE>profession
+groothertogin | GTYPE>profession
+guerrillaleider | GTYPE>profession
+gynaecoloog | GTYPE>profession
+handelaar | GTYPE>profession
+handelscommissaris | GTYPE>profession
+handelsgezant | GTYPE>profession
+havenarbeider | GTYPE>profession
+heier | GTYPE>profession
+herbergier | GTYPE>profession
+herverzekeraar | GTYPE>profession
+hiphopartiest | GTYPE>profession
+histoloog | GTYPE>profession
+historicus | GTYPE>profession
+hoekman | GTYPE>profession
+hondenfokker | GTYPE>profession
+hondentrimmer | GTYPE>profession
+hoofdaanklaagster | GTYPE>profession
+hoofdaanklager | GTYPE>profession
+hoofdcommissaris | GTYPE>profession
+hoofdonderzoeker | GTYPE>profession
+hoofdredacteur | GTYPE>profession
+hoofdrolspeelster | GTYPE>profession
+hoofdrolspeler | GTYPE>profession
+hotelerfgename | GTYPE>profession
+hotelier | GTYPE>profession
+hotellier | GTYPE>profession
+houtsnijder | GTYPE>profession
+huisarts | GTYPE>profession
+huisbaas | GTYPE>profession
+huisschilder | GTYPE>profession
+hulpverleenster | GTYPE>profession
+importeur | GTYPE>profession
+impresario | GTYPE>profession
+impressionist | GTYPE>profession
+industrieel ontwerper | GTYPE>profession
+ingenieur | GTYPE>profession
+inspecteur politie | GTYPE>profession
+interieurverzorger | GTYPE>profession
+interim directeur | GTYPE>profession
+interim premier | GTYPE>profession
+interim-directeur | GTYPE>profession
+interim-premier | GTYPE>profession
+internist | GTYPE>profession
+invaller | GTYPE>profession
+investeerdermiddenvelder | GTYPE>profession
+jachtopziener | GTYPE>profession
+jongen | GTYPE>profession
+journalist | GTYPE>profession
+juryvoorzitter | GTYPE>profession
+kamerfractieleider | GTYPE>profession
+kamerlid | GTYPE>profession
+kamervoorzitter | GTYPE>profession
+kandidaat | GTYPE>profession
+kandidate | GTYPE>profession
+kanselierskandidate | GTYPE>profession
+kapper | GTYPE>profession
+keeper | GTYPE>profession
+kelner | GTYPE>profession
+kerngeleerde | GTYPE>profession
+kindermoordenaar | GTYPE>profession
+kindsterretje | GTYPE>profession
+kleermaker | GTYPE>profession
+klerk | GTYPE>profession
+kleuterleidster | GTYPE>profession
+klimmer | GTYPE>profession
+klinisch perfusionist | GTYPE>profession
+klokkengieter | GTYPE>profession
+klokkenluider | GTYPE>profession
+kloosterling | GTYPE>profession
+kok | GTYPE>profession
+kolonel | GTYPE>profession
+komiek | GTYPE>profession
+kopstuk | GTYPE>profession
+kraanmachinist | GTYPE>profession
+krijgsheer | GTYPE>profession
+kroonprins | GTYPE>profession
+kunstenaar | GTYPE>profession
+kunsthistoricus | GTYPE>profession
+laborant | GTYPE>profession
+lakei | GTYPE>profession
+landarbeider | GTYPE>profession
+landbouwer | GTYPE>profession
+landgenoot | GTYPE>profession
+landgenote | GTYPE>profession
+landgenoten | GTYPE>profession
+landmeter | GTYPE>profession
+landskampioen | GTYPE>profession
+lasser | GTYPE>profession
+leeuwentemmer | GTYPE>profession
+legercommandant | GTYPE>profession
+legerleider | GTYPE>profession
+leidster | GTYPE>profession
+leraar | GTYPE>profession
+letterkundige | GTYPE>profession
+lichtmatroos | GTYPE>profession
+ligavoorzitter | GTYPE>profession
+lijstenmaker | GTYPE>profession
+lijsttrekker | GTYPE>profession
+lipidoloog | GTYPE>profession
+literator | GTYPE>profession
+literatuurcriticus | GTYPE>profession
+loodgieter | GTYPE>profession
+loods | GTYPE>profession
+machthebber | GTYPE>profession
+maffiabaas | GTYPE>profession
+magnaat | GTYPE>profession
+makelaar | GTYPE>profession
+man | GTYPE>profession
+manager | GTYPE>profession
+marechaussee | GTYPE>profession
+marktkoopman | GTYPE>profession
+masseur | GTYPE>profession
+mathematicus | GTYPE>profession
+matroos | GTYPE>profession
+medeoprichter | GTYPE>profession
+medereiziger | GTYPE>profession
+medewerker | GTYPE>profession
+mediamagnaat | GTYPE>profession
+mediaondernemer | GTYPE>profession
+mediatycoon | GTYPE>profession
+meester | GTYPE>profession
+meesterspion | GTYPE>profession
+meteoroloog | GTYPE>profession
+metselaar | GTYPE>profession
+meubelmaker | GTYPE>profession
+middenvelder | GTYPE>profession
+milieudeskundige | GTYPE>profession
+militair | GTYPE>profession
+militieleider | GTYPE>profession
+miljonair | GTYPE>profession
+miljonairsdochter | GTYPE>profession
+mimespeler | GTYPE>profession
+modekoning | GTYPE>profession
+model | GTYPE>profession
+modeontwerper | GTYPE>profession
+modeontwerpster | GTYPE>profession
+moeder | GTYPE>profession
+molenaar | GTYPE>profession
+mondhygiënist | GTYPE>profession
+monteur | GTYPE>profession
+motard | GTYPE>profession
+motorcoureur | GTYPE>profession
+mullah | GTYPE>profession
+museumdirecteur | GTYPE>profession
+musicoloog | GTYPE>profession
+musicus | GTYPE>profession
+muziekcriticus | GTYPE>profession
+muziekinstrumentbouwer | GTYPE>profession
+naaister | GTYPE>profession
+naaktfotograaf | GTYPE>profession
+nachtwaker | GTYPE>profession
+natuurkundige | GTYPE>profession
+neef | GTYPE>profession
+neerlandicus | GTYPE>profession
+nieuwslezer | GTYPE>profession
+nobelprijswinnaar | GTYPE>profession
+nobelprijswinnares | GTYPE>profession
+ober | GTYPE>profession
+oevreuse | GTYPE>profession
+oliemagnaat | GTYPE>profession
+omroeper | GTYPE>profession
+omroepvoorzitter | GTYPE>profession
+onderhandelaar | GTYPE>profession
+ondernemer | GTYPE>profession
+ondertekende | GTYPE>profession
+onderwijzer | GTYPE>profession
+onderzoeker | GTYPE>profession
+onderzoeksleider | GTYPE>profession
+onderzoeksrechter | GTYPE>profession
+ontdekkingsreiziger | GTYPE>profession
+ontwerper | GTYPE>profession
+oogarts | GTYPE>profession
+oom | GTYPE>profession
+oorlogsmisdadiger | GTYPE>profession
+openbaar aanklager | GTYPE>position
+openbaar aanklager | GTYPE>profession
+operaster | GTYPE>profession
+opkoper | GTYPE>profession
+opperman | GTYPE>profession
+opperrechter | GTYPE>profession
+oppositieleider | GTYPE>profession
+oppositieleidster | GTYPE>profession
+oprichter | GTYPE>profession
+opstandelingenleider | GTYPE>profession
+organisator | GTYPE>profession
+overgangspremier | GTYPE>profession
+paardenfokker | GTYPE>profession
+palfrenier | GTYPE>profession
+pandjesbaas | GTYPE>profession
+parkeerwachter | GTYPE>profession
+parlementariër | GTYPE>profession
+parlementslid | GTYPE>profession
+parlementsvoorzitter | GTYPE>profession
+partijgenoot | GTYPE>profession
+partijleider | GTYPE>profession
+partijvoorzitter | GTYPE>profession
+pastoor | GTYPE>profession
+paus | GTYPE>profession
+penentiair | GTYPE>profession
+personeelsdirecteur | GTYPE>profession
+personeelsfunctionaris | GTYPE>profession
+physioloog | GTYPE>profession
+piloot | GTYPE>profession
+pionier | GTYPE>profession
+piraat | GTYPE>profession
+plantsoenmedewerker | GTYPE>profession
+ploeggenoot | GTYPE>profession
+ploegleider | GTYPE>profession
+ploegmaat | GTYPE>profession
+ploegmakker | GTYPE>profession
+poelier | GTYPE>profession
+politica | GTYPE>profession
+politicus | GTYPE>profession
+politieagent | GTYPE>profession
+politiechef | GTYPE>profession
+politiecommissaris | GTYPE>profession
+politiefunctionaris | GTYPE>profession
+politiewoordvoerder | GTYPE>profession
+polsstokspringster | GTYPE>profession
+pooier | GTYPE>profession
+popdiva | GTYPE>profession
+popmuzikant | GTYPE>profession
+popster | GTYPE>profession
+popzanger | GTYPE>profession
+popzangeres | GTYPE>profession
+positiviteitsgoeroe | GTYPE>profession
+postbode | GTYPE>profession
+pottenbakker | GTYPE>profession
+predikant | GTYPE>profession
+presentator | GTYPE>profession
+presidentskandidaat | GTYPE>profession
+presidentskandidate | GTYPE>profession
+presidentsvrouw | GTYPE>profession
+priester | GTYPE>profession
+procesmanager | GTYPE>profession
+producent | GTYPE>profession
+producer | GTYPE>profession
+professor | GTYPE>profession
+profvoetballer | GTYPE>profession
+programmadirecteur | GTYPE>profession
+programmamaker | GTYPE>profession
+programmeur | GTYPE>profession
+projectleider | GTYPE>profession
+prostituee | GTYPE>profession
+provinciegouverneur | GTYPE>profession
+psychiater | GTYPE>profession
+rabbijn | GTYPE>profession
+radiolaborant | GTYPE>profession
+radiotechnicus | GTYPE>profession
+radiotherapeut | GTYPE>profession
+rapper | GTYPE>profession
+rechter | GTYPE>profession
+reclame-ontwerper | GTYPE>profession
+reclamemaker | GTYPE>profession
+recordjager | GTYPE>profession
+reddingsteam | GTYPE>profession
+reder | GTYPE>profession
+reekshoofd | GTYPE>profession
+regeringskandidaat | GTYPE>profession
+regeringskandidate | GTYPE>profession
+regeringsleider | GTYPE>profession
+regeringsleidster | GTYPE>profession
+regeringswoordvoerder | GTYPE>profession
+reggaezanger | GTYPE>profession
+regisseur | GTYPE>profession
+renner | GTYPE>profession
+repetitor | GTYPE>profession
+reserviste | GTYPE>profession
+resident | GTYPE>profession
+restauranthouder | GTYPE>profession
+retailer | GTYPE>profession
+rijkeluisdochter | GTYPE>profession
+ritwinnaar | GTYPE>profession
+rivaal | GTYPE>profession
+rivale | GTYPE>profession
+rockster | GTYPE>profession
+rockzanger | GTYPE>profession
+rockzangeres | GTYPE>profession
+romanschrijver | GTYPE>profession
+rozetruidrager | GTYPE>profession
+ruimtevaarder | GTYPE>profession
+scenarist | GTYPE>profession
+scenograaf | GTYPE>profession
+schaapherder | GTYPE>profession
+schaatser | GTYPE>profession
+scheepskapitein | GTYPE>profession
+scheepstimmerman | GTYPE>profession
+scheidsrechter | GTYPE>profession
+scheikundige | GTYPE>profession
+schepenen | GTYPE>profession
+schilder | GTYPE>profession
+schipper | GTYPE>profession
+schoenmaker | GTYPE>profession
+scholier | GTYPE>profession
+schooldirekteur | GTYPE>profession
+schrijfster | GTYPE>profession
+schrijver | GTYPE>profession
+secretaresse | GTYPE>profession
+secretaris | GTYPE>profession
+seismoloog | GTYPE>profession
+seizoenarbeider | GTYPE>profession
+sergeant | GTYPE>profession
+serveerster | GTYPE>profession
+shiietenleider | GTYPE>profession
+shuttlemanager | GTYPE>profession
+sjeik | GTYPE>profession
+slager | GTYPE>profession
+sloper | GTYPE>profession
+soenniet | GTYPE>profession
+softwareontwikkelaar | GTYPE>profession
+sommelier | GTYPE>profession
+songfestivaldeelneemster | GTYPE>profession
+speerwerpster | GTYPE>profession
+spion | GTYPE>profession
+sportbestuurder | GTYPE>profession
+sportcoach | GTYPE>profession
+sportdirecteur | GTYPE>profession
+sporter | GTYPE>profession
+springruiter | GTYPE>profession
+sprinters | GTYPE>profession
+sprintster | GTYPE>profession
+stadsomroeper | GTYPE>profession
+stafchef | GTYPE>profession
+stalker | GTYPE>profession
+stalkster | GTYPE>profession
+stedenbouwkundige | GTYPE>profession
+steenhouwer | GTYPE>profession
+steigerbouwer | GTYPE>profession
+sterspeler | GTYPE>profession
+steward | GTYPE>profession
+stewardess | GTYPE>profession
+stichter | GTYPE>profession
+stoelenmatter | GTYPE>profession
+stoffeerder | GTYPE>profession
+strafpleiter | GTYPE>profession
+strandjutter | GTYPE>profession
+stratenmaker | GTYPE>profession
+stripauteur | GTYPE>profession
+stripper | GTYPE>profession
+strippionier | GTYPE>profession
+striptekenaar | GTYPE>profession
+stukadoor | GTYPE>profession
+stuurman | GTYPE>profession
+supermodel | GTYPE>profession
+superster | GTYPE>profession
+systeemanalist | GTYPE>profession
+systeemontwerper | GTYPE>profession
+taatssecretaris | GTYPE>profession
+tandarts | GTYPE>profession
+tandartsassistente | GTYPE>profession
+tante | GTYPE>profession
+teambaas | GTYPE>profession
+technisch tekenaar | GTYPE>profession
+tegelzetter | GTYPE>profession
+tekenaar | GTYPE>profession
+tekstschrijver | GTYPE>profession
+televisiedominee | GTYPE>profession
+televisietechnicus | GTYPE>profession
+tennisser | GTYPE>profession
+tennissers | GTYPE>profession
+tennisspeler | GTYPE>profession
+tennisster | GTYPE>profession
+tennistalent | GTYPE>profession
+tennister | GTYPE>profession
+terreurleider | GTYPE>profession
+terroristenleider | GTYPE>profession
+testrijder | GTYPE>profession
+theoloog | GTYPE>profession
+therapeut  | GTYPE>position
+therapeut | GTYPE>profession
+tiener | GTYPE>profession
+tienkampers | GTYPE>profession
+timmerman | GTYPE>profession
+titelverdediger | GTYPE>profession
+tolk | GTYPE>profession
+toneelschrijver | GTYPE>profession
+topadviseur | GTYPE>profession
+topdiplomaat | GTYPE>profession
+topfavoriet | GTYPE>profession
+topfunctionaris | GTYPE>profession
+topjournalist | GTYPE>profession
+topkandidaat | GTYPE>profession
+topman | GTYPE>profession
+topmodel | GTYPE>profession
+toppoliticus | GTYPE>profession
+toprenners | GTYPE>profession
+topscheidsrechter | GTYPE>profession
+topterrorist | GTYPE>profession
+topvoetballer | GTYPE>profession
+touroperator | GTYPE>profession
+tourwinnaar | GTYPE>profession
+tovenaarsleerling | GTYPE>profession
+trainer | GTYPE>profession
+trambestuurder | GTYPE>profession
+treinbestuurder | GTYPE>profession
+treinconducteur | GTYPE>profession
+trucker | GTYPE>profession
+tuinarchitect | GTYPE>profession
+tuinman | GTYPE>profession
+uitbater | GTYPE>profession
+uitgever | GTYPE>profession
+uitvaartbegeleider | GTYPE>profession
+uitvinder | GTYPE>profession
+uitvoerder | GTYPE>profession
+uroloog | GTYPE>profession
+vader | GTYPE>profession
+vakbondsafgevaardigde | GTYPE>profession
+vakbondsbestuurder | GTYPE>profession
+vakbondsleider | GTYPE>profession
+vakbondsman | GTYPE>profession
+vedette | GTYPE>profession
+veearts | GTYPE>profession
+veehouder | GTYPE>profession
+veiligheidsadviseur | GTYPE>profession
+veiligheidsagent | GTYPE>profession
+veiligheidsbeambte | GTYPE>profession
+veiligheidschef | GTYPE>profession
+veilinghouder | GTYPE>profession
+verdediger | GTYPE>profession
+verhuizer | GTYPE>profession
+verhuurder | GTYPE>profession
+verkiezingsoverwinnaar | GTYPE>profession
+verkoper | GTYPE>profession
+verkrachter | GTYPE>profession
+verpleegkundige | GTYPE>profession
+verpleegster | GTYPE>profession
+verpleger | GTYPE>profession
+verslaggeefster | GTYPE>profession
+verslaggever | GTYPE>profession
+vertaler | GTYPE>profession
+vertegenwoordiger | GTYPE>profession
+verwarmingsmonteur | GTYPE>profession
+veteraan | GTYPE>profession
+visagist | GTYPE>profession
+visser | GTYPE>profession
+vloerenlegger | GTYPE>profession
+vluchtelingencommissaris | GTYPE>profession
+voeger | GTYPE>profession
+voetballer | GTYPE>profession
+voetbalscheidsrechter | GTYPE>profession
+voetbalster | GTYPE>profession
+voetbalvedette | GTYPE>profession
+volksvertegenwoordiger | GTYPE>profession
+volkszanger | GTYPE>profession
+voorganger | GTYPE>profession
+voorman | GTYPE>profession
+voorzitster | GTYPE>profession
+vormgever | GTYPE>profession
+vrachtwagenchauffeur | GTYPE>profession
+vriend | GTYPE>profession
+vriendin | GTYPE>profession
+vrouw | GTYPE>profession
+vuilnisman | GTYPE>profession
+waard | GTYPE>profession
+webdesigner | GTYPE>profession
+weerkundige | GTYPE>profession
+weerman | GTYPE>profession
+wegracer | GTYPE>profession
+wereldkampioen | GTYPE>profession
+wereldkampioene | GTYPE>profession
+werktuigkundige | GTYPE>profession
+werkvoorbereider | GTYPE>profession
+wetenschapper | GTYPE>profession
+wethouder | GTYPE>profession
+wielrenner | GTYPE>profession
+wielrenners | GTYPE>profession
+wijnboer | GTYPE>profession
+winkelier | GTYPE>profession
+winnaar | GTYPE>profession
+winnares | GTYPE>profession
+wiskundige | GTYPE>profession
+woordvoerder | GTYPE>profession
+woordvoerster | GTYPE>profession
+zakenman | GTYPE>profession
+zakenpartner | GTYPE>profession
+zeefdrukker | GTYPE>profession
+zeevaarder | GTYPE>profession
+zenderbaas | GTYPE>profession
+zoon | GTYPE>profession
+zoontje | GTYPE>profession
+zwaargewichten | GTYPE>profession
+zwemkampioen | GTYPE>profession
+zwemmer | GTYPE>profession
+zwemster | GTYPE>profession
+
+
+
+
+# loog
+psycholoog | GTYPE>profession
+gynaecoloog | GTYPE>profession
+socioloog | GTYPE>profession
+ideoloog | GTYPE>profession
+bioloog | GTYPE>profession
+psühholoog | GTYPE>profession
+archeoloog | GTYPE>profession
+meteoroloog | GTYPE>profession
+cardioloog | GTYPE>profession
+theoloog | GTYPE>profession
+politoloog | GTYPE>profession
+politicoloog | GTYPE>profession
+bevrijdingstheoloog | GTYPE>profession
+astroloog | GTYPE>profession
+seksuoloog | GTYPE>profession
+dermatoloog | GTYPE>profession
+criminoloog | GTYPE>profession
+sotsioloog | GTYPE>profession
+kinderpsycholoog | GTYPE>profession
+patholoog | GTYPE>profession
+anesthesioloog | GTYPE>profession
+neuroloog | GTYPE>profession
+toxicoloog | GTYPE>profession
+loomapsühholoog | GTYPE>profession
+genealoog | GTYPE>profession
+seksuoloog | GTYPE>profession
+speleoloog | GTYPE>profession
+massapsycholoog | GTYPE>profession
+arheoloog | GTYPE>profession
+ecoloog | GTYPE>profession
+epidemioloog | GTYPE>profession
+neuropsycholoog | GTYPE>profession
+radioloog | GTYPE>profession
+inspanningsfysioloog | GTYPE>profession
+antropoloog | GTYPE>profession
+metsapatoloog | GTYPE>profession
+zoöloog | GTYPE>profession
+tabakoloog | GTYPE>profession
+zeebioloog | GTYPE>profession
+gerontoloog | GTYPE>profession
+biotechnoloog | GTYPE>profession
+primatoloog | GTYPE>profession
+gynecoloog | GTYPE>profession
+islamoloog | GTYPE>profession
+moraaltheoloog | GTYPE>profession
+natronloog | GTYPE>profession
+merebioloog | GTYPE>profession
+kardioloog | GTYPE>profession
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_qualificaion-nl.txt
+# content : PM lexicon for person name qualifications
+# date	  : April 2012
+# author  :  (B. Pouliquen), M. Ehrmann
+#**********************************************
+
+
+republikein | GTYPE>persQualif | GSUBTYPE>polAffil
+liberaal  GTYPE>persQualif | GSUBTYPE>polAffil
+conservatieven | GTYPE>persQualif | GSUBTYPE>polAffil
+rechter  | GTYPE>persQualif | GSUBTYPE>polAffil
+rechter-commissaris  | GTYPE>persQualif | GSUBTYPE>polAffil
+democraat | GTYPE>persQualif | GSUBTYPE>polAffil
+democraate | GTYPE>persQualif | GSUBTYPE>polAffil
+sociaal democrat | GTYPE>persQualif | GSUBTYPE>polAffil
+sociaal democrate | GTYPE>persQualif | GSUBTYPE>polAffil
+sociaal-democrat | GTYPE>persQualif | GSUBTYPE>polAffil
+sociaal-democrate | GTYPE>persQualif | GSUBTYPE>polAffil
+socialist | GTYPE>persQualif | GSUBTYPE>polAffil
+socialiste | GTYPE>persQualif | GSUBTYPE>polAffil
+socialistische | GTYPE>persQualif | GSUBTYPE>polAffil
+terrorist | GTYPE>persQualif | GSUBTYPE>polAffil
+terroristenleider | GTYPE>persQualif | GSUBTYPE>polAffil
+talibanleider_ | GTYPE>persQualif | GSUBTYPE>polAffil
+talibanstrijder_ | GTYPE>persQualif | GSUBTYPE>polAffil
+talibancommandant_ | GTYPE>persQualif | GSUBTYPE>polAffil
+taliban	 | GTYPE>persQualif | GSUBTYPE>polAffil
+talibaan | GTYPE>persQualif | GSUBTYPE>polAffil
+
+
+moslimextremist | GTYPE>persQualif | GSUBTYPE>relAffil
+moslimgeestelijke | GTYPE>persQualif | GSUBTYPE>relAffil
+moslimleider | GTYPE>persQualif | GSUBTYPE>relAffil
+evangelist | GTYPE>persQualif | GSUBTYPE>relAffil
+
+
+seriemoordenaar | GTYPE>persQualif | GSUBTYPE>crime
+moordenaar | GTYPE>persQualif | GSUBTYPE>crime
+
+
+rebellenbastion | GTYPE>persQualif
+rebellenleider | GTYPE>persQualif
+
+janjaweed	 | GTYPE>persQualif
+janjawid	 | GTYPE>persQualif
+janjawed	 | GTYPE>persQualif
+jingaweit	 | GTYPE>persQualif
+jinjaweed	 | GTYPE>persQualif
+janjawiid	 | GTYPE>persQualif
+janjiwid	 | GTYPE>persQualif
+janjaweit	 | GTYPE>persQualif
+dschandschawid	 | GTYPE>persQualif
+yanyauid  | GTYPE>persQualif
+moedjahedien	 | GTYPE>persQualif
+mujahedin	 | GTYPE>persQualif
+mujaheddin	 | GTYPE>persQualif
+moedjaheddin	 | GTYPE>persQualif
+mudjaheddin	 | GTYPE>persQualif
+mujaheddinleider	 | GTYPE>persQualif
+moedjahedienleider | GTYPE>persQualif
+dissident | GTYPE>persQualif
+
+avonturier | GTYPE>persQualif | GSUBTYPE>other
+moeder | GTYPE>persQualif | GSUBTYPE>other
+gigolo | GTYPE>persQualif | GSUBTYPE>other
+multimiljardair | GTYPE>persQualif | GSUBTYPE>other# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_title-nl.txt
+# content : PM lexicon for dutch titles
+# date	  : March 2012
+# author  : (B. Pouliquen) M. Ehrmann
+# ----------------------------------------
+
+heer | GTYPE>title | GSUBTYPE>formal
+heerschap | GTYPE>title | GSUBTYPE>formal
+meneer | GTYPE>title | GSUBTYPE>formal
+mijnheer | GTYPE>title | GSUBTYPE>formal
+weledelgeleerd | GTYPE>title | GSUBTYPE>formal
+lord | GTYPE>title | GSUBTYPE>formal
+lady | GTYPE>title | GSUBTYPE>formal
+mr. | GTYPE>title| GSUBTYPE>formal  | STRICT > (?i:mr\.?)
+
+koning | GTYPE>title| GSUBTYPE>aristocratic
+koningin | GTYPE>title| GSUBTYPE>aristocratic
+zijne majesteit | GTYPE>title| GSUBTYPE>aristocratic
+hare majesteit | GTYPE>title| GSUBTYPE>aristocratic
+zijne koninklijke hoogheid | GTYPE>title| GSUBTYPE>aristocratic
+prins | GTYPE>title| GSUBTYPE>aristocratic
+prinses | GTYPE>title| GSUBTYPE>aristocratic
+zijne koninklijke hoogheid | GTYPE>title| GSUBTYPE>aristocratic
+hare koninklijke hoogheid | GTYPE>title| GSUBTYPE>aristocratic
+zijne hoogheid | GTYPE>title| GSUBTYPE>aristocratic
+hare hoogheid | GTYPE>title| GSUBTYPE>aristocratic
+
+hertog | GTYPE>title| GSUBTYPE>aristocratic
+markies | GTYPE>title| GSUBTYPE>aristocratic
+graaf | GTYPE>title| GSUBTYPE>aristocratic
+gravin | GTYPE>title| GSUBTYPE>aristocratic
+burggraaf | GTYPE>title| GSUBTYPE>aristocratic
+baron  | GTYPE>title| GSUBTYPE>aristocratic
+barones | GTYPE>title| GSUBTYPE>aristocratic
+ridder |  GTYPE>title| GSUBTYPE>aristocratic
+jonkheer | GTYPE>title| GSUBTYPE>aristocratic
+jonkvrouw | GTYPE>title| GSUBTYPE>aristocratic
+
+dr. | GTYPE>title| GSUBTYPE>academic | STRICT > (?i:dr\.?)
+prof. | GTYPE>title| GSUBTYPE>academic | STRICT > (?i:prof\.?)
+mgr. | GTYPE>title| GSUBTYPE>academic | STRICT > (?i:mgr\.?)
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# words that cannot be part of Dutch names
+#**********************************************
+
+
+Morgen | STOPWORD>all 
+De Morgen | STOPWORD>all 
+Maar | STOPWORD>all 
+Met | STOPWORD>all 
+Dat | STOPWORD>all 
+Net | STOPWORD>all 
+Hij | STOPWORD>all 
+Zijn | STOPWORD>all
+Zij | STOPWORD>all  
+Mijn| STOPWORD>all 
+Omdat | STOPWORD>all 
+Eigen | STOPWORD>all 
+Ik | STOPWORD>all 
+Haar | STOPWORD>all 
+Ook | STOPWORD>all 
+Het | STOPWORD>all 
+De | STOPWORD>all 
+Voor | STOPWORD>all 
+Wat | STOPWORD>all 
+Zo | STOPWORD>all 
+Hoe | STOPWORD>all 
+We | STOPWORD>all 
+Na | STOPWORD>all 
+Da | STOPWORD>all 
+
+Januari | STOPWORD>all 
+Februari | STOPWORD>all 
+Maart | STOPWORD>all 
+April | STOPWORD>all 
+Mei | STOPWORD>all 
+Juni | STOPWORD>all 
+Juli | STOPWORD>all 
+Augustus | STOPWORD>all 
+September | STOPWORD>all 
+Oktober | STOPWORD>all 
+November | STOPWORD>all 
+December | STOPWORD>all 
+
+Maandag | STOPWORD>all 
+Dinsdag | STOPWORD>all 
+Woensdag | STOPWORD>all 
+Donderdag | STOPWORD>all 
+Vrijdag | STOPWORD>all 
+Zaterdag | STOPWORD>all 
+Zondag | STOPWORD>all 
+
+Nieuwjaar | STOPWORD>all 
+Driekoningen | STOPWORD>all 
+Vastenavond | STOPWORD>all 
+Palmzondag | STOPWORD>all 
+Pasen | STOPWORD>all 
+de Tweede Paasdag | STOPWORD>all 
+Hemelvaart | STOPWORD>all 
+Pinksteren | STOPWORD>all 
+de Tweede Pinksterdag | STOPWORD>all 
+Moederdag | STOPWORD>all 
+Vaderdag | STOPWORD>all 
+Maria-Hemelvaart | STOPWORD>all 
+Allerheiligen | STOPWORD>all 
+Kerstmis | STOPWORD>all 
+de verjaardag | STOPWORD>all 
+de naamdag | STOPWORD>all 
+
+Internet| STOPWORD>person 
+International| STOPWORD>person 

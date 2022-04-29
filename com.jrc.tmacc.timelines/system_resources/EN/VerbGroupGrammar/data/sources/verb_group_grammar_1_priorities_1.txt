@@ -1,0 +1,42 @@
+verbgroup_rule00 : 1
+verbgroup_rule10 : 1
+verbgroup_rule20 : 1
+verbgroup_rule30 : 1
+verbgroup_rule40 : 1
+verbgroup_rule50 : 1
+verbgroup_rule60 : 1
+verbgroup_rule70 : 1
+verbgroup_rule71 : 1
+verbgroup_rule72 : 1
+passive_verb_group_rule0 : 1
+passive_verb_group_rule1 : 1
+passive_verb_group_rule00 : 1
+
+genitive_rule : 3
+hyphenated_rule : 3
+hyphenated_rule1 : 3
+
+
+%np_rule0 : 2
+
+%np_rule1 : 2
+
+
+%np_rule2 : 2
+
+%np_rule3 : 2
+
+
+%np_rule4 : 2
+
+%np_rule5 : 2
+
+%np_rule6 : 2
+
+np_rule7 : 2
+
+question_context_rule0 : 2
+
+impersonal_pron_rule : 2
+
+neg_auxiliaty_alone_blocking_rule  : 2

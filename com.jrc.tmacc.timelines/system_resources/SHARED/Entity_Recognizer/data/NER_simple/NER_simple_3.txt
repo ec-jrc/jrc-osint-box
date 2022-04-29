@@ -1,0 +1,72 @@
+
+
+%
+%  Shared Task 2017
+%  author: Jakub Piksorski
+%  last modification: March 2017
+%
+
+
+%
+% Settings
+%
+
+SETTINGS:
+
+{  % Modules (currently use Corleone components)
+   
+    MODULES: <basicScanner>,<geonamesGazetteer>
+
+
+    % Search mode
+
+    %SEARCH_MODE: all_match
+    SEARCH_MODE: longest_match
+
+    %SEARCH_MODE: all_longest_matches
+    
+
+    % Output
+    OUTPUT: grammar_and_unconsumed
+}
+
+%%
+
+PATTERNS:
+
+match_geo_names :> ( gazetteer & [GTYPE: #type, ID: #id]                    
+                   ):out
+-> out: shared_out & [TYPE: #type, ID: #id, ORIGIN:"geonames"].
+
+match_other :> ( shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: #orig]                     
+               ):out 
+-> out: shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: #orig].
+
+
+/*
+comp_extra :> ((separator | sym & [TYPE: "open_punct"])  
+               ((letter)
+			    (letter)+	   
+			     sym & [SURFACE: "."]				
+				(letter)+
+				( sym & [SURFACE: "."]				
+				 (letter)+
+				)*
+			    ):org
+               (separator | sym & [TYPE: "close_punct"])
+		      )
+ -> org: shared_out & [TYPE: "ORG", ORIGIN: "babelnet"].
+		
+comp_extra_2 :> ((separator | sym & [TYPE: "open_punct"])  
+               ((letter & [TYPE: "uppercase_letter"])			    
+			     sym & [SURFACE: "."]				
+				(letter)
+				(letter)+				
+			    ):per
+               (separator | sym & [TYPE: "close_punct"])
+		      )
+ -> per: shared_out & [TYPE: "PER", ORIGIN: "babelnet"].
+	
+*/
+	
+END_PATTERNS:

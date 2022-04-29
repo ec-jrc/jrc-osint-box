@@ -1,0 +1,984 @@
+
+
+%
+%  grammar for recognition of small scale structures
+%  author: Jakub Piksorski
+%  last modification: September 2016
+%
+
+
+%
+% Settings
+%
+
+SETTINGS:
+
+{  % Modules (currently uses two Corleone components)
+   
+    MODULES: <CorleoneBasicTokenizerEN>, <CorleoneBasicScannerEN>, <CorleoneGazetteerOSINTSuite>
+
+
+    % Search mode
+
+    %SEARCH_MODE: all_match
+    SEARCH_MODE: longest_match
+
+    %SEARCH_MODE: all_longest_matches    
+
+    % Output
+    OUTPUT: grammar
+}
+
+%%
+
+PATTERNS:
+
+%
+% Pattern for recognition of IP addresses.
+%
+% NE-TYPE: IDT
+% NE-SUBTYPE: IP
+%
+
+ip_address :> ((separator | sym & [TYPE: "open_punct"])  
+               ((digit & [SURFACE: #p1])+	   
+			    sym & [SURFACE: "."]
+				(digit & [SURFACE: #p2])+
+			    sym & [SURFACE: "."] 
+				(digit & [SURFACE: #p3])+
+				sym & [SURFACE: "."] 
+				(digit & [SURFACE: #p4])+
+			    ):ip
+                (separator | sym & [TYPE: "close_punct"])
+		      )
+ -> ip: ip_address & [TYPE:"IDT-IP", SURFACE:#ip]
+    & #ip := Trim(#p1,".",#p2,".",#p3,".",#p4)
+	& IntegerEqualOrLessThan(#p1,"255")
+	& IntegerEqualOrLessThan(#p2,"255")
+	& IntegerEqualOrLessThan(#p3,"255")
+	& IntegerEqualOrLessThan(#p4,"255").
+		
+	
+%
+% Pattern for recognition of email addresses.
+%		
+% NE-TYPE: IDT
+% NE-SUBTYPE: EM
+%
+   
+email_address :> ((separator | sym & [TYPE: "open_punct"])  
+				   (( letter & [SURFACE: #usr] 
+				      | digit & [SURFACE: #usr] 					  					  
+					  | sym & [SURFACE: "!" #usr] 					  					  
+                      | sym & [SURFACE: "#" #usr] 					  					  
+					  | sym & [SURFACE: "$" #usr] 					  					  
+					  | sym & [SURFACE: "%" #usr] 					  					  
+                      | sym & [SURFACE: "&" #usr] 					  					  
+                      | sym & [SURFACE: "'" #usr] 					  					  
+                      | sym & [SURFACE: "*" #usr] 					  					  
+                      | sym & [SURFACE: "+" #usr] 					  					  
+                      | sym & [SURFACE: "-" #usr] 					  					  					  
+                      | sym & [SURFACE: "/" #usr] 					  					  					  
+                      | sym & [SURFACE: "=" #usr] 					  					  
+                      | sym & [SURFACE: "?" #usr] 					  					  
+                      | sym & [SURFACE: "^" #usr] 					  					  
+                      | sym & [SURFACE: "_" #usr] 					  					  
+                      | sym & [SURFACE: "`" #usr] 					  					  
+                      | sym & [SURFACE: "{" #usr] 					  					  					  
+                      | sym & [SURFACE: "|" #usr] 					  					  					  
+                      | sym & [SURFACE: "}" #usr] 					  					  					  
+                      | sym & [SURFACE: "~" #usr] 
+                      | sym & [SURFACE: "." #usr]
+				    )+
+				      sym & [SURFACE: "@"]
+					( letter & [SURFACE: #dom] 
+					  | digit & [SURFACE: #dom] 
+					  | sym & [SURFACE: "-" #dom] 	 
+                      | sym & [SURFACE: "." #dom] 
+					)+
+				   ):email
+                   (separator | sym & [TYPE: "close_punct"])  
+				  ) 	
+-> email: email_address & [TYPE:"IDT-EM", SURFACE:#email, DOMAIN: #dom_final, USER_NAME: #usr_final]	
+   & #dom_final := Trim(#dom)
+   & #usr_final := Trim(#usr)
+   & #email := Trim(#usr,"@",#dom)
+   & ValidEmail(#usr,#dom).
+   
+	
+%
+% Pattern for recognition of credit card numbers.
+%	
+% all card numbers are validated with Luhn algorithm (the boolean operator also tests the length which can not be less than 13)
+%
+% NE-TYPE: IDT
+% NE-SUBTYPE: CR
+%
+
+credit_card_number :> ((separator | sym & [TYPE: "open_punct"])  
+                       ( digit & [SURFACE: #d1]
+                        (digit & [SURFACE: #d2]
+						 (sym & [SURFACE: "-"])?
+						)+ ):card
+					  (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+					  )
+-> card: credit_card_number & [SURFACE: #final_card, TYPE: "IDT-CR", ISSUER: #card_type]
+   & #final_card := Trim(#d1,#d2)
+   & #card_type := CreditCardIssuer(#final_card)   
+   & LuhnTest(#final_card).
+					   
+
+%
+% Pattern for recognition of latitude (please note that this rule just covers one format)
+% DD° MM' SS.S"
+% example 32° 18' 23.1" N 
+% NE-TYPE: IDT
+% NE-SUBTYPE: CO
+%					   
+
+coordinate_latitude :> 
+               ((separator | sym & [TYPE: "open_punct"])  
+                ((digit & [SURFACE: #degree])+
+			     sym & [SURFACE: "°"]				 				 
+				 ((separator & [TYPE: "space"])?
+			      (digit & [SURFACE: #minute])+
+				  sym & [SURFACE: "'"]							
+				 )?
+				 ((separator & [TYPE: "space"])? 
+			      (digit & [SURFACE: #second])+
+				  ((sym & [SURFACE: "." #second_2])
+				  (digit & [SURFACE: #second_3])+				 
+				  )?
+				  sym & [SUBTYPE: "q_mark"]
+				 )? 
+				(separator & [TYPE: "space"])? 
+				(letter & [SURFACE: "N" #direction]
+				  | letter & [SURFACE: "S" #direction]
+				)			   
+			   ):coord
+			   (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])  
+	          )
+ -> coord: coordinate & [TYPE: "IDT-CO", SUBTYPE:"latitude",DEGREE: #degree_f, MINUTE: #minute_f, SECOND: #second_f, DIRECTION: #direction]
+    & #degree_f := Trim(#degree)
+	& #minute_f := Trim(#minute)
+	& #second_f := Trim(#second,#second_2,#second_3)
+	& ValidGeoCoordinate("LT",#degree_f,#minute_f,#second_f).
+
+	
+	
+	
+%
+% Pattern for recognition of longitude (please note that this rule just covers one format)
+%					   
+% DD° MM' SS.S"
+% example 122° 36' 52.5" W 
+% 
+% NE-TYPE: IDT
+% NE-SUBTYPE: CR
+%
+
+
+coordinate_longitude :> 
+               ((separator | sym & [TYPE: "open_punct"])  
+                ((digit & [SURFACE: #degree])+
+			     sym & [SURFACE: "°"]				 				 
+				 ((separator & [TYPE: "space"])?
+			      (digit & [SURFACE: #minute])+
+				  sym & [SURFACE: "'"]							
+				 )? 
+				 ((separator & [TYPE: "space"])? 
+			      (digit & [SURFACE: #second])+
+				  ((sym & [SURFACE: "." #second_2])
+				  (digit & [SURFACE: #second_3])+				 
+				  )?
+				  sym & [SUBTYPE: "q_mark"]
+				 )? 
+				(separator & [TYPE: "space"])? 
+				 (letter & [SURFACE: "W" #direction]
+				   | letter & [SURFACE: "E" #direction]
+				 )			   
+			   ):coord
+			   (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])  
+	          )
+ -> coord: coordinate & [TYPE:"IDT-CO", SUBTYPE: "longitude",DEGREE: #degree_f, MINUTE: #minute_f, SECOND: #second_f, DIRECTION: #direction]
+    & #degree_f := Trim(#degree)
+	& #minute_f := Trim(#minute)
+	& #second_f := Trim(#second,#second_2,#second_3)
+	& ValidGeoCoordinate("LG",#degree_f,#minute_f,#second_f).
+	
+%
+% Pattern for recognition of international phone numbers (E.123 notation) without mathcing any contextual keywords
+%
+% NE-TYPE: IDT
+% NE-SUBTYPE: PN
+%
+	
+phone_international :> ((separator | sym & [TYPE: "open_punct"])    
+						(sym & [SURFACE: "+"]
+			             (digit & [SURFACE: #prefix])+
+						 separator & [TYPE: "space"]
+						 (digit & [SURFACE: #d1])+
+						 (separator & [TYPE: "space"]
+						  (digit & [SURFACE: #d2])+
+						 )? 
+						 (separator & [TYPE: "space"]
+						  (digit & [SURFACE: #d3])+
+						 )? 
+						 (separator & [TYPE: "space"]
+						  (digit & [SURFACE: #d4])+
+						 )? 
+				        ):phone
+                        (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])  
+		      )
+ -> phone: phone-number & [TYPE:"IDT-PN", SURFACE: #full,PREFIX: #final_prefix, NUMBER: #final_num]
+    & #final_prefix := Trim(#prefix)
+    & #full := Trim("+",#prefix,#d1,#d2,#d3,#d4)
+	& #final_num := Trim(#d1,#d2,#d3,#d4).
+	
+%
+% Pattern for recognition of national phone numbers (E.124 notation) without mathcing any contextual keywords
+%
+% NE-TYPE: IDT
+% NE-SUBTYPE: PN
+%
+	
+phone_national :> ((separator | sym & [TYPE: "open_punct"])  
+						(sym & [SURFACE: "("]
+			             (digit & [SURFACE: #prefix])+
+						 sym & [SURFACE: ")"]
+						 (separator & [TYPE: "space"])?
+						 (digit & [SURFACE: #d1])+
+						 ((separator & [TYPE: "space"]
+						    |
+						   sym & [SURFACE: "-"]	
+						  )
+						  (digit & [SURFACE: #d2])+
+						 )? 
+						 ((separator & [TYPE: "space"]
+						    |
+						   sym & [SURFACE: "-"]	
+						  )
+						  (digit & [SURFACE: #d3])+
+						 )? 
+						 ((separator & [TYPE: "space"]
+						    |
+						   sym & [SURFACE: "-"]	
+						  )
+						  (digit & [SURFACE: #d4])+
+						 )? 
+				        ):phone
+                        (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])  
+		      )
+ -> phone: phone-number & [TYPE:"IDT-PN", SURFACE: #full,PREFIX: #final_prefix, NUMBER: #final_num]
+    & #final_prefix := Trim(#prefix)
+    & #full := Trim("(",#prefix,")",#d1,#d2,#d3,#d4)
+	& #final_num := Trim(#d1,#d2,#d3,#d4).	
+	
+
+%
+% add patterns based on contextual keywords later (less restriction as regards the format)
+%
+
+%
+% Pattern for the recognition of URLS
+%
+% NE-TYPE: IDT
+% NE-SUBTYPE: UR
+%
+
+url :> ((separator | sym & [TYPE: "open_punct"])  
+		( letter & [TYPE: "lowercase_letter", SURFACE: #prot1]
+		  (letter & [TYPE: "lowercase_letter", SURFACE: #prot2]
+		    | digit & [SURFACE: #prot2]
+		    | sym & [SURFACE: "." #prot2]
+		    | sym & [SURFACE: "+" #prot2]			
+		    | sym & [SURFACE: "-" #prot2]								    
+		   )+
+		   sym & [SURFACE: ":"]
+		   sym & [SURFACE: "/"]
+		   sym & [SURFACE: "/"]	
+		   (letter & [SURFACE: #rest]
+		     | sym & [SURFACE: #rest] 
+			 | digit & [SURFACE: #rest] 
+		   )+
+		):url
+		(separator | sym & [TYPE: "close_punct"])  
+       )
+-> url: url & [TYPE:"IDT-UR", SURFACE: #final_surf,PROTOCOL: #protocol_final,DOMAIN: #domain]
+   & #final_surf := Trim(#prot1,#prot2,"://",#rest)
+   & #protocol_final := Trim(#prot1,#prot2)
+   & #domain := SubstringToCharAndTrim(#rest,"/").
+
+%
+% Patterns for the recognition of dates
+%  
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+% dd-mm-yyyy
+% dd.mm.yyyy 
+% dd/mm/yyyy
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+date_simple_1 :> ((separator | sym & [TYPE: "open_punct"])  
+           ( digit & [TYPE: "latin_digit", SURFACE: #d1]
+		     digit & [TYPE: "latin_digit", SURFACE: #d2]
+			 (sym & [SURFACE: "-" #sep1]			 
+			   | sym & [SURFACE: "." #sep1]
+			   | sym & [SURFACE: "/" #sep1])
+			 digit & [TYPE: "latin_digit", SURFACE: #m1]
+			 digit & [TYPE: "latin_digit", SURFACE: #m2]
+			 (sym & [SURFACE: "-" #sep2]			 
+			   | sym & [SURFACE: "." #sep2]
+			   | sym & [SURFACE: "/" #sep2])			 				
+			(digit & [TYPE: "latin_digit", SURFACE: #y])<4,4>
+		   ):date 
+	       (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		   )
+-> date: date & [TYPE:"TIM-DA", DAY: #d,MONTH: #m,YEAR: #year]		   
+   & #d := Conc(#d1,#d2)
+   & #m := Conc(#m1,#m2)
+   & #year := Trim(#y)
+   & Equals(#sep1,#sep2)
+   & ValidDate(#d,#m,#year).
+
+%
+% d(d).m(m).(yy)yy - with potenial spaces between the different elements
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+date_simple_1_A :> ((separator | sym & [TYPE: "open_punct"])  
+           ( digit & [TYPE: "latin_digit", SURFACE: #d]
+		     (digit & [TYPE: "latin_digit", SURFACE: #d])?
+			 sym & [SURFACE: "."]
+			 (separator & [SURFACE: " "])?
+			 digit & [TYPE: "latin_digit", SURFACE: #m]
+			 (digit & [TYPE: "latin_digit", SURFACE: #m])?
+			 sym & [SURFACE: "."]
+			 (separator & [SURFACE: " "])?			 	 	
+			 digit & [TYPE: "latin_digit", SURFACE: #y]
+			 digit & [TYPE: "latin_digit", SURFACE: #y]
+			 (digit & [TYPE: "latin_digit", SURFACE: #y]
+			 digit & [TYPE: "latin_digit", SURFACE: #y])?
+		   ):date 
+	       (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		   )
+-> date: date & [TYPE:"TIM-DA", DAY: #day,MONTH: #month,YEAR: #year]		   
+   & #day := Trim(#d)
+   & #month := Trim(#m)
+   & #year := Trim(#y)   
+   & ValidDate(#d,#m,#y).   
+   
+   
+%
+% d(d)/m(m)-(yy)yy OR d(d)/m(m) (yy)yy
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+date_simple_1_B :> ((separator | sym & [TYPE: "open_punct"])  
+            (digit & [TYPE: "latin_digit", SURFACE: #d]
+		     (digit & [TYPE: "latin_digit", SURFACE: #d])?
+			 sym & [SURFACE: "/"]			 
+			 digit & [TYPE: "latin_digit", SURFACE: #m]
+			 (digit & [TYPE: "latin_digit", SURFACE: #m])?
+			 (sym & [SURFACE: "-"]			 
+			   | separator & [SURFACE: " "])		 	 	
+			 digit & [TYPE: "latin_digit", SURFACE: #y]
+			 digit & [TYPE: "latin_digit", SURFACE: #y]
+			 (digit & [TYPE: "latin_digit", SURFACE: #y]
+			 digit & [TYPE: "latin_digit", SURFACE: #y])?
+		   ):date 
+	       (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		   )
+-> date: date & [TYPE:"TIM-DA", DAY: #day,MONTH: #month,YEAR: #year]		   
+   & #day := Trim(#d)
+   & #month := Trim(#m)
+   & #year := Trim(#y)   
+   & ValidDate(#d,#m,#y).   
+   
+   
+     
+% yyyy-mm-dd
+% yyyy.mm.dd
+% yyyy/mm/dd   
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+%
+ 
+date_simple_2 :> ((separator | sym & [TYPE: "open_punct"])  
+           ( (digit & [TYPE: "latin_digit", SURFACE: #y])<4,4>		 
+			 (sym & [SURFACE: "-" #sep1]			 
+			   | sym & [SURFACE: "." #sep1]
+			   | sym & [SURFACE: "/" #sep1])			 
+		     digit & [TYPE: "latin_digit", SURFACE: #d1]
+		     digit & [TYPE: "latin_digit", SURFACE: #d2]
+			 (sym & [SURFACE: "-" #sep2]			 
+			   | sym & [SURFACE: "." #sep2]
+			   | sym & [SURFACE: "/" #sep2])		 
+			 digit & [TYPE: "latin_digit", SURFACE: #m1]
+			 digit & [TYPE: "latin_digit", SURFACE: #m2]			 
+		   ):date 
+	       (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		   )
+-> date: date & [TYPE:"TIM-DA", DAY: #d,MONTH: #m,YEAR: #year]		   
+   & #d := Conc(#d1,#d2)
+   & #m := Conc(#m1,#m2)
+   & #year := Trim(#y)
+   & Equals(#sep1,#sep2)
+   & ValidDate(#d,#m,#year).
+   
+
+%
+% D(D)(.) <MONTH-NAME> (')YY(YY) (used in most EU countries. Note that Month in many cases is a GENITIVE form of a month)
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+       
+date_EU :> ((separator | sym & [TYPE: "open_punct"])  
+           (digit & [TYPE: "latin_digit", SURFACE: #d1]
+		    (digit & [TYPE: "latin_digit", SURFACE: #d2])?
+			(sym & [SURFACE: "."])?
+			separator & [SURFACE: " "]			 			
+            gaz_month & [G_NUM_BASE: #month]
+			separator & [SURFACE: " "]			 						
+		    (sym & [SURFACE: "'"])?
+			digit & [TYPE: "latin_digit", SURFACE: #y1]
+			digit & [TYPE: "latin_digit", SURFACE: #y2]
+			(digit & [TYPE: "latin_digit", SURFACE: #y3]
+			 digit & [TYPE: "latin_digit", SURFACE: #y4])?			 
+		    ):date 
+	       (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+          )
+-> date: date & [TYPE:"TIM-DA", DAY: #day, MONTH: #month, YEAR: #year]		   
+   & #day := Conc(#d1,#d2)
+   & #year := Conc(#y1,#y2,#y3,#y4)
+   & ValidDate(#day,#month,#year).
+
+%
+% Specific format used in soem English-speaking countries
+% 
+% <MONTH-NAME> DD, YYYY 
+%   
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+       
+date_english :> ((separator | sym & [TYPE: "open_punct"])  
+                  (gaz_month & [G_NUM_BASE: #month, G_LANG: "EN"]
+				  separator & [SURFACE: " "]			 
+                  digit & [TYPE: "latin_digit", SURFACE: #d1]
+		          (digit & [TYPE: "latin_digit", SURFACE: #d2])?
+			      sym & [SURFACE: ","]
+				  separator & [SURFACE: " "]			 
+				 (digit & [TYPE: "latin_digit", SURFACE: #y])<4,4>                
+		       ):date 
+	           (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+               )
+-> date: date & [TYPE:"TIM-DA", DAY: #day, MONTH: #month, YEAR: #year]		   
+   & #day := Conc(#d1,#d2)   
+   & #year := Trim(#y)
+   & ValidDate(#day,#month,#year).  
+   
+%
+% Rule that captures date expressions, in which ordinal numbers are used. This format is not used in all languages.
+%
+% Example. 1st May 2005   
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+   
+date_with_ordinal :> ((separator | sym & [TYPE: "open_punct"])  
+                      (gaz_ordinal & [G_VAL: #day]
+				       separator & [SURFACE: " "]			 
+					   gaz_month & [G_NUM_BASE: #month]
+					   separator & [SURFACE: " "]			 					   
+				       (digit & [TYPE: "latin_digit", SURFACE: #y])<4,4>                
+		              ):date 
+	                 (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+                    )
+-> date: date & [TYPE:"TIM-DA", DAY: #day, MONTH: #month, YEAR: #year]		      
+   & #year := Trim(#y)
+   & ValidDate(#day,#month,#year).  
+ 
+ 
+%
+% Specific date format used in Hungary
+%
+% YYYY. <MONTH-NAME> D(D).
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+date_hungarian :> ((separator | sym & [TYPE: "open_punct"])  
+                   ((digit & [TYPE: "latin_digit", SURFACE: #y])<4,4>			        
+ 		            sym & [SURFACE: "."]
+					separator & [SURFACE: " "]	
+                    gaz_month & [G_NUM_BASE: #month, G_LANG: "HU"]
+					separator & [SURFACE: " "]			 			
+					digit & [TYPE: "latin_digit", SURFACE: #d1]
+		            (digit & [TYPE: "latin_digit", SURFACE: #d2])?
+				    sym & [SURFACE: "."]									   
+			       ):date
+	             (separator | sym & [TYPE: "close_punct"])
+          )
+-> date: date & [TYPE:"TIM-DA", DAY: #day, MONTH: #month, YEAR: #year]		   
+   & #day := Conc(#d1,#d2)
+   & #year := Trim(#y)
+   & ValidDate(#day,#month,#year).
+
+ 
+%
+% Specific date format used in Lithuania
+%
+% YYYY "m." <MONTH-NAME-FORM> D(D) "d."
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+date_lithuanian :> ((separator | sym & [TYPE: "open_punct"])  
+                   ((digit & [TYPE: "latin_digit", SURFACE: #y])<4,4>
+					separator & [SURFACE: " "]	
+					letter & [SURFACE: "m"]
+ 		            sym & [SURFACE: "."]
+					separator & [SURFACE: " "]	
+                    gaz_month & [GSUBTYPE: "gaz_month_special", G_NUM_BASE: #month, G_LANG: "LT"]
+					separator & [SURFACE: " "]			 			
+					digit & [TYPE: "latin_digit", SURFACE: #d1]
+		            (digit & [TYPE: "latin_digit", SURFACE: #d2])?
+					separator & [SURFACE: " "]	
+					letter & [SURFACE: "d"]
+				    sym & [SURFACE: "."]									   
+			       ):date
+	             (separator | sym & [TYPE: "close_punct"])
+          )
+-> date: date & [TYPE:"TIM-DA", DAY: #day, MONTH: #month, YEAR: #year]		   
+   & #day := Conc(#d1,#d2)
+   & #year := Trim(#y)
+   & ValidDate(#day,#month,#year).
+
+%
+% Specific date format used in Latvia
+%
+% YYYY"." "gada" D(D) <MONTH-NAME-FORM> 
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+
+date_latvian   :> ((separator | sym & [TYPE: "open_punct"])  
+                   ((digit & [TYPE: "latin_digit", SURFACE: #y])<4,4>
+					sym & [SURFACE: "."]				
+					separator & [SURFACE: " "]
+					letter & [SURFACE: "g"]
+					letter & [SURFACE: "a"]
+					letter & [SURFACE: "d"]
+					letter & [SURFACE: "a"]
+ 		            separator & [SURFACE: " "]	
+					digit & [TYPE: "latin_digit", SURFACE: #d1]
+		            (digit & [TYPE: "latin_digit", SURFACE: #d2])?
+					sym & [SURFACE: "."]				
+					separator & [SURFACE: " "]					
+                    gaz_month & [G_NUM_BASE: #month, G_LANG: "LV"]					
+			       ):date
+	             (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"] )
+          )
+-> date: date & [TYPE:"TIM-DA", DAY: #day, MONTH: #month, YEAR: #year]		   
+   & #day := Conc(#d1,#d2)
+   & #year := Trim(#y)
+   & ValidDate(#day,#month,#year).   
+ 
+
+%
+% Pattern that captures month year combinations only
+%
+% <MONTH-NAME> (')YYYY
+%
+% NE-TYPE: TIM
+% NE-SUBTYPE: DA
+% 
+       
+date_month_year_only :> ((separator | sym & [TYPE: "open_punct"])  
+                         (gaz_month & [G_NUM_BASE: #month]
+			              separator & [SURFACE: " "]			 						
+		                  (sym & [SURFACE: "'"])?
+			              digit & [TYPE: "latin_digit", SURFACE: #y1]
+			              digit & [TYPE: "latin_digit", SURFACE: #y2]
+			              digit & [TYPE: "latin_digit", SURFACE: #y3]
+			              digit & [TYPE: "latin_digit", SURFACE: #y4]			 
+		                 ):date 
+	                     (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+                        )
+-> date: date & [TYPE:"TIM-DA", MONTH: #month, YEAR: #year]		      
+   & #year := Conc(#y1,#y2,#y3,#y4). 
+ 
+ 
+ 
+%
+% mm-dd-yyyy (not implemented for now for NUMERICAL values only)
+%   
+ 
+%
+% more sophisticated rules for dates should be addedd later
+%   
+
+
+      
+%
+% Patterns for detection of VAT numbers
+%   
+
+%
+% pattern that covers most of the EU countries, in case of VAT format being just 2-letter country code folloowed by a sequence
+% of digits (that might be separated by dashes). At least two digits are required
+%
+% NE-TYPE: IDT
+% NE-SUBTYPE: VA
+% 
+   
+vat_simple :> ((separator | sym & [TYPE: "open_punct"])  
+               (letter & [TYPE: "uppercase_letter", SURFACE: #c1]
+			    letter & [TYPE: "uppercase_letter", SURFACE: #c2]
+                (digit & [TYPE: "latin_digit", SURFACE: #d]
+				  | sym & [SURFACE: "-"]
+				)+
+			   ):vat
+              (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		      )
+-> vat: vat-number & [TYPE:"IDT-VA", COUNTRY: #country, NUMBER: #normalized]   
+   & #country := Conc(#c1,#c2)
+   & #normalized := Trim(#d)
+   & ValidVAT(#country,#normalized).
+
+%
+% pattern that covers some of the EU countries, in case of VAT format being just 2-letter country code followed by a sequence
+% of digits (that might be separated by dashes) and that includes at LEAST one letter!
+%   
+% NE-TYPE: IDT
+% NE-SUBTYPE: VAT
+% 
+
+vat_simple_2 :> ((separator | sym & [TYPE: "open_punct"])  
+                (letter & [TYPE: "uppercase_letter", SURFACE: #c1]
+			     letter & [TYPE: "uppercase_letter", SURFACE: #c2]
+                 (digit & [TYPE: "latin_digit", SURFACE: #d1]
+				   | sym & [SURFACE: "-"]
+				   | letter & [TYPE: "uppercase_letter", SURFACE: #d1]
+				 )*
+				 letter & [TYPE: "uppercase_letter", SURFACE: #d2]
+                 (digit & [TYPE: "latin_digit", SURFACE: #d3]
+				   | sym & [SURFACE: "-"]
+				   | letter & [TYPE: "uppercase_letter", SURFACE: #d3]
+				 )*				 
+			   ):vat
+              (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		      )
+-> vat: vat-number & [TYPE:"IDT-VA", COUNTRY: #country, NUMBER: #normalized]   
+   & #country := Conc(#c1,#c2)
+   & #normalized := Trim(#d1,#d2,#d3)
+   & ValidVAT(#country,#normalized).            
+
+%
+% British Numbers might include spaces! Do something about it
+%
+
+%
+% Patterns for recognition of IBAN numbers
+%
+
+%
+% pattern that covers IBANS with a minimum length of 15, validation is done via a call to functional operator
+%
+% NE-TYPE: IDT
+% NE-SUBTYPE: BI
+% 
+
+iban :> ((separator | sym & [TYPE: "open_punct"])  
+                 (letter & [SUBTYPE: "uppercase_latin", SURFACE: #c1]
+				  letter & [SUBTYPE: "uppercase_latin", SURFACE: #c2]
+                  digit & [TYPE: "latin_digit", SURFACE: #cd1]                  
+				  digit & [TYPE: "latin_digit", SURFACE: #cd2]
+				  (digit & [TYPE: "latin_digit", SURFACE: #bban]
+				    | letter & [SUBTYPE: "uppercase_latin", SURFACE: #bban]
+				    | letter & [SUBTYPE: "lowercase_latin", SURFACE: #bban]
+				  )<10,10>
+				  (digit & [TYPE: "latin_digit", SURFACE: #bban_2]
+				    | letter & [SUBTYPE: "uppercase_latin", SURFACE: #bban_2]
+				    | letter & [SUBTYPE: "lowercase_latin", SURFACE: #bban_2]
+				  )+
+                 ):iban
+                 (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		        )              
+				
+-> iban: banking-identity & [TYPE:"IDT-BI", SURFACE: #all, SUBTYPE: "iban", COUNTRY: #country, CHECK_DIGITS: #check_digits, BBAN: #bban_final]
+    & #country := Conc(#c1,#c2)
+	& #check_digits := Conc(#cd1,#cd2)
+	& #bban_final := Trim(#bban,#bban_2)
+	& #all := Conc(#country,#check_digits,#bban_final)
+	& ValidIBAN(#country,#check_digits,#bban_final).
+
+%
+% Pattern for matching twitter user names. 
+%
+% A twitter username can only contain alphanumeric characters (letters A-Z, numbers 0-9) with the exception of underscores. 
+%
+%	
+% NE-TYPE: IDT
+% NE-SUBTYPE: SM
+% 
+	
+
+twitter_user :> ((separator | sym & [TYPE: "open_punct"])  
+                 (sym  & [SURFACE: "." #optional_dot])?
+				 (sym  & [SURFACE: "@"]
+				 (letter & [SUBTYPE: "uppercase_latin", SURFACE: #name]
+                   | letter & [SUBTYPE: "lowercase_latin", SURFACE: #name]
+				   | digit & [TYPE: "latin_digit", SURFACE: #name]                  
+				   | sym & [SURFACE: "_" #name]
+				 )+  				  
+                 ):twitter_user
+                 (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		        ) 	
+
+-> twitter_user : social-media-identity & [TYPE:"IDT-SM", SURFACE: #surface, SUBTYPE: "twitter_username" , NAME: #final_name]				
+   & #surface := Trim(#optional_dot,"@",#name)
+   & #final_name := Trim("@",#name).
+ 
+ 
+%
+% Patterns for NUMEX
+%
+
+%
+% Pattern for the recognition of currency values
+%
+% Ex. "123 USD"
+%     "12 000 EURO"
+%     "12,000 EURO"
+%     "12,4 milion EURO"
+%
+% NE-TYPE: NUM
+% NE-SUBTYPE: CU
+% 
+
+currency :> ((separator | sym & [TYPE: "open_punct"])
+             ((digit & [TYPE: "latin_digit", SURFACE: #dec_1])+
+			 ((separator & [SURFACE: " "]
+			  (digit & [TYPE: "latin_digit", SURFACE: #dec_2])+)?			 
+			 )*
+			 ((sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+			  (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+
+			 )?
+			 (separator & [SURFACE: " "]
+			   |
+			  ((separator & [SURFACE: " "])
+			   gaz_numberword & [G_VAL: #magnitude]
+			   (separator & [SURFACE: " "]))  
+			 )?			 
+			 (sym & [TYPE: "currency", SURFACE: #currency] 
+			   | gaz_currency & [G_LEMMA:#currency]		 
+			 )
+			 ):currency
+            (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		    ) 	
+			
+-> currency : currency-expression & [TYPE:"NUM-CU", AMOUNT: #amount, MAGNITUDE: #magnitude, CURRENCY: #currency]               
+			   & #amount := Trim(#dec_1,#dec_2,#sep,#dec_3).
+			   
+
+%
+% pattern that covers the specific format with commas/dots separating blocks of three digits
+%
+% Example:  1,234,567,890.20 euro
+%           1.234.567.890,20 USD
+%
+%
+% NE-TYPE: NUM
+% NE-SUBTYPE: CU
+%
+			   
+currency_2 :> ((separator | sym & [TYPE: "open_punct"])
+               ((digit & [TYPE: "latin_digit", SURFACE: #dec_1])+
+			   ((sym  & [SURFACE: "."]
+			     | sym  & [SURFACE: ","])			 
+			    (digit & [TYPE: "latin_digit", SURFACE: #dec_2])<3,3>			    
+			   )*			 			  
+			  (sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+			  (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+			  
+			  (separator & [SURFACE: " "])?			 
+			  (sym & [TYPE: "currency", SURFACE: #currency] 
+			    | gaz_currency & [G_LEMMA:#currency]		 
+			  )
+			 ):currency
+            (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		    ) 	
+			
+-> currency : currency-expression & [TYPE:"NUM-CU", AMOUNT: #amount, CURRENCY: #currency]               
+			   & #amount := Trim(#dec_1,#dec_2,#sep,#dec_3).
+
+%
+% covers patterns with currency symbol staring the expression
+%
+% Example $1.50
+%         EURO 2 000 000.00
+%         EURO 2,000,000.00
+%
+%
+% NE-TYPE: NUM
+% NE-SUBTYPE: CU
+%			   
+			   
+currency_reversed :> ((separator | sym & [TYPE: "open_punct"])
+                      ( (sym & [TYPE: "currency", SURFACE: #currency] 
+			             | gaz_currency & [GSUBTYPE: "gaz_currency_abbrev", G_LEMMA:#currency]		 
+			            )           
+                       (separator & [SURFACE: " "])?					  	
+                       (digit & [TYPE: "latin_digit", SURFACE: #dec_1])+					   
+                       ( ( ( separator & [SURFACE: " "]
+			                 (digit & [TYPE: "latin_digit", SURFACE: #dec_2])+			 
+			               )*
+						  ((sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+			               (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+			         
+						  )?
+					     )
+ 					        |						 
+					     (  ( (sym  & [SURFACE: "."] | sym  & [SURFACE: ","])			 
+			                 (digit & [TYPE: "latin_digit", SURFACE: #dec_2])<3,3>			             
+						    )* 
+						  (sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+			              (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+			           							   					  
+					     )
+					   ) 			           
+		              ):currency
+                     (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		             ) 	
+			
+-> currency : currency-expression & [TYPE:"NUM-CU", AMOUNT: #amount, CURRENCY: #currency]
+              & #amount := Trim(#dec_1,#dec_2,#sep,#dec_3). 
+
+			   
+			   			   
+%
+% Pattern for the recognition of quantities/measurements
+%
+% Ex. "123 kg"
+%     "12 000 m"
+%     "12,000 lt"
+%     "12,4 milion kg"
+%
+%
+% NE-TYPE: NUM
+% NE-SUBTYPE: ME
+%
+
+measurement :> ((separator | sym & [TYPE: "open_punct"])
+                ((digit & [TYPE: "latin_digit", SURFACE: #dec_1])+
+			    ( separator & [SURFACE: " "]
+			     (digit & [TYPE: "latin_digit", SURFACE: #dec_2])		 
+			    )*
+			    ((sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+			     (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+
+			    )?
+			   (separator & [SURFACE: " "]
+			     |
+			    ((separator & [SURFACE: " "])
+			      gaz_numberword & [G_VAL: #magnitude]
+			     (separator & [SURFACE: " "]))  
+			   )?			 
+			  gaz_measurement & [G_M_UNIT:#unit]		 			 
+			 ):measurement
+            (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		    ) 	
+			
+-> measurement : measurement-expression & [TYPE:"NUM-ME", AMOUNT: #amount, MAGNITUDE: #magnitude, UNIT: #unit]               
+			   & #amount := Trim(#dec_1,#dec_2,#sep,#dec_3).			   
+			   
+			   
+
+%
+% This rule matches all numerical expressions. Since it is very generic it is commented for now
+%
+			   
+
+%numerical :> ((separator | sym & [TYPE: "open_punct"])
+%               ((digit & [TYPE: "latin_digit", SURFACE: #dec_1])+
+%			   ( ( ( separator & [SURFACE: " "]
+%			         (digit & [TYPE: "latin_digit", SURFACE: #dec_2])+			 
+%			       )*		
+%                   ( (sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+%			         (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+			         
+%				   )?				   
+%				   ( (separator & [SURFACE: " "])
+%			         gaz_numberword & [G_VAL: #magnitude]			         
+%				   )?  
+%			     )					 
+% 				   |
+%                 ( ( (sym  & [SURFACE: "."] | sym  & [SURFACE: ","])			 
+%			         (digit & [TYPE: "latin_digit", SURFACE: #dec_2])<3,3>			             
+%			       )*
+%				   (sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+%			       (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+
+%				 )  
+%		       )		       
+%		      ):numerical
+%              (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+%		     ) 	
+%			 			 			 			
+%-> numerical : numerical-expression & [AMOUNT: #amount, MAGNITUDE: #magnitude]
+%              & #amount := Trim(#dec_1,#dec_2,#sep,#dec_3). 
+
+
+
+
+			   
+%number :> ( character & [TYPE: "separator"]
+%            ( (character & [TYPE: "digit", SURFACE: #d])<1,10>):num		  
+%            character & [TYPE: "separator"]
+%		  )
+%-> num: numex & [TYPE: "natural",
+%                  VALUE: #val]
+% & #val := Trim(#d).
+		  
+		  
+%
+% 
+%
+
+		  
+%
+% Pattern for the detection of initials
+%
+% Ex. "A."
+% Ex. "A. R."
+%
+
+% person_initials :> ( ( gazetteer & [GTYPE: "gaz_initial", SURFACE: #init_1] 
+% 		       token & [SURFACE: "."] 
+%                       )
+%                       ( gazetteer & [GTYPE: "gaz_initial", SURFACE: #init_2] 
+% 		        token & [SURFACE: "."] 
+%                       )?		     
+% 		    ):initials
+% 
+% -> initials: person_initials & [SURFACE: #final]
+% & #final := PersonNameInitial(#init_1,#init_2).
+% %& #final := Conc(#init_1,#dot_1,#init_2,#dot_2).
+
+
+
+
+
+END_PATTERNS:

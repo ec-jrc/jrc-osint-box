@@ -1,0 +1,4687 @@
+﻿born | C:BIRTH
+birth | C:BIRTH 
+was born | C:BIRTH
+was born in | C:BIRTH
+were born | C:BIRTH
+were born to | C:BIRTH
+was born to | C:BIRTH
+born in | C:BIRTH
+is born | C:BIRTH
+was born from | C:BIRTH
+dead | C:DEATH
+was survived by	| C:DEATH
+death | C:DEATH
+died | C:DEATH
+passed away | C:DEATH
+passing away | C:DEATH
+school | C:EDUCATION
+university | C:EDUCATION
+highschool | C:EDUCATION
+college | C:EDUCATION
+academy | C:EDUCATION
+kindergarden | C:EDUCATION
+nursery | C:EDUCATION
+study | C:EDUCATION
+studied | C:EDUCATION
+studies | C:EDUCATION
+attended | C:EDUCATION
+speak with | C:INTERACTION
+attends | C:EDUCATION
+attend | C:EDUCATION
+graduated from | C:EDUCATION
+graduated | C:EDUCATION
+owned by | C:OWNERSHIP
+owned | C:OWNERSHIP
+owns | C:OWNERSHIP
+obtained degree | C:EDUCATION
+obtained a degree | C:EDUCATION
+a complaint about | C:STATEMENT
+obtained the degree | C:EDUCATION
+received degree | C:EDUCATION
+received a degree | C:EDUCATION
+received the degree | C:EDUCATION
+got a degree | C:EDUCATION
+got the degree | C:EDUCATION
+graduated at | C:EDUCATION
+graduating from | C:EDUCATION
+was educated | C:EDUCATION
+earned degree | C:EDUCATION
+earned a degree | C:EDUCATION
+enrolled in | C:EDUCATION
+impressed by | C:STATEMENT
+graduate | C:EDUCATION
+completed at | C:EDUCATION
+holds a degree | C:EDUCATION
+holds degree | C:EDUCATION
+student at | C:EDUCATION
+awarded from | C:EDUCATION
+degree from | C:EDUCATION
+was admitted | C:EDUCATION
+matriculated to | C:EDUCATION
+obtained degree from | C:EDUCATION
+majored at | C:EDUCATION
+was accepted into | C:EDUCATION
+was educated at | C:EDUCATION
+began studying | C:EDUCATION
+was educated | C:EDUCATION
+received education | C:EDUCATION
+gained a degree at | C:EDUCATION
+gained degree at | C:EDUCATION
+has continued education | C:EDUCATION
+s degrees from | C:EDUCATION
+pursued degree at | C:EDUCATION
+obtained doctorate | C:EDUCATION
+was educated | C:EDUCATION
+received scholarship | C:EDUCATION
+took degree in | C:EDUCATION
+won scholarship from | C:EDUCATION
+was awarded doctorate | C:EDUCATION
+earned scholarship | C:EDUCATION
+holds degrees from | C:EDUCATION
+bachelors degree from | C:EDUCATION
+began studies | C:EDUCATION
+received masters degree from | C:EDUCATION
+undergraduate work | C:EDUCATION
+pursued studies | C:EDUCATION
+received training | C:EDUCATION
+awarded degrees from | C:EDUCATION
+awarded degree from | C:EDUCATION
+father | C:FAMILY
+mother | C:FAMILY
+son | C:FAMILY
+daughter | C:FAMILY
+sister | C:FAMILY
+brother | C:FAMILY
+cousin | C:FAMILY
+parents | C:FAMILY
+husband | C:FAMILY
+wife | C:FAMILY
+divorce | C:FAMILY
+been in separation | C:FAMILY
+sibling | C:FAMILY
+siblings | C:FAMILY
+children | C:FAMILY
+grandfather | C:FAMILY
+grandmother | C:FAMILY
+uncle | C:FAMILY
+grandparents | C:FAMILY
+grandchildren | C:FAMILY
+aunt | C:FAMILY
+nephew | C:FAMILY
+niece | C:FAMILY
+father-in-law | C:FAMILY
+mother-in-law | C:FAMILY
+son-in-law | C:FAMILY
+daughter-in-law | C:FAMILY
+brother-in-law | C:FAMILY
+sister-in-law | C:FAMILY
+stepfather | C:FAMILY
+stepmother | C:FAMILY
+stepson | C:FAMILY
+stepdaughter | C:FAMILY
+stepsister | C:FAMILY
+stepbrother | C:FAMILY
+half-brother | C:FAMILY
+half-sister | C:FAMILY
+married | C:FAMILY
+marruage | C:FAMILY
+marry | C:FAMILY
+widow | C:FAMILY
+fathers | C:FAMILY
+mothers | C:FAMILY
+sons | C:FAMILY
+daughters | C:FAMILY
+sisters | C:FAMILY
+brothers | C:FAMILY
+cousins | C:FAMILY
+parents | C:FAMILY
+husbands | C:FAMILY
+wifes | C:FAMILY
+sibling | C:FAMILY
+siblings | C:FAMILY
+children | C:FAMILY
+grandfathers | C:FAMILY
+grandmothers | C:FAMILY
+uncles | C:FAMILY
+grandparents | C:FAMILY
+grandchildren | C:FAMILY
+aunts | C:FAMILY
+nephews | C:FAMILY
+niece | C:FAMILY
+father-in-law | C:FAMILY
+mother-in-law | C:FAMILY
+sons-in-law | C:FAMILY
+daughters-in-law | C:FAMILY
+brothers-in-law | C:FAMILY
+sisters-in-law | C:FAMILY
+stepfathers | C:FAMILY
+stepmothers | C:FAMILY
+stepsons | C:FAMILY
+stepdaughters | C:FAMILY
+stepsisters | C:FAMILY
+stepbrothers | C:FAMILY
+half-brothers | C:FAMILY
+half-sisters | C:FAMILY
+widows | C:FAMILY
+buy | C:OWNERSHIP
+buys | C:OWNERSHIP
+bought | C:OWNERSHIP
+purchase | C:OWNERSHIP
+purchased | C:OWNERSHIP
+purchases | C:OWNERSHIP
+acquire | C:OWNERSHIP
+acquires | C:OWNERSHIP
+acquired | C:OWNERSHIP
+sell | C:OWNERSHIP
+sold | C:OWNERSHIP
+sells | C:OWNERSHIP
+took control of | C:OWNERSHIP
+belonged to | C:OWNERSHIP
+belongs to | C:OWNERSHIP
+belong to | C:OWNERSHIP
+attended | C:PARTICIPATION
+attends | C:PARTICIPATION
+attended | C:PARTICIPATION
+participate | C:PARTICIPATION
+participates | C:PARTICIPATION
+participated | C:PARTICIPATION
+appeared at | C:PARTICIPATION
+speaking at | C:PARTICIPATION
+take part in | C:PARTICIPATION
+took part in | C:PARTICIPATION
+remarks about | C:STATEMENT
+opinion | C:STATEMENT
+opinions | C:STATEMENT
+remarks on | C:STATEMENT
+remarks | C:STATEMENT
+remark | C:STATEMENT
+say | C:STATEMENT
+said | C:STATEMENT
+speech | C:STATEMENT
+comment | C:STATEMENT
+comments | C:STATEMENT
+commented | C:STATEMENT
+propose | C:STATEMENT
+proposes | C:STATEMENT
+proposed | C:STATEMENT
+common ground with | C:STATEMENT
+tell | C:STATEMENT
+told | C:STATEMENT
+tells | C:STATEMENT
+claim | C:STATEMENT
+claims | C:STATEMENT
+claimed | C:STATEMENT
+testified | C:STATEMENT
+testifies | C:STATEMENT
+testify | C:STATEMENT
+wants to | C:STATEMENT
+wanted to | C:STATEMENT
+want to | C:STATEMENT
+states that | C:STATEMENT
+state that | C:STATEMENT
+stated that | C:STATEMENT
+consider | C:STATEMENT
+considered | C:STATEMENT
+considers | C:STATEMENT
+support | C:STATEMENT
+supported | C:STATEMENT
+supports | C:STATEMENT
+agree | C:STATEMENT
+says | C:STATEMENT
+agrees | C:STATEMENT
+agreed  | C:STATEMENT
+reject | C:STATEMENT
+rejects | C:STATEMENT
+rejected | C:STATEMENT
+recognize | C:STATEMENT
+recognizes | C:STATEMENT
+recognized | C:STATEMENT
+warned | C:STATEMENT
+warns | C:STATEMENT
+condemned | C:STATEMENT
+condemns | C:STATEMENT
+agreed | C:STATEMENT
+announced | C:STATEMENT
+promised | C:STATEMENT
+believes | C:STATEMENT
+believed | C:STATEMENT
+criticized | C:STATEMENT
+criticizes | C:STATEMENT
+added that | C:STATEMENT
+saying that | C:STATEMENT
+spoken of | C:STATEMENT
+insisted | C:STATEMENT
+insists | C:STATEMENT
+declares | C:STATEMENT
+declared | C:STATEMENT
+spoke about | C:STATEMENT
+questioned | C:STATEMENT
+reported | C:STATEMENT
+confirmed | C:STATEMENT
+regarded | C:STATEMENT
+adding that | C:STATEMENT
+argued | C:STATEMENT
+called for | C:STATEMENT
+declared | C:STATEMENT
+recognises | C:STATEMENT
+warning that | C:STATEMENT
+recognise | C:STATEMENT
+promised | C:STATEMENT
+announced | C:STATEMENT
+reminded | C:STATEMENT
+insist | C:STATEMENT
+insisted | C:STATEMENT
+insists | C:STATEMENT
+endorsed | C:STATEMENT
+endorse | C:STATEMENT
+endorses | C:STATEMENT
+respond | C:STATEMENT
+responds | C:STATEMENT
+responded | C:STATEMENT
+briefed | C:STATEMENT
+discuss | C:STATEMENT
+discusses | C:STATEMENT
+discussed | C:STATEMENT
+declined to | C:STATEMENT
+declines to | C:STATEMENT
+denounced | C:STATEMENT
+decline to | C:STATEMENT
+called | C:STATEMENT
+calls | C:STATEMENT
+expressed | C:STATEMENT
+expresses | C:STATEMENT
+express | C:STATEMENT
+advise  | C:STATEMENT
+advises | C:STATEMENT
+advised | C:STATEMENT
+sends a clear message | C:STATEMENT
+expressing concern | C:STATEMENT
+deemed this | C:STATEMENT
+think | C:STATEMENT
+thinks | C:STATEMENT
+thought | C:STATEMENT
+believe | C:STATEMENT
+believes | C:STATEMENT
+believed | C:STATEMENT
+dissatisfied | C:STATEMENT
+supporter of | C:STATEMENT
+vows | C:STATEMENT
+vowed | C:STATEMENT
+favours | C:STATEMENT
+favors | C:STATEMENT
+favor | C:STATEMENT
+suggesting that | C:STATEMENT
+suggested that | C:STATEMENT
+saying | C:STATEMENT
+suggested to | C:STATEMENT
+suggesting to | C:STATEMENT
+opposes | C:STATEMENT
+opposed | C:STATEMENT
+receives blessing from | C:STATEMENT
+received blessing from | C:STATEMENT
+disputes | C:STATEMENT
+disputed | C:STATEMENT
+dispute | C:STATEMENT
+addresses | C:STATEMENT
+addressed | C:STATEMENT
+find that | C:STATEMENT
+found that | C:STATEMENT
+finds that | C:STATEMENT
+pledges | C:STATEMENT
+pledged | C:STATEMENT
+describes | C:STATEMENT
+described | C:STATEMENT
+describe | C:STATEMENT
+boycotted | C:STATEMENT
+boycotts | C:STATEMENT
+boycott | C:STATEMENT
+quoted by | C:STATEMENT
+quotes | C:STATEMENT
+response from | C:STATEMENT
+convinced | C:STATEMENT
+promising to | C:STATEMENT
+promised to | C:STATEMENT
+alleged that | C:STATEMENT
+create | C:CREATION
+creates | C:CREATION
+created | C:CREATION
+launch | C:CREATION
+launched | C:CREATION
+launches | C:CREATION
+develop | C:CREATION
+develops | C:CREATION
+developed | C:CREATION
+wrote | C:CREATION
+writes | C:CREATION
+written | C:CREATION
+implemented | C:CREATION
+implements | C:CREATION
+implement | C:CREATION
+painted | C:CREATION
+paints | C:CREATION
+paint | C:CREATION
+produce | C:CREATION
+produced | C:CREATION
+produces | C:CREATION
+started | C:CREATION
+starts | C:CREATION
+start | C:CREATION
+made | C:CREATION
+host | C:CREATION
+hosts | C:CREATION
+hosted | C:CREATION
+turned it into | C:CREATION
+turn into | C:CREATION
+run | C:CREATION
+ran | C:CREATION
+raised the idea | C:STATEMENT
+said | C:STATEMENT
+says | C:STATEMENT
+recognize | C:STATEMENT
+told | C:STATEMENT
+say | C:STATEMENT
+will recognize | C:STATEMENT
+said in | C:STATEMENT
+warned | C:STATEMENT
+recognizes | C:STATEMENT
+said on | C:STATEMENT
+said that | C:STATEMENT
+recognized | C:STATEMENT
+condemned | C:STATEMENT
+agreed to | C:STATEMENT
+announced | C:STATEMENT
+promised to	| C:STATEMENT
+says in	| C:STATEMENT
+repeated | C:STATEMENT
+believes | C:STATEMENT
+criticized | C:STATEMENT
+added that | C:STATEMENT
+saying that | C:STATEMENT
+has spoken of | C:STATEMENT
+insisted | C:STATEMENT
+declares | C:STATEMENT
+declared | C:STATEMENT
+spoke about the potential for | C:STATEMENT
+questioned the wisdom of | C:STATEMENT
+reported | C:STATEMENT
+reports | C:STATEMENT
+report | C:STATEMENT
+warned that | C:STATEMENT
+confirmed | C:STATEMENT
+has announced that | C:STATEMENT
+say in | C:STATEMENT
+adding that | C:STATEMENT
+argued that | C:STATEMENT
+called for | C:STATEMENT
+declared that | C:STATEMENT
+recognises | C:STATEMENT
+warning that | C:STATEMENT
+will recognise | C:STATEMENT
+promised during	| C:STATEMENT
+announced that | C:STATEMENT
+spoke by telephone on | C:INTERACTION
+spoke by telephone with | C:INTERACTION
+reminded | C:STATEMENT
+has announced that | C:STATEMENT
+would insist that issues of | C:STATEMENT
+endorsed | C:STATEMENT
+respond to | C:STATEMENT
+tell | C:STATEMENT
+say the allegations against | C:STATEMENT
+has promised to | C:STATEMENT
+briefed on | C:STATEMENT
+meet with | C:CONTACT_WITH
+discuss his plan to | C:STATEMENT
+declined to | C:STATEMENT
+denounced | C:STATEMENT
+called on | C:STATEMENT
+spoke on | C:STATEMENT
+says she plans to | C:STATEMENT
+argue that | C:STATEMENT
+has expressed an openness to | C:STATEMENT
+advise him of | C:STATEMENT
+spoke with | C:STATEMENT
+spoke with | C:STATEMENT
+sends a clear message to | C:STATEMENT
+expressing concern about | C:STATEMENT
+said from | C:STATEMENT
+say that | C:STATEMENT
+insisted that | C:STATEMENT
+deemed | C:STATEMENT
+might recognize | C:STATEMENT
+met with | C:INTERACTION
+spoke with | C:INTERACTION
+discussed with | C:INTERACTION
+talked with | C:INTERACTION
+argued with | C:INTERACTION
+had an appointment | C:INTERACTION
+collaborated with | C:INTERACTION
+maintains relationship | C:INTERACTION
+maintains relationships | C:INTERACTION
+maintain relationship | C:INTERACTION
+maintain relationships | C:INTERACTION
+was introduced to | C:INTERACTION
+is a partner with | C:INTERACTION
+was partner with | C:INTERACTION
+has ties to | C:INTERACTION
+had ties to | C:INTERACTION
+invited | C:INTERACTION
+invites | C:INTERACTION
+confront | C:INTERACTION
+confronted | C:INTERACTION
+competed with | C:INTERACTION
+competes with | C:INTERACTION
+move to	| C:LOCATION-RELATED
+moved to | C:LOCATION-RELATED
+lived in | C:LOCATION-RELATED
+lives in | C:LOCATION-RELATED
+spent childhood in | C:LOCATION-RELATED
+later returned in | C:LOCATION-RELATED
+lives near | C:LOCATION-RELATED
+traveled to | C:LOCATION-RELATED
+emigrated | C:LOCATION-RELATED
+had migrated to | C:LOCATION-RELATED
+transferred from | C:LOCATION-RELATED
+arrived in | C:LOCATION-RELATED
+lives on | C:LOCATION-RELATED
+had gone to | C:LOCATION-RELATED
+lived before moving to | C:LOCATION-RELATED
+had visited | C:LOCATION-RELATED
+stay in | C:LOCATION-RELATED
+remained in | C:LOCATION-RELATED
+stayed in | C:LOCATION-RELATED
+was raised in | C:LOCATION-RELATED
+has returned home to | C:LOCATION-RELATED
+flew to | C:LOCATION-RELATED
+flies to | C:LOCATION-RELATED
+returned to | C:LOCATION-RELATED
+residing in | C:LOCATION-RELATED
+settled in | C:LOCATION-RELATED
+released an album | C:CREATION
+released the album | C:CREATION
+releases an album | C:CREATION
+releases the album | C:CREATION
+filed | C:CREATION
+released solo album | C:CREATION
+released debut album | C:CREATION
+wrote | C:CREATION
+written | C:CREATION
+has released an album | C:CREATION
+has released the album | C:CREATION
+has released solo album | C:CREATION
+has released debut album | C:CREATION
+has written | C:CREATION
+had released an album | C:CREATION
+had released the album | C:CREATION
+had released solo album | C:CREATION
+had released debut album | C:CREATION
+had written | C:CREATION
+founded | C:CREATION
+performed | C:CREATION
+worked on | C:CREATION
+has worked on | C:CREATION
+had worked on | C:CREATION
+recorded | C:CREATION
+released | C:CREATION
+created | C:CREATION
+is author | C:CREATION
+was author | C:CREATION
+published | C:CREATION
+is cofounder | C:CREATION
+was cofounder | C:CREATION
+directed | C:CREATION
+was writing | C:CREATION
+is writing | C:CREATION
+published | C:CREATION
+publishing | C:CREATION
+writing | C:CREATION
+composed | C:CREATION
+composing | C:CREATION
+recording | C:CREATION
+formed | C:CREATION
+cast in | C:CREATION
+collaborated on | C:CREATION
+designed | C:CREATION
+cowrote | C:CREATION
+cowritten | C:CREATION
+produced | C:CREATION
+appeared in | C:CREATION
+acted on | C:CREATION
+acted in  | C:CREATION
+made guest appearances on | C:CREATION
+gueststarred | C:CREATION
+had recurring roles in | C:CREATION
+made appearances on | C:CREATION
+starred in | C:CREATION
+starred on | C:CREATION
+design | C:CREATION
+designed | C:CREATION
+is featured at | C:CREATION
+was featured in | C:CREATION
+been featured in | C:CREATION
+be featured in | C:CREATION
+been featured on | C:CREATION
+be featured on | C:CREATION
+been featured as | C:CREATION
+be featured as | C:CREATION
+had success with | C:CREATION
+built | C:CREATION
+developed | C:CREATION
+cowrote | C:CREATION
+cowritten | C:CREATION
+co-wrote | C:CREATION
+co-written | C:CREATION
+played in | C:CREATION
+played at | C:CREATION
+played | C:CREATION
+contributed | C:CREATION
+was founder of | C:CREATION
+working on | C:CREATION
+performed live at | C:CREATION
+playing | C:CREATION
+gave interview | C:CREATION
+give interview | C:CREATION
+scored | C:CREATION
+sang | C:CREATION
+composed | C:CREATION
+painted | C:CREATION
+established | C:CREATION
+debuted | C:CREATION
+editor of | C:CREATION
+presented | C:CREATION
+founding member of | C:CREATION
+had	been interviewed | C:CREATION
+has	been interviewed | C:CREATION
+was interviewed | C:CREATION
+interviewed on | C:CREATION
+cocreator of | C:CREATION
+starred in  | C:CREATION
+involved for | C:ENGAGEMENT
+involved in | C:ENGAGEMENT
+involved with | C:ENGAGEMENT
+has chaired | C:ENGAGEMENT
+is chairing | C:ENGAGEMENT
+involved at | C:ENGAGEMENT
+became head of | C:ENGAGEMENT
+became head at | C:ENGAGEMENT
+is head of | C:ENGAGEMENT
+was head of | C:ENGAGEMENT
+become head of | C:ENGAGEMENT
+was head at | C:ENGAGEMENT
+became head for | C:ENGAGEMENT
+made head at | C:ENGAGEMENT
+become head at | C:ENGAGEMENT
+was head of | C:ENGAGEMENT
+was head for | C:ENGAGEMENT
+was working as | C:ENGAGEMENT
+was working in | C:ENGAGEMENT
+working in | C:ENGAGEMENT
+is working as | C:ENGAGEMENT
+is working in | C:ENGAGEMENT
+been working as | C:ENGAGEMENT
+been working in | C:ENGAGEMENT
+served at | C:ENGAGEMENT
+served for | C:ENGAGEMENT
+served as | C:ENGAGEMENT
+served to | C:ENGAGEMENT
+served with | C:ENGAGEMENT
+worked for | C:ENGAGEMENT
+worked at | C:ENGAGEMENT
+takes office | C:ENGAGEMENT
+took office | C:ENGAGEMENT
+take office | C:ENGAGEMENT
+took over position | C:ENGAGEMENT
+hired by | C:ENGAGEMENT
+was hired | C:ENGAGEMENT
+member from | C:ENGAGEMENT
+member until | C:ENGAGEMENT
+member at | C:ENGAGEMENT
+member as | C:ENGAGEMENT
+member in | C:ENGAGEMENT
+member of | C:ENGAGEMENT
+member for | C:ENGAGEMENT
+retired as president | C:ENGAGEMENT
+was member | C:ENGAGEMENT
+member during | C:ENGAGEMENT
+became director | C:ENGAGEMENT
+director at | C:ENGAGEMENT
+director for | C:ENGAGEMENT
+director of | C:ENGAGEMENT
+director on | C:ENGAGEMENT
+lead designer of | C:ENGAGEMENT
+pastor of | C:ENGAGEMENT
+pastor at | C:ENGAGEMENT
+was chairman | C:ENGAGEMENT
+was chairman in | C:ENGAGEMENT
+inducted into | C:ENGAGEMENT
+induct into | C:ENGAGEMENT
+transferred from | C:ENGAGEMENT
+chairman of | C:ENGAGEMENT
+chairman in | C:ENGAGEMENT
+became chairman | C:ENGAGEMENT
+was editorinchief | C:ENGAGEMENT
+editorinchief of | C:ENGAGEMENT
+was given control of | C:ENGAGEMENT
+engaged in | C:ENGAGEMENT
+played a leading role in | C:ENGAGEMENT
+attained the rank of | C:ENGAGEMENT
+was elected | C:ENGAGEMENT
+awarded | C:ACHIEVEMENT
+nominated | C:ACHIEVEMENT
+received nominations | C:ACHIEVEMENT
+received nomination | C:ACHIEVEMENT
+receive nominations | C:ACHIEVEMENT
+receive nomination | C:ACHIEVEMENT
+got a prize | C:ACHIEVEMENT
+got prize | C:ACHIEVEMENT
+won a prize | C:ACHIEVEMENT
+won the prize | C:ACHIEVEMENT
+win the prize | C:ACHIEVEMENT
+won award | C:ACHIEVEMENT
+accused of | C:LAW-RELATED
+accused | C:LAW-RELATED
+accuses | C:LAW-RELATED
+accused | C:STATEMENT
+accuses | C:STATEMENT
+sue | C:LAW-RELATED
+sued | C:LAW-RELATED
+suing | C:LAW-RELATED
+charges related to | C:LAW-RELATED
+recognizing	| C:STATEMENT
+according to | C:STATEMENT
+spoke to | C:STATEMENT
+spoke to | C:INTERACTION
+siding with | C:STATEMENT
+relocated to | C:LOCATION-RELATED 
+relocated | C:LOCATION-RELATED
+relocate | C:LOCATION-RELATED
+located in | C:LOCATION-RELATED
+relocates | C:LOCATION-RELATED
+making | C:CREATION
+meeting | C:INTERACTION	
+make | C:CREATION
+opposing | C:STATEMENT
+issued | C:CREATION
+declaring | C:STATEMENT
+delivered | C:CREATION
+praised | C:STATEMENT	
+talks | C:INTERACTION
+close relations with | C:INTERACTION
+meeting with | C:INTERACTION
+meets with | C:INTERACTION
+meets | C:INTERACTION
+recognising	| C:STATEMENT
+talking about | C:STATEMENT
+call for | C:STATEMENT
+addressing | C:STATEMENT
+announce | C:STATEMENT
+relocating | C:LOCATION-RELATED
+asks | C:STATEMENT
+have urged | C:STATEMENT
+achieve | C:CREATION
+rethink | C:STATEMENT
+appealed to | C:STATEMENT
+coordinate a response to | C:STATEMENT
+will sign | C:STATEMENT
+would move its embassy from | C:LOCATION-RELATED
+viewed as | C:STATEMENT
+compared | C:STATEMENT
+declare | C:STATEMENT
+telling | C:STATEMENT
+cited | C:STATEMENT
+speak to | C:INTERACTION
+partners | C:STATEMENT
+allies | C:STATEMENT
+regret | C:STATEMENT
+condemning | C:STATEMENT
+undermining | C:STATEMENT
+protesting | C:STATEMENT
+informed | C:STATEMENT
+shifting the embassy from | C:LOCATION-RELATED
+acknowledging that | C:STATEMENT
+charged with | C:LAW-RELATED
+decided to | C:STATEMENT
+noted that | C:STATEMENT
+speak to | C:INTERACTION
+disagree | C:STATEMENT
+follow suit | C:LAW-RELATED
+has resumed his leadership role | C:ENGAGEMENT
+pledging to | C:STATEMENT
+spoke up | C:STATEMENT
+encourages | C:STATEMENT
+threatened to | C:STATEMENT
+speaking after | C:STATEMENT
+speaking on | C:STATEMENT
+voiced concern about | C:STATEMENT
+delivering any verdict about | C:LAW-RELATED
+talks between | C:INTERACTION
+cry out that | C:STATEMENT
+paying little recognition to | C:STATEMENT
+speaking up | C:STATEMENT
+statement on | C:STATEMENT
+commenting on | C:STATEMENT
+concerns about | C:STATEMENT
+have issued front page rebukes | C:STATEMENT
+meeting at | C:LOCATION-RELATED
+sent a letter to | C:INTERACTION
+sent a letter to | C:CREATION
+agreement between | C:INTERACTION
+opted against | C:STATEMENT
+posted online by | C:STATEMENT
+talks with | C:INTERACTION
+fear that | C:STATEMENT
+determined that | C:STATEMENT
+calling for | C:STATEMENT
+will join | C:ENGAGEMENT
+offered | C:STATEMENT
+move into | C:LOCATION-RELATED
+vote on | C:STATEMENT
+stressed that | C:STATEMENT
+maintained position of | C:STATEMENT
+promise | C:STATEMENT
+detailing | C:STATEMENT
+relocation of | C:LOCATION-RELATED
+set in motion | C:CREATION
+will announce | C:STATEMENT
+urged that | C:STATEMENT
+disagreed with | C:STATEMENT
+provide warning of | C:STATEMENT
+visited | C:LOCATION-RELATED
+protest the decision | C:STATEMENT
+schools	 | C:EDUCATION
+decided to | C:STATEMENT
+announcement to | C:STATEMENT
+peace deal between | C:INTERACTION
+assured | C:STATEMENT
+criticizing | C:STATEMENT
+voiced strong opposition to | C:STATEMENT
+disappointed with | C:STATEMENT
+urged people | C:STATEMENT
+provoke sentiments of | C:STATEMENT
+is against | C:STATEMENT
+explain it | C:STATEMENT
+argues that | C:STATEMENT
+holds the title of | C:EDUCATION
+information about | C:STATEMENT
+silent on | C:STATEMENT
+announcement | C:STATEMENT
+move by	| C:LOCATION-RELATED
+unveil | C:STATEMENT
+meeting with | C:INTERACTION
+travel to | C:LOCATION-RELATED
+traveled to | C:LOCATION-RELATED
+travels to | C:LOCATION-RELATED
+harsh words | C:STATEMENT
+taking office | C:ENGAGEMENT
+concerned about | C:STATEMENT
+mentioning  | C:STATEMENT
+partnered with | C:INTERACTION
+invested significant effort in | C:CREATION
+plays a central role in	| C:CREATION
+acknowledgment of | C:STATEMENT
+denies | C:STATEMENT
+acknowledge | C:STATEMENT
+negotiations between | C:LAW-RELATED
+wished that | C:STATEMENT
+refused to | C:STATEMENT
+accept | C:STATEMENT
+insisting to | C:STATEMENT
+harsh words over | C:STATEMENT
+conflict between | C:INTERACTION
+lobbied for | C:STATEMENT
+announces | C:STATEMENT
+followed suit | C:LAW-RELATED
+undermine | C:STATEMENT
+had some skeptical questions about | C:STATEMENT
+harsh words over | C:STATEMENT
+agreeing to | C:STATEMENT
+taking office in  | C:ENGAGEMENT
+had mentioned | C:STATEMENT
+raising concerns | C:STATEMENT
+speaking in | C:STATEMENT
+interview with | C:INTERACTION
+detailing the planning for | C:STATEMENT
+putting his own job at | C:ENGAGEMENT
+accompanied by | C:INTERACTION
+impressed with | C:STATEMENT
+tensions in | C:LOCATION-RELATED
+elaborate on | C:STATEMENT
+speak about | C:STATEMENT
+move for | C:LOCATION-RELATED
+has requested for | C:STATEMENT
+will serve for | C:ENGAGEMENT
+had signed | C:STATEMENT
+announce plans to | C:STATEMENT
+blaming both sides for | C:STATEMENT
+has informed | C:STATEMENT
+looks forward | C:STATEMENT
+meeting | C:INTERACTION
+speaks in | C:STATEMENT
+triggered a worldwide chorus of | C:STATEMENT
+tossed a hand grenade into | C:STATEMENT
+issued his own impassioned defense of | C:STATEMENT
+refusing to | C:STATEMENT
+lamented | C:STATEMENT
+telephoned | C:INTERACTION
+condemnation from | C:STATEMENT
+process between | C:LAW-RELATED
+sign a peace treaty with | C:INTERACTION
+praise for | C:STATEMENT
+acknowledging opposition to | C:STATEMENT
+arguing that | C:STATEMENT
+pleaded guilty in | C:LAW-RELATED
+bring their relatives to | C:LOCATION-RELATED
+has the backing of | C:STATEMENT
+emphasized that | C:STATEMENT
+arrest in | C:LAW-RELATED
+working with | C:ENGAGEMENT
+working closely with | C:ENGAGEMENT
+working for | C:ENGAGEMENT
+working at | C:ENGAGEMENT
+working towards | C:ENGAGEMENT
+were working to | C:ENGAGEMENT
+working toward | C:ENGAGEMENT
+working to | C:ENGAGEMENT
+working towards | C:ENGAGEMENT
+working directly with | C:ENGAGEMENT
+working constructively with | C:ENGAGEMENT
+working tirelessly in | C:ENGAGEMENT
+working during | C:ENGAGEMENT
+declare | C:STATEMENT
+following suit | C:LAW-RELATED
+'s decision | C:STATEMENT
+urged | C:STATEMENT
+calling for the impeachment of | C:STATEMENT
+will ignite violence in | C:LOCATION-RELATED
+will ignite violence in | C:VIOLENCE-INCIDENT
+served in | C:ENGAGEMENT
+contacted | C:INTERACTION
+criticism on | C:STATEMENT
+voiced alarm at | C:LOCATION-RELATED
+mediator between | C:INTERACTION
+pledge to | C:STATEMENT
+promote | C:STATEMENT
+hear arguments in | C:STATEMENT
+endorsement of | C:STATEMENT
+strengthen the solidarity between | C:INTERACTION
+agreement between | C:INTERACTION
+begging for | C:STATEMENT
+suggest that | C:STATEMENT
+pleaded guilty to | C:LAW-RELATED
+met with | C:INTERACTION
+calling for | C:STATEMENT
+speak again | C:STATEMENT
+travel to | C:LOCATION-RELATED
+would halt contacts with | C:INTERACTION
+deliberates over | C:STATEMENT
+speaks at | C:PARTICIPATION 
+shook hands | C:INTERACTION
+meeting of | C:INTERACTION
+accord that | C:STATEMENT
+recommended | C:STATEMENT
+reflects | C:STATEMENT
+cooperate with | C:INTERACTION
+provide enough information to | C:STATEMENT
+request that | C:STATEMENT
+harsh words over | C:STATEMENT
+taking a position on | C:STATEMENT
+speaking with | C:INTERACTION
+fears of | C:STATEMENT
+inform them of | C:STATEMENT
+talks that | C:STATEMENT
+blame | C:STATEMENT
+announce | C:STATEMENT
+lying to | C:STATEMENT
+lie that | C:STATEMENT
+vowing that | C:STATEMENT
+stated disdain for | C:STATEMENT
+threatened the credibility of | C:STATEMENT
+describing how | C:STATEMENT
+negotiated between | C:INTERACTION
+warning of | C:STATEMENT
+denied that | C:STATEMENT
+reflecting | C:STATEMENT
+keep the embassy in | C:LOCATION-RELATED
+have an embassy structure in | C:LOCATION-RELATED
+complained | C:STATEMENT
+encouraging | C:STATEMENT
+voiced | C:STATEMENT
+disclose | C:STATEMENT
+normalizing relations with | C:INTERACTION
+speaks during | C:STATEMENT
+urged him to | C:STATEMENT
+concluded that | C:STATEMENT
+signed by | C:STATEMENT
+denounce | C:STATEMENT
+protesting in | C:STATEMENT
+sentence for | C:LAW-RELATED
+vote against | C:STATEMENT
+quoted | C:STATEMENT
+compared to | C:STATEMENT
+cooperating with | C:INTERACTION
+concern that | C:STATEMENT
+explained | C:STATEMENT
+review of | C:STATEMENT
+withdrawing from | C:STATEMENT
+decide | C:STATEMENT
+contended that | C:STATEMENT
+raising doubts | C:STATEMENT
+condemn | C:STATEMENT
+blaming | C:STATEMENT
+charges against	 | C:LAW-RELATED
+denouncing | C:STATEMENT
+protests at | C:STATEMENT
+radical departure from | C:STATEMENT
+goes against | C:STATEMENT
+questions about | C:STATEMENT
+confident in | C:STATEMENT
+voted for | C:STATEMENT
+revealed | C:STATEMENT
+thanked | C:STATEMENT
+relocation for | C:LOCATION-RELATED
+appointed | C:ENGAGEMENT
+talks between | C:INTERACTION
+criticizes | C:STATEMENT
+visit to | C:LOCATION-RELATED
+opted against | C:STATEMENT
+stating that | C:STATEMENT
+highlights accusations against | C:LAW-RELATED
+play any role in | C:ENGAGEMENT
+debating between | C:INTERACTION
+met last week with | C:INTERACTION
+meeting between | C:INTERACTION
+meet to | C:INTERACTION
+shared the decision with | C:INTERACTION
+shared the decision with | C:STATEMENT
+reflect a departure from | C:STATEMENT
+pledge to | C:STATEMENT
+decision to | C:STATEMENT
+his decision on | C:STATEMENT
+travel to | C:LOCATION-RELATED
+moved from | C:LOCATION-RELATED
+give them guidance on | C:STATEMENT
+declaration of | C:STATEMENT
+pledge | C:STATEMENT
+stressing his opposition to | C:STATEMENT
+is considering | C:STATEMENT
+announce on | C:STATEMENT
+thinking that | C:STATEMENT
+reaffirm that | C:STATEMENT
+contrasted sharply with | C:STATEMENT
+statements from | C:STATEMENT
+should be resolved through peace negotiations between | C:INTERACTION
+endorsing | C:STATEMENT
+meet on	| C:INTERACTION
+relocating the embassy from | C:LOCATION-RELATED
+announcement | C:STATEMENT
+talks between | C:INTERACTION
+stance on | C:STATEMENT
+denied | C:STATEMENT
+encouraged | C:STATEMENT
+moving the embassy to | C:LOCATION-RELATED
+impose | C:STATEMENT 
+had gathered at | C:LOCATION-RELATED
+protest | C:STATEMENT
+relocating diplomatic operations from | C:LOCATION-RELATED
+threatened on | C:STATEMENT
+was a declaration of | C:STATEMENT
+spoke | C:STATEMENT
+met the head of | C:INTERACTION
+meeting | C:INTERACTION
+discussing | C:STATEMENT
+denies | C:STATEMENT
+revealed that | C:STATEMENT
+speaks to | C:INTERACTION
+criticism of | C:STATEMENT
+raised alarms about | C:STATEMENT
+worked as | C:ENGAGEMENT
+declining to | C:STATEMENT
+reluctant to | C:STATEMENT
+announcement at | C:STATEMENT
+concerned about	15 | C:STATEMENT
+meeting for | C:INTERACTION
+work well together | C:INTERACTION
+questions about | C:STATEMENT
+spoken out agains | C:STATEMENT
+question about | C:STATEMENT
+protested against | C:STATEMENT
+has criticised | C:STATEMENT
+protests against | C:STATEMENT
+statement on | C:STATEMENT
+travel ban to | C:LOCATION-RELATED
+has triggered a chorus of | C:STATEMENT
+received an endorsement from | C:STATEMENT
+transactions with | C:INTERACTION
+expected announcement | C:STATEMENT
+communications with | C:STATEMENT
+communicated with | C:STATEMENT
+commitment to | C:STATEMENT
+setting in motion a plan to | C:CREATION
+inaugural address | C:STATEMENT
+rallied against | C:STATEMENT
+spoke during | C:STATEMENT
+worried that | C:STATEMENT
+calling for a pause | C:STATEMENT
+congratulated | C:STATEMENT
+ties with | C:INTERACTION
+concerned about | C:STATEMENT
+have urged members | C:STATEMENT
+misleading impression of | C:STATEMENT
+stated wish to | C:STATEMENT
+emphasised that | C:STATEMENT
+make a deal with | C:INTERACTION
+admitted to | C:STATEMENT
+agreements between | C:INTERACTION
+recognition of | C:STATEMENT
+committed to | C:STATEMENT
+assurances to | C:STATEMENT
+conversations with | C:INTERACTION
+was removed from | C:ENGAGEMENT
+move its | C:LOCATION-RELATED
+discord among | C:INTERACTION
+legal challenge | C:LAW-RELATED
+criticize | C:STATEMENT
+disappointed | C:STATEMENT
+serve in | C:ENGAGEMENT
+on the phone with | C:INTERACTION
+reacted to | C:STATEMENT
+attending | C:PARTICIPATION
+dismiss | C:STATEMENT
+proclaimed | C:STATEMENT
+had a conversation | C:INTERACTION
+stated | C:STATEMENT
+concern from | C:STATEMENT
+intense criticism | C:STATEMENT
+criticism from | C:STATEMENT
+avoiding prosecution | C:LAW-RELATED
+relations with | C:INTERACTION
+suggests that | C:STATEMENT
+affiliated with | C:ENGAGEMENT
+worried about | C:STATEMENT
+announcing his intent to | C:STATEMENT
+sparked debate about | C:STATEMENT
+strained relations with | C:INTERACTION
+publicized | C:STATEMENT
+arrests | C:LAW-RELATED
+negotiations with | C:INTERACTION
+reactions to | C:STATEMENT
+unleashed fierce criticism | C:STATEMENT
+talked to | C:INTERACTION
+am pleased | C:STATEMENT
+relationships with | C:INTERACTION
+taking a tougher stand | C:STATEMENT
+alleged crimes | C:STATEMENT
+has spoken to | C:INTERACTION
+moving its | C:LOCATION-RELATED
+formulates a response | C:STATEMENT
+relations between | C:INTERACTION
+provide his advice | C:STATEMENT
+contact with | C:INTERACTION
+partnership between | C:INTERACTION
+remains supportive of | C:STATEMENT
+concerned that | C:STATEMENT
+reconciled with | C:INTERACTION
+reflections on | C:STATEMENT
+shakes hands with | C:INTERACTION
+remains the governor | C:ENGAGEMENT
+owns one of | C:OWNERSHIP
+asked for | C:STATEMENT
+’s reaction | C:STATEMENT
+’s recommendations | C:STATEMENT
+'s reaction | C:STATEMENT
+'s recommendations | C:STATEMENT
+relations with | C:INTERACTION
+pleaded guilty | C:LAW-RELATED
+announcing plans | C:STATEMENT
+discouraged | C:STATEMENT
+has withdrawn from | C:ENGAGEMENT
+relationship with | C:INTERACTION
+constitutes a violation of | C:LAW-RELATED
+withdrew from | C:STATEMENT
+apologized for | C:STATEMENT
+unveiled in | C:STATEMENT
+partnership with | C:INTERACTION
+fired from | C:ENGAGEMENT
+received a telephone call from | C:INTERACTION
+sent a message to | C:INTERACTION
+received a phone call from | C:INTERACTION
+judged by a civil court | C:LAW-RELATED
+emphasizing that | C:STATEMENT
+seal | C:CREATION
+seals | C:CREATION
+sealed | C:CREATION
+convicted at | C:LAW-RELATED
+convict | C:LAW-RELATED
+convicted | C:LAW-RELATED
+deliver | C:CREATION
+notify | C:STATEMENT
+notified | C:STATEMENT
+concluded by | C:STATEMENT
+won	| C:ACHIEVEMENT
+killed | C:DEATH
+killed | C:VIOLENCE-INCIDENT
+asked | C:STATEMENT
+was in | C:LOCATION-RELATED
+win	| C:ACHIEVEMENT
+wounded | C:HEALTH-CONDITION
+infected with | C:HEALTH-CONDITION 
+suffers from | C:HEALTH-CONDITION
+sufferred from | C:HEALTH-CONDITION
+ranked | C:ACHIEVEMENT
+charged | C:LAW-RELATED
+sentenced to | C:LAW-RELATED
+diagnosed with | C:HEALTH-CONDITION
+wounded in | C:HEALTH-CONDITION
+indicated | C:STATEMENT
+concluded | C:STATEMENT
+wanted | C:STATEMENT
+accepted | C:STATEMENT
+acknowledged | C:STATEMENT
+cardiac arrest | C:HEALTH-CONDITION
+arrest | C:LAW-RELATED
+arrested | C:LAW-RELATED
+arresting | C:LAW-RELATED
+arrived at | C:LOCATION-RELATED
+speak | C:STATEMENT
+talk about | C:STATEMENT
+thank | C:STATEMENT
+argue | C:STATEMENT
+explains | C:STATEMENT
+committed | C:STATEMENT
+disclosed | C:STATEMENT
+detained at | C:LAW-RELATED
+barred from | C:LAW-RELATED
+jailed in | C:LAW-RELATED
+detained by | C:LAW-RELATED
+detained on | C:LAW-RELATED
+opened fire with | C:LAW-RELATED
+imprisoned | C:LAW-RELATED
+apprehended | C:LAW-RELATED
+suspended for | C:LAW-RELATED
+found guilty of | C:LAW-RELATED
+charged for | C:LAW-RELATED
+detained in | C:LAW-RELATED
+jailed in | C:LOCATION-RELATED
+detained in | C:LOCATION-RELATED
+answered with | C:STATEMENT
+prefers | C:STATEMENT
+apologize for | C:STATEMENT
+stood for | C:STATEMENT
+commit to | C:STATEMENT
+reflect on | C:STATEMENT
+advocated | C:STATEMENT
+was against | C:STATEMENT
+congratulate | C:STATEMENT
+are against | C:STATEMENT
+authorized | C:STATEMENT
+pushed for | C:STATEMENT
+affirmed | C:STATEMENT
+is the author of | C:CREATION
+commuted | C:LOCATION-RELATED
+reside in | C:LOCATION-RELATED
+landed at | C:LOCATION-RELATED
+take place at | C:LOCATION-RELATED
+fell in love with | C:INTERACTION
+interaction | C:INTERACTION
+interactions | C:INTERACTION
+relations | C:INTERACTION
+relation | C:INTERACTION
+reaction | C:STATEMENT
+recognition | C:STATEMENT
+fears | C:STATEMENT
+hopes | C:STATEMENT
+fear | C:STATEMENT
+hope | C:STATEMENT
+reactions | C:STATEMENT
+endorsement | C:STATEMENT
+endorsements | C:STATEMENT
+detonated | C:VIOLENCE-INCIDENT
+detonate | C:VIOLENCE-INCIDENT
+bombed | C:VIOLENCE-INCIDENT
+opened fire in | C:VIOLENCE-INCIDENT
+opened fire on | C:VIOLENCE-INCIDENT
+opened fire in | C:LOCATION-RELATED
+detained for | C:LAW-RELATED
+recover from | C:HEALTH-CONDITION
+hospitalized | C:HEALTH-CONDITION
+took place in | C:LOCATION-RELATED
+opened fire at | C:VIOLENCE-INCIDENT
+knocked out | C:ACHIEVEMENT
+knock out | C:ACHIEVEMENT
+won | C:ACHIEVEMENT
+win against | C:ACHIEVEMENT
+struck by | C:VIOLENCE-INCIDENT
+struck by the generosity | C:STATEMENT
+struck by the fear | C:STATEMENT
+struck by the questions | C:STATEMENT
+struck by the resemblance | C:STATEMENT
+struck by the quickness | C:STATEMENT
+struck by controversy | C:STATEMENT
+struck by tragedy | C:STATEMENT
+struck by the strength | C:STATEMENT
+struck by the fact | C:STATEMENT
+struck by the enthusiasm | C:STATEMENT
+struck by the passion | C:STATEMENT
+struck by a sense | C:STATEMENT
+struck by the contrast between | C:STATEMENT
+struck by its ability | C:STATEMENT
+struck by the profound lack of | C:STATEMENT
+struck by the character of | C:STATEMENT
+struck by the sense | C:STATEMENT
+struck by multiple rounds of | C:STATEMENT
+struck by a display case | C:STATEMENT
+struck by the strong sense | C:STATEMENT
+struck by the enormous | C:STATEMENT
+struck by the angelic nature | C:STATEMENT
+struck by the notion | C:STATEMENT
+struck by the richness | C:STATEMENT
+struck by the general absence | C:STATEMENT
+struck by the diversity | C:STATEMENT
+struck by the relative lack | C:STATEMENT
+struck by the amount of | C:STATEMENT
+struck by the uniqueness | C:STATEMENT
+struck by the difference | C:STATEMENT
+struck by tragedy | C:STATEMENT
+struck by the generous | C:STATEMENT
+struck by perpetual congestion | C:STATEMENT
+struck by the inferences | C:STATEMENT
+struck by the enormity | C:STATEMENT
+struck by the demand for | C:STATEMENT
+struck by the sad irony | C:STATEMENT
+struck by the creative | C:STATEMENT
+struck by a unique | C:STATEMENT
+struck by the mood | C:STATEMENT
+struck by a train  | C:STATEMENT
+struck by the homely feel | C:STATEMENT
+struck by a statement from | C:STATEMENT
+struck by just how much | C:STATEMENT
+struck by severe doubts | C:STATEMENT
+struck by the similarities | C:STATEMENT
+struck by the handle | C:STATEMENT
+struck by the response | C:STATEMENT
+struck by the lack of | C:STATEMENT
+struck by the newly independent | C:STATEMENT
+struck by just how | C:STATEMENT
+struck by a story | C:STATEMENT
+struck by the changing attitude | C:STATEMENT
+struck by similarities | C:STATEMENT
+struck by an unexpected parallel | C:STATEMENT
+struck by the sheer numbers | C:STATEMENT
+struck by tragedy | C:STATEMENT
+struck by the incredible investment | C:STATEMENT
+struck by the professionalism | C:STATEMENT
+struck by your response | C:STATEMENT
+struck by an overwhelming sense | C:STATEMENT
+struck by the public backing for | C:STATEMENT
+struck by the fact that | C:STATEMENT
+struck by the glare of | C:STATEMENT
+struck by a story | C:STATEMENT
+struck by the intense level | C:STATEMENT
+struck by the emphatic manner | C:STATEMENT
+struck by the seeming injustice | C:STATEMENT
+struck by how | C:STATEMENT
+struck by tragedy | C:STATEMENT
+struck by the humility | C:STATEMENT
+struck by contemporary feel | C:STATEMENT
+struck by calamities | C:STATEMENT
+struck by the kindness | C:STATEMENT
+struck by the fact | C:STATEMENT
+struck by the sight | C:STATEMENT
+struck by the many acts of | C:STATEMENT
+struck by the quality | C:STATEMENT
+struck by the role | C:STATEMENT
+struck by the hopeful tone | C:STATEMENT
+struck by a utility | C:STATEMENT
+struck by the tension of | C:STATEMENT
+struck by the importance | C:STATEMENT
+struck by how | C:STATEMENT
+struck by the possibility | C:STATEMENT
+struck by the nature of | C:STATEMENT
+struck by the intimacy | C:STATEMENT
+struck by his recent view | C:STATEMENT
+struck by the enthusiasm | C:STATEMENT
+struck by the possibilities | C:STATEMENT
+struck by the serious inequality | C:STATEMENT
+struck by the eloquence | C:STATEMENT
+struck by the dynamism | C:STATEMENT
+awestruck with | C:STATEMENT
+awestruck by | C:STATEMENT
+deal with | C:INTERACTION
+struck deal with | C:INTERACTION
+strike deal with | C:INTERACTION
+struck a deal with | C:INTERACTION
+struck a deal | C:INTERACTION
+struck a far more conciliatory tone with | C:INTERACTION
+struck a protectionist tone | C:INTERACTION
+struck a lucrative deal with | C:INTERACTION
+struck a markedly different tone from | C:INTERACTION
+struck a more conciliatory tone toward | C:INTERACTION
+struck a chord in | C:INTERACTION
+struck a more optimistic tone for | C:INTERACTION
+struck a chord for | C:INTERACTION
+struck a rights deal with | C:INTERACTION
+struck a cautiously positive tone on | C:INTERACTION
+struck a more positive tone | C:INTERACTION
+struck a more moderate tone | C:INTERACTION
+struck a preliminary agreement with | C:INTERACTION
+struck a highly personal tone | C:INTERACTION
+struck a good chord in | C:INTERACTION
+struck a conciliatory note | C:INTERACTION
+struck a conciliatory tone | C:INTERACTION
+struck a more sanguine tone on | C:INTERACTION
+struck a tough note in | C:INTERACTION
+struck a more optimistic tone with | C:INTERACTION
+struck a special deal with | C:INTERACTION
+struck a similar tone about | C:INTERACTION
+struck a more conciliatory note in | C:INTERACTION
+struck a resonant chord between | C:INTERACTION
+struck a conciliatory tone with | C:INTERACTION
+struck a deal to | C:INTERACTION
+struck with | C:STATEMENT
+flood | C:NATURAL-DISASTER
+earthquake | C:NATURAL-DISASTER
+earthquakes | C:NATURAL-DISASTER
+flooding | C:NATURAL-DISASTER
+floods | C:NATURAL-DISASTER
+landslide | C:NATURAL-DISASTER
+landslides | C:NATURAL-DISASTER
+avalanche | C:NATURAL-DISASTER
+avalanches | C:NATURAL-DISASTER
+volcanic eruption | C:NATURAL-DISASTER
+volcanic eruptions | C:NATURAL-DISASTER
+volcano eruption | C:NATURAL-DISASTER
+volcano eruptions | C:NATURAL-DISASTER
+tsunami | C:NATURAL-DISASTER
+tsunami | C:NATURAL-DISASTER
+ground blizzard | C:NATURAL-DISASTER
+ground blizzards | C:NATURAL-DISASTER
+blizzard | C:NATURAL-DISASTER
+blizzards | C:NATURAL-DISASTER
+hurricane | C:NATURAL-DISASTER
+hurricanes | C:NATURAL-DISASTER
+cyclone | C:NATURAL-DISASTER
+cyclones | C:NATURAL-DISASTER
+typhoon | C:NATURAL-DISASTER
+typhoons | C:NATURAL-DISASTER
+drought | C:NATURAL-DISASTER
+droughts | C:NATURAL-DISASTER
+thuderstorm | C:NATURAL-DISASTER
+thuderstorms | C:NATURAL-DISASTER
+hailstorm | C:NATURAL-DISASTER
+hailstorms | C:NATURAL-DISASTER
+heat wave | C:NATURAL-DISASTER
+heat waves | C:NATURAL-DISASTER
+tornado | C:NATURAL-DISASTER
+tornadoes | C:NATURAL-DISASTER
+wildfire | C:NATURAL-DISASTER
+wildfires | C:NATURAL-DISASTER
+tasked | C:ENGAGEMENT
+hired | C:ENGAGEMENT
+crashed into | C:VIOLENCE-INCIDENT
+crashed | C:VIOLENCE-INCIDENT
+engage with | C:ENGAGEMENT
+engage with | C:INTERACTION
+presided over | C:ENGAGEMENT
+resigned from | C:ENGAGEMENT
+signed with | C:ENGAGEMENT
+arrive at | C:LOCATION-RELATED
+sent back to | C:LOCATION-RELATED
+landed in | C:LOCATION-RELATED
+is responsible for | C:ENGAGEMENT
+work with | C:ENGAGEMENT
+continue to work with | C:ENGAGEMENT
+reunited with | C:INTERACTION
+rooted in | C:LOCATION-RELATED
+connected with | C:INTERACTION
+evacuated from | C:LOCATION-RELATED
+escaped from | C:LOCATION-RELATED
+exploded | C:VIOLENCE-INCIDENT
+devastated | C:VIOLENCE-INCIDENT
+injured | C:HEALTH-CONDITION
+wounded | C:HEALTH-CONDITION
+sick | C:HEALTH-CONDITION
+wounds | C:HEALTH-CONDITION
+injuries | C:HEALTH-CONDITION
+injury | C:HEALTH-CONDITION
+is a strong statement of | C:STATEMENT
+is a poignant statement for | C:STATEMENT
+is a dissatisfaction of | C:STATEMENT
+is a part of | C:IS-A
+is a symbol of | C:IS-A
+is a kind of | C:IS-A
+is a type of | C:IS-A
+is a product of | C:IS-A
+is a big part of | C:IS-A
+is a key part of | C:IS-A
+is a form of | C:IS-A
+is a leading provider of | C:ENGAGEMENT
+is a leader in | C:ENGAGEMENT
+is a subsidiary of | C:ENGAGEMENT
+is a global leader in | C:ENGAGEMENT
+is a leading distributor of | C:ENGAGEMENT
+is a group of | C:IS-A
+is a native of | C:IS-A
+is a fan of | C:IS-A
+is a professor of | C:ENGAGEMENT
+is a minority in | C:IS-A
+is a combination of | C:IS-A
+is a friend of | C:INTERACTION
+is a friend of | C:INTERACTION
+is a case of | C:IS-A
+is a writer for | C:ENGAGEMENT
+is a nation of | C:IS-A
+is a partner at | C:ENGAGEMENT
+is a piece of | C:IS-A
+is a perfect example of | C:IS-A
+is a mix of | C:IS-A
+is a veteran of | C:ENGAGEMENT
+is a good example of | C:IS-A
+is a close ally of | C:INTERACTION
+is a collection of | C:IS-A
+is a world leader in | C:ENGAGEMENT
+is a staff writer at | C:ENGAGEMENT
+is a professor at | C:ENGAGEMENT
+is a freelance reporter for | C:ENGAGEMENT
+is a sponsor of | C:ENGAGEMENT
+is a columnist for | C:ENGAGEMENT
+is a long-time critic of | C:STATEMENT
+is a national television columnist for | C:ENGAGEMENT
+is a managing director in | C:ENGAGEMENT
+is a columnist with | C:ENGAGEMENT
+is a senior manager at | C:ENGAGEMENT
+is a past president of | C:ENGAGEMENT
+is a key player in | C:ENGAGEMENT
+is a staff writer for | C:ENGAGEMENT
+is a senior at | C:ENGAGEMENT
+is a fellow at  | C:ENGAGEMENT
+is a former officer in | C:ENGAGEMENT
+is a reporter with | C:ENGAGEMENT
+is a professor in | C:ENGAGEMENT
+is a spokesman for | C:ENGAGEMENT
+is a major investor in | C:ENGAGEMENT
+is a specialist in | C:ENGAGEMENT
+is a journalist | C:ENGAGEMENT
+is a former president of | C:ENGAGEMENT
+is a general assignment reporter | C:ENGAGEMENT
+is a journalist | C:ENGAGEMENT
+is a clerical worker | C:ENGAGEMENT
+is a political officer for | C:ENGAGEMENT
+is a master of | C:ENGAGEMENT
+is a reporter for | C:ENGAGEMENT
+is a senior fellow at | C:ENGAGEMENT
+is a partner in | C:ENGAGEMENT
+is a partner of | C:ENGAGEMENT
+is a successor to | C:ENGAGEMENT
+is a senior adviser to | C:ENGAGEMENT
+is a notable advocate for | C:ENGAGEMENT
+is a researcher at | C:ENGAGEMENT
+is a lecturer in | C:ENGAGEMENT
+is a correspondent for | C:ENGAGEMENT
+is a counselor at | C:ENGAGEMENT
+is a major contributor to | C:ENGAGEMENT
+is a candidate to become | C:ENGAGEMENT
+is a sports columnist for | C:ENGAGEMENT
+is a worldwide leader in | C:ENGAGEMENT
+is a vice-president of | C:ENGAGEMENT
+is a lecturer at | C:ENGAGEMENT
+is a player with | C:ENGAGEMENT
+is a former colonial overseer in | C:ENGAGEMENT
+is a fellow of | C:ENGAGEMENT
+is a minister in | C:ENGAGEMENT
+is a police officer | C:ENGAGEMENT
+is a large contributor to | C:ENGAGEMENT
+is a boss in | C:ENGAGEMENT
+is a former employee | C:ENGAGEMENT
+is a senior in | C:ENGAGEMENT
+is a senior correspondent for | C:ENGAGEMENT
+is a good candidate for | C:ENGAGEMENT
+is a lawyer with | C:ENGAGEMENT
+is a research fellow | C:ENGAGEMENT
+is a senior lecturer | C:ENGAGEMENT
+is a teacher | C:ENGAGEMENT
+is a leading developer | C:ENGAGEMENT
+is a consultant | C:ENGAGEMENT
+is a consultant | C:ENGAGEMENT
+is a former spokesman | C:ENGAGEMENT
+is a video reporter | C:ENGAGEMENT
+is a former attorney | C:ENGAGEMENT
+is a free agent | C:ENGAGEMENT
+is a longtime admirer of | C:STATEMENT
+is a harsh critic of | C:STATEMENT
+is a vociferous opponent of | C:STATEMENT
+is a statement from | C:STATEMENT
+is a frequent critic of | C:STATEMENT
+is a strong advocate of | C:STATEMENT
+is a strategic ally of | C:STATEMENT
+is a firm believer in | C:STATEMENT
+is a strict adherent of | C:STATEMENT
+is a prominent critic of | C:STATEMENT
+is a finalist in | C:ACHIEVEMENT
+is a winner of | C:ACHIEVEMENT
+is a nominee for | C:ACHIEVEMENT
+great achievement for | C:ACHIEVEMENT
+is a founder of | C:ENGAGEMENT
+is a lobbyist with | C:ENGAGEMENT
+is a manager | C:ENGAGEMENT
+is a close associate of | C:ENGAGEMENT
+is a player of | C:ENGAGEMENT
+is a former parliamentary representative for | C:ENGAGEMENT
+is a financial backer of | C:ENGAGEMENT
+is a major share holder of | C:ENGAGEMENT
+is a psychology instructor | C:ENGAGEMENT
+is a full partner at | C:ENGAGEMENT
+is a trained lawyer in | C:ENGAGEMENT
+is a former film commissioner | C:ENGAGEMENT
+is a postgraduate student journalist | C:ENGAGEMENT
+is a senior vice president at | C:ENGAGEMENT
+is a professional practitioner of | C:ENGAGEMENT
+is a former system administrator for | C:ENGAGEMENT
+is a prominent religious figure in | C:ENGAGEMENT
+is a freelance writer at | C:ENGAGEMENT
+is a distinguished teacher | C:ENGAGEMENT
+is a frequent lecturer at | C:ENGAGEMENT
+is a successful basketball player in | C:ENGAGEMENT
+is a criminal defense lawyer at | C:ENGAGEMENT
+is a temporary worker at | C:ENGAGEMENT
+is a leadership consultant at | C:ENGAGEMENT
+is a private investor with | C:ENGAGEMENT
+is a community investment manager | C:ENGAGEMENT
+is a former vice chair of | C:ENGAGEMENT
+is a talented point guard | C:ENGAGEMENT
+is a good young manager | C:ENGAGEMENT
+is a business journalist at | C:ENGAGEMENT
+is a junior at | C:ENGAGEMENT
+is a tax partner at | C:ENGAGEMENT
+is a scientist from | C:ENGAGEMENT
+is a sales executive at | C:ENGAGEMENT
+is a first year student | C:EDUCATION
+is a senior adviser | C:ENGAGEMENT
+is a governor for | C:ENGAGEMENT
+is a subcontractor with | C:ENGAGEMENT
+is a powerful player with | C:ENGAGEMENT
+is a serious politician at | C:ENGAGEMENT
+is a comedy actress | C:ENGAGEMENT
+is a communist dictator | C:ENGAGEMENT
+is a police officer at | C:ENGAGEMENT
+is a golfer | C:ENGAGEMENT
+is a huge trader with | C:ENGAGEMENT
+is a regional president of | C:ENGAGEMENT
+is a former commissioner of | C:ENGAGEMENT
+is a former deputy speaker of | C:ENGAGEMENT
+is a senior securities lawyer with | C:ENGAGEMENT
+is a leading worldwide manufacturer of | C:ENGAGEMENT
+is a personal injury lawyer | C:ENGAGEMENT
+is a medical doctor | C:ENGAGEMENT
+is a licensed practitioner | C:ENGAGEMENT
+is a major developer | C:ENGAGEMENT
+is a french composer | C:ENGAGEMENT
+is a subject matter expert | C:ENGAGEMENT
+is a highly experienced geologist with | C:ENGAGEMENT
+is a steward | C:ENGAGEMENT
+is a former vice president of | C:ENGAGEMENT
+is a political commentator | C:ENGAGEMENT
+is a cinematic master of | C:ENGAGEMENT
+is a macroeconomic adviser | C:ENGAGEMENT
+is a young talented artist | C:ENGAGEMENT
+is a former religion editor at | C:ENGAGEMENT
+is a very pleasing substitute for | C:ENGAGEMENT
+is a program associate in | C:ENGAGEMENT
+is a responsible developer of | C:ENGAGEMENT
+is a pornographic movie star | C:ENGAGEMENT
+is a full-time driver at | C:ENGAGEMENT
+is a police detective in | C:ENGAGEMENT
+is a dancer for | C:ENGAGEMENT
+is a head priest of | C:ENGAGEMENT
+is a software engineer in | C:ENGAGEMENT
+is a managing engineer with | C:ENGAGEMENT
+is a software engineer at | C:ENGAGEMENT
+is a senior media industry professional with | C:ENGAGEMENT
+is a leader | C:ENGAGEMENT
+is a lieutenant commander | C:ENGAGEMENT
+is a consultant solicitor | C:ENGAGEMENT
+is a major admirer of | C:STATEMENT
+is a prisoner at | C:LAW-RELATED
+is a relationship between | C:INTERACTION
+is a close friend of | C:INTERACTION
+is a longtime rival of | C:INTERACTION
+is a well-known provider of | C:ENGAGEMENT
+is a muslim refugee from | C:IS-A
+is a major employer in | C:ENGAGEMENT
+is a global pioneer in | C:ENGAGEMENT
+is a critical partner to | C:INTERACTION
+is a producer of | C:ENGAGEMENT
+is a trustee of | C:INTERACTION
+is a fugitive from | C:IS-A
+is a producer for | C:ENGAGEMENT
+is a pioneer of | C:ENGAGEMENT
+is a manufacturer of | C:ENGAGEMENT
+is a champion for | C:ENGAGEMENT
+is a legal resident in | C:LOCATION-RELATED
+is a leading player in | C:ENGAGEMENT
+is a relative newcomer to | C:ENGAGEMENT
+is a company registered in | C:LOCATION-RELATED
+is a national leader in | C:ENGAGEMENT
+is a significant contributor to | C:ENGAGEMENT
+is a potential leader for | C:ENGAGEMENT
+is a shareholder in	24 | C:ENGAGEMENT
+is a permanent resident of | C:LOCATION-RELATED
+is a student from | C:LOCATION-RELATED
+is a student from | C:EDUCATION
+is a student of | C:EDUCATION
+is a businessman from | C:LOCATION-RELATED
+is a resident of | C:LOCATION-RELATED
+is a businessman from | C:ENGAGEMENT
+is a very good friend of | C:INTERACTION
+is a leading global supplier of | C:ENGAGEMENT
+is a driving force behind | C:ENGAGEMENT
+is a victory of | C:ACHIEVEMENT
+is a key figure for	| C:IS-A
+is a major part of | C:IS-A
+is a component of | C:IS-A
+is a critical part of | C:IS-A
+is a vital part of | C:IS-A
+is a great example of | C:IS-A
+is a critical component of | C:IS-A
+is a unit of | C:IS-A
+is a huge part of | C:IS-A
+is a bit of | C:IS-A
+is a very important part of | C:IS-A
+is a prime example of | C:IS-A
+is a classic example of | C:IS-A
+is a division of | C:IS-A
+is a crucial part of | C:IS-A
+is a key component of | C:IS-A
+is a major buyer of | C:ENGAGEMENT
+is a regular contributor to | C:ENGAGEMENT
+is a leading manufacturer of | C:ENGAGEMENT
+is a global provider of | C:ENGAGEMENT
+is a provider of | C:ENGAGEMENT
+is a good friend of | C:INTERACTION
+is a leader of | C:ENGAGEMENT
+is a leading supplier of | C:ENGAGEMENT
+is a highly talented expert on | C:ENGAGEMENT
+is a pioneer in | C:ENGAGEMENT
+is a leading global provider of | C:ENGAGEMENT
+is a major real estate investor | C:ENGAGEMENT
+is a longtime adviser to | C:ENGAGEMENT
+is a leading candidate for | C:ENGAGEMENT
+is a regional communications manager with | C:ENGAGEMENT
+is a champion of | C:ENGAGEMENT
+is a major player in | C:ENGAGEMENT
+is a believer in | C:STATEMENT
+is a collaboration between | C:INTERACTION
+is a joint venture of | C:INTERACTION
+is a private limited company registered in | C:LOCATION-RELATED
+is a joint venture between | C:INTERACTION
+is a statement of | C:STATEMENT
+statement | C:STATEMENT
+statements | C:STATEMENT
+is a violation of | C:LAW-RELATED
+is a suspect in | C:LAW-RELATED
+is a global leader in | C:ENGAGEMENT
+is a relative of | C:FAMILY
+is a family of | C:FAMILY
+is a traditional ally of | C:INTERACTION
+is a longtime friend of | C:INTERACTION
+is a colleague of | C:INTERACTION
+is a big fan of | C:STATEMENT
+is a huge fan of | C:STATEMENT
+is a junior at | C:STATEMENT
+is a horrible tragedy for | C:VIOLENCE-INCIDENT	
+is a breach of | C:LAW-RELATED
+is a finalist for | C:ACHIEVEMENT
+is a win for | C:ACHIEVEMENT
+is a victory for | C:ACHIEVEMENT
+held in | C:LOCATION-RELATED	 
+evacuated from | C:LOCATION-RELATED	 
+was held in | C:LOCATION-RELATED	 
+took place at | C:LOCATION-RELATED	 
+arrive in | C:LOCATION-RELATED 
+arrived on | C:LOCATION-RELATED
+buried in | C:LOCATION-RELATED	 
+take place in | C:LOCATION-RELATED	 
+perform at | C:CREATION
+asked not to | C:STATEMENT
+compete with | C:INTERACTION
+lost in	| C:ACHIEVEMENT
+win at | C:ACHIEVEMENT
+win in | C:ACHIEVEMENT
+defeated | C:ACHIEVEMENT
+afford to pay off | C:OWNERSHIP
+struggle to pay off | C:OWNERSHIP
+pay off a home loan for | C:OWNERSHIP
+pay off the debt without | C:OWNERSHIP
+used the money to pay off | C:OWNERSHIP
+pay off that credit card debt in | C:OWNERSHIP
+pay off your student loans with | C:OWNERSHIP
+pay off the balance in | C:OWNERSHIP
+balance transfer offer to pay off | C:OWNERSHIP
+failed to pay off | C:OWNERSHIP
+disciplined enough to pay off | C:OWNERSHIP
+pay off the debt by | C:OWNERSHIP
+struggling to pay off | C:OWNERSHIP
+pay off debts with | C:OWNERSHIP
+pay off the bills right away | C:OWNERSHIP
+try to pay off | C:OWNERSHIP
+struggling to pay off credit cards with | C:OWNERSHIP
+borrowing to pay off | C:OWNERSHIP
+pay off his debts to | C:OWNERSHIP
+pay off its debt to | C:OWNERSHIP
+thing to pay off | C:OWNERSHIP
+pay off your debt | C:OWNERSHIP
+pay off my house in | C:OWNERSHIP
+loan to pay off | C:OWNERSHIP
+pay off his debt with | C:OWNERSHIP
+use then the extra cash to pay off | C:OWNERSHIP
+earmarked to pay off | C:OWNERSHIP
+pay off the charges before | C:OWNERSHIP
+pay off the ambulance crew | C:OWNERSHIP
+borrow to pay off | C:OWNERSHIP
+struggle to pay off | C:OWNERSHIP
+interest state loan to pay off | C:OWNERSHIP
+even to pay off old loans on | C:OWNERSHIP
+works to pay off | C:OWNERSHIP
+loans to pay off | C:OWNERSHIP
+pay off our credit card bills | C:OWNERSHIP
+accomplish | C:CREATION	
+accomplished | C:CREATION	
+acted as | C:ENGAGEMENT
+acts as | C:ENGAGEMENT
+chaired | C:ENGAGEMENT
+was held at | C:LOCATION-RELATED
+sent back to jail | C:LAW-RELATED
+sent back to court | C:LAW-RELATED
+connect with | C:INTERACTION
+arrive at | C:LOCATION-RELATED
+judged | C:STATEMENT
+identifies | C:STATEMENT
+appeal to | C:STATEMENT
+assure | C:STATEMENT
+reveals | C:STATEMENT
+works with | C:ENGAGEMENT
+attacked by | C:VIOLENCE-INCIDENT
+alleged to be from | C:LOCATION-RELATED
+alleged to | C:LAW-RELATED
+filmed | C:CREATION
+arrived on | C:LOCATION-RELATED
+prosecute | C:LAW-RELATED
+prosecuted | C:LAW-RELATED
+qualified | C:ACHIEVEMENT
+speculated | C:STATEMENT
+coordinated | C:ENGAGEMENT
+voted to | C:STATEMENT
+acknowledges | C:STATEMENT
+was recruited | C:ENGAGEMENT
+was aware of | C:STATEMENT
+is aware of | C:STATEMENT
+tolerated | C:STATEMENT
+ensured	| C:STATEMENT
+killed | C:VIOLENCE-INCIDENT
+trusted | C:STATEMENT
+leaves office | C:ENGAGEMENT
+abolishment | C:CREATION	
+abolishments | C:CREATION	
+abolish | C:CREATION	
+abloished | C:CREATION	
+abolishes | C:CREATION	
+abolition | C:CREATION	
+abolitions | C:CREATION	
+acceptance | C:STATEMENT
+accepted | C:STATEMENT
+accepts | C:STATEMENT
+accept | C:STATEMENT
+acclaim | C:STATEMENT
+acclaimed | C:STATEMENT
+acclaims  | C:STATEMENT
+accomplishment | C:CREATION	
+accomplishments | C:CREATION	
+accomplished | C:CREATION	
+accomplishes | C:CREATION	
+acknowledgement | C:STATEMENT	
+acknowledgements | C:STATEMENT	
+acknowledged | C:STATEMENT
+acknowledges | C:STATEMENT
+admiration | C:STATEMENT
+admirations | C:STATEMENT
+admire | C:STATEMENT
+admires | C:STATEMENT
+admired | C:STATEMENT
+adoration | C:STATEMENT
+adorations | C:STATEMENT
+adore | C:STATEMENT
+adores | C:STATEMENT
+adored | C:STATEMENT
+affirmation	| C:STATEMENT
+affirmations	| C:STATEMENT
+affirm | C:STATEMENT
+affirms | C:STATEMENT
+affirmed | C:STATEMENT
+agreement | C:STATEMENT
+agreements | C:STATEMENT
+agree | C:STATEMENT
+agreed | C:STATEMENT
+agrees | C:STATEMENT
+allegation | C:STATEMENT
+allegations | C:STATEMENT
+allege | C:STATEMENT
+alleged | C:STATEMENT
+alleges | C:STATEMENT
+announcement | C:STATEMENT
+announcements | C:STATEMENT
+announce | C:STATEMENT
+announced | C:STATEMENT
+announces | C:STATEMENT
+annoyance | C:STATEMENT
+annoy | C:STATEMENT
+annoyed | C:STATEMENT
+annoyes | C:STATEMENT
+annulment | C:STATEMENT
+annulments | C:STATEMENT
+annul | C:STATEMENT
+annuls | C:STATEMENT
+annuled | C:STATEMENT
+answer | C:STATEMENT
+answers | C:STATEMENT
+answeres | C:STATEMENT
+applause | C:STATEMENT	
+applauses | C:STATEMENT	
+applaud | C:STATEMENT
+applauded | C:STATEMENT
+applauds | C:STATEMENT
+appraisal | C:STATEMENT
+appraisals | C:STATEMENT
+appraise | C:STATEMENT
+appraised | C:STATEMENT
+appraises | C:STATEMENT
+appreciation | C:STATEMENT
+appreciations | C:STATEMENT
+appreciate | C:STATEMENT
+appreciated | C:STATEMENT
+appreciates | C:STATEMENT
+approbation | C:STATEMENT
+approbations | C:STATEMENT
+approve | C:STATEMENT
+approves | C:STATEMENT
+approved | C:STATEMENT
+appropriation | C:STATEMENT
+appropriations | C:STATEMENT
+appropriate | C:STATEMENT
+appropriates | C:STATEMENT
+appropriated | C:STATEMENT
+approval | C:STATEMENT
+approvals | C:STATEMENT
+approve | C:STATEMENT
+approved | C:STATEMENT
+approves | C:STATEMENT
+articulation | C:STATEMENT
+articulations | C:STATEMENT
+articulate | C:STATEMENT
+articulated | C:STATEMENT
+articulates | C:STATEMENT
+astonishment | C:STATEMENT
+astonishments | C:STATEMENT
+astonishes | C:STATEMENT
+astonishe | C:STATEMENT
+astonished | C:STATEMENT
+authentication | C:STATEMENT
+authentications | C:STATEMENT
+authenticate | C:STATEMENT
+authenticates | C:STATEMENT
+authenticated | C:STATEMENT
+betrayal | C:STATEMENT
+betray | C:STATEMENT
+betrays | C:STATEMENT
+betrayed | C:STATEMENT
+bewilderment | C:STATEMENT
+bewilderments | C:STATEMENT
+bewilder | C:STATEMENT
+bewilders | C:STATEMENT
+bewildered | C:STATEMENT
+blame | C:STATEMENT
+blames | C:STATEMENT
+blamed | C:STATEMENT
+calculation | C:STATEMENT
+calculations | C:STATEMENT
+calculate | C:STATEMENT
+calculated | C:STATEMENT
+calculates | C:STATEMENT
+certification | C:STATEMENT
+certifications | C:STATEMENT
+certify | C:STATEMENT
+certifies | C:STATEMENT
+certified | C:STATEMENT
+citation | C:STATEMENT
+citations | C:STATEMENT
+cite | C:STATEMENT
+cited | C:STATEMENT
+cites | C:STATEMENT
+claim | C:STATEMENT
+claimed | C:STATEMENT
+claims | C:STATEMENT
+clarification | C:STATEMENT
+clarifications | C:STATEMENT
+clarify | C:STATEMENT
+clarifies | C:STATEMENT
+clarified | C:STATEMENT
+comment | C:STATEMENT
+comments | C:STATEMENT
+commented | C:STATEMENT
+commentary | C:STATEMENT
+commentaries | C:STATEMENT
+comment | C:STATEMENT
+comments | C:STATEMENT
+commented | C:STATEMENT
+commitment | C:STATEMENT
+commitments | C:STATEMENT
+commit | C:STATEMENT
+commited | C:STATEMENT
+commites | C:STATEMENT
+communication | C:STATEMENT
+communications | C:STATEMENT
+communicate | C:STATEMENT
+communicated | C:STATEMENT
+communicates | C:STATEMENT
+complaint | C:STATEMENT
+complaints | C:STATEMENT
+complain | C:STATEMENT
+complained | C:STATEMENT
+complaines | C:STATEMENT
+conclusion | C:STATEMENT
+conclusions | C:STATEMENT
+conclude | C:STATEMENT
+concluded | C:STATEMENT
+concludes | C:STATEMENT
+condemnation | C:STATEMENT
+condemnations | C:STATEMENT
+condemn | C:STATEMENT
+condemned | C:STATEMENT
+condemns | C:STATEMENT
+consent | C:STATEMENT
+consentes | C:STATEMENT
+consented | C:STATEMENT
+consideration | C:STATEMENT
+considerations | C:STATEMENT
+consider | C:STATEMENT
+considered | C:STATEMENT
+consideres | C:STATEMENT
+contemplation | C:STATEMENT
+contemplations | C:STATEMENT
+contemplate | C:STATEMENT
+contemplated | C:STATEMENT
+contemplates | C:STATEMENT
+criticism | C:STATEMENT
+criticisms | C:STATEMENT
+criticize | C:STATEMENT
+criticized | C:STATEMENT
+criticizes | C:STATEMENT
+debate | C:STATEMENT
+debates | C:STATEMENT
+debated | C:STATEMENT
+declaration | C:STATEMENT
+declarations | C:STATEMENT
+declare | C:STATEMENT
+declared | C:STATEMENT
+declares | C:STATEMENT
+deliberation | C:STATEMENT
+deliberations | C:STATEMENT
+deliberate | C:STATEMENT
+deliberates | C:STATEMENT
+deliberated | C:STATEMENT
+denunciation | C:STATEMENT
+denunciations | C:STATEMENT
+denounce | C:STATEMENT
+denounced | C:STATEMENT
+denounces | C:STATEMENT
+denial | C:STATEMENT
+denials | C:STATEMENT
+deny | C:STATEMENT
+denied | C:STATEMENT
+denies | C:STATEMENT
+desire | C:STATEMENT
+desires | C:STATEMENT
+desired | C:STATEMENT
+disappointment | C:STATEMENT
+disappointments | C:STATEMENT
+disappoint | C:STATEMENT
+disappoints | C:STATEMENT
+disappointed | C:STATEMENT
+disapprobation | C:STATEMENT
+disapprobation | C:STATEMENT
+disapprove | C:STATEMENT
+disapproves | C:STATEMENT
+disapproved | C:STATEMENT
+disapproval | C:STATEMENT
+disapprovals | C:STATEMENT
+disapprove | C:STATEMENT
+disapproved | C:STATEMENT
+disapproves | C:STATEMENT
+disagreement | C:STATEMENT
+disagreements | C:STATEMENT
+disagree | C:STATEMENT
+disagreed | C:STATEMENT
+disagrees | C:STATEMENT
+disbelief | C:STATEMENT
+disbeliefs | C:STATEMENT
+disbelieve | C:STATEMENT
+disbelieved | C:STATEMENT
+disbelieves | C:STATEMENT
+discouragement | C:STATEMENT
+discouragements | C:STATEMENT
+discourage | C:STATEMENT
+discourages | C:STATEMENT
+discouraged | C:STATEMENT
+disfavor | C:STATEMENT
+disfavors | C:STATEMENT
+disfavored | C:STATEMENT
+dismissal | C:STATEMENT
+dismissals | C:STATEMENT
+dismiss | C:STATEMENT
+dismisses | C:STATEMENT
+dismissed | C:STATEMENT
+disregard | C:STATEMENT
+disregards | C:STATEMENT
+disregarded | C:STATEMENT
+disregards | C:STATEMENT
+dissatisfaction | C:STATEMENT
+dissatisfactions | C:STATEMENT
+dissatisfy | C:STATEMENT
+dissatisfied | C:STATEMENT
+dissatisfies | C:STATEMENT
+dissemination | C:STATEMENT
+disseminations | C:STATEMENT
+disseminate | C:STATEMENT
+disseminates | C:STATEMENT
+disseminated | C:STATEMENT
+distrust | C:STATEMENT
+distrustes | C:STATEMENT
+distrusts | C:STATEMENT
+estimation | C:STATEMENT
+estimations | C:STATEMENT
+estimate | C:STATEMENT
+estimates | C:STATEMENT
+estimated | C:STATEMENT
+exaggeration | C:STATEMENT
+exaggerations | C:STATEMENT
+exaggerate | C:STATEMENT
+exaggerates | C:STATEMENT
+exaggerated | C:STATEMENT
+exclamation | C:STATEMENT
+exclamations | C:STATEMENT
+exclaim | C:STATEMENT
+exclaims | C:STATEMENT
+exclaimed | C:STATEMENT
+excuse | C:STATEMENT
+excused | C:STATEMENT
+excuses | C:STATEMENT
+explanation | C:STATEMENT
+explanations | C:STATEMENT
+explain | C:STATEMENT
+explained | C:STATEMENT
+explains | C:STATEMENT
+forgiveness | C:STATEMENT
+forgive | C:STATEMENT
+forgave | C:STATEMENT
+forgives | C:STATEMENT
+formulation | C:STATEMENT
+formulations | C:STATEMENT
+formulate | C:STATEMENT
+formulated | C:STATEMENT
+formulates | C:STATEMENT
+guarantee | C:STATEMENT
+guarantees | C:STATEMENT
+guaranteed | C:STATEMENT
+hesitance | C:STATEMENT
+hesitate | C:STATEMENT
+hesitates | C:STATEMENT
+hesitated | C:STATEMENT
+hesitation | C:STATEMENT
+hesitations | C:STATEMENT
+judgment | C:STATEMENT
+judgments | C:STATEMENT
+judge | C:STATEMENT
+judged | C:STATEMENT
+judges | C:STATEMENT
+justification | C:STATEMENT
+justifications | C:STATEMENT
+justify | C:STATEMENT
+justified | C:STATEMENT
+justifies | C:STATEMENT
+manifestation | C:STATEMENT
+manifestations | C:STATEMENT
+manifest | C:STATEMENT
+manifestes | C:STATEMENT
+manifested | C:STATEMENT
+nullification | C:STATEMENT
+nullifications | C:STATEMENT
+nullify | C:STATEMENT
+nullified | C:STATEMENT
+nullifies | C:STATEMENT
+objection | C:STATEMENT
+objections | C:STATEMENT
+object | C:STATEMENT
+objects | C:STATEMENT
+objected | C:STATEMENT
+opinion | C:STATEMENT
+opinions | C:STATEMENT
+opine | C:STATEMENT
+opines | C:STATEMENT
+opined | C:STATEMENT
+perception | C:STATEMENT
+perceptions | C:STATEMENT
+perceive | C:STATEMENT
+perceives | C:STATEMENT
+perceived | C:STATEMENT
+proposal | C:STATEMENT
+proposals | C:STATEMENT
+propose | C:STATEMENT
+proposed | C:STATEMENT
+proposes | C:STATEMENT
+proposition | C:STATEMENT
+propositions | C:STATEMENT
+propose | C:STATEMENT
+proposes | C:STATEMENT
+proposed | C:STATEMENT
+protest | C:STATEMENT
+protests | C:STATEMENT
+protested | C:STATEMENT
+question | C:STATEMENT
+questions | C:STATEMENT
+questioned | C:STATEMENT
+quotation | C:STATEMENT
+quotations | C:STATEMENT
+quote | C:STATEMENT
+quotes | C:STATEMENT
+quoted | C:STATEMENT
+reaction | C:STATEMENT
+reactions | C:STATEMENT
+react | C:STATEMENT
+reacts | C:STATEMENT
+reacted | C:STATEMENT
+reappraisal | C:STATEMENT
+reappraisals | C:STATEMENT
+reappraise | C:STATEMENT
+reappraises | C:STATEMENT
+reappraised | C:STATEMENT
+reassessment | C:STATEMENT
+reassessments | C:STATEMENT
+reassess | C:STATEMENT
+reassesses | C:STATEMENT
+reassessed | C:STATEMENT
+reassurance | C:STATEMENT
+reassurances | C:STATEMENT
+reassure | C:STATEMENT
+reassured | C:STATEMENT
+reassures | C:STATEMENT
+recognition | C:STATEMENT
+recognitions | C:STATEMENT
+recognize | C:STATEMENT
+recognized | C:STATEMENT
+recognizes | C:STATEMENT
+reconciliation | C:STATEMENT
+reconciliations | C:STATEMENT
+reconcile | C:STATEMENT
+reconciles | C:STATEMENT
+reconciled | C:STATEMENT
+recommendation | C:STATEMENT
+recommendations | C:STATEMENT
+recommend | C:STATEMENT
+recommended | C:STATEMENT
+recommends | C:STATEMENT
+reconsideration | C:STATEMENT
+reconsiderations | C:STATEMENT
+reconsider | C:STATEMENT
+reconsidered | C:STATEMENT
+reconsiders | C:STATEMENT
+refusal | C:STATEMENT
+refusals | C:STATEMENT
+refuse | C:STATEMENT
+refused | C:STATEMENT
+refuses | C:STATEMENT
+reinstatement | C:STATEMENT
+reinstatements | C:STATEMENT
+reinstate | C:STATEMENT
+reinstated | C:STATEMENT
+reinstates | C:STATEMENT
+rejection | C:STATEMENT
+rejections | C:STATEMENT
+reject | C:STATEMENT
+rejected | C:STATEMENT
+rejects | C:STATEMENT
+remark | C:STATEMENT
+remarks | C:STATEMENT
+remarked | C:STATEMENT
+repentance | C:STATEMENT
+repentances | C:STATEMENT
+repent | C:STATEMENT
+repents | C:STATEMENT
+repented | C:STATEMENT
+renunciation | C:STATEMENT
+renunciations | C:STATEMENT
+renounce | C:STATEMENT
+renounces | C:STATEMENT
+renounced | C:STATEMENT
+reply | C:STATEMENT
+replies | C:STATEMENT
+replied | C:STATEMENT
+report | C:STATEMENT
+reports | C:STATEMENT
+reported | C:STATEMENT
+reportage | C:STATEMENT
+review | C:STATEMENT
+reviews | C:STATEMENT
+reviewed | C:STATEMENT
+revision | C:STATEMENT
+revisions | C:STATEMENT
+revise | C:STATEMENT
+revises | C:STATEMENT
+revised | C:STATEMENT
+satisfaction | C:STATEMENT
+satisfy | C:STATEMENT
+satisfies | C:STATEMENT
+satisfied | C:STATEMENT
+speculation | C:STATEMENT
+speculations | C:STATEMENT
+speculate | C:STATEMENT
+speculates | C:STATEMENT
+speculated | C:STATEMENT
+statement | C:STATEMENT
+statements | C:STATEMENT
+state | C:STATEMENT
+states | C:STATEMENT
+stated | C:STATEMENT
+suggestion | C:STATEMENT
+suggestions | C:STATEMENT
+suggest | C:STATEMENT
+suggests | C:STATEMENT
+suggested | C:STATEMENT
+support | C:STATEMENT
+supported | C:STATEMENT
+supports | C:STATEMENT
+suppression | C:STATEMENT
+suppressions | C:STATEMENT
+suppress | C:STATEMENT
+suppresses | C:STATEMENT
+suppressed | C:STATEMENT
+suspense | C:STATEMENT
+suspenses | C:STATEMENT
+suspend | C:STATEMENT
+suspends | C:STATEMENT
+suspended | C:STATEMENT
+suspension | C:STATEMENT
+suspensions | C:STATEMENT
+suspicion | C:STATEMENT
+suspicions | C:STATEMENT
+suspect | C:STATEMENT
+suspects | C:STATEMENT
+suspected | C:STATEMENT
+swearing | C:STATEMENT
+swearings | C:STATEMENT
+swear | C:STATEMENT
+swears | C:STATEMENT
+swore | C:STATEMENT
+talk | C:STATEMENT
+talks | C:STATEMENT
+talked | C:STATEMENT
+testament | C:STATEMENT
+testaments | C:STATEMENT
+testify | C:STATEMENT
+testifies | C:STATEMENT
+testified | C:STATEMENT
+tolerance | C:STATEMENT
+tolerances | C:STATEMENT
+tolerate | C:STATEMENT
+tolerates | C:STATEMENT
+tolerated | C:STATEMENT
+toleration | C:STATEMENT
+tolerations | C:STATEMENT
+utterance | C:STATEMENT
+utterances | C:STATEMENT
+utter | C:STATEMENT
+utters | C:STATEMENT
+uttered | C:STATEMENT
+verification | C:STATEMENT
+verifications | C:STATEMENT
+verify | C:STATEMENT
+verified | C:STATEMENT
+verified | C:STATEMENT
+veto | C:STATEMENT
+vetos | C:STATEMENT
+vetoed | C:STATEMENT
+vetoes | C:STATEMENT
+view | C:STATEMENT
+views | C:STATEMENT
+viewed | C:STATEMENT
+withdrawal | C:STATEMENT
+withdrawals | C:STATEMENT
+withdraw | C:STATEMENT
+withdrew | C:STATEMENT
+withdrawn | C:STATEMENT
+withdraws | C:STATEMENT
+testimoni | C:STATEMENT
+testimonials | C:STATEMENT
+testify | C:STATEMENT
+testifies | C:STATEMENT
+testified | C:STATEMENT
+testimony | C:STATEMENT
+ruling | C:STATEMENT
+rulings | C:STATEMENT
+rule | C:STATEMENT
+ruled | C:STATEMENT
+rules | C:STATEMENT
+restatement | C:STATEMENT
+restatements | C:STATEMENT
+restate | C:STATEMENT
+restated | C:STATEMENT
+restates | C:STATEMENT
+request | C:STATEMENT
+requests | C:STATEMENT
+requested | C:STATEMENT
+requirement | C:STATEMENT
+requirements | C:STATEMENT
+require | C:STATEMENT
+required | C:STATEMENT
+requires | C:STATEMENT
+respect | C:STATEMENT
+respects | C:STATEMENT
+respected | C:STATEMENT
+resignation | C:STATEMENT
+resignations | C:STATEMENT
+resign | C:STATEMENT
+resigned | C:STATEMENT
+resigns | C:STATEMENT
+resistance | C:STATEMENT
+resistances | C:STATEMENT
+resist | C:STATEMENT
+resists | C:STATEMENT
+resisted | C:STATEMENT
+resentment | C:STATEMENT
+resentments | C:STATEMENT
+resent | C:STATEMENT
+resents | C:STATEMENT
+resented | C:STATEMENT
+repulsion | C:STATEMENT
+repulsions | C:STATEMENT
+repel | C:STATEMENT
+repels | C:STATEMENT
+repeled | C:STATEMENT
+reproval | C:STATEMENT
+reprovals | C:STATEMENT
+reprove | C:STATEMENT
+reproves | C:STATEMENT
+reproved | C:STATEMENT
+ratification | C:STATEMENT
+ratifications | C:STATEMENT
+ratify | C:STATEMENT
+ratified | C:STATEMENT
+ratifies | C:STATEMENT
+advice | C:STATEMENT
+advise | C:STATEMENT
+advised | C:STATEMENT
+advises | C:STATEMENT
+apology | C:STATEMENT
+apologies | C:STATEMENT
+apologize | C:STATEMENT
+apologized | C:STATEMENT
+apologizes | C:STATEMENT
+assurance | C:STATEMENT
+assurances | C:STATEMENT
+assure | C:STATEMENT
+assures | C:STATEMENT
+assured | C:STATEMENT
+assessment | C:STATEMENT
+assessments | C:STATEMENT
+assess | C:STATEMENT
+assesses | C:STATEMENT
+assessed | C:STATEMENT
+confirmation | C:STATEMENT
+confirmations | C:STATEMENT
+confirm | C:STATEMENT
+confirms | C:STATEMENT
+confirmed | C:STATEMENT
+disillusion | C:STATEMENT
+disillusions | C:STATEMENT
+disillusioned | C:STATEMENT
+disillusionment | C:STATEMENT
+disillusionments | C:STATEMENT
+disillusion | C:STATEMENT
+disillusions | C:STATEMENT
+disillusioned | C:STATEMENT
+demonstration | C:STATEMENT
+demonstrations | C:STATEMENT
+demonstrate | C:STATEMENT
+demonstrates | C:STATEMENT
+demonstrated | C:STATEMENT
+congratulation | C:STATEMENT
+congratulation | C:STATEMENT
+congratulate | C:STATEMENT
+congratulated | C:STATEMENT
+congratulates | C:STATEMENT
+preoccupation | C:STATEMENT
+preoccupations | C:STATEMENT
+preoccupy | C:STATEMENT
+preoccupies | C:STATEMENT
+preoccupied | C:STATEMENT
+observation | C:STATEMENT
+observations | C:STATEMENT
+observe | C:STATEMENT
+observed | C:STATEMENT
+observes | C:STATEMENT
+miscalculation | C:STATEMENT
+miscalculations | C:STATEMENT
+miscalculate | C:STATEMENT
+miscalculated | C:STATEMENT
+miscalculates | C:STATEMENT
+insistence | C:STATEMENT
+insist | C:STATEMENT
+insists | C:STATEMENT
+insisted | C:STATEMENT
+impression | C:STATEMENT
+impressions | C:STATEMENT
+impress | C:STATEMENT
+impresses | C:STATEMENT
+impressed | C:STATEMENT
+glorification | C:STATEMENT
+glorifications | C:STATEMENT
+glorify | C:STATEMENT
+glorifies | C:STATEMENT
+glorified | C:STATEMENT
+frustration | C:STATEMENT
+frustrations | C:STATEMENT
+frustrate | C:STATEMENT
+frustrates | C:STATEMENT
+frustrated | C:STATEMENT
+fascination | C:STATEMENT
+fascinations | C:STATEMENT
+fascinate | C:STATEMENT
+fascinated | C:STATEMENT
+fascinates | C:STATEMENT
+favoritism | C:STATEMENT
+favor | C:STATEMENT
+favors | C:STATEMENT
+favored | C:STATEMENT
+enquiry | C:STATEMENT
+enquiries | C:STATEMENT
+enquire | C:STATEMENT
+enquires | C:STATEMENT
+enquired | C:STATEMENT
+endorsement | C:STATEMENT
+endorsements | C:STATEMENT
+endorse | C:STATEMENT
+endorses | C:STATEMENT
+endorsed | C:STATEMENT
+encouragement | C:STATEMENT
+encouragements | C:STATEMENT
+encourage | C:STATEMENT
+encouraged | C:STATEMENT
+encourages | C:STATEMENT
+embarrassment | C:STATEMENT
+embarrassments | C:STATEMENT
+embarrass | C:STATEMENT
+embarrasses | C:STATEMENT
+embarrassed | C:STATEMENT
+proclamation | C:STATEMENT
+proclamations | C:STATEMENT
+proclaimed | C:STATEMENT
+proclaimes | C:STATEMENT
+proclaime | C:STATEMENT
+enlightenment | C:STATEMENT
+enlightenments | C:STATEMENT
+enlighten | C:STATEMENT
+enlightened | C:STATEMENT
+enlightenes | C:STATEMENT
+achievement | C:CREATION
+achievements | C:CREATION
+achieve | C:CREATION
+achieved | C:CREATION
+achieves | C:CREATION
+activation | C:CREATION
+activations | C:CREATION
+activate | C:CREATION
+activated | C:CREATION
+activates | C:CREATION
+addition | C:CREATION
+additions | C:CREATION
+added | C:CREATION
+adds | C:CREATION
+completion | C:CREATION
+completions | C:CREATION
+complete | C:CREATION
+completed | C:CREATION
+completes | C:CREATION
+disintegration | C:CREATION
+disintegrations | C:CREATION
+disintegrate | C:CREATION
+disintegrates | C:CREATION
+disintegrated | C:CREATION
+creation | C:CREATION
+creations | C:CREATION
+create | C:CREATION
+creates | C:CREATION
+created | C:CREATION
+enhancement | C:CREATION
+enhancements | C:CREATION
+enhance | C:CREATION
+enhances | C:CREATION
+enhanced | C:CREATION
+enlargement	| C:CREATION
+enlargements | C:CREATION
+enlarge | C:CREATION
+enlarged | C:CREATION
+enlarges | C:CREATION
+evolution | C:CREATION
+evolutions | C:CREATION
+evolve | C:CREATION
+evolved | C:CREATION
+evolves | C:CREATION
+implementation | C:CREATION
+implementations | C:CREATION
+implement | C:CREATION
+implements | C:CREATION
+implemented | C:CREATION
+improvement | C:CREATION
+improvements | C:CREATION
+improve | C:CREATION
+improved | C:CREATION
+improves | C:CREATION
+invention | C:CREATION
+inventions | C:CREATION
+invents | C:CREATION
+invented | C:CREATION
+launch | C:CREATION
+launches | C:CREATION
+launched | C:CREATION
+modification | C:CREATION
+modifications | C:CREATION
+modify | C:CREATION
+modifies | C:CREATION
+modified | C:CREATION
+modernization | C:CREATION
+modernizations | C:CREATION
+modernize | C:CREATION
+modernized | C:CREATION
+modernizes | C:CREATION
+incorporation | C:CREATION
+incorporations | C:CREATION
+incorporate | C:CREATION
+incorporates | C:CREATION
+incorporated | C:CREATION
+colonization | C:OWNERSHIP
+colonizations | C:OWNERSHIP
+colonize | C:OWNERSHIP
+colonized | C:OWNERSHIP
+colonizes | C:OWNERSHIP
+possession | C:OWNERSHIP
+possessions | C:OWNERSHIP
+possess | C:OWNERSHIP
+possesses | C:OWNERSHIP
+possessed | C:OWNERSHIP
+payment | C:OWNERSHIP
+payments | C:OWNERSHIP
+pay | C:OWNERSHIP
+pays | C:OWNERSHIP
+paid | C:OWNERSHIP
+ownership | C:OWNERSHIP
+ownerships | C:OWNERSHIP
+own | C:OWNERSHIP
+owns | C:OWNERSHIP
+owned | C:OWNERSHIP
+prepayment | C:OWNERSHIP
+prepayments | C:OWNERSHIP
+prepay | C:OWNERSHIP
+prepaid | C:OWNERSHIP
+prepays | C:OWNERSHIP
+confrontation | C:INTERACTION
+confrontations | C:INTERACTION
+confront | C:INTERACTION
+confronts | C:INTERACTION
+confronted | C:INTERACTION
+conversation | C:INTERACTION
+conversations | C:INTERACTION
+converse | C:INTERACTION
+converses | C:INTERACTION
+conversed | C:INTERACTION
+deployment | C:ENGAGEMENT
+deployments | C:ENGAGEMENT
+deploy | C:ENGAGEMENT
+deploys | C:ENGAGEMENT
+deployed | C:ENGAGEMENT
+cooperation | C:ENGAGEMENT
+cooperations | C:ENGAGEMENT
+cooperate | C:ENGAGEMENT
+cooperates | C:ENGAGEMENT
+cooperated | C:ENGAGEMENT
+involvement | C:ENGAGEMENT
+involvements | C:ENGAGEMENT
+involve | C:ENGAGEMENT
+involved | C:ENGAGEMENT
+involves | C:ENGAGEMENT
+interaction | C:ENGAGEMENT
+interactions | C:ENGAGEMENT
+interact | C:ENGAGEMENT
+interacts | C:ENGAGEMENT
+interacted | C:ENGAGEMENT
+intercommunication | C:ENGAGEMENT
+intercommunications | C:ENGAGEMENT
+intercommunicate | C:ENGAGEMENT
+intercommunicated | C:ENGAGEMENT
+intercommunicates | C:ENGAGEMENT
+engagement | C:ENGAGEMENT
+engagements | C:ENGAGEMENT
+engage | C:ENGAGEMENT
+engaged | C:ENGAGEMENT
+engages | C:ENGAGEMENT
+employment | C:ENGAGEMENT
+employments | C:ENGAGEMENT
+employ | C:ENGAGEMENT
+employed | C:ENGAGEMENT
+employs | C:ENGAGEMENT
+recruitment | C:ENGAGEMENT
+recruitments | C:ENGAGEMENT
+recruit | C:ENGAGEMENT
+recruited | C:ENGAGEMENT
+recruites | C:ENGAGEMENT
+decree | C:LAW-RELATED
+decrees | C:LAW-RELATED
+decreed | C:LAW-RELATED
+deregulation | C:LAW-RELATED
+deregulations | C:LAW-RELATED
+deregulate | C:LAW-RELATED
+deregulates | C:LAW-RELATED
+deregulated | C:LAW-RELATED
+corruption | C:LAW-RELATED
+corruptions | C:LAW-RELATED
+corrupt | C:LAW-RELATED
+corrupts | C:LAW-RELATED
+corrupted | C:LAW-RELATED
+conviction | C:LAW-RELATED
+convictions | C:LAW-RELATED
+convict | C:LAW-RELATED
+convicts | C:LAW-RELATED
+convicted | C:LAW-RELATED
+legalization | C:LAW-RELATED
+legalizations | C:LAW-RELATED
+legalize | C:LAW-RELATED
+legalizes | C:LAW-RELATED
+legalized | C:LAW-RELATED
+thievery | C:LAW-RELATED
+thieve | C:LAW-RELATED
+thieves | C:LAW-RELATED
+displacement | C:LOCATION-RELATED
+displacements | C:LOCATION-RELATED
+displace | C:LOCATION-RELATED
+displaced | C:LOCATION-RELATED
+displaces | C:LOCATION-RELATED
+deportment | C:LOCATION-RELATED
+deportments | C:LOCATION-RELATED
+deportation | C:LOCATION-RELATED
+deportations | C:LOCATION-RELATED
+deport | C:LOCATION-RELATED
+deports | C:LOCATION-RELATED
+deported | C:LOCATION-RELATED
+flight | C:LOCATION-RELATED
+flew | C:LOCATION-RELATED
+flown | C:LOCATION-RELATED
+flies | C:LOCATION-RELATED
+fly | C:LOCATION-RELATED
+removal | C:LOCATION-RELATED
+removals | C:LOCATION-RELATED
+remove | C:LOCATION-RELATED
+removed | C:LOCATION-RELATED
+relocation | C:LOCATION-RELATED
+relocations | C:LOCATION-RELATED
+relocate | C:LOCATION-RELATED
+relocates | C:LOCATION-RELATED
+relocated | C:LOCATION-RELATED
+movement | C:LOCATION-RELATED
+movements | C:LOCATION-RELATED
+move | C:LOCATION-RELATED
+moves | C:LOCATION-RELATED
+moved | C:LOCATION-RELATED
+evacuation | C:LOCATION-RELATED
+evacuations | C:LOCATION-RELATED
+evacuate | C:LOCATION-RELATED
+evacuated | C:LOCATION-RELATED
+transport | C:LOCATION-RELATED
+transported | C:LOCATION-RELATED
+transports | C:LOCATION-RELATED
+convalescence | C:HEALTH-CONDITION
+convalesce | C:HEALTH-CONDITION
+convalesces | C:HEALTH-CONDITION
+convalesced | C:HEALTH-CONDITION
+disinfection | C:HEALTH-CONDITION
+disinfections | C:HEALTH-CONDITION
+disinfect | C:HEALTH-CONDITION
+disinfects | C:HEALTH-CONDITION
+disinfected | C:HEALTH-CONDITION
+medication | C:HEALTH-CONDITION
+medications | C:HEALTH-CONDITION
+medicate | C:HEALTH-CONDITION
+medicated | C:HEALTH-CONDITION
+medicates | C:HEALTH-CONDITION
+hospitalization | C:HEALTH-CONDITION
+hospitalizations | C:HEALTH-CONDITION
+hospitalize | C:HEALTH-CONDITION
+hospitalized | C:HEALTH-CONDITION
+hospitalizes | C:HEALTH-CONDITION
+menstruation | C:HEALTH-CONDITION
+menstruations | C:HEALTH-CONDITION
+menstruate | C:HEALTH-CONDITION
+menstruates | C:HEALTH-CONDITION
+menstruated | C:HEALTH-CONDITION
+amazement | C:STATEMENT
+amazement | C:STATEMENT
+amaze | C:STATEMENT
+amazes | C:STATEMENT
+amazed | C:STATEMENT
+apprehension | C:STATEMENT
+apprehensions | C:STATEMENT
+apprehend | C:STATEMENT
+apprehends | C:STATEMENT
+apprehended | C:STATEMENT
+assertion | C:STATEMENT
+assertions | C:STATEMENT
+assert | C:STATEMENT
+asserts | C:STATEMENT
+asserted | C:STATEMENT
+cancellation | C:STATEMENT
+cancellations | C:STATEMENT
+cancel | C:STATEMENT
+cancels | C:STATEMENT
+canceled | C:STATEMENT
+confession | C:STATEMENT
+confessions | C:STATEMENT
+confess | C:STATEMENT
+confesses | C:STATEMENT
+confessed | C:STATEMENT
+description | C:STATEMENT
+descriptions | C:STATEMENT
+describe | C:STATEMENT
+described | C:STATEMENT
+describes | C:STATEMENT
+irritation | C:STATEMENT
+irritations | C:STATEMENT
+irritate | C:STATEMENT
+irritates | C:STATEMENT
+irritated | C:STATEMENT
+prediction | C:STATEMENT
+predictions | C:STATEMENT
+predict | C:STATEMENT
+predicts | C:STATEMENT
+predicted | C:STATEMENT
+promise | C:STATEMENT
+promises | C:STATEMENT
+promised | C:STATEMENT
+adjustment | C:CREATION
+adjustments | C:CREATION
+adjusts | C:CREATION
+adjust | C:CREATION
+adjusted | C:CREATION
+experimentation | C:CREATION
+experimentations | C:CREATION
+experiment | C:CREATION
+experiments | C:CREATION
+experimented | C:CREATION
+evaluation | C:CREATION
+evaluations | C:CREATION
+evaluate | C:CREATION
+evaluated | C:CREATION
+evaluates | C:CREATION
+amendment | C:CREATION
+amendments | C:CREATION
+amend | C:CREATION
+amends | C:CREATION
+amended | C:CREATION
+consolidation | C:CREATION
+consolidations | C:CREATION
+consolidate | C:CREATION
+consolidates | C:CREATION
+consolidated | C:CREATION
+construction | C:CREATION
+constructions | C:CREATION
+construct | C:CREATION
+constructs | C:CREATION
+constructed | C:CREATION
+correction | C:CREATION
+corrections | C:CREATION
+correct | C:CREATION
+corrects | C:CREATION
+corrected | C:CREATION
+decomposition | C:CREATION
+decompositions | C:CREATION
+decompose | C:CREATION
+decomposed | C:CREATION
+decomposes | C:CREATION
+demolition | C:CREATION
+demolitions | C:CREATION
+demolish | C:CREATION
+demolishes | C:CREATION
+demolished | C:CREATION
+destruction | C:CREATION
+destructions | C:CREATION
+destroy | C:CREATION
+destroyed | C:CREATION
+destroys | C:CREATION
+development | C:CREATION
+developments | C:CREATION
+develop | C:CREATION
+develops | C:CREATION
+developed | C:CREATION
+devitalization | C:CREATION
+devitalizations | C:CREATION
+devitalize | C:CREATION
+devitalized | C:CREATION
+devitalizes | C:CREATION
+discomposure | C:CREATION
+discomposures | C:CREATION
+discompose | C:CREATION
+discomposed | C:CREATION
+discomposes | C:CREATION
+dismantlement | C:CREATION
+dismantlements | C:CREATION
+dismantle | C:CREATION
+dismantles | C:CREATION
+dismantled | C:CREATION
+enrichment | C:CREATION
+enrichments | C:CREATION
+enrich | C:CREATION
+enriches | C:CREATION
+enriched | C:CREATION
+change | C:CREATION
+changes | C:CREATION
+changed | C:CREATION
+establishment | C:CREATION
+establishments | C:CREATION
+establish | C:CREATION
+establishes | C:CREATION
+established | C:CREATION
+formation | C:CREATION
+formations | C:CREATION
+form | C:CREATION
+forms | C:CREATION
+formed | C:CREATION
+increase | C:CREATION
+increased | C:CREATION
+increases | C:CREATION
+installation | C:CREATION
+installations | C:CREATION
+install | C:CREATION
+installs | C:CREATION
+installed | C:CREATION
+installment | C:CREATION
+installments | C:CREATION
+interruption | C:CREATION
+interruptions | C:CREATION
+interrupt | C:CREATION
+interrupts | C:CREATION
+interrupted | C:CREATION
+introduction | C:CREATION
+introductions | C:CREATION
+introduce | C:CREATION
+introduces | C:CREATION
+introduced | C:CREATION
+organization | C:CREATION
+organizations | C:CREATION
+organize | C:CREATION
+organizes | C:CREATION
+organized | C:CREATION
+merger | C:CREATION
+merge | C:CREATION
+merges | C:CREATION
+merged | C:CREATION
+overproduction | C:CREATION
+overproduction | C:CREATION
+overproduce | C:CREATION
+overproduces | C:CREATION
+overproduced | C:CREATION
+production | C:CREATION
+productions | C:CREATION
+produce | C:CREATION
+produces | C:CREATION
+produced | C:CREATION
+readjustment | C:CREATION
+readjustments | C:CREATION
+readjust | C:CREATION
+readjusts | C:CREATION
+readjusted | C:CREATION
+realization | C:CREATION
+realizations | C:CREATION
+rearrangement | C:CREATION
+rearrangements | C:CREATION
+rearrange | C:CREATION
+rearranges | C:CREATION
+rearranged | C:CREATION
+reconstruction | C:CREATION
+reconstructions | C:CREATION
+reconstruct | C:CREATION
+reconstructs | C:CREATION
+reconstructed | C:CREATION
+reorganization | C:CREATION
+reorganizations | C:CREATION
+reorganize | C:CREATION
+reorganizes | C:CREATION
+reorganized | C:CREATION
+reparation | C:CREATION
+reparation | C:CREATION
+repair | C:CREATION
+repaire | C:CREATION
+repaired | C:CREATION
+attendance | C:PARTICIPATION
+attendances | C:PARTICIPATION
+attend | C:PARTICIPATION
+attends | C:PARTICIPATION
+attended | C:PARTICIPATION
+enrollment | C:PARTICIPATION
+enrollments | C:PARTICIPATION
+enroll | C:PARTICIPATION
+enrolls | C:PARTICIPATION
+enrolled | C:PARTICIPATION
+participation | C:PARTICIPATION
+participations | C:PARTICIPATION
+participate | C:PARTICIPATION
+participates | C:PARTICIPATION
+participated | C:PARTICIPATION
+assignment | C:ENGAGEMENT
+assignments | C:ENGAGEMENT
+assign | C:ENGAGEMENT
+assigns | C:ENGAGEMENT
+assigned | C:ENGAGEMENT
+hiring | C:ENGAGEMENT
+hire | C:ENGAGEMENT
+hires | C:ENGAGEMENT
+hired | C:ENGAGEMENT
+redeployment | C:ENGAGEMENT
+redeployments | C:ENGAGEMENT
+redeploy | C:ENGAGEMENT
+redeploys | C:ENGAGEMENT
+redeployed | C:ENGAGEMENT
+collaboration | C:INTERACTION
+collaborations | C:INTERACTION
+collaborate | C:INTERACTION
+collaborated | C:INTERACTION
+collaborates | C:INTERACTION
+interrelation | C:INTERACTION
+interrelations | C:INTERACTION
+interrelate | C:INTERACTION
+interrelates | C:INTERACTION
+interrelated | C:INTERACTION
+negotiation | C:INTERACTION
+negotiations | C:INTERACTION
+negotiate | C:INTERACTION
+negotiates | C:INTERACTION
+negotiated | C:INTERACTION
+rendezvous | C:INTERACTION
+reunion | C:INTERACTION
+reunions | C:INTERACTION
+reunite | C:INTERACTION
+reunites | C:INTERACTION
+reunited | C:INTERACTION
+prohibition | C:LAW-RELATED
+prohibitions | C:LAW-RELATED
+prohibit | C:LAW-RELATED
+prohibits | C:LAW-RELATED
+prohibited | C:LAW-RELATED
+accusation | C:LAW-RELATED
+accusations | C:LAW-RELATED
+accuse | C:LAW-RELATED
+accused | C:LAW-RELATED
+accuses | C:LAW-RELATED
+advocacy | C:LAW-RELATED
+advocate | C:LAW-RELATED
+advocated | C:LAW-RELATED
+advocates | C:LAW-RELATED
+robbery | C:LAW-RELATED
+robberies | C:LAW-RELATED
+adjudication | C:LAW-RELATED
+adjudications | C:LAW-RELATED
+adjudicate | C:LAW-RELATED
+adjudicates | C:LAW-RELATED
+adjudicated | C:LAW-RELATED
+arbitration | C:LAW-RELATED
+arbitrations | C:LAW-RELATED
+arbitrate | C:LAW-RELATED
+arbitrates | C:LAW-RELATED
+arbitrated | C:LAW-RELATED
+breach | C:LAW-RELATED
+breaches | C:LAW-RELATED
+breached | C:LAW-RELATED
+bribery | C:LAW-RELATED
+briberies | C:LAW-RELATED
+bribe | C:LAW-RELATED
+bribes | C:LAW-RELATED
+bribed | C:LAW-RELATED
+burglary | C:LAW-RELATED
+burglaries | C:LAW-RELATED
+burgle | C:LAW-RELATED
+burgles | C:LAW-RELATED
+burgled | C:LAW-RELATED
+banishment | C:LAW-RELATED
+banishments | C:LAW-RELATED
+banish | C:LAW-RELATED
+banishes | C:LAW-RELATED
+banished | C:LAW-RELATED
+dispute | C:LAW-RELATED
+disputes | C:LAW-RELATED
+disputed | C:LAW-RELATED
+extradition | C:LAW-RELATED
+extraditions | C:LAW-RELATED
+extradite | C:LAW-RELATED
+extradites | C:LAW-RELATED
+extradited | C:LAW-RELATED
+forgery | C:LAW-RELATED
+forgeries | C:LAW-RELATED
+forge | C:LAW-RELATED
+forges | C:LAW-RELATED
+forged | C:LAW-RELATED
+imprisonment | C:LAW-RELATED
+imprisonments | C:LAW-RELATED
+imprison | C:LAW-RELATED
+imprisons | C:LAW-RELATED
+imprisoned | C:LAW-RELATED
+infringement | C:LAW-RELATED
+infringements | C:LAW-RELATED
+infringe | C:LAW-RELATED
+infringes | C:LAW-RELATED
+infringed | C:LAW-RELATED
+liberalization | C:LAW-RELATED
+liberalizations | C:LAW-RELATED
+liberalize | C:LAW-RELATED
+liberalizes | C:LAW-RELATED
+liberalized | C:LAW-RELATED
+persecution | C:LAW-RELATED
+persecutions | C:LAW-RELATED
+persecute | C:LAW-RELATED
+persecutes | C:LAW-RELATED
+persecuted | C:LAW-RELATED
+vindication | C:LAW-RELATED
+vindications | C:LAW-RELATED
+vindicate | C:LAW-RELATED
+vindicates | C:LAW-RELATED
+vindicated | C:LAW-RELATED
+bombardment | C:VIOLENCE-INCIDENT
+bombardments | C:VIOLENCE-INCIDENT
+bombard | C:VIOLENCE-INCIDENT
+bombards | C:VIOLENCE-INCIDENT
+contamination | C:VIOLENCE-INCIDENT
+contaminations | C:VIOLENCE-INCIDENT
+contaminate | C:VIOLENCE-INCIDENT
+contaminates | C:VIOLENCE-INCIDENT
+contaminated | C:VIOLENCE-INCIDENT
+detonation | C:VIOLENCE-INCIDENT
+detonations | C:VIOLENCE-INCIDENT
+detonate | C:VIOLENCE-INCIDENT
+detonated | C:VIOLENCE-INCIDENT
+detonates | C:VIOLENCE-INCIDENT
+devastation | C:VIOLENCE-INCIDENT
+devastations | C:VIOLENCE-INCIDENT
+devastate | C:VIOLENCE-INCIDENT
+devastates | C:VIOLENCE-INCIDENT
+devastated | C:VIOLENCE-INCIDENT
+explosion | C:VIOLENCE-INCIDENT
+explosions | C:VIOLENCE-INCIDENT
+explode | C:VIOLENCE-INCIDENT
+explodes | C:VIOLENCE-INCIDENT
+exploded | C:VIOLENCE-INCIDENT
+murder | C:VIOLENCE-INCIDENT
+murders | C:VIOLENCE-INCIDENT
+murdered | C:VIOLENCE-INCIDENT
+assassination | C:VIOLENCE-INCIDENT
+assassination | C:VIOLENCE-INCIDENT
+assassinate | C:VIOLENCE-INCIDENT
+assassinates | C:VIOLENCE-INCIDENT
+assassinated | C:VIOLENCE-INCIDENT
+murder | C:DEATH
+murders | C:DEATH
+murdered | C:DEATH
+assassination | C:DEATH
+assassination | C:DEATH
+assassinate | C:DEATH
+assassinates | C:DEATH
+assassinated | C:DEATH
+acquisition | C:OWNERSHIP
+acquisitions | C:OWNERSHIP
+acquire | C:OWNERSHIP
+acquires | C:OWNERSHIP
+acquired | C:OWNERSHIP
+annexation | C:OWNERSHIP
+annexations | C:OWNERSHIP
+annex | C:OWNERSHIP
+annexes | C:OWNERSHIP
+annexed | C:OWNERSHIP
+transaction | C:OWNERSHIP
+transactions | C:OWNERSHIP
+transact | C:OWNERSHIP
+transacts | C:OWNERSHIP
+transacted | C:OWNERSHIP
+reinvestment | C:OWNERSHIP
+reinvestments | C:OWNERSHIP
+reinvest | C:OWNERSHIP
+reinvests | C:OWNERSHIP
+reinvested | C:OWNERSHIP
+shopping | C:OWNERSHIP
+shoppings | C:OWNERSHIP
+shop | C:OWNERSHIP
+shops | C:OWNERSHIP
+shoped | C:OWNERSHIP
+capitalization | C:OWNERSHIP
+capitalizations | C:OWNERSHIP
+capitalize | C:OWNERSHIP
+capitalizes | C:OWNERSHIP
+capitalized | C:OWNERSHIP
+procurement | C:OWNERSHIP
+procurements | C:OWNERSHIP
+procure | C:OWNERSHIP
+procures | C:OWNERSHIP
+procured | C:OWNERSHIP
+recapitalization | C:OWNERSHIP
+recapitalizations | C:OWNERSHIP
+recapitalize | C:OWNERSHIP
+recapitalizes | C:OWNERSHIP
+recapitalized | C:OWNERSHIP
+alliance | C:INTERACTION
+alliance | C:INTERACTION
+ally | C:INTERACTION
+allies | C:INTERACTION
+allied | C:INTERACTION
+arrival | C:LOCATION-RELATED
+arrivals | C:LOCATION-RELATED
+arrive | C:LOCATION-RELATED
+arrives | C:LOCATION-RELATED
+arrived | C:LOCATION-RELATED
+depopulation | C:LOCATION-RELATED
+depopulations | C:LOCATION-RELATED
+depopulate | C:LOCATION-RELATED
+depopulates | C:LOCATION-RELATED
+depopulated | C:LOCATION-RELATED
+visit | C:LOCATION-RELATED
+visits | C:LOCATION-RELATED
+visited | C:LOCATION-RELATED
+dislocation | C:LOCATION-RELATED
+dislocate | C:LOCATION-RELATED
+dislocates | C:LOCATION-RELATED
+dislocated | C:LOCATION-RELATED
+litigation | C:LAW-RELATED
+interpretation | C:STATEMENT
+interpretations | C:STATEMENT
+interpret | C:STATEMENT
+interprets | C:STATEMENT
+interpreted | C:STATEMENT
+interview | C:STATEMENT
+interviews | C:STATEMENT
+interviewed | C:STATEMENT
+nomination | C:ACHIEVEMENT
+nominations | C:ACHIEVEMENT
+nomination | C:ENGAGEMENT
+nominations | C:ENGAGEMENT
+nominated | C:ENGAGEMENT
+nominates | C:ENGAGEMENT
+nominated | C:ACHIEVEMENT
+nominates | C:ACHIEVEMENT
+election | C:ENGAGEMENT
+elected | C:ENGAGEMENT
+attacks | C:VIOLENCE-INCIDENT
+attacked | C:VIOLENCE-INCIDENT
+attack | C:VIOLENCE-INCIDENT
+decide | C:STATEMENT
+decided | C:STATEMENT
+decides | C:STATEMENT
+decision | C:STATEMENT
+decisions | C:STATEMENT
+damage | C:CREATION
+damages | C:CREATION
+damaged | C:CREATION
+moving | C:LOCATION-RELATED
+signed | C:STATEMENT
+expected | C:STATEMENT
+threatened | C:STATEMENT
+speaking | C:STATEMENT
+welcomed | C:STATEMENT
+stating | C:STATEMENT
+accusing | C:STATEMENT
+insisting | C:STATEMENT
+threatens | C:STATEMENT
+suggesting | C:STATEMENT
+discussion | C:STATEMENT
+discussions | C:STATEMENT
+urging | C:STATEMENT
+speaks | C:STATEMENT
+announcing | C:STATEMENT
+instructed | C:STATEMENT
+claiming | C:STATEMENT
+pleaded | C:STATEMENT
+feared | C:STATEMENT
+answered | C:STATEMENT
+unveiled | C:STATEMENT
+undermines | C:STATEMENT
+imposes | C:STATEMENT
+advising | C:STATEMENT
+undermined | C:STATEMENT
+debating | C:STATEMENT
+refusing | C:STATEMENT
+lobbied | C:STATEMENT
+threatening | C:STATEMENT
+demanding | C:STATEMENT
+emphasized | C:STATEMENT
+mentioned | C:STATEMENT
+worried | C:STATEMENT
+approving | C:STATEMENT
+admitted | C:STATEMENT
+reflected | C:STATEMENT
+reaffirmed | C:STATEMENT
+demanded | C:STATEMENT
+argues | C:STATEMENT
+explaining | C:STATEMENT
+insults | C:STATEMENT
+questioning | C:STATEMENT
+feared | C:STATEMENT
+answered | C:STATEMENT
+unveiled | C:STATEMENT
+undermines | C:STATEMENT
+imposes | C:STATEMENT
+advising | C:STATEMENT
+undermined | C:STATEMENT
+debating | C:STATEMENT
+investigations | C:LAW-RELATED
+violates | C:LAW-RELATED
+investigate | C:LAW-RELATED
+violated | C:LAW-RELATED
+violating | C:LAW-RELATED
+detentions | C:LAW-RELATED
+investigating | C:LAW-RELATED
+investigation | C:LAW-RELATED
+hailed | C:HEALTH-CONDITION
+adding | C:CREATION
+delivering | C:CREATION
+expansion | C:CREATION
+building | C:CREATION
+living in | C:LOCATION-RELATED
+traveling | C:LOCATION-RELATED
+leads | C:ENGAGEMENT
+managed	| C:ENGAGEMENT
+managing | C:ENGAGEMENT
+led	| C:ENGAGEMENT
+lead | C:ENGAGEMENT
+joined | C:ENGAGEMENT
+leading	| C:ENGAGEMENT
+phoned | C:INTERACTION
+confronting | C:INTERACTION
+broke with | C:INTERACTION
+breaking with | C:INTERACTION
+appointment	| C:ENGAGEMENT
+served | C:ENGAGEMENT
+accompanied | C:INTERACTION
+impeach | C:LAW-RELATED
+impeaching | C:LAW-RELATED
+impeached | C:LAW-RELATED
+impeachment | C:LAW-RELATED
+warning | C:STATEMENT
+allowed | C:STATEMENT
+allowing | C:STATEMENT
+achieving | C:ACHIEVEMENT
+creating | C:CREATION
+was designated | C:ENGAGEMENT
+is designated | C:ENGAGEMENT
+has been designated | C:ENGAGEMENT
+provoke | C:STATEMENT
+signing | C:STATEMENT
+collusion | C:LAW-RELATED
+seized on | C:LAW-RELATED
+arrangements | C:STATEMENT
+abused | C:LAW-RELATED
+replaced | C:ENGAGEMENT
+arrival in office | C:ENGAGEMENT
+confronting | C:INTERACTION
+redistributed | C:CREATION
+redistribute | C:CREATION
+redistributes | C:CREATION
+war	| C:VIOLENCE-INCIDENT
+harassment | C:VIOLENCE-INCIDENT
+harassed | C:VIOLENCE-INCIDENT
+harasses | C:VIOLENCE-INCIDENT
+harass | C:VIOLENCE-INCIDENT
+lost | C:OWNERSHIP
+loss | C:OWNERSHIP
+losses | C:OWNERSHIP
+education | C:EDUCATION
+trial | C:LAW-RELATED
+build | C:CREATION
+regulation | C:LAW-RELATED
+compliance | C:LAW-RELATED
+violation | C:LAW-RELATED
+arguments | C:STATEMENT
+retirement | C:ENGAGEMENT
+heritage | C:OWNERSHIP
+notes that | C:STATEMENT
+conversion | C:CREATION
+cleared	| C:STATEMENT
+educated | C:EDUCATION
+recalls	| C:STATEMENT
+dealt with | C:STATEMENT
+passed away | C:DEATH
+reproduced | C:CREATION
+helped to | C:INTERACTION
+compares | C:STATEMENT
+preferred | C:STATEMENT
+bless | C:STATEMENT
+celebrates | C:STATEMENT
+rivalry | C:INTERACTION
+reiterated | C:STATEMENT
+fired at | C:VIOLENCE-INCIDENT
+have shared their stories | C:STATEMENT
+indicted | C:STATEMENT
+appealed | C:LAW-RELATED
+indicate | C:STATEMENT
+generated by | C:CREATION
+suffer from | C:HEALTH-CONDITION
+grew up in | C:FAMILY
+assaulted by | C:INTERACTION
+compensation | C:OWNERSHIP
+invested | C:STATEMENT
+blow from the inland toward | C:LOCATION-RELATED
+sentenced | C:LAW-RELATED
+contact | C:INTERACTION
+solved by | C:CREATION
+ask that | C:STATEMENT
+should go to jail | C:LAW-RELATED
+hates such | C:STATEMENT
+has lost | C:OWNERSHIP
+reiterated that | C:STATEMENT
+stabbed	| C:VIOLENCE-INCIDENT
+cautioned that | C:STATEMENT
+induced	into | C:ENGAGEMENT
+indicate that | C:STATEMENT
+invest in | C:OWNERSHIP
+priced at | C:OWNERSHIP
+did not provide details about | C:STATEMENT
+assume | C:STATEMENT
+generate | C:CREATION
+divorced | C:INTERACTION
+divorced | C:FAMILY
+pleased to | C:STATEMENT
+alliances | C:INTERACTION
+fired last week | C:ENGAGEMENT
+sacked | C:ENGAGEMENT
+slaughtered | C:VIOLENCE-INCIDENT
+owed | C:OWNERSHIP
+jailed | C:LAW-RELATED
+have been fired | C:ENGAGEMENT
+has been fired | C:ENGAGEMENT
+posed for a photo at | C:LOCATION-RELATED
+meant that | C:STATEMENT
+taken into custody by | C:LAW-RELATED
+taken into custody at | C:LAW-RELATED
+taken into custody on | C:LAW-RELATED
+packaged | C:CREATION
+threaten | C:INTERACTION
+rubbed shoulders with | C:INTERACTION
+is selling | C:OWNERSHIP
+protects about | C:STATEMENT
+care about | C:STATEMENT
+worry | C:STATEMENT
+have raced through | C:LOCATION-RELATED
+compiled | C:CREATION
+shot by | C:DEATH
+shot by | C:VIOLENCE-INCIDENT
+had met	with | C:INTERACTION 
+came in rapid succession after | C:ENGAGEMENT
+referred to | C:STATEMENT
+traded | C:OWNERSHIP
+receive	| C:OWNERSHIP
+allows	| C:STATEMENT
+means that | C:STATEMENT
+constitution | C:LAW-RELATED
+trials | C:LAW-RELATED
+migration | C:LOCATION-RELATED
+concerned | C:STATEMENT
+donations | C:ONWERSHIP
+recalled | C:STATEMENT
+entitled to	| C:LAW-RELATED
+adoption | C:STATEMENT
+ignored	| C:STATEMENT
+obligation | C:LAW-RELATED
+detention | C:LAW-RELATED
+intention | C:STATEMENT
+adopted	| C:STATEMENT
+aggression | C:VIOLENCE-INCIDENT
+conducted | C:CREATION
+immigration	| C:LOCATION-RELATED
+regulations	| C:LAW-RELATED
+deaths | C:DEATH
+terrorism | C:VIOLENCE-INCIDENT
+expectations | C:STATEMENT
+resolutions	| C:LAW-RELATED
+based in | C:LOCATION-RELATED
+tourism	| C:LOCATION-RELATED
+generated from | C:CREATION
+violations | C:LAW-RELATED
+depression | C:STATEMENT
+meet | C:INTERACTION
+granted	| C:STATEMENT
+expects	| C:STATEMENT
+ensure | C:STATEMENT
+controlled | C:OWNERSHIP
+infection | C:HEALTH-CONDITION
+write | C:CREATION 
+detained | C:LAW-RELATED
+detains | C:LAW-RELATED
+detain | C:LAW-RELATED
+excited to | C:STATEMENT
+look forward to	| C:STATEMENT
+wars | C:VIOLENCE-INCIDENT
+appointments | C:ENGAGEMENT
+indication | C:STATEMENT
+banned | C:STATEMENT
+pursued her | C:STATEMENT
+pursued him | C:STATEMENT
+retired	| C:ENGAGEMENT
+lit up the | C:VIOLENCE-INCIDENT
+live in	| C:LOCATION-RELATED
+donation | C:OWNERSHIP
+connected to | C:INTERACTION
+carried out	| C:CREATION
+funded	| C:CREATION
+referred to	| C:STATEMENT
+ensure that	| C:STATEMENT
+oppose | C:STATEMENT
+indicates that | C:STATEMENT
+worked with	| C:ENGAGEMENT
+worked with	| C:INTERACTION
+excited about | C:STATEMENT
+prized | C:ACHIEVEMENT
+got out of | C:LOCATION-RELATED
+graduation | C:EDUCATION
+leaked | C:STATEMENT
+carried out by | C:CREATION
+watched the fire burn | C:VIOLENCE-INCIDENT
+reached out to | C:INTERACTION
+unified | C:CREATION
+prescribed | C:CREATION
+rebuild | C:CREATION
+indicate that | C:STATEMENT
+armed with | C:OWNERSHIP
+sign | C:STATEMENT
+surprised by | C:STATEMENT
+inherited | C:OWNERSHIP
+erupted near | C:NATURAL-DISASTER
+will meet | C:INTERACTION
+manufactures | C:CREATION
+manufactured | C:CREATION
+manufacturing | C:CREATION
+acquitted him of | C:LAW-RELATED
+is developing | C:CREATION
+allows them to | C:STATEMENT
+mediation | C:INTERACTION
+brought against | C:INTERACTION
+wants him to | C:STATEMENT
+pointed out that | C:STATEMENT
+expanded | C:CREATION
+appalled by | C:STATEMENT
+indictment | C:LAW-RELATED
+kill | C:VIOLENCE-INCIDENT
+put his hand on | C:ENGAGEMENT
+harassed | C:LAW-RELATED
+infections | C:HEALTH-CONDITION
+shot in | C:DEATH
+shot in | C:VIOLENCE-INCIDENT
+controlled by | C:OWNERSHIP
+consultations | C:INTERACTION
+delivers | C:CREATION
+note that | C:STATEMENT
+felt that | C:STATEMENT
+feel that | C:STATEMENT
+concessions	| C:STATEMENT
+contribute to | C:ENGAGEMENT
+travel | C:LOCATION-RELATED
+pointed out	| C:STATEMENT
+welcomes | C:STATEMENT
+regretted | C:STATEMENT
+step down | C:ENGAGEMENT
+highlighted | C:STATEMENT
+donated	| C:OWNERSHIP
+voted against | C:STATEMENT
+will put greater pressure on | C:STATEMENT
+thrilled to	| C:STATEMENT
+brought forward	| C:STATEMENT	
+celebrated | C:STATEMENT
+dissent | C:STATEMENT
+prepared | C:CREATION
+concession | C:LAW-RELATED
+fire broke out | C:VIOLENCE-INCIDENT
+jailed for | C:LAW-RELATED
+left office | C:ENGAGEMENT
+admits | C:STATEMENT
+permitted | C:STATEMENT
+meant to | C:STATEMENT
+banned from | C:LAW-RELATED
+violate	| C:LAW-RELATED
+raped | C:VIOLENCE-INCIDENT
+plans to | C:STATEMENT
+earn | C:OWNERSHIP
+volcano eruption | C:NATURAL-DISASTER
+priced | C:OWNERSHIP
+outlawed | C:LAW-RELATED
+honored	| C:STATEMENT
+will continue to work for | C:ENGAGEMENT
+treats patients with | C:INTERACTION
+turned against | C:STATEMENT
+engineered | C:CREATION
+redevelopment | C:CREATION
+packed | C:CREATION
+have fully recovered | C:HEALTH-CONDITION
+worked directly for | C:ENGAGEMENT
+have worked with | C:ENGAGEMENT
+work closely with | C:ENGAGEMENT
+is working hard to | C:ENGAGEMENT
+work as | C:ENGAGEMENT
+works at | C:ENGAGEMENT
+work together to | C:ENGAGEMENT
+are working	for | C:ENGAGEMENT
+worked hard to | C:ENGAGEMENT
+works as an | C:ENGAGEMENT
+works as a | C:ENGAGEMENT
+work at | C:ENGAGEMENT
+works at | C:ENGAGEMENT
+worked with | C:ENGAGEMENT
+worked on | C:ENGAGEMENT
+prompted a legal skirmish | C:LAW-RELATED
+faces legal challenges | C:LAW-RELATED
+legal arguments | C:LAW-RELATED
+holds the chairmanship | C:ENGAGEMENT
+became president | C:ENGAGEMENT
+performs at | C:CREATION
+performs in | C:CREATION
+performed at | C:CREATION
+performed in | C:CREATION
+perform at | C:CREATION
+perform in | C:CREATION
+passed legislation | C:LAW-RELATED
+pass legislation | C:LAW-RELATED
+reform legislation | C:LAW-RELATED
+reformed legislation | C:LAW-RELATED
+remain in detention | C:LAW-RELATED
+remains in detention | C:LAW-RELATED
+remained in detention | C:LAW-RELATED
+put forward my candidacy | C:STATEMENT
+put forward his candidacy | C:STATEMENT
+put forward her candidacy | C:STATEMENT
+taken a final position | C:STATEMENT
+takes a final position | C:STATEMENT
+take a final position | C:STATEMENT
+took a final position | C:STATEMENT
+has raised concerns | C:STATEMENT
+have raised concerns | C:STATEMENT
+raise concerns | C:STATEMENT
+raises concerns | C:STATEMENT
+worked with | C:ENGAGEMENT
+promoted a succession of | C:STATEMENT
+promotes a succession of | C:STATEMENT
+uses strong language | C:STATEMENT
+used strong language | C:STATEMENT
+took a defiant tone | C:STATEMENT
+take a defiant tone | C:STATEMENT
+takes a defiant tone | C:STATEMENT
+spoken out against | C:STATEMENT
+speaks out against | C:STATEMENT
+speak out against | C:STATEMENT
+battling the fire along with | C:INTERACTION
+talking with | C:STATEMENT
+remained his friend | C:INTERACTION
+remains his friend | C:INTERACTION
+remains his friend | C:INTERACTION
+remains his friend | C:INTERACTION
+spoken with | C:INTERACTION
+posted on | C:STATEMENT
+received a doctorate | C:STATEMENT
+received a degree | C:STATEMENT
+place strict limits | C:STATEMENT
+will be held at	| C:LOCATION-RELATED
+returned from | C:LOCATION-RELATED
+have wrestled with | C:INTERACTION
+noted in | C:STATEMENT
+repayment | C:OWNERSHIP
+stationed in | C:LOCATION-RELATED
+honoured | C:ACHIEVEMENT
+demands that | C:STATEMENT
+reimbursement | C:OWNERSHIP
+consults regularly with | C:INTERACTION
+worked there | C:ENGAGEMENT
+shared disdain for | C:STATEMENT
+presided in | C:ENGAGEMENT
+end up paying | C:OWNERSHIP
+pronounced with | C:STATEMENT
+ensures	| C:STATEMENT
+embezzlement | C:LAW-RELATED
+sanctioned | C:LAW-RELATED
+dispatched to | C:LOCATION-RELATED
+could end up banning | C:LAW-RELATED
+provoked | C:STATEMENT
+met later in | C:INTERACTION
+met later in | C:LOCATION-RELATED
+confiscated | C:LAW-RELATED
+medical care | C:HEALTH-CONDITION
+cremated | C:DEATH 
+work for | C:ENGAGEMENT
+builds | C:CREATION
+rewarded for | C:ACHIEVEMENT
+attempt to intervene | C:INTERACTION
+fires broke | C:NATURAL-DISASTER
+have been quarantined | C:HEALTH-CONDITION
+intoxicated	| C:HEALTH-CONDITION
+has erupted on | C:NATURAL-DISASTER
+notification | C:STATEMENT
+stole a package | C:OWNERSHIP
+stole a package | C:LAW-RELATED
+balked at the idea | C:STATEMENT
+had publicly pressed | C:STATEMENT
+assisted him | C:CREATION 
+assisted her | C:INTERACTION
+aired live on | C:CREATION
+set to leave | C:LOCATION-RELATED
+trim costs | C:OWNERSHIP
+have thrown rocks at | C:VIOLENCE-INCIDENT
+raised concerns | C:STATEMENT
+attorneys | C:LAW-RELATED
+attorney | C:LAW-RELATED
+point out that | C:STATEMENT
+irrigation | C:CREATION
+robbed | C:VIOLENCE-INCIDENT
+appoint | C:ENGAGEMENT
+deceived | C:LAW-RELATED
+fanned fires across	| C:NATURAL-DISASTER
+cried | C:STATEMENT
+intimidated | C:STATEMENT
+restriction	| C:LAW-RELATED
+publishes | C:CREATION
+has brought	| C:OWNERSHIP
+censored | C:LAW-RELATED
+publish | C:STATEMENT
+shot him | C:VIOLENCE-INCIDENT
+shot her | C:VIOLENCE-INCIDENT 
+had spoken to | C:INTERACTION
+kidnapped | C:VIOLENCE-INCIDENT
+stipulates that | C:STATEMENT
+escalate tension in | C:LOCATION-RELATED
+credited | C:STATEMENT
+burn rapidly | C:VIOLENCE-INCIDENT
+ensures that | C:STATEMENT
+injure | C:HEALTH-CONDITION
+works as | C:ENGAGEMENT
+was on stage with | C:INTERACTION
+listened to | C:STATEMENT
+is running for | C:ENGAGEMENT
+fled to | C:LOCATION-RELATED
+lives with | C:INTERACTION
+financed | C:OWNERSHIP
+remuneration | C:OWNERSHIP
+points out that | C:STATEMENT
+campaigned for | C:STATEMENT
+financed by | C:OWNERSHIP
+congratulations | C:ACHIEVEMENT 
+taken into custody | C:LAW-RELATED
+drew a strong rebuke from | C:STATEMENT
+had never met | C:INTERACTION
+works for | C:ENGAGEMENT
+points out | C:STATEMENT
+consult with | C:INTERACTION
+carries a maximum sentence of | C:LAW-RELATED
+fired by | C:ENGAGEMENT
+reclaim the presidency | C:ENGAGEMENT
+tested positive for	| C:HEALTH-CONDITION
+planned to call | C:INTERACTION
+posted a picture | C:CREATION
+treatment can give | C:HEALTH-CONDITION
+doubted that | C:STATEMENT
+voted in favour | C:STATEMENT
+are exporting | C:OWNERSHIP
+diagnosed him with | C:HEALTH-CONDITION
+diagnosed her with | C:HEALTH-CONDITION
+assisted by	| C:INTERACTION
+returned home | C:LOCATION-RELATED
+is heading to | C:LOCATION-RELATED
+selling	| C:OWNERSHIP
+took the podium at | C:ACHIEVEMENT
+treatment is given through | C:HEALTH-CONDITION
+kept in touch | C:STATEMENT
+spent nearly a month in	| C:LOCATION-RELATED	
+gathered at	| C:LOCATION-RELATED
+suffered an accident | C:HEALTH-CONDITION
+health parameters of | C:HEALTH-CONDITION
+health authorities | C:HEALTH-CONDITION
+putting their health at | C:HEALTH-CONDITION
+putting his health at | C:HEALTH-CONDITION
+putting her health at | C:HEALTH-CONDITION
+healthcare provider | C:HEALTH-CONDITION
+gut health of | C:HEALTH-CONDITION
+health care | C:HEALTH-CONDITION
+puts at risk the health of | C:HEALTH-CONDITION
+health records | C:HEALTH-CONDITION
+healthcare | C:HEALTH-CONDITION
+health issues | C:HEALTH-CONDITION
+maintain the health | C:HEALTH-CONDITION
+health emergency | C:HEALTH-CONDITION
+health services | C:HEALTH-CONDITION
+health records | C:HEALTH-CONDITION
+regulate | C:LAW-RELATED
+separated from | C:INTERACTION
+complains | C:STATEMENT
+unleashed | C:STATEMENT
+surrounded himself with | C:ENGAGEMENT
+refrain from commenting | C:STATEMENT
+smuggled | C:VIOLENCE-INCIDENT
+smuggle | C:VIOLENCE-INCIDENT
+fired accidentally | C:VIOLENCE-INCIDENT
+left court | C:LAW-RELATED
+stripped of her crown | C:ENGAGEMENT
+situated in | C:LOCATION-RELATED
+custody arrangement | C:LAW-RELATED
+lived together | C:INTERACTION
+will preside | C:ENGAGEMENT
+pollution | C:NATURAL-DISASTER
+went on to become | C:ENGAGEMENT
+intimated that | C:STATEMENT
+hoped that | C:STATEMENT
+reasoned | C:STATEMENT
+parted ways with | C:ENGAGEMENT
+fought with | C:INTERACTION
+stepped down as | C:ENGAGEMENT
+will serve as | C:ENGAGEMENT
+got a blessing from | C:STATEMENT
+looking forward to | C:STATEMENT
+diagnose him with | C:HEALTH-CONDITION
+diagnose her with | C:HEALTH-CONDITION
+vaccinated | C:HEALTH-CONDITION
+stepped down as | C:ENGAGEMENT
+reckons | C:STATEMENT
+reveal that | C:STATEMENT
+facing charges of | C:LAW-RELATED
+warnings from | C:STATEMENT
+will stop operating for | C:ENGAGEMENT
+still serving in | C:ENGAGEMENT
+criminals | C:LAW-RELATED
+court’s | C:LAW-RELATED
+fabrication | C:CREATION
+taking a position | C:STATEMENT
+spend their money | C:OWNERSHIP
+faced with the challenging task of | C:ENGAGEMENT
+fires burning in | C:NATURAL-DISASTER
+has referred letters from | C:STATEMENT
+regrets | C:STATEMENT
+molestation | C:VIOLENCE-INCIDENT
+forced him to | C:VIOLENCE-INCIDENT
+opened fire | C:VIOLENCE-INCIDENT
+invests in | C:OWNERSHIP
+voted unanimously to | C:STATEMENT
+travelled to | C:LOCATION-RELATED
+has cost | C:OWNERSHIP
+legislative | C:LAW-RELATED
+severed direct connections to | C:LOCATION-RELATED
+backed by a group of | C:INTERACTION
+concocted | C:CREATION
+rammed a bill | C:CREATION
+enacted to | C:LAW-RELATED
+acquittal | C:LAW-RELATED
+ransom | C:VIOLENCE-INCIDENT
+drafted by | C:CREATION
+emotional distress | C:HEALTH-CONDITION
+seized | C:LAW-RELATED
+forced disappearance | C:VIOLENCE-INCIDENT
+imposed a fine | C:LAW-RELATED
+found guilty | C:LAW-RELATED
+returned home | C:LOCATION-RELATED
+vomited | C:HEALTH-CONDITION
+reacting to | C:STATEMENT
+acquittals | C:LAW-RELATED
+seize | C:LAW-RELATED
+mentions | C:STATEMENT
+serves as guardian of | C:ENGAGEMENT
+travels | C:LOCATION-RELATED
+bans | C:LAW-RELATED
+regulates | C:LAW-RELATED
+travelled | C:LOCATION-RELATED
+credited with | C:STATEMENT
+riots | C:VIOLENCE-INCIDENT
+underlined that | C:STATEMENT
+had sex with | C:INTERACTION
+have sex with | C:INTERACTION
+has sex with | C:INTERACTION
+take stances | C:STATEMENT
+imposed the ban | C:LAW-RELATED
+impose the ban | C:LAW-RELATED
+voted at least | C:STATEMENT
+makes it illegal | C:LAW-RELATED
+stressed the need | C:STATEMENT
+drove to | C:LOCATION-RELATED
+funds spent | C:OWNERSHIP
+faces charges of | C:LAW-RELATED
+disturbances | C:VIOLENCE-INCIDENT
+dies at	| C:DEATH
+serve as a catalyst for | C:ENGAGEMENT
+is leaving office after | C:ENGAGEMENT
+took to the streets in | C:LOCATION-RELATED
+raised the topic of	| C:STATEMENT
+chatted with | C:INTERACTION
+obsessed with | C:STATEMENT
+thrilled that | C:STATEMENT
+had been bribing | C:LAW-RELATED
+was considering	| C:STATEMENT
+have always maintained that	| C:STATEMENT
+disclaims any | C:STATEMENT
+stranded in | C:LOCATION-RELATED
+dragged down shares | C:OWNERSHIP
+are responding with	| C:STATEMENT
+broke out at marches | C:VIOLENCE-INCIDENT
+has scheduled a trip | C:LOCATION-RELATED
+trigger violence in	| C:VIOLENCE-INCIDENT
+trigger violence in	| C:LOCATION-RELATED
+stressed the need to | C:STATEMENT
+migrate to | C:LOCATION-RELATED
+distance himself from | C:STATEMENT
+distance himself from | C:STATEMENT
+came to power | C:ENGAGEMENT
+urge people to | C:STATEMENT
+sitting next to	| C:INTERACTION
+pinpoints | C:STATEMENT
+tuned to his supporters at | C:LOCATION-RELATED
+sat down with | C:INTERACTION
+is performing at | C:LOCATION-RELATED
+publicize | C:CREATION
+found guilty on	| C:LAW-RELATED
+will conduct | C:CREATION
+pushed hard for | C:STATEMENT
+retires after | C:ENGAGEMENT
+makes them perfect candidates for | C:ENGAGEMENT
+seized control of | C:LAW-RELATED
+lived there with | C:INTERACTION
+dealing with members of | C:INTERACTION
+clashed with | C:INTERACTION
+conspired with | C:INTERACTION
+clash with | C:INTERACTION
+conspire with | C:INTERACTION
+clashes with | C:INTERACTION
+conspires with | C:INTERACTION
+plan to brief | C:STATEMENT
+screamed for | C:STATEMENT
+warn that | C:STATEMENT
+take X-rays from | C:HEALTH-CONDITION
+groped her | C:STATEMENT
+grope him | C:STATEMENT
+ransacked | C:VIOLENCE-INCIDENT
+aggravated assault with | C:STATEMENT
+drove to | C:LOCATION-RELATED
+sues | C:LAW-RELATED
+cancer | C:HEALTH-CONDITION
+fell ill in | C:HEALTH-CONDITION
+fell ill with | C:HEALTH-CONDITION
+stranded in | C:LOCATION-RELATED
+turned down | C:STATEMENT
+gathered outside the | C:LOCATION-RELATED
+had approached | C:INTERACTION
+have approached | C:INTERACTION
+has approached | C:INTERACTION
+have slept with	| C:INTERACTION
+buried at | C:LOCATION-RELATED
+buried at | C:DEATH
+passed a law in | C:LAW-RELATED
+entered a not guilty plea to | C:LAW-RELATED
+people dying in	| C:DEATH
+people dying in	| C:LOCATION-RELATED
+put forward by | C:STATEMENT
+kidnap | C:VIOLENCE-INCIDENT
+disappearances | C:VIOLENCE-INCIDENT
+hold on the office since | C:ENGAGEMENT
+offended | C:STATEMENT
+became emotional at	| C:STATEMENT
+join them in | C:INTERACTION
+returns to | C:LOCATION-RELATED
+defraud	| C:LAW-RELATED
+migrate to | C:LOCATION-RELATED
+location of | C:LOCATION-RELATED
+court appearance | C:LAW-RELATED
+severely beaten	| C:HEALTH-CONDITION
+vex | C:STATEMENT
+vexes | C:STATEMENT
+submitted a resolution on | C:STATEMENT
+referring to | C:STATEMENT
+has long been associated with | C:ENGAGEMENT
+was not breathing | C:HEALTH-CONDITION
+vandalized | C:VIOLENCE-INCIDENT
+recovers from | C:HEALTH-CONDITION
+strangled | C:HEALTH-CONDITION
+paralysed | C:HEALTH-CONDITION
+passed a law | C:LAW-RELATED
+found the bodies of	| C:DEATH
+works closely with | C:INTERACTION
+works closely with | C:ENGAGEMENT
+outlined to the owners | C:OWNERSHIP
+reclaim the office | C:ENGAGEMENT
+groped by | C:STATEMENT
+neighborhoods in | C:LOCATION-RELATED
+had sex with | C:INTERACTION
+driving to | C:LOCATION-RELATED
+ruins of | C:STATEMENT
+stressed the importance | C:STATEMENT
+victimized | C:VIOLENCE-INCIDENT
+signalled | C:STATEMENT
+acquitted | C:LAW-RELATED
+acquitted | C:STATEMENT
+jail for | C:LAW-RELATED
+unauthorized | C:LAW-RELATED
+took a new job | C:ENGAGEMENT
+has been turning a blind eye | C:STATEMENT
+has ceased to represent	| C:ENGAGEMENT
+humiliated | C:STATEMENT
+rehabilitate | C:STATEMENT
+wish to take part | C:ENGAGEMENT
+taken to hospital with | C:HEALTH-CONDITION
+ordered by courts | C:LAW-RELATED
+tension with | C:INTERACTION
+rescued by | C:VIOLENCE-INCIDENT
+am very happy to | C:STATEMENT
+escorted to a court in | C:LOCATION-RELATED
+escorted to a court | C:LAW-RELATED
+sentiments of | C:STATEMENT
+blocked the border with | C:LOCATION-RELATED
+get in touch with | C:INTERACTION
+excited that | C:STATEMENT
+key vendors operating in | C:LOCATION-RELATED
+settlement in | C:LOCATION-RELATED
+gathered with | C:INTERACTION
+was not feeling well | C:HEALTH-CONDITION
+persuaded | C:STATEMENT
+hurled stones at | C:VIOLENCE-INCIDENT
+praises	| C:STATEMENT
+show up at | C:PARTICIPATION
+had hoped that | C:STATEMENT
+become increasingly critical of | C:STATEMENT
+play an important role in | C:ENGAGEMENT
+was returning to | C:LOCATION-RELATED
+pardoned | C:STATEMENT
+did not name | C:STATEMENT
+worked closely with	| C:INTERACTION
+reckon | C:STATEMENT
+lie about | C:STATEMENT
+attempted suicide | C:VIOLENCE-INCIDENT
+enforcing restrictions | C:LAW-RELATED
+anticipate that | C:STATEMENT
+rewarded with | C:ACHIEVEMENT
+found him guilty of | C:LAW-RELATED
+found her guilty of | C:LAW-RELATED
+regards himself | C:STATEMENT
+regards herself | C:STATEMENT
+shelled the town of	| C:VIOLENCE-INCIDENT
+looted | C:VIOLENCE-INCIDENT
+shelled areas in | C:VIOLENCE-INCIDENT	
+gathered in	| C:LOCATION-RELATED
+gathered in front of | C:LOCATION-RELATED
+threw stones at | C:VIOLENCE-INCIDENT
+dropped barrel bombs | C:VIOLENCE-INCIDENT
+blocked a road in | C:LOCATION-RELATED
+chanted slogans against | C:STATEMENT 
+killing of | C:DEATH
+killing of | C:VIOLENCE-INCIDENT
+shelled the village of | C:VIOLENCE-INCIDENT
+shelled the village of | C:LOCATION-RELATED
+kills  | C:VIOLENCE-INCIDENT
+clashes broke out | C:VIOLENCE-INCIDENT
+fired grenade | C:VIOLENCE-INCIDENT
+hurled a hand grenade at | C:VIOLENCE-INCIDENT
+fired artillery | C:VIOLENCE-INCIDENT
+bombarded | C:VIOLENCE-INCIDENT
+held a rally in | C:VIOLENCE-INCIDENT
+held a rally in | C:LOCATION-RELATED
+raised slogans against | C:STATEMENT
+shelled regime positions in | C:VIOLENCE-INCIDENT
+shelled regime positions in | C:LOCATION-RELATED
+thre hand grenade | C:VIOLENCE-INCIDENT
+fired small arms | C:VIOLENCE-INCIDENT
+exchanged fire across | C:VIOLENCE-INCIDENT
+have fired artillery | C:VIOLENCE-INCIDENT
+fired missiles | C:VIOLENCE-INCIDENT
+shot at | C:VIOLENCE-INCIDENT
+clashed at | C:VIOLENCE-INCIDENT
+pelted stones | C:VIOLENCE-INCIDENT
+exchanged fire with | C:VIOLENCE-INCIDENT
+fired with small arms | C:VIOLENCE-INCIDENT
+fired rockets | C:VIOLENCE-INCIDENT
+clash broke out | C:VIOLENCE-INCIDENT
+used tear gas | C:VIOLENCE-INCIDENT
+burnt down | C:VIOLENCE-INCIDENT
+exchanged gunfire | C:VIOLENCE-INCIDENT
+fired rocket shells | C:VIOLENCE-INCIDENT
+fired artillery shells | C:VIOLENCE-INCIDENT
+exchanged gunfire | C:VIOLENCE-INCIDENT
+fired heavy machine guns | C:VIOLENCE-INCIDENT
+clashed against | C:VIOLENCE-INCIDENT
+shouted slogans against | C:STATEMENT
+threw a grenade | C:VIOLENCE-INCIDENT
+took to the streets | C:VIOLENCE-INCIDENT
+fired tear gas | C:VIOLENCE-INCIDENT
+threw rocks | C:VIOLENCE-INCIDENT
+fired upon each other | C:VIOLENCE-INCIDENT
+defrauded by | C:LAW-RELATED
+blew himself up	| C:LAW-RELATED
+intercepted by	| C:LAW-RELATED
+exchanged gunfire | C:VIOLENCE-INCIDENT
+riot broke out | C:VIOLENCE-INCIDENT
+marched through | C:VIOLENCE-INCIDENT
+shot down | C:VIOLENCE-INCIDENT
+threw Molotov cocktails | C:VIOLENCE-INCIDENT
+clashed violently with | C:VIOLENCE-INCIDENT
+police tried to | C:VIOLENCE-INCIDENT
+fired mortar shells | C:VIOLENCE-INCIDENT
+fired shots | C:VIOLENCE-INCIDENT
+fired back | C:VIOLENCE-INCIDENT
+invaded | C:VIOLENCE-INCIDENT
+burnt effigies of | C:VIOLENCE-INCIDENT
+laid siege to | C:VIOLENCE-INCIDENT
+fired artillery shells | C:VIOLENCE-INCIDENT
+torture in | C:VIOLENCE-INCIDENT
+hurled a hand grenade | C:VIOLENCE-INCIDENT
+fired teargas | C:VIOLENCE-INCIDENT
+fired mortars | C:VIOLENCE-INCIDENT
+fired heavy machine gun artillery | C:VIOLENCE-INCIDENT
+staged a rally against | C:VIOLENCE-INCIDENT
+fired machine guns | C:VIOLENCE-INCIDENT
+fired tear gas | C:VIOLENCE-INCIDENT
+rallied in front of | C:VIOLENCE-INCIDENT
+hurled a grenade | C:VIOLENCE-INCIDENT
+blocked roads | C:VIOLENCE-INCIDENT
+blocked the road | C:VIOLENCE-INCIDENT
+fired a missile | C:VIOLENCE-INCIDENT
+have shot | C:VIOLENCE-INCIDENT
+ambushed a group | C:VIOLENCE-INCIDENT
+set on fire by | C:VIOLENCE-INCIDENT
+pelted stones | C:VIOLENCE-INCIDENT
+battled with | C:VIOLENCE-INCIDENT
+used teargas | C:VIOLENCE-INCIDENT
+have shot down | C:VIOLENCE-INCIDENT
+forced them | C:VIOLENCE-INCIDENT
+hurled a petrol bomb | C:VIOLENCE-INCIDENT
+took out a rally from | C:VIOLENCE-INCIDENT
+hurled rocks | C:VIOLENCE-INCIDENT
+hijacked | C:VIOLENCE-INCIDENT
+fired artillery shells | C:VIOLENCE-INCIDENT
+resulted in fatalities | C:VIOLENCE-INCIDENT
+shot at by | C:VIOLENCE-INCIDENT
+burnt the effigies of | C:VIOLENCE-INCIDENT
+ambushed a convoy | C:VIOLENCE-INCIDENT
+blocked the road | C:VIOLENCE-INCIDENT
+used tear gas | C:VIOLENCE-INCIDENT
+fired rubber bullets | C:VIOLENCE-INCIDENT
+fired small arms | C:VIOLENCE-INCIDENT
+grenade launchers | C:VIOLENCE-INCIDENT
+fight broke out | C:VIOLENCE-INCIDENT
+blocked a street with burning | C:VIOLENCE-INCIDENT
+dropped barrel bombs | C:VIOLENCE-INCIDENT
+fired missiles | C:VIOLENCE-INCIDENT
+held a rally | C:VIOLENCE-INCIDENT
+police used force | C:VIOLENCE-INCIDENT
+forced to flee | C:VIOLENCE-INCIDENT
+chanted slogans | C:VIOLENCE-INCIDENT
+threw a hand grenade | C:VIOLENCE-INCIDENT
+cordoned off | C:VIOLENCE-INCIDENT
+tear gas at | C:VIOLENCE-INCIDENT
+blocked the road | C:VIOLENCE-INCIDENT
+heavy machine gun fire | C:VIOLENCE-INCIDENT
+throw stones at | C:VIOLENCE-INCIDENT
+fired with small arms | C:VIOLENCE-INCIDENT
+dropped several barrel bombs | C:VIOLENCE-INCIDENT
+held a rally | C:VIOLENCE-INCIDENT
+rallied | C:VIOLENCE-INCIDENT
+fired one artillery shell | C:VIOLENCE-INCIDENT
+guided missiles | C:VIOLENCE-INCIDENT
+blocked access to | C:VIOLENCE-INCIDENT
+forces shot down | C:VIOLENCE-INCIDENT
+threw a grenade | C:VIOLENCE-INCIDENT
+blocked roads | C:VIOLENCE-INCIDENT
+raided the house | C:VIOLENCE-INCIDENT
+fired into the air | C:VIOLENCE-INCIDENT
+ceasefire | C:VIOLENCE-INCIDENT
+fired in the air | C:VIOLENCE-INCIDENT
+hunger strikes against | C:VIOLENCE-INCIDENT
+dropped bombs | C:VIOLENCE-INCIDENT
+blocked roads at | C:VIOLENCE-INCIDENT
+barricaded roads | C:VIOLENCE-INCIDENT
+fired shots | C:VIOLENCE-INCIDENT
+blocked traffic | C:VIOLENCE-INCIDENT
+came under fire | C:VIOLENCE-INCIDENT
+blew themselves up | C:VIOLENCE-INCIDENT
+fired dozens of | C:VIOLENCE-INCIDENT
+exchanged gunfire | C:VIOLENCE-INCIDENT
+planted by an unidentified armed group | C:VIOLENCE-INCIDENT
+fired with different types | C:VIOLENCE-INCIDENT
+exchanged heavy gunfire | C:VIOLENCE-INCIDENT
+looted by | C:VIOLENCE-INCIDENT
+fired grenade launchers | C:VIOLENCE-INCIDENT
+barricaded with | C:VIOLENCE-INCIDENT
+exchanged fire over | C:VIOLENCE-INCIDENT
+police broke up | C:VIOLENCE-INCIDENT
+fired shells | C:VIOLENCE-INCIDENT
+hurled crude bombs | C:VIOLENCE-INCIDENT
+forces shelling | C:VIOLENCE-INCIDENT
+forces reportedly shot down | C:VIOLENCE-INCIDENT
+marched against | C:VIOLENCE-INCIDENT
+guided missile | C:VIOLENCE-INCIDENT
+rallied at | C:VIOLENCE-INCIDENT
+exchanged heavy fire | C:VIOLENCE-INCIDENT
+fired a rocket | C:VIOLENCE-INCIDENT
+forces used tear gas | C:VIOLENCE-INCIDENT
+fired teargas | C:VIOLENCE-INCIDENT
+staged a rally | C:VIOLENCE-INCIDENT
+shelled positions | C:VIOLENCE-INCIDENT
+fired rubber bullets | C:VIOLENCE-INCIDENT
+blocked a street | C:VIOLENCE-INCIDENT
+fired shells | C:VIOLENCE-INCIDENT
+fired a ballistic missile | C:VIOLENCE-INCIDENT
+fired artillery | C:VIOLENCE-INCIDENT
+forces killing | C:VIOLENCE-INCIDENT
+brought military reinforcements | C:VIOLENCE-INCIDENT
+forces shot | C:VIOLENCE-INCIDENT
+tear gas against | C:VIOLENCE-INCIDENT
+fired medium machine guns | C:VIOLENCE-INCIDENT
+took out a rally against | C:VIOLENCE-INCIDENT
+threw a petrol bomb | C:VIOLENCE-INCIDENT
+indiscriminate fire on | C:VIOLENCE-INCIDENT
+placed in | C:LOCATION-RELATED
+rioted against | C:VIOLENCE-INCIDENT
+fired shots | C:VIOLENCE-INCIDENT
+staged a rally | C:VIOLENCE-INCIDENT
+rallies throughout | C:VIOLENCE-INCIDENT
+fired heavy artillery | C:VIOLENCE-INCIDENT
+armed clash broke out | C:VIOLENCE-INCIDENT
+clashes that broke out | C:VIOLENCE-INCIDENT
+attempted to steal | C:VIOLENCE-INCIDENT
+stormed the house | C:VIOLENCE-INCIDENT	
+shouted slogans | C:VIOLENCE-INCIDENT
+fired Katyusha rockets | C:VIOLENCE-INCIDENT
+blocked the road | C:VIOLENCE-INCIDENT
+attempted to rape | C:VIOLENCE-INCIDENT
+fired artillery | C:VIOLENCE-INCIDENT
+have ambushed | C:VIOLENCE-INCIDENT
+used water cannons | C:VIOLENCE-INCIDENT
+assassinations | C:VIOLENCE-INCIDENT
+assassinations | C:DEATH
+fire on | C:VIOLENCE-INCIDENT
+opened gunfire | C:VIOLENCE-INCIDENT
+fired mortar rounds | C:VIOLENCE-INCIDENT
+attempted offensive | C:VIOLENCE-INCIDENT
+dropped cluster munitions | C:VIOLENCE-INCIDENT
+shot at | C:VIOLENCE-INCIDENT
+exchanged fire | C:VIOLENCE-INCIDENT
+opened live fire | C:VIOLENCE-INCIDENT
+fired artillery shells | C:VIOLENCE-INCIDENT
+demand the release of | C:VIOLENCE-INCIDENT
+used rubber bullets | C:VIOLENCE-INCIDENT
+shelled the area | C:VIOLENCE-INCIDENT
+fired sniper rifles | C:VIOLENCE-INCIDENT
+hurled bombs | C:VIOLENCE-INCIDENT
+looted | C:VIOLENCE-INCIDENT
+fired gunshots | C:VIOLENCE-INCIDENT
+threw eggs at | C:VIOLENCE-INCIDENT
+shot down | C:VIOLENCE-INCIDENT
+burnt down | C:VIOLENCE-INCIDENT
+chanted slogans | C:VIOLENCE-INCIDENT
+threw grenades | C:VIOLENCE-INCIDENT
+rioted at | C:VIOLENCE-INCIDENT
+fired a shell | C:VIOLENCE-INCIDENT
+hurled a hand-grenade | C:VIOLENCE-INCIDENT
+went on strike | C:VIOLENCE-INCIDENT
+exchanged gunfire | C:VIOLENCE-INCIDENT
+blocked a road with burning | C:VIOLENCE-INCIDENT
+have ambushed | C:VIOLENCE-INCIDENT
+beat him with | C:VIOLENCE-INCIDENT
+continued demonstrating | C:VIOLENCE-INCIDENT
+beat them with | C:VIOLENCE-INCIDENT
+took to the streets against | C:VIOLENCE-INCIDENT
+rioted over | C:VIOLENCE-INCIDENT
+took out a march | C:VIOLENCE-INCIDENT
+fired several shells | C:VIOLENCE-INCIDENT
+fired rockets | C:VIOLENCE-INCIDENT
+found the body of | C:VIOLENCE-INCIDENT
+clashed between | C:VIOLENCE-INCIDENT
+taken hostage | C:VIOLENCE-INCIDENT
+burn down | C:VIOLENCE-INCIDENT
+blocked the roads | C:VIOLENCE-INCIDENT
+shelled parts of | C:VIOLENCE-INCIDENT
+targeted the town of | C:VIOLENCE-INCIDENT
+staged a rally in | C:VIOLENCE-INCIDENT
+shelled the outskirts of | C:VIOLENCE-INCIDENT
+held rallies in | C:VIOLENCE-INCIDENT
+targeted areas in | C:VIOLENCE-INCIDENT
+bombarded areas in | C:VIOLENCE-INCIDENT
+blocked a street in | C:VIOLENCE-INCIDENT
+blocked the road in | C:VIOLENCE-INCIDENT
+took out a rally in | C:VIOLENCE-INCIDENT
+armed group in | C:VIOLENCE-INCIDENT
+shelled areas of | C:VIOLENCE-INCIDENT
+shelled the vicinity of | C:VIOLENCE-INCIDENT
+captured the village of | C:VIOLENCE-INCIDENT
+shelled places in | C:VIOLENCE-INCIDENT
+hit residential area in | C:VIOLENCE-INCIDENT
+hit forces in | C:VIOLENCE-INCIDENT
+gathered in the streets of | C:VIOLENCE-INCIDENT
+clashed near | C:VIOLENCE-INCIDENT
+hit military site in | C:VIOLENCE-INCIDENT
+fired shots in | C:VIOLENCE-INCIDENT
+shelled civilian areas in | C:VIOLENCE-INCIDENT
+broke out in | C:VIOLENCE-INCIDENT
+targeted the village of | C:VIOLENCE-INCIDENT
+exchanged gunfire in | C:VIOLENCE-INCIDENT
+blocked the road between | C:VIOLENCE-INCIDENT
+rallied in | C:VIOLENCE-INCIDENT
+blocked the entrance to | C:VIOLENCE-INCIDENT
+exchanged fire in | C:VIOLENCE-INCIDENT
+marched towards | C:VIOLENCE-INCIDENT
+blocked traffic in | C:VIOLENCE-INCIDENT
+held a march in | C:VIOLENCE-INCIDENT
+targeted civilian areas in | C:VIOLENCE-INCIDENT
+blocked a highway in | C:VIOLENCE-INCIDENT
+intervened in | C:VIOLENCE-INCIDENT
+shelled the villages of | C:VIOLENCE-INCIDENT
+forces clash in | C:VIOLENCE-INCIDENT
+blocked the main road in | C:VIOLENCE-INCIDENT
+targeted regime positions in | C:VIOLENCE-INCIDENT
+recaptured the village of | C:VIOLENCE-INCIDENT
+marched in the streets of | C:VIOLENCE-INCIDENT
+captured the town of | C:VIOLENCE-INCIDENT
+targeted the villages of | C:VIOLENCE-INCIDENT
+marched through the streets of | C:VIOLENCE-INCIDENT
+took out rallies in | C:VIOLENCE-INCIDENT
+took out a procession in | C:VIOLENCE-INCIDENT
+raided the village of | C:VIOLENCE-INCIDENT
+blocked a highway near | C:VIOLENCE-INCIDENT
+captured the villages of | C:VIOLENCE-INCIDENT
+gathered together in | C:VIOLENCE-INCIDENT
+blocked the highway in | C:VIOLENCE-INCIDENT
+crowd held a rally in | C:VIOLENCE-INCIDENT
+staged a sit-in rally in | C:VIOLENCE-INCIDENT
+staged a rally outside | C:VIOLENCE-INCIDENT
+guided missile in | C:VIOLENCE-INCIDENT
+blocked trains in | C:VIOLENCE-INCIDENT
+lies in the vicinity | C:VIOLENCE-INCIDENT
+blocked a road near | C:VIOLENCE-INCIDENT
+targeted the outskirts of | C:VIOLENCE-INCIDENT
+raided a house in | C:VIOLENCE-INCIDENT
+staged a march in | C:VIOLENCE-INCIDENT
+shelled residential areas in | C:VIOLENCE-INCIDENT
+blocked the entrance of | C:VIOLENCE-INCIDENT
+shelled civilian houses in | C:VIOLENCE-INCIDENT
+went on strike in | C:VIOLENCE-INCIDENT
+shelled the area of | C:VIOLENCE-INCIDENT
+hit a landmine in | C:VIOLENCE-INCIDENT
+hit areas in | C:VIOLENCE-INCIDENT
+blocked the roads in | C:VIOLENCE-INCIDENT
+blocked the road near | C:VIOLENCE-INCIDENT
+struck the town of | C:VIOLENCE-INCIDENT
+struck the village of | C:VIOLENCE-INCIDENT
+hit Military site in | C:VIOLENCE-INCIDENT
+defected from | C:VIOLENCE-INCIDENT
+targeted the vicinity of | C:VIOLENCE-INCIDENT
+bombarded the town of | C:VIOLENCE-INCIDENT
+shelled the city of | C:VIOLENCE-INCIDENT
+took the streets of | C:VIOLENCE-INCIDENT
+raised slogans in | C:VIOLENCE-INCIDENT
+groups held rallies in | C:VIOLENCE-INCIDENT
+shelled civilian homes in | C:VIOLENCE-INCIDENT
+targeted a house in | C:VIOLENCE-INCIDENT
+was travelling in | C:VIOLENCE-INCIDENT
+staged rallies in | C:VIOLENCE-INCIDENT
+blocked the road outside | C:VIOLENCE-INCIDENT
+clashed in the area of | C:VIOLENCE-INCIDENT
+hit a roadside bomb in | C:VIOLENCE-INCIDENT
+took the streets in | C:VIOLENCE-INCIDENT
+stepped on a landmine | C:VIOLENCE-INCIDENT
+took to the streets across | C:VIOLENCE-INCIDENT
+held a rally outside | C:VIOLENCE-INCIDENT
+targeted civilian houses in | C:VIOLENCE-INCIDENT
+block roads in | C:VIOLENCE-INCIDENT
+raided the town of | C:VIOLENCE-INCIDENT
+clashed in the town of | C:VIOLENCE-INCIDENT
+gathered in the center of | C:VIOLENCE-INCIDENT
+exchanged firing across | C:VIOLENCE-INCIDENT
+took out a torch rally in | C:VIOLENCE-INCIDENT
+caused a fire in | C:VIOLENCE-INCIDENT
+blocked several roads in | C:VIOLENCE-INCIDENT
+have regained control of | C:VIOLENCE-INCIDENT
+shelled parts of | C:LOCATION-RELATED
+targeted the town of | C:LOCATION-RELATED
+staged a rally in | C:LOCATION-RELATED
+shelled the outskirts of | C:LOCATION-RELATED
+held rallies in | C:LOCATION-RELATED
+targeted areas in | C:LOCATION-RELATED
+bombarded areas in | C:LOCATION-RELATED
+blocked a street in | C:LOCATION-RELATED
+blocked the road in | C:LOCATION-RELATED
+took out a rally in | C:LOCATION-RELATED
+armed group in | C:LOCATION-RELATED
+shelled areas of | C:LOCATION-RELATED
+shelled the vicinity of | C:LOCATION-RELATED
+captured the village of | C:LOCATION-RELATED
+shelled places in | C:LOCATION-RELATED
+hit residential area in | C:LOCATION-RELATED
+hit forces in | C:LOCATION-RELATED
+gathered in the streets of | C:LOCATION-RELATED
+clashed near | C:LOCATION-RELATED
+hit military site in | C:LOCATION-RELATED
+fired shots in | C:LOCATION-RELATED
+shelled civilian areas in | C:LOCATION-RELATED
+broke out in | C:LOCATION-RELATED
+targeted the village of | C:LOCATION-RELATED
+exchanged gunfire in | C:LOCATION-RELATED
+blocked the road between | C:LOCATION-RELATED
+rallied in | C:LOCATION-RELATED
+blocked the entrance to | C:LOCATION-RELATED
+exchanged fire in | C:LOCATION-RELATED
+marched towards | C:LOCATION-RELATED
+blocked traffic in | C:LOCATION-RELATED
+held a march in | C:LOCATION-RELATED
+targeted civilian areas in | C:LOCATION-RELATED
+blocked a highway in | C:LOCATION-RELATED
+intervened in | C:LOCATION-RELATED
+shelled the villages of | C:LOCATION-RELATED
+forces clash in | C:LOCATION-RELATED
+blocked the main road in | C:LOCATION-RELATED
+targeted regime positions in | C:LOCATION-RELATED
+recaptured the village of | C:LOCATION-RELATED
+marched in the streets of | C:LOCATION-RELATED
+captured the town of | C:LOCATION-RELATED
+targeted the villages of | C:LOCATION-RELATED
+marched through the streets of | C:LOCATION-RELATED
+took out rallies in | C:LOCATION-RELATED
+took out a procession in | C:LOCATION-RELATED
+raided the village of | C:LOCATION-RELATED
+blocked a highway near | C:LOCATION-RELATED
+captured the villages of | C:LOCATION-RELATED
+gathered together in | C:LOCATION-RELATED
+blocked the highway in | C:LOCATION-RELATED
+crowd held a rally in | C:LOCATION-RELATED
+staged a sit-in rally in | C:LOCATION-RELATED
+staged a rally outside | C:LOCATION-RELATED
+guided missile in | C:LOCATION-RELATED
+blocked trains in | C:LOCATION-RELATED
+lies in the vicinity | C:LOCATION-RELATED
+blocked a road near | C:LOCATION-RELATED
+targeted the outskirts of | C:LOCATION-RELATED
+raided a house in | C:LOCATION-RELATED
+staged a march in | C:LOCATION-RELATED
+shelled residential areas in | C:LOCATION-RELATED
+blocked the entrance of | C:LOCATION-RELATED
+shelled civilian houses in | C:LOCATION-RELATED
+went on strike in | C:LOCATION-RELATED
+shelled the area of | C:LOCATION-RELATED
+hit a landmine in | C:LOCATION-RELATED
+hit areas in | C:LOCATION-RELATED
+blocked the roads in | C:LOCATION-RELATED
+blocked the road near | C:LOCATION-RELATED
+struck the town of | C:LOCATION-RELATED
+struck the village of | C:LOCATION-RELATED
+hit Military site in | C:LOCATION-RELATED
+defected from | C:LOCATION-RELATED
+targeted the vicinity of | C:LOCATION-RELATED
+bombarded the town of | C:LOCATION-RELATED
+shelled the city of | C:LOCATION-RELATED
+took the streets of | C:LOCATION-RELATED
+raised slogans in | C:LOCATION-RELATED
+groups held rallies in | C:LOCATION-RELATED
+shelled civilian homes in | C:LOCATION-RELATED
+targeted a house in | C:LOCATION-RELATED
+was travelling in | C:LOCATION-RELATED
+staged rallies in | C:LOCATION-RELATED
+blocked the road outside | C:LOCATION-RELATED
+clashed in the area of | C:LOCATION-RELATED
+hit a roadside bomb in | C:LOCATION-RELATED
+took the streets in | C:LOCATION-RELATED
+stepped on a landmine | C:LOCATION-RELATED
+took to the streets across | C:LOCATION-RELATED
+held a rally outside | C:LOCATION-RELATED
+targeted civilian houses in | C:LOCATION-RELATED
+block roads in | C:LOCATION-RELATED
+raided the town of | C:LOCATION-RELATED
+clashed in the town of | C:LOCATION-RELATED
+gathered in the center of | C:LOCATION-RELATED
+exchanged firing across | C:LOCATION-RELATED
+took out a torch rally in | C:LOCATION-RELATED
+caused a fire in | C:LOCATION-RELATED
+blocked several roads in | C:LOCATION-RELATED
+have regained control of | C:LOCATION-RELATED
+outskirts of | C:LOCATION-RELATED
+town of | C:LOCATION-RELATED
+roads in | C:LOCATION-RELATED
+street in | C:LOCATION-RELATED
+vicinity of  | C:LOCATION-RELATED
+village of | C:LOCATION-RELATED
+site in | C:LOCATION-RELATED
+city of | C:LOCATION-RELATED
+highway near | C:LOCATION-RELATED
+roads near | C:LOCATION-RELATED
+streets of | C:LOCATION-RELATED
+district of | C:LOCATION-RELATED
+treatment | C:HEALTH-CONDITION
+recovery | C:HEALTH-CONDITION
+affected | C:HEALTH-CONDITION
+diagnosis | C:HEALTH-CONDITION
+hit by | C:HEALTH-CONDITION
+treatments | C:HEALTH-CONDITION
+recovered | C:HEALTH-CONDITION
+disruption | C:HEALTH-CONDITION
+quarantined | C:HEALTH-CONDITION
+have recovered | C:HEALTH-CONDITION
+infected by | C:HEALTH-CONDITION
+infected | C:HEALTH-CONDITION
+recoveries | C:HEALTH-CONDITION
+prevent the spread of | C:HEALTH-CONDITION
+have been tested for | C:HEALTH-CONDITION
+tested negative for | C:HEALTH-CONDITION
+have recovered from | C:HEALTH-CONDITION
+recovered from | C:HEALTH-CONDITION
+has infected more | C:HEALTH-CONDITION
+continues to spread | C:HEALTH-CONDITION
+contain the spread of | C:HEALTH-CONDITION
+stop the spread of | C:HEALTH-CONDITION
+have been affected by | C:HEALTH-CONDITION
+have been infected | C:HEALTH-CONDITION
+disruption caused by | C:HEALTH-CONDITION
+slow the spread of | C:HEALTH-CONDITION
+threat posed by | C:HEALTH-CONDITION
+has recovered from | C:HEALTH-CONDITION
+reduce the spread of | C:HEALTH-CONDITION
+disruptions caused by | C:HEALTH-CONDITION
+have been infected by | C:HEALTH-CONDITION
+suffered from | C:HEALTH-CONDITION
+test positive for | C:HEALTH-CONDITION
+has infected over | C:HEALTH-CONDITION
+have tested negative for | C:HEALTH-CONDITION
+has disrupted | C:HEALTH-CONDITION
+curb the spread of | C:HEALTH-CONDITION
+tests positive for | C:HEALTH-CONDITION
+showed symptoms of | C:HEALTH-CONDITION
+transmitted through | C:HEALTH-CONDITION
+had been tested for | C:HEALTH-CONDITION
+has tested negative for | C:HEALTH-CONDITION
+quarantined in | C:HEALTH-CONDITION
+was suffering from | C:HEALTH-CONDITION
+tested positive on | C:HEALTH-CONDITION
+has been affected by | C:HEALTH-CONDITION
+affected by | C:HEALTH-CONDITION
+has been hit hard by | C:HEALTH-CONDITION
+succumbed to | C:HEALTH-CONDITION
+have tested positive to | C:HEALTH-CONDITION
+measures to combat the spread | C:HEALTH-CONDITION
+have been hit hard by | C:HEALTH-CONDITION
+tested positive in | C:HEALTH-CONDITION
+will be tested for | C:HEALTH-CONDITION
+had recovered from | C:HEALTH-CONDITION
+measures to curb the spread of | C:HEALTH-CONDITION
+aimed at slowing the spread of | C:HEALTH-CONDITION
+diagnose | C:HEALTH-CONDITION
+mitigate the spread of | C:HEALTH-CONDITION
+order to slow the spread of | C:HEALTH-CONDITION
+have tested negative | C:HEALTH-CONDITION
+continues to affect | C:HEALTH-CONDITION
+order to stop the spread of | C:HEALTH-CONDITION
+have been impacted by | C:HEALTH-CONDITION
+is recovering from | C:HEALTH-CONDITION
+bid to slow the spread of | C:HEALTH-CONDITION
+are showing symptoms of | C:HEALTH-CONDITION
+tested positive of | C:HEALTH-CONDITION
+coughed on | C:HEALTH-CONDITION
+quarantined for | C:HEALTH-CONDITION
+affected due to | C:HEALTH-CONDITION
+are suffering from | C:HEALTH-CONDITION
+aimed at containing the spread of | C:HEALTH-CONDITION
+bid to stop the spread of | C:HEALTH-CONDITION
+found positive for | C:HEALTH-CONDITION
+is suffering from | C:HEALTH-CONDITION
+measures to stop the spread of | C:HEALTH-CONDITION
+quarantined after | C:HEALTH-CONDITION
+have been cured | C:HEALTH-CONDITION
+has been cured | C:HEALTH-CONDITION
+caused by the outbreak of | C:HEALTH-CONDITION
+has infected nearly | C:HEALTH-CONDITION
+has infected at least | C:HEALTH-CONDITION
+sickened by | C:HEALTH-CONDITION
+afflicted by | C:HEALTH-CONDITION
+had tested negative for | C:HEALTH-CONDITION
+has suffered | C:HEALTH-CONDITION
+afflicted | C:HEALTH-CONDITION
+suffering from | C:HEALTH-CONDITION
+have suffered from | C:HEALTH-CONDITION
+order to curb the spread of | C:HEALTH-CONDITION
+attempt to curb the spread of | C:HEALTH-CONDITION
+have been hit by | C:HEALTH-CONDITION
+diagnosed in | C:HEALTH-CONDITION
+burials | C:DEATH
+aimed at stopping the spread of | C:HEALTH-CONDITION
+are working together to | C:INTERACTION
+aimed at preventing the spread of | C:HEALTH-CONDITION
+risk of dying from | C:HEALTH-CONDITION
+continues to spread throughout | C:HEALTH-CONDITION
+have tested positive in | C:HEALTH-CONDITION
+quarantined due to | C:HEALTH-CONDITION
+bid to stem the spread of | C:HEALTH-CONDITION
+surfaced in	| C:LOCATION-RELATED
+are experiencing symptoms of | C:HEALTH-CONDITION
+have been registered in | C:LOCATION-RELATED
+quarantined at home | C:HEALTH-CONDITION
+has tested positive to | C:HEALTH-CONDITION
+measures to control the spread of | C:HEALTH-CONDITION
+attempt to slow the spread of | C:HEALTH-CONDITION
+affected by the spread of | C:HEALTH-CONDITION
+had been exposed to | C:HEALTH-CONDITION
+imposed to curb the spread of | C:HEALTH-CONDITION
+will be affected by | C:HEALTH-CONDITION
+order to limit the spread of | C:HEALTH-CONDITION
+attempt to stop the spread of | C:HEALTH-CONDITION
+has now infected more | C:HEALTH-CONDITION
+threats posed by | C:HEALTH-CONDITION
+aimed at limiting the spread of | C:HEALTH-CONDITION
+bid to halt the spread of | C:HEALTH-CONDITION
+halt the spread of | C:HEALTH-CONDITION
+displayed symptoms of | C:HEALTH-CONDITION
+are recovering from | C:HEALTH-CONDITION
+have been diagnosed | C:HEALTH-CONDITION
+measure to curb the spread of | C:HEALTH-CONDITION
+avoid the spread of | C:HEALTH-CONDITION
+curtail the spread of | C:HEALTH-CONDITION
+show symptoms of | C:HEALTH-CONDITION
+have become infected | C:HEALTH-CONDITION
+measures to slow the spread of | C:HEALTH-CONDITION
+have been hospitalised | C:HEALTH-CONDITION
+has been hospitalised | C:HEALTH-CONDITION
+was hospitalised | C:HEALTH-CONDITION
+exhibited symptoms of | C:HEALTH-CONDITION
+has been hard hit by | C:HEALTH-CONDITION
+diagnosed as | C:HEALTH-CONDITION
+had tested positive to | C:HEALTH-CONDITION
+taken to curb the spread of | C:HEALTH-CONDITION
+will be screened for | C:HEALTH-CONDITION
+bid to limit the spread of | C:HEALTH-CONDITION
+measures to limit the spread of | C:HEALTH-CONDITION
+has already infected more | C:HEALTH-CONDITION
+have suffered from | C:HEALTH-CONDITION
+is showing symptoms of | C:HEALTH-CONDITION
+succumb to | C:HEALTH-CONDITION
+measures to stem the spread of | C:HEALTH-CONDITION
+prevent the further spread of | C:HEALTH-CONDITION
+posted a video on | C:CREATION
+have been diagnosed in | C:HEALTH-CONDITION
+have shown symptoms of | C:HEALTH-CONDITION
+attempt to limit the spread of | C:HEALTH-CONDITION
+had not been tested for | C:HEALTH-CONDITION
+had been infected | C:HEALTH-CONDITION
+has tested negative | C:HEALTH-CONDITION
+became ill with | C:HEALTH-CONDITION
+are dying of | C:HEALTH-CONDITION
+have now been tested for | C:HEALTH-CONDITION
+have been laid off due to | C:HEALTH-CONDITION
+have been adversely affected by | C:HEALTH-CONDITION
+protect the health of | C:HEALTH-CONDITION
+treat patients with | C:HEALTH-CONDITION
+help slow the spread of | C:HEALTH-CONDITION
+taken to combat the spread of | C:HEALTH-CONDITION
+have tested positive with | C:HEALTH-CONDITION
+battles the spread of | C:HEALTH-CONDITION
+must go	9can slow the spread of | C:HEALTH-CONDITION
+continues to battle the spread of | C:HEALTH-CONDITION
+aimed at stemming the spread of | C:HEALTH-CONDITION
+affected by the outbreak of | C:HEALTH-CONDITION
+dies | C:HEALTH-CONDITION | C:DEATH
+dies a week after | C:HEALTH-CONDITION | C:DEATH
+dies aboard | C:HEALTH-CONDITION | C:DEATH
+dies after | C:HEALTH-CONDITION | C:DEATH
+dies as | C:HEALTH-CONDITION | C:DEATH
+dies as a result of | C:HEALTH-CONDITION | C:DEATH
+dies at | C:HEALTH-CONDITION | C:DEATH
+dies due to | C:HEALTH-CONDITION | C:DEATH
+dies from complications with | C:HEALTH-CONDITION | C:DEATH
+dies from the virus after | C:HEALTH-CONDITION | C:DEATH
+dies in | C:HEALTH-CONDITION | C:DEATH
+dies in a hospital for | C:HEALTH-CONDITION | C:DEATH
+dies in federal prison of | C:HEALTH-CONDITION | C:DEATH
+dies in hospital from | C:HEALTH-CONDITION | C:DEATH
+dies in hospital | C:HEALTH-CONDITION | C:DEATH
+dies next month from | C:HEALTH-CONDITION | C:DEATH
+dies of | C:HEALTH-CONDITION | C:DEATH
+dies of complications from | C:HEALTH-CONDITION | C:DEATH
+dies out of | C:HEALTH-CONDITION | C:DEATH
+dies suddenly after | C:HEALTH-CONDITION | C:DEATH
+dies within | C:HEALTH-CONDITION | C:DEATH
+discharged from a city hospital | C:HEALTH-CONDITION
+discharged from a hospital on | C:HEALTH-CONDITION
+discharged from a local clinic | C:HEALTH-CONDITION
+discharged from hospital | C:HEALTH-CONDITION
+discharged from hospitals | C:HEALTH-CONDITION
+discharged from the General Hospital | C:HEALTH-CONDITION
+discharged from the hospital | C:HEALTH-CONDITION
+discharged from the hospital | C:HEALTH-CONDITION
+discharged from the isolation | C:HEALTH-CONDITION
+discharged from the National Institute of | C:HEALTH-CONDITION
+discharged from the state isolation centre | C:HEALTH-CONDITION
+disruptions | C:HEALTH-CONDITION
+had shown symptoms of | C:HEALTH-CONDITION
+has shown symptoms of | C:HEALTH-CONDITION
+have shown symptoms of | C:HEALTH-CONDITION
+outlined by | C:STATEMENT
+outlined in | C:STATEMENT
+outlines | C:STATEMENT
+pandemic | C:HEALTH-CONDITION
+epidemic | C:HEALTH-CONDITION
+pandemic | C:NATURAL-DISASTER
+epidemic | C:NATURAL-DISASTER
+die of | C:HEALTH-CONDITION
+claim the lives of | C:HEALTH-CONDITION
+cease fire| C:VIOLENCE-INCIDENT
+jail | C:LAW-RELATED
+work together with | C:INTERACTION
+work together | C:INTERACTION
+worsen | C:HEALTH-CONDITION
+wishes to | C:STATEMENT
+wish to | C:STATEMENT
+wished to | C:STATEMENT
+concerns of | C:STATEMENT
+are implementing | C:CREATION
+won't | C:NONE
+can't | C:NONE
+don't | C:NONE
+won’t | C:NONE
+can’t | C:NONE
+don’t | C:NONE

@@ -1,0 +1,3 @@
+{Cs=5, H=2, kedd=3, vasárnap=1, Sze=4, K=3, szombat=7, V=1, P=6, péntek=6, szerda=4, hétfő=2, Szo=7, csütörtök=5}
+{november=10, július=6, jún.=5, szept.=8, júl.=6, aug.=7, jan.=0, március=2, szeptember=8, máj.=4, február=1, október=9, január=0, december=11, ápr.=3, dec.=11, május=4, nov.=10, április=3, június=5, márc.=2, augusztus=7, febr.=1, okt.=9}
+{DE=0, DU=1}

@@ -1,0 +1,13 @@
+
+match_other:100
+match_other_2:105
+match_other_extended:105
+%match_other_left_something:110
+%match_other_right_something:110
+%match_two_exact_matches_plus_context:110
+guessing: 20
+guessing_2: 20
+guessing_capitalized:20
+%guessing_exp:10
+
+

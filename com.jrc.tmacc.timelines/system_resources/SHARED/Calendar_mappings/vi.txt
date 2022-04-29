@@ -1,0 +1,3 @@
+{Thứ hai=2, Chủ nhật=1, Thứ ba=3, Thứ bảy=7, Th 3=3, Th 2=2, Thứ năm=5, Th 7=7, Thứ tư=4, Thứ sáu=6, Th 6=6, Th 5=5, Th 4=4, CN=1}
+{tháng một=0, tháng năm=4, tháng mười=9, tháng tám=7, thg 3=2, thg 4=3, thg 1=0, thg 2=1, thg 7=6, thg 8=7, tháng sáu=5, thg 5=4, tháng bảy=6, tháng mười hai=11, thg 6=5, tháng ba=2, tháng chín=8, thg 9=8, tháng tư=3, thg 10=9, thg 11=10, thg 12=11, tháng hai=1, tháng mười một=10}
+{CH=1, SA=0}

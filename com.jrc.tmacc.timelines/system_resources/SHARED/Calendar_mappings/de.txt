@@ -1,0 +1,3 @@
+{Freitag=6, Dienstag=3, Mo=2, Sonntag=1, So=1, Do=5, Fr=6, Mi=4, Donnerstag=5, Mittwoch=4, Sa=7, Samstag=7, Di=3, Montag=2}
+{Sep=8, Dez=11, Feb=1, Juni=5, Februar=1, Juli=6, Nov=10, Januar=0, Oktober=9, Mrz=2, Dezember=11, Aug=7, Mai=4, April=3, August=7, Apr=3, November=10, Jan=0, Jul=6, Jun=5, Okt=9, März=2, September=8}
+{PM=1, AM=0}

@@ -1,0 +1,3 @@
+{woensdag=4, maandag=2, wo=4, vr=6, za=7, zaterdag=7, vrijdag=6, dinsdag=3, di=3, ma=2, zondag=1, zo=1, do=5, donderdag=5}
+{juni=5, november=10, apr=3, april=3, augustus=7, januari=0, februari=1, oktober=9, jul=6, jun=5, juli=6, mrt=2, december=11, dec=11, feb=1, maart=2, nov=10, sep=8, jan=0, aug=7, mei=4, okt=9, september=8}
+{PM=1, AM=0}

@@ -1,0 +1,3 @@
+{D=1, marţi=3, L=2, J=5, V=6, Mi=4, luni=2, duminică=1, S=7, vineri=6, joi=5, sâmbătă=7, Ma=3, miercuri=4}
+{Sep=8, aprilie=3, Feb=1, Mar=2, octombrie=9, noiembrie=10, Oct=9, Nov=10, iunie=5, decembrie=11, Aug=7, Mai=4, mai=4, iulie=6, Apr=3, Iul=6, august=7, Ian=0, Iun=5, Dec=11, februarie=1, ianuarie=0, septembrie=8, martie=2}
+{PM=1, AM=0}

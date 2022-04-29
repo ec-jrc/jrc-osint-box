@@ -1,0 +1,3997 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-pt.txt
+# content : PM lexicon for grammatical units (Portuguese)
+# date	  : April 2012
+# author  :  M. Ehrmann
+#**********************************************
+
+
+e | GTYPE>coordination
+
+
+# secretário-geral da ONU / secretário-geral das Nações Unidas
+d[aoe]_   | GTYPE>prep_for_position  
+d[aoe]  | GTYPE>prep_for_position 
+para o    | GTYPE>prep_for_position  
+
+o| GTYPE>article
+os| GTYPE>article
+a| GTYPE>article
+as| GTYPE>article
+um| GTYPE>article
+ums| GTYPE>article
+uma| GTYPE>article
+umas| GTYPE>article#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : location_names-pt.txt
+# content : PM lexicon for Portuguese location names 
+# date	  : March 2012
+# author  : M. Ehrmann
+# *********
+# GTYPE	  	: location
+# GSUBTYPE	: countryName|regionName|provinceName|countryCapital|regionCapital|provinceCapital
+# This file has been produced from data provided by Stefano Bucci
+# original file: locationNamesFromSBucci.txt in /lexiconSourceFiles
+# the loc names in this file had the tag "pt"  in the original one.
+# N.B.: a lot of entries should be in location_names.txt
+#**********************************************
+
+
+Afeganistão | GTYPE>location | SUBTYPE> countryName
+Albânia | GTYPE>location | SUBTYPE> countryName
+Argélia | GTYPE>location | SUBTYPE> countryName
+República de Angola | GTYPE>location | SUBTYPE> countryName
+Antígua e Barbuda | GTYPE>location | SUBTYPE> countryName
+Arménia | GTYPE>location | SUBTYPE> countryName
+Armênia | GTYPE>location | SUBTYPE> countryName
+Austrália | GTYPE>location | SUBTYPE> countryName
+Áustria | GTYPE>location | SUBTYPE> countryName
+Azerbaijão | GTYPE>location | SUBTYPE> countryName
+Bareine | GTYPE>location | SUBTYPE> countryName
+Bahrein | GTYPE>location | SUBTYPE> countryName
+Bielo-Rússia | GTYPE>location | SUBTYPE> countryName
+Bielorrússia | GTYPE>location | SUBTYPE> countryName
+Bélgica | GTYPE>location | SUBTYPE> countryName
+Benim | GTYPE>location | SUBTYPE> countryName
+Bermudas | GTYPE>location | SUBTYPE> countryName
+Butão | GTYPE>location | SUBTYPE> countryName
+Bolívia | GTYPE>location | SUBTYPE> countryName
+Botsuana | GTYPE>location | SUBTYPE> countryName
+Ilha Bouvet | GTYPE>location | SUBTYPE> countryName
+Brasil | GTYPE>location | SUBTYPE> countryName
+República Federativa do Brasil | GTYPE>location | SUBTYPE> countryName
+Território Britânico do Oceano Índico | GTYPE>location | SUBTYPE> countryName
+Ilhas Virgens Britânicas | GTYPE>location | SUBTYPE> countryName
+Bulgária | GTYPE>location | SUBTYPE> countryName
+Burkina Fasso | GTYPE>location | SUBTYPE> countryName
+Burkina Faso | GTYPE>location | SUBTYPE> countryName
+Burquina Faso | GTYPE>location | SUBTYPE> countryName
+Camboja | GTYPE>location | SUBTYPE> countryName
+República dos Camarões | GTYPE>location | SUBTYPE> countryName
+Camarões | GTYPE>location | SUBTYPE> countryName
+Canadá | GTYPE>location | SUBTYPE> countryName
+República de Cabo Verde | GTYPE>location | SUBTYPE> countryName
+Cabo Verde | GTYPE>location | SUBTYPE> countryName
+Ilhas Cayman | GTYPE>location | SUBTYPE> countryName
+República Centro-Africana | GTYPE>location | SUBTYPE> countryName
+Chade | GTYPE>location | SUBTYPE> countryName
+República Popular da China | GTYPE>location | SUBTYPE> countryName
+Ilha Natal | GTYPE>location | SUBTYPE> countryName
+Colômbia | GTYPE>location | SUBTYPE> countryName 
+Comores | GTYPE>location | SUBTYPE> countryName
+Ilhas Comores | GTYPE>location | SUBTYPE> countryName
+Congo | GTYPE>location | SUBTYPE> countryName
+Costa do Marfim | GTYPE>location | SUBTYPE> countryName
+Croácia | GTYPE>location | SUBTYPE> countryName
+Chipre | GTYPE>location | SUBTYPE> countryName
+República Checa | GTYPE>location | SUBTYPE> countryName
+República Tcheca | GTYPE>location | SUBTYPE> countryName
+Coreia do Sul | GTYPE>location | SUBTYPE> countryName
+Coréia, República da | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Coréia, República da)
+Coreia do Norte | GTYPE>location | SUBTYPE> countryName
+Coréia, República Popular Democrática da | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Coréia, República Popular Democrática da)
+Coréia, Norte | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Coréia, Norte)
+Coréia, Sul | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Coréia, Sul)
+Congo, República Democrática do | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Congo, República Democrática do)
+Congo | GTYPE>location | SUBTYPE> countryName
+República Democrática do Congo | GTYPE>location | SUBTYPE> countryName
+Dinamarca | GTYPE>location | SUBTYPE> countryName
+Djibuti | GTYPE>location | SUBTYPE> countryName
+República Dominicana | GTYPE>location | SUBTYPE> countryName
+República Dominicana | GTYPE>location | SUBTYPE> countryName
+Equador | GTYPE>location | SUBTYPE> countryName
+Guiné Equatorial | GTYPE>location | SUBTYPE> countryName
+Eritréia | GTYPE>location | SUBTYPE> countryName
+Eritreia | GTYPE>location | SUBTYPE> countryName
+Estónia | GTYPE>location | SUBTYPE> countryName
+Estônia | GTYPE>location | SUBTYPE> countryName 
+Etiópia | GTYPE>location | SUBTYPE> countryName
+Ilhas Malvinas  | GTYPE>location | SUBTYPE> countryName 
+Ilhas Malvinas (Falkland) | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Ilhas Malvinas \(Falkland\))
+Ilhas Faroé | GTYPE>location | SUBTYPE> countryName
+Ilhas Feroé | GTYPE>location | SUBTYPE> countryName
+Finlândia | GTYPE>location | SUBTYPE> countryName
+França | GTYPE>location | SUBTYPE> countryName
+Guiana Francesa | GTYPE>location | SUBTYPE> countryName
+Gabão | GTYPE>location | SUBTYPE> countryName
+Gâmbia | GTYPE>location | SUBTYPE> countryName
+Geórgia | GTYPE>location | SUBTYPE> countryName
+Alemanha | GTYPE>location | SUBTYPE> countryName
+Gana | GTYPE>location | SUBTYPE> countryName
+Grécia | GTYPE>location | SUBTYPE> countryName
+Gronelândia | GTYPE>location | SUBTYPE> countryName
+Groênlandia | GTYPE>location | SUBTYPE> countryName
+Granada | GTYPE>location | SUBTYPE> countryName
+Guadalupe | GTYPE>location | SUBTYPE> countryName
+Guiné-Bissau | GTYPE>location | SUBTYPE> countryName
+Guiné Bissau | GTYPE>location | SUBTYPE> countryName
+República da Guiné-Bissau | GTYPE>location | SUBTYPE> countryName
+Papua-Nova Guiné | GTYPE>location | SUBTYPE> countryName
+Guiné | GTYPE>location | SUBTYPE> countryName
+Guiana | GTYPE>location | SUBTYPE> countryName
+Ilhas Heard e McDonald | GTYPE>location | SUBTYPE> countryName
+Hungria | GTYPE>location | SUBTYPE> countryName
+Pitcairn | GTYPE>location | SUBTYPE> countryName
+Islândia | GTYPE>location | SUBTYPE> countryName
+Índia | GTYPE>location | SUBTYPE> countryName
+Indonésia | GTYPE>location | SUBTYPE> countryName
+Irã | GTYPE>location | SUBTYPE> countryName
+Irão | GTYPE>location | SUBTYPE> countryName
+Iraque | GTYPE>location | SUBTYPE> countryName
+República da Irlanda | GTYPE>location | SUBTYPE> countryName
+Irlanda | GTYPE>location | SUBTYPE> countryName
+Ilha de Man | GTYPE>location | SUBTYPE> countryName
+Itália | GTYPE>location | SUBTYPE> countryName
+Japão | GTYPE>location | SUBTYPE> countryName
+Jordânia | GTYPE>location | SUBTYPE> countryName
+Cazaquistão | GTYPE>location | SUBTYPE> countryName
+Casaquistão | GTYPE>location | SUBTYPE> countryName
+Quênia | GTYPE>location | SUBTYPE> countryName
+Quénia | GTYPE>location | SUBTYPE> countryName
+Quiribati | GTYPE>location | SUBTYPE> countryName
+Quirguistão | GTYPE>location | SUBTYPE> countryName
+República Democrática Popular de Lao | GTYPE>location | SUBTYPE> countryName
+Letônia | GTYPE>location | SUBTYPE> countryName 
+Letónia | GTYPE>location | SUBTYPE> countryName
+Líbano | GTYPE>location | SUBTYPE> countryName
+Lesoto | GTYPE>location | SUBTYPE> countryName
+Libéria | GTYPE>location | SUBTYPE> countryName
+Líbia Árabe Jamahiriya | GTYPE>location | SUBTYPE> countryName
+Líbia | GTYPE>location | SUBTYPE> countryName
+Lichtenstein | GTYPE>location | SUBTYPE> countryName
+Lituânia | GTYPE>location | SUBTYPE> countryName
+Luxemburgo | GTYPE>location | SUBTYPE> countryName
+Região Administrativa Especial de Macau | GTYPE>location | SUBTYPE> countryName
+Madagáscar | GTYPE>location | SUBTYPE> countryName
+Malauí | GTYPE>location | SUBTYPE> countryName
+Malásia | GTYPE>location | SUBTYPE> countryName
+Maldivas | GTYPE>location | SUBTYPE> countryName
+Ilhas Marshall | GTYPE>location | SUBTYPE> countryName
+IlhasMarshall | GTYPE>location | SUBTYPE> countryName
+Martinica | GTYPE>location | SUBTYPE> countryName
+Mauritânia | GTYPE>location | SUBTYPE> countryName
+Maurício | GTYPE>location | SUBTYPE> countryName
+Maurícia | GTYPE>location | SUBTYPE> countryName
+México | GTYPE>location | SUBTYPE> countryName
+Estados Federados da Micronésia | GTYPE>location | SUBTYPE> countryName
+Micronésia, Estados Federados da | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Micronésia, Estados Federados da)
+Mónaco | GTYPE>location | SUBTYPE> countryName
+Mônaco | GTYPE>location | SUBTYPE> countryName 
+Mongólia | GTYPE>location | SUBTYPE> countryName
+Marrocos | GTYPE>location | SUBTYPE> countryName
+Moçambique | GTYPE>location | SUBTYPE> countryName
+República de Moçambique | GTYPE>location | SUBTYPE> countryName
+Mianmá | GTYPE>location | SUBTYPE> countryName
+Namíbia | GTYPE>location | SUBTYPE> countryName
+Países Baixos | GTYPE>location | SUBTYPE> countryName
+Nova Zelândia | GTYPE>location | SUBTYPE> countryName
+Nicarágua | GTYPE>location | SUBTYPE> countryName
+Níger | GTYPE>location | SUBTYPE> countryName
+Níger | GTYPE>location | SUBTYPE> countryName
+Ilha Norfolk | GTYPE>location | SUBTYPE> countryName
+Marianas Setentrionais | GTYPE>location | SUBTYPE> countryName
+Noruega | GTYPE>location | SUBTYPE> countryName
+Omã | GTYPE>location | SUBTYPE> countryName
+Paquistão | GTYPE>location | SUBTYPE> countryName
+Panamá | GTYPE>location | SUBTYPE> countryName
+Papua-Nova Guiné | GTYPE>location | SUBTYPE> countryName
+Paraguai | GTYPE>location | SUBTYPE> countryName
+Filipinas | GTYPE>location | SUBTYPE> countryName
+Polónia | GTYPE>location | SUBTYPE> countryName
+Polônia | GTYPE>location | SUBTYPE> countryName 
+República Portuguesa | GTYPE>location | SUBTYPE> countryName
+Porto Rico | GTYPE>location | SUBTYPE> countryName
+Catar | GTYPE>location | SUBTYPE> countryName
+Coréia, República da | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Coréia, República da)
+Coreia do Sul | GTYPE>location | SUBTYPE> countryName
+Coréia, Sul | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Coréia, Sul)
+Romênia | GTYPE>location | SUBTYPE> countryName
+Roménia | GTYPE>location | SUBTYPE> countryName
+Rússia | GTYPE>location | SUBTYPE> countryName
+Ruanda | GTYPE>location | SUBTYPE> countryName
+Santa Helena | GTYPE>location | SUBTYPE> countryName
+Saint Kitts e Nevis | GTYPE>location | SUBTYPE> countryName
+São Cristovão e Nevis | GTYPE>location | SUBTYPE> countryName
+São Cristóvão e Nevis | GTYPE>location | SUBTYPE> countryName
+São Cristóvão e Névis | GTYPE>location | SUBTYPE> countryName
+Santa Lúcia | GTYPE>location | SUBTYPE> countryName
+São Vicente e Granadinas | GTYPE>location | SUBTYPE> countryName
+São Vincente e Granadinas | GTYPE>location | SUBTYPE> countryName
+República Democrática de São Tomé e Príncipe | GTYPE>location | SUBTYPE> countryName
+São Tomé e Príncipe | GTYPE>location | SUBTYPE> countryName
+Arábia Saudita | GTYPE>location | SUBTYPE> countryName
+Ilhas Seychelles | GTYPE>location | SUBTYPE> countryName
+Serra Leoa | GTYPE>location | SUBTYPE> countryName
+Singapura | GTYPE>location | SUBTYPE> countryName
+Cingapura | GTYPE>location | SUBTYPE> countryName
+Eslováquia | GTYPE>location | SUBTYPE> countryName
+Eslováquia  | GTYPE>location | SUBTYPE> countryName 
+Eslováquia (República Eslovaca) | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Eslováquia \(República Eslovaca\))
+Eslovénia | GTYPE>location | SUBTYPE> countryName
+Eslovênia | GTYPE>location | SUBTYPE> countryName
+Ilhas Salomão | GTYPE>location | SUBTYPE> countryName
+Somália | GTYPE>location | SUBTYPE> countryName
+África do Sul | GTYPE>location | SUBTYPE> countryName
+Espanha | GTYPE>location | SUBTYPE> countryName
+Suazilândia | GTYPE>location | SUBTYPE> countryName
+Suécia | GTYPE>location | SUBTYPE> countryName
+Suíça | GTYPE>location | SUBTYPE> countryName
+Síria | GTYPE>location | SUBTYPE> countryName
+Tadjiquistão | GTYPE>location | SUBTYPE> countryName
+Tajiquistão | GTYPE>location | SUBTYPE> countryName
+Tailândia | GTYPE>location | SUBTYPE> countryName
+Macedónia | GTYPE>location | SUBTYPE> countryName
+Macedônia, República da | GTYPE>location | SUBTYPE> countryName 
+República da Macedónia | GTYPE>location | SUBTYPE> countryName
+Timor Leste | GTYPE>location | SUBTYPE> countryName
+Timor-Leste | GTYPE>location | SUBTYPE> countryName
+Toquelau | GTYPE>location | SUBTYPE> countryName
+Trindade e Tobago | GTYPE>location | SUBTYPE> countryName
+Trinidad e Tobago | GTYPE>location | SUBTYPE> countryName
+Tunísia | GTYPE>location | SUBTYPE> countryName
+Turquia | GTYPE>location | SUBTYPE> countryName
+Turcomenistão | GTYPE>location | SUBTYPE> countryName
+Turquemenistão | GTYPE>location | SUBTYPE> countryName
+Ucrânia | GTYPE>location | SUBTYPE> countryName
+Emiratos Árabes Unidos | GTYPE>location | SUBTYPE> countryName
+Emirados Árabes Unidos | GTYPE>location | SUBTYPE> countryName
+Reino Unido | GTYPE>location | SUBTYPE> countryName
+Tanzânia | GTYPE>location | SUBTYPE> countryName
+Ilhas Virgens  | GTYPE>location | SUBTYPE> countryName 
+Ilhas Virgens (EUA) | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Ilhas Virgens \(EUA\))
+Estados Unidos | GTYPE>location | SUBTYPE> countryName
+Uruguai | GTYPE>location | SUBTYPE> countryName
+Uzbequistão | GTYPE>location | SUBTYPE> countryName
+Vietname | GTYPE>location | SUBTYPE> countryName
+Vietnã | GTYPE>location | SUBTYPE> countryName
+Saara Ocidental | GTYPE>location | SUBTYPE> countryName
+Iêmen | GTYPE>location | SUBTYPE> countryName
+Iémen | GTYPE>location | SUBTYPE> countryName
+Zâmbia | GTYPE>location | SUBTYPE> countryName
+Zimbábwe | GTYPE>location | SUBTYPE> countryName
+Sérvia | GTYPE>location | SUBTYPE> countryName
+Sudão | GTYPE>location | SUBTYPE> countryName
+Egito | GTYPE>location | SUBTYPE> countryName
+Egipto | GTYPE>location | SUBTYPE> countryName
+Moldávia | GTYPE>location | SUBTYPE> countryName
+Moldova, República de | GTYPE>location | SUBTYPE> countryName | STRICT > (?i:Moldova, República de)
+Reunião | GTYPE>location | SUBTYPE> countryName
+Bósnia-Herzegovina | GTYPE>location | SUBTYPE> countryName
+Bósnia-Herzegóvina | GTYPE>location | SUBTYPE> countryName
+Ilhas Cook | GTYPE>location | SUBTYPE> countryName
+Palestina | GTYPE>location | SUBTYPE> countryName
+Porto Luís | GTYPE>location | SUBTYPE> countryCapital
+Montevidéu | GTYPE>location | SUBTYPE> countryCapital
+Montevideu | GTYPE>location | SUBTYPE> countryCapital
+Bruxelas | GTYPE>location | SUBTYPE> countryCapital
+Nova Zagora | GTYPE>location | SUBTYPE> provinceCapital
+Uagadugu | GTYPE>location | SUBTYPE> countryCapital
+Lourenço Marques | GTYPE>location | SUBTYPE> countryCapital
+Mogadixo | GTYPE>location | SUBTYPE> countryCapital
+Modagoxo | GTYPE>location | SUBTYPE> countryCapital
+Mogadíscio | GTYPE>location | SUBTYPE> countryCapital
+Camberra | GTYPE>location | SUBTYPE> countryCapital
+Tbilisse | GTYPE>location | SUBTYPE> countryCapital
+Tbilissi | GTYPE>location | SUBTYPE> countryCapital
+Berlim | GTYPE>location | SUBTYPE> countryCapital
+Islamabade | GTYPE>location | SUBTYPE> countryCapital
+Islamabade | GTYPE>location | SUBTYPE> countryCapital
+Islamabade | GTYPE>location | SUBTYPE> countryCapital
+Díli | GTYPE>location | SUBTYPE> countryCapital
+Beirute | GTYPE>location | SUBTYPE> countryCapital
+Andorra-a-Velha | GTYPE>location | SUBTYPE> countryCapital
+Andorra a Velha | GTYPE>location | SUBTYPE> countryCapital
+Viena | GTYPE>location | SUBTYPE> countryCapital
+Budapeste | GTYPE>location | SUBTYPE> countryCapital
+Trípoli | GTYPE>location | SUBTYPE> regionCapital
+Trípolis | GTYPE>location | SUBTYPE> regionCapital
+Harare fi | GTYPE>location | SUBTYPE> countryCapital
+Reiquiavique | GTYPE>location | SUBTYPE> countryCapital
+Reiquejavique | GTYPE>location | SUBTYPE> countryCapital
+Porto Morsbi | GTYPE>location | SUBTYPE> countryCapital
+Moscovo | GTYPE>location | SUBTYPE> countryCapital
+Erevão | GTYPE>location | SUBTYPE> countryCapital
+Erevão | GTYPE>location | SUBTYPE> countryCapital
+Bamaco | GTYPE>location | SUBTYPE> countryCapital
+São João | GTYPE>location | SUBTYPE> countryCapital
+Adem | GTYPE>location | SUBTYPE> regionCapital
+Quigali | GTYPE>location | SUBTYPE> countryCapital
+Damasco | GTYPE>location | SUBTYPE> countryCapital
+Santiago do Chile | GTYPE>location | SUBTYPE> countryCapital
+Quinxassa | GTYPE>location | SUBTYPE> countryCapital
+Quinxassa | GTYPE>location | SUBTYPE> countryCapital
+São Domingos | GTYPE>location | SUBTYPE> countryCapital
+Bucarest | GTYPE>location | SUBTYPE> countryCapital 
+Bucarest(e) | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Bucarest\(e\))
+Bucareste | GTYPE>location | SUBTYPE> countryCapital
+Tachkent | GTYPE>location | SUBTYPE> countryCapital
+Nuakchott | GTYPE>location | SUBTYPE> countryCapital
+o Cairo | GTYPE>location | SUBTYPE> countryCapital
+Cualalumpur | GTYPE>location | SUBTYPE> countryCapital
+Nova Déli | GTYPE>location | SUBTYPE> countryCapital
+Nova Deli | GTYPE>location | SUBTYPE> countryCapital
+Nova Delí | GTYPE>location | SUBTYPE> countryCapital
+Nova Délhi | GTYPE>location | SUBTYPE> countryCapital
+Nova Délhi | GTYPE>location | SUBTYPE> countryCapital
+Sófia | GTYPE>location | SUBTYPE> countryCapital
+Dublim | GTYPE>location | SUBTYPE> countryCapital
+Trípoli | GTYPE>location | SUBTYPE> countryCapital
+Genebra | GTYPE>location | SUBTYPE> regionCapital
+Valeta | GTYPE>location | SUBTYPE> countryCapital
+Funchal | GTYPE>location | SUBTYPE> provinceCapital
+Praga | GTYPE>location | SUBTYPE> countryCapital
+Mascate | GTYPE>location | SUBTYPE> countryCapital
+Antuérpia | GTYPE>location | SUBTYPE> regionCapital
+Rebate | GTYPE>location | SUBTYPE> countryCapital
+Catmandu | GTYPE>location | SUBTYPE> countryCapital
+Conacri | GTYPE>location | SUBTYPE> countryCapital
+Beira | GTYPE>location | SUBTYPE> regionCapital
+Vienciana | GTYPE>location | SUBTYPE> countryCapital
+Manágua | GTYPE>location | SUBTYPE> countryCapital
+Monróvia | GTYPE>location | SUBTYPE> countryCapital
+Dacar | GTYPE>location | SUBTYPE> countryCapital
+Tânger | GTYPE>location | SUBTYPE> regionCapital
+Parque Nacional de Victoria Falls | GTYPE>location | SUBTYPE> provinceCapital
+Porto Príncipe | GTYPE>location | SUBTYPE> countryCapital
+Yamusukro | GTYPE>location | SUBTYPE> countryCapital
+Lusaca | GTYPE>location | SUBTYPE> countryCapital
+Jacarta | GTYPE>location | SUBTYPE> countryCapital
+Manaus | GTYPE>location | SUBTYPE> regionCapital
+Gênova | GTYPE>location | SUBTYPE> regionCapital
+Campala | GTYPE>location | SUBTYPE> countryCapital
+Pretória | GTYPE>location | SUBTYPE> countryCapital
+Vílnio | GTYPE>location | SUBTYPE> countryCapital
+Município da Praia | GTYPE>location | SUBTYPE> countryCapital
+Rangum | GTYPE>location | SUBTYPE> countryCapital
+Santa Maria de Belém | GTYPE>location | SUBTYPE> countryCapital
+Belém | GTYPE>location | SUBTYPE> countryCapital
+Cartum | GTYPE>location | SUBTYPE> countryCapital
+Duchambé | GTYPE>location | SUBTYPE> countryCapital
+Bagodá | GTYPE>location | SUBTYPE> countryCapital
+Bagdade | GTYPE>location | SUBTYPE> countryCapital
+Bagdá | GTYPE>location | SUBTYPE> countryCapital
+Carachi | GTYPE>location | SUBTYPE> regionCapital
+Teerã | GTYPE>location | SUBTYPE> countryCapital 
+Teerã(n) | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Teerã\(n\))
+Teerã | GTYPE>location | SUBTYPE> countryCapital
+Teerão | GTYPE>location | SUBTYPE> countryCapital
+Teerãn | GTYPE>location | SUBTYPE> countryCapital
+Acra | GTYPE>location | SUBTYPE> countryCapital
+Cidade do México | GTYPE>location | SUBTYPE> countryCapital
+Huambo | GTYPE>location | SUBTYPE> regionCapital
+Abijão | GTYPE>location | SUBTYPE> regionCapital
+Banguecoque | GTYPE>location | SUBTYPE> countryCapital
+Banguecoque | GTYPE>location | SUBTYPE> countryCapital
+Hanói | GTYPE>location | SUBTYPE> countryCapital
+Tuyen Kuang | GTYPE>location | SUBTYPE> countryCapital
+Timbu | GTYPE>location | SUBTYPE> countryCapital
+Pnom Penh | GTYPE>location | SUBTYPE> countryCapital
+Iaundé | GTYPE>location | SUBTYPE> countryCapital
+Jaunde | GTYPE>location | SUBTYPE> countryCapital
+Bombaim | GTYPE>location | SUBTYPE> regionCapital
+Pequim | GTYPE>location | SUBTYPE> countryCapital
+Amã | GTYPE>location | SUBTYPE> countryCapital
+Ámon | GTYPE>location | SUBTYPE> countryCapital
+Vindoque | GTYPE>location | SUBTYPE> countryCapital
+Cabul | GTYPE>location | SUBTYPE> countryCapital
+Daca | GTYPE>location | SUBTYPE> countryCapital
+Casa Branca | GTYPE>location | SUBTYPE> regionCapital
+Rio | GTYPE>location | SUBTYPE> regionCapital
+Rio de Janeiro  | GTYPE>location | SUBTYPE> regionCapital 
+Rio de Janeiro (Rio de Janeiro) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Rio de Janeiro \(Rio de Janeiro\))
+Rio de Janeiro  | GTYPE>location | SUBTYPE> regionCapital 
+Rio de Janeiro (cidade) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Rio de Janeiro \(cidade\))
+Caiena | GTYPE>location | SUBTYPE> countryCapital
+Porto | GTYPE>location | SUBTYPE> regionCapital
+Edimburgo | GTYPE>location | SUBTYPE> regionCapital
+Setúbal | GTYPE>location | SUBTYPE> provinceCapital
+Ancara | GTYPE>location | SUBTYPE> countryCapital
+Elvas | GTYPE>location | SUBTYPE> provinceCapital
+São Salvador | GTYPE>location | SUBTYPE> countryCapital
+Coimbra | GTYPE>location | SUBTYPE> regionCapital
+Túnis | GTYPE>location | SUBTYPE> countryCapital
+Tunes | GTYPE>location | SUBTYPE> countryCapital
+Liubliana | GTYPE>location | SUBTYPE> countryCapital
+Londres | GTYPE>location | SUBTYPE> countryCapital
+(Los) Ângeles | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:(Los) Ângeles)
+Estocolmo | GTYPE>location | SUBTYPE> countryCapital
+Tóquio | GTYPE>location | SUBTYPE> countryCapital
+Argel | GTYPE>location | SUBTYPE> countryCapital
+Otava | GTYPE>location | SUBTYPE> countryCapital
+Nova Iorque | GTYPE>location | SUBTYPE> regionCapital
+Nova Iorque  | GTYPE>location | SUBTYPE> regionCapital 
+Nova Iorque (Estado) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Nova Iorque \(Estado\))
+Veracruz  | GTYPE>location | SUBTYPE> regionCapital 
+Veracruz (cidade) | GTYPE>location | SUBTYPE> regionCapital | STRICT > (?i:Veracruz \(cidade\))
+Curitiba | GTYPE>location | SUBTYPE> regionCapital
+Belém | GTYPE>location | SUBTYPE> regionCapital
+Pará | GTYPE>location | SUBTYPE> regionCapital
+Recife | GTYPE>location | SUBTYPE> regionCapital
+Pôrto Alegre | GTYPE>location | SUBTYPE> regionCapital 
+Goiânia | GTYPE>location | SUBTYPE> regionCapital
+Atenas | GTYPE>location | SUBTYPE> countryCapital
+Kolonia | GTYPE>location | SUBTYPE> countryCapital
+Mónaco | GTYPE>location | SUBTYPE> countryCapital
+Saint George.s | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Saint George\.s)
+Singapura | GTYPE>location | SUBTYPE> countryCapital
+Madri | GTYPE>location | SUBTYPE> countryCapital
+Basiléia | GTYPE>location | SUBTYPE> regionCapital
+Gyumri | GTYPE>location | SUBTYPE> provinceCapital
+Milão | GTYPE>location | SUBTYPE> regionCapital
+Puebla | GTYPE>location | SUBTYPE> regionCapital
+Abreu e Lima | GTYPE>location | SUBTYPE> provinceCapital
+Fujieda | GTYPE>location | SUBTYPE> provinceCapital
+Assunção | GTYPE>location | SUBTYPE> countryCapital
+Sabae | GTYPE>location | SUBTYPE> provinceCapital
+Calhau | GTYPE>location | SUBTYPE> regionCapital
+San Pedro de Macorís | GTYPE>location | SUBTYPE> provinceCapital
+Nuremberg | GTYPE>location | SUBTYPE> regionCapital
+Nuremberga | GTYPE>location | SUBTYPE> regionCapital
+Hanói | GTYPE>location | SUBTYPE> countryCapital
+Butare | GTYPE>location | SUBTYPE> provinceCapital
+Tosu | GTYPE>location | SUBTYPE> provinceCapital
+Gentofte | GTYPE>location | SUBTYPE> provinceCapital
+Yonezawa | GTYPE>location | SUBTYPE> provinceCapital
+San Miguel de Tucumán | GTYPE>location | SUBTYPE> provinceCapital
+Mobara | GTYPE>location | SUBTYPE> provinceCapital
+Handa | GTYPE>location | SUBTYPE> provinceCapital
+Seto | GTYPE>location | SUBTYPE> provinceCapital
+Kristiansund | GTYPE>location | SUBTYPE> provinceCapital
+Filadélfia | GTYPE>location | SUBTYPE> regionCapital
+Fukuchiyama | GTYPE>location | SUBTYPE> provinceCapital
+Hiratsuka | GTYPE>location | SUBTYPE> provinceCapital
+Veracruz | GTYPE>location | SUBTYPE> regionCapital
+Tsuyama | GTYPE>location | SUBTYPE> provinceCapital
+Chesapeake | GTYPE>location | SUBTYPE> regionCapital
+Yukuhashi | GTYPE>location | SUBTYPE> provinceCapital
+Lynchburg | GTYPE>location | SUBTYPE> provinceCapital
+Niitsu | GTYPE>location | SUBTYPE> provinceCapital
+Santos | GTYPE>location | SUBTYPE> regionCapital
+São Marino | GTYPE>location | SUBTYPE> countryCapital
+Irbid | GTYPE>location | SUBTYPE> provinceCapital
+Nicósia | GTYPE>location | SUBTYPE> countryCapital
+Salzburgo | GTYPE>location | SUBTYPE> regionCapital
+Porto de Espanha | GTYPE>location | SUBTYPE> countryCapital
+Trípoli | GTYPE>location | SUBTYPE> countryCapital
+Trípolis | GTYPE>location | SUBTYPE> countryCapital
+Numazu | GTYPE>location | SUBTYPE> provinceCapital
+Porlamar | GTYPE>location | SUBTYPE> provinceCapital
+Sauda | GTYPE>location | SUBTYPE> provinceCapital
+Semarang | GTYPE>location | SUBTYPE> regionCapital
+Esmirna | GTYPE>location | SUBTYPE> regionCapital
+Sandefjord | GTYPE>location | SUBTYPE> provinceCapital
+Trebizonda | GTYPE>location | SUBTYPE> regionCapital
+Estetino | GTYPE>location | SUBTYPE> regionCapital
+Amatitlán | GTYPE>location | SUBTYPE> provinceCapital
+Kaduna | GTYPE>location | SUBTYPE> provinceCapital
+Ibadan | GTYPE>location | SUBTYPE> regionCapital
+Takefu | GTYPE>location | SUBTYPE> provinceCapital
+Hanamaki | GTYPE>location | SUBTYPE> provinceCapital
+Kanoya | GTYPE>location | SUBTYPE> provinceCapital
+São Paulo | GTYPE>location | SUBTYPE> regionCapital
+Sao Paolo | GTYPE>location | SUBTYPE> regionCapital
+Suffolk | GTYPE>location | SUBTYPE> provinceCapital
+Onomichi | GTYPE>location | SUBTYPE> provinceCapital
+Hortolândia | GTYPE>location | SUBTYPE> provinceCapital
+Guacara | GTYPE>location | SUBTYPE> provinceCapital
+Bona | GTYPE>location | SUBTYPE> regionCapital
+Nápoles | GTYPE>location | SUBTYPE> regionCapital
+Kitwe | GTYPE>location | SUBTYPE> provinceCapital
+Escuintla | GTYPE>location | SUBTYPE> provinceCapital
+Mandal | GTYPE>location | SUBTYPE> provinceCapital
+Port Harcourt | GTYPE>location | SUBTYPE> provinceCapital
+Monterrei | GTYPE>location | SUBTYPE> regionCapital
+Niigata | GTYPE>location | SUBTYPE> regionCapital
+Mandurah | GTYPE>location | SUBTYPE> provinceCapital
+Fujinomiya | GTYPE>location | SUBTYPE> provinceCapital
+Itumbiara | GTYPE>location | SUBTYPE> provinceCapital
+São Bento do Sul | GTYPE>location | SUBTYPE> provinceCapital
+Mamudzu | GTYPE>location | SUBTYPE> countryCapital
+Achgabad | GTYPE>location | SUBTYPE> countryCapital
+Machala | GTYPE>location | SUBTYPE> provinceCapital
+Mahdia | GTYPE>location | SUBTYPE> provinceCapital
+Bichkek | GTYPE>location | SUBTYPE> countryCapital
+Santa Rosa | GTYPE>location | SUBTYPE> provinceCapital
+Corrientes | GTYPE>location | SUBTYPE> provinceCapital
+Hamburgo | GTYPE>location | SUBTYPE> regionCapital
+Montego Bay | GTYPE>location | SUBTYPE> provinceCapital
+Zugo | GTYPE>location | SUBTYPE> provinceCapital
+Dar es Salaam | GTYPE>location | SUBTYPE> regionCapital
+Benguela | GTYPE>location | SUBTYPE> regionCapital
+Aitos | GTYPE>location | SUBTYPE> provinceCapital
+Acarigua | GTYPE>location | SUBTYPE> provinceCapital
+Lubango | GTYPE>location | SUBTYPE> provinceCapital
+San Cristóbal | GTYPE>location | SUBTYPE> regionCapital
+Zárate | GTYPE>location | SUBTYPE> provinceCapital
+Maizuru | GTYPE>location | SUBTYPE> provinceCapital
+Macon | GTYPE>location | SUBTYPE> provinceCapital
+Tapachula | GTYPE>location | SUBTYPE> provinceCapital
+Parnamirim | GTYPE>location | SUBTYPE> provinceCapital
+São Salvador | GTYPE>location | SUBTYPE> regionCapital
+Bahia | GTYPE>location | SUBTYPE> regionCapital
+Salvador | GTYPE>location | SUBTYPE> regionCapital
+Malaca | GTYPE>location | SUBTYPE> provinceCapital
+Bacu | GTYPE>location | SUBTYPE> countryCapital
+Praia da luz | GTYPE>location | SUBTYPE> regionCapital
+Mutare | GTYPE>location | SUBTYPE> provinceCapital
+Samarcanda | GTYPE>location | SUBTYPE> regionCapital
+Cienfuegos | GTYPE>location | SUBTYPE> provinceCapital
+Novo Mesto | GTYPE>location | SUBTYPE> provinceCapital
+Manta | GTYPE>location | SUBTYPE> provinceCapital
+Erzurum | GTYPE>location | SUBTYPE> regionCapital
+Mérida | GTYPE>location | SUBTYPE> provinceCapital
+Surakarta | GTYPE>location | SUBTYPE> provinceCapital
+Namsos | GTYPE>location | SUBTYPE> provinceCapital
+Wollongong | GTYPE>location | SUBTYPE> provinceCapital
+Sciaffusa | GTYPE>location | SUBTYPE> provinceCapital
+Catmandu | GTYPE>location | SUBTYPE> countryCapital
+Kitchener | GTYPE>location | SUBTYPE> provinceCapital
+Clarksville | GTYPE>location | SUBTYPE> provinceCapital
+Sarnia | GTYPE>location | SUBTYPE> provinceCapital
+Cáli | GTYPE>location | SUBTYPE> regionCapital
+Monte Carmelo | GTYPE>location | SUBTYPE> provinceCapital
+Bento Gonçalves | GTYPE>location | SUBTYPE> provinceCapital
+Leme | GTYPE>location | SUBTYPE> provinceCapital
+Nemuro | GTYPE>location | SUBTYPE> provinceCapital
+Jundiaí | GTYPE>location | SUBTYPE> provinceCapital
+Basse-Terre | GTYPE>location | SUBTYPE> countryCapital
+Jacmel | GTYPE>location | SUBTYPE> provinceCapital
+Mandalay | GTYPE>location | SUBTYPE> regionCapital
+Wichita Falls | GTYPE>location | SUBTYPE> provinceCapital
+Embu | GTYPE>location | SUBTYPE> provinceCapital
+León | GTYPE>location | SUBTYPE> provinceCapital
+Viborg | GTYPE>location | SUBTYPE> provinceCapital
+Larvik | GTYPE>location | SUBTYPE> provinceCapital
+Maiduguri | GTYPE>location | SUBTYPE> regionCapital
+Três Lagoas | GTYPE>location | SUBTYPE> provinceCapital
+Sandnes | GTYPE>location | SUBTYPE> provinceCapital
+Surabaia | GTYPE>location | SUBTYPE> regionCapital
+Murfreesboro | GTYPE>location | SUBTYPE> provinceCapital
+Okayama | GTYPE>location | SUBTYPE> regionCapital
+São Miguel das Missões | GTYPE>location | SUBTYPE> provinceCapital
+São Borja | GTYPE>location | SUBTYPE> provinceCapital
+Barretos | GTYPE>location | SUBTYPE> provinceCapital
+Dudelange | GTYPE>location | SUBTYPE> provinceCapital
+Juárez | GTYPE>location | SUBTYPE> provinceCapital
+Maracaibo | GTYPE>location | SUBTYPE> regionCapital
+Odessa | GTYPE>location | SUBTYPE> provinceCapital
+Bryan | GTYPE>location | SUBTYPE> provinceCapital
+College Station | GTYPE>location | SUBTYPE> provinceCapital
+Deli | GTYPE>location | SUBTYPE> countryCapital
+San Juan de Los Morros | GTYPE>location | SUBTYPE> provinceCapital
+London | GTYPE>location | SUBTYPE> provinceCapital
+Camagüey | GTYPE>location | SUBTYPE> provinceCapital
+Bariloche | GTYPE>location | SUBTYPE> provinceCapital
+Helsínquia | GTYPE>location | SUBTYPE> countryCapital
+Helsinque | GTYPE>location | SUBTYPE> countryCapital
+Ambato | GTYPE>location | SUBTYPE> provinceCapital
+Coulão | GTYPE>location | SUBTYPE> provinceCapital
+Dehri | GTYPE>location | SUBTYPE> provinceCapital
+Marshall | GTYPE>location | SUBTYPE> provinceCapital
+Baghlan | GTYPE>location | SUBTYPE> provinceCapital
+San Pedro Sula | GTYPE>location | SUBTYPE> provinceCapital
+Valência | GTYPE>location | SUBTYPE> regionCapital
+Ballarat | GTYPE>location | SUBTYPE> provinceCapital
+Longview | GTYPE>location | SUBTYPE> provinceCapital
+San Angelo | GTYPE>location | SUBTYPE> provinceCapital
+São Luís | GTYPE>location | SUBTYPE> regionCapital
+Beaumont | GTYPE>location | SUBTYPE> provinceCapital
+Holland | GTYPE>location | SUBTYPE> provinceCapital
+Ciudad Guayana | GTYPE>location | SUBTYPE> provinceCapital
+Granada | GTYPE>location | SUBTYPE> provinceCapital
+Huaraz | GTYPE>location | SUBTYPE> provinceCapital
+Kennewick | GTYPE>location | SUBTYPE> provinceCapital
+Soleura | GTYPE>location | SUBTYPE> provinceCapital
+Jamena | GTYPE>location | SUBTYPE> countryCapital
+Gardiz | GTYPE>location | SUBTYPE> provinceCapital
+Toledo | GTYPE>location | SUBTYPE> provinceCapital
+fpolis | GTYPE>location | SUBTYPE> provinceCapital
+Limeira | GTYPE>location | SUBTYPE> provinceCapital
+Stellenbosch | GTYPE>location | SUBTYPE> provinceCapital
+Gotemburgo | GTYPE>location | SUBTYPE> regionCapital
+Karlovo | GTYPE>location | SUBTYPE> provinceCapital
+Cananor | GTYPE>location | SUBTYPE> provinceCapital
+Decatur | GTYPE>location | SUBTYPE> provinceCapital
+León | GTYPE>location | SUBTYPE> provinceCapital
+Cumaná | GTYPE>location | SUBTYPE> provinceCapital
+São Mateus | GTYPE>location | SUBTYPE> provinceCapital
+Tumbes | GTYPE>location | SUBTYPE> provinceCapital
+Pérgamo | GTYPE>location | SUBTYPE> provinceCapital
+Antália | GTYPE>location | SUBTYPE> regionCapital
+Cartagena das Índias | GTYPE>location | SUBTYPE> provinceCapital
+Aruppukkottai | GTYPE>location | SUBTYPE> provinceCapital
+Monfalcone | GTYPE>location | SUBTYPE> provinceCapital
+Bamenda | GTYPE>location | SUBTYPE> provinceCapital
+Killeen | GTYPE>location | SUBTYPE> provinceCapital
+Bogor | GTYPE>location | SUBTYPE> provinceCapital
+Cabimas | GTYPE>location | SUBTYPE> provinceCapital
+Racine | GTYPE>location | SUBTYPE> provinceCapital
+Youngstown | GTYPE>location | SUBTYPE> provinceCapital
+Lake Charles | GTYPE>location | SUBTYPE> provinceCapital
+Concordia | GTYPE>location | SUBTYPE> provinceCapital
+Barcelona | GTYPE>location | SUBTYPE> provinceCapital
+Dolisie | GTYPE>location | SUBTYPE> provinceCapital
+Banff | GTYPE>location | SUBTYPE> provinceCapital
+Lampang | GTYPE>location | SUBTYPE> provinceCapital
+Joanesburgo | GTYPE>location | SUBTYPE> regionCapital
+Santa Croce Camerina | GTYPE>location | SUBTYPE> provinceCapital
+Pozzallo | GTYPE>location | SUBTYPE> provinceCapital
+Abancay | GTYPE>location | SUBTYPE> provinceCapital
+Sparks | GTYPE>location | SUBTYPE> provinceCapital
+Elizabeth | GTYPE>location | SUBTYPE> provinceCapital
+Tarija | GTYPE>location | SUBTYPE> provinceCapital
+Concepción del Uruguay | GTYPE>location | SUBTYPE> provinceCapital
+East Orange | GTYPE>location | SUBTYPE> provinceCapital
+North Charleston | GTYPE>location | SUBTYPE> provinceCapital
+Gainesville | GTYPE>location | SUBTYPE> provinceCapital
+Scranton | GTYPE>location | SUBTYPE> provinceCapital
+Friburgo | GTYPE>location | SUBTYPE> provinceCapital
+Puerto Ayacucho | GTYPE>location | SUBTYPE> provinceCapital
+Santarcangelo di Romagna | GTYPE>location | SUBTYPE> provinceCapital
+Riccione | GTYPE>location | SUBTYPE> provinceCapital
+Rosário | GTYPE>location | SUBTYPE> regionCapital
+Erie | GTYPE>location | SUBTYPE> provinceCapital
+Medford | GTYPE>location | SUBTYPE> provinceCapital
+Crato | GTYPE>location | SUBTYPE> provinceCapital
+Arzila | GTYPE>location | SUBTYPE> provinceCapital
+Tucupita | GTYPE>location | SUBTYPE> provinceCapital
+Metairie | GTYPE>location | SUBTYPE> provinceCapital
+Piracicaba | GTYPE>location | SUBTYPE> provinceCapital
+Santa Fé | GTYPE>location | SUBTYPE> regionCapital
+Shantou | GTYPE>location | SUBTYPE> provinceCapital
+Elgin | GTYPE>location | SUBTYPE> provinceCapital
+Clifton | GTYPE>location | SUBTYPE> provinceCapital
+Medicine Hat | GTYPE>location | SUBTYPE> provinceCapital
+Sambhal | GTYPE>location | SUBTYPE> provinceCapital
+Quieve | GTYPE>location | SUBTYPE> countryCapital
+Bilbau | GTYPE>location | SUBTYPE> regionCapital
+Buéa | GTYPE>location | SUBTYPE> provinceCapital
+Kuito | GTYPE>location | SUBTYPE> provinceCapital
+Hayward | GTYPE>location | SUBTYPE> provinceCapital
+Artigas | GTYPE>location | SUBTYPE> provinceCapital
+Bethlehem | GTYPE>location | SUBTYPE> provinceCapital
+Troina | GTYPE>location | SUBTYPE> provinceCapital
+Nicosia | GTYPE>location | SUBTYPE> provinceCapital
+Leonforte | GTYPE>location | SUBTYPE> provinceCapital
+Piazza Armerina | GTYPE>location | SUBTYPE> provinceCapital
+Pietraperzia | GTYPE>location | SUBTYPE> provinceCapital
+Bloomington | GTYPE>location | SUBTYPE> provinceCapital
+Bellingham | GTYPE>location | SUBTYPE> provinceCapital
+Harlingen | GTYPE>location | SUBTYPE> provinceCapital
+Jeju | GTYPE>location | SUBTYPE> provinceCapital
+Pointe-Noire | GTYPE>location | SUBTYPE> regionCapital
+Agadèz | GTYPE>location | SUBTYPE> regionCapital
+Mazzarino | GTYPE>location | SUBTYPE> provinceCapital
+San Cataldo | GTYPE>location | SUBTYPE> provinceCapital
+Mussomeli | GTYPE>location | SUBTYPE> provinceCapital
+Fivizzano | GTYPE>location | SUBTYPE> provinceCapital
+Aulla | GTYPE>location | SUBTYPE> provinceCapital
+Surrey | GTYPE>location | SUBTYPE> provinceCapital
+Bendigo | GTYPE>location | SUBTYPE> provinceCapital
+bendigo | GTYPE>location | SUBTYPE> provinceCapital
+Huánuco | GTYPE>location | SUBTYPE> provinceCapital
+Longmont | GTYPE>location | SUBTYPE> provinceCapital
+Vancouver | GTYPE>location | SUBTYPE> provinceCapital
+Francavilla Fontana | GTYPE>location | SUBTYPE> provinceCapital
+San Pancrazio Salentino | GTYPE>location | SUBTYPE> provinceCapital
+Fasano | GTYPE>location | SUBTYPE> provinceCapital
+Latiano | GTYPE>location | SUBTYPE> provinceCapital
+Mesagne | GTYPE>location | SUBTYPE> provinceCapital
+San Pietro Vernotico | GTYPE>location | SUBTYPE> provinceCapital
+Ostuni | GTYPE>location | SUBTYPE> provinceCapital
+Carovigno | GTYPE>location | SUBTYPE> provinceCapital
+Cisternino | GTYPE>location | SUBTYPE> provinceCapital
+Cidade do Cabo | GTYPE>location | SUBTYPE> regionCapital
+Sunnyvale | GTYPE>location | SUBTYPE> provinceCapital
+Mercedes | GTYPE>location | SUBTYPE> provinceCapital
+Santa Rosa | GTYPE>location | SUBTYPE> provinceCapital
+Irving | GTYPE>location | SUBTYPE> regionCapital
+Provo | GTYPE>location | SUBTYPE> regionCapital
+Sarasota | GTYPE>location | SUBTYPE> provinceCapital
+Chiclayo | GTYPE>location | SUBTYPE> regionCapital
+Barquisimeto | GTYPE>location | SUBTYPE> regionCapital
+Quelimane | GTYPE>location | SUBTYPE> provinceCapital
+Henderson | GTYPE>location | SUBTYPE> regionCapital
+Zigong | GTYPE>location | SUBTYPE> provinceCapital
+Clearwater | GTYPE>location | SUBTYPE> provinceCapital
+Port Laoise | GTYPE>location | SUBTYPE> provinceCapital
+Qom | GTYPE>location | SUBTYPE> provinceCapital
+Paraná | GTYPE>location | SUBTYPE> provinceCapital
+Álvaro | GTYPE>location | SUBTYPE> provinceCapital
+Cape Coral | GTYPE>location | SUBTYPE> provinceCapital
+Lerici | GTYPE>location | SUBTYPE> provinceCapital
+Sarzana | GTYPE>location | SUBTYPE> provinceCapital
+Mission | GTYPE>location | SUBTYPE> provinceCapital
+McAllen | GTYPE>location | SUBTYPE> provinceCapital
+Famagusta | GTYPE>location | SUBTYPE> provinceCapital
+Francofonte | GTYPE>location | SUBTYPE> provinceCapital
+Rosolini | GTYPE>location | SUBTYPE> provinceCapital
+Melilli | GTYPE>location | SUBTYPE> provinceCapital
+Carlentini | GTYPE>location | SUBTYPE> provinceCapital
+Avola | GTYPE>location | SUBTYPE> provinceCapital
+Noto | GTYPE>location | SUBTYPE> provinceCapital
+Pallagorio | GTYPE>location | SUBTYPE> provinceCapital
+Cirò Marina | GTYPE>location | SUBTYPE> provinceCapital
+Petilia Policastro | GTYPE>location | SUBTYPE> provinceCapital
+Cutro | GTYPE>location | SUBTYPE> provinceCapital
+Cotronei | GTYPE>location | SUBTYPE> provinceCapital
+Paysandú | GTYPE>location | SUBTYPE> provinceCapital
+Padang | GTYPE>location | SUBTYPE> regionCapital
+Melbourne | GTYPE>location | SUBTYPE> provinceCapital
+Lethbridge | GTYPE>location | SUBTYPE> provinceCapital
+San Luis | GTYPE>location | SUBTYPE> provinceCapital
+Cossato | GTYPE>location | SUBTYPE> provinceCapital
+Coggiola | GTYPE>location | SUBTYPE> provinceCapital
+Salto | GTYPE>location | SUBTYPE> regionCapital
+Grassano | GTYPE>location | SUBTYPE> provinceCapital
+Bernalda | GTYPE>location | SUBTYPE> provinceCapital
+Pisticci | GTYPE>location | SUBTYPE> provinceCapital
+Valsinni | GTYPE>location | SUBTYPE> provinceCapital
+Stigliano | GTYPE>location | SUBTYPE> provinceCapital
+Policoro | GTYPE>location | SUBTYPE> provinceCapital
+Barinas | GTYPE>location | SUBTYPE> provinceCapital
+Montesilvano | GTYPE>location | SUBTYPE> provinceCapital
+Popoli | GTYPE>location | SUBTYPE> provinceCapital
+Spoltore | GTYPE>location | SUBTYPE> provinceCapital
+Penne | GTYPE>location | SUBTYPE> provinceCapital
+Tocco da Casauria | GTYPE>location | SUBTYPE> provinceCapital
+Codogno | GTYPE>location | SUBTYPE> provinceCapital
+Casalpusterlengo | GTYPE>location | SUBTYPE> provinceCapital
+Pizzo | GTYPE>location | SUBTYPE> provinceCapital
+Fabrizia | GTYPE>location | SUBTYPE> provinceCapital
+Tropea | GTYPE>location | SUBTYPE> provinceCapital
+Malang | GTYPE>location | SUBTYPE> provinceCapital
+Nampula | GTYPE>location | SUBTYPE> provinceCapital
+Rivera | GTYPE>location | SUBTYPE> regionCapital
+Churchill | GTYPE>location | SUBTYPE> regionCapital
+Visnagar | GTYPE>location | SUBTYPE> provinceCapital
+Vólos | GTYPE>location | SUBTYPE> provinceCapital
+Tacna | GTYPE>location | SUBTYPE> provinceCapital
+Melo | GTYPE>location | SUBTYPE> provinceCapital
+Sava | GTYPE>location | SUBTYPE> provinceCapital
+Palagiano | GTYPE>location | SUBTYPE> provinceCapital
+Manduria | GTYPE>location | SUBTYPE> provinceCapital
+Mottola | GTYPE>location | SUBTYPE> provinceCapital
+Massafra | GTYPE>location | SUBTYPE> provinceCapital
+Martina Franca | GTYPE>location | SUBTYPE> provinceCapital
+Crispiano | GTYPE>location | SUBTYPE> provinceCapital
+Pulsano | GTYPE>location | SUBTYPE> provinceCapital
+Grottaglie | GTYPE>location | SUBTYPE> provinceCapital
+Ginosa | GTYPE>location | SUBTYPE> provinceCapital
+Pattukkottai | GTYPE>location | SUBTYPE> provinceCapital
+Reading | GTYPE>location | SUBTYPE> provinceCapital
+Lausana | GTYPE>location | SUBTYPE> regionCapital
+Kloten | GTYPE>location | SUBTYPE> provinceCapital
+Zurique | GTYPE>location | SUBTYPE> countryCapital
+Meknès | GTYPE>location | SUBTYPE> provinceCapital
+Salónica | GTYPE>location | SUBTYPE> regionCapital
+Piura | GTYPE>location | SUBTYPE> provinceCapital
+Campiglia Marittima | GTYPE>location | SUBTYPE> provinceCapital
+Castagneto Carducci | GTYPE>location | SUBTYPE> provinceCapital
+Pembroke Pines | GTYPE>location | SUBTYPE> provinceCapital
+Pompano Beach | GTYPE>location | SUBTYPE> provinceCapital
+Coral Springs | GTYPE>location | SUBTYPE> provinceCapital
+Mackay | GTYPE>location | SUBTYPE> provinceCapital
+Pátras | GTYPE>location | SUBTYPE> regionCapital
+Jamshedpur | GTYPE>location | SUBTYPE> provinceCapital
+Impéria | GTYPE>location | SUBTYPE> provinceCapital
+Achalpur | GTYPE>location | SUBTYPE> provinceCapital
+Venafro | GTYPE>location | SUBTYPE> provinceCapital
+Isérnia | GTYPE>location | SUBTYPE> provinceCapital
+Laraxe | GTYPE>location | SUBTYPE> provinceCapital
+Quilpué | GTYPE>location | SUBTYPE> provinceCapital
+Dongying | GTYPE>location | SUBTYPE> provinceCapital
+Carora | GTYPE>location | SUBTYPE> provinceCapital
+Lovaina | GTYPE>location | SUBTYPE> provinceCapital
+Alfonsine | GTYPE>location | SUBTYPE> provinceCapital
+Russi | GTYPE>location | SUBTYPE> provinceCapital
+Lugo | GTYPE>location | SUBTYPE> provinceCapital
+Bagnacavallo | GTYPE>location | SUBTYPE> provinceCapital
+Casola Valsenio | GTYPE>location | SUBTYPE> provinceCapital
+Kadapa | GTYPE>location | SUBTYPE> provinceCapital
+Campobello di Mazara | GTYPE>location | SUBTYPE> provinceCapital
+Erice | GTYPE>location | SUBTYPE> provinceCapital
+Castellammare del Golfo | GTYPE>location | SUBTYPE> provinceCapital
+Alcamo | GTYPE>location | SUBTYPE> provinceCapital
+Paceco | GTYPE>location | SUBTYPE> provinceCapital
+Salemi | GTYPE>location | SUBTYPE> provinceCapital
+Castelvetrano | GTYPE>location | SUBTYPE> provinceCapital
+Tindivanam | GTYPE>location | SUBTYPE> provinceCapital
+Pontiac | GTYPE>location | SUBTYPE> provinceCapital
+Chiaravalle | GTYPE>location | SUBTYPE> provinceCapital
+Jesi | GTYPE>location | SUBTYPE> provinceCapital
+Falconara Marittima | GTYPE>location | SUBTYPE> provinceCapital
+Santa Sofia | GTYPE>location | SUBTYPE> provinceCapital
+Forlimpopoli | GTYPE>location | SUBTYPE> provinceCapital
+Sant'Angelo Muxaro | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Sant['´’‘`]Angelo Muxaro)
+Alessandria della Rocca | GTYPE>location | SUBTYPE> provinceCapital
+Joppolo Giancaxio | GTYPE>location | SUBTYPE> provinceCapital
+Burgio | GTYPE>location | SUBTYPE> provinceCapital
+Ilha de Lampedusa | GTYPE>location | SUBTYPE> provinceCapital
+Wuhu | GTYPE>location | SUBTYPE> provinceCapital
+Palma di Montechiaro | GTYPE>location | SUBTYPE> provinceCapital
+Porto Empedocle | GTYPE>location | SUBTYPE> provinceCapital
+Montevago | GTYPE>location | SUBTYPE> provinceCapital
+Racalmuto | GTYPE>location | SUBTYPE> provinceCapital
+Campobello di Licata | GTYPE>location | SUBTYPE> provinceCapital
+Ravanusa | GTYPE>location | SUBTYPE> provinceCapital
+Santa Cruz | GTYPE>location | SUBTYPE> regionCapital
+Santa Cruz de la Sierra | GTYPE>location | SUBTYPE> regionCapital
+Fondi | GTYPE>location | SUBTYPE> provinceCapital
+Pontevedra | GTYPE>location | SUBTYPE> provinceCapital
+Puno | GTYPE>location | SUBTYPE> provinceCapital
+Regina | GTYPE>location | SUBTYPE> regionCapital
+Tacuarembó | GTYPE>location | SUBTYPE> regionCapital
+Finale Ligure | GTYPE>location | SUBTYPE> provinceCapital
+Albenga | GTYPE>location | SUBTYPE> provinceCapital
+Loano | GTYPE>location | SUBTYPE> provinceCapital
+Vado Ligure | GTYPE>location | SUBTYPE> provinceCapital
+Roseto degli Abruzzi | GTYPE>location | SUBTYPE> provinceCapital
+Atri | GTYPE>location | SUBTYPE> provinceCapital
+Giulianova | GTYPE>location | SUBTYPE> provinceCapital
+Pineto | GTYPE>location | SUBTYPE> provinceCapital
+Portici | GTYPE>location | SUBTYPE> provinceCapital
+Castellammare di Stabia | GTYPE>location | SUBTYPE> provinceCapital
+Palma Campania | GTYPE>location | SUBTYPE> provinceCapital
+Marano di Napoli | GTYPE>location | SUBTYPE> provinceCapital
+Torre del Greco | GTYPE>location | SUBTYPE> regionCapital
+Marigliano | GTYPE>location | SUBTYPE> provinceCapital
+Pompéia | GTYPE>location | SUBTYPE> provinceCapital
+Berseba | GTYPE>location | SUBTYPE> provinceCapital
+Dimona | GTYPE>location | SUBTYPE> provinceCapital
+Éilat | GTYPE>location | SUBTYPE> provinceCapital
+Erba | GTYPE>location | SUBTYPE> provinceCapital
+Gravedona | GTYPE>location | SUBTYPE> provinceCapital
+Capannori | GTYPE>location | SUBTYPE> provinceCapital
+Forte dei Marmi | GTYPE>location | SUBTYPE> provinceCapital
+Castelnuovo di Garfagnana | GTYPE>location | SUBTYPE> provinceCapital
+Río Cuarto | GTYPE>location | SUBTYPE> provinceCapital
+Briga-Glis | GTYPE>location | SUBTYPE> provinceCapital
+Sezze | GTYPE>location | SUBTYPE> provinceCapital
+Gaeta | GTYPE>location | SUBTYPE> provinceCapital
+Guntakal | GTYPE>location | SUBTYPE> provinceCapital
+Thorshavn | GTYPE>location | SUBTYPE> countryCapital
+Domodossola | GTYPE>location | SUBTYPE> provinceCapital
+Prince Albert | GTYPE>location | SUBTYPE> provinceCapital
+Morbegno | GTYPE>location | SUBTYPE> provinceCapital
+Tirano | GTYPE>location | SUBTYPE> provinceCapital
+Kaifeng | GTYPE>location | SUBTYPE> provinceCapital
+Ponsacco | GTYPE>location | SUBTYPE> provinceCapital
+San Giuliano Terme | GTYPE>location | SUBTYPE> provinceCapital
+San Miniato | GTYPE>location | SUBTYPE> provinceCapital
+Fuxin | GTYPE>location | SUBTYPE> provinceCapital
+Arcidosso | GTYPE>location | SUBTYPE> provinceCapital
+Massa Marittima | GTYPE>location | SUBTYPE> provinceCapital
+Porto San Giorgio | GTYPE>location | SUBTYPE> provinceCapital
+Porto Sant'Elpidio | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Porto Sant['´’‘`]Elpidio)
+San Benedetto del Tronto | GTYPE>location | SUBTYPE> provinceCapital
+Grottammare | GTYPE>location | SUBTYPE> provinceCapital
+Montegranaro | GTYPE>location | SUBTYPE> provinceCapital
+Baytown | GTYPE>location | SUBTYPE> provinceCapital
+Nanning | GTYPE>location | SUBTYPE> regionCapital
+Asciano | GTYPE>location | SUBTYPE> provinceCapital
+Colle di Val d'Elsa | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Colle di Val d['´’‘`]Elsa)
+Poggibonsi | GTYPE>location | SUBTYPE> provinceCapital
+Nanchang | GTYPE>location | SUBTYPE> regionCapital
+Spilimbergo | GTYPE>location | SUBTYPE> provinceCapital
+Sacile | GTYPE>location | SUBTYPE> provinceCapital
+Maniago | GTYPE>location | SUBTYPE> provinceCapital
+Molfetta | GTYPE>location | SUBTYPE> provinceCapital
+Bitonto | GTYPE>location | SUBTYPE> provinceCapital
+Corato | GTYPE>location | SUBTYPE> provinceCapital
+Casamassima | GTYPE>location | SUBTYPE> provinceCapital
+Acquaviva delle Fonti | GTYPE>location | SUBTYPE> provinceCapital
+Mola di Bari | GTYPE>location | SUBTYPE> provinceCapital
+Modugno | GTYPE>location | SUBTYPE> provinceCapital
+Grumo Appula | GTYPE>location | SUBTYPE> provinceCapital
+Locorotondo | GTYPE>location | SUBTYPE> provinceCapital
+Monopoli | GTYPE>location | SUBTYPE> provinceCapital
+Noci | GTYPE>location | SUBTYPE> provinceCapital
+Putignano | GTYPE>location | SUBTYPE> provinceCapital
+Altamura | GTYPE>location | SUBTYPE> provinceCapital
+Santeramo in Colle | GTYPE>location | SUBTYPE> provinceCapital
+Cassano delle Murge | GTYPE>location | SUBTYPE> provinceCapital
+Conversano | GTYPE>location | SUBTYPE> provinceCapital
+Valenzano | GTYPE>location | SUBTYPE> provinceCapital
+Capurso | GTYPE>location | SUBTYPE> provinceCapital
+Noicattaro | GTYPE>location | SUBTYPE> provinceCapital
+Ruvo di Puglia | GTYPE>location | SUBTYPE> provinceCapital
+Spinazzola | GTYPE>location | SUBTYPE> provinceCapital
+Giovinazzo | GTYPE>location | SUBTYPE> provinceCapital
+Borgomanero | GTYPE>location | SUBTYPE> provinceCapital
+Arona | GTYPE>location | SUBTYPE> provinceCapital
+Porto Tolle | GTYPE>location | SUBTYPE> provinceCapital
+Lendinara | GTYPE>location | SUBTYPE> provinceCapital
+Inca | GTYPE>location | SUBTYPE> provinceCapital
+Palma de Maiorca | GTYPE>location | SUBTYPE> regionCapital
+Bouaké | GTYPE>location | SUBTYPE> provinceCapital
+Saronno | GTYPE>location | SUBTYPE> provinceCapital
+Malnate | GTYPE>location | SUBTYPE> provinceCapital
+Somma Lombardo | GTYPE>location | SUBTYPE> provinceCapital
+Luino | GTYPE>location | SUBTYPE> provinceCapital
+Matelica | GTYPE>location | SUBTYPE> provinceCapital
+Província autónoma de Trento | GTYPE>location | SUBTYPE> provinceCapital
+Tolentino | GTYPE>location | SUBTYPE> provinceCapital
+San Severino Marche | GTYPE>location | SUBTYPE> provinceCapital
+Potenza Picena | GTYPE>location | SUBTYPE> provinceCapital
+Corridonia | GTYPE>location | SUBTYPE> provinceCapital
+Ghent | GTYPE>location | SUBTYPE> regionCapital
+Morcone | GTYPE>location | SUBTYPE> provinceCapital
+Guardia Sanframondi | GTYPE>location | SUBTYPE> provinceCapital
+Montesarchio | GTYPE>location | SUBTYPE> provinceCapital
+Foumban | GTYPE>location | SUBTYPE> provinceCapital
+Palembang | GTYPE>location | SUBTYPE> regionCapital
+West Palm Beach | GTYPE>location | SUBTYPE> provinceCapital
+Vetralla | GTYPE>location | SUBTYPE> provinceCapital
+Vignanello | GTYPE>location | SUBTYPE> provinceCapital
+Montefiascone | GTYPE>location | SUBTYPE> provinceCapital
+Montalto di Castro | GTYPE>location | SUBTYPE> provinceCapital
+Valentano | GTYPE>location | SUBTYPE> provinceCapital
+São Sebastião | GTYPE>location | SUBTYPE> regionCapital
+Beasain | GTYPE>location | SUBTYPE> provinceCapital
+Eibar | GTYPE>location | SUBTYPE> provinceCapital
+Zarautz | GTYPE>location | SUBTYPE> provinceCapital
+Azpeitia | GTYPE>location | SUBTYPE> provinceCapital
+Cabras | GTYPE>location | SUBTYPE> provinceCapital
+Marrubiu | GTYPE>location | SUBTYPE> provinceCapital
+Terralba | GTYPE>location | SUBTYPE> provinceCapital
+Lier | GTYPE>location | SUBTYPE> provinceCapital
+Mol | GTYPE>location | SUBTYPE> provinceCapital
+Malines | GTYPE>location | SUBTYPE> provinceCapital
+Geel | GTYPE>location | SUBTYPE> provinceCapital
+Sabaudia | GTYPE>location | SUBTYPE> provinceCapital
+Sestri Levante | GTYPE>location | SUBTYPE> provinceCapital
+Génova | GTYPE>location | SUBTYPE> regionCapital
+Arenzano | GTYPE>location | SUBTYPE> provinceCapital
+Chiavari | GTYPE>location | SUBTYPE> provinceCapital
+Staletti | GTYPE>location | SUBTYPE> provinceCapital
+Soveria Mannelli | GTYPE>location | SUBTYPE> provinceCapital
+Ongole | GTYPE>location | SUBTYPE> provinceCapital
+Misterbianco | GTYPE>location | SUBTYPE> provinceCapital
+Aci Castello | GTYPE>location | SUBTYPE> provinceCapital
+Belpasso | GTYPE>location | SUBTYPE> provinceCapital
+Grammichele | GTYPE>location | SUBTYPE> provinceCapital
+Catânia | GTYPE>location | SUBTYPE> regionCapital
+Giarre | GTYPE>location | SUBTYPE> provinceCapital
+Palagonia | GTYPE>location | SUBTYPE> provinceCapital
+Paternò | GTYPE>location | SUBTYPE> provinceCapital
+Bronte | GTYPE>location | SUBTYPE> provinceCapital
+Militello in Val di Catania | GTYPE>location | SUBTYPE> provinceCapital
+Randazzo | GTYPE>location | SUBTYPE> provinceCapital
+Formia | GTYPE>location | SUBTYPE> provinceCapital
+Maturín | GTYPE>location | SUBTYPE> provinceCapital
+Castelfranco Emilia | GTYPE>location | SUBTYPE> provinceCapital
+Carpi | GTYPE>location | SUBTYPE> provinceCapital
+Pavullo nel Frignano | GTYPE>location | SUBTYPE> provinceCapital
+Nonantola | GTYPE>location | SUBTYPE> provinceCapital
+Sassuolo | GTYPE>location | SUBTYPE> provinceCapital
+Módena | GTYPE>location | SUBTYPE> regionCapital
+Soliera | GTYPE>location | SUBTYPE> provinceCapital
+Canelli | GTYPE>location | SUBTYPE> provinceCapital
+Priverno | GTYPE>location | SUBTYPE> provinceCapital
+Cantão | GTYPE>location | SUBTYPE> regionCapital
+Castiglion Fiorentino | GTYPE>location | SUBTYPE> provinceCapital
+Sansepolcro | GTYPE>location | SUBTYPE> provinceCapital
+Montevarchi | GTYPE>location | SUBTYPE> provinceCapital
+Vieste | GTYPE>location | SUBTYPE> provinceCapital
+Deliceto | GTYPE>location | SUBTYPE> provinceCapital
+San Marco in Lamis | GTYPE>location | SUBTYPE> provinceCapital
+San Severo | GTYPE>location | SUBTYPE> provinceCapital
+Trinitapoli | GTYPE>location | SUBTYPE> provinceCapital
+San Ferdinando di Puglia | GTYPE>location | SUBTYPE> provinceCapital
+Troia | GTYPE>location | SUBTYPE> provinceCapital
+Apricena | GTYPE>location | SUBTYPE> provinceCapital
+Orta Nova | GTYPE>location | SUBTYPE> provinceCapital
+Cagnano Varano | GTYPE>location | SUBTYPE> provinceCapital
+Lucera | GTYPE>location | SUBTYPE> provinceCapital
+Zhengzhou | GTYPE>location | SUBTYPE> regionCapital
+Varallo Sesia | GTYPE>location | SUBTYPE> provinceCapital
+Borgosesia | GTYPE>location | SUBTYPE> provinceCapital
+Trino | GTYPE>location | SUBTYPE> provinceCapital
+Santhià | GTYPE>location | SUBTYPE> provinceCapital
+Fossombrone | GTYPE>location | SUBTYPE> provinceCapital
+Mondolfo | GTYPE>location | SUBTYPE> provinceCapital
+Maddaloni | GTYPE>location | SUBTYPE> provinceCapital
+Aversa | GTYPE>location | SUBTYPE> provinceCapital
+Mondragone | GTYPE>location | SUBTYPE> provinceCapital
+Sessa Aurunca | GTYPE>location | SUBTYPE> provinceCapital
+Teano | GTYPE>location | SUBTYPE> provinceCapital
+Villa Literno | GTYPE>location | SUBTYPE> provinceCapital
+Ingenio | GTYPE>location | SUBTYPE> provinceCapital
+Gáldar | GTYPE>location | SUBTYPE> provinceCapital
+Las Palmas | GTYPE>location | SUBTYPE> provinceCapital
+Telde | GTYPE>location | SUBTYPE> provinceCapital
+Teror | GTYPE>location | SUBTYPE> provinceCapital
+Agaete | GTYPE>location | SUBTYPE> provinceCapital
+Jixi | GTYPE>location | SUBTYPE> provinceCapital
+Zhenjiang | GTYPE>location | SUBTYPE> provinceCapital
+Waukegan | GTYPE>location | SUBTYPE> provinceCapital
+Casacalenda | GTYPE>location | SUBTYPE> provinceCapital
+Trivento | GTYPE>location | SUBTYPE> provinceCapital
+Termoli | GTYPE>location | SUBTYPE> provinceCapital
+La Paz | GTYPE>location | SUBTYPE> regionCapital
+Cori | GTYPE>location | SUBTYPE> provinceCapital
+Rustenburg | GTYPE>location | SUBTYPE> provinceCapital
+Guastalla | GTYPE>location | SUBTYPE> provinceCapital
+Novellara | GTYPE>location | SUBTYPE> provinceCapital
+Mégara | GTYPE>location | SUBTYPE> provinceCapital
+Duisburgo | GTYPE>location | SUBTYPE> regionCapital
+Cleves | GTYPE>location | SUBTYPE> provinceCapital
+Craiova | GTYPE>location | SUBTYPE> regionCapital
+Sebastópolis | GTYPE>location | SUBTYPE> regionCapital
+Linares | GTYPE>location | SUBTYPE> provinceCapital
+Bengbu | GTYPE>location | SUBTYPE> provinceCapital
+Shaoguan | GTYPE>location | SUBTYPE> provinceCapital
+Dolo | GTYPE>location | SUBTYPE> provinceCapital
+Eraclea | GTYPE>location | SUBTYPE> provinceCapital
+Santa Maria di Sala | GTYPE>location | SUBTYPE> provinceCapital
+Mira | GTYPE>location | SUBTYPE> provinceCapital
+Mirano | GTYPE>location | SUBTYPE> provinceCapital
+Martellago | GTYPE>location | SUBTYPE> provinceCapital
+Noale | GTYPE>location | SUBTYPE> provinceCapital
+Coira | GTYPE>location | SUBTYPE> provinceCapital
+Collecchio | GTYPE>location | SUBTYPE> provinceCapital
+Fornovo di Taro | GTYPE>location | SUBTYPE> provinceCapital
+Borgo Val di Taro | GTYPE>location | SUBTYPE> provinceCapital
+Fidenza | GTYPE>location | SUBTYPE> provinceCapital
+Salsomaggiore Terme | GTYPE>location | SUBTYPE> provinceCapital
+Benxi | GTYPE>location | SUBTYPE> provinceCapital
+Lanciano | GTYPE>location | SUBTYPE> provinceCapital
+Atessa | GTYPE>location | SUBTYPE> provinceCapital
+Ortona | GTYPE>location | SUBTYPE> provinceCapital
+Guardiagrele | GTYPE>location | SUBTYPE> provinceCapital
+Francavilla al Mare | GTYPE>location | SUBTYPE> provinceCapital
+San Salvo | GTYPE>location | SUBTYPE> provinceCapital
+Zhanjiang | GTYPE>location | SUBTYPE> provinceCapital
+Aprilia | GTYPE>location | SUBTYPE> provinceCapital
+Casalmaggiore | GTYPE>location | SUBTYPE> provinceCapital
+Castelleone | GTYPE>location | SUBTYPE> provinceCapital
+Crema | GTYPE>location | SUBTYPE> provinceCapital
+Jiamusi | GTYPE>location | SUBTYPE> provinceCapital
+Castel San Giovanni | GTYPE>location | SUBTYPE> provinceCapital
+Travo | GTYPE>location | SUBTYPE> provinceCapital
+Placência | GTYPE>location | SUBTYPE> regionCapital
+Bredene | GTYPE>location | SUBTYPE> provinceCapital
+Bagaladi | GTYPE>location | SUBTYPE> provinceCapital
+Taurianova | GTYPE>location | SUBTYPE> provinceCapital
+Rosarno | GTYPE>location | SUBTYPE> provinceCapital
+Siderno | GTYPE>location | SUBTYPE> provinceCapital
+Sinopoli | GTYPE>location | SUBTYPE> provinceCapital
+Polistena | GTYPE>location | SUBTYPE> provinceCapital
+Palmi | GTYPE>location | SUBTYPE> provinceCapital
+Mammola | GTYPE>location | SUBTYPE> provinceCapital
+Gioia Tauro | GTYPE>location | SUBTYPE> provinceCapital
+Melito di Porto Salvo | GTYPE>location | SUBTYPE> provinceCapital
+Cittanova | GTYPE>location | SUBTYPE> provinceCapital
+Bagnara Calabra | GTYPE>location | SUBTYPE> provinceCapital
+Vallata | GTYPE>location | SUBTYPE> provinceCapital
+Calitri | GTYPE>location | SUBTYPE> provinceCapital
+Ariano Irpino | GTYPE>location | SUBTYPE> provinceCapital
+Lioni | GTYPE>location | SUBTYPE> provinceCapital
+Solofra | GTYPE>location | SUBTYPE> provinceCapital
+Mudanjiang | GTYPE>location | SUBTYPE> provinceCapital
+San Casciano in Val di Pesa | GTYPE>location | SUBTYPE> provinceCapital
+Impruneta | GTYPE>location | SUBTYPE> provinceCapital
+Lastra a Signa | GTYPE>location | SUBTYPE> provinceCapital
+Bagno a Ripoli | GTYPE>location | SUBTYPE> provinceCapital
+Pontassieve | GTYPE>location | SUBTYPE> provinceCapital
+Figline Valdarno | GTYPE>location | SUBTYPE> provinceCapital
+Castelfiorentino | GTYPE>location | SUBTYPE> provinceCapital
+Borgo San Lorenzo | GTYPE>location | SUBTYPE> provinceCapital
+Fiesole | GTYPE>location | SUBTYPE> provinceCapital
+Firenzuola | GTYPE>location | SUBTYPE> provinceCapital
+Fucecchio | GTYPE>location | SUBTYPE> provinceCapital
+Montelupo Fiorentino | GTYPE>location | SUBTYPE> provinceCapital
+Reggello | GTYPE>location | SUBTYPE> provinceCapital
+Sora | GTYPE>location | SUBTYPE> provinceCapital
+Veroli | GTYPE>location | SUBTYPE> provinceCapital
+Ceprano | GTYPE>location | SUBTYPE> provinceCapital
+Pontecorvo | GTYPE>location | SUBTYPE> provinceCapital
+Monte San Giovanni Campano | GTYPE>location | SUBTYPE> provinceCapital
+Ceccano | GTYPE>location | SUBTYPE> provinceCapital
+Cassino | GTYPE>location | SUBTYPE> provinceCapital
+Ferentino | GTYPE>location | SUBTYPE> provinceCapital
+Alatri | GTYPE>location | SUBTYPE> provinceCapital
+Puerto de la Cruz | GTYPE>location | SUBTYPE> provinceCapital
+La Orotava | GTYPE>location | SUBTYPE> provinceCapital
+Guía de Isora | GTYPE>location | SUBTYPE> provinceCapital
+Tricase | GTYPE>location | SUBTYPE> provinceCapital
+Ruffano | GTYPE>location | SUBTYPE> provinceCapital
+Copertino | GTYPE>location | SUBTYPE> provinceCapital
+Gagliano del Capo | GTYPE>location | SUBTYPE> provinceCapital
+Galatone | GTYPE>location | SUBTYPE> provinceCapital
+Galatina | GTYPE>location | SUBTYPE> provinceCapital
+Taurisano | GTYPE>location | SUBTYPE> provinceCapital
+Surbo | GTYPE>location | SUBTYPE> provinceCapital
+Ugento | GTYPE>location | SUBTYPE> provinceCapital
+Casarano | GTYPE>location | SUBTYPE> provinceCapital
+Cefalù | GTYPE>location | SUBTYPE> provinceCapital
+Misilmeri | GTYPE>location | SUBTYPE> provinceCapital
+Valledolmo | GTYPE>location | SUBTYPE> provinceCapital
+Bagheria | GTYPE>location | SUBTYPE> provinceCapital
+Bozzolo | GTYPE>location | SUBTYPE> provinceCapital
+Ostiglia | GTYPE>location | SUBTYPE> provinceCapital
+Viadana | GTYPE>location | SUBTYPE> provinceCapital
+Lugo | GTYPE>location | SUBTYPE> provinceCapital
+Taizhou | GTYPE>location | SUBTYPE> provinceCapital
+Vélez-Málaga | GTYPE>location | SUBTYPE> provinceCapital
+Ronda | GTYPE>location | SUBTYPE> provinceCapital
+Antequera | GTYPE>location | SUBTYPE> provinceCapital
+Crevalcore | GTYPE>location | SUBTYPE> provinceCapital
+Budrio | GTYPE>location | SUBTYPE> provinceCapital
+Castenaso | GTYPE>location | SUBTYPE> provinceCapital
+San Giovanni in Persiceto | GTYPE>location | SUBTYPE> provinceCapital
+Bolonha | GTYPE>location | SUBTYPE> regionCapital
+Molinella | GTYPE>location | SUBTYPE> provinceCapital
+Ímola | GTYPE>location | SUBTYPE> provinceCapital
+San Lazzaro di Savena | GTYPE>location | SUBTYPE> provinceCapital
+Medicina | GTYPE>location | SUBTYPE> provinceCapital
+Castel San Pietro Terme | GTYPE>location | SUBTYPE> provinceCapital
+Sasso Marconi | GTYPE>location | SUBTYPE> provinceCapital
+Bienna | GTYPE>location | SUBTYPE> provinceCapital
+Arenys de Mar | GTYPE>location | SUBTYPE> provinceCapital
+Calella | GTYPE>location | SUBTYPE> provinceCapital
+Malgrat de Mar | GTYPE>location | SUBTYPE> provinceCapital
+Manlleu | GTYPE>location | SUBTYPE> provinceCapital
+Herstal | GTYPE>location | SUBTYPE> provinceCapital
+Magenta | GTYPE>location | SUBTYPE> provinceCapital
+Cesano Maderno | GTYPE>location | SUBTYPE> provinceCapital
+Cinisello Balsamo | GTYPE>location | SUBTYPE> provinceCapital
+San Donato Milanese | GTYPE>location | SUBTYPE> provinceCapital
+Rho | GTYPE>location | SUBTYPE> provinceCapital
+Pioltello | GTYPE>location | SUBTYPE> provinceCapital
+Trezzo sull'Adda | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Trezzo sull['´’‘`]Adda)
+Seregno | GTYPE>location | SUBTYPE> provinceCapital
+Melegnano | GTYPE>location | SUBTYPE> provinceCapital
+Agrate Brianza | GTYPE>location | SUBTYPE> provinceCapital
+Gorgonzola | GTYPE>location | SUBTYPE> provinceCapital
+Paese, Treviso | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Paese, Treviso)
+Vedelago | GTYPE>location | SUBTYPE> provinceCapital
+San Biagio di Callalta | GTYPE>location | SUBTYPE> provinceCapital
+Oderzo | GTYPE>location | SUBTYPE> provinceCapital
+Roncade | GTYPE>location | SUBTYPE> provinceCapital
+Montebelluna | GTYPE>location | SUBTYPE> provinceCapital
+San Chirico Raparo | GTYPE>location | SUBTYPE> provinceCapital
+Maratea | GTYPE>location | SUBTYPE> provinceCapital
+Rionero in Vulture | GTYPE>location | SUBTYPE> provinceCapital
+Avigliano | GTYPE>location | SUBTYPE> provinceCapital
+Muro Lucano | GTYPE>location | SUBTYPE> provinceCapital
+Laurenzana | GTYPE>location | SUBTYPE> provinceCapital
+Venosa | GTYPE>location | SUBTYPE> provinceCapital
+Tolve | GTYPE>location | SUBTYPE> provinceCapital
+Melfi | GTYPE>location | SUBTYPE> provinceCapital
+Lavello | GTYPE>location | SUBTYPE> provinceCapital
+Oppido Lucano | GTYPE>location | SUBTYPE> provinceCapital
+Gualdo Tadino | GTYPE>location | SUBTYPE> provinceCapital
+Corciano | GTYPE>location | SUBTYPE> provinceCapital
+Marsciano | GTYPE>location | SUBTYPE> provinceCapital
+Foligno | GTYPE>location | SUBTYPE> provinceCapital
+Castiglione del Lago | GTYPE>location | SUBTYPE> provinceCapital
+Magione | GTYPE>location | SUBTYPE> provinceCapital
+Umbertide | GTYPE>location | SUBTYPE> provinceCapital
+Assis | GTYPE>location | SUBTYPE> provinceCapital
+Città della Pieve | GTYPE>location | SUBTYPE> provinceCapital
+Áquila | GTYPE>location | SUBTYPE> provinceCapital
+Castel di Sangro | GTYPE>location | SUBTYPE> provinceCapital
+Celano | GTYPE>location | SUBTYPE> provinceCapital
+Capistrello | GTYPE>location | SUBTYPE> provinceCapital
+Pettorano sul Gizio | GTYPE>location | SUBTYPE> provinceCapital
+Avezzano | GTYPE>location | SUBTYPE> provinceCapital
+Barcellona Pozzo di Gotto | GTYPE>location | SUBTYPE> provinceCapital
+Cesarò | GTYPE>location | SUBTYPE> provinceCapital
+Caronia | GTYPE>location | SUBTYPE> provinceCapital
+Galati Mamertino | GTYPE>location | SUBTYPE> provinceCapital
+Milazzo | GTYPE>location | SUBTYPE> provinceCapital
+Taormina | GTYPE>location | SUBTYPE> provinceCapital
+Gioiosa Marea | GTYPE>location | SUBTYPE> provinceCapital
+Qinhuangdao | GTYPE>location | SUBTYPE> provinceCapital
+Rauma | GTYPE>location | SUBTYPE> provinceCapital
+Dalmine | GTYPE>location | SUBTYPE> provinceCapital
+Romano di Lombardia | GTYPE>location | SUBTYPE> provinceCapital
+Bérgamo | GTYPE>location | SUBTYPE> regionCapital
+Clusone | GTYPE>location | SUBTYPE> provinceCapital
+Alzano Lombardo | GTYPE>location | SUBTYPE> provinceCapital
+Treviglio | GTYPE>location | SUBTYPE> provinceCapital
+Palau | GTYPE>location | SUBTYPE> provinceCapital
+Oschiri | GTYPE>location | SUBTYPE> provinceCapital
+Villanova Monteleone | GTYPE>location | SUBTYPE> provinceCapital
+Ozieri | GTYPE>location | SUBTYPE> provinceCapital
+Bultei | GTYPE>location | SUBTYPE> provinceCapital
+Changzhou | GTYPE>location | SUBTYPE> provinceCapital
+Thiene | GTYPE>location | SUBTYPE> provinceCapital
+Schio | GTYPE>location | SUBTYPE> provinceCapital
+Arzignano | GTYPE>location | SUBTYPE> provinceCapital
+Montecchio Maggiore | GTYPE>location | SUBTYPE> provinceCapital
+Valdagno | GTYPE>location | SUBTYPE> provinceCapital
+Asiago | GTYPE>location | SUBTYPE> provinceCapital
+Malo | GTYPE>location | SUBTYPE> provinceCapital
+Lonigo | GTYPE>location | SUBTYPE> provinceCapital
+Coriovalo | GTYPE>location | SUBTYPE> provinceCapital
+Colônia | GTYPE>location | SUBTYPE> regionCapital 
+Fonni | GTYPE>location | SUBTYPE> provinceCapital
+Bitti | GTYPE>location | SUBTYPE> provinceCapital
+Orosei | GTYPE>location | SUBTYPE> provinceCapital
+Siniscola | GTYPE>location | SUBTYPE> provinceCapital
+Macomer | GTYPE>location | SUBTYPE> provinceCapital
+Chino | GTYPE>location | SUBTYPE> provinceCapital
+Enseada | GTYPE>location | SUBTYPE> provinceCapital
+Riade | GTYPE>location | SUBTYPE> countryCapital
+Luoyang | GTYPE>location | SUBTYPE> regionCapital
+Zevio | GTYPE>location | SUBTYPE> provinceCapital
+Cerea | GTYPE>location | SUBTYPE> provinceCapital
+Bovolone | GTYPE>location | SUBTYPE> provinceCapital
+Legnago | GTYPE>location | SUBTYPE> provinceCapital
+Villafranca di Verona | GTYPE>location | SUBTYPE> provinceCapital
+Bussolengo | GTYPE>location | SUBTYPE> provinceCapital
+San Giovanni Lupatoto | GTYPE>location | SUBTYPE> provinceCapital
+Negrar | GTYPE>location | SUBTYPE> provinceCapital
+San Martino Buon Albergo | GTYPE>location | SUBTYPE> provinceCapital
+Groninga | GTYPE>location | SUBTYPE> regionCapital
+Xian | GTYPE>location | SUBTYPE> regionCapital
+Santander | GTYPE>location | SUBTYPE> regionCapital
+Laredo | GTYPE>location | SUBTYPE> provinceCapital
+Pádua | GTYPE>location | SUBTYPE> regionCapital
+Rubano | GTYPE>location | SUBTYPE> provinceCapital
+Cadoneghe | GTYPE>location | SUBTYPE> provinceCapital
+Este | GTYPE>location | SUBTYPE> provinceCapital
+Cittadella | GTYPE>location | SUBTYPE> provinceCapital
+Piazzola sul Brenta | GTYPE>location | SUBTYPE> provinceCapital
+Monselice | GTYPE>location | SUBTYPE> provinceCapital
+Versalhes | GTYPE>location | SUBTYPE> provinceCapital
+Birobidzhan | GTYPE>location | SUBTYPE> provinceCapital
+Múrcia | GTYPE>location | SUBTYPE> regionCapital
+La Unión | GTYPE>location | SUBTYPE> provinceCapital
+Bullas | GTYPE>location | SUBTYPE> provinceCapital
+Moratalla | GTYPE>location | SUBTYPE> provinceCapital
+Zhangzhou | GTYPE>location | SUBTYPE> provinceCapital
+Xangai | GTYPE>location | SUBTYPE> regionCapital
+Safim | GTYPE>location | SUBTYPE> provinceCapital
+San Vito | GTYPE>location | SUBTYPE> provinceCapital
+Capoterra | GTYPE>location | SUBTYPE> provinceCapital
+Villacidro | GTYPE>location | SUBTYPE> provinceCapital
+Sestu | GTYPE>location | SUBTYPE> provinceCapital
+Assemini | GTYPE>location | SUBTYPE> provinceCapital
+Serramanna | GTYPE>location | SUBTYPE> provinceCapital
+Santadi | GTYPE>location | SUBTYPE> provinceCapital
+Avinhão | GTYPE>location | SUBTYPE> provinceCapital
+Federal Way | GTYPE>location | SUBTYPE> provinceCapital
+Bellevue | GTYPE>location | SUBTYPE> provinceCapital
+Mortara | GTYPE>location | SUBTYPE> provinceCapital
+Voghera | GTYPE>location | SUBTYPE> provinceCapital
+Broni | GTYPE>location | SUBTYPE> provinceCapital
+Varzi | GTYPE>location | SUBTYPE> provinceCapital
+Vigevano | GTYPE>location | SUBTYPE> provinceCapital
+Acerno | GTYPE>location | SUBTYPE> provinceCapital
+Vallo della Lucania | GTYPE>location | SUBTYPE> provinceCapital
+Mercato San Severino | GTYPE>location | SUBTYPE> provinceCapital
+Pontecagnano Faiano | GTYPE>location | SUBTYPE> provinceCapital
+Sarno | GTYPE>location | SUBTYPE> provinceCapital
+Rofrano | GTYPE>location | SUBTYPE> provinceCapital
+Agropoli | GTYPE>location | SUBTYPE> provinceCapital
+Sant'Arsenio | GTYPE>location | SUBTYPE> provinceCapital | STRICT > (?i:Sant['´’‘`]Arsenio)
+Altavilla Silentina | GTYPE>location | SUBTYPE> provinceCapital
+Auletta | GTYPE>location | SUBTYPE> provinceCapital
+Campagna | GTYPE>location | SUBTYPE> provinceCapital
+Capaccio | GTYPE>location | SUBTYPE> provinceCapital
+Castellabate | GTYPE>location | SUBTYPE> provinceCapital
+Sala Consilina | GTYPE>location | SUBTYPE> provinceCapital
+Puertollano | GTYPE>location | SUBTYPE> provinceCapital
+Cocentaina | GTYPE>location | SUBTYPE> provinceCapital
+Crevillent | GTYPE>location | SUBTYPE> provinceCapital
+Elda | GTYPE>location | SUBTYPE> provinceCapital
+Ibi | GTYPE>location | SUBTYPE> provinceCapital
+Villena | GTYPE>location | SUBTYPE> provinceCapital
+Santa Pola | GTYPE>location | SUBTYPE> provinceCapital
+Orihuela | GTYPE>location | SUBTYPE> provinceCapital
+Cles | GTYPE>location | SUBTYPE> provinceCapital
+Tione di Trento | GTYPE>location | SUBTYPE> provinceCapital
+Rovereto | GTYPE>location | SUBTYPE> provinceCapital
+Mezzolombardo | GTYPE>location | SUBTYPE> provinceCapital
+Arco | GTYPE>location | SUBTYPE> provinceCapital
+Sarh | GTYPE>location | SUBTYPE> provinceCapital
+Sevilha | GTYPE>location | SUBTYPE> regionCapital
+Langfang | GTYPE>location | SUBTYPE> provinceCapital
+Arlington Heights | GTYPE>location | SUBTYPE> provinceCapital
+Skokie | GTYPE>location | SUBTYPE> provinceCapital
+Schaumburg | GTYPE>location | SUBTYPE> provinceCapital
+Marselha | GTYPE>location | SUBTYPE> regionCapital
+Vence | GTYPE>location | SUBTYPE> provinceCapital
+Ati | GTYPE>location | SUBTYPE> provinceCapital
+Calahorra | GTYPE>location | SUBTYPE> provinceCapital
+Leida | GTYPE>location | SUBTYPE> regionCapital
+Roterdão | GTYPE>location | SUBTYPE> regionCapital
+Am(e)sterdão | GTYPE>location | SUBTYPE> countryCapital | STRICT > (?i:Am(e)sterdão)
+Amesterdão | GTYPE>location | SUBTYPE> countryCapital
+Amsterdão | GTYPE>location | SUBTYPE> countryCapital
+Perpinhã | GTYPE>location | SUBTYPE> regionCapital
+Alexandria | GTYPE>location | SUBTYPE> regionCapital
+Ovada | GTYPE>location | SUBTYPE> provinceCapital
+Valenza | GTYPE>location | SUBTYPE> provinceCapital
+Tortona | GTYPE>location | SUBTYPE> provinceCapital
+Acri | GTYPE>location | SUBTYPE> provinceCapital
+Belvedere Marittimo | GTYPE>location | SUBTYPE> provinceCapital
+Bisignano | GTYPE>location | SUBTYPE> provinceCapital
+Castrovillari | GTYPE>location | SUBTYPE> provinceCapital
+Cetraro | GTYPE>location | SUBTYPE> provinceCapital
+Corigliano Calabro | GTYPE>location | SUBTYPE> provinceCapital
+Montalto Uffugo | GTYPE>location | SUBTYPE> provinceCapital
+Rende | GTYPE>location | SUBTYPE> provinceCapital
+San Giovanni in Fiore | GTYPE>location | SUBTYPE> provinceCapital
+San Lucido | GTYPE>location | SUBTYPE> provinceCapital
+Spezzano Albanese | GTYPE>location | SUBTYPE> provinceCapital
+Scalea | GTYPE>location | SUBTYPE> provinceCapital
+Paola | GTYPE>location | SUBTYPE> provinceCapital
+Montegiordano | GTYPE>location | SUBTYPE> provinceCapital
+Celico | GTYPE>location | SUBTYPE> provinceCapital
+Bruchsal | GTYPE>location | SUBTYPE> provinceCapital
+Rastatt | GTYPE>location | SUBTYPE> provinceCapital
+Linares | GTYPE>location | SUBTYPE> provinceCapital
+Guilin | GTYPE>location | SUBTYPE> provinceCapital
+Xuzhou | GTYPE>location | SUBTYPE> provinceCapital
+Santa Mônica | GTYPE>location | SUBTYPE> provinceCapital 
+Torrejón de Ardoz | GTYPE>location | SUBTYPE> provinceCapital
+Pinto | GTYPE>location | SUBTYPE> provinceCapital
+Leganés | GTYPE>location | SUBTYPE> regionCapital
+Tolmezzo | GTYPE>location | SUBTYPE> provinceCapital
+Latisana | GTYPE>location | SUBTYPE> provinceCapital
+Manziana | GTYPE>location | SUBTYPE> provinceCapital
+Santa Marinella | GTYPE>location | SUBTYPE> provinceCapital
+Monterotondo | GTYPE>location | SUBTYPE> provinceCapital
+Segni | GTYPE>location | SUBTYPE> provinceCapital
+Bracciano | GTYPE>location | SUBTYPE> provinceCapital
+Velletri | GTYPE>location | SUBTYPE> provinceCapital
+Artena | GTYPE>location | SUBTYPE> provinceCapital
+Ardea | GTYPE>location | SUBTYPE> provinceCapital
+Jidá | GTYPE>location | SUBTYPE> regionCapital
+Rovato | GTYPE>location | SUBTYPE> provinceCapital
+Bagnolo Mella | GTYPE>location | SUBTYPE> provinceCapital
+Manerbio | GTYPE>location | SUBTYPE> provinceCapital
+Bagolino | GTYPE>location | SUBTYPE> provinceCapital
+Bréscia | GTYPE>location | SUBTYPE> regionCapital
+Chiari | GTYPE>location | SUBTYPE> provinceCapital
+Orzinuovi | GTYPE>location | SUBTYPE> provinceCapital
+Rezzato | GTYPE>location | SUBTYPE> provinceCapital
+Gardone Val Trompia | GTYPE>location | SUBTYPE> provinceCapital
+Ghedi | GTYPE>location | SUBTYPE> provinceCapital
+Lonato | GTYPE>location | SUBTYPE> provinceCapital
+Breno | GTYPE>location | SUBTYPE> provinceCapital
+Sarezzo | GTYPE>location | SUBTYPE> provinceCapital
+Leno | GTYPE>location | SUBTYPE> provinceCapital
+Jilin | GTYPE>location | SUBTYPE> regionCapital
+Yecla | GTYPE>location | SUBTYPE> provinceCapital
+Almansa | GTYPE>location | SUBTYPE> provinceCapital
+Segóvia | GTYPE>location | SUBTYPE> provinceCapital
+Baza | GTYPE>location | SUBTYPE> provinceCapital
+Petropavlovsk-Kamchatski | GTYPE>location | SUBTYPE> regionCapital
+Gondar | GTYPE>location | SUBTYPE> provinceCapital
+Nantong | GTYPE>location | SUBTYPE> provinceCapital
+Wurtzburgo | GTYPE>location | SUBTYPE> regionCapital
+Palência | GTYPE>location | SUBTYPE> provinceCapital
+Constança | GTYPE>location | SUBTYPE> provinceCapital
+Ravensburg | GTYPE>location | SUBTYPE> provinceCapital
+Fossano | GTYPE>location | SUBTYPE> provinceCapital
+Borgo San Dalmazzo | GTYPE>location | SUBTYPE> provinceCapital
+Dronero | GTYPE>location | SUBTYPE> provinceCapital
+Racconigi | GTYPE>location | SUBTYPE> provinceCapital
+Alba | GTYPE>location | SUBTYPE> provinceCapital
+Arnhemia | GTYPE>location | SUBTYPE> regionCapital
+Noviomago | GTYPE>location | SUBTYPE> regionCapital
+Vada | GTYPE>location | SUBTYPE> provinceCapital
+Lancaster | GTYPE>location | SUBTYPE> provinceCapital
+Müllheim | GTYPE>location | SUBTYPE> provinceCapital
+Rottweil | GTYPE>location | SUBTYPE> provinceCapital
+Tuttlingen | GTYPE>location | SUBTYPE> provinceCapital
+Kehl | GTYPE>location | SUBTYPE> provinceCapital
+Lahr | GTYPE>location | SUBTYPE> provinceCapital
+Yssingeaux | GTYPE>location | SUBTYPE> provinceCapital
+Kayes | GTYPE>location | SUBTYPE> provinceCapital
+Ialta | GTYPE>location | SUBTYPE> provinceCapital
+Marraquexe | GTYPE>location | SUBTYPE> regionCapital
+Rivarolo Canavese | GTYPE>location | SUBTYPE> provinceCapital
+Giaveno | GTYPE>location | SUBTYPE> provinceCapital
+Orbassano | GTYPE>location | SUBTYPE> provinceCapital
+Ciriè | GTYPE>location | SUBTYPE> provinceCapital
+Moncalieri | GTYPE>location | SUBTYPE> provinceCapital
+Volpiano | GTYPE>location | SUBTYPE> provinceCapital
+Poirino | GTYPE>location | SUBTYPE> provinceCapital
+Settimo Torinese | GTYPE>location | SUBTYPE> provinceCapital
+Cuorgnè | GTYPE>location | SUBTYPE> provinceCapital
+Chieri | GTYPE>location | SUBTYPE> provinceCapital
+Avigliana | GTYPE>location | SUBTYPE> provinceCapital
+Carmagnola | GTYPE>location | SUBTYPE> provinceCapital
+Turim | GTYPE>location | SUBTYPE> regionCapital
+Chivasso | GTYPE>location | SUBTYPE> provinceCapital
+San Mauro Torinese | GTYPE>location | SUBTYPE> provinceCapital
+Beinasco | GTYPE>location | SUBTYPE> provinceCapital
+Carignano | GTYPE>location | SUBTYPE> provinceCapital
+Collegno | GTYPE>location | SUBTYPE> provinceCapital
+Bussoleno | GTYPE>location | SUBTYPE> provinceCapital
+Leinì | GTYPE>location | SUBTYPE> provinceCapital
+Saint-Flour | GTYPE>location | SUBTYPE> provinceCapital
+Gandia | GTYPE>location | SUBTYPE> provinceCapital
+Valência | GTYPE>location | SUBTYPE> regionCapital
+Olivença | GTYPE>location | SUBTYPE> provinceCapital
+Almendralejo | GTYPE>location | SUBTYPE> provinceCapital
+Sélestat | GTYPE>location | SUBTYPE> provinceCapital
+Estrasburgo | GTYPE>location | SUBTYPE> regionCapital
+Augsburgo | GTYPE>location | SUBTYPE> regionCapital
+Memmingen | GTYPE>location | SUBTYPE> provinceCapital
+Straubing | GTYPE>location | SUBTYPE> provinceCapital
+Marmande | GTYPE>location | SUBTYPE> provinceCapital
+Plasencia | GTYPE>location | SUBTYPE> provinceCapital
+Ashford | GTYPE>location | SUBTYPE> provinceCapital
+Cantuária | GTYPE>location | SUBTYPE> provinceCapital
+Winnenden | GTYPE>location | SUBTYPE> provinceCapital
+Sindelfingen | GTYPE>location | SUBTYPE> provinceCapital
+Schwäbisch Gmünd | GTYPE>location | SUBTYPE> provinceCapital
+Heidenheim | GTYPE>location | SUBTYPE> provinceCapital
+Esslingen | GTYPE>location | SUBTYPE> provinceCapital
+Leonberg | GTYPE>location | SUBTYPE> provinceCapital
+Böblingen | GTYPE>location | SUBTYPE> provinceCapital
+Pontivy | GTYPE>location | SUBTYPE> provinceCapital
+Datong | GTYPE>location | SUBTYPE> provinceCapital
+Zamora | GTYPE>location | SUBTYPE> provinceCapital
+Teruel | GTYPE>location | SUBTYPE> provinceCapital
+Alcañiz | GTYPE>location | SUBTYPE> provinceCapital
+Sagunto | GTYPE>location | SUBTYPE> provinceCapital
+Fraga | GTYPE>location | SUBTYPE> provinceCapital
+Jaca | GTYPE>location | SUBTYPE> provinceCapital
+Barbastro | GTYPE>location | SUBTYPE> provinceCapital
+Orleães | GTYPE>location | SUBTYPE> regionCapital
+Montargis | GTYPE>location | SUBTYPE> provinceCapital
+Nogent-le-Rotrou | GTYPE>location | SUBTYPE> provinceCapital
+Narbona | GTYPE>location | SUBTYPE> regionCapital
+Quimperlé | GTYPE>location | SUBTYPE> provinceCapital
+Morlaix | GTYPE>location | SUBTYPE> provinceCapital
+Astorga | GTYPE>location | SUBTYPE> provinceCapital
+Ponferrada | GTYPE>location | SUBTYPE> provinceCapital
+Dunquerque | GTYPE>location | SUBTYPE> provinceCapital
+Lannion | GTYPE>location | SUBTYPE> provinceCapital
+Saragoça | GTYPE>location | SUBTYPE> regionCapital
+Calatayud | GTYPE>location | SUBTYPE> provinceCapital
+Tonnerre | GTYPE>location | SUBTYPE> provinceCapital
+Guadalajara | GTYPE>location | SUBTYPE> provinceCapital
+Orthez | GTYPE>location | SUBTYPE> provinceCapital
+Baiona | GTYPE>location | SUBTYPE> provinceCapital
+Issoire | GTYPE>location | SUBTYPE> provinceCapital
+Thiers | GTYPE>location | SUBTYPE> provinceCapital
+Riom | GTYPE>location | SUBTYPE> provinceCapital
+Zhangjiakou | GTYPE>location | SUBTYPE> provinceCapital
+Bordéus | GTYPE>location | SUBTYPE> regionCapital
+Barentin | GTYPE>location | SUBTYPE> provinceCapital
+Elbeuf | GTYPE>location | SUBTYPE> provinceCapital
+Ruão | GTYPE>location | SUBTYPE> regionCapital
+Marcigny | GTYPE>location | SUBTYPE> provinceCapital
+Louhans | GTYPE>location | SUBTYPE> provinceCapital
+Creusot | GTYPE>location | SUBTYPE> provinceCapital
+Bolonha-sobre-o-Mar | GTYPE>location | SUBTYPE> provinceCapital
+Dumbarton | GTYPE>location | SUBTYPE> provinceCapital
+Auxonne | GTYPE>location | SUBTYPE> provinceCapital
+Saulieu | GTYPE>location | SUBTYPE> provinceCapital
+Dachau | GTYPE>location | SUBTYPE> provinceCapital
+Cabelo | GTYPE>location | SUBTYPE> provinceCapital
+Pêlo | GTYPE>location | SUBTYPE> provinceCapital
+Magdeburgo | GTYPE>location | SUBTYPE> regionCapital
+Hanôver | GTYPE>location | SUBTYPE> regionCapital 
+Blagoveshchensk | GTYPE>location | SUBTYPE> provinceCapital
+Voronezh | GTYPE>location | SUBTYPE> regionCapital
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : name_affix.txt
+# content : pattern matcher lexicon for person name affixes (pre-in-suffix)
+# author  : M. Ehrmann
+# date	  : February 2012
+#**********************************************
+
+
+# prefixes
+al | GTYPE>name_prefix 
+#al'| GTYPE>name_prefix | STRICT > (?i:al['´’‘`])
+# abu = father of, umm = mother of 
+abu| GTYPE>name_prefix
+umm| GTYPE>name_prefix
+
+
+# arabic infixes (can be prefixed as well)
+# ibn = son of, bint = daughter of 
+bin  | GTYPE>name_infix
+bint | GTYPE>name_infix
+
+de | GTYPE>name_infix
+de+la | GTYPE>name_infix
+de+los | GTYPE>name_infix
+#del | GTYPE>name_infix #to ambiguous and does not hram removing it
+#dal | GTYPE>name_infix #to ambiguous and does not hram removing it
+da | GTYPE>name_infix
+v+d | GTYPE>name_infix
+v | GTYPE>name_infix
+van+de | GTYPE>name_infix
+van+den | GTYPE>name_infix
+van+der | GTYPE>name_infix
+van | GTYPE>name_infix
+der | GTYPE>name_infix
+von+d | GTYPE>name_infix
+von+de | GTYPE>name_infix
+von+den | GTYPE>name_infix
+von+der | GTYPE>name_infix	
+von | GTYPE>name_infix
+
+#**********************************************
+# Joint Research Center - Optima
+# Copyright (c) 2012 European Commission.
+# file    : person_demonyms-pt.txt
+# content : PM lexicon for person demonyms by continent, country and other
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+#**********************************************
+
+afegão | GTYPE>demonym | GSUBTYPE>national 
+afegãos | GTYPE>demonym | GSUBTYPE>national 
+afegãa | GTYPE>demonym | GSUBTYPE>national 
+afegãas | GTYPE>demonym | GSUBTYPE>national 
+albanês | GTYPE>demonym | GSUBTYPE>national 
+albanesa | GTYPE>demonym | GSUBTYPE>national 
+albanesas | GTYPE>demonym | GSUBTYPE>national 
+alemão | GTYPE>demonym | GSUBTYPE>national 
+alemãos | GTYPE>demonym | GSUBTYPE>national 
+alemã | GTYPE>demonym | GSUBTYPE>national 
+alemãs | GTYPE>demonym | GSUBTYPE>national 
+andorrano | GTYPE>demonym | GSUBTYPE>national 
+andorranos | GTYPE>demonym | GSUBTYPE>national 
+andorrana | GTYPE>demonym | GSUBTYPE>national 
+andorranas | GTYPE>demonym | GSUBTYPE>national 
+angolano | GTYPE>demonym | GSUBTYPE>national 
+angolanos | GTYPE>demonym | GSUBTYPE>national 
+angolana | GTYPE>demonym | GSUBTYPE>national 
+angolanas | GTYPE>demonym | GSUBTYPE>national 
+anguilano | GTYPE>demonym | GSUBTYPE>national 
+anguilanos | GTYPE>demonym | GSUBTYPE>national 
+anguilana | GTYPE>demonym | GSUBTYPE>national 
+anguilanas | GTYPE>demonym | GSUBTYPE>national 
+antiguo-barbudano | GTYPE>demonym 
+antiguo-barbudanos | GTYPE>demonym | GSUBTYPE>national 
+antiguo-barbudana | GTYPE>demonym | GSUBTYPE>national 
+antiguo-barbudanas | GTYPE>demonym | GSUBTYPE>national 
+antilhano | GTYPE>demonym | GSUBTYPE>national 
+antilhanos | GTYPE>demonym | GSUBTYPE>national 
+antilhana | GTYPE>demonym | GSUBTYPE>national 
+antilhanas | GTYPE>demonym | GSUBTYPE>national 
+antárctico | GTYPE>demonym | GSUBTYPE>national 
+antárcticos | GTYPE>demonym | GSUBTYPE>national 
+antárctica | GTYPE>demonym | GSUBTYPE>national 
+antárcticas | GTYPE>demonym | GSUBTYPE>national 
+argelino | GTYPE>demonym | GSUBTYPE>national 
+argelinos | GTYPE>demonym | GSUBTYPE>national 
+argelina | GTYPE>demonym | GSUBTYPE>national 
+argelinas | GTYPE>demonym | GSUBTYPE>national 
+argentino | GTYPE>demonym | GSUBTYPE>national 
+argentinos | GTYPE>demonym | GSUBTYPE>national 
+argentina | GTYPE>demonym | GSUBTYPE>national 
+argentinas | GTYPE>demonym | GSUBTYPE>national 
+arménio | GTYPE>demonym | GSUBTYPE>national 
+arménios | GTYPE>demonym | GSUBTYPE>national 
+arménia | GTYPE>demonym | GSUBTYPE>national 
+arménias | GTYPE>demonym | GSUBTYPE>national 
+armênio | GTYPE>demonym | GSUBTYPE>national 
+armênios | GTYPE>demonym | GSUBTYPE>national 
+armênia | GTYPE>demonym | GSUBTYPE>national 
+armênias | GTYPE>demonym | GSUBTYPE>national 
+arubano | GTYPE>demonym | GSUBTYPE>national 
+arubanos | GTYPE>demonym | GSUBTYPE>national 
+arubana | GTYPE>demonym | GSUBTYPE>national 
+arubanas | GTYPE>demonym | GSUBTYPE>national 
+australiano | GTYPE>demonym | GSUBTYPE>national 
+australianos | GTYPE>demonym | GSUBTYPE>national 
+australiana | GTYPE>demonym | GSUBTYPE>national 
+australianas | GTYPE>demonym | GSUBTYPE>national 
+austríaco | GTYPE>demonym | GSUBTYPE>national 
+austríacos | GTYPE>demonym | GSUBTYPE>national 
+austríaca | GTYPE>demonym | GSUBTYPE>national 
+austríacas | GTYPE>demonym | GSUBTYPE>national 
+azerbaijanês | GTYPE>demonym | GSUBTYPE>national 
+azerbaijaneses | GTYPE>demonym | GSUBTYPE>national  
+azerbaijanesa | GTYPE>demonym | GSUBTYPE>national  
+azerbaijanesas | GTYPE>demonym | GSUBTYPE>national 
+azerbeijão | GTYPE>demonym | GSUBTYPE>national 
+baamiano | GTYPE>demonym | GSUBTYPE>national 
+baamianos | GTYPE>demonym | GSUBTYPE>national 
+baamiana | GTYPE>demonym | GSUBTYPE>national 
+baamianas | GTYPE>demonym | GSUBTYPE>national 
+bangladeshiano | GTYPE>demonym | GSUBTYPE>national 
+bangladechiano | GTYPE>demonym | GSUBTYPE>national 
+bangladeshiana| GTYPE>demonym | GSUBTYPE>national 
+bangladechiana | GTYPE>demonym | GSUBTYPE>national 
+bangladeshianos | GTYPE>demonym | GSUBTYPE>national 
+bangladechianos | GTYPE>demonym | GSUBTYPE>national 
+bangladeshianas| GTYPE>demonym | GSUBTYPE>national 
+bangladechianas | GTYPE>demonym | GSUBTYPE>national
+barbadense | GTYPE>demonym | GSUBTYPE>national 
+barbadenses | GTYPE>demonym | GSUBTYPE>national 
+baremita | GTYPE>demonym | GSUBTYPE>national 
+baremitas | GTYPE>demonym | GSUBTYPE>national 
+belga | GTYPE>demonym | GSUBTYPE>national 
+belgas | GTYPE>demonym | GSUBTYPE>national 
+belizense | GTYPE>demonym | GSUBTYPE>national 
+belizenses | GTYPE>demonym | GSUBTYPE>national 
+beninês | GTYPE>demonym | GSUBTYPE>national 
+benineses | GTYPE>demonym | GSUBTYPE>national 
+beninesa | GTYPE>demonym | GSUBTYPE>national 
+beninesas | GTYPE>demonym | GSUBTYPE>national 
+bermudense | GTYPE>demonym | GSUBTYPE>national 
+bermudenses | GTYPE>demonym | GSUBTYPE>national 
+bielorrusso | GTYPE>demonym | GSUBTYPE>national 
+bielorrussos | GTYPE>demonym | GSUBTYPE>national 
+bielorrussa | GTYPE>demonym | GSUBTYPE>national 
+bielorrussas | GTYPE>demonym | GSUBTYPE>national 
+bielorusso | GTYPE>demonym | GSUBTYPE>national 
+bielorussos | GTYPE>demonym | GSUBTYPE>national 
+bielorussa | GTYPE>demonym | GSUBTYPE>national 
+bielorussas | GTYPE>demonym | GSUBTYPE>national 
+birmanês | GTYPE>demonym | GSUBTYPE>national 
+birmaneses | GTYPE>demonym | GSUBTYPE>national 
+birmanesa | GTYPE>demonym | GSUBTYPE>national 
+birmanesas | GTYPE>demonym | GSUBTYPE>national 
+boliviano | GTYPE>demonym | GSUBTYPE>national 
+bolivianos | GTYPE>demonym | GSUBTYPE>national 
+boliviana | GTYPE>demonym | GSUBTYPE>national 
+bolivianas | GTYPE>demonym | GSUBTYPE>national 
+botsuano | GTYPE>demonym | GSUBTYPE>national 
+botsuanos | GTYPE>demonym | GSUBTYPE>national 
+botsuana | GTYPE>demonym | GSUBTYPE>national 
+botsuanas | GTYPE>demonym | GSUBTYPE>national 
+brasileiro | GTYPE>demonym | GSUBTYPE>national 
+brasileiros | GTYPE>demonym | GSUBTYPE>national 
+brasileira | GTYPE>demonym | GSUBTYPE>national 
+brasileiras | GTYPE>demonym | GSUBTYPE>national 
+britânico | GTYPE>demonym | GSUBTYPE>national 
+britânicos | GTYPE>demonym | GSUBTYPE>national 
+britânica | GTYPE>demonym | GSUBTYPE>national 
+britânicas | GTYPE>demonym | GSUBTYPE>national 
+bruneíno | GTYPE>demonym | GSUBTYPE>national 
+bruneínos | GTYPE>demonym | GSUBTYPE>national 
+bruneína | GTYPE>demonym | GSUBTYPE>national 
+bruneínas | GTYPE>demonym | GSUBTYPE>national 
+burquinês | GTYPE>demonym | GSUBTYPE>national 
+burquineses | GTYPE>demonym | GSUBTYPE>national 
+burquinesa | GTYPE>demonym | GSUBTYPE>national 
+burquinesas | GTYPE>demonym | GSUBTYPE>national 
+burundiano | GTYPE>demonym | GSUBTYPE>national 
+burundianos | GTYPE>demonym | GSUBTYPE>national 
+burundiana | GTYPE>demonym | GSUBTYPE>national 
+burundianas | GTYPE>demonym | GSUBTYPE>national 
+butanês | GTYPE>demonym | GSUBTYPE>national 
+butaneses | GTYPE>demonym | GSUBTYPE>national 
+butanesa | GTYPE>demonym | GSUBTYPE>national 
+butanesas | GTYPE>demonym | GSUBTYPE>national 
+bósnio-herzegovino | GTYPE>demonym | GSUBTYPE>national 
+bósnio-herzegovinos | GTYPE>demonym | GSUBTYPE>national 
+bósnio-herzegovina | GTYPE>demonym | GSUBTYPE>national 
+bósnio-herzegovinas | GTYPE>demonym | GSUBTYPE>national 
+búlgaro | GTYPE>demonym | GSUBTYPE>national 
+búlgaros | GTYPE>demonym | GSUBTYPE>national 
+búlgara | GTYPE>demonym | GSUBTYPE>national 
+búlgaras | GTYPE>demonym | GSUBTYPE>national 
+cabo-verdiano| GTYPE>demonym | GSUBTYPE>national 
+cabo-verdiana| GTYPE>demonym | GSUBTYPE>national 
+cabo-verdianos| GTYPE>demonym | GSUBTYPE>national 
+cabo-verdianas| GTYPE>demonym | GSUBTYPE>national 
+caimanês | GTYPE>demonym | GSUBTYPE>national 
+caimaneses | GTYPE>demonym | GSUBTYPE>national 
+caimanesa | GTYPE>demonym | GSUBTYPE>national 
+caimanesas | GTYPE>demonym | GSUBTYPE>national 
+camaronês | GTYPE>demonym | GSUBTYPE>national 
+camaroneses | GTYPE>demonym | GSUBTYPE>national 
+camaronesa | GTYPE>demonym | GSUBTYPE>national 
+camaronesas | GTYPE>demonym | GSUBTYPE>national 
+camerunense | GTYPE>demonym | GSUBTYPE>national 
+camerunenses | GTYPE>demonym | GSUBTYPE>national 
+cambojano | GTYPE>demonym | GSUBTYPE>national 
+cambojanos | GTYPE>demonym | GSUBTYPE>national 
+cambojana | GTYPE>demonym | GSUBTYPE>national 
+cambojanas | GTYPE>demonym | GSUBTYPE>national 
+canadiano | GTYPE>demonym | GSUBTYPE>national 
+canadianos | GTYPE>demonym | GSUBTYPE>national 
+canadiana | GTYPE>demonym | GSUBTYPE>national 
+canadianas | GTYPE>demonym | GSUBTYPE>national 
+canadense | GTYPE>demonym | GSUBTYPE>national 
+canadenses | GTYPE>demonym | GSUBTYPE>national 
+catarense | GTYPE>demonym | GSUBTYPE>national 
+catarenses | GTYPE>demonym | GSUBTYPE>national 
+cazaquistanês | GTYPE>demonym | GSUBTYPE>national 
+cazaquistaneses | GTYPE>demonym | GSUBTYPE>national 
+cazaquistanesa | GTYPE>demonym | GSUBTYPE>national 
+cazaquistanesas | GTYPE>demonym | GSUBTYPE>national 
+centro-africano | GTYPE>demonym | GSUBTYPE>national 
+centro-africanos | GTYPE>demonym | GSUBTYPE>national 
+centro-africana | GTYPE>demonym | GSUBTYPE>national 
+centro-africanas | GTYPE>demonym | GSUBTYPE>national 
+chadiano | GTYPE>demonym | GSUBTYPE>national 
+chadianos | GTYPE>demonym | GSUBTYPE>national 
+chadiana | GTYPE>demonym | GSUBTYPE>national 
+chadianas | GTYPE>demonym | GSUBTYPE>national 
+tcheco | GTYPE>demonym | GSUBTYPE>national 
+tchecos | GTYPE>demonym | GSUBTYPE>national 
+tcheca | GTYPE>demonym | GSUBTYPE>national 
+tchecas | GTYPE>demonym | GSUBTYPE>national 
+checo | GTYPE>demonym | GSUBTYPE>national 
+checos | GTYPE>demonym | GSUBTYPE>national 
+checa | GTYPE>demonym | GSUBTYPE>national 
+checas | GTYPE>demonym | GSUBTYPE>national
+chileno | GTYPE>demonym | GSUBTYPE>national 
+chilenos | GTYPE>demonym | GSUBTYPE>national 
+chilena | GTYPE>demonym | GSUBTYPE>national 
+chilenas | GTYPE>demonym | GSUBTYPE>national 
+chinês | GTYPE>demonym | GSUBTYPE>national 
+chineses | GTYPE>demonym | GSUBTYPE>national 
+chinesa | GTYPE>demonym | GSUBTYPE>national 
+chinesas | GTYPE>demonym | GSUBTYPE>national 
+cingalês | GTYPE>demonym | GSUBTYPE>national 
+cingaleses | GTYPE>demonym | GSUBTYPE>national 
+cingalesa | GTYPE>demonym | GSUBTYPE>national 
+cingalesas | GTYPE>demonym | GSUBTYPE>national 
+cipriotas | GTYPE>demonym | GSUBTYPE>national 
+cipriota | GTYPE>demonym | GSUBTYPE>national 
+colombiano | GTYPE>demonym | GSUBTYPE>national 
+colombianos | GTYPE>demonym | GSUBTYPE>national 
+colombiana | GTYPE>demonym | GSUBTYPE>national 
+colombianas | GTYPE>demonym | GSUBTYPE>national 
+comoriano | GTYPE>demonym | GSUBTYPE>national 
+comorianos | GTYPE>demonym | GSUBTYPE>national 
+comoriana | GTYPE>demonym | GSUBTYPE>national 
+comorianas | GTYPE>demonym | GSUBTYPE>national 
+congolês | GTYPE>demonym | GSUBTYPE>national 
+congoleses | GTYPE>demonym | GSUBTYPE>national 
+congolesa | GTYPE>demonym | GSUBTYPE>national 
+congolesas | GTYPE>demonym | GSUBTYPE>national 
+cookense | GTYPE>demonym | GSUBTYPE>national 
+cookenses | GTYPE>demonym | GSUBTYPE>national 
+coquense | GTYPE>demonym | GSUBTYPE>national 
+coquenses | GTYPE>demonym | GSUBTYPE>national 
+costa-arfinense| GTYPE>demonym | GSUBTYPE>national 
+costa-arfinenses| GTYPE>demonym | GSUBTYPE>national 
+costa-iquenho| GTYPE>demonym | GSUBTYPE>national 
+costa-iquenha| GTYPE>demonym | GSUBTYPE>national 
+costa-iquenhos| GTYPE>demonym | GSUBTYPE>national 
+costa-iquenhas| GTYPE>demonym | GSUBTYPE>national 
+cristovo-nevenses| GTYPE>demonym | GSUBTYPE>national 
+cristovo-nevense| GTYPE>demonym | GSUBTYPE>national 
+croata | GTYPE>demonym | GSUBTYPE>national 
+croatas | GTYPE>demonym | GSUBTYPE>national 
+servio-croata | GTYPE>demonym | GSUBTYPE>national 
+servo-croata | GTYPE>demonym | GSUBTYPE>national 
+servio-croatas | GTYPE>demonym | GSUBTYPE>national 
+servo-croatas | GTYPE>demonym | GSUBTYPE>national 
+cubano | GTYPE>demonym | GSUBTYPE>national 
+cubanos | GTYPE>demonym | GSUBTYPE>national 
+cubana | GTYPE>demonym | GSUBTYPE>national 
+cubanas | GTYPE>demonym | GSUBTYPE>national 
+dinamarquês | GTYPE>demonym | GSUBTYPE>national 
+dinamarqueses | GTYPE>demonym | GSUBTYPE>national 
+dinamarquesa | GTYPE>demonym | GSUBTYPE>national 
+dinamarquesas | GTYPE>demonym | GSUBTYPE>national 
+dominicano | GTYPE>demonym | GSUBTYPE>national 
+dominicanos | GTYPE>demonym | GSUBTYPE>national 
+dominicana | GTYPE>demonym | GSUBTYPE>national 
+dominicanas | GTYPE>demonym | GSUBTYPE>national 
+dominiquense | GTYPE>demonym | GSUBTYPE>national 
+dominiquenses | GTYPE>demonym | GSUBTYPE>national 
+egípcio | GTYPE>demonym | GSUBTYPE>national 
+egípcios | GTYPE>demonym | GSUBTYPE>national 
+egípcia | GTYPE>demonym | GSUBTYPE>national 
+egípcias | GTYPE>demonym | GSUBTYPE>national 
+emiratense | GTYPE>demonym | GSUBTYPE>national 
+emiratenses | GTYPE>demonym | GSUBTYPE>national 
+equatoriano | GTYPE>demonym | GSUBTYPE>national 
+equatorianos | GTYPE>demonym | GSUBTYPE>national 
+equatoriana | GTYPE>demonym | GSUBTYPE>national 
+equatorianas | GTYPE>demonym 
+#eritréias?   # to check
+#eritreo   # to check
+#eritreus
+eslovaco | GTYPE>demonym | GSUBTYPE>national 
+eslovacos | GTYPE>demonym | GSUBTYPE>national 
+eslovaca | GTYPE>demonym | GSUBTYPE>national 
+eslovacas | GTYPE>demonym | GSUBTYPE>national 
+esloveno | GTYPE>demonym | GSUBTYPE>national 
+eslovenos | GTYPE>demonym | GSUBTYPE>national 
+eslovena | GTYPE>demonym | GSUBTYPE>national 
+eslovenas | GTYPE>demonym | GSUBTYPE>national 
+espanhol | GTYPE>demonym | GSUBTYPE>national 
+espanhóis | GTYPE>demonym | GSUBTYPE>national 
+espanholas | GTYPE>demonym | GSUBTYPE>national 
+espanhola | GTYPE>demonym | GSUBTYPE>national 
+estado-unidense | GTYPE>demonym | GSUBTYPE>national 
+estado-unidenses | GTYPE>demonym | GSUBTYPE>national 
+estoniano | GTYPE>demonym | GSUBTYPE>national
+estónio | GTYPE>demonym | GSUBTYPE>national
+estónico | GTYPE>demonym | GSUBTYPE>national
+estonianos | GTYPE>demonym | GSUBTYPE>national
+estónios | GTYPE>demonym | GSUBTYPE>national
+estónicos | GTYPE>demonym | GSUBTYPE>national
+estoniana | GTYPE>demonym | GSUBTYPE>national
+estónia | GTYPE>demonym | GSUBTYPE>national
+estónica | GTYPE>demonym | GSUBTYPE>national
+estonianas | GTYPE>demonym | GSUBTYPE>national
+estónias | GTYPE>demonym | GSUBTYPE>national
+estónicas | GTYPE>demonym | GSUBTYPE>national
+etíope | GTYPE>demonym | GSUBTYPE>national   
+falklandês | GTYPE>demonym | GSUBTYPE>national 
+falklandeses | GTYPE>demonym | GSUBTYPE>national 
+falklandesa | GTYPE>demonym | GSUBTYPE>national 
+falklandesas | GTYPE>demonym | GSUBTYPE>national 
+malvinense | GTYPE>demonym | GSUBTYPE>national 
+malvinenses | GTYPE>demonym | GSUBTYPE>national 
+faroense | GTYPE>demonym | GSUBTYPE>national 
+faroenses | GTYPE>demonym | GSUBTYPE>national 
+fijiano | GTYPE>demonym | GSUBTYPE>national 
+fijianos | GTYPE>demonym | GSUBTYPE>national 
+fijiana | GTYPE>demonym | GSUBTYPE>national 
+fijianas | GTYPE>demonym | GSUBTYPE>national 
+filipino | GTYPE>demonym | GSUBTYPE>national 
+filipinos | GTYPE>demonym | GSUBTYPE>national 
+filipina | GTYPE>demonym | GSUBTYPE>national 
+filipinas | GTYPE>demonym | GSUBTYPE>national 
+finlandês | GTYPE>demonym | GSUBTYPE>national 
+finlandeses | GTYPE>demonym | GSUBTYPE>national 
+finlandesa | GTYPE>demonym | GSUBTYPE>national 
+finlandesas | GTYPE>demonym | GSUBTYPE>national 
+francês | GTYPE>demonym | GSUBTYPE>national 
+franceses | GTYPE>demonym | GSUBTYPE>national 
+francesa | GTYPE>demonym | GSUBTYPE>national 
+francesas | GTYPE>demonym | GSUBTYPE>national 
+gabonês | GTYPE>demonym | GSUBTYPE>national 
+gaboneses | GTYPE>demonym | GSUBTYPE>national 
+gabonesa | GTYPE>demonym | GSUBTYPE>national 
+gabonesas | GTYPE>demonym | GSUBTYPE>national 
+gambiano | GTYPE>demonym | GSUBTYPE>national 
+gambianos | GTYPE>demonym | GSUBTYPE>national 
+gambiana | GTYPE>demonym | GSUBTYPE>national 
+gambianas | GTYPE>demonym | GSUBTYPE>national 
+ganês | GTYPE>demonym | GSUBTYPE>national 
+ganeses | GTYPE>demonym | GSUBTYPE>national 
+ganesa | GTYPE>demonym | GSUBTYPE>national 
+ganesas | GTYPE>demonym | GSUBTYPE>national 
+georgiano | GTYPE>demonym | GSUBTYPE>national 
+georgianos | GTYPE>demonym | GSUBTYPE>national 
+georgiana | GTYPE>demonym | GSUBTYPE>national 
+georgianas | GTYPE>demonym | GSUBTYPE>national 
+gibraltino | GTYPE>demonym | GSUBTYPE>national 
+gibraltinos | GTYPE>demonym | GSUBTYPE>national 
+gibraltina | GTYPE>demonym | GSUBTYPE>national 
+gibraltinas | GTYPE>demonym | GSUBTYPE>national 
+granadino | GTYPE>demonym | GSUBTYPE>national 
+granadinos | GTYPE>demonym | GSUBTYPE>national 
+granadina | GTYPE>demonym | GSUBTYPE>national 
+granadinas | GTYPE>demonym | GSUBTYPE>national 
+grego | GTYPE>demonym | GSUBTYPE>national 
+gregos | GTYPE>demonym | GSUBTYPE>national 
+grega | GTYPE>demonym | GSUBTYPE>national 
+gregas | GTYPE>demonym | GSUBTYPE>national 
+groenlandês | GTYPE>demonym | GSUBTYPE>national 
+groenlandeses | GTYPE>demonym | GSUBTYPE>national 
+groenlandesa | GTYPE>demonym | GSUBTYPE>national 
+groenlandesas | GTYPE>demonym | GSUBTYPE>national 
+guadalupino | GTYPE>demonym | GSUBTYPE>national 
+guadalupinos | GTYPE>demonym | GSUBTYPE>national 
+guadalupina | GTYPE>demonym | GSUBTYPE>national 
+guadalupinas | GTYPE>demonym | GSUBTYPE>national 
+guamês | GTYPE>demonym | GSUBTYPE>national 
+guameses | GTYPE>demonym | GSUBTYPE>national 
+guamesa | GTYPE>demonym | GSUBTYPE>national 
+guamesas | GTYPE>demonym | GSUBTYPE>national 
+guatemalteco | GTYPE>demonym | GSUBTYPE>national 
+guatemaltecos | GTYPE>demonym | GSUBTYPE>national 
+guatemalteca | GTYPE>demonym | GSUBTYPE>national 
+guatemaltecas | GTYPE>demonym | GSUBTYPE>national 
+guianês | GTYPE>demonym | GSUBTYPE>national 
+guianeses | GTYPE>demonym | GSUBTYPE>national 
+guianesa | GTYPE>demonym | GSUBTYPE>national 
+guianesas | GTYPE>demonym | GSUBTYPE>national 
+guineense | GTYPE>demonym | GSUBTYPE>national 
+guineenses | GTYPE>demonym | GSUBTYPE>national 
+haitiano | GTYPE>demonym | GSUBTYPE>national 
+haitianos | GTYPE>demonym | GSUBTYPE>national 
+haitiana | GTYPE>demonym | GSUBTYPE>national 
+haitianas | GTYPE>demonym | GSUBTYPE>national 
+heard-macdonaldense| GTYPE>demonym | GSUBTYPE>national 
+heard-macdonaldenses| GTYPE>demonym | GSUBTYPE>national 
+hondurenho | GTYPE>demonym | GSUBTYPE>national 
+hondurenhos | GTYPE>demonym | GSUBTYPE>national 
+hondurenha | GTYPE>demonym | GSUBTYPE>national 
+hondurenhas | GTYPE>demonym | GSUBTYPE>national 
+hongueconguês | GTYPE>demonym | GSUBTYPE>national 
+honguecongueses | GTYPE>demonym | GSUBTYPE>national 
+hongueconguesa | GTYPE>demonym | GSUBTYPE>national 
+hongueconguesas | GTYPE>demonym | GSUBTYPE>national 
+húngaro | GTYPE>demonym | GSUBTYPE>national 
+húngaros | GTYPE>demonym | GSUBTYPE>national 
+húngara | GTYPE>demonym | GSUBTYPE>national 
+húngaras | GTYPE>demonym | GSUBTYPE>national 
+iemenita | GTYPE>demonym | GSUBTYPE>national 
+iemenitas | GTYPE>demonym | GSUBTYPE>national 
+indiano| GTYPE>demonym | GSUBTYPE>national 
+indianos| GTYPE>demonym | GSUBTYPE>national 
+indiana| GTYPE>demonym | GSUBTYPE>national 
+indianas| GTYPE>demonym | GSUBTYPE>national 	
+da Índia| GTYPE>demonym | GSUBTYPE>national 
+indonésio | GTYPE>demonym | GSUBTYPE>national 
+indonésios | GTYPE>demonym | GSUBTYPE>national 
+indonésia | GTYPE>demonym | GSUBTYPE>national 
+indonésias | GTYPE>demonym | GSUBTYPE>national 
+iraniano | GTYPE>demonym | GSUBTYPE>national 
+iranianos | GTYPE>demonym | GSUBTYPE>national 
+iraniana | GTYPE>demonym | GSUBTYPE>national 
+iranianas | GTYPE>demonym | GSUBTYPE>national 
+iraquiano | GTYPE>demonym | GSUBTYPE>national 
+iraquianos | GTYPE>demonym | GSUBTYPE>national 
+iraquiana | GTYPE>demonym | GSUBTYPE>national 
+iraquianas | GTYPE>demonym | GSUBTYPE>national 
+irlandês | GTYPE>demonym | GSUBTYPE>national 
+irlandeses | GTYPE>demonym | GSUBTYPE>national 
+irlandesa | GTYPE>demonym | GSUBTYPE>national 
+irlandesas | GTYPE>demonym | GSUBTYPE>national 
+islandês | GTYPE>demonym | GSUBTYPE>national 
+islandeses | GTYPE>demonym | GSUBTYPE>national 
+islandesa | GTYPE>demonym | GSUBTYPE>national 
+islandesas | GTYPE>demonym | GSUBTYPE>national 
+israelita | GTYPE>demonym | GSUBTYPE>national 
+israelitas | GTYPE>demonym | GSUBTYPE>national 
+israelense | GTYPE>demonym | GSUBTYPE>national 
+israelenses | GTYPE>demonym | GSUBTYPE>national 
+italiano | GTYPE>demonym | GSUBTYPE>national 
+italianos | GTYPE>demonym | GSUBTYPE>national 
+italiana | GTYPE>demonym | GSUBTYPE>national 
+italianas | GTYPE>demonym | GSUBTYPE>national 
+jamaicano | GTYPE>demonym | GSUBTYPE>national 
+jamaicanos | GTYPE>demonym | GSUBTYPE>national 
+jamaicana | GTYPE>demonym | GSUBTYPE>national 
+jamaicanas | GTYPE>demonym | GSUBTYPE>national 
+japonês | GTYPE>demonym | GSUBTYPE>national 
+japoneses | GTYPE>demonym | GSUBTYPE>national 
+japonesa | GTYPE>demonym | GSUBTYPE>national 
+japonesas | GTYPE>demonym | GSUBTYPE>national 
+jibutiano | GTYPE>demonym | GSUBTYPE>national 
+jibutianos | GTYPE>demonym | GSUBTYPE>national 
+jibutiana | GTYPE>demonym | GSUBTYPE>national 
+jibutianas | GTYPE>demonym | GSUBTYPE>national 
+djibutiano | GTYPE>demonym | GSUBTYPE>national 
+djibutianos | GTYPE>demonym | GSUBTYPE>national 
+djibutiana | GTYPE>demonym | GSUBTYPE>national 
+djibutianas | GTYPE>demonym | GSUBTYPE>national 
+jordano | GTYPE>demonym | GSUBTYPE>national 
+jordanos | GTYPE>demonym | GSUBTYPE>national 
+jordana | GTYPE>demonym | GSUBTYPE>national 
+jordanas | GTYPE>demonym | GSUBTYPE>national 
+jordaniano | GTYPE>demonym | GSUBTYPE>national 
+jordanianos | GTYPE>demonym | GSUBTYPE>national 
+jordaniana | GTYPE>demonym | GSUBTYPE>national 
+jordanianas | GTYPE>demonym | GSUBTYPE>national 
+jugoslavo | GTYPE>demonym | GSUBTYPE>national 
+jugoslavos | GTYPE>demonym | GSUBTYPE>national 
+jugoslava | GTYPE>demonym | GSUBTYPE>national 
+jugoslavas | GTYPE>demonym | GSUBTYPE>national 
+iugoslavo | GTYPE>demonym | GSUBTYPE>national 
+iugoslavos | GTYPE>demonym | GSUBTYPE>national 
+iugoslava | GTYPE>demonym | GSUBTYPE>national 
+iugoslavas | GTYPE>demonym | GSUBTYPE>national 
+kuwaitiano | GTYPE>demonym | GSUBTYPE>national 
+kuwaitianos | GTYPE>demonym | GSUBTYPE>national 
+kuwaitiana | GTYPE>demonym | GSUBTYPE>national 
+kuwaitianas | GTYPE>demonym | GSUBTYPE>national 
+laociano | GTYPE>demonym | GSUBTYPE>national 
+laocianos | GTYPE>demonym | GSUBTYPE>national 
+laociana | GTYPE>demonym | GSUBTYPE>national 
+laocianas | GTYPE>demonym | GSUBTYPE>national 
+lesotiano | GTYPE>demonym | GSUBTYPE>national 
+lesotianos | GTYPE>demonym | GSUBTYPE>national 
+lesotiana | GTYPE>demonym | GSUBTYPE>national 
+lesotianas | GTYPE>demonym | GSUBTYPE>national 
+letão | GTYPE>demonym | GSUBTYPE>national 
+letãos | GTYPE>demonym | GSUBTYPE>national 
+letãa | GTYPE>demonym | GSUBTYPE>national 
+letãas | GTYPE>demonym | GSUBTYPE>national 
+libanês | GTYPE>demonym | GSUBTYPE>national 
+libaneses | GTYPE>demonym | GSUBTYPE>national 
+libanesa | GTYPE>demonym | GSUBTYPE>national 
+libanesas | GTYPE>demonym | GSUBTYPE>national 
+liberiano | GTYPE>demonym | GSUBTYPE>national 
+liberianos | GTYPE>demonym | GSUBTYPE>national 
+liberiana | GTYPE>demonym | GSUBTYPE>national 
+liberianas | GTYPE>demonym | GSUBTYPE>national 
+listenstainiano | GTYPE>demonym | GSUBTYPE>national 
+listenstainianos | GTYPE>demonym | GSUBTYPE>national 
+listenstainiana | GTYPE>demonym | GSUBTYPE>national 
+listenstainianas | GTYPE>demonym | GSUBTYPE>national 
+lischtensteiniano | GTYPE>demonym | GSUBTYPE>national 
+lischtensteinianos | GTYPE>demonym | GSUBTYPE>national 
+lischtensteiniana | GTYPE>demonym | GSUBTYPE>national 
+lischtensteinianas | GTYPE>demonym | GSUBTYPE>national 
+lituano | GTYPE>demonym | GSUBTYPE>national 
+lituanos | GTYPE>demonym | GSUBTYPE>national 
+lituana | GTYPE>demonym | GSUBTYPE>national 
+lituanas | GTYPE>demonym | GSUBTYPE>national 
+luxemburguês | GTYPE>demonym | GSUBTYPE>national 
+luxemburgueses | GTYPE>demonym | GSUBTYPE>national 
+luxemburguesa | GTYPE>demonym | GSUBTYPE>national 
+luxemburguesas | GTYPE>demonym | GSUBTYPE>national 
+líbio | GTYPE>demonym | GSUBTYPE>national 
+líbios | GTYPE>demonym | GSUBTYPE>national 
+líbia | GTYPE>demonym | GSUBTYPE>national 
+líbias | GTYPE>demonym | GSUBTYPE>national 
+macaense | GTYPE>demonym | GSUBTYPE>national 
+macaenses | GTYPE>demonym | GSUBTYPE>national 
+macedónio | GTYPE>demonym | GSUBTYPE>national 
+macedónios | GTYPE>demonym | GSUBTYPE>national 
+macedónia | GTYPE>demonym | GSUBTYPE>national 
+macedónias | GTYPE>demonym | GSUBTYPE>national 
+maiotense | GTYPE>demonym | GSUBTYPE>national 
+maiotenses | GTYPE>demonym | GSUBTYPE>national 
+malaio | GTYPE>demonym | GSUBTYPE>national 
+malaios | GTYPE>demonym | GSUBTYPE>national 
+malaia | GTYPE>demonym | GSUBTYPE>national 
+malaias | GTYPE>demonym | GSUBTYPE>national 
+malaviano | GTYPE>demonym | GSUBTYPE>national 
+malavianos | GTYPE>demonym | GSUBTYPE>national 
+malaviana | GTYPE>demonym | GSUBTYPE>national 
+malavianas | GTYPE>demonym | GSUBTYPE>national 
+maldivano | GTYPE>demonym | GSUBTYPE>national 
+maldivanos | GTYPE>demonym | GSUBTYPE>national 
+maldivana | GTYPE>demonym | GSUBTYPE>national 
+maldivanas | GTYPE>demonym | GSUBTYPE>national 
+malgaxe| GTYPE>demonym | GSUBTYPE>national 
+maliano | GTYPE>demonym | GSUBTYPE>national 
+malianos | GTYPE>demonym | GSUBTYPE>national 
+maliana | GTYPE>demonym | GSUBTYPE>national 
+malianas | GTYPE>demonym | GSUBTYPE>national 
+maltês | GTYPE>demonym | GSUBTYPE>national 
+malteses | GTYPE>demonym | GSUBTYPE>national 
+maltesa | GTYPE>demonym | GSUBTYPE>national 
+maltesas | GTYPE>demonym | GSUBTYPE>national 
+marroquino | GTYPE>demonym | GSUBTYPE>national 
+marroquinos | GTYPE>demonym | GSUBTYPE>national 
+marroquina | GTYPE>demonym | GSUBTYPE>national 
+marroquinas | GTYPE>demonym | GSUBTYPE>national 
+marshallense | GTYPE>demonym | GSUBTYPE>national 
+marshallenses | GTYPE>demonym | GSUBTYPE>national 
+martinicano | GTYPE>demonym | GSUBTYPE>national 
+martinicanos | GTYPE>demonym | GSUBTYPE>national 
+martinicana | GTYPE>demonym | GSUBTYPE>national 
+martinicanas | GTYPE>demonym | GSUBTYPE>national 
+mauriciano | GTYPE>demonym | GSUBTYPE>national 
+mauricianos | GTYPE>demonym | GSUBTYPE>national 
+mauriciana | GTYPE>demonym | GSUBTYPE>national 
+mauricianas | GTYPE>demonym | GSUBTYPE>national 
+mauritano | GTYPE>demonym | GSUBTYPE>national 
+mauritanos | GTYPE>demonym | GSUBTYPE>national 
+mauritana | GTYPE>demonym | GSUBTYPE>national 
+mauritanas | GTYPE>demonym | GSUBTYPE>national 
+mexicano | GTYPE>demonym | GSUBTYPE>national 
+mexicanos | GTYPE>demonym | GSUBTYPE>national 
+mexicana | GTYPE>demonym | GSUBTYPE>national 
+mexicanas | GTYPE>demonym | GSUBTYPE>national 
+micronésio | GTYPE>demonym | GSUBTYPE>national 
+micronésios | GTYPE>demonym | GSUBTYPE>national 
+micronésia | GTYPE>demonym | GSUBTYPE>national 
+micronésias | GTYPE>demonym | GSUBTYPE>national 
+moldavo | GTYPE>demonym | GSUBTYPE>national 
+moldavos | GTYPE>demonym | GSUBTYPE>national 
+moldava | GTYPE>demonym | GSUBTYPE>national 
+moldavas | GTYPE>demonym | GSUBTYPE>national 
+monegasco | GTYPE>demonym | GSUBTYPE>national 
+monegascos | GTYPE>demonym | GSUBTYPE>national 
+monegasca | GTYPE>demonym | GSUBTYPE>national 
+monegascas | GTYPE>demonym | GSUBTYPE>national 
+mongol| GTYPE>demonym | GSUBTYPE>national 
+mongóis| GTYPE>demonym | GSUBTYPE>national 
+monserratense | GTYPE>demonym | GSUBTYPE>national 
+monserratenses | GTYPE>demonym | GSUBTYPE>national 
+moçambicano | GTYPE>demonym | GSUBTYPE>national 
+moçambicanos | GTYPE>demonym | GSUBTYPE>national 
+moçambicana | GTYPE>demonym | GSUBTYPE>national 
+moçambicanas | GTYPE>demonym | GSUBTYPE>national 
+namibiano | GTYPE>demonym | GSUBTYPE>national 
+namibianos | GTYPE>demonym | GSUBTYPE>national 
+namibiana | GTYPE>demonym | GSUBTYPE>national 
+namibianas | GTYPE>demonym | GSUBTYPE>national 
+natalense | GTYPE>demonym | GSUBTYPE>national 
+natalenses | GTYPE>demonym | GSUBTYPE>national 
+nauruano | GTYPE>demonym | GSUBTYPE>national 
+nauruanos | GTYPE>demonym | GSUBTYPE>national 
+nauruana | GTYPE>demonym | GSUBTYPE>national 
+nauruanas | GTYPE>demonym | GSUBTYPE>national 
+neerlandês | GTYPE>demonym | GSUBTYPE>national 
+neerlandeses | GTYPE>demonym | GSUBTYPE>national 
+neerlandesa | GTYPE>demonym | GSUBTYPE>national 
+neerlandesas | GTYPE>demonym | GSUBTYPE>national 
+holandês | GTYPE>demonym | GSUBTYPE>national 
+holandeses | GTYPE>demonym | GSUBTYPE>national 
+holandesa | GTYPE>demonym | GSUBTYPE>national 
+holandesas | GTYPE>demonym | GSUBTYPE>national 
+neocaledónio | GTYPE>demonym | GSUBTYPE>national 
+neocaledónios | GTYPE>demonym | GSUBTYPE>national 
+neocaledónia | GTYPE>demonym | GSUBTYPE>national 
+neocaledónias | GTYPE>demonym | GSUBTYPE>national 
+neozelandês | GTYPE>demonym | GSUBTYPE>national 
+neozelandeses | GTYPE>demonym | GSUBTYPE>national 
+neozelandesa | GTYPE>demonym | GSUBTYPE>national 
+neozelandesas | GTYPE>demonym | GSUBTYPE>national 
+nepalês | GTYPE>demonym | GSUBTYPE>national 
+nepaleses | GTYPE>demonym | GSUBTYPE>national 
+nepalesa | GTYPE>demonym | GSUBTYPE>national 
+nepalesas | GTYPE>demonym | GSUBTYPE>national 
+nicaraguense | GTYPE>demonym | GSUBTYPE>national 
+nicaraguenses | GTYPE>demonym | GSUBTYPE>national 
+nigeriano | GTYPE>demonym | GSUBTYPE>national 
+nigerianos | GTYPE>demonym | GSUBTYPE>national 
+nigeriana | GTYPE>demonym | GSUBTYPE>national 
+nigerianas | GTYPE>demonym | GSUBTYPE>national 
+nigerino | GTYPE>demonym | GSUBTYPE>national 
+nigerinos | GTYPE>demonym | GSUBTYPE>national 
+nigerina | GTYPE>demonym | GSUBTYPE>national 
+nigerinas | GTYPE>demonym | GSUBTYPE>national 
+niuense | GTYPE>demonym | GSUBTYPE>national 
+niuenses | GTYPE>demonym | GSUBTYPE>national 
+norfolquino | GTYPE>demonym | GSUBTYPE>national 
+norfolquinos | GTYPE>demonym | GSUBTYPE>national 
+norfolquina | GTYPE>demonym | GSUBTYPE>national 
+norfolquinas | GTYPE>demonym | GSUBTYPE>national 
+norte-coreano | GTYPE>demonym | GSUBTYPE>national 
+norte-coreana | GTYPE>demonym | GSUBTYPE>national 
+norte-coreanos | GTYPE>demonym | GSUBTYPE>national 
+norte-coreanas | GTYPE>demonym | GSUBTYPE>national 
+norte-marianense | GTYPE>demonym | GSUBTYPE>national 
+norte-marianenses | GTYPE>demonym | GSUBTYPE>national 
+norueguês | GTYPE>demonym | GSUBTYPE>national 
+noruegueses | GTYPE>demonym | GSUBTYPE>national 
+norueguesa | GTYPE>demonym | GSUBTYPE>national 
+norueguesas | GTYPE>demonym | GSUBTYPE>national 
+omanense | GTYPE>demonym | GSUBTYPE>national 
+omanenses | GTYPE>demonym | GSUBTYPE>national 
+palauano | GTYPE>demonym | GSUBTYPE>national 
+palauanos | GTYPE>demonym | GSUBTYPE>national 
+palauana | GTYPE>demonym | GSUBTYPE>national 
+palauanas | GTYPE>demonym | GSUBTYPE>national 
+panamense | GTYPE>demonym | GSUBTYPE>national 
+panamenses | GTYPE>demonym | GSUBTYPE>national 
+paquistanês | GTYPE>demonym | GSUBTYPE>national 
+paquistaneses | GTYPE>demonym | GSUBTYPE>national 
+paquistanesa | GTYPE>demonym | GSUBTYPE>national 
+paquistanesas | GTYPE>demonym | GSUBTYPE>national 
+paraguaio | GTYPE>demonym | GSUBTYPE>national 
+paraguaios | GTYPE>demonym | GSUBTYPE>national 
+paraguaia | GTYPE>demonym | GSUBTYPE>national 
+paraguaias | GTYPE>demonym | GSUBTYPE>national 
+pedro-miquelonense| GTYPE>demonym | GSUBTYPE>national 
+pedro-miquelonenses| GTYPE>demonym | GSUBTYPE>national 
+peruano | GTYPE>demonym | GSUBTYPE>national 
+peruanos | GTYPE>demonym | GSUBTYPE>national 
+peruana | GTYPE>demonym | GSUBTYPE>national 
+peruanas | GTYPE>demonym | GSUBTYPE>national 
+pitcairnense | GTYPE>demonym | GSUBTYPE>national 
+pitcairnenses | GTYPE>demonym | GSUBTYPE>national 
+polaco | GTYPE>demonym | GSUBTYPE>national 
+polacos | GTYPE>demonym | GSUBTYPE>national 
+polaca | GTYPE>demonym | GSUBTYPE>national 
+polacas | GTYPE>demonym | GSUBTYPE>national 
+polonês | GTYPE>demonym | GSUBTYPE>national 
+poloneses | GTYPE>demonym | GSUBTYPE>national 
+polonesa | GTYPE>demonym | GSUBTYPE>national 
+polonesas | GTYPE>demonym | GSUBTYPE>national 
+polinésio | GTYPE>demonym | GSUBTYPE>national 
+polinésios | GTYPE>demonym | GSUBTYPE>national 
+polinésia | GTYPE>demonym | GSUBTYPE>national 
+polinésias | GTYPE>demonym | GSUBTYPE>national 
+porto-riquenho | GTYPE>demonym | GSUBTYPE>national 
+porto-riquenha | GTYPE>demonym | GSUBTYPE>national 
+porto-riquenhos | GTYPE>demonym | GSUBTYPE>national 
+porto-riquenhas | GTYPE>demonym | GSUBTYPE>national 
+português | GTYPE>demonym | GSUBTYPE>national 
+portugueses | GTYPE>demonym | GSUBTYPE>national 
+portuguesa | GTYPE>demonym | GSUBTYPE>national 
+portuguesas | GTYPE>demonym | GSUBTYPE>national 
+queniano | GTYPE>demonym | GSUBTYPE>national 
+quenianos | GTYPE>demonym | GSUBTYPE>national 
+queniana | GTYPE>demonym | GSUBTYPE>national 
+quenianas | GTYPE>demonym | GSUBTYPE>national 
+quirguizistanês | GTYPE>demonym | GSUBTYPE>national 
+quirguizistaneses | GTYPE>demonym | GSUBTYPE>national 
+quirguizistanesa | GTYPE>demonym | GSUBTYPE>national 
+quirguizistanesas | GTYPE>demonym | GSUBTYPE>national 
+quiribatiano | GTYPE>demonym | GSUBTYPE>national 
+quiribatianos | GTYPE>demonym | GSUBTYPE>national 
+quiribatiana | GTYPE>demonym | GSUBTYPE>national 
+quiribatianas | GTYPE>demonym | GSUBTYPE>national 
+reunionense | GTYPE>demonym | GSUBTYPE>national 
+reunionenses | GTYPE>demonym | GSUBTYPE>national 
+romeno | GTYPE>demonym | GSUBTYPE>national 
+romenos | GTYPE>demonym | GSUBTYPE>national 
+romena | GTYPE>demonym | GSUBTYPE>national 
+romenas | GTYPE>demonym | GSUBTYPE>national 
+ruandês | GTYPE>demonym | GSUBTYPE>national 
+ruandeses | GTYPE>demonym | GSUBTYPE>national 
+ruandesa | GTYPE>demonym | GSUBTYPE>national 
+ruandesas | GTYPE>demonym | GSUBTYPE>national 
+russo | GTYPE>demonym | GSUBTYPE>national 
+russos | GTYPE>demonym | GSUBTYPE>national 
+russa | GTYPE>demonym | GSUBTYPE>national 
+russas | GTYPE>demonym | GSUBTYPE>national 
+salomonense | GTYPE>demonym | GSUBTYPE>national 
+salomonenses | GTYPE>demonym | GSUBTYPE>national 
+salvadorenho | GTYPE>demonym | GSUBTYPE>national 
+salvadorenhos | GTYPE>demonym | GSUBTYPE>national 
+salvadorenha | GTYPE>demonym | GSUBTYPE>national 
+salvadorenhas | GTYPE>demonym | GSUBTYPE>national 
+samoano | GTYPE>demonym | GSUBTYPE>national 
+samoanos | GTYPE>demonym | GSUBTYPE>national 
+samoana | GTYPE>demonym | GSUBTYPE>national 
+samoanas | GTYPE>demonym | GSUBTYPE>national 
+santa-helenense | GTYPE>demonym | GSUBTYPE>national 
+santa-helenenses | GTYPE>demonym | GSUBTYPE>national 
+santa-luciense | GTYPE>demonym | GSUBTYPE>national 
+santa-lucienses | GTYPE>demonym | GSUBTYPE>national 
+sarauita | GTYPE>demonym | GSUBTYPE>national 
+sarauitas | GTYPE>demonym | GSUBTYPE>national 
+saudita | GTYPE>demonym | GSUBTYPE>national 
+sauditas | GTYPE>demonym | GSUBTYPE>national 
+seichelense | GTYPE>demonym | GSUBTYPE>national 
+seichelenses | GTYPE>demonym | GSUBTYPE>national 
+senegalês | GTYPE>demonym | GSUBTYPE>national 
+senegaleses | GTYPE>demonym | GSUBTYPE>national 
+senegalesa | GTYPE>demonym | GSUBTYPE>national 
+senegalesas | GTYPE>demonym | GSUBTYPE>national 
+serra-leonês | GTYPE>demonym | GSUBTYPE>national 
+serra-leoneses | GTYPE>demonym | GSUBTYPE>national 
+serra-leonesa | GTYPE>demonym | GSUBTYPE>national 
+serra-leonesas | GTYPE>demonym | GSUBTYPE>national 
+singapurense | GTYPE>demonym | GSUBTYPE>national 
+singapurenses | GTYPE>demonym | GSUBTYPE>national 
+somaliano | GTYPE>demonym | GSUBTYPE>national 
+somalianos | GTYPE>demonym | GSUBTYPE>national 
+somaliana | GTYPE>demonym | GSUBTYPE>national 
+somalianas | GTYPE>demonym | GSUBTYPE>national 
+suazilandês | GTYPE>demonym | GSUBTYPE>national 
+suazilandeses | GTYPE>demonym | GSUBTYPE>national 
+suazilandesa | GTYPE>demonym | GSUBTYPE>national 
+suazilandesas | GTYPE>demonym | GSUBTYPE>national 
+sudanês | GTYPE>demonym | GSUBTYPE>national 
+sudaneses | GTYPE>demonym | GSUBTYPE>national 
+sudanesa | GTYPE>demonym | GSUBTYPE>national 
+sudanesas | GTYPE>demonym | GSUBTYPE>national 
+sueco | GTYPE>demonym | GSUBTYPE>national 
+suecos | GTYPE>demonym | GSUBTYPE>national 
+sueca | GTYPE>demonym | GSUBTYPE>national 
+suecas | GTYPE>demonym | GSUBTYPE>national 
+sul-africano | GTYPE>demonym | GSUBTYPE>national 
+sul-coreana | GTYPE>demonym | GSUBTYPE>national 
+sul-africanos | GTYPE>demonym | GSUBTYPE>national 
+sul-coreanas | GTYPE>demonym | GSUBTYPE>national 
+sul-georgiano | GTYPE>demonym | GSUBTYPE>national 
+surinamense | GTYPE>demonym | GSUBTYPE>national 
+surinamenses | GTYPE>demonym | GSUBTYPE>national 
+suíço | GTYPE>demonym | GSUBTYPE>national 
+suíços | GTYPE>demonym | GSUBTYPE>national 
+suíça | GTYPE>demonym | GSUBTYPE>national 
+suíças | GTYPE>demonym | GSUBTYPE>national 
+svalbardense e jan-mayenense | GTYPE>demonym | GSUBTYPE>national 
+svalbardense e jan-mayenenses | GTYPE>demonym | GSUBTYPE>national 
+são-marinhense| GTYPE>demonym | GSUBTYPE>national 
+são-marinhenses| GTYPE>demonym | GSUBTYPE>national 
+são-tomense| GTYPE>demonym | GSUBTYPE>national 
+são-tomenses| GTYPE>demonym | GSUBTYPE>national 
+sírio | GTYPE>demonym | GSUBTYPE>national 
+sírios | GTYPE>demonym | GSUBTYPE>national 
+síria | GTYPE>demonym | GSUBTYPE>national 
+sírias | GTYPE>demonym | GSUBTYPE>national 
+tailandês | GTYPE>demonym | GSUBTYPE>national 
+tailandeses | GTYPE>demonym | GSUBTYPE>national 
+tailandesa | GTYPE>demonym | GSUBTYPE>national 
+tailandesas | GTYPE>demonym | GSUBTYPE>national 
+taiwanês | GTYPE>demonym | GSUBTYPE>national 
+taiwaneses | GTYPE>demonym | GSUBTYPE>national 
+taiwanesa | GTYPE>demonym | GSUBTYPE>national 
+taiwanesas | GTYPE>demonym | GSUBTYPE>national 
+tajiquistanês | GTYPE>demonym | GSUBTYPE>national 
+tajiquistaneses | GTYPE>demonym | GSUBTYPE>national 
+tajiquistanesa | GTYPE>demonym | GSUBTYPE>national 
+tajiquistanesas | GTYPE>demonym | GSUBTYPE>national 
+tanzaniano | GTYPE>demonym | GSUBTYPE>national 
+tanzanianos | GTYPE>demonym | GSUBTYPE>national 
+tanzaniana | GTYPE>demonym | GSUBTYPE>national 
+tanzanianas | GTYPE>demonym | GSUBTYPE>national 
+timorense | GTYPE>demonym | GSUBTYPE>national 
+timorenses | GTYPE>demonym | GSUBTYPE>national 
+togolês | GTYPE>demonym | GSUBTYPE>national 
+togoleses | GTYPE>demonym | GSUBTYPE>national 
+togolesa | GTYPE>demonym | GSUBTYPE>national 
+togolesas | GTYPE>demonym | GSUBTYPE>national 
+tokelauense | GTYPE>demonym | GSUBTYPE>national 
+tokelauenses | GTYPE>demonym | GSUBTYPE>national 
+tonganês | GTYPE>demonym | GSUBTYPE>national 
+tonganeses | GTYPE>demonym | GSUBTYPE>national 
+tonganesa | GTYPE>demonym | GSUBTYPE>national 
+tonganesas | GTYPE>demonym | GSUBTYPE>national 
+trindado-tobaguense | GTYPE>demonym | GSUBTYPE>national 
+trindado-tobaguenses | GTYPE>demonym | GSUBTYPE>national 
+tunisino | GTYPE>demonym | GSUBTYPE>national 
+tunisinos | GTYPE>demonym | GSUBTYPE>national 
+tunisina | GTYPE>demonym | GSUBTYPE>national 
+tunisinas | GTYPE>demonym | GSUBTYPE>national 
+turco | GTYPE>demonym | GSUBTYPE>national 
+turcos | GTYPE>demonym | GSUBTYPE>national 
+turca | GTYPE>demonym | GSUBTYPE>national 
+turcas | GTYPE>demonym | GSUBTYPE>national 
+turco-caicense | GTYPE>demonym | GSUBTYPE>national 
+turco-caicenses | GTYPE>demonym | GSUBTYPE>national 
+turquemenistanês | GTYPE>demonym | GSUBTYPE>national 
+turquemenistaneses | GTYPE>demonym | GSUBTYPE>national 
+turquemenistanesa | GTYPE>demonym | GSUBTYPE>national 
+turquemenistanesas | GTYPE>demonym | GSUBTYPE>national 
+tuvaluano | GTYPE>demonym | GSUBTYPE>national 
+tuvaluanos | GTYPE>demonym | GSUBTYPE>national 
+tuvaluana | GTYPE>demonym | GSUBTYPE>national 
+tuvaluanas | GTYPE>demonym | GSUBTYPE>national 
+ucraniano | GTYPE>demonym | GSUBTYPE>national 
+ucranianos | GTYPE>demonym | GSUBTYPE>national 
+ucraniana | GTYPE>demonym | GSUBTYPE>national 
+ucranianas | GTYPE>demonym | GSUBTYPE>national 
+ugandês | GTYPE>demonym | GSUBTYPE>national 
+ugandeses | GTYPE>demonym | GSUBTYPE>national 
+ugandesa | GTYPE>demonym | GSUBTYPE>national 
+ugandesas | GTYPE>demonym | GSUBTYPE>national 
+uruguaio | GTYPE>demonym | GSUBTYPE>national 
+uruguaios | GTYPE>demonym | GSUBTYPE>national 
+uruguaia | GTYPE>demonym | GSUBTYPE>national 
+uruguaias | GTYPE>demonym | GSUBTYPE>national 
+usbequistanês | GTYPE>demonym | GSUBTYPE>national 
+usbequistaneses | GTYPE>demonym | GSUBTYPE>national 
+usbequistanesa | GTYPE>demonym | GSUBTYPE>national 
+usbequistanesas | GTYPE>demonym | GSUBTYPE>national 
+vanuatuano | GTYPE>demonym | GSUBTYPE>national 
+vanuatuanos | GTYPE>demonym | GSUBTYPE>national 
+vanuatuana | GTYPE>demonym | GSUBTYPE>national 
+vanuatuanas | GTYPE>demonym | GSUBTYPE>national 
+vaticano | GTYPE>demonym | GSUBTYPE>national 
+vaticanos | GTYPE>demonym | GSUBTYPE>national 
+vaticana | GTYPE>demonym | GSUBTYPE>national 
+vaticanas | GTYPE>demonym | GSUBTYPE>national 
+venezuelano | GTYPE>demonym | GSUBTYPE>national 
+venezuelanos | GTYPE>demonym | GSUBTYPE>national 
+venezuelana | GTYPE>demonym | GSUBTYPE>national 
+venezuelanas | GTYPE>demonym | GSUBTYPE>national 
+vicentino-granadino | GTYPE>demonym | GSUBTYPE>national 
+vicentino-granadinos | GTYPE>demonym | GSUBTYPE>national 
+vicentino-granadina | GTYPE>demonym | GSUBTYPE>national 
+vicentino-granadinas | GTYPE>demonym | GSUBTYPE>national 
+vietnamita | GTYPE>demonym | GSUBTYPE>national 
+vietnamitas | GTYPE>demonym | GSUBTYPE>national 
+virginense | GTYPE>demonym | GSUBTYPE>national 
+virginenses | GTYPE>demonym | GSUBTYPE>national 
+wallis-futunense | GTYPE>demonym | GSUBTYPE>national 
+wallis-futunenses | GTYPE>demonym | GSUBTYPE>national 
+zambiano | GTYPE>demonym | GSUBTYPE>national 
+zambianos | GTYPE>demonym | GSUBTYPE>national 
+zambiana | GTYPE>demonym | GSUBTYPE>national 
+zambianas | GTYPE>demonym | GSUBTYPE>national 
+zimbabuense | GTYPE>demonym | GSUBTYPE>national 
+zimbabuenses | GTYPE>demonym | GSUBTYPE>national 
+
+# more
+britânico | GTYPE>demonym 
+britânicos | GTYPE>demonym 
+britânica | GTYPE>demonym 
+britânicas | GTYPE>demonym 
+do reino unido| GTYPE>demonym 
+inglês| GTYPE>demonym 
+norte-americano| GTYPE>demonym 
+afro-americano| GTYPE>demonym 
+dos estados unidos| GTYPE>demonym 
+dos eua| GTYPE>demonym 
+bósnio| GTYPE>demonym 
+sérvio| GTYPE>demonym 
+árabe | GTYPE>demonym 
+árabes | GTYPE>demonym 
+palestino | GTYPE>demonym 
+palestinos | GTYPE>demonym 
+palestina | GTYPE>demonym 
+palestinas | GTYPE>demonym 
+
+
+africano | GTYPE>demonym | GSUBTYPE>continent 
+africanos | GTYPE>demonym | GSUBTYPE>continent 
+africana | GTYPE>demonym | GSUBTYPE>continent 
+africanas | GTYPE>demonym | GSUBTYPE>continent 
+european| GTYPE>demonym | GSUBTYPE>continent 
+Europeia | GTYPE>demonym | GSUBTYPE>continent 
+asiático| GTYPE>demonym | GSUBTYPE>continent 
+asiáticos| GTYPE>demonym | GSUBTYPE>continent 
+asiática| GTYPE>demonym | GSUBTYPE>continent 
+asiáticas| GTYPE>demonym | GSUBTYPE>continent 
+australiano| GTYPE>demonym | GSUBTYPE>continent 
+australianos| GTYPE>demonym | GSUBTYPE>continent 
+australiana| GTYPE>demonym | GSUBTYPE>continent 
+australianas| GTYPE>demonym | GSUBTYPE>continent 
+americano | GTYPE>demonym | GSUBTYPE>continent 
+americanos | GTYPE>demonym | GSUBTYPE>continent 
+americana | GTYPE>demonym | GSUBTYPE>continent 
+americanas | GTYPE>demonym| GSUBTYPE>continent 
+
+tchetchen[oa]_ | GTYPE>demonym 
+
+
+cazaque| GTYPE>demonym 
+curdo | GTYPE>demonym 
+curdos | GTYPE>demonym 
+curda | GTYPE>demonym 
+curdas | GTYPE>demonym 
+escocês | GTYPE>demonym 
+escocesa | GTYPE>demonym 
+escocesas | GTYPE>demonym 
+escoceses | GTYPE>demonym 
+coreano | GTYPE>demonym 
+coreanos | GTYPE>demonym 
+coreana | GTYPE>demonym 
+coreanas | GTYPE>demonym 
+
+# cities
+setubalense| GTYPE>demonym 
+lisboeta| GTYPE>demonym 
+paulista| GTYPE>demonym 
+
+otomano | GTYPE>demonym | GSUBTYPE>other 
+otomanos | GTYPE>demonym | GSUBTYPE>other 
+otomana | GTYPE>demonym | GSUBTYPE>other 
+otomanas | GTYPE>demonym | GSUBTYPE>other 
+# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : position-en.txt
+# content : pattern matcher lexicon for english positions
+# author  : M. Ehrmann
+# date	  : February 2012
+# ----------------------------------------
+
+
+#---------------
+# POSITION NAMES
+#---------------
+
+princesa| GTYPE>position | GSUBTYPE>gov
+co-príncipe| GTYPE>position | GSUBTYPE>gov
+príncipe| GTYPE>position | GSUBTYPE>gov
+rei_ | GTYPE>position | GSUBTYPE>gov
+el-rei| GTYPE>position | GSUBTYPE>gov
+rainha| GTYPE>position | GSUBTYPE>gov
+líder | GTYPE>position | GSUBTYPE>gov
+ditador | GTYPE>position | GSUBTYPE>gov
+ditador[ea]_ | GTYPE>position | GSUBTYPE>gov
+ditador[ea] | GTYPE>position | GSUBTYPE>gov
+
+governador | GTYPE>position | GSUBTYPE>gov
+governadora_ | GTYPE>position | GSUBTYPE>gov
+governadora | GTYPE>position | GSUBTYPE>gov
+
+chanceler| GTYPE>position | GSUBTYPE>gov
+presidente| GTYPE>position | GSUBTYPE>gov
+vice-presidente | GTYPE>position | GSUBTYPE>gov
+vice president | GTYPE>position | GSUBTYPE>gov
+
+primeir[oa] ministr[oa]| GTYPE>position | GSUBTYPE>gov
+primeir[oa]-ministr[oa]| GTYPE>position | GSUBTYPE>gov
+
+ministr[oa]_| GTYPE>position | GSUBTYPE>gov
+ministr[oa]| GTYPE>position | GSUBTYPE>gov
+ministr[oa]_ municipal| GTYPE>position | GSUBTYPE>gov
+ministr[oa] municipal| GTYPE>position | GSUBTYPE>gov
+ministr[oa]_ de estado| GTYPE>position | GSUBTYPE>gov
+ministr[oa] de estado| GTYPE>position | GSUBTYPE>gov
+ministr[oa] adjunt[oa] | GTYPE>position | GSUBTYPE>gov
+
+
+ex-ministr[oa]_| GTYPE>position | GSUBTYPE>gov
+ex ministr[oa]_| GTYPE>position | GSUBTYPE>gov
+ex-ministr[oa]| GTYPE>position | GSUBTYPE>gov
+ex ministr[oa]| GTYPE>position | GSUBTYPE>gov
+
+
+secretári[oa]_ | GTYPE>position | GSUBTYPE>gov
+secretári[oa] | GTYPE>position | GSUBTYPE>gov
+secretário de estado | GTYPE>position | GSUBTYPE>gov
+
+comissári[oa]| GTYPE>position | GSUBTYPE>gov
+comissári[oa]_| GTYPE>position | GSUBTYPE>gov
+comissário europeu| GTYPE>position | GSUBTYPE>gov
+
+deputad[oa]_| GTYPE>position | GSUBTYPE>gov
+deputad[oa]| GTYPE>position | GSUBTYPE>gov
+eurodeputad[oa]_| GTYPE>position | GSUBTYPE>gov
+eurodeputad[oa]| GTYPE>position | GSUBTYPE>gov
+
+senador| GTYPE>position | GSUBTYPE>gov
+senadora| GTYPE>position | GSUBTYPE>gov
+senadores| GTYPE>position | GSUBTYPE>gov
+senadoras| GTYPE>position | GSUBTYPE>gov
+
+xerife| GTYPE>position | GSUBTYPE>pol
+diplomata_| GTYPE>position | GSUBTYPE>pol
+porta-voz| GTYPE>position | GSUBTYPE>pol
+porta voz| GTYPE>position | GSUBTYPE>pol
+embaixadora_| GTYPE>position | GSUBTYPE>pol
+embaixadore_| GTYPE>position | GSUBTYPE>pol
+embaixadorea_| GTYPE>position | GSUBTYPE>pol
+embaixadora| GTYPE>position | GSUBTYPE>pol
+embaixadore| GTYPE>position | GSUBTYPE>pol
+embaixadorea| GTYPE>position | GSUBTYPE>pol
+embaixatriz| GTYPE>position | GSUBTYPE>pol
+embaixatrize| GTYPE>position | GSUBTYPE>pol
+embaixatrizes| GTYPE>position | GSUBTYPE>pol
+emissário| GTYPE>position | GSUBTYPE>pol
+chefes de estado| GTYPE>position | GSUBTYPE>pol
+chefes de governo| GTYPE>position | GSUBTYPE>pol
+chefe do governo| GTYPE>position | GSUBTYPE>pol
+chef_| GTYPE>position | GSUBTYPE>pol
+chef| GTYPE>position | GSUBTYPE>pol
+chefe da diplomacia| GTYPE>position | GSUBTYPE>pol
+número dois| GTYPE>position 
+director | GTYPE>position 
+amassador| GTYPE>position 
+prefeit[oa]| GTYPE>position 
+secretário-geral| GTYPE>position 
+
+
+
+#-----------------
+# POSITION DOMAINS
+#-----------------
+#minister of something
+#something minister
+
+conselh[oa] | GTYPE>position_domain 
+república| GTYPE>position_domain 
+conselho de ministros| GTYPE>position_domain 
+estado| GTYPE>position_domain 
+
+administração| GTYPE>position_domain 
+administração interna| GTYPE>position_domain 
+aduaneira | GTYPE>position_domain
+adção | GTYPE>position_domain
+agricultura | GTYPE>position_domain
+ajuda humanitária | GTYPE>position_domain 
+ambiente | GTYPE>position_domain
+analista clínico | GTYPE>position_domain
+assunto | GTYPE>position_domain
+assuntos parlamentares | GTYPE>position_domain 
+assuntos | GTYPE>position_domain
+casa civil | GTYPE>position_domain
+ciência | GTYPE>position_domain
+ciências | GTYPE>position_domain
+comunicações | GTYPE>position_domain 
+comércio | GTYPE>position_domain
+comércios | GTYPE>position_domain
+concorrência | GTYPE>position_domain
+conselha | GTYPE>position_domain
+conselho | GTYPE>position_domain
+criação | GTYPE>position_domain
+cultura| GTYPE>position_domain 
+defesa nacional| GTYPE>position_domain 
+defesa | GTYPE>position_domain
+desenvolvimento regional| GTYPE>position_domain 
+desenvolvimento rural| GTYPE>position_domain 
+desenvolvimento | GTYPE>position_domain 
+diplomacia | GTYPE>position_domain
+economia e do imprego | GTYPE>position_domain 
+economia | GTYPE>position_domain
+educação| GTYPE>position_domain 
+energia | GTYPE>position_domain 
+energias | GTYPE>position_domain
+envolvimento | GTYPE>position_domain
+esporte | GTYPE>position_domain
+esportes | GTYPE>position_domain
+estrangeiro | GTYPE>position_domain
+estrangeiros | GTYPE>position_domain
+europeu | GTYPE>position_domain
+exterior | GTYPE>position_domain
+exteriore | GTYPE>position_domain
+exteriores | GTYPE>position_domain
+exército | GTYPE>position_domain
+fazenda | GTYPE>position_domain 
+fazenda_  | GTYPE>position_domain 
+financial officer | GTYPE>position_domain
+finança | GTYPE>position_domain
+finanças | GTYPE>position_domain
+fiscalidade | GTYPE>position_domain 
+fiscalida| GTYPE>position_domain
+flóri| GTYPE>position_domain
+gerais | GTYPE>position_domain
+geral | GTYPE>position_domain
+humanitária | GTYPE>position_domain
+informação | GTYPE>position_domain
+interior | GTYPE>position_domain
+interior | GTYPE>position_domain 
+interna | GTYPE>position_domain
+interno | GTYPE>position_domain
+investigação | GTYPE>position_domain 
+investigaçãos | GTYPE>position_domain
+justiça | GTYPE>position_domain
+liberdade_ | GTYPE>position_domain 
+liberdade| GTYPE>position_domain 
+liberda| GTYPE>position_domain
+luta antifraude | GTYPE>position_domain 
+marítimo | GTYPE>position_domain
+marítimos | GTYPE>position_domain
+mercado interno| GTYPE>position_domain 
+merca| GTYPE>position_domain
+nacional | GTYPE>position_domain
+negócio_ estrangeiro_ | GTYPE>position_domain  
+negócios | GTYPE>position_domain
+negócio| GTYPE>position_domain 
+ordenamento do território | GTYPE>position_domain 
+pesca | GTYPE>position_domain
+pescas | GTYPE>position_domain
+petróleo | GTYPE>position_domain
+petróleos | GTYPE>position_domain
+política regional| GTYPE>position_domain 
+política | GTYPE>position_domain 
+política_ regional| GTYPE>position_domain 
+políticas | GTYPE>position_domain
+protecção de menores | GTYPE>position_domain 
+protecção dos consumidores | GTYPE>position_domain 
+protecçãoconsumidores | GTYPE>position_domain
+protecçãomenores | GTYPE>position_domain
+província | GTYPE>position_domain
+recompensas | GTYPE>position_domain
+regional | GTYPE>position_domain
+relaçõe | GTYPE>position_domain
+relaçõe_ exteriore_ | GTYPE>position_domain 
+relações | GTYPE>position_domain
+reserva | GTYPE>position_domain
+rural | GTYPE>position_domain
+saúde | GTYPE>position_domain 
+segurança social| GTYPE>position_domain 
+segurança_ social| GTYPE>position_domain 
+serviço_ | GTYPE>position_domain 
+serviço| GTYPE>position_domain 
+solidariedad | GTYPE>position_domain 
+supremo | GTYPE>position_domain
+tenente | GTYPE>position_domain
+trabalho | GTYPE>position_domain
+união aduaneira| GTYPE>position_domain 
+união | GTYPE>position_domain
+
+ 
+
+#---------------------
+# POSITION ADJECTIVES
+#---------------------
+
+alt[oa]_| GTYPE>position_adjective
+alt[oa]| GTYPE>position_adjective
+comunitári[oa]_| GTYPE>position_adjective
+comunitári[oa] | GTYPE>position_adjective
+cristã | GTYPE>position_adjective
+cristão | GTYPE>position_adjective
+cristãos | GTYPE>position_adjective
+cristãs | GTYPE>position_adjective
+demissionário| GTYPE>position_adjective
+ejecutivo | GTYPE>position_adjective
+especial | GTYPE>position_adjective
+estrangeir[oa]_| GTYPE>position_adjective
+estrangeira | GTYPE>position_adjective
+estrangeiro | GTYPE>position_adjective
+europeu| GTYPE>position_adjective
+ex | GTYPE>position_adjective
+federal | GTYPE>position_adjective
+geral | GTYPE>position_adjective
+grande | GTYPE>position_adjective
+maior | GTYPE>position_adjective
+municipal| GTYPE>position_adjective
+nacionalista | GTYPE>position_adjective
+pessoal | GTYPE>position_adjective
+pragmático | GTYPE>position_adjective
+presidencial | GTYPE>position_adjective
+primeir[ao]_| GTYPE>position_adjective
+primeira | GTYPE>position_adjective
+primeiro | GTYPE>position_adjective
+primo | GTYPE>position_adjective
+principal | GTYPE>position_adjective
+religioso | GTYPE>position_adjective
+secreto | GTYPE>position_adjective
+segundo | GTYPE>position_adjective
+supremo | GTYPE>position_adjective
+vice | GTYPE>position_adjective
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_profession-pt.txt
+# file    : person profession-pt.txt
+# content : PM lexicon for portuguese profession names
+# date	  : February 2012
+# author  : (B. Pouliquen), M. Ehrmann
+#**********************************************
+
+#FOOD
+
+enófil[oa] | GTYPE>profession | GSUBTYPE>food
+enófil[oa] | GTYPE>profession | GSUBTYPE>food
+enólog[oa] | GTYPE>profession | GSUBTYPE>food
+enólog[oa] | GTYPE>profession | GSUBTYPE>food
+barman | GTYPE>profession | GSUBTYPE>food
+gastrónom[oa] | GTYPE>profession | GSUBTYPE>other
+gastrónom[oa] | GTYPE>profession | GSUBTYPE>other
+cavista | GTYPE>profession | GSUBTYPE>food
+pasteleiro | GTYPE>profession | GSUBTYPE>food
+cervejeiro | GTYPE>profession | GSUBTYPE>food
+chocolateiro | GTYPE>profession | GSUBTYPE>food
+cozedor | GTYPE>profession | GSUBTYPE>food
+cozinheiro | GTYPE>profession | GSUBTYPE>food
+padeiro | GTYPE>profession | GSUBTYPE>food
+queijeiro | GTYPE>profession | GSUBTYPE>food
+
+
+# HEALTH
+médico | GTYPE>profession | GSUBTYPE>health
+cirurgiã | GTYPE>profession | GSUBTYPE>health
+farmacêutic[oa] | GTYPE>profession | GSUBTYPE>health
+farmacêutic[oa] | GTYPE>profession | GSUBTYPE>health
+farmacêutico | GTYPE>profession | GSUBTYPE>health
+nutricionista | GTYPE>profession | GSUBTYPE>health
+nutricionista | GTYPE>profession | GSUBTYPE>health
+quiropraxista | GTYPE>profession | GSUBTYPE>health
+quiropraxista | GTYPE>profession | GSUBTYPE>health
+pediatra | GTYPE>profession | GSUBTYPE>health
+psicólog[oa] | GTYPE>profession | GSUBTYPE>health
+psicoterapeuta | GTYPE>profession | GSUBTYPE>health
+parapsicólog[oa] | GTYPE>profession | GSUBTYPE>health
+acupunctor | GTYPE>profession | GSUBTYPE>health
+imunologista | GTYPE>profession | GSUBTYPE>health
+homeopata | GTYPE>profession | GSUBTYPE>health
+fisiologista | GTYPE>profession | GSUBTYPE>health
+fisioterapeuta | GTYPE>profession | GSUBTYPE>health
+farmacêutico | GTYPE>profession | GSUBTYPE>health
+farmacologista | GTYPE>profession | GSUBTYPE>health
+dietista | GTYPE>profession | GSUBTYPE>health
+médico | GTYPE>profession | GSUBTYPE>health
+optometrista | GTYPE>profession | GSUBTYPE>health
+virologista | GTYPE>profession | GSUBTYPE>health
+radioterapeuta | GTYPE>profession | GSUBTYPE>health
+patologista | GTYPE>profession | GSUBTYPE>health
+
+# SCIENCE
+
+agrónom[oa] | GTYPE>profession | GSUBTYPE>science
+agrónom[oa] | GTYPE>profession | GSUBTYPE>science
+antropólog[oa] | GTYPE>profession | GSUBTYPE>science
+antropólog[oa] | GTYPE>profession | GSUBTYPE>science
+arqueólog[ao | GTYPE>profession | GSUBTYPE>science
+arqueólog[oa] | GTYPE>profession | GSUBTYPE>science
+arqueólog[oa] | GTYPE>profession | GSUBTYPE>science
+arquitet[ao | GTYPE>profession | GSUBTYPE>science
+botânic[ao] | GTYPE>profession | GSUBTYPE>science
+egiptólog[oa] | GTYPE>profession | GSUBTYPE>science
+egiptólog[oa] | GTYPE>profession | GSUBTYPE>science
+enciclopedista | GTYPE>profession | GSUBTYPE>science
+enciclopedista | GTYPE>profession | GSUBTYPE>science
+etnógraf[oa] | GTYPE>profession | GSUBTYPE>science
+etnógraf[oa] | GTYPE>profession | GSUBTYPE>science
+etnólog[oa] | GTYPE>profession | GSUBTYPE>science
+etnólog[oa] | GTYPE>profession | GSUBTYPE>science
+filólog[oa] | GTYPE>profession | GSUBTYPE>science
+filólog[oa] | GTYPE>profession | GSUBTYPE>science
+físic[ao | GTYPE>profession | GSUBTYPE>science
+geógraf[oa] | GTYPE>profession | GSUBTYPE>science
+geógraf[oa] | GTYPE>profession | GSUBTYPE>science
+geólog[ao | GTYPE>profession | GSUBTYPE>science
+hidrólog[oa] | GTYPE>profession | GSUBTYPE>science
+hidrólog[oa] | GTYPE>profession | GSUBTYPE>science
+lexicógraf[oa] | GTYPE>profession | GSUBTYPE>science
+lexicógraf[oa] | GTYPE>profession | GSUBTYPE>science
+matemátic[ao | GTYPE>profession | GSUBTYPE>science
+museólog[oa] | GTYPE>profession | GSUBTYPE>science
+museólog[oa] | GTYPE>profession | GSUBTYPE>science
+musicólog[oa] | GTYPE>profession | GSUBTYPE>science
+musicólog[oa] | GTYPE>profession | GSUBTYPE>science
+ornitólog[oa] | GTYPE>profession | GSUBTYPE>science
+ornitólog[oa] | GTYPE>profession | GSUBTYPE>science
+pesquisadore | GTYPE>profession | GSUBTYPE>science
+pesquisado | GTYPE>profession | GSUBTYPE>science
+bacteriologist | GTYPE>profession | GSUBTYPE>science
+biofísico | GTYPE>profession | GSUBTYPE>science
+biológo | GTYPE>profession | GSUBTYPE>science
+biólogo | GTYPE>profession | GSUBTYPE>science
+bioquímico | GTYPE>profession | GSUBTYPE>science
+geofísico | GTYPE>profession | GSUBTYPE>science
+geógrafo | GTYPE>profession | GSUBTYPE>science
+geólogo | GTYPE>profession | GSUBTYPE>science
+horticultor | GTYPE>profession | GSUBTYPE>science
+hidrógrafo | GTYPE>profession | GSUBTYPE>science
+hidrometrista | GTYPE>profession | GSUBTYPE>science
+historiador | GTYPE>profession | GSUBTYPE>science
+filólogo | GTYPE>profession | GSUBTYPE>science
+físico | GTYPE>profession | GSUBTYPE>science
+matemático | GTYPE>profession | GSUBTYPE>science
+microbiologist | GTYPE>profession | GSUBTYPE>science
+meteorologista | GTYPE>profession | GSUBTYPE>science
+metereologista | GTYPE>profession | GSUBTYPE>science
+oceanógrafo | GTYPE>profession | GSUBTYPE>science
+naturologista | GTYPE>profession | GSUBTYPE>science
+químico | GTYPE>profession | GSUBTYPE>science
+sociólogo | GTYPE>profession | GSUBTYPE>science
+cartógrafo | GTYPE>profession | GSUBTYPE>science
+estaticista | GTYPE>profession | GSUBTYPE>science  
+
+#MEDIA
+
+jornalista | GTYPE>profession | GSUBTYPE>media      
+repórter| GTYPE>profession | GSUBTYPE>media    
+
+# JUSTICE
+
+juíz | GTYPE>profession | GSUBTYPE>justice
+juiz | GTYPE>profession | GSUBTYPE>justice
+procurador | GTYPE>profession | GSUBTYPE>justice
+procuradora | GTYPE>profession | GSUBTYPE>justice
+juíza | GTYPE>profession | GSUBTYPE>justice
+juíza | GTYPE>profession | GSUBTYPE>justice
+advogado | GTYPE>profession | GSUBTYPE>justice
+magistrad[oa] | GTYPE>profession | GSUBTYPE>justice
+magistrad[oa] | GTYPE>profession | GSUBTYPE>justice
+jurista | GTYPE>profession | GSUBTYPE>justice
+caixeiro | GTYPE>profession | GSUBTYPE>justice
+
+#AGRICULTURE
+
+agricultor | GTYPE>profession | GSUBTYPE>agriculture
+apicultor | GTYPE>profession | GSUBTYPE>agriculture
+aquacultor | GTYPE>profession | GSUBTYPE>agriculture
+floricultor | GTYPE>profession | GSUBTYPE>agriculture
+florista | GTYPE>profession | GSUBTYPE>agriculture
+silvicultor | GTYPE>profession | GSUBTYPE>agriculture
+arboricultor | GTYPE>profession | GSUBTYPE>agriculture
+
+# ART
+
+D.J. | GTYPE>profession | GSUBTYPE>artMusic | STRICT > (?i:D\.J\.)
+baixista | GTYPE>profession | GSUBTYPE>artMusic
+baterista | GTYPE>profession | GSUBTYPE>artMusic
+cantor | GTYPE>profession | GSUBTYPE>artMusic
+cantora | GTYPE>profession | GSUBTYPE>artMusic
+clarinetiste | GTYPE>profession | GSUBTYPE>artMusic
+compositor | GTYPE>profession | GSUBTYPE>artMusic
+contrabaixista | GTYPE>profession | GSUBTYPE>artMusic
+disc jóque | GTYPE>profession | GSUBTYPE>artMusic
+disc-jóque | GTYPE>profession | GSUBTYPE>artMusic
+dj | GTYPE>profession | GSUBTYPE>artMusic
+engenheiro de son | GTYPE>profession | GSUBTYPE>artMusic
+flautista | GTYPE>profession | GSUBTYPE>artMusic
+guitarrista | GTYPE>profession | GSUBTYPE>artMusic
+instrumentista | GTYPE>profession | GSUBTYPE>artMusic
+maestro | GTYPE>profession | GSUBTYPE>artMusic
+músico | GTYPE>profession | GSUBTYPE>artMusic
+organista | GTYPE>profession | GSUBTYPE>artMusic
+percussionista | GTYPE>profession | GSUBTYPE>artMusic
+pianista | GTYPE>profession | GSUBTYPE>artMusic
+rapper | GTYPE>profession | GSUBTYPE>artMusic
+saxofonista | GTYPE>profession | GSUBTYPE>artMusic
+solista | GTYPE>profession | GSUBTYPE>artMusic
+tecladista | GTYPE>profession | GSUBTYPE>artMusic
+tenor | GTYPE>profession | GSUBTYPE>artMusic
+trompetista | GTYPE>profession | GSUBTYPE>artMusic
+violinista | GTYPE>profession | GSUBTYPE>artMusic
+violoncelista | GTYPE>profession | GSUBTYPE>artMusic
+violonista | GTYPE>profession | GSUBTYPE>artMusic
+vocalista | GTYPE>profession | GSUBTYPE>artMusic
+
+
+acrobate | GTYPE>profession | GSUBTYPE>art
+actor | GTYPE>profession | GSUBTYPE>art
+administador de art | GTYPE>profession | GSUBTYPE>art
+administadores de art | GTYPE>profession | GSUBTYPE>art
+artista plástico | GTYPE>profession | GSUBTYPE>art
+artista | GTYPE>profession | GSUBTYPE>art
+ator | GTYPE>profession | GSUBTYPE>art
+atriz | GTYPE>profession | GSUBTYPE>art
+autor | GTYPE>profession | GSUBTYPE>art
+bailarino | GTYPE>profession | GSUBTYPE>art
+cenógraf[oa] | GTYPE>profession | GSUBTYPE>art
+cenógrafo | GTYPE>profession | GSUBTYPE>art
+cineasta | GTYPE>profession | GSUBTYPE>art
+comediante | GTYPE>profession | GSUBTYPE>art
+coreógraf[oa] | GTYPE>profession | GSUBTYPE>art
+crítico de art | GTYPE>profession | GSUBTYPE>art
+crítico de cinem | GTYPE>profession | GSUBTYPE>art
+crítico literári[oa] | GTYPE>profession | GSUBTYPE>art
+crítico musical | GTYPE>profession | GSUBTYPE>art
+dançarino | GTYPE>profession | GSUBTYPE>art
+director artístico | GTYPE>profession | GSUBTYPE>art
+dramaturgista | GTYPE>profession | GSUBTYPE>art
+dramaturgo | GTYPE>profession | GSUBTYPE>art
+encenado | GTYPE>profession | GSUBTYPE>art
+encenador | GTYPE>profession | GSUBTYPE>art
+encenadora | GTYPE>profession | GSUBTYPE>art
+encenadore | GTYPE>profession | GSUBTYPE>art
+ensaísta | GTYPE>profession | GSUBTYPE>art
+escrito | GTYPE>profession | GSUBTYPE>art
+escritor | GTYPE>profession | GSUBTYPE>art
+escritore | GTYPE>profession | GSUBTYPE>art
+escriturário | GTYPE>profession | GSUBTYPE>art
+escrivão | GTYPE>profession | GSUBTYPE>art
+escultor | GTYPE>profession | GSUBTYPE>art
+figurinista | GTYPE>profession | GSUBTYPE>art
+fotógrafo | GTYPE>profession | GSUBTYPE>art
+ilusionista | GTYPE>profession | GSUBTYPE>art
+intérprete | GTYPE>profession | GSUBTYPE>art
+letrista | GTYPE>profession | GSUBTYPE>art
+mestre | GTYPE>profession | GSUBTYPE>art
+novelador | GTYPE>profession | GSUBTYPE>art
+instrumentista | GTYPE>profession | GSUBTYPE>art
+pintor | GTYPE>profession | GSUBTYPE>art
+pintora | GTYPE>profession | GSUBTYPE>art
+poeta | GTYPE>profession | GSUBTYPE>art
+produtor musical | GTYPE>profession | GSUBTYPE>art
+produtor | GTYPE>profession | GSUBTYPE>art
+realizador | GTYPE>profession | GSUBTYPE>art
+romancista | GTYPE>profession | GSUBTYPE>art
+sambista | GTYPE>profession | GSUBTYPE>art
+teatrólogo | GTYPE>profession | GSUBTYPE>art
+trapezista | GTYPE>profession | GSUBTYPE>art
+
+
+#SPORT
+atacante | GTYPE>profession | GSUBTYPE>sport
+atleta | GTYPE>profession | GSUBTYPE>sport
+basquetebolista | GTYPE>profession | GSUBTYPE>sport
+boxeado | GTYPE>profession | GSUBTYPE>sport
+campeão | GTYPE>profession | GSUBTYPE>sport
+campeão olímpico | GTYPE>profession | GSUBTYPE>sport
+ciclist | GTYPE>profession | GSUBTYPE>sport
+defesa central | GTYPE>profession | GSUBTYPE>sport
+desportista | GTYPE>profession | GSUBTYPE>sport
+director desportivo | GTYPE>profession | GSUBTYPE>sport
+esquiador | GTYPE>profession | GSUBTYPE>sport
+futebolista | GTYPE>profession | GSUBTYPE>sport
+futebolista profissional | GTYPE>profession | GSUBTYPE>sport
+ginasta | GTYPE>profession | GSUBTYPE>sport
+goleador | GTYPE>profession | GSUBTYPE>sport
+goleiro | GTYPE>profession | GSUBTYPE>sport
+golfist | GTYPE>profession | GSUBTYPE>sport
+guardião | GTYPE>profession | GSUBTYPE>sport
+jogador | GTYPE>profession | GSUBTYPE>sport
+judoca | GTYPE>profession | GSUBTYPE>sport
+motociclista | GTYPE>profession | GSUBTYPE>sport
+nadador | GTYPE>profession | GSUBTYPE>sport
+piloto | GTYPE>profession | GSUBTYPE>sport
+pilot | GTYPE>profession | GSUBTYPE>sport
+pivô| GTYPE>profession | GSUBTYPE>sport 
+pugilista | GTYPE>profession | GSUBTYPE>sport
+seleccionador | GTYPE>profession | GSUBTYPE>sport
+selecionador | GTYPE>profession | GSUBTYPE>sport
+surfista | GTYPE>profession | GSUBTYPE>sport
+tenista | GTYPE>profession | GSUBTYPE>sport
+treinador | GTYPE>profession | GSUBTYPE>sport
+tricampeão | GTYPE>profession | GSUBTYPE>sport
+velocista | GTYPE>profession | GSUBTYPE>sport
+zagueiro | GTYPE>profession | GSUBTYPE>sport
+árbitro | GTYPE>profession | GSUBTYPE>sport
+
+# OTHER. Not classified
+
+abatjoureiro | GTYPE>profession | GSUBTYPE>other
+abridor | GTYPE>profession | GSUBTYPE>other
+acabador | GTYPE>profession | GSUBTYPE>other
+administrado | GTYPE>profession | GSUBTYPE>other
+administrador de rede | GTYPE>profession | GSUBTYPE>other
+administrador | GTYPE>profession | GSUBTYPE>other
+aeromoço | GTYPE>profession | GSUBTYPE>other
+afinador | GTYPE>profession | GSUBTYPE>other
+africanista | GTYPE>profession | GSUBTYPE>other
+agriculto | GTYPE>profession | GSUBTYPE>other
+agulhador | GTYPE>profession | GSUBTYPE>other
+agulheiro | GTYPE>profession | GSUBTYPE>other
+ajudante | GTYPE>profession | GSUBTYPE>other
+ajuntador | GTYPE>profession | GSUBTYPE>other
+albardeiro | GTYPE>profession | GSUBTYPE>other
+alfaiate | GTYPE>profession | GSUBTYPE>other
+alimentador | GTYPE>profession | GSUBTYPE>other
+amaciador | GTYPE>profession | GSUBTYPE>other
+amante | GTYPE>profession | GSUBTYPE>other
+amanuens | GTYPE>profession | GSUBTYPE>other
+ambientalista | GTYPE>profession | GSUBTYPE>other
+analista | GTYPE>profession | GSUBTYPE>other
+anatomista | GTYPE>profession | GSUBTYPE>other
+andebolista | GTYPE>profession | GSUBTYPE>other
+animador | GTYPE>profession | GSUBTYPE>other
+anotador | GTYPE>profession | GSUBTYPE>other
+anteiro | GTYPE>profession | GSUBTYPE>other
+aparador | GTYPE>profession | GSUBTYPE>other
+apartador | GTYPE>profession | GSUBTYPE>other
+aplainador | GTYPE>profession | GSUBTYPE>other
+apontador | GTYPE>profession | GSUBTYPE>other
+apresentado | GTYPE>profession | GSUBTYPE>other
+apresentadora | GTYPE>profession | GSUBTYPE>other
+apresentadore | GTYPE>profession | GSUBTYPE>other
+arameiro | GTYPE>profession | GSUBTYPE>other
+armeiro | GTYPE>profession | GSUBTYPE>other
+arqueólogo | GTYPE>profession | GSUBTYPE>other
+arquitecto | GTYPE>profession | GSUBTYPE>other
+arquitet[oa] | GTYPE>profession | GSUBTYPE>other
+arquivista | GTYPE>profession | GSUBTYPE>other
+arrematador | GTYPE>profession | GSUBTYPE>other
+artesão | GTYPE>profession | GSUBTYPE>other
+artífice | GTYPE>profession | GSUBTYPE>other
+ascensorista | GTYPE>profession | GSUBTYPE>other
+aspirante | GTYPE>profession | GSUBTYPE>other
+assedador | GTYPE>profession | GSUBTYPE>other
+assistente | GTYPE>profession | GSUBTYPE>other
+astronaut | GTYPE>profession | GSUBTYPE>other
+astronauta | GTYPE>profession | GSUBTYPE>other
+astrólog[oa] | GTYPE>profession | GSUBTYPE>other
+atirado | GTYPE>profession | GSUBTYPE>other
+atirador | GTYPE>profession | GSUBTYPE>other
+atiradora | GTYPE>profession | GSUBTYPE>other
+atiradore | GTYPE>profession | GSUBTYPE>other
+ativista | GTYPE>profession | GSUBTYPE>other
+avaliador | GTYPE>profession | GSUBTYPE>other
+aviadore | GTYPE>profession | GSUBTYPE>other
+azulejador | GTYPE>profession | GSUBTYPE>other
+bagageiro | GTYPE>profession | GSUBTYPE>other
+bailarino | GTYPE>profession | GSUBTYPE>other
+bandarilheir | GTYPE>profession | GSUBTYPE>other
+banheiro | GTYPE>profession | GSUBTYPE>other
+barbeiro | GTYPE>profession | GSUBTYPE>other
+barista | GTYPE>profession | GSUBTYPE>other
+bataneiro | GTYPE>profession | GSUBTYPE>other
+bate-chapas | GTYPE>profession | GSUBTYPE>other
+betonador | GTYPE>profession | GSUBTYPE>other
+bibliotecári | GTYPE>profession | GSUBTYPE>other
+bibliotecári[oa] | GTYPE>profession | GSUBTYPE>other
+bibliógraf[oa] | GTYPE>profession | GSUBTYPE>other
+bilheteiro | GTYPE>profession | GSUBTYPE>other
+bobinador | GTYPE>profession | GSUBTYPE>other
+boletineiro | GTYPE>profession | GSUBTYPE>other
+bombeador | GTYPE>profession | GSUBTYPE>other
+bombeiro | GTYPE>profession | GSUBTYPE>other
+bordador | GTYPE>profession | GSUBTYPE>other
+bordadora | GTYPE>profession | GSUBTYPE>other
+brigadeiro | GTYPE>profession | GSUBTYPE>other
+brochador | GTYPE>profession | GSUBTYPE>other
+broquista | GTYPE>profession | GSUBTYPE>other
+brux[oa] | GTYPE>profession | GSUBTYPE>other
+cabeleireir[oa] | GTYPE>profession | GSUBTYPE>other
+cabo | GTYPE>profession | GSUBTYPE>other
+calafate | GTYPE>profession | GSUBTYPE>other
+calandrador | GTYPE>profession | GSUBTYPE>other
+caldeireiro | GTYPE>profession | GSUBTYPE>other
+caligrafista | GTYPE>profession | GSUBTYPE>other
+calista | GTYPE>profession | GSUBTYPE>other
+cambista | GTYPE>profession | GSUBTYPE>other
+canalizador | GTYPE>profession | GSUBTYPE>other
+caneleiro | GTYPE>profession | GSUBTYPE>other
+caracterizador | GTYPE>profession | GSUBTYPE>other
+cardador | GTYPE>profession | GSUBTYPE>other
+caricaturist | GTYPE>profession | GSUBTYPE>other
+carnavalesc[oa] | GTYPE>profession | GSUBTYPE>other
+carpinteiro | GTYPE>profession | GSUBTYPE>other
+carregador | GTYPE>profession | GSUBTYPE>other
+carteiro | GTYPE>profession | GSUBTYPE>other
+cartonageiro | GTYPE>profession | GSUBTYPE>other
+cartógraf[oa] | GTYPE>profession | GSUBTYPE>other
+carvoeiro | GTYPE>profession | GSUBTYPE>other
+caçador de recompensas | GTYPE>profession | GSUBTYPE>other
+cerzidor | GTYPE>profession | GSUBTYPE>other
+cesteiro | GTYPE>profession | GSUBTYPE>other
+chapeleiro | GTYPE>profession | GSUBTYPE>other
+chief executive officer | GTYPE>profession | GSUBTYPE>other
+chief financial officer | GTYPE>profession | GSUBTYPE>other
+chief information officer | GTYPE>profession | GSUBTYPE>other
+cientista | GTYPE>profession | GSUBTYPE>other
+cilindrista | GTYPE>profession | GSUBTYPE>other
+cimenteiro | GTYPE>profession | GSUBTYPE>other
+cinzelador | GTYPE>profession | GSUBTYPE>other
+classificado | GTYPE>profession | GSUBTYPE>other
+climatologista | GTYPE>profession | GSUBTYPE>other
+cobrador | GTYPE>profession | GSUBTYPE>other
+codificador | GTYPE>profession | GSUBTYPE>other
+colador | GTYPE>profession | GSUBTYPE>other
+colchoeiro | GTYPE>profession | GSUBTYPE>other
+colecionadore | GTYPE>profession | GSUBTYPE>other
+comissário | GTYPE>profession | GSUBTYPE>other
+comissã[oa | GTYPE>profession | GSUBTYPE>other
+compositor | GTYPE>profession | GSUBTYPE>other
+compositore | GTYPE>profession | GSUBTYPE>other
+comprador | GTYPE>profession | GSUBTYPE>other
+condutor | GTYPE>profession | GSUBTYPE>other
+confeiteiro | GTYPE>profession | GSUBTYPE>other
+conquistadore | GTYPE>profession | GSUBTYPE>other
+conserveiro | GTYPE>profession | GSUBTYPE>other
+consultore | GTYPE>profession | GSUBTYPE>other
+contabilista | GTYPE>profession | GSUBTYPE>other
+continuísta | GTYPE>profession | GSUBTYPE>other
+contramestre | GTYPE>profession | GSUBTYPE>other
+controlador | GTYPE>profession | GSUBTYPE>other
+contínuo | GTYPE>profession | GSUBTYPE>other
+copeiro | GTYPE>profession | GSUBTYPE>other
+cordoeiro | GTYPE>profession | GSUBTYPE>other
+correeiro | GTYPE>profession | GSUBTYPE>other
+correspondente | GTYPE>profession | GSUBTYPE>other
+corretor | GTYPE>profession | GSUBTYPE>other
+corsári[oa] | GTYPE>profession | GSUBTYPE>other
+cortador | GTYPE>profession | GSUBTYPE>other
+cosmonauta | GTYPE>profession | GSUBTYPE>other
+cosmólog[oa] | GTYPE>profession | GSUBTYPE>other
+costureiro | GTYPE>profession | GSUBTYPE>other
+cozinheir[oa] | GTYPE>profession | GSUBTYPE>other
+cravador | GTYPE>profession | GSUBTYPE>other
+criminos[oa] | GTYPE>profession | GSUBTYPE>other
+criptógraf[oa] | GTYPE>profession | GSUBTYPE>other
+crítico | GTYPE>profession | GSUBTYPE>other
+críticos de arquitetur | GTYPE>profession | GSUBTYPE>other
+curadore | GTYPE>profession | GSUBTYPE>other
+curtidor | GTYPE>profession | GSUBTYPE>other
+cônsul | GTYPE>profession | GSUBTYPE>other 
+dactilógrafo | GTYPE>profession | GSUBTYPE>other
+dançarin[oa] | GTYPE>profession | GSUBTYPE>other
+debuxador | GTYPE>profession | GSUBTYPE>other
+decorador | GTYPE>profession | GSUBTYPE>other
+delegado | GTYPE>profession | GSUBTYPE>other
+demonstrador | GTYPE>profession | GSUBTYPE>other
+descarregado | GTYPE>profession | GSUBTYPE>other
+descascador | GTYPE>profession | GSUBTYPE>other
+desembaraçador | GTYPE>profession | GSUBTYPE>other
+desembargadore | GTYPE>profession | GSUBTYPE>other
+desenhador | GTYPE>profession | GSUBTYPE>other
+desenhista | GTYPE>profession | GSUBTYPE>other
+desgarrador | GTYPE>profession | GSUBTYPE>other
+desidratador | GTYPE>profession | GSUBTYPE>other
+designer | GTYPE>profession | GSUBTYPE>other
+designer | GTYPE>profession | GSUBTYPE>other
+desinfectado | GTYPE>profession | GSUBTYPE>other
+desmeadeiro | GTYPE>profession | GSUBTYPE>other
+despenseiro | GTYPE>profession | GSUBTYPE>other
+desportista | GTYPE>profession | GSUBTYPE>other
+detective | GTYPE>profession | GSUBTYPE>other
+director | GTYPE>profession | GSUBTYPE>other
+diretor de criação | GTYPE>profession | GSUBTYPE>other
+diretor | GTYPE>profession | GSUBTYPE>other
+diretora de criação | GTYPE>profession | GSUBTYPE>other
+diretore | GTYPE>profession | GSUBTYPE>other
+diretores de criação | GTYPE>profession | GSUBTYPE>other
+diretores de fotografi | GTYPE>profession | GSUBTYPE>other
+diretores de teatro | GTYPE>profession | GSUBTYPE>other
+dirigentes de carnava | GTYPE>profession | GSUBTYPE>other
+distribuidor | GTYPE>profession | GSUBTYPE>other
+dobrador | GTYPE>profession | GSUBTYPE>other
+documentalista | GTYPE>profession | GSUBTYPE>other
+dourador | GTYPE>profession | GSUBTYPE>other
+dubladore | GTYPE>profession | GSUBTYPE>other
+ecologista | GTYPE>profession | GSUBTYPE>other
+editore | GTYPE>profession | GSUBTYPE>other
+educadore | GTYPE>profession | GSUBTYPE>other
+electricista | GTYPE>profession | GSUBTYPE>other
+electromecânico | GTYPE>profession | GSUBTYPE>other
+embalador | GTYPE>profession | GSUBTYPE>other
+embutidor | GTYPE>profession | GSUBTYPE>other
+empregado | GTYPE>profession | GSUBTYPE>other
+empresári[oa] | GTYPE>profession | GSUBTYPE>other
+encadernador | GTYPE>profession | GSUBTYPE>other
+encalcador | GTYPE>profession | GSUBTYPE>other
+encenador | GTYPE>profession | GSUBTYPE>other
+encolador | GTYPE>profession | GSUBTYPE>other
+enfardador | GTYPE>profession | GSUBTYPE>other
+enfermeiro | GTYPE>profession | GSUBTYPE>other
+enformador | GTYPE>profession | GSUBTYPE>other
+engenheir[oa] | GTYPE>profession | GSUBTYPE>other
+engenheiro | GTYPE>profession | GSUBTYPE>other
+engomador | GTYPE>profession | GSUBTYPE>other
+engraxador | GTYPE>profession | GSUBTYPE>other
+ensaiador | GTYPE>profession | GSUBTYPE>other
+entalhador | GTYPE>profession | GSUBTYPE>other
+envernizador | GTYPE>profession | GSUBTYPE>other
+escanção | GTYPE>profession | GSUBTYPE>other
+escatelador | GTYPE>profession | GSUBTYPE>other
+escolhedor | GTYPE>profession | GSUBTYPE>other
+esfarrapador | GTYPE>profession | GSUBTYPE>other
+esmerilador | GTYPE>profession | GSUBTYPE>other
+especialista | GTYPE>profession | GSUBTYPE>other
+espiõe | GTYPE>profession | GSUBTYPE>other
+estafeta | GTYPE>profession | GSUBTYPE>other
+estampador | GTYPE>profession | GSUBTYPE>other
+estilista | GTYPE>profession | GSUBTYPE>other
+estirador | GTYPE>profession | GSUBTYPE>other
+estivador | GTYPE>profession | GSUBTYPE>other
+estofador | GTYPE>profession | GSUBTYPE>other
+estucador | GTYPE>profession | GSUBTYPE>other
+estufeiro | GTYPE>profession | GSUBTYPE>other
+etologista | GTYPE>profession | GSUBTYPE>other
+exploradore | GTYPE>profession | GSUBTYPE>other
+factor | GTYPE>profession | GSUBTYPE>other
+ferrador | GTYPE>profession | GSUBTYPE>other
+ferreiro | GTYPE>profession | GSUBTYPE>other
+ferroviári[oa] | GTYPE>profession | GSUBTYPE>other
+fiandeiro | GTYPE>profession | GSUBTYPE>other
+figurinista | GTYPE>profession | GSUBTYPE>other
+filantrop[oa] | GTYPE>profession | GSUBTYPE>other
+filatelista | GTYPE>profession | GSUBTYPE>other
+financista | GTYPE>profession | GSUBTYPE>other
+folheador | GTYPE>profession | GSUBTYPE>other
+forcado | GTYPE>profession | GSUBTYPE>other
+forjador | GTYPE>profession | GSUBTYPE>other
+formador | GTYPE>profession | GSUBTYPE>other
+forneiro | GTYPE>profession | GSUBTYPE>other
+fotocompositor | GTYPE>profession | GSUBTYPE>other
+fotocopista | GTYPE>profession | GSUBTYPE>other
+fotogrametrista | GTYPE>profession | GSUBTYPE>other
+fotogravador | GTYPE>profession | GSUBTYPE>other
+freelance | GTYPE>profession | GSUBTYPE>other
+fresador | GTYPE>profession | GSUBTYPE>other
+fundidor | GTYPE>profession | GSUBTYPE>other
+funileiro | GTYPE>profession | GSUBTYPE>other
+gaspeador | GTYPE>profession | GSUBTYPE>other
+gazeador | GTYPE>profession | GSUBTYPE>other
+genealogista | GTYPE>profession | GSUBTYPE>other
+gerent | GTYPE>profession | GSUBTYPE>other
+gerente | GTYPE>profession | GSUBTYPE>other
+gestore | GTYPE>profession | GSUBTYPE>other
+gomador | GTYPE>profession | GSUBTYPE>other
+gonfaloneir | GTYPE>profession | GSUBTYPE>other
+governador | GTYPE>profession | GSUBTYPE>other
+governanta | GTYPE>profession | GSUBTYPE>other
+gravadore | GTYPE>profession | GSUBTYPE>other
+guarda | GTYPE>profession | GSUBTYPE>other
+guia | GTYPE>profession | GSUBTYPE>other
+heliógrafo | GTYPE>profession | GSUBTYPE>other
+historiadore | GTYPE>profession | GSUBTYPE>other
+hoquista | GTYPE>profession | GSUBTYPE>other
+humorista | GTYPE>profession | GSUBTYPE>other
+ilusionista | GTYPE>profession | GSUBTYPE>other
+ilustradore | GTYPE>profession | GSUBTYPE>other
+imediato | GTYPE>profession | GSUBTYPE>other
+impregnador | GTYPE>profession | GSUBTYPE>other
+impressor | GTYPE>profession | GSUBTYPE>other
+industriai | GTYPE>profession | GSUBTYPE>other
+infante | GTYPE>profession | GSUBTYPE>other
+informátic[oa] | GTYPE>profession | GSUBTYPE>other
+inspector | GTYPE>profession | GSUBTYPE>other
+investigador | GTYPE>profession | GSUBTYPE>other
+joalheir[oa] | GTYPE>profession | GSUBTYPE>other
+juntador | GTYPE>profession | GSUBTYPE>other
+ladrilhador | GTYPE>profession | GSUBTYPE>other
+laminador | GTYPE>profession | GSUBTYPE>other
+lapidador | GTYPE>profession | GSUBTYPE>other
+latoeiro | GTYPE>profession | GSUBTYPE>other
+lavadeira | GTYPE>profession | GSUBTYPE>other
+lavador | GTYPE>profession | GSUBTYPE>other
+leiloeiro | GTYPE>profession | GSUBTYPE>other
+licorista | GTYPE>profession | GSUBTYPE>other
+limpa-chaminés | GTYPE>profession | GSUBTYPE>other
+linguista | GTYPE>profession | GSUBTYPE>other
+livreir[oa] | GTYPE>profession | GSUBTYPE>other
+lixador | GTYPE>profession | GSUBTYPE>other
+locutor | GTYPE>profession | GSUBTYPE>other
+locutore | GTYPE>profession | GSUBTYPE>other
+maestro | GTYPE>profession | GSUBTYPE>other
+magarefe | GTYPE>profession | GSUBTYPE>other
+major | GTYPE>profession | GSUBTYPE>other
+maleiro | GTYPE>profession | GSUBTYPE>other
+mandarete | GTYPE>profession | GSUBTYPE>other
+mandrilador | GTYPE>profession | GSUBTYPE>other
+manequim | GTYPE>profession | GSUBTYPE>other
+manicura | GTYPE>profession | GSUBTYPE>other
+maqueiro | GTYPE>profession | GSUBTYPE>other
+maquetista | GTYPE>profession | GSUBTYPE>other
+marceneiro | GTYPE>profession | GSUBTYPE>other
+marechal | GTYPE>profession | GSUBTYPE>other
+marechal-do-ar | GTYPE>profession | GSUBTYPE>other
+marinheir | GTYPE>profession | GSUBTYPE>other
+marinheiro | GTYPE>profession | GSUBTYPE>other
+massagista | GTYPE>profession | GSUBTYPE>other
+maçariqueiro | GTYPE>profession | GSUBTYPE>other
+mecânico | GTYPE>profession | GSUBTYPE>other
+mediador | GTYPE>profession | GSUBTYPE>other
+medidor | GTYPE>profession | GSUBTYPE>other
+mensageiro | GTYPE>profession | GSUBTYPE>other
+mergulhador | GTYPE>profession | GSUBTYPE>other
+mestre | GTYPE>profession | GSUBTYPE>other
+metalomecânico | GTYPE>profession | GSUBTYPE>other
+metalúrgico | GTYPE>profession | GSUBTYPE>other
+meteorologista | GTYPE>profession | GSUBTYPE>other
+mineir | GTYPE>profession | GSUBTYPE>other
+mineiro | GTYPE>profession | GSUBTYPE>other
+ministros de culto religios | GTYPE>profession | GSUBTYPE>other
+misturador | GTYPE>profession | GSUBTYPE>other
+model[oa] | GTYPE>profession | GSUBTYPE>other
+modelador | GTYPE>profession | GSUBTYPE>other
+modelista | GTYPE>profession | GSUBTYPE>other
+modista | GTYPE>profession | GSUBTYPE>other
+moldador | GTYPE>profession | GSUBTYPE>other
+moleiro | GTYPE>profession | GSUBTYPE>other
+monitor | GTYPE>profession | GSUBTYPE>other
+montador | GTYPE>profession | GSUBTYPE>other
+mordom[oa] | GTYPE>profession | GSUBTYPE>other
+motobo | GTYPE>profession | GSUBTYPE>other
+navegadore | GTYPE>profession | GSUBTYPE>other
+negociantes de art | GTYPE>profession | GSUBTYPE>other
+obstectra | GTYPE>profession | GSUBTYPE>other
+oleiro | GTYPE>profession | GSUBTYPE>other
+ombudsma | GTYPE>profession | GSUBTYPE>other
+operário | GTYPE>profession | GSUBTYPE>other
+orlador | GTYPE>profession | GSUBTYPE>other
+orquidicultor | GTYPE>profession | GSUBTYPE>other
+orquidicultora | GTYPE>profession | GSUBTYPE>other
+padeir[oa] | GTYPE>profession | GSUBTYPE>other
+pagador | GTYPE>profession | GSUBTYPE>other
+paginador | GTYPE>profession | GSUBTYPE>other
+paisagista | GTYPE>profession | GSUBTYPE>other
+palhaç[oa] | GTYPE>profession | GSUBTYPE>other
+palhaço | GTYPE>profession | GSUBTYPE>other
+pantogravado | GTYPE>profession | GSUBTYPE>other
+parteira | GTYPE>profession | GSUBTYPE>other
+pedagog[oa] | GTYPE>profession | GSUBTYPE>other
+pedreiro | GTYPE>profession | GSUBTYPE>other
+peleiro | GTYPE>profession | GSUBTYPE>other
+penhorista | GTYPE>profession | GSUBTYPE>other
+penteador | GTYPE>profession | GSUBTYPE>other
+perceptor | GTYPE>profession | GSUBTYPE>other
+percheiro | GTYPE>profession | GSUBTYPE>other
+pesador | GTYPE>profession | GSUBTYPE>other
+pescador | GTYPE>profession | GSUBTYPE>other
+pesquisadore | GTYPE>profession | GSUBTYPE>other
+pinceleiro | GTYPE>profession | GSUBTYPE>other
+pintor | GTYPE>profession | GSUBTYPE>other
+pioneiros dos computadore | GTYPE>profession | GSUBTYPE>other
+pioneiros dos televisore | GTYPE>profession | GSUBTYPE>other
+pirata | GTYPE>profession | GSUBTYPE>other
+pisoeiro | GTYPE>profession | GSUBTYPE>other
+planificador | GTYPE>profession | GSUBTYPE>other
+planteador | GTYPE>profession | GSUBTYPE>other
+plastificado | GTYPE>profession | GSUBTYPE>other
+polidor | GTYPE>profession | GSUBTYPE>other
+polímata | GTYPE>profession | GSUBTYPE>other
+polític[oa] | GTYPE>profession | GSUBTYPE>other
+ponto | GTYPE>profession | GSUBTYPE>other
+portageiro | GTYPE>profession | GSUBTYPE>other
+porteiro | GTYPE>profession | GSUBTYPE>other
+posticeiro | GTYPE>profession | GSUBTYPE>other
+prensador | GTYPE>profession | GSUBTYPE>other
+preparador | GTYPE>profession | GSUBTYPE>other
+produtora | GTYPE>profession | GSUBTYPE>other
+produtor | GTYPE>profession | GSUBTYPE>other
+professora | GTYPE>profession | GSUBTYPE>other
+professor | GTYPE>profession | GSUBTYPE>other
+profissionais da política | GTYPE>profession | GSUBTYPE>other
+programador | GTYPE>profession | GSUBTYPE>other
+programadore | GTYPE>profession | GSUBTYPE>other
+prostituta | GTYPE>profession | GSUBTYPE>other
+provador | GTYPE>profession | GSUBTYPE>other
+publicitári[oa] | GTYPE>profession | GSUBTYPE>other
+quadrador | GTYPE>profession | GSUBTYPE>other
+quebrador | GTYPE>profession | GSUBTYPE>other
+rabaneador | GTYPE>profession | GSUBTYPE>other
+radialista | GTYPE>profession | GSUBTYPE>other
+radiotelegrafist | GTYPE>profession | GSUBTYPE>other
+rainha | GTYPE>profession | GSUBTYPE>other
+raspador | GTYPE>profession | GSUBTYPE>other
+realizador | GTYPE>profession | GSUBTYPE>other
+recauchutado | GTYPE>profession | GSUBTYPE>other
+recepcionist | GTYPE>profession | GSUBTYPE>other
+recolhedor | GTYPE>profession | GSUBTYPE>other
+rectificador | GTYPE>profession | GSUBTYPE>other
+registador | GTYPE>profession | GSUBTYPE>other
+relojoeir[oa] | GTYPE>profession | GSUBTYPE>other
+remetedor | GTYPE>profession | GSUBTYPE>other
+reparador | GTYPE>profession | GSUBTYPE>other
+repassador | GTYPE>profession | GSUBTYPE>other
+representant | GTYPE>profession | GSUBTYPE>other
+responsáve | GTYPE>profession | GSUBTYPE>other
+restaurador | GTYPE>profession | GSUBTYPE>other
+retorcedor | GTYPE>profession | GSUBTYPE>other
+revistador | GTYPE>profession | GSUBTYPE>other
+riscador | GTYPE>profession | GSUBTYPE>other
+roupeiro | GTYPE>profession | GSUBTYPE>other
+sacerdote | GTYPE>profession | GSUBTYPE>other
+salineiro | GTYPE>profession | GSUBTYPE>other
+salsicheiro | GTYPE>profession | GSUBTYPE>other
+salva-vida | GTYPE>profession | GSUBTYPE>other
+santeiro | GTYPE>profession | GSUBTYPE>other
+sapateiro | GTYPE>profession | GSUBTYPE>other
+sargento | GTYPE>profession | GSUBTYPE>other
+secretário | GTYPE>profession | GSUBTYPE>other
+segurança | GTYPE>profession | GSUBTYPE>other
+serrador | GTYPE>profession | GSUBTYPE>other
+serralheiro | GTYPE>profession | GSUBTYPE>other
+servente | GTYPE>profession | GSUBTYPE>other
+serígrafo | GTYPE>profession | GSUBTYPE>other
+sexólog[oa] | GTYPE>profession | GSUBTYPE>other
+sismólog[oa] | GTYPE>profession | GSUBTYPE>other
+sobrescriteiro | GTYPE>profession | GSUBTYPE>other
+sociólog[oa] | GTYPE>profession | GSUBTYPE>other
+socorrista | GTYPE>profession | GSUBTYPE>other
+soldador | GTYPE>profession | GSUBTYPE>other
+soleteiro | GTYPE>profession | GSUBTYPE>other
+sondadore | GTYPE>profession | GSUBTYPE>other
+sonoplasta | GTYPE>profession | GSUBTYPE>other
+suboficial | GTYPE>profession | GSUBTYPE>other
+subtenente | GTYPE>profession | GSUBTYPE>other
+superintendente | GTYPE>profession | GSUBTYPE>other
+supervisor | GTYPE>profession | GSUBTYPE>other
+talhador | GTYPE>profession | GSUBTYPE>other
+tampógrafo | GTYPE>profession | GSUBTYPE>other
+tanoeiro | GTYPE>profession | GSUBTYPE>other
+tecelão | GTYPE>profession | GSUBTYPE>other
+telefonista | GTYPE>profession | GSUBTYPE>other
+telegrafista | GTYPE>profession | GSUBTYPE>other
+telhador | GTYPE>profession | GSUBTYPE>other
+tenent | GTYPE>profession | GSUBTYPE>other
+tenente | GTYPE>profession | GSUBTYPE>other
+teólog[oa] | GTYPE>profession | GSUBTYPE>other
+tintureiro | GTYPE>profession | GSUBTYPE>other
+tipógraf[oa] | GTYPE>profession | GSUBTYPE>other
+topógrafo | GTYPE>profession | GSUBTYPE>other
+torcedor | GTYPE>profession | GSUBTYPE>other
+torneiro | GTYPE>profession | GSUBTYPE>other
+toureir[oa] | GTYPE>profession | GSUBTYPE>other
+tradutor | GTYPE>profession | GSUBTYPE>other
+tradutore | GTYPE>profession | GSUBTYPE>other
+transportado | GTYPE>profession | GSUBTYPE>other
+traçador | GTYPE>profession | GSUBTYPE>other
+trefilador | GTYPE>profession | GSUBTYPE>other
+treinador | GTYPE>profession | GSUBTYPE>other
+treinadore | GTYPE>profession | GSUBTYPE>other
+trintanário | GTYPE>profession | GSUBTYPE>other
+tripeiro | GTYPE>profession | GSUBTYPE>other
+técnico | GTYPE>profession | GSUBTYPE>other
+urbanista | GTYPE>profession | GSUBTYPE>other
+vazador | GTYPE>profession | GSUBTYPE>other
+velejador | GTYPE>profession | GSUBTYPE>other
+vendedor | GTYPE>profession | GSUBTYPE>other
+veterinári[oa] | GTYPE>profession | GSUBTYPE>other
+veterinário | GTYPE>profession | GSUBTYPE>other
+vibradorista | GTYPE>profession | GSUBTYPE>other
+vidraceiro | GTYPE>profession | GSUBTYPE>other
+vidreiro | GTYPE>profession | GSUBTYPE>other
+vigilante | GTYPE>profession | GSUBTYPE>other
+vinagreiro | GTYPE>profession | GSUBTYPE>other
+visagista | GTYPE>profession | GSUBTYPE>other
+visualizador | GTYPE>profession | GSUBTYPE>other
+viveirista | GTYPE>profession | GSUBTYPE>other
+voleibolista | GTYPE>profession | GSUBTYPE>other
+vulcanizador | GTYPE>profession | GSUBTYPE>other
+vulcanólog[oa] | GTYPE>profession | GSUBTYPE>other
+webmaster | GTYPE>profession | GSUBTYPE>other
+xerígrafo | GTYPE>profession | GSUBTYPE>other
+xerógrafo | GTYPE>profession | GSUBTYPE>other
+zincógrafo | GTYPE>profession | GSUBTYPE>other
+
+
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_religion-pt.txt
+# content : PM lexicon for person religion names/adj
+# date	  : February 2012
+# author  : (B. Pouliquen), M. Ehrmann
+# *********
+# Lexical Information
+# GTYPE	  : person_religion
+#**********************************************
+
+
+
+sunita| GTYPE>person_religion
+xiita| GTYPE>person_religion
+muçulmano | GTYPE>person_religion 
+muçulmanos | GTYPE>person_religion 
+muçulmana | GTYPE>person_religion 
+muçulmanas | GTYPE>person_religion#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_title-en.txt
+# content : PM lexicon for Portuguses titles
+# date	  : February 2012
+# author  : (B. Pouliquen),  M. Ehrmann
+# *********
+# Lexical Information
+# GTYPE	  : title>formal |family |academic |aristocratic |religious
+#**********************************************
+
+#new adds
+
+# ARISTOCRATIC TITLES
+Xeque  | GTYPE>title
+Xeique  | GTYPE>title
+
+duque | GTYPE>title | GSUBTYPE>aristocratic
+conde | GSUBTYPE>aristocratic
+arquiduque | GSUBTYPE>aristocratic
+
+
+# FORMAL TITLES
+
+senhor | GTYPE>title | GSUBTYPE>formal
+senhores | GTYPE>title | GSUBTYPE>formal
+senhora | GTYPE>title | GSUBTYPE>formal
+senhoras | GTYPE>title | GSUBTYPE>formal
+Sir | GTYPE>title | GSUBTYPE>formal
+sr.  | GTYPE>title | GSUBTYPE>formal | STRICT > (?i:sr\.)
+sra.  | GTYPE>title | GSUBTYPE>formal | STRICT > (?i:sra\.)
+sras.  | GTYPE>title | GSUBTYPE>formal | STRICT > (?i:sras\.)
+srs.  | GTYPE>title | GSUBTYPE>formal | STRICT > (?i:srs\.)
+
+# MILITARY TITLES
+
+general | GTYPE>title | GSUBTYPE>military
+general da reserva | GTYPE>title | GSUBTYPE>military
+
+general-de-brigada   | GTYPE>title | GSUBTYPE>military
+general-de-divisão   | GTYPE>title | GSUBTYPE>military
+general-de-exército | GTYPE>title | GSUBTYPE>military
+coronel | GTYPE>title | GSUBTYPE>military
+capitã[oa] | GTYPE>title | GSUBTYPE>military
+general tenente | GTYPE>title | GSUBTYPE>military
+general sargento maior | GTYPE>title | GSUBTYPE>military
+sargent[oa] | GTYPE>title | GSUBTYPE>military
+command[oa] | GTYPE>title | GSUBTYPE>military
+militar | GTYPE>title | GSUBTYPE>military
+brigadeiro general | GTYPE>title | GSUBTYPE>military
+brigadeir[oa] | GTYPE>title | GSUBTYPE>military
+oficial general | GTYPE>title | GSUBTYPE>military
+marechal | GTYPE>title | GSUBTYPE>military
+general do exército | GTYPE>title | GSUBTYPE>military
+shogun | GTYPE>title | GSUBTYPE>military
+comandante supremo | GTYPE>title | GSUBTYPE>military
+comandante | GTYPE>title | GSUBTYPE>military
+almirante | GTYPE>title | GSUBTYPE>military   
+almirante-de-esquadra | GTYPE>title | GSUBTYPE>military   
+soldado | GTYPE>title | GSUBTYPE>military
+capitão-de-corveta  | GTYPE>title | GSUBTYPE>military
+capitão-de-fragata | GTYPE>title | GSUBTYPE>military
+capitão-de-mar-e-guerra | GTYPE>title | GSUBTYPE>military
+
+# ACADEMIC
+
+doutor | GTYPE>title | GSUBTYPE>academic
+doutora | GTYPE>title | GSUBTYPE>academic
+dr. | GTYPE>title | GSUBTYPE>academic | STRICT > (?i:dr\.)
+dra. | GTYPE>title | GSUBTYPE>academic | STRICT > (?i:dra\.)
+drs.| GTYPE>title | GSUBTYPE>academic | STRICT > (?i:drs\.)
+
+# RELIGIOUS TITLES
+rabino| GTYPE>title | GSUBTYPE>religious
+papado| GTYPE>title | GSUBTYPE>religious
+cardeal | GTYPE>title | GSUBTYPE>religious
+padre | GTYPE>title | GSUBTYPE>religious
+bispo| GTYPE>title | GSUBTYPE>religious
+arcebispo | GTYPE>title | GSUBTYPE>religious
+freira | GTYPE>title | GSUBTYPE>religious
+sacristão | GTYPE>title | GSUBTYPE>religious
+ayatollah| GTYPE>title | GSUBTYPE>religious
+aiatolá| GTYPE>title | GSUBTYPE>religious
+xeque| GTYPE>title | GSUBTYPE>religious
+D. | GTYPE>title | GSUBTYPE>religious | STRICT > (?i:D\.)
+Dom | GTYPE>title | GSUBTYPE>religious
+
+# FAMILY TITLE
+
+afilhada | GTYPE>title | GSUBTYPE>family
+afilhado | GTYPE>title | GSUBTYPE>family
+avó | GTYPE>title | GSUBTYPE>family
+avós | GTYPE>title | GSUBTYPE>family
+avô | GTYPE>title | GSUBTYPE>family 
+bebé | GTYPE>title | GSUBTYPE>family
+bisavó | GTYPE>title | GSUBTYPE>family
+bisavô | GTYPE>title | GSUBTYPE>family 
+bisneta | GTYPE>title | GSUBTYPE>family
+bisneto | GTYPE>title | GSUBTYPE>family
+comadre | GTYPE>title | GSUBTYPE>family
+compadre | GTYPE>title | GSUBTYPE>family
+cunhada | GTYPE>title | GSUBTYPE>family
+cunhado | GTYPE>title | GSUBTYPE>family
+enteada | GTYPE>title | GSUBTYPE>family
+enteado | GTYPE>title | GSUBTYPE>family
+ex-marido | GTYPE>title | GSUBTYPE>family
+ex-mulher | GTYPE>title | GSUBTYPE>family
+ex-namorada | GTYPE>title | GSUBTYPE>family
+ex-namorado | GTYPE>title | GSUBTYPE>family
+filh_ | GTYPE>title | GSUBTYPE>family
+filha | GTYPE>title | GSUBTYPE>family
+filho | GTYPE>title | GSUBTYPE>family
+genro | GTYPE>title | GSUBTYPE>family
+irmã | GTYPE>title | GSUBTYPE>family
+irmã-gémea | GTYPE>title | GSUBTYPE>family
+irmão | GTYPE>title | GSUBTYPE>family
+irmão-gémeo | GTYPE>title | GSUBTYPE>family
+madrasta | GTYPE>title | GSUBTYPE>family
+madrinha | GTYPE>title | GSUBTYPE>family
+marido | GTYPE>title | GSUBTYPE>family
+meia-irmã | GTYPE>title | GSUBTYPE>family
+meio-irmão | GTYPE>title | GSUBTYPE>family
+mulher | GTYPE>title | GSUBTYPE>family
+mulheres | GTYPE>title | GSUBTYPE>family
+mãe | GTYPE>title | GSUBTYPE>family
+namorada | GTYPE>title | GSUBTYPE>family
+namorado | GTYPE>title | GSUBTYPE>family
+neta | GTYPE>title | GSUBTYPE>family
+neto | GTYPE>title | GSUBTYPE>family
+nora | GTYPE>title | GSUBTYPE>family
+padrasto | GTYPE>title | GSUBTYPE>family
+padrinho | GTYPE>title | GSUBTYPE>family
+pai | GTYPE>title | GSUBTYPE>family
+prima | GTYPE>title | GSUBTYPE>family
+primas | GTYPE>title | GSUBTYPE>family
+primo | GTYPE>title | GSUBTYPE>family
+primos | GTYPE>title | GSUBTYPE>family
+sobrinha | GTYPE>title | GSUBTYPE>family
+sobrinha-neta | GTYPE>title | GSUBTYPE>family
+sobrinho | GTYPE>title | GSUBTYPE>family
+sobrinho-neto | GTYPE>title | GSUBTYPE>family
+sogra | GTYPE>title | GSUBTYPE>family
+sogro | GTYPE>title | GSUBTYPE>family
+tetravó | GTYPE>title | GSUBTYPE>family
+tetravô | GTYPE>title | GSUBTYPE>family 
+tia | GTYPE>title | GSUBTYPE>family
+tia-avó | GTYPE>title | GSUBTYPE>family
+tio | GTYPE>title | GSUBTYPE>family
+tio-avô | GTYPE>title | GSUBTYPE>family 
+tios-avós | GTYPE>title | GSUBTYPE>family
+trisavó | GTYPE>title | GSUBTYPE>family
+trisavô | GTYPE>title | GSUBTYPE>family 
+trisneta | GTYPE>title | GSUBTYPE>family
+trisneto | GTYPE>title | GSUBTYPE>family
+viúva | GTYPE>title | GSUBTYPE>family
+

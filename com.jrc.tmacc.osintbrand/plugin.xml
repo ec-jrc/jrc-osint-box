@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   
+   <extension
+         point="org.knime.product.splashExtension">
+      <splashExtension
+            icon="icons/osint50px.png"
+            icon24="icons/osint50px.png"
+            icon32="icons/osint50px.png"
+            id="com.jrc.tmacc.osintbrand.splashExtension"
+            tooltip="JRC I.3 OSINT Box">
+      </splashExtension>
+   </extension>
+   
+</plugin>

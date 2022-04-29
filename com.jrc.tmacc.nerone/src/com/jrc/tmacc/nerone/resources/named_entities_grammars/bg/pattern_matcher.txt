@@ -1,0 +1,3383 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-bg.txt
+# content : PM lexicon for grammatical units (Bulgarian)
+# date	  : September 2016
+# author  :  Jacquet
+# *********
+
+
+and |GTYPE>coordination
+и |GTYPE>coordination
+
+# ----------------------------------------
+
+алжирец | GTYPE>demonym
+алжирецa | GTYPE>demonym
+алжирецът | GTYPE>demonym
+алжирка | GTYPE>demonym
+алжирката | GTYPE>demonym
+алжирци | GTYPE>demonym
+алжирците | GTYPE>demonym
+алжирки | GTYPE>demonym
+алжирките | GTYPE>demonym
+австралиец | GTYPE>demonym
+австралиецa | GTYPE>demonym
+австралиецът | GTYPE>demonym
+австралика | GTYPE>demonym
+австраликата | GTYPE>demonym
+австралици | GTYPE>demonym
+австралиците | GTYPE>demonym
+австралики | GTYPE>demonym
+австраликите | GTYPE>demonym
+афганистанец | GTYPE>demonym
+афганистанецa | GTYPE>demonym
+афганистанецът | GTYPE>demonym
+афганистанка | GTYPE>demonym
+афганистанката | GTYPE>demonym
+афганистанци | GTYPE>demonym
+афганистанците | GTYPE>demonym
+афганистанки | GTYPE>demonym
+афганистанките | GTYPE>demonym
+камбоджанец | GTYPE>demonym 
+камбоджанецa | GTYPE>demonym 
+камбоджанецът | GTYPE>demonym 
+камбоджанка | GTYPE>demonym 
+камбоджанката | GTYPE>demonym 
+камбоджанци | GTYPE>demonym 
+камбоджанците | GTYPE>demonym 
+камбоджанки | GTYPE>demonym 
+камбоджанките | GTYPE>demonym 
+кипърец | GTYPE>demonym
+кипърецa | GTYPE>demonym
+кипърецът | GTYPE>demonym
+кипърка | GTYPE>demonym
+кипърката | GTYPE>demonym
+кипърци | GTYPE>demonym
+кипърците | GTYPE>demonym
+кипърки | GTYPE>demonym
+кипърките | GTYPE>demonym
+доминиканец | GTYPE>demonym 
+доминиканецa | GTYPE>demonym 
+доминиканецът | GTYPE>demonym 
+доминиканка | GTYPE>demonym 
+доминиканката | GTYPE>demonym 
+доминиканци | GTYPE>demonym 
+доминиканците | GTYPE>demonym 
+доминиканки | GTYPE>demonym 
+доминиканките | GTYPE>demonym 
+еквадорец | GTYPE>demonym 
+еквадорецa | GTYPE>demonym 
+еквадорецът | GTYPE>demonym 
+еквадорка | GTYPE>demonym 
+еквадорката | GTYPE>demonym 
+еквадорци | GTYPE>demonym 
+еквадорците | GTYPE>demonym 
+еквадорки | GTYPE>demonym 
+еквадорките | GTYPE>demonym 
+грузинец | GTYPE>demonym
+грузинецa | GTYPE>demonym
+грузинецът | GTYPE>demonym
+грузинка | GTYPE>demonym
+грузинката | GTYPE>demonym
+грузинци | GTYPE>demonym
+грузинците | GTYPE>demonym
+грузинки | GTYPE>demonym
+грузинките | GTYPE>demonym
+гвинеец | GTYPE>demonym
+гвинеецa | GTYPE>demonym
+гвинеецът | GTYPE>demonym
+гвинейка | GTYPE>demonym
+гвинейката | GTYPE>demonym
+гвинеци | GTYPE>demonym
+гвинеците | GTYPE>demonym
+гвинейки | GTYPE>demonym
+гвинейките | GTYPE>demonym
+монголец | GTYPE>demonym
+монголецa | GTYPE>demonym
+монголецът | GTYPE>demonym
+монголка | GTYPE>demonym
+монголката | GTYPE>demonym
+монголци | GTYPE>demonym
+монголците | GTYPE>demonym
+монголки | GTYPE>demonym
+монголките | GTYPE>demonym
+българин | GTYPE>demonym
+българина | GTYPE>demonym
+българинът | GTYPE>demonym
+българка | GTYPE>demonym
+българката | GTYPE>demonym
+българи | GTYPE>demonym
+българите | GTYPE>demonym
+българки | GTYPE>demonym
+българките | GTYPE>demonym
+чилиец | GTYPE>demonym
+чилиеца | GTYPE>demonym
+чилиецът | GTYPE>demonym
+чилийка | GTYPE>demonym
+чилийката | GTYPE>demonym
+чилийци | GTYPE>demonym
+чилийците | GTYPE>demonym
+чилийки | GTYPE>demonym
+чилийките | GTYPE>demonym
+македонец | GTYPE>demonym 
+македонецa | GTYPE>demonym 
+македонецът | GTYPE>demonym 
+македонка | GTYPE>demonym 
+македонката | GTYPE>demonym 
+македонци | GTYPE>demonym 
+македонците | GTYPE>demonym 
+македонки | GTYPE>demonym 
+македонките | GTYPE>demonym 
+руснак | GTYPE>demonym
+руснака | GTYPE>demonym
+руснакът | GTYPE>demonym
+руснакиня | GTYPE>demonym
+руснакинята | GTYPE>demonym
+руснаци | GTYPE>demonym
+руснаците | GTYPE>demonym
+руснакини | GTYPE>demonym
+руснакините | GTYPE>demonym
+италианец | GTYPE>demonym
+италианецa | GTYPE>demonym
+италианецът | GTYPE>demonym
+италианка | GTYPE>demonym
+италианката | GTYPE>demonym
+италианци | GTYPE>demonym
+италианците | GTYPE>demonym
+италианки | GTYPE>demonym
+италианките | GTYPE>demonym
+англичанин | GTYPE>demonym
+англичанина | GTYPE>demonym
+англичанинът | GTYPE>demonym
+англичанка | GTYPE>demonym
+англичанката | GTYPE>demonym
+англичани | GTYPE>demonym
+англичаните | GTYPE>demonym
+англичанки | GTYPE>demonym
+англичанките | GTYPE>demonym
+французин | GTYPE>demonym
+французина | GTYPE>demonym
+французинът | GTYPE>demonym
+французойка | GTYPE>demonym
+французойката | GTYPE>demonym
+французи | GTYPE>demonym
+французите | GTYPE>demonym
+французойки | GTYPE>demonym
+французойките | GTYPE>demonym
+испанец | GTYPE>demonym
+испанецa | GTYPE>demonym
+испанецът | GTYPE>demonym
+испанка | GTYPE>demonym
+испанката | GTYPE>demonym
+испанци | GTYPE>demonym
+испанците | GTYPE>demonym
+испанки | GTYPE>demonym
+испанките | GTYPE>demonym
+китаец | GTYPE>demonym
+китаецa | GTYPE>demonym
+китаецът | GTYPE>demonym
+китайка | GTYPE>demonym
+китайката | GTYPE>demonym
+китаци | GTYPE>demonym
+китаците | GTYPE>demonym
+китайки | GTYPE>demonym
+китайките | GTYPE>demonym
+уругваец | GTYPE>demonym
+уругваецa | GTYPE>demonym
+уругваецът | GTYPE>demonym
+уругвайка | GTYPE>demonym
+уругвайката | GTYPE>demonym
+уругваци | GTYPE>demonym
+уругваците | GTYPE>demonym
+уругвайки | GTYPE>demonym
+уругвайките | GTYPE>demonym
+японец | GTYPE>demonym
+японецa | GTYPE>demonym
+японецът | GTYPE>demonym
+японка | GTYPE>demonym
+японката | GTYPE>demonym
+японци | GTYPE>demonym
+японците | GTYPE>demonym
+японки | GTYPE>demonym
+японките | GTYPE>demonym
+немец | GTYPE>demonym
+немецa | GTYPE>demonym
+немецът | GTYPE>demonym
+немкиня | GTYPE>demonym
+немкинята | GTYPE>demonym
+немци | GTYPE>demonym
+немците | GTYPE>demonym
+немкини | GTYPE>demonym
+немкините | GTYPE>demonym
+американец | GTYPE>demonym
+американецa | GTYPE>demonym
+американецът | GTYPE>demonym
+американка | GTYPE>demonym
+американката | GTYPE>demonym
+американци | GTYPE>demonym
+американците | GTYPE>demonym
+американки | GTYPE>demonym
+американките | GTYPE>demonym
+иракчанин | GTYPE>demonym
+иракчанина | GTYPE>demonym
+иракчанинът | GTYPE>demonym
+иракчанка | GTYPE>demonym
+иракчанката | GTYPE>demonym
+иракчани | GTYPE>demonym
+иракчаните | GTYPE>demonym
+иракчанки | GTYPE>demonym
+иракчанките | GTYPE>demonym
+иранец | GTYPE>demonym
+иранецa | GTYPE>demonym
+иранецът | GTYPE>demonym
+иранка | GTYPE>demonym
+иранката | GTYPE>demonym
+иранци | GTYPE>demonym
+иранците | GTYPE>demonym
+иранки | GTYPE>demonym
+иранките | GTYPE>demonym
+индиец | GTYPE>demonym 
+индиецa | GTYPE>demonym 
+индиецът | GTYPE>demonym 
+индийка | GTYPE>demonym 
+индийката | GTYPE>demonym 
+индици | GTYPE>demonym 
+индиците | GTYPE>demonym 
+индийки | GTYPE>demonym 
+индийките | GTYPE>demonym 
+швейцарец | GTYPE>demonym
+швейцарецa | GTYPE>demonym
+швейцарецът | GTYPE>demonym
+швейцарка | GTYPE>demonym
+швейцарката | GTYPE>demonym
+швейцарци | GTYPE>demonym
+швейцарците | GTYPE>demonym
+швейцарки | GTYPE>demonym
+швейцарките | GTYPE>demonym
+австриец | GTYPE>demonym
+австриецa | GTYPE>demonym
+австриецът | GTYPE>demonym
+австрийка | GTYPE>demonym
+австрийката | GTYPE>demonym
+австрици | GTYPE>demonym
+австриците | GTYPE>demonym
+австрийки | GTYPE>demonym
+австрийките | GTYPE>demonym
+белгиец | GTYPE>demonym
+белгиецa | GTYPE>demonym
+белгиецът | GTYPE>demonym
+белгийка | GTYPE>demonym
+белгийката | GTYPE>demonym
+белгици | GTYPE>demonym
+белгиците | GTYPE>demonym
+белгийки | GTYPE>demonym
+белгийките | GTYPE>demonym
+доминиканец | GTYPE>demonym 
+доминиканецa | GTYPE>demonym 
+доминиканецът | GTYPE>demonym 
+доминиканка | GTYPE>demonym 
+доминиканката | GTYPE>demonym 
+доминиканци | GTYPE>demonym 
+доминиканците | GTYPE>demonym 
+доминиканки | GTYPE>demonym 
+доминиканките | GTYPE>demonym 
+португалец | GTYPE>demonym
+португалецa | GTYPE>demonym
+португалецът | GTYPE>demonym
+португалка | GTYPE>demonym
+португалката | GTYPE>demonym
+португалци | GTYPE>demonym
+португалците | GTYPE>demonym
+португалки | GTYPE>demonym
+португалките | GTYPE>demonym
+датчанин | GTYPE>demonym 
+датчанина | GTYPE>demonym 
+датчанинът | GTYPE>demonym 
+датчанка | GTYPE>demonym 
+датчанката | GTYPE>demonym 
+датчани | GTYPE>demonym 
+датчаните | GTYPE>demonym 
+датчанки | GTYPE>demonym 
+датчанките | GTYPE>demonym 
+шведа | GTYPE>demonym 
+шведът | GTYPE>demonym 
+шведка | GTYPE>demonym 
+шведката | GTYPE>demonym 
+шведи | GTYPE>demonym 
+шведите | GTYPE>demonym 
+шведки | GTYPE>demonym 
+шведките | GTYPE>demonym 
+норвежец | GTYPE>demonym
+норвежецa | GTYPE>demonym
+норвежецът | GTYPE>demonym
+норвежка | GTYPE>demonym
+норвежката | GTYPE>demonym
+норвежци | GTYPE>demonym
+норвежците | GTYPE>demonym
+норвежки | GTYPE>demonym
+норвежките | GTYPE>demonym
+скандинавец | GTYPE>demonym 
+скандинавецa | GTYPE>demonym 
+скандинавецът | GTYPE>demonym 
+скандинавка | GTYPE>demonym 
+скандинавката | GTYPE>demonym 
+скандинавци | GTYPE>demonym 
+скандинавците | GTYPE>demonym 
+скандинавки | GTYPE>demonym 
+скандинавките | GTYPE>demonym 
+румънец | GTYPE>demonym
+румънецa | GTYPE>demonym
+румънецът | GTYPE>demonym
+румънка | GTYPE>demonym
+румънката | GTYPE>demonym
+румънци | GTYPE>demonym
+румънците | GTYPE>demonym
+румънки | GTYPE>demonym
+румънките | GTYPE>demonym
+унгарец | GTYPE>demonym
+унгарецa | GTYPE>demonym
+унгарецът | GTYPE>demonym
+унгарка | GTYPE>demonym
+унгарката | GTYPE>demonym
+унгарци | GTYPE>demonym
+унгарците | GTYPE>demonym
+унгарки | GTYPE>demonym
+унгарките | GTYPE>demonym
+украинец | GTYPE>demonym
+украинецa | GTYPE>demonym
+украинецът | GTYPE>demonym
+украинка | GTYPE>demonym
+украинката | GTYPE>demonym
+украинци | GTYPE>demonym
+украинците | GTYPE>demonym
+украинки | GTYPE>demonym
+украинките | GTYPE>demonym
+чеченец | GTYPE>demonym
+чеченецa | GTYPE>demonym
+чеченецът | GTYPE>demonym
+чеченка | GTYPE>demonym
+чеченката | GTYPE>demonym
+чеченци | GTYPE>demonym
+чеченците | GTYPE>demonym
+чеченки | GTYPE>demonym
+чеченките | GTYPE>demonym
+арабин | GTYPE>demonym
+арабина | GTYPE>demonym
+арабинът | GTYPE>demonym
+арабка | GTYPE>demonym
+арабката | GTYPE>demonym
+араби | GTYPE>demonym
+арабите | GTYPE>demonym
+арабки | GTYPE>demonym
+арабките | GTYPE>demonym
+евреин | GTYPE>demonym
+евреина | GTYPE>demonym
+евреинът | GTYPE>demonym
+еврейка | GTYPE>demonym
+еврейката | GTYPE>demonym
+евреи | GTYPE>demonym
+евреите | GTYPE>demonym
+еврейки | GTYPE>demonym
+еврейките | GTYPE>demonym
+католик | GTYPE>demonym
+католика | GTYPE>demonym
+католикът | GTYPE>demonym
+католичка | GTYPE>demonym
+католичката | GTYPE>demonym
+католици | GTYPE>demonym
+католиците | GTYPE>demonym
+католичките | GTYPE>demonym
+протестанта | GTYPE>demonym
+протестантът | GTYPE>demonym
+протестантка | GTYPE>demonym
+протестантката | GTYPE>demonym
+протестанти | GTYPE>demonym
+протестантите | GTYPE>demonym
+протестантки | GTYPE>demonym
+протестантките | GTYPE>demonym
+православен | GTYPE>demonym
+православния | GTYPE>demonym
+православният | GTYPE>demonym
+православна | GTYPE>demonym
+православната | GTYPE>demonym
+православни | GTYPE>demonym
+православните | GTYPE>demonym
+либиец | GTYPE>demonym
+либиецa | GTYPE>demonym
+либиецът | GTYPE>demonym
+либийка | GTYPE>demonym
+либийката | GTYPE>demonym
+либици | GTYPE>demonym
+либиците | GTYPE>demonym
+либийки | GTYPE>demonym
+либийките | GTYPE>demonym
+естонец | GTYPE>demonym
+естонецa | GTYPE>demonym
+естонецът | GTYPE>demonym
+естонка | GTYPE>demonym
+естонката | GTYPE>demonym
+естонци | GTYPE>demonym
+естонците | GTYPE>demonym
+естонки | GTYPE>demonym
+естонките | GTYPE>demonym
+холандец | GTYPE>demonym 
+холандецa | GTYPE>demonym 
+холандецът | GTYPE>demonym 
+холандка | GTYPE>demonym 
+холандката | GTYPE>demonym 
+холандци | GTYPE>demonym 
+холандците | GTYPE>demonym 
+холандки | GTYPE>demonym 
+холандките | GTYPE>demonym 
+бразилец | GTYPE>demonym
+бразилецa | GTYPE>demonym
+бразилецът | GTYPE>demonym
+бразилка | GTYPE>demonym
+бразилката | GTYPE>demonym
+бразилци | GTYPE>demonym
+бразилците | GTYPE>demonym
+бразилки | GTYPE>demonym
+бразилките | GTYPE>demonym
+аржентинец | GTYPE>demonym
+аржентинецa | GTYPE>demonym
+аржентинецът | GTYPE>demonym
+аржентинка | GTYPE>demonym
+аржентинката | GTYPE>demonym
+аржентинци | GTYPE>demonym
+аржентинците | GTYPE>demonym
+аржентинки | GTYPE>demonym
+аржентинките | GTYPE>demonym
+виетнамец | GTYPE>demonym
+виетнамецa | GTYPE>demonym
+виетнамецът | GTYPE>demonym
+виетнамка | GTYPE>demonym
+виетнамката | GTYPE>demonym
+виетнамци | GTYPE>demonym
+виетнамците | GTYPE>demonym
+виетнамки | GTYPE>demonym
+виетнамките | GTYPE>demonym
+мюсюлманин | GTYPE>demonym
+мюсюлманина | GTYPE>demonym
+мюсюлманинът | GTYPE>demonym
+мюсюлманка | GTYPE>demonym
+мюсюлманката | GTYPE>demonym
+мюсюлмани | GTYPE>demonym
+мюсюлманите | GTYPE>demonym
+мюсюлманки | GTYPE>demonym
+мюсюлманките | GTYPE>demonym
+софиянец | GTYPE>demonym
+софиянецa | GTYPE>demonym
+софиянецът | GTYPE>demonym
+софиянка | GTYPE>demonym
+софиянката | GTYPE>demonym
+софиянци | GTYPE>demonym
+софиянците | GTYPE>demonym
+софиянки | GTYPE>demonym
+софиянките | GTYPE>demonym
+европеец | GTYPE>demonym
+европеецa | GTYPE>demonym
+европеецът | GTYPE>demonym
+европейка | GTYPE>demonym
+европейката | GTYPE>demonym
+европеци | GTYPE>demonym
+европеците | GTYPE>demonym
+европейки | GTYPE>demonym
+европейките | GTYPE>demonym
+ирландец | GTYPE>demonym 
+ирландецa | GTYPE>demonym 
+ирландецът | GTYPE>demonym 
+ирландка | GTYPE>demonym 
+ирландката | GTYPE>demonym 
+ирландци | GTYPE>demonym 
+ирландците | GTYPE>demonym 
+ирландки | GTYPE>demonym 
+ирландките | GTYPE>demonym 
+исландец | GTYPE>demonym 
+исландецa | GTYPE>demonym 
+исландецът | GTYPE>demonym 
+исландка | GTYPE>demonym 
+исландката | GTYPE>demonym 
+исландци | GTYPE>demonym 
+исландците | GTYPE>demonym 
+исландки | GTYPE>demonym 
+исландките | GTYPE>demonym 
+сърбин | GTYPE>demonym
+сърбина | GTYPE>demonym
+сърбинът | GTYPE>demonym
+сърби | GTYPE>demonym
+сърбите | GTYPE>demonym
+сръбкиня | GTYPE>demonym
+сръбкинята | GTYPE>demonym
+сръбкини | GTYPE>demonym
+сръбкините | GTYPE>demonym
+канадец | GTYPE>demonym 
+канадецa | GTYPE>demonym 
+канадецът | GTYPE>demonym 
+канадка | GTYPE>demonym 
+канадката | GTYPE>demonym 
+канадци | GTYPE>demonym 
+канадците | GTYPE>demonym 
+канадки | GTYPE>demonym 
+канадките | GTYPE>demonym 
+мексиканец | GTYPE>demonym
+мексиканецa | GTYPE>demonym
+мексиканецът | GTYPE>demonym
+мексиканка | GTYPE>demonym
+мексиканката | GTYPE>demonym
+мексиканци | GTYPE>demonym
+мексиканците | GTYPE>demonym
+мексиканки | GTYPE>demonym
+мексиканките | GTYPE>demonym
+словенеец | GTYPE>demonym
+словенеецa | GTYPE>demonym
+словенеецът | GTYPE>demonym
+словенека | GTYPE>demonym
+словенеката | GTYPE>demonym
+словенеци | GTYPE>demonym
+словенеците | GTYPE>demonym
+словенеки | GTYPE>demonym
+словенеките | GTYPE>demonym
+поляк | GTYPE>demonym
+поляка | GTYPE>demonym
+полякът | GTYPE>demonym
+полякиня | GTYPE>demonym
+полякинята | GTYPE>demonym
+поляци | GTYPE>demonym
+поляците | GTYPE>demonym
+полякини | GTYPE>demonym
+полякините | GTYPE>demonym
+чех | GTYPE>demonym
+чеха | GTYPE>demonym
+чехът | GTYPE>demonym
+чекиня | GTYPE>demonym
+чекинята | GTYPE>demonym
+чехи | GTYPE>demonym
+чехите | GTYPE>demonym
+чекини | GTYPE>demonym
+чекините | GTYPE>demonym
+словак | GTYPE>demonym
+словака | GTYPE>demonym
+словакът | GTYPE>demonym
+словачка | GTYPE>demonym
+словачката | GTYPE>demonym
+словаци | GTYPE>demonym
+словаците | GTYPE>demonym
+словачки | GTYPE>demonym
+словачките | GTYPE>demonym
+хърватин | GTYPE>demonym
+хърватина | GTYPE>demonym
+хърватинът | GTYPE>demonym
+хърватка | GTYPE>demonym
+хърватката | GTYPE>demonym
+хървати | GTYPE>demonym
+хърватите | GTYPE>demonym
+хърватки | GTYPE>demonym
+хърватките | GTYPE>demonym
+турчин | GTYPE>demonym
+турчина | GTYPE>demonym
+турчинът | GTYPE>demonym
+туркиня | GTYPE>demonym
+туркинята | GTYPE>demonym
+турци | GTYPE>demonym
+турците | GTYPE>demonym
+туркини | GTYPE>demonym
+туркините | GTYPE>demonym
+грък | GTYPE>demonym
+гръка | GTYPE>demonym
+гръкът | GTYPE>demonym
+гърка | GTYPE>demonym
+гъркът | GTYPE>demonym
+гъркиня | GTYPE>demonym
+гъркинята | GTYPE>demonym
+гърци | GTYPE>demonym
+гърците | GTYPE>demonym
+гъркини | GTYPE>demonym
+гъркините | GTYPE>demonym
+африканец | GTYPE>demonym
+африканецa | GTYPE>demonym
+африканецът | GTYPE>demonym
+африканка | GTYPE>demonym
+африканката | GTYPE>demonym
+африканци | GTYPE>demonym
+африканците | GTYPE>demonym
+африканки | GTYPE>demonym
+африканките | GTYPE>demonym
+южно-африканец | GTYPE>demonym
+южно-африканецa | GTYPE>demonym
+южно-африканецът | GTYPE>demonym
+южно-африканка | GTYPE>demonym
+южно-африканката | GTYPE>demonym
+южно-африканци | GTYPE>demonym
+южно-африканците | GTYPE>demonym
+южно-африканки | GTYPE>demonym
+южно-африканките | GTYPE>demonym
+северо-осетинец | GTYPE>demonym
+северо-осетинецa | GTYPE>demonym
+северо-осетинецът | GTYPE>demonym
+северо-осетинка | GTYPE>demonym
+северо-осетинката | GTYPE>demonym
+северо-осетинци | GTYPE>demonym
+северо-осетинците | GTYPE>demonym
+северо-осетинки | GTYPE>demonym
+северо-осетинките | GTYPE>demonym
+грузинец | GTYPE>demonym
+грузинецa | GTYPE>demonym
+грузинецът | GTYPE>demonym
+грузинка | GTYPE>demonym
+грузинката | GTYPE>demonym
+грузинци | GTYPE>demonym
+грузинците | GTYPE>demonym
+грузинки | GTYPE>demonym
+грузинките | GTYPE>demonym
+азейрбаджанец | GTYPE>demonym 
+азейрбаджанецa | GTYPE>demonym 
+азейрбаджанецът | GTYPE>demonym 
+азейрбаджанка | GTYPE>demonym 
+азейрбаджанката | GTYPE>demonym 
+азейрбаджанци | GTYPE>demonym 
+азейрбаджанците | GTYPE>demonym 
+азейрбаджанки | GTYPE>demonym 
+азейрбаджанките | GTYPE>demonym 
+арменец | GTYPE>demonym
+арменецa | GTYPE>demonym
+арменецът | GTYPE>demonym
+арменка | GTYPE>demonym
+арменката | GTYPE>demonym
+арменци | GTYPE>demonym
+арменците | GTYPE>demonym
+арменки | GTYPE>demonym
+арменките | GTYPE>demonym
+нигериец | GTYPE>demonym
+нигериецa | GTYPE>demonym
+нигериецът | GTYPE>demonym
+нигерийка | GTYPE>demonym
+нигерийката | GTYPE>demonym
+нигерици | GTYPE>demonym
+нигериците | GTYPE>demonym
+нигерийки | GTYPE>demonym
+нигерийките | GTYPE>demonym
+мароканец | GTYPE>demonym
+мароканецa | GTYPE>demonym
+мароканецът | GTYPE>demonym
+мароканка | GTYPE>demonym
+мароканката | GTYPE>demonym
+мароканци | GTYPE>demonym
+мароканците | GTYPE>demonym
+мароканки | GTYPE>demonym
+мароканките | GTYPE>demonym
+египтянин | GTYPE>demonym
+египтянина | GTYPE>demonym
+египтянинът | GTYPE>demonym
+египтянка | GTYPE>demonym
+египтянката | GTYPE>demonym
+египтяни | GTYPE>demonym
+египтяните | GTYPE>demonym
+египтянки | GTYPE>demonym
+египтянките | GTYPE>demonym
+пловдивчанин | GTYPE>demonym 
+пловдивчанина | GTYPE>demonym 
+пловдивчанинът | GTYPE>demonym 
+пловдивчанка | GTYPE>demonym 
+пловдивчанката | GTYPE>demonym 
+пловдивчани | GTYPE>demonym 
+пловдивчаните | GTYPE>demonym 
+пловдивчанки | GTYPE>demonym 
+пловдивчанките | GTYPE>demonym 
+римлянин | GTYPE>demonym
+римлянина | GTYPE>demonym
+римлянинът | GTYPE>demonym
+римлянка | GTYPE>demonym
+римлянката | GTYPE>demonym
+римляни | GTYPE>demonym
+римляните | GTYPE>demonym
+римлянки | GTYPE>demonym
+римлянките | GTYPE>demonym
+венецианец | GTYPE>demonym
+венецианецa | GTYPE>demonym
+венецианецът | GTYPE>demonym
+венецианка | GTYPE>demonym
+венецианката | GTYPE>demonym
+венецианци | GTYPE>demonym
+венецианците | GTYPE>demonym
+венецианки | GTYPE>demonym
+венецианките | GTYPE>demonym
+лондончанин | GTYPE>demonym 
+лондончанина | GTYPE>demonym 
+лондончанинът | GTYPE>demonym 
+лондончанка | GTYPE>demonym 
+лондончанката | GTYPE>demonym 
+лондончани | GTYPE>demonym 
+лондончаните | GTYPE>demonym 
+лондончанки | GTYPE>demonym 
+лондончанките | GTYPE>demonym 
+парижанин | GTYPE>demonym
+парижанина | GTYPE>demonym
+парижанинът | GTYPE>demonym
+парижанка | GTYPE>demonym
+парижанката | GTYPE>demonym
+парижани | GTYPE>demonym
+парижаните | GTYPE>demonym
+парижанки | GTYPE>demonym
+парижанките | GTYPE>demonym
+бургазлия | GTYPE>demonym
+бургазлията | GTYPE>demonym
+бургазлийка | GTYPE>demonym
+бургазлийката | GTYPE>demonym
+бургазлии | GTYPE>demonym
+бургазлиите | GTYPE>demonym
+бургазлийки | GTYPE>demonym
+бургазлийките | GTYPE>demonym
+варненец | GTYPE>demonym
+варненецa | GTYPE>demonym
+варненецът | GTYPE>demonym
+варненка | GTYPE>demonym
+варненката | GTYPE>demonym
+варненци | GTYPE>demonym
+варненците | GTYPE>demonym
+варненки | GTYPE>demonym
+варненките | GTYPE>demonym
+
+на ООН | GTYPE>demonym
+на Нато | GTYPE>demonym
+на Европа | GTYPE>demonym
+на ЕС | GTYPE>demonym
+
+#на ЕК  = of EU
+# EX: Либийският лидер Муамар Кадафи
+# ex: Председателят на ЕК Романо Проди
+
+
+на България | GTYPE>demonym
+от България | GTYPE>demonym
+на Чили | GTYPE>demonym
+от Чили | GTYPE>demonym
+на Македония | GTYPE>demonym 
+от Македония | GTYPE>demonym 
+на Русия | GTYPE>demonym
+от Русия | GTYPE>demonym
+на Италия | GTYPE>demonym
+от Италия | GTYPE>demonym
+на Англия | GTYPE>demonym
+от Англия | GTYPE>demonym
+на Великобритания | GTYPE>demonym
+от Великобритания | GTYPE>demonym
+на Франция | GTYPE>demonym
+от Франция | GTYPE>demonym
+на Испания | GTYPE>demonym
+от Испания | GTYPE>demonym
+на Китай | GTYPE>demonym
+от Китай | GTYPE>demonym
+на Уругвай | GTYPE>demonym
+от Уругвай | GTYPE>demonym
+на Япония | GTYPE>demonym
+от Япония | GTYPE>demonym
+на Германия | GTYPE>demonym
+от Германия | GTYPE>demonym
+на Съединените Щати | GTYPE>demonym 
+от Съединените Щати | GTYPE>demonym 
+на Америка | GTYPE>demonym
+от Америка | GTYPE>demonym
+на Ирак  | GTYPE>demonym
+от Ирак  | GTYPE>demonym
+на Иран | GTYPE>demonym
+от Иран | GTYPE>demonym
+на Индия | GTYPE>demonym 
+от Индия | GTYPE>demonym 
+на Швейцария | GTYPE>demonym
+от Швейцария | GTYPE>demonym
+на Австрия | GTYPE>demonym
+от Австрия | GTYPE>demonym
+на Португалия | GTYPE>demonym
+от Португалия | GTYPE>demonym
+на Дания | GTYPE>demonym
+от Дания | GTYPE>demonym
+на Швеция | GTYPE>demonym
+от Швеция | GTYPE>demonym
+на Норвегия | GTYPE>demonym
+от Норвегия | GTYPE>demonym
+на Румъния | GTYPE>demonym
+от Румъния | GTYPE>demonym
+на Унгария | GTYPE>demonym
+от Унгария | GTYPE>demonym
+на Украина | GTYPE>demonym
+от Украина | GTYPE>demonym
+на Чечения | GTYPE>demonym
+от Чечения | GTYPE>demonym
+на Чечня | GTYPE>demonym
+от Чечня | GTYPE>demonym
+на Египет | GTYPE>demonym
+от Египет | GTYPE>demonym
+на Израел | GTYPE>demonym
+от Израел | GTYPE>demonym
+на Либия | GTYPE>demonym
+от Либия | GTYPE>demonym
+на Естония | GTYPE>demonym
+от Естония | GTYPE>demonym
+на Холандия | GTYPE>demonym 
+от Холандия | GTYPE>demonym 
+на Бразилия | GTYPE>demonym
+от Бразилия | GTYPE>demonym
+на Аржентина | GTYPE>demonym
+от Аржентина | GTYPE>demonym
+на Виетнам | GTYPE>demonym
+от Виетнам | GTYPE>demonym
+на София | GTYPE>demonym
+от София | GTYPE>demonym
+на Рим | GTYPE>demonym
+от Рим | GTYPE>demonym
+на Лондон | GTYPE>demonym 
+от Лондон | GTYPE>demonym 
+на Ирландия | GTYPE>demonym 
+от Ирландия | GTYPE>demonym 
+на Исландия | GTYPE>demonym 
+от Исландия | GTYPE>demonym 
+на Сърбия | GTYPE>demonym
+от Сърбия | GTYPE>demonym
+на Черна Гора | GTYPE>demonym
+от Черна Гора | GTYPE>demonym
+на Канада | GTYPE>demonym 
+от Канада | GTYPE>demonym 
+на Мексико | GTYPE>demonym
+от Мексико | GTYPE>demonym
+на Словения | GTYPE>demonym
+от Словения | GTYPE>demonym
+на Полша | GTYPE>demonym
+от Полша | GTYPE>demonym
+на Чехия | GTYPE>demonym
+от Чехия | GTYPE>demonym
+на Словакия | GTYPE>demonym
+от Словакия | GTYPE>demonym
+на Хърватско | GTYPE>demonym
+от Хърватско | GTYPE>demonym
+на Турция | GTYPE>demonym
+от Турция | GTYPE>demonym
+на Гърция | GTYPE>demonym
+от Гърция | GTYPE>demonym
+на Южна Африка | GTYPE>demonym
+от Южна Африка | GTYPE>demonym
+на Северна Осетия | GTYPE>demonym
+от Северна Осетия | GTYPE>demonym
+на Грузия | GTYPE>demonym
+от Грузия | GTYPE>demonym
+на Азейрбаджан | GTYPE>demonym 
+от Азейрбаджан | GTYPE>demonym 
+на Армения | GTYPE>demonym
+от Армения | GTYPE>demonym
+на Нигерия | GTYPE>demonym
+от Нигерия | GTYPE>demonym
+на Мароко | GTYPE>demonym
+от Мароко | GTYPE>demonym
+на Египет | GTYPE>demonym
+от Египет | GTYPE>demonym
+на Пловди | GTYPE>demonym 
+от Пловди | GTYPE>demonym 
+
+
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_positions-bg.txt
+# content : pattern matcher lexicon for bulgarian positions names positions
+# author  : M. Ehrmann
+# date	  : February 2012
+# built from bruno's resources.
+# to be checked and completed!
+#**********************************************
+
+# military positions
+редник | GTYPE>position 
+редника | GTYPE>position 
+редникът | GTYPE>position 
+редници | GTYPE>position 
+редниците | GTYPE>position 
+ефрейтор | GTYPE>position
+старш. | GTYPE>position | STRICT > (?i:старш\.)
+старшина | GTYPE>position
+капитан | GTYPE>position
+кап. | GTYPE>position | STRICT > (?i:кап\.)
+майор | GTYPE>position
+майорът | GTYPE>position
+майора | GTYPE>position
+майори | GTYPE>position
+майорите | GTYPE>position
+офицер | GTYPE>position
+офицерът | GTYPE>position
+офицера | GTYPE>position
+офицери | GTYPE>position
+офицерите | GTYPE>position
+генерал | GTYPE>position
+генген. | GTYPE>position | STRICT > (?i:генген\.)
+старши сержант | GTYPE>position
+младши сержант | GTYPE>position 
+старши лейтенант | GTYPE>position
+младши лейтенант | GTYPE>position 
+подполковник | GTYPE>position 
+подполк. | GTYPE>position 
+полковник | GTYPE>position
+полк. | GTYPE>position | STRICT > (?i:полк\.)
+сж. | GTYPE>position | STRICT > (?i:сж\.)
+серж. | GTYPE>position | STRICT > (?i:серж\.)
+мл. сж. | GTYPE>position | STRICT > (?i:мл\. сж\.)
+ст. сж. | GTYPE>position | STRICT > (?i:ст\. сж\.)
+мл. серж | GTYPE>position | STRICT > (?i:мл\. серж)
+ст. серж | GTYPE>position | STRICT > (?i:ст\. серж)
+
+
+
+покойнен | GTYPE>position_adjective
+покойния | GTYPE>position_adjective
+покойният | GTYPE>position_adjective
+покойна | GTYPE>position_adjective
+покойната | GTYPE>position_adjective
+покойните | GTYPE>position_adjective
+бивш | GTYPE>position_adjective
+бившя | GTYPE>position_adjective
+бившят | GTYPE>position_adjective
+бивша | GTYPE>position_adjective
+бившата | GTYPE>position_adjective
+бившите | GTYPE>position_adjective
+бъдещ | GTYPE>position_adjective 
+бъдещя | GTYPE>position_adjective 
+бъдещят | GTYPE>position_adjective 
+бъдеща | GTYPE>position_adjective 
+бъдещата | GTYPE>position_adjective 
+бъдещите | GTYPE>position_adjective 
+млад | GTYPE>position_adjective 
+младия | GTYPE>position_adjective 
+младият | GTYPE>position_adjective 
+младата | GTYPE>position_adjective 
+младите | GTYPE>position_adjective 
+стар | GTYPE>position_adjective
+стария | GTYPE>position_adjective
+старият | GTYPE>position_adjective
+старата | GTYPE>position_adjective
+старите | GTYPE>position_adjective
+известния | GTYPE>position_adjective
+известният | GTYPE>position_adjective
+известната | GTYPE>position_adjective
+известните | GTYPE>position_adjective
+# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : profession-bg.txt
+# content : pattern matcher lexicon for bulgarian profession names positions
+# author  : M. Ehrmann
+# date	  : February 2012
+# built from bruno's resources.
+# to be checked.
+# ----------------------------------------
+
+инж.| GTYPE>position | STRICT > (?i:инж\.)
+адв.| GTYPE>position 
+инженер | GTYPE>position
+инженерът | GTYPE>position
+инженера | GTYPE>position
+инженери | GTYPE>position
+инженерите | GTYPE>position
+адвокат | GTYPE>position 
+адвокатът | GTYPE>position 
+адвоката | GTYPE>position 
+адвокати | GTYPE>position 
+адвокатите | GTYPE>position 
+консул | GTYPE>position
+консулът | GTYPE>position
+консула | GTYPE>position
+консули | GTYPE>position
+консулите | GTYPE>position
+актьор | GTYPE>position
+актьорът | GTYPE>position
+актьора | GTYPE>position
+актьори | GTYPE>position
+актьорите | GTYPE>position
+актриса | GTYPE>position
+актрисата | GTYPE>position
+актрисите | GTYPE>position
+актриси | GTYPE>position
+журналист | GTYPE>position
+журналиста | GTYPE>position
+журналистът | GTYPE>position
+журналистка | GTYPE>position
+журналистката | GTYPE>position
+журналисти | GTYPE>position
+журналистите | GTYPE>position
+журналистки | GTYPE>position
+журналистките | GTYPE>position
+премиер | GTYPE>position
+премиера | GTYPE>position
+премиерът | GTYPE>position
+премиерша | GTYPE>position
+премиершата | GTYPE>position
+министър | GTYPE>position
+министърът | GTYPE>position
+министъра | GTYPE>position
+министърка | GTYPE>position
+министърката | GTYPE>position
+министъри | GTYPE>position
+министърите | GTYPE>position
+министърки | GTYPE>position
+министърките | GTYPE>position
+съдия | GTYPE>position 
+съдията | GTYPE>position 
+съдийка | GTYPE>position 
+съдийката | GTYPE>position 
+съдии | GTYPE>position 
+съдиите | GTYPE>position 
+съдийки | GTYPE>position 
+съдийките | GTYPE>position 
+писател | GTYPE>position
+писателят | GTYPE>position
+писателя | GTYPE>position
+писателка | GTYPE>position
+писателката | GTYPE>position
+писатели | GTYPE>position
+писателите | GTYPE>position
+писателки | GTYPE>position
+писателките | GTYPE>position
+доктор | GTYPE>position 
+доктора | GTYPE>position 
+докторът | GTYPE>position 
+докторка | GTYPE>position 
+докторката | GTYPE>position 
+доктори | GTYPE>position 
+докторите | GTYPE>position 
+докторки | GTYPE>position 
+докторките | GTYPE>position 
+академик | GTYPE>position 
+академика | GTYPE>position 
+академикът | GTYPE>position 
+академичка | GTYPE>position 
+академичката | GTYPE>position 
+академици | GTYPE>position 
+академиците | GTYPE>position 
+академички | GTYPE>position 
+академичките | GTYPE>position 
+акад. | GTYPE>position 
+шампион | GTYPE>position
+шампиона | GTYPE>position
+шампионът | GTYPE>position
+шампионка | GTYPE>position
+шампионката | GTYPE>position
+шампиони | GTYPE>position
+шампионите | GTYPE>position
+шампионки | GTYPE>position
+шампионките | GTYPE>position
+политик | GTYPE>position
+политика | GTYPE>position
+политикът | GTYPE>position
+политичка | GTYPE>position
+политичката | GTYPE>position
+политици | GTYPE>position
+политиците | GTYPE>position
+политички | GTYPE>position
+политичките | GTYPE>position
+архитекта | GTYPE>position
+архитектът | GTYPE>position
+архитекти | GTYPE>position
+архитектите | GTYPE>position
+антрополог | GTYPE>position
+антрополога | GTYPE>position
+антропологът | GTYPE>position
+антроположка | GTYPE>position
+антроположката | GTYPE>position
+антрополози | GTYPE>position
+антрополозите | GTYPE>position
+антроположки | GTYPE>position
+антроположките | GTYPE>position
+началник | GTYPE>position
+началника | GTYPE>position
+началникът | GTYPE>position
+началници | GTYPE>position
+началниците | GTYPE>position
+началнички | GTYPE>position
+началничките | GTYPE>position
+началничка | GTYPE>position
+началничката | GTYPE>position
+акушер | GTYPE>position
+акушера | GTYPE>position
+акушерът | GTYPE>position
+акушерка | GTYPE>position
+акушерката | GTYPE>position
+акушери | GTYPE>position
+акушерите | GTYPE>position
+акушерки | GTYPE>position
+акушерките | GTYPE>position
+астроном | GTYPE>position
+астронома | GTYPE>position
+астрономът | GTYPE>position
+астрономи | GTYPE>position
+астрономите | GTYPE>position
+експерт | GTYPE>position
+експерта | GTYPE>position
+експертът | GTYPE>position
+експертка | GTYPE>position
+експертката | GTYPE>position
+експерти | GTYPE>position
+експертите | GTYPE>position
+експертки | GTYPE>position
+експертките | GTYPE>position
+биолога | GTYPE>position
+биологът | GTYPE>position
+биоложка | GTYPE>position
+биоложката | GTYPE>position
+биолози | GTYPE>position
+биолозите | GTYPE>position
+биоложки | GTYPE>position
+биоложките | GTYPE>position
+биохимик | GTYPE>position
+биохимика | GTYPE>position
+биохимикът | GTYPE>position
+биохимичка | GTYPE>position
+биохимичката | GTYPE>position
+биохимици | GTYPE>position
+биохимиците | GTYPE>position
+биохимички | GTYPE>position
+биохимичките | GTYPE>position
+ботаника | GTYPE>position
+ботаникът | GTYPE>position
+ботаничка | GTYPE>position
+ботаничката | GTYPE>position
+ботаници | GTYPE>position
+ботаниците | GTYPE>position
+ботанички | GTYPE>position
+ботаничките | GTYPE>position
+брокер | GTYPE>position
+брокера | GTYPE>position
+брокерът | GTYPE>position
+брокерка | GTYPE>position
+брокерката | GTYPE>position
+брокери | GTYPE>position
+брокерите | GTYPE>position
+брокерки | GTYPE>position
+брокерките | GTYPE>position
+дилър | GTYPE>position 
+дилъра | GTYPE>position 
+дилърът | GTYPE>position 
+дилъри | GTYPE>position 
+дилърите | GTYPE>position 
+ватман | GTYPE>position
+ватмана | GTYPE>position
+ватманът | GTYPE>position
+ватмани | GTYPE>position
+ватманите | GTYPE>position
+шофьор | GTYPE>position
+шофьора | GTYPE>position
+шофьорът | GTYPE>position
+шофьори | GTYPE>position
+шофьорите | GTYPE>position
+генетик | GTYPE>position
+генетика | GTYPE>position
+генетикът | GTYPE>position
+генетичка | GTYPE>position
+генетичката | GTYPE>position
+генетици | GTYPE>position
+генетиците | GTYPE>position
+генетички | GTYPE>position
+генетичките | GTYPE>position
+географ | GTYPE>position
+географа | GTYPE>position
+географът | GTYPE>position
+географи | GTYPE>position
+географите | GTYPE>position
+геолог | GTYPE>position
+геолога | GTYPE>position
+геологът | GTYPE>position
+геоложка | GTYPE>position
+геоложката | GTYPE>position
+геолози | GTYPE>position
+геолозите | GTYPE>position
+геоложки | GTYPE>position
+геоложките | GTYPE>position
+геодезист | GTYPE>position 
+геодезиста | GTYPE>position 
+геодезистът | GTYPE>position 
+геодезистка | GTYPE>position 
+геодезистката | GTYPE>position 
+геодезисти | GTYPE>position 
+геодезистите | GTYPE>position 
+геодезистки | GTYPE>position 
+геодезистките | GTYPE>position 
+геофизика | GTYPE>position
+геофизикът | GTYPE>position
+геофизичка | GTYPE>position
+геофизичката | GTYPE>position
+геофизици | GTYPE>position
+геофизиците | GTYPE>position
+геофизички | GTYPE>position
+геофизичките | GTYPE>position
+гувернант | GTYPE>position
+гувернанта | GTYPE>position
+гувернантът | GTYPE>position
+гувернантка | GTYPE>position
+гувернантката | GTYPE>position
+гувернанти | GTYPE>position
+гувернантите | GTYPE>position
+гувернантки | GTYPE>position
+гувернантките | GTYPE>position
+детектив | GTYPE>position 
+детектива | GTYPE>position 
+детективът | GTYPE>position 
+детективи | GTYPE>position 
+детективите | GTYPE>position 
+диетолог | GTYPE>position 
+диетолога | GTYPE>position 
+диетологът | GTYPE>position 
+диетоложка | GTYPE>position 
+диетоложката | GTYPE>position 
+диетолози | GTYPE>position 
+диетолозите | GTYPE>position 
+диетоложки | GTYPE>position 
+диетоложките | GTYPE>position 
+дипломат | GTYPE>position 
+дипломата | GTYPE>position 
+дипломатът | GTYPE>position 
+дипломати | GTYPE>position 
+дипломатите | GTYPE>position 
+диригент | GTYPE>position 
+диригента | GTYPE>position 
+диригентът | GTYPE>position 
+диригентка | GTYPE>position 
+диригентката | GTYPE>position 
+диригенти | GTYPE>position 
+диригентите | GTYPE>position 
+диригентки | GTYPE>position 
+диригентките | GTYPE>position 
+дисководещ | GTYPE>position 
+дисководещия | GTYPE>position 
+дисководещият | GTYPE>position 
+дисководещи | GTYPE>position 
+дисководещите | GTYPE>position 
+диспечер | GTYPE>position 
+диспечера | GTYPE>position 
+диспечерът | GTYPE>position 
+диспечерка | GTYPE>position 
+диспечерката | GTYPE>position 
+диспечери | GTYPE>position 
+диспечерите | GTYPE>position 
+диспечерки | GTYPE>position 
+диспечерките | GTYPE>position 
+дърводелец | GTYPE>position 
+дърводелеца | GTYPE>position 
+дърводелецът | GTYPE>position 
+дърводелци | GTYPE>position 
+дърводелците | GTYPE>position 
+дърворезбар | GTYPE>position 
+дърворезбарят | GTYPE>position 
+дърворезбаря | GTYPE>position 
+дърворезбари | GTYPE>position 
+дърворезбарите | GTYPE>position 
+дърворезбарки | GTYPE>position 
+дърворезбарките | GTYPE>position 
+екскурзовод | GTYPE>position 
+екскурзовода | GTYPE>position 
+екскурзоводът | GTYPE>position 
+екскурзоводка | GTYPE>position 
+екскурзоводката | GTYPE>position 
+екскурзоводи | GTYPE>position 
+екскурзоводите | GTYPE>position 
+екскурзоводки | GTYPE>position 
+екскурзоводките | GTYPE>position 
+експедитор | GTYPE>position 
+експедитора | GTYPE>position 
+експедиторът | GTYPE>position 
+експедиторка | GTYPE>position 
+експедиторката | GTYPE>position 
+експедитори | GTYPE>position 
+експедиторите | GTYPE>position 
+експедиторки | GTYPE>position 
+експедиторките | GTYPE>position 
+ергоном | GTYPE>position
+ергонома | GTYPE>position
+ергономът | GTYPE>position
+ергономка | GTYPE>position
+ергономката | GTYPE>position
+ергономи | GTYPE>position
+ергономите | GTYPE>position
+ергономки | GTYPE>position
+ергономките | GTYPE>position
+етнограф | GTYPE>position
+етнографа | GTYPE>position
+етнографът | GTYPE>position
+етнографка | GTYPE>position
+етнографката | GTYPE>position
+етнографи | GTYPE>position
+етнографите | GTYPE>position
+етнографки | GTYPE>position
+етнографките | GTYPE>position
+етнолог | GTYPE>position
+етнолога | GTYPE>position
+етнологът | GTYPE>position
+етноложка | GTYPE>position
+етноложката | GTYPE>position
+етнолози | GTYPE>position
+етнолозите | GTYPE>position
+етноложки | GTYPE>position
+етноложките | GTYPE>position
+златар | GTYPE>position
+златаря | GTYPE>position
+златарят | GTYPE>position
+златари | GTYPE>position
+златарите | GTYPE>position
+златарки | GTYPE>position
+златарките | GTYPE>position
+бижутер | GTYPE>position
+бижутера | GTYPE>position
+бижутерът | GTYPE>position
+бижутерка | GTYPE>position
+бижутерката | GTYPE>position
+бижутери | GTYPE>position
+бижутерите | GTYPE>position
+бижутерки | GTYPE>position
+бижутерките | GTYPE>position
+зоотехник | GTYPE>position
+зоотехника | GTYPE>position
+зоотехникът | GTYPE>position
+зоотехничка | GTYPE>position
+зоотехничката | GTYPE>position
+зоотехници | GTYPE>position
+зоотехниците | GTYPE>position
+зоотехнички | GTYPE>position
+зоотехничките | GTYPE>position
+зъботехник | GTYPE>position
+зъботехника | GTYPE>position
+зъботехникът | GTYPE>position
+зъботехничка | GTYPE>position
+зъботехничката | GTYPE>position
+зъботехници | GTYPE>position
+зъботехниците | GTYPE>position
+зъботехнички | GTYPE>position
+зъботехничките | GTYPE>position
+издател | GTYPE>position 
+издателя | GTYPE>position 
+издателят | GTYPE>position 
+издатели | GTYPE>position 
+издателите | GTYPE>position 
+изкуствовед | GTYPE>position 
+изкуствоведа | GTYPE>position 
+изкуствоведът | GTYPE>position 
+изкуствоведка | GTYPE>position 
+изкуствоведката | GTYPE>position 
+изкуствоведи | GTYPE>position 
+изкуствоведите | GTYPE>position 
+изкуствоведки | GTYPE>position 
+изкуствоведките | GTYPE>position 
+изследовател | GTYPE>position 
+изследователя | GTYPE>position 
+изследователят | GTYPE>position 
+изследователка | GTYPE>position 
+изследователката | GTYPE>position 
+изпълнител | GTYPE>position
+изпълнителя | GTYPE>position
+изпълнителят | GTYPE>position
+изпълнителка | GTYPE>position
+изпълнителката | GTYPE>position
+изпълнители | GTYPE>position
+изпълнителите | GTYPE>position
+инспектор | GTYPE>position
+инспектора | GTYPE>position
+инспекторът | GTYPE>position
+инспекторка | GTYPE>position
+инспекторката | GTYPE>position
+инструктор | GTYPE>position
+инструктора | GTYPE>position
+инструкторът | GTYPE>position
+инструкторка | GTYPE>position
+инструкторката | GTYPE>position
+историк | GTYPE>position
+историка | GTYPE>position
+историкът | GTYPE>position
+историчка | GTYPE>position
+историчката | GTYPE>position
+историци | GTYPE>position
+историците | GTYPE>position
+исторички | GTYPE>position
+историчките | GTYPE>position
+информатик | GTYPE>position
+информатика | GTYPE>position
+информатикът | GTYPE>position
+информатичка | GTYPE>position
+информатичката | GTYPE>position
+информатици | GTYPE>position
+информатиците | GTYPE>position
+информатички | GTYPE>position
+информатичките | GTYPE>position
+картограф | GTYPE>position
+картографа | GTYPE>position
+картографът | GTYPE>position
+картографка | GTYPE>position
+картографката | GTYPE>position
+картографи | GTYPE>position
+картографите | GTYPE>position
+картографки | GTYPE>position
+картографките | GTYPE>position
+козметик | GTYPE>position
+козметика | GTYPE>position
+козметикът | GTYPE>position
+козметичка | GTYPE>position
+козметичката | GTYPE>position
+козметици | GTYPE>position
+козметиците | GTYPE>position
+козметички | GTYPE>position
+козметичките | GTYPE>position
+коментатор | GTYPE>position
+коментатора | GTYPE>position
+коментаторът | GTYPE>position
+коментаторка | GTYPE>position
+коментаторката | GTYPE>position
+коментатори | GTYPE>position
+коментаторите | GTYPE>position
+коментаторки | GTYPE>position
+коментаторките | GTYPE>position
+репортер | GTYPE>position
+репортера | GTYPE>position
+репортерът | GTYPE>position
+репортерка | GTYPE>position
+репортерката | GTYPE>position
+репортери | GTYPE>position
+репортерите | GTYPE>position
+репортерки | GTYPE>position
+репортерките | GTYPE>position
+композитор | GTYPE>position
+композитора | GTYPE>position
+композиторът | GTYPE>position
+композиторка | GTYPE>position
+композиторката | GTYPE>position
+композитори | GTYPE>position
+композиторите | GTYPE>position
+композиторки | GTYPE>position
+композиторките | GTYPE>position
+касиер | GTYPE>position
+касиера | GTYPE>position
+касиерът | GTYPE>position
+касиерка | GTYPE>position
+касиерката | GTYPE>position
+касиери | GTYPE>position
+касиерите | GTYPE>position
+касиерки | GTYPE>position
+касиерките | GTYPE>position
+прессекретар | GTYPE>position
+прессекретара | GTYPE>position
+прессекретарът | GTYPE>position
+прессекретарка | GTYPE>position
+прессекретарката | GTYPE>position
+прессекретари | GTYPE>position
+прессекретарите | GTYPE>position
+прессекретарки | GTYPE>position
+прессекретарките | GTYPE>position
+прессаташе | GTYPE>position
+прессаташето | GTYPE>position
+прессаташетата | GTYPE>position
+конферансие | GTYPE>position
+конферансието | GTYPE>position
+конферансиетата | GTYPE>position
+криминолог | GTYPE>position
+криминолога | GTYPE>position
+криминологът | GTYPE>position
+криминоложка | GTYPE>position
+криминоложката | GTYPE>position
+криминолози | GTYPE>position
+криминолозите | GTYPE>position
+криминоложки | GTYPE>position
+криминоложките | GTYPE>position
+крупие | GTYPE>position
+крупието | GTYPE>position
+крупиетата | GTYPE>position
+лекар | GTYPE>position
+лекаря | GTYPE>position
+лекарят | GTYPE>position
+лекарка | GTYPE>position
+лекарката | GTYPE>position
+лекари | GTYPE>position
+лекарите | GTYPE>position
+лесничей | GTYPE>position
+лесничея | GTYPE>position
+лесничеят | GTYPE>position
+лесничеи | GTYPE>position
+лесничеите | GTYPE>position
+лингвист | GTYPE>position
+лингвиста | GTYPE>position
+лингвистът | GTYPE>position
+лингвистка | GTYPE>position
+лингвистката | GTYPE>position
+лингвисти | GTYPE>position
+лингвистите | GTYPE>position
+лингвистки | GTYPE>position
+лингвистките | GTYPE>position
+логопед | GTYPE>position 
+логопеда | GTYPE>position 
+логопедът | GTYPE>position 
+логопеди | GTYPE>position 
+логопедите | GTYPE>position 
+лоцман | GTYPE>position
+лоцмана | GTYPE>position
+лоцманът | GTYPE>position
+лоцмани | GTYPE>position
+лоцманите | GTYPE>position
+лидер | GTYPE>position 
+лидера | GTYPE>position 
+лидерът | GTYPE>position 
+лидерка | GTYPE>position 
+лидерката | GTYPE>position 
+лидери | GTYPE>position 
+лидерите | GTYPE>position 
+лидерки | GTYPE>position 
+лидерките | GTYPE>position 
+машинист | GTYPE>position
+машиниста | GTYPE>position
+машинистът | GTYPE>position
+машинисти | GTYPE>position
+машинистите | GTYPE>position
+литограф | GTYPE>position
+литографа | GTYPE>position
+литографът | GTYPE>position
+литографка | GTYPE>position
+литографката | GTYPE>position
+литографи | GTYPE>position
+литографите | GTYPE>position
+литографки | GTYPE>position
+литографките | GTYPE>position
+математик | GTYPE>position
+математика | GTYPE>position
+математикът | GTYPE>position
+математичка | GTYPE>position
+математичката | GTYPE>position
+математици | GTYPE>position
+математиците | GTYPE>position
+математички | GTYPE>position
+математичките | GTYPE>position
+масажист | GTYPE>position
+масажиста | GTYPE>position
+масажистът | GTYPE>position
+масажистка | GTYPE>position
+масажистката | GTYPE>position
+масажисти | GTYPE>position
+масажистите | GTYPE>position
+масажистки | GTYPE>position
+масажистките | GTYPE>position
+мениджър | GTYPE>position 
+мениджъра | GTYPE>position 
+мениджърът | GTYPE>position 
+мениджъри | GTYPE>position 
+мениджърите | GTYPE>position 
+механи | GTYPE>position
+механик | GTYPE>position
+механикът | GTYPE>position
+механика | GTYPE>position
+механици | GTYPE>position
+механиците | GTYPE>position
+микробиолог | GTYPE>position
+микробиолога | GTYPE>position
+микробиологът | GTYPE>position
+микробиоложка | GTYPE>position
+микробиоложката | GTYPE>position
+микробиолози | GTYPE>position
+микробиолозите | GTYPE>position
+микробиоложки | GTYPE>position
+микробиоложките | GTYPE>position
+монтьор | GTYPE>position
+монтьора | GTYPE>position
+монтьорът | GTYPE>position
+монтьори | GTYPE>position
+монтьорите | GTYPE>position
+музикант | GTYPE>position
+музиканта | GTYPE>position
+музикантът | GTYPE>position
+музикантка | GTYPE>position
+музикантката | GTYPE>position
+музиканти | GTYPE>position
+музикантите | GTYPE>position
+музикантки | GTYPE>position
+музикантките | GTYPE>position
+музиколог | GTYPE>position
+музиколога | GTYPE>position
+музикологът | GTYPE>position
+музиколожка | GTYPE>position
+музиколожката | GTYPE>position
+музиколози | GTYPE>position
+музиколозите | GTYPE>position
+музиколожки | GTYPE>position
+музиколожките | GTYPE>position
+началник | GTYPE>position
+началника | GTYPE>position
+началникът | GTYPE>position
+началничка | GTYPE>position
+началничката | GTYPE>position
+началници | GTYPE>position
+началниците | GTYPE>position
+началнички | GTYPE>position
+началничките | GTYPE>position
+нотариус | GTYPE>position
+нотариуса | GTYPE>position
+нотариусът | GTYPE>position
+нотариуси | GTYPE>position
+нотариусите | GTYPE>position
+обущар | GTYPE>position
+обущаря | GTYPE>position
+обущарят | GTYPE>position
+обущари | GTYPE>position
+обущарите | GTYPE>position
+оператор | GTYPE>position
+оператора | GTYPE>position
+операторът | GTYPE>position
+оператори | GTYPE>position
+операторите | GTYPE>position
+оценител | GTYPE>position
+оценителя | GTYPE>position
+оценителят | GTYPE>position
+оценители | GTYPE>position
+оценителите | GTYPE>position
+оптик | GTYPE>position
+оптика | GTYPE>position
+оптикът | GTYPE>position
+оптичка | GTYPE>position
+оптичката | GTYPE>position
+оптици | GTYPE>position
+оптиците | GTYPE>position
+оптички | GTYPE>position
+оптичките | GTYPE>position
+пазач | GTYPE>position
+пазача | GTYPE>position
+пазачът | GTYPE>position
+пазачи | GTYPE>position
+пазачите | GTYPE>position
+папа | GTYPE>position
+папата | GTYPE>position
+папи | GTYPE>position
+папите | GTYPE>position
+певеца | GTYPE>position
+певецът | GTYPE>position
+певци | GTYPE>position
+певците | GTYPE>position
+певица | GTYPE>position
+певицата | GTYPE>position
+певиците | GTYPE>position
+певици | GTYPE>position
+педиатър | GTYPE>position 
+педиатъра | GTYPE>position 
+педиатърът | GTYPE>position 
+педиатърка | GTYPE>position 
+педиатърката | GTYPE>position 
+педиатъри | GTYPE>position 
+педиатърите | GTYPE>position 
+педиатърки | GTYPE>position 
+педиатърките | GTYPE>position 
+печатар | GTYPE>position
+печатаря | GTYPE>position
+печатарят | GTYPE>position
+печатари | GTYPE>position
+печатарите | GTYPE>position
+пиколо | GTYPE>position
+пиколото | GTYPE>position
+пиколотата | GTYPE>position
+ректор | GTYPE>position
+ректора | GTYPE>position
+ректорът | GTYPE>position
+ректори | GTYPE>position
+ректорите | GTYPE>position
+професор | GTYPE>position
+професора | GTYPE>position
+професорът | GTYPE>position
+професори | GTYPE>position
+професорите | GTYPE>position
+пилот | GTYPE>position
+пилота | GTYPE>position
+пилотът | GTYPE>position
+пилоти | GTYPE>position
+пилотите | GTYPE>position
+водач | GTYPE>position 
+водача | GTYPE>position 
+водачът | GTYPE>position 
+водачи | GTYPE>position 
+водачите | GTYPE>position 
+пожарникар | GTYPE>position
+пожарникаря | GTYPE>position
+пожарникарят | GTYPE>position
+пожарникари | GTYPE>position
+пожарникарите | GTYPE>position
+политолог | GTYPE>position
+политолога | GTYPE>position
+политологът | GTYPE>position
+политоложка | GTYPE>position
+политоложката | GTYPE>position
+политолози | GTYPE>position
+политолозите | GTYPE>position
+политоложки | GTYPE>position
+политоложките | GTYPE>position
+полицай | GTYPE>position
+полицая | GTYPE>position
+полицаят | GTYPE>position
+полицаи | GTYPE>position
+полицаите | GTYPE>position
+помощник | GTYPE>position
+помощника | GTYPE>position
+помощникът | GTYPE>position
+помощничка | GTYPE>position
+помощничката | GTYPE>position
+помощници | GTYPE>position
+помощниците | GTYPE>position
+помощнички | GTYPE>position
+помощничките | GTYPE>position
+посредник | GTYPE>position 
+посредника | GTYPE>position 
+посредникът | GTYPE>position 
+посредничка | GTYPE>position 
+посредничката | GTYPE>position 
+посредници | GTYPE>position 
+посредниците | GTYPE>position 
+посреднички | GTYPE>position 
+посредничките | GTYPE>position 
+пощальон | GTYPE>position
+пощальона | GTYPE>position
+пощальонът | GTYPE>position
+пощальонка | GTYPE>position
+пощальонката | GTYPE>position
+пощальони | GTYPE>position
+пощальоните | GTYPE>position
+пощальонки | GTYPE>position
+пощальонките | GTYPE>position
+продуцент | GTYPE>position 
+продуцента | GTYPE>position 
+продуцентът | GTYPE>position 
+продуцентка | GTYPE>position 
+продуцентката | GTYPE>position 
+продуценти | GTYPE>position 
+продуцентите | GTYPE>position 
+продуцентки | GTYPE>position 
+продуцентките | GTYPE>position 
+пресьор | GTYPE>position
+пресьора | GTYPE>position
+пресьорът | GTYPE>position
+пресьорка | GTYPE>position
+пресьорката | GTYPE>position
+пресьори | GTYPE>position
+пресьорите | GTYPE>position
+пресьорки | GTYPE>position
+пресьорките | GTYPE>position
+програмист | GTYPE>position
+програмиста | GTYPE>position
+програмистът | GTYPE>position
+програмистка | GTYPE>position
+програмистката | GTYPE>position
+програмисти | GTYPE>position
+програмистите | GTYPE>position
+програмистки | GTYPE>position
+програмистките | GTYPE>position
+преводач | GTYPE>position 
+преводача | GTYPE>position 
+преводачът | GTYPE>position 
+преводачка | GTYPE>position 
+преводачката | GTYPE>position 
+преводачи | GTYPE>position 
+преводачите | GTYPE>position 
+преводачки | GTYPE>position 
+преводачките | GTYPE>position 
+продавач | GTYPE>position 
+продавача | GTYPE>position 
+продавачът | GTYPE>position 
+продавачка | GTYPE>position 
+продавачката | GTYPE>position 
+продавачи | GTYPE>position 
+продавачите | GTYPE>position 
+продавачки | GTYPE>position 
+продавачките | GTYPE>position 
+производител | GTYPE>position 
+производителя | GTYPE>position 
+производителят | GTYPE>position 
+производителка | GTYPE>position 
+производителката | GTYPE>position 
+производители | GTYPE>position 
+производителите | GTYPE>position 
+производителки | GTYPE>position 
+производителките | GTYPE>position 
+прокурор | GTYPE>position
+прокурора | GTYPE>position
+прокурорът | GTYPE>position
+прокурорка | GTYPE>position
+прокурорката | GTYPE>position
+прокурори | GTYPE>position
+прокурорите | GTYPE>position
+прокурорки | GTYPE>position
+прокурорките | GTYPE>position
+психиатър | GTYPE>position
+психиатъра | GTYPE>position
+психиатърът | GTYPE>position
+психиатърка | GTYPE>position
+психиатърката | GTYPE>position
+психиатъри | GTYPE>position
+психиатърите | GTYPE>position
+психиатърки | GTYPE>position
+психиатърките | GTYPE>position
+психолог | GTYPE>position
+психолога | GTYPE>position
+психологът | GTYPE>position
+психоложка | GTYPE>position
+психоложката | GTYPE>position
+психолози | GTYPE>position
+психолозите | GTYPE>position
+психоложки | GTYPE>position
+психоложките | GTYPE>position
+психотерапевт | GTYPE>position
+психотерапевта | GTYPE>position
+психотерапевтът | GTYPE>position
+психотерапевтка | GTYPE>position
+психотерапевтката | GTYPE>position
+психотерапевти | GTYPE>position
+психотерапевтите | GTYPE>position
+психотерапевтки | GTYPE>position
+психотерапевтките | GTYPE>position
+птицевъд | GTYPE>position 
+птицевъда | GTYPE>position 
+птицевъдът | GTYPE>position 
+птицевъдка | GTYPE>position 
+птицевъдката | GTYPE>position 
+птицевъди | GTYPE>position 
+птицевъдите | GTYPE>position 
+птицевъдки | GTYPE>position 
+птицевъдките | GTYPE>position 
+пчелар | GTYPE>position
+пчелара | GTYPE>position
+пчеларът | GTYPE>position
+пчеларка | GTYPE>position
+пчеларката | GTYPE>position
+пчелари | GTYPE>position
+пчеларите | GTYPE>position
+пчеларки | GTYPE>position
+пчеларките | GTYPE>position
+администратор | GTYPE>position 
+администратора | GTYPE>position 
+администраторът | GTYPE>position 
+администраторка | GTYPE>position 
+администраторката | GTYPE>position 
+администратори | GTYPE>position 
+администраторите | GTYPE>position 
+администраторки | GTYPE>position 
+администраторките | GTYPE>position 
+техник | GTYPE>position
+техника | GTYPE>position
+техникът | GTYPE>position
+техничка | GTYPE>position
+техничката | GTYPE>position
+техници | GTYPE>position
+техниците | GTYPE>position
+технички | GTYPE>position
+техничките | GTYPE>position
+редактор | GTYPE>position 
+редактора | GTYPE>position 
+редакторът | GTYPE>position 
+редакторка | GTYPE>position 
+редакторката | GTYPE>position 
+редактори | GTYPE>position 
+редакторите | GTYPE>position 
+редакторки | GTYPE>position 
+редакторките | GTYPE>position 
+режисьор | GTYPE>position
+режисьора | GTYPE>position
+режисьорът | GTYPE>position
+режисьорка | GTYPE>position
+режисьорката | GTYPE>position
+режисьори | GTYPE>position
+режисьорите | GTYPE>position
+режисьорки | GTYPE>position
+режисьорките | GTYPE>position
+реставратор | GTYPE>position
+реставратора | GTYPE>position
+реставраторът | GTYPE>position
+реставраторка | GTYPE>position
+реставраторката | GTYPE>position
+реставратори | GTYPE>position
+реставраторите | GTYPE>position
+реставраторки | GTYPE>position
+реставраторките | GTYPE>position
+рецепционист | GTYPE>position
+рецепциониста | GTYPE>position
+рецепционистът | GTYPE>position
+рецепционистка | GTYPE>position
+рецепционистката | GTYPE>position
+рецепционисти | GTYPE>position
+рецепционистите | GTYPE>position
+рецепционистки | GTYPE>position
+рецепционистките | GTYPE>position
+риболов | GTYPE>position
+риболовеца | GTYPE>position
+риболовецът | GTYPE>position
+риболовци | GTYPE>position
+риболовците | GTYPE>position
+санитар | GTYPE>position
+санитаря | GTYPE>position
+санитарят | GTYPE>position
+санитарка | GTYPE>position
+санитарката | GTYPE>position
+санитари | GTYPE>position
+санитарите | GTYPE>position
+санитарки | GTYPE>position
+санитарките | GTYPE>position
+свещенник | GTYPE>position
+свещенника | GTYPE>position
+свещенникът | GTYPE>position
+свещенници | GTYPE>position
+свещенниците | GTYPE>position
+секретар | GTYPE>position
+секретаря | GTYPE>position
+секретарят | GTYPE>position
+секретарка | GTYPE>position
+секретарката | GTYPE>position
+секретари | GTYPE>position
+секретарите | GTYPE>position
+секретарки | GTYPE>position
+секретарките | GTYPE>position
+сервитьор | GTYPE>position
+сервитьора | GTYPE>position
+сервитьорът | GTYPE>position
+сервитьорка | GTYPE>position
+сервитьорката | GTYPE>position
+сервитьори | GTYPE>position
+сервитьорите | GTYPE>position
+сервитьорки | GTYPE>position
+сервитьорките | GTYPE>position
+скулптор | GTYPE>position
+скулптора | GTYPE>position
+скулпторът | GTYPE>position
+скулпторка | GTYPE>position
+скулпторката | GTYPE>position
+скулптори | GTYPE>position
+скулпторите | GTYPE>position
+скулпторки | GTYPE>position
+скулпторките | GTYPE>position
+сладкар | GTYPE>position 
+сладкаря | GTYPE>position 
+сладкарят | GTYPE>position 
+сладкарка | GTYPE>position 
+сладкарката | GTYPE>position 
+сладкари | GTYPE>position 
+сладкарите | GTYPE>position 
+сладкарки | GTYPE>position 
+сладкарките | GTYPE>position 
+работник | GTYPE>position
+работника | GTYPE>position
+работникът | GTYPE>position
+работничка | GTYPE>position
+работничката | GTYPE>position
+работници | GTYPE>position
+работниците | GTYPE>position
+работнички | GTYPE>position
+работничките | GTYPE>position
+социолог | GTYPE>position
+социолога | GTYPE>position
+социологът | GTYPE>position
+социоложка | GTYPE>position
+социоложката | GTYPE>position
+социолози | GTYPE>position
+социолозите | GTYPE>position
+социоложки | GTYPE>position
+социоложките | GTYPE>position
+спасител | GTYPE>position
+спасителя | GTYPE>position
+спасителят | GTYPE>position
+спасителка | GTYPE>position
+спасителката | GTYPE>position
+спасители | GTYPE>position
+спасителите | GTYPE>position
+спасителки | GTYPE>position
+спасителките | GTYPE>position
+стандартизатор | GTYPE>position 
+стандартизатора | GTYPE>position 
+стандартизаторът | GTYPE>position 
+стандартизаторка | GTYPE>position 
+стандартизаторката | GTYPE>position 
+стандартизатори | GTYPE>position 
+стандартизаторите | GTYPE>position 
+стандартизаторки | GTYPE>position 
+стандартизаторките | GTYPE>position 
+статистик | GTYPE>position
+статистика | GTYPE>position
+статистикът | GTYPE>position
+статистичка | GTYPE>position
+статистичката | GTYPE>position
+статистици | GTYPE>position
+статистиците | GTYPE>position
+статистички | GTYPE>position
+статистичките | GTYPE>position
+стоматолог | GTYPE>position
+стоматолога | GTYPE>position
+стоматологът | GTYPE>position
+стоматоложка | GTYPE>position
+стоматоложката | GTYPE>position
+стоматолози | GTYPE>position
+стоматолозите | GTYPE>position
+стоматоложки | GTYPE>position
+стоматоложките | GTYPE>position
+стругар | GTYPE>position
+стругаря | GTYPE>position
+стругарят | GTYPE>position
+стругарка | GTYPE>position
+стругарката | GTYPE>position
+стругари | GTYPE>position
+стругарите | GTYPE>position
+стругарки | GTYPE>position
+стругарките | GTYPE>position
+стъклар | GTYPE>position
+стъкларя | GTYPE>position
+стъкларят | GTYPE>position
+стъкларка | GTYPE>position
+стъкларката | GTYPE>position
+стъклари | GTYPE>position
+стъкларите | GTYPE>position
+стъкларки | GTYPE>position
+стъкларките | GTYPE>position
+стюард | GTYPE>position 
+стюарда | GTYPE>position 
+стюардът | GTYPE>position 
+стюардеса | GTYPE>position 
+стюардесата | GTYPE>position 
+сценарист | GTYPE>position
+сценариста | GTYPE>position
+сценаристът | GTYPE>position
+сценаристка | GTYPE>position
+сценаристката | GTYPE>position
+сценаристи | GTYPE>position
+сценаристите | GTYPE>position
+сценаристки | GTYPE>position
+сценаристките | GTYPE>position
+счетоводител | GTYPE>position 
+счетоводителя | GTYPE>position 
+счетоводителят | GTYPE>position 
+счетоводителка | GTYPE>position 
+счетоводителката | GTYPE>position 
+счетоводители | GTYPE>position 
+счетоводителите | GTYPE>position 
+счетоводителки | GTYPE>position 
+счетоводителките | GTYPE>position 
+съдия-изпълнител | GTYPE>position 
+съдия-изпълнителя | GTYPE>position 
+съдия-изпълнителят | GTYPE>position 
+съдия-изпълнителка | GTYPE>position 
+съдия-изпълнителката | GTYPE>position 
+съдия-изпълнители | GTYPE>position 
+съдия-изпълнителите | GTYPE>position 
+съдия-изпълнителки | GTYPE>position 
+съдия-изпълнителките | GTYPE>position 
+проф. | GTYPE>position | STRICT > (?i:проф\.)
+танцьор | GTYPE>position
+танцьора | GTYPE>position
+танцьорът | GTYPE>position
+танцьорка | GTYPE>position
+танцьорката | GTYPE>position
+танцьори | GTYPE>position
+танцьорите | GTYPE>position
+танцьорки | GTYPE>position
+танцьорките | GTYPE>position
+тапицер | GTYPE>position
+тапицеря | GTYPE>position
+тапицерят | GTYPE>position
+тапицерка | GTYPE>position
+тапицерката | GTYPE>position
+тапицери | GTYPE>position
+тапицерите | GTYPE>position
+тапицерки | GTYPE>position
+тапицерките | GTYPE>position
+телефонист | GTYPE>position
+телефониста | GTYPE>position
+телефонистът | GTYPE>position
+телефонистка | GTYPE>position
+телефонистката | GTYPE>position
+телефонисти | GTYPE>position
+телефонистите | GTYPE>position
+телефонистки | GTYPE>position
+телефонистките | GTYPE>position
+терорист | GTYPE>position
+терориста | GTYPE>position
+терористът | GTYPE>position
+терористка | GTYPE>position
+терористката | GTYPE>position
+терористи | GTYPE>position
+терористите | GTYPE>position
+терористки | GTYPE>position
+терористките | GTYPE>position
+треньор | GTYPE>position
+треньора | GTYPE>position
+треньорът | GTYPE>position
+треньорка | GTYPE>position
+треньорката | GTYPE>position
+треньори | GTYPE>position
+треньорите | GTYPE>position
+треньорки | GTYPE>position
+треньорките | GTYPE>position
+тъкач | GTYPE>position
+тъкача | GTYPE>position
+тъкачът | GTYPE>position
+тъкачка | GTYPE>position
+тъкачката | GTYPE>position
+тъкачи | GTYPE>position
+тъкачите | GTYPE>position
+тъкачки | GTYPE>position
+тъкачките | GTYPE>position
+пътник | GTYPE>position
+пътника | GTYPE>position
+пътникът | GTYPE>position
+пътничка | GTYPE>position
+пътничката | GTYPE>position
+пътници | GTYPE>position
+пътниците | GTYPE>position
+пътнички | GTYPE>position
+пътничките | GTYPE>position
+учител | GTYPE>position
+учителя | GTYPE>position
+учителят | GTYPE>position
+учителка | GTYPE>position
+учителката | GTYPE>position
+учители | GTYPE>position
+учителите | GTYPE>position
+учителки | GTYPE>position
+учителките | GTYPE>position
+фармацевт | GTYPE>position
+фармацевта | GTYPE>position
+фармацевтът | GTYPE>position
+фармацевтка | GTYPE>position
+фармацевтката | GTYPE>position
+фармацевти | GTYPE>position
+фармацевтите | GTYPE>position
+фармацевтки | GTYPE>position
+фармацевтките | GTYPE>position
+фермер | GTYPE>position
+фермера | GTYPE>position
+фермерът | GTYPE>position
+фермерка | GTYPE>position
+фермерката | GTYPE>position
+фермери | GTYPE>position
+фермерите | GTYPE>position
+фермерки | GTYPE>position
+фермерките | GTYPE>position
+физик | GTYPE>position
+физика | GTYPE>position
+физикът | GTYPE>position
+физичка | GTYPE>position
+физичката | GTYPE>position
+физици | GTYPE>position
+физиците | GTYPE>position
+физички | GTYPE>position
+физичките | GTYPE>position
+физиотерапевт | GTYPE>position
+физиотерапевта | GTYPE>position
+физиотерапевтът | GTYPE>position
+физиотерапевтка | GTYPE>position
+физиотерапевтката | GTYPE>position
+физиотерапевти | GTYPE>position
+физиотерапевтите | GTYPE>position
+физиотерапевтки | GTYPE>position
+физиотерапевтките | GTYPE>position
+критик | GTYPE>position
+критика | GTYPE>position
+критикът | GTYPE>position
+критичка | GTYPE>position
+критичката | GTYPE>position
+критици | GTYPE>position
+критиците | GTYPE>position
+критички | GTYPE>position
+критичките | GTYPE>position
+кинокритик | GTYPE>position
+кинокритика | GTYPE>position
+кинокритикът | GTYPE>position
+кинокритичка | GTYPE>position
+кинокритичката | GTYPE>position
+кинокритици | GTYPE>position
+кинокритиците | GTYPE>position
+кинокритички | GTYPE>position
+кинокритичките | GTYPE>position
+философ | GTYPE>position
+философа | GTYPE>position
+философът | GTYPE>position
+философка | GTYPE>position
+философката | GTYPE>position
+философи | GTYPE>position
+философите | GTYPE>position
+философки | GTYPE>position
+философките | GTYPE>position
+фотограф | GTYPE>position
+фотографа | GTYPE>position
+фотографът | GTYPE>position
+фотографка | GTYPE>position
+фотографката | GTYPE>position
+фотографи | GTYPE>position
+фотографите | GTYPE>position
+фотографки | GTYPE>position
+фотографките | GTYPE>position
+фотомодел | GTYPE>position 
+фотомодела | GTYPE>position 
+фотомоделът | GTYPE>position 
+фотомоделка | GTYPE>position 
+фотомоделката | GTYPE>position 
+фотомодели | GTYPE>position 
+фотомоделите | GTYPE>position 
+фотомоделки | GTYPE>position 
+фотомоделките | GTYPE>position 
+манекен | GTYPE>position
+манекена | GTYPE>position
+манекенът | GTYPE>position
+манекенка | GTYPE>position
+манекенката | GTYPE>position
+манекени | GTYPE>position
+манекените | GTYPE>position
+манекенки | GTYPE>position
+манекенките | GTYPE>position
+фоторепортер | GTYPE>position
+фоторепортера | GTYPE>position
+фоторепортерът | GTYPE>position
+фоторепортерка | GTYPE>position
+фоторепортерката | GTYPE>position
+фоторепортери | GTYPE>position
+фоторепортерите | GTYPE>position
+фоторепортерки | GTYPE>position
+фоторепортерките | GTYPE>position
+фрезист | GTYPE>position
+фрезиста | GTYPE>position
+фрезистът | GTYPE>position
+фрезистка | GTYPE>position
+фрезистката | GTYPE>position
+фрезисти | GTYPE>position
+фрезистите | GTYPE>position
+фрезистки | GTYPE>position
+фрезистките | GTYPE>position
+фризьор | GTYPE>position
+фризьора | GTYPE>position
+фризьорът | GTYPE>position
+фризьорка | GTYPE>position
+фризьорката | GTYPE>position
+фризьори | GTYPE>position
+фризьорите | GTYPE>position
+фризьорки | GTYPE>position
+фризьорките | GTYPE>position
+хидролог | GTYPE>position 
+хидролога | GTYPE>position 
+хидрологът | GTYPE>position 
+хидроложка | GTYPE>position 
+хидроложката | GTYPE>position 
+хидролози | GTYPE>position 
+хидролозите | GTYPE>position 
+хидроложки | GTYPE>position 
+хидроложките | GTYPE>position 
+технолог | GTYPE>position
+технолога | GTYPE>position
+технологът | GTYPE>position
+техноложка | GTYPE>position
+техноложката | GTYPE>position
+технолози | GTYPE>position
+технолозите | GTYPE>position
+техноложки | GTYPE>position
+техноложките | GTYPE>position
+хлебар | GTYPE>position
+хлебаря | GTYPE>position
+хлебарят | GTYPE>position
+хлебарка | GTYPE>position
+хлебарката | GTYPE>position
+хлебари | GTYPE>position
+хлебарите | GTYPE>position
+хлебарки | GTYPE>position
+хлебарките | GTYPE>position
+хореограф | GTYPE>position
+хореографа | GTYPE>position
+хореографът | GTYPE>position
+хореографка | GTYPE>position
+хореографката | GTYPE>position
+хореографи | GTYPE>position
+хореографите | GTYPE>position
+хореографки | GTYPE>position
+хореографките | GTYPE>position
+художник | GTYPE>position 
+художника | GTYPE>position 
+художникът | GTYPE>position 
+художничка | GTYPE>position 
+художничката | GTYPE>position 
+художници | GTYPE>position 
+художниците | GTYPE>position 
+художнички | GTYPE>position 
+художничките | GTYPE>position 
+капелмайстор | GTYPE>position
+капелмайстора | GTYPE>position
+капелмайсторът | GTYPE>position
+капелмайсторка | GTYPE>position
+капелмайсторката | GTYPE>position
+капелмайстори | GTYPE>position
+капелмайсторите | GTYPE>position
+капелмайсторки | GTYPE>position
+капелмайсторките | GTYPE>position
+хормайстор | GTYPE>position
+хормайстора | GTYPE>position
+хормайсторът | GTYPE>position
+хормайсторка | GTYPE>position
+хормайсторката | GTYPE>position
+хормайстори | GTYPE>position
+хормайсторите | GTYPE>position
+хормайсторки | GTYPE>position
+хормайсторките | GTYPE>position
+инвеститор | GTYPE>position
+инвеститора | GTYPE>position
+инвеститорът | GTYPE>position
+инвеститорка | GTYPE>position
+инвеститорката | GTYPE>position
+инвеститори | GTYPE>position
+инвеститорите | GTYPE>position
+инвеститорки | GTYPE>position
+инвеститорките | GTYPE>position
+артист | GTYPE>position
+артиста | GTYPE>position
+артистът | GTYPE>position
+артистка | GTYPE>position
+артистката | GTYPE>position
+артисти | GTYPE>position
+артистите | GTYPE>position
+артистки | GTYPE>position
+артистките | GTYPE>position
+часовникар | GTYPE>position
+часовникаря | GTYPE>position
+часовникарят | GTYPE>position
+часовникарка | GTYPE>position
+часовникарката | GTYPE>position
+часовникари | GTYPE>position
+часовникарите | GTYPE>position
+часовникарки | GTYPE>position
+часовникарките | GTYPE>position
+чертожник | GTYPE>position
+чертожника | GTYPE>position
+чертожникът | GTYPE>position
+чертожничка | GTYPE>position
+чертожничката | GTYPE>position
+чертожници | GTYPE>position
+чертожниците | GTYPE>position
+чертожнички | GTYPE>position
+чертожничките | GTYPE>position
+проектант | GTYPE>position
+проектанта | GTYPE>position
+проектантът | GTYPE>position
+проектантка | GTYPE>position
+проектантката | GTYPE>position
+проектанти | GTYPE>position
+проектантите | GTYPE>position
+проектантки | GTYPE>position
+проектантките | GTYPE>position
+чиновник | GTYPE>position
+чиновника | GTYPE>position
+чиновникът | GTYPE>position
+чиновничка | GTYPE>position
+чиновничката | GTYPE>position
+чиновници | GTYPE>position
+чиновниците | GTYPE>position
+чиновнички | GTYPE>position
+чиновничките | GTYPE>position
+чистач | GTYPE>position
+чистача | GTYPE>position
+чистачът | GTYPE>position
+чистачка | GTYPE>position
+чистачката | GTYPE>position
+чистачи | GTYPE>position
+чистачите | GTYPE>position
+чистачки | GTYPE>position
+чистачките | GTYPE>position
+шампион | GTYPE>position
+шампиона | GTYPE>position
+шампионът | GTYPE>position
+шампионка | GTYPE>position
+шампионката | GTYPE>position
+шампиони | GTYPE>position
+шампионите | GTYPE>position
+шампионки | GTYPE>position
+шампионките | GTYPE>position
+шапкар | GTYPE>position
+шапкаря | GTYPE>position
+шапкарят | GTYPE>position
+шапкарка | GTYPE>position
+шапкарката | GTYPE>position
+шапкари | GTYPE>position
+шапкарите | GTYPE>position
+шапкарки | GTYPE>position
+шапкарките | GTYPE>position
+шивач | GTYPE>position
+шивача | GTYPE>position
+шивачът | GTYPE>position
+шивачка | GTYPE>position
+шивачката | GTYPE>position
+шивачи | GTYPE>position
+шивачите | GTYPE>position
+шивачки | GTYPE>position
+шивачките | GTYPE>position
+шлайфист | GTYPE>position
+шлайфиста | GTYPE>position
+шлайфистът | GTYPE>position
+шлайфистка | GTYPE>position
+шлайфистката | GTYPE>position
+шлайфисти | GTYPE>position
+шлайфистите | GTYPE>position
+шлайфистки | GTYPE>position
+шлайфистките | GTYPE>position
+шлосер | GTYPE>position
+шлосера | GTYPE>position
+шлосерът | GTYPE>position
+шлосерка | GTYPE>position
+шлосерката | GTYPE>position
+шлосери | GTYPE>position
+шлосерите | GTYPE>position
+шлосерки | GTYPE>position
+шлосерките | GTYPE>position
+доцент | GTYPE>position 
+доцента | GTYPE>position 
+доцентът | GTYPE>position 
+доцентка | GTYPE>position 
+доцентката | GTYPE>position 
+доценти | GTYPE>position 
+доцентите | GTYPE>position 
+доцентки | GTYPE>position 
+доцентките | GTYPE>position 
+доц. | GTYPE>position 
+дфн | GTYPE>position 
+д-р | GTYPE>position 
+дхн | GTYPE>position 
+дбн | GTYPE>position 
+президент | GTYPE>position 
+президента | GTYPE>position 
+президентът | GTYPE>position 
+министър-председател | GTYPE>position 
+министър-председателя | GTYPE>position 
+министър-председателят | GTYPE>position 
+министър-председателка | GTYPE>position 
+министър-председателката | GTYPE>position 
+министър-председатели | GTYPE>position 
+министър-председателите | GTYPE>position 
+министър-председателки | GTYPE>position 
+министър-председателките | GTYPE>position 
+управител | GTYPE>position
+управителя | GTYPE>position
+управителят | GTYPE>position
+управителка | GTYPE>position
+управителката | GTYPE>position
+управители | GTYPE>position
+управителите | GTYPE>position
+управителки | GTYPE>position
+управителките | GTYPE>position
+председател | GTYPE>position 
+председателя | GTYPE>position 
+председателят | GTYPE>position 
+председателка | GTYPE>position 
+председателката | GTYPE>position 
+председатели | GTYPE>position 
+председателите | GTYPE>position 
+председателки | GTYPE>position 
+председателките | GTYPE>position 
+сестра | GTYPE>position
+сестри | GTYPE>position
+посланик | GTYPE>position
+посланика | GTYPE>position
+посланикът | GTYPE>position
+посланици | GTYPE>position
+посланиците | GTYPE>position
+екс-посланик | GTYPE>position
+екс-посланика | GTYPE>position
+екс-посланикът | GTYPE>position
+екс-посланици | GTYPE>position
+екс-посланиците | GTYPE>position
+
+графич дизайнер| GTYPE>position 
+графичен дизайнер| GTYPE>position 
+графичния дизайнер| GTYPE>position 
+графична дизайнер| GTYPE>position 
+графичната дизайнер| GTYPE>position 
+
+директор | GTYPE>position 
+директорът | GTYPE>position 
+директора | GTYPE>position 
+директорката | GTYPE>position 
+директорка | GTYPE>position 
+директори | GTYPE>position 
+директорите | GTYPE>position 
+директорки | GTYPE>position 
+директорките | GTYPE>position 
+декан | GTYPE>position 
+декана | GTYPE>position 
+деканът | GTYPE>position 
+декани | GTYPE>position 
+деканите | GTYPE>position 
+
+# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_titles-bg.txt
+# content : pattern matcher lexicon for bulgarian titles 
+# author  : M. Ehrmann
+# date	  : February 2012
+# built from bruno's resources.
+# to be checked.
+# ----------------------------------------
+
+#civilities
+господа | GTYPE>title 
+господата | GTYPE>title 
+г-ца | GTYPE>title
+г-н | GTYPE>title
+г-жа | GTYPE>title
+хан | GTYPE>title
+княз | GTYPE>title
+цар | GTYPE>title
+царица | GTYPE>title
+кралица | GTYPE>title
+кралицата | GTYPE>title
+принц | GTYPE>title
+принцът | GTYPE>title
+принца | GTYPE>title
+крал | GTYPE>title
+краля | GTYPE>title
+кралят | GTYPE>title
+граф | GTYPE>title
+графът | GTYPE>title
+графа | GTYPE>title
+хан | GTYPE>title
+княз | GTYPE>title
+князът | GTYPE>title
+княза | GTYPE>title
+цар | GTYPE>title
+царя | GTYPE>title
+царят | GTYPE>title
+царицата | GTYPE>title
+царица | GTYPE>title
+Негово Величествo | GTYPE>title
+Негово Величествa | GTYPE>title
+Нейно Величествo | GTYPE>title
+Нейно Величествa | GTYPE>title
+Ваше Величествo | GTYPE>title
+Ваше Величествa | GTYPE>title
+Техни Величествo | GTYPE>title
+Техни Величествa | GTYPE>title
+
+
+#family
+съпруга  | GTYPE>position
+съпруга на | GTYPE>position
+съпруга му | GTYPE>position
+съпруга и | GTYPE>position
+съпруга им | GTYPE>position
+съпругът  | GTYPE>position
+съпругът на | GTYPE>position
+съпругът му | GTYPE>position
+съпругът и | GTYPE>position
+съпругът им | GTYPE>position
+съпругата  | GTYPE>position
+съпругата на | GTYPE>position
+съпругата му | GTYPE>position
+съпругата и | GTYPE>position
+съпругата им | GTYPE>position
+съпрузи  | GTYPE>position
+съпрузи на | GTYPE>position
+съпрузи му | GTYPE>position
+съпрузи и | GTYPE>position
+съпрузи им | GTYPE>position
+съпрузите  | GTYPE>position
+съпрузите на | GTYPE>position
+съпрузите му | GTYPE>position
+съпрузите и | GTYPE>position
+съпрузите им | GTYPE>position
+жена  | GTYPE>position
+жена на | GTYPE>position
+жена му | GTYPE>position
+жена и | GTYPE>position
+жена им | GTYPE>position
+жената  | GTYPE>position
+жената на | GTYPE>position
+жената му | GTYPE>position
+жената и | GTYPE>position
+жената им | GTYPE>position
+жени  | GTYPE>position
+жени на | GTYPE>position
+жени му | GTYPE>position
+жени и | GTYPE>position
+жени им | GTYPE>position
+жените  | GTYPE>position
+жените на | GTYPE>position
+жените му | GTYPE>position
+жените и | GTYPE>position
+жените им | GTYPE>position
+мъжа  | GTYPE>position
+мъжа на | GTYPE>position
+мъжа му | GTYPE>position
+мъжа и | GTYPE>position
+мъжа им | GTYPE>position
+мъжът  | GTYPE>position
+мъжът на | GTYPE>position
+мъжът му | GTYPE>position
+мъжът и | GTYPE>position
+мъжът им | GTYPE>position
+мъже  | GTYPE>position
+мъже на | GTYPE>position
+мъже му | GTYPE>position
+мъже и | GTYPE>position
+мъже им | GTYPE>position
+мъжете  | GTYPE>position
+мъжете на | GTYPE>position
+мъжете му | GTYPE>position
+мъжете и | GTYPE>position
+мъжете им | GTYPE>position
+майка  | GTYPE>position
+майка на | GTYPE>position
+майка му | GTYPE>position
+майка и | GTYPE>position
+майка им | GTYPE>position
+майката  | GTYPE>position
+майката на | GTYPE>position
+майката му | GTYPE>position
+майката и | GTYPE>position
+майката им | GTYPE>position
+майки  | GTYPE>position
+майки на | GTYPE>position
+майки му | GTYPE>position
+майки и | GTYPE>position
+майки им | GTYPE>position
+майките  | GTYPE>position
+майките на | GTYPE>position
+майките му | GTYPE>position
+майките и | GTYPE>position
+майките им | GTYPE>position
+баща  | GTYPE>position
+баща на | GTYPE>position
+баща му | GTYPE>position
+баща и | GTYPE>position
+баща им | GTYPE>position
+бащта  | GTYPE>position
+бащта на | GTYPE>position
+бащта му | GTYPE>position
+бащта и | GTYPE>position
+бащта им | GTYPE>position
+бащи  | GTYPE>position
+бащи на | GTYPE>position
+бащи му | GTYPE>position
+бащи и | GTYPE>position
+бащи им | GTYPE>position
+бащите  | GTYPE>position
+бащите на | GTYPE>position
+бащите му | GTYPE>position
+бащите и | GTYPE>position
+бащите им | GTYPE>position
+близнаци  | GTYPE>position
+близнаци на | GTYPE>position
+близнаци му | GTYPE>position
+близнаци и | GTYPE>position
+близнаци им | GTYPE>position
+близнаците  | GTYPE>position
+близнаците на | GTYPE>position
+близнаците му | GTYPE>position
+близнаците и | GTYPE>position
+близнаците им | GTYPE>position
+близнак  | GTYPE>position
+близнак на | GTYPE>position
+близнак му | GTYPE>position
+близнак и | GTYPE>position
+близнак им | GTYPE>position
+близначка  | GTYPE>position
+близначка на | GTYPE>position
+близначка му | GTYPE>position
+близначка и | GTYPE>position
+близначка им | GTYPE>position
+близнака  | GTYPE>position
+близнака на | GTYPE>position
+близнака му | GTYPE>position
+близнака и | GTYPE>position
+близнака им | GTYPE>position
+близнакът  | GTYPE>position
+близнакът на | GTYPE>position
+близнакът му | GTYPE>position
+близнакът и | GTYPE>position
+близнакът им | GTYPE>position
+близначката  | GTYPE>position
+близначката на | GTYPE>position
+близначката му | GTYPE>position
+близначката и | GTYPE>position
+близначката им | GTYPE>position
+баба  | GTYPE>position
+баба на | GTYPE>position
+баба му | GTYPE>position
+баба и | GTYPE>position
+баба им | GTYPE>position
+бабата  | GTYPE>position
+бабата на | GTYPE>position
+бабата му | GTYPE>position
+бабата и | GTYPE>position
+бабата им | GTYPE>position
+баби  | GTYPE>position
+баби на | GTYPE>position
+баби му | GTYPE>position
+баби и | GTYPE>position
+баби им | GTYPE>position
+бабите  | GTYPE>position
+бабите на | GTYPE>position
+бабите му | GTYPE>position
+бабите и | GTYPE>position
+бабите им | GTYPE>position
+дядо  | GTYPE>position 
+дядо на | GTYPE>position 
+дядо му | GTYPE>position 
+дядо и | GTYPE>position 
+дядо им | GTYPE>position 
+дядото  | GTYPE>position 
+дядото на | GTYPE>position 
+дядото му | GTYPE>position 
+дядото и | GTYPE>position 
+дядото им | GTYPE>position 
+дядовци  | GTYPE>position 
+дядовци на | GTYPE>position 
+дядовци му | GTYPE>position 
+дядовци и | GTYPE>position 
+дядовци им | GTYPE>position 
+дядовците  | GTYPE>position 
+дядовците на | GTYPE>position 
+дядовците му | GTYPE>position 
+дядовците и | GTYPE>position 
+дядовците им | GTYPE>position 
+дете  | GTYPE>position 
+дете на | GTYPE>position 
+дете му | GTYPE>position 
+дете и | GTYPE>position 
+дете им | GTYPE>position 
+детето  | GTYPE>position 
+детето на | GTYPE>position 
+детето му | GTYPE>position 
+детето и | GTYPE>position 
+детето им | GTYPE>position 
+деца  | GTYPE>position 
+деца на | GTYPE>position 
+деца му | GTYPE>position 
+деца и | GTYPE>position 
+деца им | GTYPE>position 
+децата  | GTYPE>position 
+децата на | GTYPE>position 
+децата му | GTYPE>position 
+децата и | GTYPE>position 
+децата им | GTYPE>position 
+племенник  | GTYPE>position
+племенник на | GTYPE>position
+племенник му | GTYPE>position
+племенник и | GTYPE>position
+племенник им | GTYPE>position
+племенника  | GTYPE>position
+племенника на | GTYPE>position
+племенника му | GTYPE>position
+племенника и | GTYPE>position
+племенника им | GTYPE>position
+племенникът  | GTYPE>position
+племенникът на | GTYPE>position
+племенникът му | GTYPE>position
+племенникът и | GTYPE>position
+племенникът им | GTYPE>position
+племенничка  | GTYPE>position
+племенничка на | GTYPE>position
+племенничка му | GTYPE>position
+племенничка и | GTYPE>position
+племенничка им | GTYPE>position
+племенничката  | GTYPE>position
+племенничката на | GTYPE>position
+племенничката му | GTYPE>position
+племенничката и | GTYPE>position
+племенничката им | GTYPE>position
+племенници  | GTYPE>position
+племенници на | GTYPE>position
+племенници му | GTYPE>position
+племенници и | GTYPE>position
+племенници им | GTYPE>position
+племенниците  | GTYPE>position
+племенниците на | GTYPE>position
+племенниците му | GTYPE>position
+племенниците и | GTYPE>position
+племенниците им | GTYPE>position
+племеннички  | GTYPE>position
+племеннички на | GTYPE>position
+племеннички му | GTYPE>position
+племеннички и | GTYPE>position
+племеннички им | GTYPE>position
+племенничките  | GTYPE>position
+племенничките на | GTYPE>position
+племенничките му | GTYPE>position
+племенничките и | GTYPE>position
+племенничките им | GTYPE>position
+вуйчо  | GTYPE>position
+вуйчо на | GTYPE>position
+вуйчо му | GTYPE>position
+вуйчо и | GTYPE>position
+вуйчо им | GTYPE>position
+вуйчото  | GTYPE>position
+вуйчото на | GTYPE>position
+вуйчото му | GTYPE>position
+вуйчото и | GTYPE>position
+вуйчото им | GTYPE>position
+вуйчовци  | GTYPE>position
+вуйчовци на | GTYPE>position
+вуйчовци му | GTYPE>position
+вуйчовци и | GTYPE>position
+вуйчовци им | GTYPE>position
+вуйчовците  | GTYPE>position
+вуйчовците на | GTYPE>position
+вуйчовците му | GTYPE>position
+вуйчовците и | GTYPE>position
+вуйчовците им | GTYPE>position
+стринка  | GTYPE>position
+стринка на | GTYPE>position
+стринка му | GTYPE>position
+стринка и | GTYPE>position
+стринка им | GTYPE>position
+стринката  | GTYPE>position
+стринката на | GTYPE>position
+стринката му | GTYPE>position
+стринката и | GTYPE>position
+стринката им | GTYPE>position
+стринки  | GTYPE>position
+стринки на | GTYPE>position
+стринки му | GTYPE>position
+стринки и | GTYPE>position
+стринки им | GTYPE>position
+стринките  | GTYPE>position
+стринките на | GTYPE>position
+стринките му | GTYPE>position
+стринките и | GTYPE>position
+стринките им | GTYPE>position
+леля  | GTYPE>position
+леля на | GTYPE>position
+леля му | GTYPE>position
+леля и | GTYPE>position
+леля им | GTYPE>position
+лелата  | GTYPE>position
+лелата на | GTYPE>position
+лелата му | GTYPE>position
+лелата и | GTYPE>position
+лелата им | GTYPE>position
+лели  | GTYPE>position
+лели на | GTYPE>position
+лели му | GTYPE>position
+лели и | GTYPE>position
+лели им | GTYPE>position
+лелите  | GTYPE>position
+лелите на | GTYPE>position
+лелите му | GTYPE>position
+лелите и | GTYPE>position
+лелите им | GTYPE>position
+вуйна  | GTYPE>position
+вуйна на | GTYPE>position
+вуйна му | GTYPE>position
+вуйна и | GTYPE>position
+вуйна им | GTYPE>position
+вуйната  | GTYPE>position
+вуйната на | GTYPE>position
+вуйната му | GTYPE>position
+вуйната и | GTYPE>position
+вуйната им | GTYPE>position
+вуйни  | GTYPE>position
+вуйни на | GTYPE>position
+вуйни му | GTYPE>position
+вуйни и | GTYPE>position
+вуйни им | GTYPE>position
+вуйните  | GTYPE>position
+вуйните на | GTYPE>position
+вуйните му | GTYPE>position
+вуйните и | GTYPE>position
+вуйните им | GTYPE>position
+чичо  | GTYPE>position
+чичо на | GTYPE>position
+чичо му | GTYPE>position
+чичо и | GTYPE>position
+чичо им | GTYPE>position
+чичото  | GTYPE>position
+чичото на | GTYPE>position
+чичото му | GTYPE>position
+чичото и | GTYPE>position
+чичото им | GTYPE>position
+чичовци  | GTYPE>position
+чичовци на | GTYPE>position
+чичовци му | GTYPE>position
+чичовци и | GTYPE>position
+чичовци им | GTYPE>position
+чичовците  | GTYPE>position
+чичовците на | GTYPE>position
+чичовците му | GTYPE>position
+чичовците и | GTYPE>position
+чичовците им | GTYPE>position
+снаха  | GTYPE>position
+снаха на | GTYPE>position
+снаха му | GTYPE>position
+снаха и | GTYPE>position
+снаха им | GTYPE>position
+снахата  | GTYPE>position
+снахата на | GTYPE>position
+снахата му | GTYPE>position
+снахата и | GTYPE>position
+снахата им | GTYPE>position
+снахи  | GTYPE>position
+снахи на | GTYPE>position
+снахи му | GTYPE>position
+снахи и | GTYPE>position
+снахи им | GTYPE>position
+снахите  | GTYPE>position
+снахите на | GTYPE>position
+снахите му | GTYPE>position
+снахите и | GTYPE>position
+снахите им | GTYPE>position
+зетя  | GTYPE>position
+зетя на | GTYPE>position
+зетя му | GTYPE>position
+зетя и | GTYPE>position
+зетя им | GTYPE>position
+зетят  | GTYPE>position
+зетят на | GTYPE>position
+зетят му | GTYPE>position
+зетят и | GTYPE>position
+зетят им | GTYPE>position
+зетове  | GTYPE>position
+зетове на | GTYPE>position
+зетове му | GTYPE>position
+зетове и | GTYPE>position
+зетове им | GTYPE>position
+зетовете  | GTYPE>position
+зетовете на | GTYPE>position
+зетовете му | GTYPE>position
+зетовете и | GTYPE>position
+зетовете им | GTYPE>position
+сина  | GTYPE>position
+сина на | GTYPE>position
+сина му | GTYPE>position
+сина и | GTYPE>position
+сина им | GTYPE>position
+синът  | GTYPE>position
+синът на | GTYPE>position
+синът му | GTYPE>position
+синът и | GTYPE>position
+синът им | GTYPE>position
+синове  | GTYPE>position
+синове на | GTYPE>position
+синове му | GTYPE>position
+синове и | GTYPE>position
+синове им | GTYPE>position
+синовете  | GTYPE>position
+синовете на | GTYPE>position
+синовете му | GTYPE>position
+синовете и | GTYPE>position
+синовете им | GTYPE>position
+дъщеря  | GTYPE>position 
+дъщеря на | GTYPE>position 
+дъщеря му | GTYPE>position 
+дъщеря и | GTYPE>position 
+дъщеря им | GTYPE>position 
+дъщерята  | GTYPE>position 
+дъщерята на | GTYPE>position 
+дъщерята му | GTYPE>position 
+дъщерята и | GTYPE>position 
+дъщерята им | GTYPE>position 
+дъщери  | GTYPE>position 
+дъщери на | GTYPE>position 
+дъщери му | GTYPE>position 
+дъщери и | GTYPE>position 
+дъщери им | GTYPE>position 
+дъщерите  | GTYPE>position 
+дъщерите на | GTYPE>position 
+дъщерите му | GTYPE>position 
+дъщерите и | GTYPE>position 
+дъщерите им | GTYPE>position 
+вдовицата  | GTYPE>position 
+вдовицата на | GTYPE>position 
+вдовицата му | GTYPE>position 
+вдовицата и | GTYPE>position 
+вдовицата им | GTYPE>position 
+вдовица  | GTYPE>position 
+вдовица на | GTYPE>position 
+вдовица му | GTYPE>position 
+вдовица и | GTYPE>position 
+вдовица им | GTYPE>position 
+вдовец  | GTYPE>position 
+вдовец на | GTYPE>position 
+вдовец му | GTYPE>position 
+вдовец и | GTYPE>position 
+вдовец им | GTYPE>position 
+вдовеца  | GTYPE>position 
+вдовеца на | GTYPE>position 
+вдовеца му | GTYPE>position 
+вдовеца и | GTYPE>position 
+вдовеца им | GTYPE>position 
+вдовецът  | GTYPE>position 
+вдовецът на | GTYPE>position 
+вдовецът му | GTYPE>position 
+вдовецът и | GTYPE>position 
+вдовецът им | GTYPE>position 
+вдовици  | GTYPE>position 
+вдовици на | GTYPE>position 
+вдовици му | GTYPE>position 
+вдовици и | GTYPE>position 
+вдовици им | GTYPE>position 
+вдовиците  | GTYPE>position 
+вдовиците на | GTYPE>position 
+вдовиците му | GTYPE>position 
+вдовиците и | GTYPE>position 
+вдовиците им | GTYPE>position 
+вдовци  | GTYPE>position 
+вдовци на | GTYPE>position 
+вдовци му | GTYPE>position 
+вдовци и | GTYPE>position 
+вдовци им | GTYPE>position 
+вдовците  | GTYPE>position 
+вдовците на | GTYPE>position 
+вдовците му | GTYPE>position 
+вдовците и | GTYPE>position 
+вдовците им | GTYPE>position 
+браточедът  | GTYPE>position 
+браточедът на | GTYPE>position 
+браточедът му | GTYPE>position 
+браточедът и | GTYPE>position 
+браточедът им | GTYPE>position 
+браточеда  | GTYPE>position 
+браточеда на | GTYPE>position 
+браточеда му | GTYPE>position 
+браточеда и | GTYPE>position 
+браточеда им | GTYPE>position 
+браточедка  | GTYPE>position 
+браточедка на | GTYPE>position 
+браточедка му | GTYPE>position 
+браточедка и | GTYPE>position 
+браточедка им | GTYPE>position 
+браточедта  | GTYPE>position 
+браточедта на | GTYPE>position 
+браточедта му | GTYPE>position 
+браточедта и | GTYPE>position 
+браточедта им | GTYPE>position 
+браточеди  | GTYPE>position 
+браточеди на | GTYPE>position 
+браточеди му | GTYPE>position 
+браточеди и | GTYPE>position 
+браточеди им | GTYPE>position 
+браточедите  | GTYPE>position 
+браточедите на | GTYPE>position 
+браточедите му | GTYPE>position 
+браточедите и | GTYPE>position 
+браточедите им | GTYPE>position 

@@ -1,0 +1,3 @@
+{Tr=4, Kt=5, Šeštadienis=7, Sk=1, Pn=6, Pirmadienis=2, Št=7, Pr=2, Antradienis=3, Sekmadienis=1, An=3, Ketvirtadienis=5, Trečiadienis=4, Penktadienis=6}
+{Rgs=8, Rugsėjo=8, Spa=9, Spalio=9, Rgp=7, Rugpjūčio=7, Bal=3, Geg=4, Vasario=1, Birželio=5, Sau=0, Lie=6, Balandžio=3, Lap=10, Gegužės=4, Sausio=0, Lapkričio=10, Vas=1, Grd=11, Gruodžio=11, Kov=2, Kovo=2, Liepos=6, Bir=5}
+{PM=1, AM=0}

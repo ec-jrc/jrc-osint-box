@@ -1,0 +1,3450 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-sv.txt
+# content : PM lexicon for grammatical units (Swedish)
+# date	  : February 2013
+# author  :  bruno (maud)
+# TO BE REVISED (!!)
+#**********************************************
+
+
+
+och | GTYPE>coordination
+
+
+en| GTYPE>article
+ett| GTYPE>article
+den| GTYPE>article
+det| GTYPE>article
+hans| GTYPE>article
+hennes| GTYPE>article
+
+
+
+för| GTYPE>article
+av| GTYPE>article
+till| GTYPE>article
+från| GTYPE>article
+
+
+University | GTYPE>org_ending
+FC | GTYPE>org_ending
+F.C. | GTYPE>org_ending | STRICT > (?i:F\.C\.)
+Party | GTYPE>org_ending
+Group | GTYPE>org_ending
+Airways | GTYPE>org_ending
+Airlines | GTYPE>org_ending
+Cup | GTYPE>org_ending
+League | GTYPE>org_ending
+Times | GTYPE>org_ending
+Bank | GTYPE>org_ending
+Center | GTYPE>org_ending
+Centre | GTYPE>org_ending
+Motors | GTYPE>org_ending
+Corporation | GTYPE>org_ending
+Federation | GTYPE>org_ending
+parti | GTYPE>org_ending
+Post | GTYPE>org_ending
+Association | GTYPE>org_ending
+Award | GTYPE>org_ending
+öppna | GTYPE>org_ending
+Congress | GTYPE>org_ending
+Institute | GTYPE>org_ending
+Tribune | GTYPE>org_ending
+filmpris | GTYPE>org_ending
+International | GTYPE>org_ending
+gemenskapen | GTYPE>org_ending
+rådet | GTYPE>org_ending
+konstitutionen | GTYPE>org_ending
+Stadium | GTYPE>org_ending
+fredspris | GTYPE>org_ending
+Express | GTYPE>org_ending
+India | GTYPE>org_ending
+rymdfärja | GTYPE>org_ending
+Rangers | GTYPE>org_ending
+Slam | GTYPE>org_ending
+Europol | GTYPE>org_ending
+Mail | GTYPE>org_ending
+Folkeparti | GTYPE>org_ending
+parlamentet | GTYPE>org_ending
+Gazeta | GTYPE>org_ending
+Awamiförbundet | GTYPE>org_ending
+världskriget   | GTYPE>org_ending
+Championship | GTYPE>org_ending
+samlingspartiet | GTYPE>org_ending
+#Soir | GTYPE>org_ending
+Technology | GTYPE>org_ending
+Sox | GTYPE>org_ending
+Computer | GTYPE>org_ending
+Zeitung | GTYPE>org_ending
+partiet | GTYPE>org_ending
+Foods | GTYPE>org_ending
+Maffia | GTYPE>org_ending
+Systems | GTYPE>org_ending
+Organization | GTYPE>org_ending
+
+
+
+
+
+
+# ----------------------------------------
+
+andorranen | GTYPE>demonym
+andorraner | GTYPE>demonym
+andorranerna | GTYPE>demonym
+andorranske | GTYPE>demonym
+andorranska | GTYPE>demonym
+andorransken | GTYPE>demonym
+andorranskor | GTYPE>demonym
+andorranskorna | GTYPE>demonym
+från Förenade Arabemiraten | GTYPE>demonym
+afghanen | GTYPE>demonym
+afghaner | GTYPE>demonym
+afghanerna | GTYPE>demonym
+afghanska | GTYPE>demonym
+afghanske | GTYPE>demonym
+afghansken | GTYPE>demonym
+afghanskor | GTYPE>demonym
+afghanskorna | GTYPE>demonym
+amerikan | GTYPE>demonym
+amerikanen | GTYPE>demonym
+amerikaner | GTYPE>demonym
+amerikanerna | GTYPE>demonym
+amerikansk | GTYPE>demonym
+amerikanska | GTYPE>demonym
+amerikanske | GTYPE>demonym
+antiguanen | GTYPE>demonym
+antiguaner | GTYPE>demonym
+antiguanerna | GTYPE>demonym
+antiguanska | GTYPE>demonym
+antiguanskan | GTYPE>demonym
+antiguanske | GTYPE>demonym
+från Anguilla | GTYPE>demonym
+albanen | GTYPE>demonym
+albaner | GTYPE>demonym
+albanerna | GTYPE>demonym
+albanska | GTYPE>demonym
+albanske | GTYPE>demonym
+albansken | GTYPE>demonym
+albanskor | GTYPE>demonym
+albanskorna | GTYPE>demonym
+armenier | GTYPE>demonym 
+armenierna | GTYPE>demonym 
+armeniska | GTYPE>demonym
+armeniske | GTYPE>demonym
+armenisken | GTYPE>demonym
+armeniskor | GTYPE>demonym
+armeniskorna | GTYPE>demonym
+från Nederländska Antillerna | GTYPE>demonym
+angolanen | GTYPE>demonym
+angolaner | GTYPE>demonym
+angolanerna | GTYPE>demonym
+angolanska | GTYPE>demonym
+angolanske | GTYPE>demonym
+angolansken | GTYPE>demonym
+angolanskor | GTYPE>demonym
+angolanskorna | GTYPE>demonym
+antarktiskan | GTYPE>demonym
+antarktiske | GTYPE>demonym
+antarktiska | GTYPE>demonym
+argentinare | GTYPE>demonym 
+argentinaren | GTYPE>demonym 
+argentinsk | GTYPE>demonym
+argentinska | GTYPE>demonym
+argentinske | GTYPE>demonym
+från Amerikanska Samoa | GTYPE>demonym
+australier | GTYPE>demonym 
+australiern | GTYPE>demonym 
+australiska | GTYPE>demonym
+australiske | GTYPE>demonym
+australisken | GTYPE>demonym
+australiskor | GTYPE>demonym
+australiskorna | GTYPE>demonym
+från Aruba | GTYPE>demonym
+azerbajdzjan | GTYPE>demonym 
+azerbajdzjanen | GTYPE>demonym 
+azerbajdzjanier | GTYPE>demonym 
+azerbajdzjanierna | GTYPE>demonym 
+azerbajdzjanske | GTYPE>demonym
+azerbajdzjanska | GTYPE>demonym
+azerbajdzjansken | GTYPE>demonym
+azerbajdzjanskor | GTYPE>demonym
+azerbajdzjanskorna | GTYPE>demonym
+azeriskan | GTYPE>demonym
+azeriske | GTYPE>demonym
+azeriska | GTYPE>demonym
+bosnier | GTYPE>demonym
+bosniern | GTYPE>demonym
+bosnierna | GTYPE>demonym
+bosniske | GTYPE>demonym
+bosniska | GTYPE>demonym
+bosniskan | GTYPE>demonym
+bosniskor | GTYPE>demonym
+bosniskorna | GTYPE>demonym
+barbadier | GTYPE>demonym
+barbadiern | GTYPE>demonym
+barbadierna | GTYPE>demonym
+barbadiska | GTYPE>demonym
+barbadiske | GTYPE>demonym
+barbadiskan | GTYPE>demonym
+barbadiskor | GTYPE>demonym
+barbadiskorna | GTYPE>demonym
+bangladeshare | GTYPE>demonym 
+bangladesharen | GTYPE>demonym 
+bangladeshier | GTYPE>demonym 
+bangladeshierna | GTYPE>demonym 
+bangladeshiska | GTYPE>demonym
+bangladeshiskan | GTYPE>demonym
+bangladeshiskor | GTYPE>demonym
+bangladeshiskorna | GTYPE>demonym
+belgier | GTYPE>demonym
+belgiern | GTYPE>demonym
+belgierna | GTYPE>demonym
+belgare | GTYPE>demonym
+belgaren | GTYPE>demonym
+belgarna | GTYPE>demonym
+belgiska | GTYPE>demonym
+belgiske | GTYPE>demonym
+belgiskan | GTYPE>demonym
+belgiskor | GTYPE>demonym
+belgiskorna | GTYPE>demonym
+burkinier | GTYPE>demonym
+burkiniern | GTYPE>demonym
+burkinierna | GTYPE>demonym
+burkinske | GTYPE>demonym
+burkinska | GTYPE>demonym
+burkinskan | GTYPE>demonym
+burkinskor | GTYPE>demonym
+burkinskorna | GTYPE>demonym
+bulgar | GTYPE>demonym
+bulgaren | GTYPE>demonym
+bulgarerna | GTYPE>demonym
+bulgariska | GTYPE>demonym
+bulgariske | GTYPE>demonym
+bulgariskan | GTYPE>demonym
+bulgariskor | GTYPE>demonym
+bulgariskorna | GTYPE>demonym
+bahrainare | GTYPE>demonym
+bahrainaren | GTYPE>demonym
+bahrainarna | GTYPE>demonym
+bahrainske | GTYPE>demonym
+bahrainska | GTYPE>demonym
+bahrainskan | GTYPE>demonym
+bahrainskor | GTYPE>demonym
+bahrainskorna | GTYPE>demonym
+burundier | GTYPE>demonym
+burundiern | GTYPE>demonym
+burundierna | GTYPE>demonym
+burundiska | GTYPE>demonym
+burundiske | GTYPE>demonym
+burundiskan | GTYPE>demonym
+burundiskor | GTYPE>demonym
+burundiskorna | GTYPE>demonym
+beninier | GTYPE>demonym
+beniniern | GTYPE>demonym
+beninierna | GTYPE>demonym
+beninske | GTYPE>demonym
+beninska | GTYPE>demonym
+beninskan | GTYPE>demonym
+beninskor | GTYPE>demonym
+beninskorna | GTYPE>demonym
+från Bermuda | GTYPE>demonym
+bermudiska | GTYPE>demonym
+bermudiske | GTYPE>demonym
+bermudiskan | GTYPE>demonym
+bermudiskor | GTYPE>demonym
+bermudiskorna | GTYPE>demonym
+bruneier | GTYPE>demonym
+bruneiern | GTYPE>demonym
+bruneierna | GTYPE>demonym
+bruneiske | GTYPE>demonym
+bruneiska | GTYPE>demonym
+bruneiskan | GTYPE>demonym
+bruneiskor | GTYPE>demonym
+bruneiskorna | GTYPE>demonym
+bolivianen | GTYPE>demonym
+bolivianer | GTYPE>demonym
+bolivianerna | GTYPE>demonym
+bolivianska | GTYPE>demonym
+bolivianske | GTYPE>demonym
+bolivianskan | GTYPE>demonym
+bolivianskor | GTYPE>demonym
+bolivianskorna | GTYPE>demonym
+brasilianen | GTYPE>demonym
+brasilianer | GTYPE>demonym
+brasilianerna | GTYPE>demonym
+brasilianare | GTYPE>demonym
+brasilianaren | GTYPE>demonym
+brasilianarna | GTYPE>demonym
+brasilianska | GTYPE>demonym
+brasilianske | GTYPE>demonym
+brasilianskan | GTYPE>demonym
+brasilianskor | GTYPE>demonym
+brasilianskorna | GTYPE>demonym
+bahamanen | GTYPE>demonym
+bahamaner | GTYPE>demonym
+bahamanerna | GTYPE>demonym
+bahamanska | GTYPE>demonym
+bahamanske | GTYPE>demonym
+bahamanskan | GTYPE>demonym
+bahamanskor | GTYPE>demonym
+bahamanskorna | GTYPE>demonym
+bhutanesen | GTYPE>demonym
+bhutaneser | GTYPE>demonym
+bhutaneserna | GTYPE>demonym
+bhutanesiska | GTYPE>demonym
+bhutanesiske | GTYPE>demonym
+bhutanesiskan | GTYPE>demonym
+bhutanesiskor | GTYPE>demonym
+bhutanesiskorna | GTYPE>demonym
+botswanier | GTYPE>demonym
+botswaniern | GTYPE>demonym
+botswanierna | GTYPE>demonym
+botswanska | GTYPE>demonym
+botswanske | GTYPE>demonym
+botswanskan | GTYPE>demonym
+botswanskor | GTYPE>demonym
+botswanskorna | GTYPE>demonym
+vitryssen | GTYPE>demonym
+vitryssar | GTYPE>demonym
+vitryssarna | GTYPE>demonym
+belizier | GTYPE>demonym
+beliziern | GTYPE>demonym
+belizierna | GTYPE>demonym
+beliziska | GTYPE>demonym
+beliziske | GTYPE>demonym
+beliziskan | GTYPE>demonym
+beliziskor | GTYPE>demonym
+beliziskorna | GTYPE>demonym
+kanadensare | GTYPE>demonym
+kanadensaren | GTYPE>demonym
+kanadensarna | GTYPE>demonym
+kanadensiska | GTYPE>demonym
+kanadensiske | GTYPE>demonym
+kanadensiskan | GTYPE>demonym
+kanadensiskor | GTYPE>demonym
+kanadensiskorna | GTYPE>demonym
+från Kokosöarna | GTYPE>demonym
+från Demokratiska republiken Kongo | GTYPE>demonym
+kongolesiska | GTYPE>demonym
+kongolesiske | GTYPE>demonym
+kongolesiskan | GTYPE>demonym
+kongolesiskor | GTYPE>demonym
+kongolesiskorna | GTYPE>demonym
+från Demokratiska republiken Kongo | GTYPE>demonym
+centralafrikanen | GTYPE>demonym
+centralafrikaner | GTYPE>demonym
+centralafrikanerna | GTYPE>demonym
+centralafrikanska | GTYPE>demonym
+centralafrikanske | GTYPE>demonym
+centralafrikanskan | GTYPE>demonym
+centralafrikanskor | GTYPE>demonym
+centralafrikanskorna | GTYPE>demonym
+kongolesen | GTYPE>demonym
+kongoleser | GTYPE>demonym
+kongoleserna | GTYPE>demonym
+kongolesiska | GTYPE>demonym
+kongolesiske | GTYPE>demonym
+kongolesiskan | GTYPE>demonym
+kongolesiskor | GTYPE>demonym
+kongolesiskorna | GTYPE>demonym
+schweizare | GTYPE>demonym
+schweizaren | GTYPE>demonym
+schweizarerna | GTYPE>demonym
+schweiziska | GTYPE>demonym
+schweiziske | GTYPE>demonym
+schweiziskan | GTYPE>demonym
+schweiziskor | GTYPE>demonym
+schweiziskorna | GTYPE>demonym
+ivorianen | GTYPE>demonym
+ivorianer | GTYPE>demonym
+ivorianerna | GTYPE>demonym
+ivorianska | GTYPE>demonym
+ivorianske | GTYPE>demonym
+ivorianskan | GTYPE>demonym
+ivorianskor | GTYPE>demonym
+ivorianskorna | GTYPE>demonym
+från Cooköarna | GTYPE>demonym
+chilen | GTYPE>demonym 
+chilenen | GTYPE>demonym 
+chilenare | GTYPE>demonym 
+chilenaren | GTYPE>demonym 
+chilenska | GTYPE>demonym
+chilenske | GTYPE>demonym
+chilenskan | GTYPE>demonym
+chilenskor | GTYPE>demonym
+chilenskorna | GTYPE>demonym
+kamerunare | GTYPE>demonym
+kamerunaren | GTYPE>demonym
+kamerunarna | GTYPE>demonym
+kamerunska | GTYPE>demonym
+kamerunske | GTYPE>demonym
+kamerunskan | GTYPE>demonym
+kamerunskor | GTYPE>demonym
+kamerunskorna | GTYPE>demonym
+kinesen | GTYPE>demonym
+kineser | GTYPE>demonym
+kineserna | GTYPE>demonym
+kinesiska | GTYPE>demonym
+kinesiske | GTYPE>demonym
+kinesiskan | GTYPE>demonym
+kinesiskor | GTYPE>demonym
+kinesiskorna | GTYPE>demonym
+colombianen | GTYPE>demonym
+colombianer | GTYPE>demonym
+colombianerna | GTYPE>demonym
+colombianska | GTYPE>demonym
+colombianske | GTYPE>demonym
+colombianskan | GTYPE>demonym
+colombianskor | GTYPE>demonym
+colombianskorna | GTYPE>demonym
+costarikanen | GTYPE>demonym
+costarikaner | GTYPE>demonym
+costarikanerna | GTYPE>demonym
+costarikanska | GTYPE>demonym
+costarikanske | GTYPE>demonym
+costarikanskan | GTYPE>demonym
+costarikanskor | GTYPE>demonym
+costarikanskorna | GTYPE>demonym
+kubanen | GTYPE>demonym
+kubaner | GTYPE>demonym
+kubanerna | GTYPE>demonym
+kubanske | GTYPE>demonym
+kubanska | GTYPE>demonym
+kubanskan | GTYPE>demonym
+kubanskor | GTYPE>demonym
+kubanskorna | GTYPE>demonym
+kapverdier | GTYPE>demonym
+kapverdiern | GTYPE>demonym
+kapverdierna | GTYPE>demonym
+kapverdiska | GTYPE>demonym
+kapverdiske | GTYPE>demonym
+kapverdiskan | GTYPE>demonym
+kapverdiskor | GTYPE>demonym
+kapverdiskorna | GTYPE>demonym
+från Julön | GTYPE>demonym
+cyprioten | GTYPE>demonym
+cyprioter | GTYPE>demonym
+cyprioterna | GTYPE>demonym
+cypriotiska | GTYPE>demonym
+cypriotiske | GTYPE>demonym
+cypriotiskan | GTYPE>demonym
+cypriotiskor | GTYPE>demonym
+cypriotiskorna | GTYPE>demonym
+tjecken | GTYPE>demonym
+tjecker | GTYPE>demonym
+tjeckerna | GTYPE>demonym
+tjeckiska | GTYPE>demonym
+tjeckiske | GTYPE>demonym
+tjeckiskan | GTYPE>demonym
+tjeckiskor | GTYPE>demonym
+tjeckiskorna | GTYPE>demonym
+tyska | GTYPE>demonym
+tyske | GTYPE>demonym
+tyskan | GTYPE>demonym
+tysken | GTYPE>demonym
+tyskar | GTYPE>demonym
+tyskarna | GTYPE>demonym
+djiboutier | GTYPE>demonym
+djiboutiern | GTYPE>demonym
+djiboutierna | GTYPE>demonym
+djiboutiske | GTYPE>demonym
+djiboutiska | GTYPE>demonym
+djiboutiskam | GTYPE>demonym
+dansken | GTYPE>demonym
+danskan | GTYPE>demonym
+danske | GTYPE>demonym
+danska | GTYPE>demonym
+danskar | GTYPE>demonym
+danskarna | GTYPE>demonym
+dominiker | GTYPE>demonym
+dominikern | GTYPE>demonym
+dominikerna | GTYPE>demonym
+dominikiska | GTYPE>demonym
+dominikiske | GTYPE>demonym
+dominikiskan | GTYPE>demonym
+dominikiskor | GTYPE>demonym
+dominikiskorna | GTYPE>demonym
+dominikanen | GTYPE>demonym
+dominikaner | GTYPE>demonym
+dominikanerna | GTYPE>demonym
+dominikanska | GTYPE>demonym
+dominikanske | GTYPE>demonym
+dominikanskan | GTYPE>demonym
+dominikanskor | GTYPE>demonym
+dominikanskorna | GTYPE>demonym
+algerier | GTYPE>demonym
+algeriern | GTYPE>demonym
+algerierna | GTYPE>demonym
+algeriska | GTYPE>demonym
+algeriske | GTYPE>demonym
+algeriskan | GTYPE>demonym
+algeriskor | GTYPE>demonym
+algeriskorna | GTYPE>demonym
+ecuadorianen | GTYPE>demonym
+ecuadorianer | GTYPE>demonym
+ecuadorianerna | GTYPE>demonym
+ecuadorianska | GTYPE>demonym
+ecuadorianske | GTYPE>demonym
+ecuadorianskan | GTYPE>demonym
+ecuadorianskor | GTYPE>demonym
+ecuadorianskorna | GTYPE>demonym
+estländare | GTYPE>demonym
+estländaren | GTYPE>demonym
+estländarna | GTYPE>demonym
+estländska | GTYPE>demonym
+estländske | GTYPE>demonym
+estländskan | GTYPE>demonym
+estländskor | GTYPE>demonym
+estländskorna | GTYPE>demonym
+estniske | GTYPE>demonym
+estniska | GTYPE>demonym
+estniskan | GTYPE>demonym
+estniskor | GTYPE>demonym
+estniskorna | GTYPE>demonym
+egyptier | GTYPE>demonym
+egyptiern | GTYPE>demonym
+egyptierna | GTYPE>demonym
+egyptiska | GTYPE>demonym
+egyptiske | GTYPE>demonym
+egyptiskan | GTYPE>demonym
+egyptiskor | GTYPE>demonym
+egyptiskorna | GTYPE>demonym
+från Västsahara | GTYPE>demonym
+eritreanen | GTYPE>demonym
+eritreaner | GTYPE>demonym
+eritreanerna | GTYPE>demonym
+eritreanske | GTYPE>demonym
+eritreanska | GTYPE>demonym
+eritreanskan | GTYPE>demonym
+eritreanskor | GTYPE>demonym
+eritreanskorna | GTYPE>demonym
+spanjoren | GTYPE>demonym
+spanjorer | GTYPE>demonym
+spanjorerna | GTYPE>demonym
+spanjorska | GTYPE>demonym
+spanjorskan | GTYPE>demonym
+spanjorskor | GTYPE>demonym
+spanjorskorna | GTYPE>demonym
+spansk | GTYPE>demonym
+spanska | GTYPE>demonym
+spanske | GTYPE>demonym
+etiopier | GTYPE>demonym
+etiopiern | GTYPE>demonym
+etiopierna | GTYPE>demonym
+etiopiska | GTYPE>demonym
+etiopiske | GTYPE>demonym
+etiopiskan | GTYPE>demonym
+etiopiskor | GTYPE>demonym
+etiopiskorna | GTYPE>demonym
+ffinländare | GTYPE>demonym
+ffinländaren | GTYPE>demonym
+ffinländarna | GTYPE>demonym
+finländska | GTYPE>demonym
+finländske | GTYPE>demonym
+finländskan | GTYPE>demonym
+finländskor | GTYPE>demonym
+finländskorna | GTYPE>demonym
+finsk | GTYPE>demonym 
+finska | GTYPE>demonym 
+finlandssvenska | GTYPE>demonym
+finlandssvenske | GTYPE>demonym
+finlandssvenskan | GTYPE>demonym
+finlandssvenskar | GTYPE>demonym
+finlandssvenskarna | GTYPE>demonym
+fijianen | GTYPE>demonym
+fijianer | GTYPE>demonym
+fijianerna | GTYPE>demonym
+fijianska | GTYPE>demonym
+fijianske | GTYPE>demonym
+fijianskan | GTYPE>demonym
+fijianskor | GTYPE>demonym
+fijianskorna | GTYPE>demonym
+från Falklandsöarna | GTYPE>demonym
+mikronesier | GTYPE>demonym
+mikronesiern | GTYPE>demonym
+mikronesierna | GTYPE>demonym
+mikronesiska | GTYPE>demonym
+mikronesiske | GTYPE>demonym
+mikronesiskan | GTYPE>demonym
+mikronesiskor | GTYPE>demonym
+mikronesiskorna | GTYPE>demonym
+färing | GTYPE>demonym 
+färingen | GTYPE>demonym 
+färöingen | GTYPE>demonym
+färöingar | GTYPE>demonym
+färöingarna | GTYPE>demonym
+färöiska | GTYPE>demonym
+färöiske | GTYPE>demonym
+färöiskan | GTYPE>demonym
+färöiskor | GTYPE>demonym
+färöiskorna | GTYPE>demonym
+fransman | GTYPE>demonym
+fransmannen | GTYPE>demonym
+fransmän | GTYPE>demonym
+fransmännen | GTYPE>demonym
+fransk | GTYPE>demonym
+franska | GTYPE>demonym
+franske | GTYPE>demonym
+fransyska | GTYPE>demonym
+fransyskan | GTYPE>demonym
+fransyskor | GTYPE>demonym
+fransyskorna | GTYPE>demonym
+gabonesen | GTYPE>demonym
+gaboneser | GTYPE>demonym
+gaboneserna | GTYPE>demonym
+gabonesiska | GTYPE>demonym
+gabonesiske | GTYPE>demonym
+gabonesiskan | GTYPE>demonym
+gabonesiskor | GTYPE>demonym
+gabonesiskorna | GTYPE>demonym
+britten | GTYPE>demonym
+britter | GTYPE>demonym
+britterna | GTYPE>demonym
+brittiska | GTYPE>demonym
+brittiske | GTYPE>demonym
+brittiskan | GTYPE>demonym
+brittiskor | GTYPE>demonym
+brittiskorna | GTYPE>demonym
+grenadier | GTYPE>demonym
+grenadiern | GTYPE>demonym
+grenadierna | GTYPE>demonym
+grenadiske | GTYPE>demonym
+grenadiska | GTYPE>demonym
+grenadiskan | GTYPE>demonym
+grenadiskor | GTYPE>demonym
+grenadiskorna | GTYPE>demonym
+georgier | GTYPE>demonym
+georgiern | GTYPE>demonym
+georgierna | GTYPE>demonym
+georgiska | GTYPE>demonym
+georgiske | GTYPE>demonym
+georgiskan | GTYPE>demonym
+georgiskor | GTYPE>demonym
+georgiskorna | GTYPE>demonym
+från Franska Guyana | GTYPE>demonym
+ghananen | GTYPE>demonym
+ghananer | GTYPE>demonym
+ghananerna | GTYPE>demonym
+ghananska | GTYPE>demonym
+ghananske | GTYPE>demonym
+ghananskan | GTYPE>demonym
+ghananskor | GTYPE>demonym
+ghananskorna | GTYPE>demonym
+från Gibraltar | GTYPE>demonym
+gibraltiske | GTYPE>demonym
+gibraltiska | GTYPE>demonym
+gibraltiskan | GTYPE>demonym
+gibraltiskor | GTYPE>demonym
+gibraltiskorna | GTYPE>demonym
+grönländare | GTYPE>demonym
+grönländaren | GTYPE>demonym
+grönländarna | GTYPE>demonym
+grönländska | GTYPE>demonym
+grönländske | GTYPE>demonym
+grönländskan | GTYPE>demonym
+grönländskor | GTYPE>demonym
+grönländskorna | GTYPE>demonym
+gambier | GTYPE>demonym
+gambiern | GTYPE>demonym
+gambierna | GTYPE>demonym
+gambiske | GTYPE>demonym
+gambiska | GTYPE>demonym
+gambiskan | GTYPE>demonym
+gambiskor | GTYPE>demonym
+gambiskorna | GTYPE>demonym
+guineanen | GTYPE>demonym
+guineaner | GTYPE>demonym
+guineanerna | GTYPE>demonym
+guineanske | GTYPE>demonym
+guineanska | GTYPE>demonym
+guineanskan | GTYPE>demonym
+guineanskor | GTYPE>demonym
+guineanskorna | GTYPE>demonym
+från Guadeloupe | GTYPE>demonym
+ekvatorialguineanen | GTYPE>demonym
+ekvatorialguineaner | GTYPE>demonym
+ekvatorialguineanerna | GTYPE>demonym
+ekvatorialguineanska | GTYPE>demonym
+ekvatorialguineanske | GTYPE>demonym
+ekvatorialguineanskan | GTYPE>demonym
+ekvatorialguineanskor | GTYPE>demonym
+ekvatorialguineanskorna | GTYPE>demonym
+greken | GTYPE>demonym
+greker | GTYPE>demonym
+grekerna | GTYPE>demonym
+grekiske | GTYPE>demonym
+grekiska | GTYPE>demonym
+grekiskan | GTYPE>demonym
+grekiskor | GTYPE>demonym
+grekiskorna | GTYPE>demonym
+guatemalanen | GTYPE>demonym
+guatemalaner | GTYPE>demonym
+guatemalanerna | GTYPE>demonym
+guatemalanska | GTYPE>demonym
+guatemalanske | GTYPE>demonym
+guatemalanskan | GTYPE>demonym
+guatemalanskor | GTYPE>demonym
+guatemalanskorna | GTYPE>demonym
+från Guam | GTYPE>demonym
+från Guinea-Bissau | GTYPE>demonym
+guyananen | GTYPE>demonym
+guyananer | GTYPE>demonym
+guyananerna | GTYPE>demonym
+guyananska | GTYPE>demonym
+guyananske | GTYPE>demonym
+guyananskan | GTYPE>demonym
+guyananskor | GTYPE>demonym
+guyananskorna | GTYPE>demonym
+från Hongkong | GTYPE>demonym
+honduranen | GTYPE>demonym
+honduraner | GTYPE>demonym
+honduranerna | GTYPE>demonym
+honduranske | GTYPE>demonym
+honduranska | GTYPE>demonym
+honduranskan | GTYPE>demonym
+honduranskor | GTYPE>demonym
+honduranskorna | GTYPE>demonym
+kroaten | GTYPE>demonym
+kroater | GTYPE>demonym
+kroaterna | GTYPE>demonym
+kroatiska | GTYPE>demonym
+kroatiske | GTYPE>demonym
+kroatiskan | GTYPE>demonym
+kroatiskor | GTYPE>demonym
+kroatiskorna | GTYPE>demonym
+haitier | GTYPE>demonym
+haitiern | GTYPE>demonym
+haitierna | GTYPE>demonym
+haitiska | GTYPE>demonym
+haitiske | GTYPE>demonym
+haitiskan | GTYPE>demonym
+haitiskor | GTYPE>demonym
+haitiskorna | GTYPE>demonym
+ungrare | GTYPE>demonym
+ungraren | GTYPE>demonym
+ungrarna | GTYPE>demonym
+ungerska | GTYPE>demonym
+ungerske | GTYPE>demonym
+ungerskan | GTYPE>demonym
+ungerskor | GTYPE>demonym
+ungerskorna | GTYPE>demonym
+indonesen | GTYPE>demonym
+indoneser | GTYPE>demonym
+indoneserna | GTYPE>demonym
+indonesiska | GTYPE>demonym
+indonesiske | GTYPE>demonym
+indonesiskan | GTYPE>demonym
+indonesiskor | GTYPE>demonym
+indonesiskorna | GTYPE>demonym
+irländare | GTYPE>demonym
+irländaren | GTYPE>demonym
+irländarna | GTYPE>demonym
+irländska | GTYPE>demonym
+irländske | GTYPE>demonym
+irländskan | GTYPE>demonym
+irländskor | GTYPE>demonym
+irländskorna | GTYPE>demonym
+irier | GTYPE>demonym
+iriern | GTYPE>demonym
+irierna | GTYPE>demonym
+iriska | GTYPE>demonym
+iriske | GTYPE>demonym
+iriskan | GTYPE>demonym
+iriskor | GTYPE>demonym
+iriskorna | GTYPE>demonym
+israelen | GTYPE>demonym
+israeler | GTYPE>demonym
+israelerna | GTYPE>demonym
+israeliske | GTYPE>demonym
+israeliska | GTYPE>demonym
+israeliskan | GTYPE>demonym
+israeliskor | GTYPE>demonym
+israeliskorna | GTYPE>demonym
+indier | GTYPE>demonym
+indiern | GTYPE>demonym
+indierna | GTYPE>demonym
+indiska | GTYPE>demonym
+indiske | GTYPE>demonym
+indiskan | GTYPE>demonym
+indiskor | GTYPE>demonym
+indiskorna | GTYPE>demonym
+irakier | GTYPE>demonym
+irakiern | GTYPE>demonym
+irakierna | GTYPE>demonym
+irakisk | GTYPE>demonym
+irakiska | GTYPE>demonym
+irakiske | GTYPE>demonym
+iranier | GTYPE>demonym
+iraniern | GTYPE>demonym
+iranierna | GTYPE>demonym
+iranska | GTYPE>demonym
+iranske | GTYPE>demonym
+iranskan | GTYPE>demonym
+iranskor | GTYPE>demonym
+iranskorna | GTYPE>demonym
+islänningen | GTYPE>demonym
+islänninger | GTYPE>demonym
+islänningerna | GTYPE>demonym
+isländska | GTYPE>demonym
+isländske | GTYPE>demonym
+isländskan | GTYPE>demonym
+isländskor | GTYPE>demonym
+isländskorna | GTYPE>demonym
+italienare | GTYPE>demonym
+italienaren | GTYPE>demonym
+italienarna | GTYPE>demonym
+italienska | GTYPE>demonym
+italienske | GTYPE>demonym
+italienskan | GTYPE>demonym
+italienskor | GTYPE>demonym
+italienskorna | GTYPE>demonym
+jamaikanen | GTYPE>demonym
+jamaikaner | GTYPE>demonym
+jamaikanerna | GTYPE>demonym
+jamaikanske | GTYPE>demonym
+jamaikanska | GTYPE>demonym
+jamaikanskan | GTYPE>demonym
+jamaikanskor | GTYPE>demonym
+jamaikanskorna | GTYPE>demonym
+jordanier | GTYPE>demonym
+jordaniern | GTYPE>demonym
+jordanierna | GTYPE>demonym
+jordanska | GTYPE>demonym
+jordanske | GTYPE>demonym
+jordanskan | GTYPE>demonym
+jordanskor | GTYPE>demonym
+jordanskorna | GTYPE>demonym
+japanen | GTYPE>demonym
+japaner | GTYPE>demonym
+japanerna | GTYPE>demonym
+japanska | GTYPE>demonym
+japanske | GTYPE>demonym
+japanskan | GTYPE>demonym
+japanskor | GTYPE>demonym
+japanskorna | GTYPE>demonym
+kenyanen | GTYPE>demonym
+kenyaner | GTYPE>demonym
+kenyanerna | GTYPE>demonym
+kenyanska | GTYPE>demonym
+kenyanske | GTYPE>demonym
+kenyanskan | GTYPE>demonym
+kenyanskor | GTYPE>demonym
+kenyanskorna | GTYPE>demonym
+kirgizistanier | GTYPE>demonym
+kirgizistaniern | GTYPE>demonym
+kirgizistanierna | GTYPE>demonym
+kirgizistanske | GTYPE>demonym
+kirgizistanska | GTYPE>demonym
+kirgizistanskan | GTYPE>demonym
+kirgizistanskor | GTYPE>demonym
+kirgizistanskorna | GTYPE>demonym
+kirgiziske | GTYPE>demonym
+kirgiziska | GTYPE>demonym
+kirgiziskan | GTYPE>demonym
+kirgiziskor | GTYPE>demonym
+kirgiziskorna | GTYPE>demonym
+kambodjanen | GTYPE>demonym
+kambodjaner | GTYPE>demonym
+kambodjanerna | GTYPE>demonym
+kambodjanske | GTYPE>demonym
+kambodjanska | GTYPE>demonym
+kambodjanskan | GTYPE>demonym
+kambodjanskor | GTYPE>demonym
+kambodjanskorna | GTYPE>demonym
+kiribatier | GTYPE>demonym
+kiribatiern | GTYPE>demonym
+kiribatierna | GTYPE>demonym
+kiribatiske | GTYPE>demonym
+kiribatiska | GTYPE>demonym
+kiribatiskan | GTYPE>demonym
+kiribatiskor | GTYPE>demonym
+kiribatiskorna | GTYPE>demonym
+komorier | GTYPE>demonym
+komoriern | GTYPE>demonym
+komorierna | GTYPE>demonym
+komoriske | GTYPE>demonym
+komoriska | GTYPE>demonym
+komoriskan | GTYPE>demonym
+komoriskor | GTYPE>demonym
+komoriskorna | GTYPE>demonym
+från Saint Kitts och Nevis | GTYPE>demonym
+nordkoreanen | GTYPE>demonym
+nordkoreaner | GTYPE>demonym
+nordkoreanerna | GTYPE>demonym
+nordkoreanske | GTYPE>demonym
+nordkoreanska | GTYPE>demonym
+nordkoreanskan | GTYPE>demonym
+nordkoreanskor | GTYPE>demonym
+nordkoreanskorna | GTYPE>demonym
+sydkoreanen | GTYPE>demonym
+sydkoreaner | GTYPE>demonym
+sydkoreanerna | GTYPE>demonym
+sydkoreanska | GTYPE>demonym
+sydkoreanske | GTYPE>demonym
+sydkoreanskan | GTYPE>demonym
+sydkoreanskor | GTYPE>demonym
+sydkoreanskorna | GTYPE>demonym
+kuwaitier | GTYPE>demonym
+kuwaitiern | GTYPE>demonym
+kuwaitierna | GTYPE>demonym
+kuwaitiska | GTYPE>demonym
+kuwaitiske | GTYPE>demonym
+kuwaitiskan | GTYPE>demonym
+kuwaitiskor | GTYPE>demonym
+kuwaitiskorna | GTYPE>demonym
+från Caymanöarna | GTYPE>demonym
+kaymanska | GTYPE>demonym
+kaymanske | GTYPE>demonym
+kaymanskan | GTYPE>demonym
+kaymanskor | GTYPE>demonym
+kaymanskorna | GTYPE>demonym
+kazakstanier | GTYPE>demonym
+kazakstaniern | GTYPE>demonym
+kazakstanierna | GTYPE>demonym
+kazakstanska | GTYPE>demonym
+kazakstanske | GTYPE>demonym
+kazakstanskan | GTYPE>demonym
+kazakstanskor | GTYPE>demonym
+kazakstanskorna | GTYPE>demonym
+kazakiska | GTYPE>demonym
+kazakiske | GTYPE>demonym
+kazakiskan | GTYPE>demonym
+kazakiskor | GTYPE>demonym
+kazakiskorna | GTYPE>demonym
+laotier | GTYPE>demonym
+laotiern | GTYPE>demonym
+laotierna | GTYPE>demonym
+laotiske | GTYPE>demonym
+laotiska | GTYPE>demonym
+laotiskan | GTYPE>demonym
+laotiskor | GTYPE>demonym
+laotiskorna | GTYPE>demonym
+libanesen | GTYPE>demonym
+libaneser | GTYPE>demonym
+libaneserna | GTYPE>demonym
+libanesiske | GTYPE>demonym
+libanesiska | GTYPE>demonym
+libanesiskan | GTYPE>demonym
+libanesiskor | GTYPE>demonym
+libanesiskorna | GTYPE>demonym
+från Saint Lucia | GTYPE>demonym
+liechtensteinare | GTYPE>demonym
+liechtensteinaren | GTYPE>demonym
+liechtensteinarna | GTYPE>demonym
+liechtensteinske | GTYPE>demonym
+liechtensteinska | GTYPE>demonym
+liechtensteinskan | GTYPE>demonym
+liechtensteinskor | GTYPE>demonym
+liechtensteinskorna | GTYPE>demonym
+srilankesen | GTYPE>demonym
+srilankeser | GTYPE>demonym
+srilankeserna | GTYPE>demonym
+srilankesiske | GTYPE>demonym
+srilankesiska | GTYPE>demonym
+srilankesiskan | GTYPE>demonym
+srilankesiskor | GTYPE>demonym
+srilankesiskorna | GTYPE>demonym
+lankesiska | GTYPE>demonym
+lankesiske | GTYPE>demonym
+lankesiskan | GTYPE>demonym
+lankesiskor | GTYPE>demonym
+lankesiskorna | GTYPE>demonym
+liberianen | GTYPE>demonym
+liberianer | GTYPE>demonym
+liberianerna | GTYPE>demonym
+liberier | GTYPE>demonym
+liberiern | GTYPE>demonym
+liberierna | GTYPE>demonym
+liberianske | GTYPE>demonym
+liberianska | GTYPE>demonym
+liberianskan | GTYPE>demonym
+liberianskor | GTYPE>demonym
+liberianskorna | GTYPE>demonym
+liberiska | GTYPE>demonym
+liberiskan | GTYPE>demonym
+liberiske | GTYPE>demonym
+lesothier | GTYPE>demonym
+lesothiern | GTYPE>demonym
+lesothierna | GTYPE>demonym
+lesothiske | GTYPE>demonym
+lesothiska | GTYPE>demonym
+lesothiskan | GTYPE>demonym
+lesothiskor | GTYPE>demonym
+lesothiskorna | GTYPE>demonym
+litauer | GTYPE>demonym
+litauern | GTYPE>demonym
+litauerna | GTYPE>demonym
+litauiske | GTYPE>demonym
+litauiska | GTYPE>demonym
+litauiskan | GTYPE>demonym
+litauiskor | GTYPE>demonym
+litauiskorna | GTYPE>demonym
+luxemburgare | GTYPE>demonym
+luxemburgaren | GTYPE>demonym
+luxemburgarna | GTYPE>demonym
+luxemburgske | GTYPE>demonym
+luxemburgska | GTYPE>demonym
+luxemburgskan | GTYPE>demonym
+luxemburgskor | GTYPE>demonym
+luxemburgskorna | GTYPE>demonym
+lettländare | GTYPE>demonym
+lettländaren | GTYPE>demonym
+lettländarna | GTYPE>demonym
+lettländske | GTYPE>demonym
+lettländska | GTYPE>demonym
+lettländskan | GTYPE>demonym
+lettländskor | GTYPE>demonym
+lettländskorna | GTYPE>demonym
+lettiske | GTYPE>demonym
+lettiska | GTYPE>demonym
+lettiskan | GTYPE>demonym
+lettiskor | GTYPE>demonym
+lettiskorna | GTYPE>demonym
+libyer | GTYPE>demonym
+libyern | GTYPE>demonym
+libyerna | GTYPE>demonym
+libyske | GTYPE>demonym
+libyska | GTYPE>demonym
+libyskan | GTYPE>demonym
+libyskor | GTYPE>demonym
+libyskorna | GTYPE>demonym
+marockanen | GTYPE>demonym
+marockaner | GTYPE>demonym
+marockanerna | GTYPE>demonym
+marockanske | GTYPE>demonym
+marockanska | GTYPE>demonym
+marockanskan | GTYPE>demonym
+marockanskor | GTYPE>demonym
+marockanskorna | GTYPE>demonym
+monegaske | GTYPE>demonym
+monegaska | GTYPE>demonym
+monegaskan | GTYPE>demonym
+monegaskor | GTYPE>demonym
+monegaskorna | GTYPE>demonym
+monegaskiske | GTYPE>demonym
+monegaskiska | GTYPE>demonym
+monegaskiskan | GTYPE>demonym
+monegaskiskor | GTYPE>demonym
+monegaskiskorna | GTYPE>demonym
+moldavier | GTYPE>demonym
+moldaviern | GTYPE>demonym
+moldavierna | GTYPE>demonym
+moldaviske | GTYPE>demonym
+moldaviska | GTYPE>demonym
+moldaviskan | GTYPE>demonym
+moldaviskor | GTYPE>demonym
+moldaviskorna | GTYPE>demonym
+madagaske | GTYPE>demonym
+madagaska | GTYPE>demonym
+madagaskan | GTYPE>demonym
+madagaskor | GTYPE>demonym
+madagaskorna | GTYPE>demonym
+madagaskiske | GTYPE>demonym
+madagaskiska | GTYPE>demonym
+madagaskiskan | GTYPE>demonym
+madagaskiskor | GTYPE>demonym
+madagaskiskorna | GTYPE>demonym
+från Marshallöarna | GTYPE>demonym
+från f.d. jugoslaviska republiken Makedonien | GTYPE>demonym | STRICT > (?i:från f\.d\. jugoslaviska republiken Makedonien)
+malier | GTYPE>demonym
+maliern | GTYPE>demonym
+malierna | GTYPE>demonym
+maliske | GTYPE>demonym
+maliska | GTYPE>demonym
+maliskan | GTYPE>demonym
+maliskor | GTYPE>demonym
+maliskorna | GTYPE>demonym
+från Myanmar | GTYPE>demonym
+mongolen | GTYPE>demonym
+mongoler | GTYPE>demonym
+mongolerna | GTYPE>demonym
+mongoliske | GTYPE>demonym
+mongoliska | GTYPE>demonym
+mongoliskan | GTYPE>demonym
+mongoliskor | GTYPE>demonym
+mongoliskorna | GTYPE>demonym
+från Macao | GTYPE>demonym
+från Nordmarianerna | GTYPE>demonym
+från Martinique | GTYPE>demonym
+mauretanier | GTYPE>demonym
+mauretaniern | GTYPE>demonym
+mauretanierna | GTYPE>demonym
+mauretanske | GTYPE>demonym
+mauretanska | GTYPE>demonym
+mauretanskan | GTYPE>demonym
+mauretanskor | GTYPE>demonym
+mauretanskorna | GTYPE>demonym
+från Montserrat | GTYPE>demonym
+maltesen | GTYPE>demonym
+malteser | GTYPE>demonym
+malteserna | GTYPE>demonym
+maltesare | GTYPE>demonym
+maltesaren | GTYPE>demonym
+maltesarna | GTYPE>demonym
+maltesiske | GTYPE>demonym
+maltesiska | GTYPE>demonym
+maltesiskan | GTYPE>demonym
+maltesiskor | GTYPE>demonym
+maltesiskorna | GTYPE>demonym
+mauritier | GTYPE>demonym
+mauritiern | GTYPE>demonym
+mauritierna | GTYPE>demonym
+mauritiske | GTYPE>demonym
+mauritiska | GTYPE>demonym
+mauritiskan | GTYPE>demonym
+mauritiskor | GTYPE>demonym
+mauritiskorna | GTYPE>demonym
+maldivier | GTYPE>demonym
+maldiviern | GTYPE>demonym
+maldivierna | GTYPE>demonym
+maldiviske | GTYPE>demonym
+maldiviska | GTYPE>demonym
+maldiviskan | GTYPE>demonym
+maldiviskor | GTYPE>demonym
+maldiviskorna | GTYPE>demonym
+malawier | GTYPE>demonym
+malawiern | GTYPE>demonym
+malawierna | GTYPE>demonym
+malawiske | GTYPE>demonym
+malawiska | GTYPE>demonym
+malawiskan | GTYPE>demonym
+malawiskor | GTYPE>demonym
+malawiskorna | GTYPE>demonym
+mexikanen | GTYPE>demonym
+mexikaner | GTYPE>demonym
+mexikanerna | GTYPE>demonym
+mexikanske | GTYPE>demonym
+mexikanska | GTYPE>demonym
+mexikanskan | GTYPE>demonym
+mexikanskor | GTYPE>demonym
+mexikanskorna | GTYPE>demonym
+malaysier | GTYPE>demonym
+malaysiern | GTYPE>demonym
+malaysierna | GTYPE>demonym
+malaysiske | GTYPE>demonym
+malaysiska | GTYPE>demonym
+malaysiskan | GTYPE>demonym
+malaysiskor | GTYPE>demonym
+malaysiskorna | GTYPE>demonym
+moçambikier | GTYPE>demonym
+moçambikiern | GTYPE>demonym
+moçambikierna | GTYPE>demonym
+moçambikiske | GTYPE>demonym
+moçambikiska | GTYPE>demonym
+moçambikiskan | GTYPE>demonym
+moçambikiskor | GTYPE>demonym
+moçambikiskorna | GTYPE>demonym
+namibier | GTYPE>demonym
+namibiern | GTYPE>demonym
+namibierna | GTYPE>demonym
+namibiske | GTYPE>demonym
+namibiska | GTYPE>demonym
+namibiskan | GTYPE>demonym
+namibiskor | GTYPE>demonym
+namibiskorna | GTYPE>demonym
+från Nya Kaledonien | GTYPE>demonym
+nigerer | GTYPE>demonym
+nigerern | GTYPE>demonym
+nigererna | GTYPE>demonym
+nigeriske | GTYPE>demonym
+nigeriska | GTYPE>demonym
+nigeriskan | GTYPE>demonym
+nigeriskor | GTYPE>demonym
+nigeriskorna | GTYPE>demonym
+från Norfolkön | GTYPE>demonym
+nigerianen | GTYPE>demonym
+nigerianer | GTYPE>demonym
+nigerianerna | GTYPE>demonym
+nigerianske | GTYPE>demonym
+nigerianska | GTYPE>demonym
+nigerianskan | GTYPE>demonym
+nigerianskor | GTYPE>demonym
+nigerianskorna | GTYPE>demonym
+nicaraguanen | GTYPE>demonym
+nicaraguaner | GTYPE>demonym
+nicaraguanerna | GTYPE>demonym
+nicaraguanske | GTYPE>demonym
+nicaraguanska | GTYPE>demonym
+nicaraguanskan | GTYPE>demonym
+nicaraguanskor | GTYPE>demonym
+nicaraguanskorna | GTYPE>demonym
+nederländare | GTYPE>demonym
+nederländaren | GTYPE>demonym
+nederländarna | GTYPE>demonym
+nederländske | GTYPE>demonym
+nederländska | GTYPE>demonym
+nederländskan | GTYPE>demonym
+nederländskor | GTYPE>demonym
+nederländskorna | GTYPE>demonym
+norrman | GTYPE>demonym
+norrmannen | GTYPE>demonym
+norrmän | GTYPE>demonym
+norrmännen | GTYPE>demonym
+norske | GTYPE>demonym
+norska | GTYPE>demonym
+norskan | GTYPE>demonym
+norskor | GTYPE>demonym
+norskorna | GTYPE>demonym
+nepalesen | GTYPE>demonym
+nepaleser | GTYPE>demonym
+nepaleserna | GTYPE>demonym
+nepalesiske | GTYPE>demonym
+nepalesiska | GTYPE>demonym
+nepalesiskan | GTYPE>demonym
+nepalesiskor | GTYPE>demonym
+nepalesiskorna | GTYPE>demonym
+nauruer | GTYPE>demonym
+nauruern | GTYPE>demonym
+nauruerna | GTYPE>demonym
+nauriske | GTYPE>demonym
+nauriska | GTYPE>demonym
+nauriskan | GTYPE>demonym
+nauriskor | GTYPE>demonym
+nauriskorna | GTYPE>demonym
+niuer | GTYPE>demonym
+niuern | GTYPE>demonym
+niuerna | GTYPE>demonym
+niuiske | GTYPE>demonym
+niuiska | GTYPE>demonym
+niuiskan | GTYPE>demonym
+niuiskor | GTYPE>demonym
+niuiskorna | GTYPE>demonym
+nyzeeländare | GTYPE>demonym
+nyzeeländaren | GTYPE>demonym
+nyzeeländarna | GTYPE>demonym
+nyzeeländske | GTYPE>demonym
+nyzeeländska | GTYPE>demonym
+nyzeeländskan | GTYPE>demonym
+nyzeeländskor | GTYPE>demonym
+nyzeeländskorna | GTYPE>demonym
+omanier | GTYPE>demonym
+omaniern | GTYPE>demonym
+omanierna | GTYPE>demonym
+omanske | GTYPE>demonym
+omanska | GTYPE>demonym
+omanskan | GTYPE>demonym
+omanskor | GTYPE>demonym
+omanskorna | GTYPE>demonym
+panamanen | GTYPE>demonym
+panamaner | GTYPE>demonym
+panamanerna | GTYPE>demonym
+panamanske | GTYPE>demonym
+panamanska | GTYPE>demonym
+panamanskan | GTYPE>demonym
+panamanskor | GTYPE>demonym
+panamanskorna | GTYPE>demonym
+peruanen | GTYPE>demonym
+peruaner | GTYPE>demonym
+peruanerna | GTYPE>demonym
+peruanske | GTYPE>demonym
+peruanska | GTYPE>demonym
+peruanskan | GTYPE>demonym
+peruanskor | GTYPE>demonym
+peruanskorna | GTYPE>demonym
+från Franska Polynesien | GTYPE>demonym
+från Papua Nya Guinea | GTYPE>demonym
+filippinare | GTYPE>demonym
+filippinaren | GTYPE>demonym
+filippinarna | GTYPE>demonym
+filippinske | GTYPE>demonym
+filippinska | GTYPE>demonym
+filippinskan | GTYPE>demonym
+filippinskor | GTYPE>demonym
+filippinskorna | GTYPE>demonym
+pakistanier | GTYPE>demonym
+pakistaniern | GTYPE>demonym
+pakistanierna | GTYPE>demonym
+pakistanske | GTYPE>demonym
+pakistanska | GTYPE>demonym
+pakistanskan | GTYPE>demonym
+pakistanskor | GTYPE>demonym
+pakistanskorna | GTYPE>demonym
+polacken | GTYPE>demonym
+polacker | GTYPE>demonym
+polackerna | GTYPE>demonym
+polske | GTYPE>demonym
+polska | GTYPE>demonym
+polskan | GTYPE>demonym
+polskor | GTYPE>demonym
+polskorna | GTYPE>demonym
+från Saint Pierre och Miquelon | GTYPE>demonym
+från Pitcairn | GTYPE>demonym
+puertoricanen | GTYPE>demonym
+puertoricaner | GTYPE>demonym
+puertoricanerna | GTYPE>demonym
+puertoricanske | GTYPE>demonym
+puertoricanska | GTYPE>demonym
+puertoricanskan | GTYPE>demonym
+puertoricanskor | GTYPE>demonym
+puertoricanskorna | GTYPE>demonym
+portugisen | GTYPE>demonym
+portugiser | GTYPE>demonym
+portugiserna | GTYPE>demonym
+portugisiske | GTYPE>demonym
+portugisiska | GTYPE>demonym
+portugisiskan | GTYPE>demonym
+portugisiskor | GTYPE>demonym
+portugisiskorna | GTYPE>demonym
+från Palau | GTYPE>demonym
+paraguayanen | GTYPE>demonym
+paraguayaner | GTYPE>demonym
+paraguayanerna | GTYPE>demonym
+paraguayanske | GTYPE>demonym
+paraguayanska | GTYPE>demonym
+paraguayanskan | GTYPE>demonym
+paraguayanskor | GTYPE>demonym
+paraguayanskorna | GTYPE>demonym
+qatarier | GTYPE>demonym
+qatariern | GTYPE>demonym
+qatarierna | GTYPE>demonym
+qatariske | GTYPE>demonym
+qatariska | GTYPE>demonym
+qatariskan | GTYPE>demonym
+qatariskor | GTYPE>demonym
+qatariskorna | GTYPE>demonym
+från Réunion | GTYPE>demonym
+rumänen | GTYPE>demonym
+rumäner | GTYPE>demonym
+rumänerna | GTYPE>demonym
+rumänske | GTYPE>demonym
+rumänska | GTYPE>demonym
+rumänskan | GTYPE>demonym
+rumänskor | GTYPE>demonym
+rumänskorna | GTYPE>demonym
+ryssländare | GTYPE>demonym
+ryssländaren | GTYPE>demonym
+ryssländarna | GTYPE>demonym
+ryssen | GTYPE>demonym
+ryssar | GTYPE>demonym
+ryssarna | GTYPE>demonym
+ryssländske | GTYPE>demonym
+ryssländska | GTYPE>demonym
+ryssländskan | GTYPE>demonym
+ryssländskor | GTYPE>demonym
+ryssländskorna | GTYPE>demonym
+ryske | GTYPE>demonym
+ryska | GTYPE>demonym
+ryskan | GTYPE>demonym
+ryskor | GTYPE>demonym
+ryskorna | GTYPE>demonym
+rwandier | GTYPE>demonym
+rwandiern | GTYPE>demonym
+rwandierna | GTYPE>demonym
+rwandiske | GTYPE>demonym
+rwandiska | GTYPE>demonym
+rwandiskan | GTYPE>demonym
+rwandiskor | GTYPE>demonym
+rwandiskorna | GTYPE>demonym
+saudiaraben | GTYPE>demonym
+saudiaraber | GTYPE>demonym
+saudiaraberna | GTYPE>demonym
+saudier | GTYPE>demonym
+saudiern | GTYPE>demonym
+saudierna | GTYPE>demonym
+saudiarabiske | GTYPE>demonym
+saudiarabiska | GTYPE>demonym
+saudiarabiskan | GTYPE>demonym
+saudiarabiskor | GTYPE>demonym
+saudiarabiskorna | GTYPE>demonym
+saudiske | GTYPE>demonym
+saudiska | GTYPE>demonym
+saudiskan | GTYPE>demonym
+saudiskor | GTYPE>demonym
+saudiskorna | GTYPE>demonym
+från Salomonöarna | GTYPE>demonym
+seychellier | GTYPE>demonym
+seychelliern | GTYPE>demonym
+seychellierna | GTYPE>demonym
+seychelliske | GTYPE>demonym
+seychelliska | GTYPE>demonym
+seychelliskan | GTYPE>demonym
+seychelliskor | GTYPE>demonym
+seychelliskorna | GTYPE>demonym
+sudanesen | GTYPE>demonym
+sudaneser | GTYPE>demonym
+sudaneserna | GTYPE>demonym
+sudanesiske | GTYPE>demonym
+sudanesiska | GTYPE>demonym
+sudanesiskan | GTYPE>demonym
+sudanesiskor | GTYPE>demonym
+sudanesiskorna | GTYPE>demonym
+svensken | GTYPE>demonym
+svenskan | GTYPE>demonym
+svenske | GTYPE>demonym
+svenska | GTYPE>demonym
+svenskar | GTYPE>demonym
+svenskarna | GTYPE>demonym
+svenskor | GTYPE>demonym
+svenskorna | GTYPE>demonym
+singaporianen | GTYPE>demonym
+singaporianer | GTYPE>demonym
+singaporianerna | GTYPE>demonym
+singaporianske | GTYPE>demonym
+singaporianska | GTYPE>demonym
+singaporianskan | GTYPE>demonym
+singaporianskor | GTYPE>demonym
+singaporianskorna | GTYPE>demonym
+från Saint Helena | GTYPE>demonym
+slovenen | GTYPE>demonym
+slovener | GTYPE>demonym
+slovenerna | GTYPE>demonym
+slovenske | GTYPE>demonym
+slovenska | GTYPE>demonym
+slovenskan | GTYPE>demonym
+slovenskor | GTYPE>demonym
+slovenskorna | GTYPE>demonym
+från Svalbard och Jan Mayen | GTYPE>demonym
+slovaken | GTYPE>demonym
+slovaker | GTYPE>demonym
+slovakerna | GTYPE>demonym
+slovakiske | GTYPE>demonym
+slovakiska | GTYPE>demonym
+slovakiskan | GTYPE>demonym
+slovakiskor | GTYPE>demonym
+slovakiskorna | GTYPE>demonym
+sierraleonier | GTYPE>demonym
+sierraleoniern | GTYPE>demonym
+sierraleonierna | GTYPE>demonym
+sierraleonske | GTYPE>demonym
+sierraleonska | GTYPE>demonym
+sierraleonskan | GTYPE>demonym
+sierraleonskor | GTYPE>demonym
+sierraleonskorna | GTYPE>demonym
+sanmarinier | GTYPE>demonym
+sanmariniern | GTYPE>demonym
+sanmarinierna | GTYPE>demonym
+sanmarinske | GTYPE>demonym
+sanmarinska | GTYPE>demonym
+sanmarinskan | GTYPE>demonym
+sanmarinskor | GTYPE>demonym
+sanmarinskorna | GTYPE>demonym
+senegalesen | GTYPE>demonym
+senegaleser | GTYPE>demonym
+senegaleserna | GTYPE>demonym
+senegalesiske | GTYPE>demonym
+senegalesiska | GTYPE>demonym
+senegalesiskan | GTYPE>demonym
+senegalesiskor | GTYPE>demonym
+senegalesiskorna | GTYPE>demonym
+somalier | GTYPE>demonym
+somaliern | GTYPE>demonym
+somalierna | GTYPE>demonym
+somaliske | GTYPE>demonym
+somaliska | GTYPE>demonym
+somaliskan | GTYPE>demonym
+somaliskor | GTYPE>demonym
+somaliskorna | GTYPE>demonym
+surinamesen | GTYPE>demonym
+surinameser | GTYPE>demonym
+surinameserna | GTYPE>demonym
+surinamesiske | GTYPE>demonym
+surinamesiska | GTYPE>demonym
+surinamesiskan | GTYPE>demonym
+surinamesiskor | GTYPE>demonym
+surinamesiskorna | GTYPE>demonym
+från São Tomé och Príncipe | GTYPE>demonym
+salvadoranen | GTYPE>demonym
+salvadoraner | GTYPE>demonym
+salvadoranerna | GTYPE>demonym
+salvadoranske | GTYPE>demonym
+salvadoranska | GTYPE>demonym
+salvadoranskan | GTYPE>demonym
+salvadoranskor | GTYPE>demonym
+salvadoranskorna | GTYPE>demonym
+syrier | GTYPE>demonym
+syriern | GTYPE>demonym
+syrierna | GTYPE>demonym
+syriske | GTYPE>demonym
+syriska | GTYPE>demonym
+syriskan | GTYPE>demonym
+syriskor | GTYPE>demonym
+syriskorna | GTYPE>demonym
+swaziländare | GTYPE>demonym
+swaziländaren | GTYPE>demonym
+swaziländarna | GTYPE>demonym
+swaziländske | GTYPE>demonym
+swaziländska | GTYPE>demonym
+swaziländskan | GTYPE>demonym
+swaziländskor | GTYPE>demonym
+swaziländskorna | GTYPE>demonym
+från Turks- och Caicosöarna | GTYPE>demonym
+tchadiern | GTYPE>demonym
+tchadiera | GTYPE>demonym
+tchadierna | GTYPE>demonym
+tchadiske | GTYPE>demonym
+tchadiska | GTYPE>demonym
+tchadiskan | GTYPE>demonym
+tchadiskor | GTYPE>demonym
+tchadiskorna | GTYPE>demonym
+togolesen | GTYPE>demonym
+togoleser | GTYPE>demonym
+togoleserna | GTYPE>demonym
+togolesiske | GTYPE>demonym
+togolesiska | GTYPE>demonym
+togolesiskan | GTYPE>demonym
+togolesiskor | GTYPE>demonym
+togolesiskorna | GTYPE>demonym
+thailändare | GTYPE>demonym
+thailändaren | GTYPE>demonym
+thailändarna | GTYPE>demonym
+thailändske | GTYPE>demonym
+thailändska | GTYPE>demonym
+thailändskan | GTYPE>demonym
+thailändskor | GTYPE>demonym
+thailändskorna | GTYPE>demonym
+tadzjikistanier | GTYPE>demonym
+tadzjikistanske | GTYPE>demonym
+tadzjikistanska | GTYPE>demonym
+tadzjikistanskan | GTYPE>demonym
+tadzjikistanskor | GTYPE>demonym
+tadzjikistanskorna | GTYPE>demonym
+tadzjikiske | GTYPE>demonym
+tadzjikiska | GTYPE>demonym
+tadzjikiskan | GTYPE>demonym
+tadzjikiskor | GTYPE>demonym
+tadzjikiskorna | GTYPE>demonym
+från Tokelau | GTYPE>demonym
+från Östtimor | GTYPE>demonym
+turkmenistanier | GTYPE>demonym
+turkmenistaniern | GTYPE>demonym
+turkmenistanierna | GTYPE>demonym
+turkmenistanske | GTYPE>demonym
+turkmenistanska | GTYPE>demonym
+turkmenistanskan | GTYPE>demonym
+turkmenistanskor | GTYPE>demonym
+turkmenistanskorna | GTYPE>demonym
+turkmenske | GTYPE>demonym
+turkmenska | GTYPE>demonym
+turkmenskan | GTYPE>demonym
+turkmenskor | GTYPE>demonym
+turkmenskorna | GTYPE>demonym
+tunisier | GTYPE>demonym
+tunisiern | GTYPE>demonym
+tunisierna | GTYPE>demonym
+tunisiske | GTYPE>demonym
+tunisiska | GTYPE>demonym
+tunisiskan | GTYPE>demonym
+tunisiskor | GTYPE>demonym
+tunisiskorna | GTYPE>demonym
+tonganen | GTYPE>demonym
+tonganer | GTYPE>demonym
+tonganerna | GTYPE>demonym
+tonganske | GTYPE>demonym
+tonganska | GTYPE>demonym
+tonganskan | GTYPE>demonym
+tonganskor | GTYPE>demonym
+tonganskorna | GTYPE>demonym
+turken | GTYPE>demonym
+turkar | GTYPE>demonym
+turkarna | GTYPE>demonym
+turkiske | GTYPE>demonym
+turkiska | GTYPE>demonym
+turkiskan | GTYPE>demonym
+turkiskor | GTYPE>demonym
+turkiskorna | GTYPE>demonym
+trinidadier | GTYPE>demonym
+trinidadiern | GTYPE>demonym
+trinidadierna | GTYPE>demonym
+trinidadiske | GTYPE>demonym
+trinidadiska | GTYPE>demonym
+trinidadiskan | GTYPE>demonym
+trinidadiskor | GTYPE>demonym
+trinidadiskorna | GTYPE>demonym
+tuvaluanen | GTYPE>demonym
+tuvaluaner | GTYPE>demonym
+tuvaluanerna | GTYPE>demonym
+tuvaluanske | GTYPE>demonym
+tuvaluanska | GTYPE>demonym
+tuvaluanskan | GTYPE>demonym
+tuvaluanskor | GTYPE>demonym
+tuvaluanskorna | GTYPE>demonym
+taiwanesen | GTYPE>demonym
+taiwaneser | GTYPE>demonym
+taiwaneserna | GTYPE>demonym
+taiwanesiske | GTYPE>demonym
+taiwanesiska | GTYPE>demonym
+taiwanesiskan | GTYPE>demonym
+taiwanesiskor | GTYPE>demonym
+taiwanesiskorna | GTYPE>demonym
+tanzanier | GTYPE>demonym
+tanzaniern | GTYPE>demonym
+tanzanierna | GTYPE>demonym
+tanzaniske | GTYPE>demonym
+tanzaniska | GTYPE>demonym
+tanzaniskan | GTYPE>demonym
+tanzaniskor | GTYPE>demonym
+tanzaniskorna | GTYPE>demonym
+ukrainare | GTYPE>demonym
+ukrainaren | GTYPE>demonym
+ukrainarna | GTYPE>demonym
+ukrainske | GTYPE>demonym
+ukrainska | GTYPE>demonym
+ukrainskan | GTYPE>demonym
+ukrainskor | GTYPE>demonym
+ukrainskorna | GTYPE>demonym
+ugandier | GTYPE>demonym
+ugandiern | GTYPE>demonym
+ugandierna | GTYPE>demonym
+ugandiske | GTYPE>demonym
+ugandiska | GTYPE>demonym
+ugandiskan | GTYPE>demonym
+ugandiskor | GTYPE>demonym
+ugandiskorna | GTYPE>demonym
+amerikanen | GTYPE>demonym
+amerikaner | GTYPE>demonym
+amerikanerna | GTYPE>demonym
+amerikanske | GTYPE>demonym
+amerikanska | GTYPE>demonym
+amerikanskan | GTYPE>demonym
+amerikanskor | GTYPE>demonym
+amerikanskorna | GTYPE>demonym
+uruguayanen | GTYPE>demonym
+uruguayaner | GTYPE>demonym
+uruguayanerna | GTYPE>demonym
+uruguayare | GTYPE>demonym
+uruguayaren | GTYPE>demonym
+uruguayarna | GTYPE>demonym
+uruguayanske | GTYPE>demonym
+uruguayanska | GTYPE>demonym
+uruguayanskan | GTYPE>demonym
+uruguayanskor | GTYPE>demonym
+uruguayanskorna | GTYPE>demonym
+uruguayske | GTYPE>demonym
+uruguayska | GTYPE>demonym
+uruguayskan | GTYPE>demonym
+uruguayskor | GTYPE>demonym
+uruguayskorna | GTYPE>demonym
+uzbekistanier | GTYPE>demonym
+uzbekistaniern | GTYPE>demonym
+uzbekistanierna | GTYPE>demonym
+uzbekistanske | GTYPE>demonym
+uzbekistanska | GTYPE>demonym
+uzbekistanskan | GTYPE>demonym
+uzbekistanskor | GTYPE>demonym
+uzbekistanskorna | GTYPE>demonym
+uzbekiske | GTYPE>demonym
+uzbekiska | GTYPE>demonym
+uzbekiskan | GTYPE>demonym
+uzbekiskor | GTYPE>demonym
+uzbekiskorna | GTYPE>demonym
+från Heliga stolen | GTYPE>demonym
+från Saint Vincent och Grenadinerna | GTYPE>demonym
+venezuelanen | GTYPE>demonym
+venezuelaner | GTYPE>demonym
+venezuelanerna | GTYPE>demonym
+venezolanen | GTYPE>demonym
+venezolaner | GTYPE>demonym
+venezolanerna | GTYPE>demonym
+venezuelanske | GTYPE>demonym
+venezuelanska | GTYPE>demonym
+venezuelanskan | GTYPE>demonym
+venezuelanskor | GTYPE>demonym
+venezuelanskorna | GTYPE>demonym
+venezolanske | GTYPE>demonym
+venezolanska | GTYPE>demonym
+venezolanskan | GTYPE>demonym
+venezolanskor | GTYPE>demonym
+venezolanskorna | GTYPE>demonym
+från Brittiska Jungfruöarna | GTYPE>demonym
+från Amerikanska Jungfruöarna | GTYPE>demonym
+vietnamesen | GTYPE>demonym
+vietnameser | GTYPE>demonym
+vietnameserna | GTYPE>demonym
+vietnamesiske | GTYPE>demonym
+vietnamesiska | GTYPE>demonym
+vietnamesiskan | GTYPE>demonym
+vietnamesiskor | GTYPE>demonym
+vietnamesiskorna | GTYPE>demonym
+vanuatuer | GTYPE>demonym
+vanuatuern | GTYPE>demonym
+vanuatuerna | GTYPE>demonym
+vanuatiske | GTYPE>demonym
+vanuatiska | GTYPE>demonym
+vanuatiskan | GTYPE>demonym
+vanuatiskor | GTYPE>demonym
+vanuatiskorna | GTYPE>demonym
+från Wallis- och Futunaöarna | GTYPE>demonym
+samoanen | GTYPE>demonym
+samoaner | GTYPE>demonym
+samoanerna | GTYPE>demonym
+samoanske | GTYPE>demonym
+samoanska | GTYPE>demonym
+samoanskan | GTYPE>demonym
+samoanskor | GTYPE>demonym
+samoanskorna | GTYPE>demonym
+yemenitem | GTYPE>demonym
+yemeniter | GTYPE>demonym
+yemeniterna | GTYPE>demonym
+yemenitiske | GTYPE>demonym
+yemenitiska | GTYPE>demonym
+yemenitiskan | GTYPE>demonym
+yemenitiskor | GTYPE>demonym
+yemenitiskorna | GTYPE>demonym
+från Mayotte | GTYPE>demonym
+jugoslaven | GTYPE>demonym
+jugoslaver | GTYPE>demonym
+jugoslaverna | GTYPE>demonym
+jugoslaviske | GTYPE>demonym
+jugoslaviska | GTYPE>demonym
+jugoslaviskan | GTYPE>demonym
+jugoslaviskor | GTYPE>demonym
+jugoslaviskorna | GTYPE>demonym
+sydafrikanen | GTYPE>demonym
+sydafrikaner | GTYPE>demonym
+sydafrikanerna | GTYPE>demonym
+sydafrikanske | GTYPE>demonym
+sydafrikanska | GTYPE>demonym
+sydafrikanskan | GTYPE>demonym
+sydafrikanskor | GTYPE>demonym
+sydafrikanskorna | GTYPE>demonym
+zambier | GTYPE>demonym
+zambiern | GTYPE>demonym
+zambierna | GTYPE>demonym
+zambiske | GTYPE>demonym
+zambiska | GTYPE>demonym
+zambiskan | GTYPE>demonym
+zambiskor | GTYPE>demonym
+zambiskorna | GTYPE>demonym
+zimbabwier | GTYPE>demonym
+zimbabwiern | GTYPE>demonym
+zimbabwierna | GTYPE>demonym
+zimbabwiske | GTYPE>demonym
+zimbabwiska | GTYPE>demonym
+zimbabwiskan | GTYPE>demonym
+zimbabwiskor | GTYPE>demonym
+zimbabwiskorna | GTYPE>demonym
+araben | GTYPE>demonym
+araber | GTYPE>demonym
+araberna | GTYPE>demonym
+arabiske | GTYPE>demonym
+arabiska | GTYPE>demonym
+arabiskan | GTYPE>demonym
+arabiskor | GTYPE>demonym
+arabiskorna | GTYPE>demonym
+sunni | GTYPE>demonym
+sunnisk | GTYPE>demonym
+kurdiske | GTYPE>demonym
+kurdiska | GTYPE>demonym
+kurdiskan | GTYPE>demonym
+kurdiskor | GTYPE>demonym
+kurdiskorna | GTYPE>demonym
+sicilianske | GTYPE>demonym
+sicilianska | GTYPE>demonym
+sicilianskan | GTYPE>demonym
+sicilianskor | GTYPE>demonym
+sicilianskorna | GTYPE>demonym
+zigenar | GTYPE>demonym
+zigenare | GTYPE>demonym
+zigenaren | GTYPE>demonym
+zigenarna | GTYPE>demonym
+shia | GTYPE>demonym
+skottske | GTYPE>demonym
+skottska | GTYPE>demonym
+skottskan | GTYPE>demonym
+skottskor | GTYPE>demonym
+skottskorna | GTYPE>demonym
+skotte | GTYPE>demonym
+skotten | GTYPE>demonym
+skottar | GTYPE>demonym
+skottarna | GTYPE>demonym
+engelska | GTYPE>demonym
+engelskan | GTYPE>demonym
+engelske | GTYPE>demonym
+engelsman | GTYPE>demonym
+engelsmannen | GTYPE>demonym
+engelsmännen | GTYPE>demonym
+engelsmän | GTYPE>demonym
+welsiske | GTYPE>demonym
+welsiska | GTYPE>demonym
+welsiskan | GTYPE>demonym
+welsiskor | GTYPE>demonym
+welsiskorna | GTYPE>demonym
+kaliforniske | GTYPE>demonym
+kaliforniska | GTYPE>demonym
+kaliforniskan | GTYPE>demonym
+kaliforniskor | GTYPE>demonym
+kaliforniskorna | GTYPE>demonym
+judiske | GTYPE>demonym
+judiska | GTYPE>demonym
+judiskan | GTYPE>demonym
+judiskor | GTYPE>demonym
+judiskorna | GTYPE>demonym
+jude | GTYPE>demonym
+judar | GTYPE>demonym
+judarna | GTYPE>demonym
+katoliken | GTYPE>demonym
+katoliker | GTYPE>demonym
+katolikerna | GTYPE>demonym
+protestanten | GTYPE>demonym
+protestanter | GTYPE>demonym
+protestanterna | GTYPE>demonym
+hindun | GTYPE>demonym
+hinduer | GTYPE>demonym
+hinduerna | GTYPE>demonym
+muslimen | GTYPE>demonym
+muslimer | GTYPE>demonym
+muslimerna | GTYPE>demonym
+buddisten | GTYPE>demonym
+buddister | GTYPE>demonym
+buddisterna | GTYPE>demonym
+kristen | GTYPE>demonym
+ortodox | GTYPE>demonym
+angosaxiske | GTYPE>demonym
+angosaxiska | GTYPE>demonym
+angosaxiskan | GTYPE>demonym
+angosaxiskor | GTYPE>demonym
+angosaxiskorna | GTYPE>demonym
+afrikanen | GTYPE>demonym
+afrikaner | GTYPE>demonym
+afrikanerna | GTYPE>demonym
+afrikanske | GTYPE>demonym
+afrikanska | GTYPE>demonym
+afrikanskan | GTYPE>demonym
+afrikanskor | GTYPE>demonym
+afrikanskorna | GTYPE>demonym
+asiaten | GTYPE>demonym
+asiater | GTYPE>demonym
+asiaterna | GTYPE>demonym
+asiatiske | GTYPE>demonym
+asiatiska | GTYPE>demonym
+asiatiskan | GTYPE>demonym
+asiatiskor | GTYPE>demonym
+asiatiskorna | GTYPE>demonym
+europen | GTYPE>demonym
+europeer | GTYPE>demonym
+europeerna | GTYPE>demonym
+europeiske | GTYPE>demonym
+europeiska | GTYPE>demonym
+europeiskan | GTYPE>demonym
+europeiskor | GTYPE>demonym
+europeiskorna | GTYPE>demonym
+sydamerikanen | GTYPE>demonym
+sydamerikaner | GTYPE>demonym
+sydamerikanerna | GTYPE>demonym
+sydamerikanske | GTYPE>demonym
+sydamerikanska | GTYPE>demonym
+sydamerikanskan | GTYPE>demonym
+sydamerikanskor | GTYPE>demonym
+sydamerikanskorna | GTYPE>demonym
+nordamerikanen | GTYPE>demonym
+nordamerikaner | GTYPE>demonym
+nordamerikanerna | GTYPE>demonym
+nordamerikanske | GTYPE>demonym
+nordamerikanska | GTYPE>demonym
+nordamerikanskan | GTYPE>demonym
+nordamerikanskor | GTYPE>demonym
+nordamerikanskorna | GTYPE>demonym
+centralamerikanen | GTYPE>demonym
+centralamerikaner | GTYPE>demonym
+centralamerikanerna | GTYPE>demonym
+centralamerikanske | GTYPE>demonym
+centralamerikanska | GTYPE>demonym
+centralamerikanskan | GTYPE>demonym
+centralamerikanskor | GTYPE>demonym
+centralamerikanskorna | GTYPE>demonym
+västerlänningen | GTYPE>demonym
+västerlänningar | GTYPE>demonym
+västerlänningarna | GTYPE>demonym
+västerländske | GTYPE>demonym
+västerländska | GTYPE>demonym
+västerländskan | GTYPE>demonym
+västerländskor | GTYPE>demonym
+västerländskorna | GTYPE>demonym
+mellanöstern | GTYPE>demonym
+karibiske | GTYPE>demonym
+karibiska | GTYPE>demonym
+karibiskan | GTYPE>demonym
+karibiskor | GTYPE>demonym
+karibiskorna | GTYPE>demonym
+serbsike | GTYPE>demonym
+serbsika | GTYPE>demonym
+serbsikan | GTYPE>demonym
+serbsikor | GTYPE>demonym
+serbsikorna | GTYPE>demonym
+rommar | GTYPE>demonym
+rommare | GTYPE>demonym
+rommaren | GTYPE>demonym
+rommarna | GTYPE>demonym
+rom | GTYPE>demonym
+romen | GTYPE>demonym
+romer | GTYPE>demonym
+romerna | GTYPE>demonym
+palestinier | GTYPE>demonym
+palestiniern | GTYPE>demonym
+palestinierna | GTYPE>demonym
+palestinske | GTYPE>demonym
+palestinska | GTYPE>demonym
+palestinskan | GTYPE>demonym
+palestinskor | GTYPE>demonym
+palestinskorna | GTYPE>demonym
+medelhavs | GTYPE>demonym
+tasmaniske | GTYPE>demonym
+tasmaniska | GTYPE>demonym
+tasmaniskan | GTYPE>demonym
+tasmaniskor | GTYPE>demonym
+tasmaniskorna | GTYPE>demonym
+persiske | GTYPE>demonym
+persiska | GTYPE>demonym
+persiskan | GTYPE>demonym
+persiskor | GTYPE>demonym
+persiskorna | GTYPE>demonym
+talibanen | GTYPE>demonym
+talibaner | GTYPE>demonym
+talibanerna | GTYPE>demonym
+tibetanen | GTYPE>demonym
+tibetaner | GTYPE>demonym
+tibetanerna | GTYPE>demonym
+sicilianen | GTYPE>demonym
+sicilianer | GTYPE>demonym
+sicilianerna | GTYPE>demonym
+araben | GTYPE>demonym
+araber | GTYPE>demonym
+araberna | GTYPE>demonym
+afrikanen | GTYPE>demonym
+afrikaner | GTYPE>demonym
+afrikanerna | GTYPE>demonym
+assyrier | GTYPE>demonym
+assyriern | GTYPE>demonym
+assyrierna | GTYPE>demonym
+assyren | GTYPE>demonym
+assyrer | GTYPE>demonym
+assyrerna | GTYPE>demonym
+gregorianen | GTYPE>demonym
+gregorianer | GTYPE>demonym
+gregorianerna | GTYPE>demonym
+från lappland | GTYPE>demonym
+lapplänning | GTYPE>demonym
+lapplänningen | GTYPE>demonym
+lapplänningar | GTYPE>demonym
+lapplänningarna | GTYPE>demonym
+från jämtland | GTYPE>demonym
+jämtlänning | GTYPE>demonym
+jämtlänningen | GTYPE>demonym
+jämtlänningar | GTYPE>demonym
+jämtlänningarna | GTYPE>demonym
+från härjedalen | GTYPE>demonym
+härjedalbo | GTYPE>demonym
+härjedalbon | GTYPE>demonym
+härjedalbor | GTYPE>demonym
+härjedalborna | GTYPE>demonym
+från dalarna | GTYPE>demonym
+dalmas | GTYPE>demonym
+dalmasen | GTYPE>demonym
+dalmasar | GTYPE>demonym
+dalmasarna | GTYPE>demonym
+från västmanland | GTYPE>demonym
+västmanlänning | GTYPE>demonym
+västmanlänningen | GTYPE>demonym
+västmanlänningar | GTYPE>demonym
+västmanlänningarna | GTYPE>demonym
+från värmland | GTYPE>demonym
+värmlänning | GTYPE>demonym
+värmlänningen | GTYPE>demonym
+värmlänningar | GTYPE>demonym
+värmlänningarna | GTYPE>demonym
+värmlandstös | GTYPE>demonym
+värmlandstösen | GTYPE>demonym
+värmlandstöser | GTYPE>demonym
+värmlandstöserna | GTYPE>demonym
+från dalsland | GTYPE>demonym
+dalslänning | GTYPE>demonym
+dalslänningen | GTYPE>demonym
+dalslänningar | GTYPE>demonym
+dalslänningarna | GTYPE>demonym
+från bohuslän | GTYPE>demonym
+bohuslänning | GTYPE>demonym
+bohuslänningen | GTYPE>demonym
+bohuslänningar | GTYPE>demonym
+bohuslänningarna | GTYPE>demonym
+från västergötland | GTYPE>demonym
+västgöt | GTYPE>demonym
+västgöte | GTYPE>demonym
+västgöten | GTYPE>demonym
+västgötar | GTYPE>demonym
+västgötarna | GTYPE>demonym
+från halland | GTYPE>demonym
+hallänning | GTYPE>demonym
+hallänningen | GTYPE>demonym
+hallänningar | GTYPE>demonym
+hallänningarna | GTYPE>demonym
+från småland | GTYPE>demonym
+smålänning | GTYPE>demonym
+smålänningen | GTYPE>demonym
+smålänningar | GTYPE>demonym
+smålänningarna | GTYPE>demonym
+från skåne | GTYPE>demonym
+skåning | GTYPE>demonym
+skåningen | GTYPE>demonym
+skåningar | GTYPE>demonym
+skåningarna | GTYPE>demonym
+från norrbotten | GTYPE>demonym
+norrbottning | GTYPE>demonym
+norrbottningen | GTYPE>demonym
+norrbottningar | GTYPE>demonym
+norrbottningarna | GTYPE>demonym
+från västerbotten | GTYPE>demonym
+västerbottning | GTYPE>demonym
+västerbottningen | GTYPE>demonym
+västerbottningar | GTYPE>demonym
+västerbottningarna | GTYPE>demonym
+från ångermanland | GTYPE>demonym
+från medelpad | GTYPE>demonym
+medelpadbo | GTYPE>demonym
+medelpadbon | GTYPE>demonym
+medelpadbor | GTYPE>demonym
+medelpadborna | GTYPE>demonym
+från hälsingland | GTYPE>demonym
+hälsinglänning | GTYPE>demonym
+hälsinglänningen | GTYPE>demonym
+hälsinglänningar | GTYPE>demonym
+hälsinglänningarna | GTYPE>demonym
+från gästrikland | GTYPE>demonym
+gästriklänning | GTYPE>demonym
+gästriklänningen | GTYPE>demonym
+gästriklänningar | GTYPE>demonym
+gästriklänningarna | GTYPE>demonym
+från uppland | GTYPE>demonym
+upplänning | GTYPE>demonym
+upplänningen | GTYPE>demonym
+upplänningar | GTYPE>demonym
+upplänningarna | GTYPE>demonym
+från södermanland | GTYPE>demonym
+sörmlänning | GTYPE>demonym
+sörmlänningen | GTYPE>demonym
+sörmlänningar | GTYPE>demonym
+sörmlänningarna | GTYPE>demonym
+södermanlänning | GTYPE>demonym
+södermanlänningen | GTYPE>demonym
+södermanlänningar | GTYPE>demonym
+södermanlänningarna | GTYPE>demonym
+från östergötland | GTYPE>demonym
+från gotland | GTYPE>demonym
+gotlänning | GTYPE>demonym
+gotlänningen | GTYPE>demonym
+gotlänningar | GTYPE>demonym
+gotlänningarna | GTYPE>demonym
+från öland | GTYPE>demonym
+från blekinge | GTYPE>demonym
+blekingebo | GTYPE>demonym
+blekingebon | GTYPE>demonym
+blekingebor | GTYPE>demonym
+blekingeborna | GTYPE>demonym
+
+
+österrikare | GTYPE>demonym
+österrikaren | GTYPE>demonym
+österrikarna | GTYPE>demonym
+
+
+
+
+vitryske | GTYPE>demonym
+vitryska | GTYPE>demonym
+vitryskan | GTYPE>demonym
+från närke | GTYPE>demonym
+ångermanlänning | GTYPE>demonym
+ångermanlänningen | GTYPE>demonym
+ångermanlänningar | GTYPE>demonym
+ångermanlänningarna | GTYPE>demonym
+
+ölänning | GTYPE>demonym
+ölänningen | GTYPE>demonym
+ölänningar | GTYPE>demonym
+ölänningarna | GTYPE>demonym
+
+
+
+östgöt | GTYPE>demonym
+östgöte | GTYPE>demonym
+östgöten | GTYPE>demonym
+östgötar | GTYPE>demonym
+östgötarna | GTYPE>demonym
+
+österrikiske | GTYPE>demonym
+österrikiska | GTYPE>demonym 
+österrikisken | GTYPE>demonym
+österrikiskor | GTYPE>demonym
+österrikiskorna | GTYPE>demonym# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_position-sv.txt
+# content : pattern matcher lexicon for english positions
+# author  : Bruno (maud)
+# date	  : February 2013
+# TO BE CHECKED
+# ----------------------------------------
+
+presidenten | GTYPE>position |GSUBTYPE>gov
+presidenter | GTYPE>position |GSUBTYPE>gov
+presidenterna | GTYPE>position |GSUBTYPE>gov
+expresidenten | GTYPE>position |GSUBTYPE>gov
+expresidenter | GTYPE>position |GSUBTYPE>gov
+expresidenterna | GTYPE>position |GSUBTYPE>gov
+ex-presidenten | GTYPE>position |GSUBTYPE>gov
+ex-presidenter | GTYPE>position |GSUBTYPE>gov
+ex-presidenterna | GTYPE>position |GSUBTYPE>gov
+direktören | GTYPE>position |GSUBTYPE>gov
+direktörer | GTYPE>position |GSUBTYPE>gov
+direktörerna | GTYPE>position |GSUBTYPE>gov
+medlemen | GTYPE>position |GSUBTYPE>gov
+medlemar | GTYPE>position |GSUBTYPE>gov
+medlemarna | GTYPE>position |GSUBTYPE>gov
+taleskvinna | GTYPE>position |GSUBTYPE>gov
+taleskvinnor | GTYPE>position |GSUBTYPE>gov
+taleskvinnorna | GTYPE>position |GSUBTYPE>gov
+talesman | GTYPE>position |GSUBTYPE>gov
+talesmannen | GTYPE>position |GSUBTYPE>gov
+talesmän | GTYPE>position |GSUBTYPE>gov
+talesmännen | GTYPE>position |GSUBTYPE>gov
+språkrör | GTYPE>position |GSUBTYPE>gov
+språkröret | GTYPE>position |GSUBTYPE>gov
+språkrören | GTYPE>position |GSUBTYPE>gov
+borgmästare | GTYPE>position |GSUBTYPE>gov
+borgmästaren | GTYPE>position |GSUBTYPE>gov
+borgmästarna | GTYPE>position |GSUBTYPE>gov
+guvernören | GTYPE>position |GSUBTYPE>gov
+guvernörer | GTYPE>position |GSUBTYPE>gov
+guvernörerna | GTYPE>position |GSUBTYPE>gov
+senatorn | GTYPE>position |GSUBTYPE>gov
+senatorer | GTYPE>position |GSUBTYPE>gov
+senatorerna | GTYPE>position |GSUBTYPE>gov
+ambassadör | GTYPE>position |GSUBTYPE>gov
+ambassadören| GTYPE>position |GSUBTYPE>gov
+ambassadörer | GTYPE>position |GSUBTYPE>gov
+ambassadörerna | GTYPE>position |GSUBTYPE>gov
+
+
+minister | GTYPE>position
+ministrar | GTYPE>position
+ministern | GTYPE>position
+ministrarna | GTYPE>position
+
+
+
+chef | GTYPE>position
+chefer | GTYPE>position
+chefen | GTYPE>position
+cheferna | GTYPE>position
+
+
+
+ledare | GTYPE>position
+ledaren | GTYPE>position
+ledararna | GTYPE>position
+
+opositions ledare | GTYPE>position
+opositions ledaren | GTYPE>position
+opositions ledararna | GTYPE>position
+
+
+marinsoldat | GTYPE>position | GSUBTYPE>military
+marinsoldaten | GTYPE>position | GSUBTYPE>military
+kapten | GTYPE>position | GSUBTYPE>military
+kaptenen | GTYPE>position | GSUBTYPE>military
+major | GTYPE>position | GSUBTYPE>military
+majoren | GTYPE>position | GSUBTYPE>military
+löjtnant | GTYPE>position | GSUBTYPE>military
+löjtnanten | GTYPE>position | GSUBTYPE>military
+general | GTYPE>position | GSUBTYPE>military
+generalen | GTYPE>position | GSUBTYPE>military
+sergeant | GTYPE>position | GSUBTYPE>military
+sergeanten | GTYPE>position | GSUBTYPE>military
+amiral | GTYPE>position | GSUBTYPE>military
+amiralen | GTYPE>position | GSUBTYPE>military
+officer | GTYPE>position | GSUBTYPE>military
+officeren | GTYPE>position | GSUBTYPE>military
+korpral | GTYPE>position | GSUBTYPE>military
+korpralen | GTYPE>position | GSUBTYPE>military
+brigadgeneral | GTYPE>position | GSUBTYPE>military
+brigadgeneralen | GTYPE>position | GSUBTYPE>military
+fanjunkare | GTYPE>position | GSUBTYPE>military
+fanjunkaren | GTYPE>position | GSUBTYPE>military
+furir | GTYPE>position | GSUBTYPE>military
+furiren | GTYPE>position | GSUBTYPE>military
+fältmarskalk | GTYPE>position | GSUBTYPE>military
+fältmarskalken | GTYPE>position | GSUBTYPE>military
+fänrik | GTYPE>position | GSUBTYPE>military
+fänriken | GTYPE>position | GSUBTYPE>military
+generalfältmarskalk | GTYPE>position | GSUBTYPE>military
+generalfältmarskalken | GTYPE>position | GSUBTYPE>military
+generallöjtnant | GTYPE>position | GSUBTYPE>military
+generallöjtnanten | GTYPE>position | GSUBTYPE>military
+generalmajor | GTYPE>position | GSUBTYPE>military
+generalmajoren | GTYPE>position | GSUBTYPE>military
+kadett | GTYPE>position | GSUBTYPE>military
+kadetten | GTYPE>position | GSUBTYPE>military
+kapten | GTYPE>position | GSUBTYPE>military
+kaptenen | GTYPE>position | GSUBTYPE>military
+kommendörkapten | GTYPE>position | GSUBTYPE>military
+kommendörkaptenen | GTYPE>position | GSUBTYPE>military
+konteramiral | GTYPE>position | GSUBTYPE>military
+konteramiralen | GTYPE>position | GSUBTYPE>military
+korpral | GTYPE>position | GSUBTYPE>military
+korpralen | GTYPE>position | GSUBTYPE>military
+löjtnant | GTYPE>position | GSUBTYPE>military
+löjtnanten | GTYPE>position | GSUBTYPE>military
+major | GTYPE>position | GSUBTYPE>military
+majoren | GTYPE>position | GSUBTYPE>military
+menig | GTYPE>position | GSUBTYPE>military
+menigen | GTYPE>position | GSUBTYPE>military
+sergeant | GTYPE>position | GSUBTYPE>military
+sergeanten | GTYPE>position | GSUBTYPE>military
+storamiral | GTYPE>position | GSUBTYPE>military
+storamiralen | GTYPE>position | GSUBTYPE>military
+viceamiral | GTYPE>position | GSUBTYPE>military
+viceamiralen | GTYPE>position | GSUBTYPE>military
+örlogskapten%  | GTYPE>position | GSUBTYPE>military
+överfurir% | GTYPE>position | GSUBTYPE>military
+överste_  | GTYPE>position | GSUBTYPE>military
+överstelöjtnant%  | GTYPE>position | GSUBTYPE>military
+
+
+
+
+
+
+affärs | GTYPE>position_domain
+arbets | GTYPE>position_domain
+bostads | GTYPE>position_domain
+civil | GTYPE>position_domain
+ekonomi | GTYPE>position_domain
+energi | GTYPE>position_domain
+finans | GTYPE>position_domain
+försvars | GTYPE>position_domain
+forsknings | GTYPE>position_domain
+förhandlings | GTYPE>position_domain
+handels | GTYPE>position_domain
+hälso | GTYPE>position_domain
+hälsovårds | GTYPE>position_domain
+inrikes | GTYPE>position_domain
+informations | GTYPE>position_domain
+immigrations | GTYPE>position_domain
+integrations | GTYPE>position_domain
+justitie | GTYPE>position_domain
+jämställdhets | GTYPE>position_domain
+jordbruks | GTYPE>position_domain
+kultur | GTYPE>position_domain
+kyrko | GTYPE>position_domain
+kommunikations | GTYPE>position_domain
+lantbruks | GTYPE>position_domain
+miljö | GTYPE>position_domain
+migrations | GTYPE>position_domain
+människorätts | GTYPE>position_domain
+naturresurs | GTYPE>position_domain
+närings | GTYPE>position_domain
+olje | GTYPE>position_domain
+premiär | GTYPE>position_domain
+pensions | GTYPE>position_domain
+primär | GTYPE>position_domain
+propaganda | GTYPE>position_domain
+provins | GTYPE>position_domain
+polis | GTYPE>position_domain
+reform | GTYPE>position_domain
+regions | GTYPE>position_domain
+stats | GTYPE>position_domain
+stads | GTYPE>position_domain
+säkerhets | GTYPE>position_domain
+sport | GTYPE>position_domain
+social | GTYPE>position_domain
+sjukvårds | GTYPE>position_domain
+super | GTYPE>position_domain
+transport | GTYPE>position_domain
+telekom | GTYPE>position_domain
+utrikes | GTYPE>position_domain
+utbildnings | GTYPE>position_domain
+utvecklings | GTYPE>position_domain
+underrättelse | GTYPE>position_domain
+värfärds | GTYPE>position_domain
+återförenings | GTYPE>position_domain
+
+
+asien | GTYPE>position_domain
+amerika | GTYPE>position_domain
+analys | GTYPE>position_domain
+armé | GTYPE>position_domain
+centralbanks | GTYPE>position_domain
+civilförsvars | GTYPE>position_domain
+design | GTYPE>position_domain
+delegations | GTYPE>position_domain
+exekutiv | GTYPE>position_domain
+ekonomi | GTYPE>position_domain
+ericsson | GTYPE>position_domain
+europa | GTYPE>position_domain
+flyg | GTYPE>position_domain
+fotbolls | GTYPE>position_domain
+försvars | GTYPE>position_domain
+generalstabs | GTYPE>position_domain
+hotell | GTYPE>position_domain
+informations | GTYPE>position_domain
+katastrofbistånds | GTYPE>position_domain
+kommunistparti | GTYPE>position_domain
+koncern | GTYPE>position_domain
+koncern | GTYPE>position_domain
+marknads | GTYPE>position_domain
+multimedia | GTYPE>position_domain
+parti | GTYPE>position_domain
+press | GTYPE>position_domain
+personal | GTYPE>position_domain
+polis | GTYPE>position_domain
+regerings | GTYPE>position_domain
+rikspolis | GTYPE>position_domain
+riksbanks | GTYPE>position_domain
+samordnings | GTYPE>position_domain
+stabs | GTYPE>position_domain
+stall | GTYPE>position_domain
+sport | GTYPE>position_domain
+stats | GTYPE>position_domain
+stads | GTYPE>position_domain
+säkerhets | GTYPE>position_domain
+sälj | GTYPE>position_domain
+värvnings | GTYPE>position_domain
+världsbanks | GTYPE>position_domain
+
+
+
+
+
+
+
+
+
+
+
+# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_profession-sv.txt
+# content : PM lexicon for English profession  names
+# date	  : February 2012
+# author  : (B. Pouliquen), (maud)
+# TO BE CHECKED
+# ----------------------------------------
+
+domaren | GTYPE>profession
+domare | GTYPE>profession
+domararna | GTYPE>profession
+manager | GTYPE>profession
+managern | GTYPE>profession
+managerna | GTYPE>profession
+stjärna | GTYPE>profession
+stjärnan | GTYPE>profession
+stjärnor | GTYPE>profession
+stjärnorna | GTYPE>profession
+representanten | GTYPE>profession
+representanter | GTYPE>profession
+representanterna | GTYPE>profession
+korrespondenten | GTYPE>profession
+korrespondenter | GTYPE>profession
+korrespondenterna | GTYPE>profession
+representanten | GTYPE>profession
+representanter | GTYPE>profession
+representanterna | GTYPE>profession
+åklagar | GTYPE>profession
+åklagare | GTYPE>profession
+åklagaren | GTYPE>profession
+åklagarna | GTYPE>profession
+ägar | GTYPE>profession
+ägare | GTYPE>profession
+ägaren | GTYPE>profession
+ägarna | GTYPE>profession
+rivalen | GTYPE>profession
+rivaler | GTYPE>profession
+rivalerna | GTYPE>profession
+exerten | GTYPE>profession
+exerter | GTYPE>profession
+exerterna | GTYPE>profession
+boss | GTYPE>profession 
+bossen | GTYPE>profession 
+kommissionären | GTYPE>profession
+kommissionärer | GTYPE>profession
+kommissionärerna | GTYPE>profession
+kandidaten | GTYPE>profession
+kandidater | GTYPE>profession
+kandidaterna | GTYPE>profession
+grundare | GTYPE>profession
+grundaren | GTYPE>profession
+grundarna | GTYPE>profession
+partner | GTYPE>profession 
+partnern | GTYPE>profession 
+författare | GTYPE>profession
+författaren | GTYPE>profession
+författarna | GTYPE>profession
+reporter | GTYPE>profession
+reportern | GTYPE>profession
+reportrar | GTYPE>profession
+reportrarna | GTYPE>profession
+rådgivare | GTYPE>profession
+rådgivaren | GTYPE>profession
+rådgivarna | GTYPE>profession
+skådespelare | GTYPE>profession
+skådespelaren | GTYPE>profession
+skådespelarna | GTYPE>profession
+sångare | GTYPE>profession
+sångaren | GTYPE>profession
+sångarna | GTYPE>profession
+superindendenten | GTYPE>profession
+superindendenter | GTYPE>profession
+superindendenterna | GTYPE>profession
+inspektören | GTYPE>profession
+inspektörer | GTYPE>profession
+inspektörerna | GTYPE>profession
+talare | GTYPE>profession
+talaren | GTYPE>profession
+talarna | GTYPE>profession
+misstänkt | GTYPE>profession
+misstänkte | GTYPE>profession
+misstänkta | GTYPE>profession
+studenten | GTYPE>profession
+studenter | GTYPE>profession
+studenterna | GTYPE>profession
+vinnare | GTYPE>profession
+vinnaren | GTYPE>profession
+vinnarna | GTYPE>profession
+skådespelerska | GTYPE>profession
+skådespelerskor | GTYPE>profession
+skådespelerskorna | GTYPE>profession
+republikanen | GTYPE>profession
+republikaner | GTYPE>profession
+republikanerna | GTYPE>profession
+agenten | GTYPE>profession
+agenter | GTYPE>profession
+agenterna | GTYPE>profession
+aktivisten | GTYPE>profession
+aktivister | GTYPE>profession
+aktivisterna | GTYPE>profession
+ärkebiskop | GTYPE>profession
+ärkebiskopen | GTYPE>profession
+ärkebiskopar | GTYPE>profession
+ärkebiskoparna | GTYPE>profession
+ledare | GTYPE>profession
+ledaren | GTYPE>profession
+ledarna | GTYPE>profession
+chauffören | GTYPE>profession
+chaufförer | GTYPE>profession
+chaufförerna | GTYPE>profession
+producenten | GTYPE>profession
+producenter | GTYPE>profession
+producenterna | GTYPE>profession
+affärsman | GTYPE>profession
+affärsmannen | GTYPE>profession
+affärsmän | GTYPE>profession
+affärsmännen | GTYPE>profession
+kardinalen | GTYPE>profession
+kardinaler | GTYPE>profession
+kardinalerna | GTYPE>profession
+biskopen | GTYPE>profession
+biskopar | GTYPE>profession
+biskoparna | GTYPE>profession
+försvarare | GTYPE>profession
+försvararen | GTYPE>profession
+försvararna | GTYPE>profession
+vetenskapsman | GTYPE>profession
+vetenskapsmannen | GTYPE>profession
+vetenskapsmännen | GTYPE>profession
+vetenskapsmän | GTYPE>profession
+demokraten | GTYPE>profession
+demokrater | GTYPE>profession
+demokraterna | GTYPE>profession
+medlemen | GTYPE>profession
+medlemmar | GTYPE>profession
+medlemmarna | GTYPE>profession
+statssekreterare | GTYPE>profession
+statssekreteraren | GTYPE>profession
+statssekreterarna | GTYPE>profession
+specialisten | GTYPE>profession
+specialister | GTYPE>profession
+specialisterna | GTYPE>profession
+offer | GTYPE>profession
+offret | GTYPE>profession
+offren | GTYPE>profession
+spelare | GTYPE>profession
+spelaren | GTYPE>profession
+spelarna | GTYPE>profession
+tränare | GTYPE>profession
+tränaren | GTYPE>profession
+tränarna | GTYPE>profession
+politiker | GTYPE>profession
+politikern | GTYPE>profession
+politikerna | GTYPE>profession
+förbundskansler | GTYPE>profession
+administratören | GTYPE>profession
+administratörer | GTYPE>profession
+administratörerna | GTYPE>profession
+koordinatorn | GTYPE>profession
+koordinatorer | GTYPE>profession
+koordinatorerna | GTYPE>profession
+efterträdare | GTYPE>profession
+efterträdaren | GTYPE>profession
+efterträdarna | GTYPE>profession
+allierad | GTYPE>profession 
+allierade | GTYPE>profession 
+anställd | GTYPE>profession
+anställde | GTYPE>profession
+anställda | GTYPE>profession
+sheriffen | GTYPE>profession
+sheriffer | GTYPE>profession
+sherifferna | GTYPE>profession
+kolumnisten | GTYPE>profession
+kolumnister | GTYPE>profession
+kolumnisterna | GTYPE>profession
+kommentatorn | GTYPE>profession
+kommentatorer | GTYPE>profession
+kommentatorerna | GTYPE>profession
+försvarsadvokaten | GTYPE>profession
+försvarsadvokater | GTYPE>profession
+försvarsadvokaterna | GTYPE>profession
+strategen | GTYPE>profession
+strateger | GTYPE>profession
+strategerna | GTYPE>profession
+författare | GTYPE>profession
+författaren | GTYPE>profession
+författarna | GTYPE>profession
+advokaten | GTYPE>profession
+advokater | GTYPE>profession
+advokaterna | GTYPE>profession
+utgivare | GTYPE>profession
+utgivaren | GTYPE>profession
+utgivarna | GTYPE>profession
+representanten | GTYPE>profession
+representanter | GTYPE>profession
+representanterna | GTYPE>profession
+rådgivare | GTYPE>profession
+rådgivaren | GTYPE>profession
+rådgivarna | GTYPE>profession
+rebellen | GTYPE>profession
+rebeller | GTYPE>profession
+rebellerna | GTYPE>profession
+artist | GTYPE>profession
+artisten | GTYPE>profession
+artister | GTYPE>profession
+artisterna | GTYPE>profession
+rap-artist | GTYPE>profession
+rap-artisten | GTYPE>profession
+rap-artister | GTYPE>profession
+rap-artisterna | GTYPE>profession
+komiker | GTYPE>profession
+komikern | GTYPE>profession
+komikerna | GTYPE>profession
+förhandlare | GTYPE>profession
+förhandlaren | GTYPE>profession
+förhandlarna | GTYPE>profession
+diplomaten | GTYPE>profession
+diplomater | GTYPE>profession
+diplomaterna | GTYPE>profession
+historikern | GTYPE>profession
+historikerer | GTYPE>profession
+historikererna | GTYPE>profession
+vittnet | GTYPE>profession
+vittnen | GTYPE>profession
+vittnena | GTYPE>profession
+konsumenten | GTYPE>profession
+konsumenter | GTYPE>profession
+konsumenterna | GTYPE>profession
+designer | GTYPE>profession
+designern | GTYPE>profession
+designerna | GTYPE>profession
+organisatören | GTYPE>profession
+organisatörer | GTYPE>profession
+organisatörerna | GTYPE>profession
+fånge | GTYPE>profession
+fången | GTYPE>profession
+fångar | GTYPE>profession
+fångarna | GTYPE>profession
+utredare | GTYPE>profession
+utredaren | GTYPE>profession
+utredarna | GTYPE>profession
+terrorist | GTYPE>profession
+terroristen | GTYPE>profession
+terrorister | GTYPE>profession
+terroristerna | GTYPE>profession
+miljardären | GTYPE>profession
+miljardärer | GTYPE>profession
+miljardärerna | GTYPE>profession
+diktatorn | GTYPE>profession
+diktatorer | GTYPE>profession
+diktatorerna | GTYPE>profession
+mästare | GTYPE>profession
+mästaren | GTYPE>profession
+mästarna | GTYPE>profession
+psykologen | GTYPE>profession
+psykologer | GTYPE>profession
+psykologerna | GTYPE>profession
+turisten | GTYPE>profession
+turister | GTYPE>profession
+turisterna | GTYPE>profession
+musiker | GTYPE>profession
+musikern | GTYPE>profession
+musikerna | GTYPE>profession
+analytiker | GTYPE>profession
+analytikern | GTYPE>profession
+analytikerna | GTYPE>profession
+motståndare | GTYPE>profession
+motståndaren | GTYPE>profession
+motståndarna | GTYPE>profession
+expert | GTYPE>profession
+experten | GTYPE>profession
+experter | GTYPE>profession
+experterna | GTYPE>profession
+vatikanexpert | GTYPE>profession
+vatikanexperten | GTYPE>profession
+vatikanexperter | GTYPE>profession
+vatikanexperterna | GTYPE>profession
+skaparen | GTYPE>profession
+skaparen | GTYPE>profession
+skaparna | GTYPE>profession
+rebelledare | GTYPE>profession
+rebelledaren | GTYPE>profession
+rebelledarna | GTYPE>profession
+socialisten | GTYPE>profession
+socialister | GTYPE>profession
+socialisterna | GTYPE>profession
+övervakar | GTYPE>profession
+övervakare | GTYPE>profession
+övervakaren | GTYPE>profession
+övervakarna | GTYPE>profession
+kollega | GTYPE>profession
+kollegan | GTYPE>profession
+kollegor | GTYPE>profession
+kollegorna | GTYPE>profession
+kontrollören | GTYPE>profession
+kontrollörer | GTYPE>profession
+kontrollörerna | GTYPE>profession
+finansiären | GTYPE>profession
+finansiärer | GTYPE>profession
+finansiärerna | GTYPE>profession
+patriarken | GTYPE>profession
+patriarker | GTYPE>profession
+patriarkerna | GTYPE>profession
+gisslan | GTYPE>profession
+karaktären | GTYPE>profession
+karaktärer | GTYPE>profession
+karaktärerna | GTYPE>profession
+kunden | GTYPE>profession
+kunder | GTYPE>profession
+kunderna | GTYPE>profession
+passagerare | GTYPE>profession
+passageraren | GTYPE>profession
+passagerarna | GTYPE>profession
+pionjären | GTYPE>profession
+pionjärer | GTYPE>profession
+pionjärerna | GTYPE>profession
+poeten | GTYPE>profession
+poeter | GTYPE>profession
+poeterna | GTYPE>profession
+mördare | GTYPE>profession
+mördaren | GTYPE>profession
+mördarna | GTYPE>profession
+åskådar | GTYPE>profession
+åskådare | GTYPE>profession
+åskådaren | GTYPE>profession
+åskådarna | GTYPE>profession
+frivillig | GTYPE>profession 
+frivilliga | GTYPE>profession 
+investerare | GTYPE>profession
+investeraren | GTYPE>profession
+investerarna | GTYPE>profession
+väljare | GTYPE>profession
+väljaren | GTYPE>profession
+väljarna | GTYPE>profession
+rådgivare | GTYPE>profession
+rådgivaren | GTYPE>profession
+rådgivarna | GTYPE>profession
+trumslagare | GTYPE>profession
+trumslagaren | GTYPE>profession
+trumslagarna | GTYPE>profession
+extremisten | GTYPE>profession
+extremister | GTYPE>profession
+extremisterna | GTYPE>profession
+separatisten | GTYPE>profession
+separatister | GTYPE>profession
+separatisterna | GTYPE>profession
+supporter | GTYPE>profession
+supportern | GTYPE>profession
+supportrar | GTYPE>profession
+supportrarna | GTYPE>profession
+fundamentalisten | GTYPE>profession
+fundamentalister | GTYPE>profession
+fundamentalisterna | GTYPE>profession
+arvtagare | GTYPE>profession
+arvtagaren | GTYPE>profession
+arvtagarna | GTYPE>profession
+pistolman | GTYPE>profession
+pistolmannen | GTYPE>profession
+pistolmän | GTYPE>profession
+pistolmännen | GTYPE>profession
+filosofen | GTYPE>profession
+filosofer | GTYPE>profession
+filosoferna | GTYPE>profession
+dansare | GTYPE>profession
+dansaren | GTYPE>profession
+dansarna | GTYPE>profession
+försvarare | GTYPE>profession
+försvararen | GTYPE>profession
+försvararna | GTYPE>profession
+socialistledare | GTYPE>profession
+socialistledaren | GTYPE>profession
+socialistledarna | GTYPE>profession
+arbetsgivare | GTYPE>profession
+arbetsgivaren | GTYPE>profession
+arbetsgivarna | GTYPE>profession
+underhållare | GTYPE>profession
+underhållaren | GTYPE>profession
+underhållarna | GTYPE>profession
+film-)*makar(e | GTYPE>profession | STRICT > (?i:film-)*makar(e)
+filmen | GTYPE>profession
+filmna | GTYPE>profession
+affärskvinna | GTYPE>profession
+affärskvinnor | GTYPE>profession
+affärskvinnorna | GTYPE>profession
+mästare | GTYPE>profession
+mästaren | GTYPE>profession
+mästarna | GTYPE>profession
+pensionären | GTYPE>profession
+pensionärer | GTYPE>profession
+pensionärerna | GTYPE>profession
+arkeologen | GTYPE>profession
+arkeologer | GTYPE>profession
+arkeologerna | GTYPE>profession
+boxare | GTYPE>profession
+boxaren | GTYPE>profession
+boxarna | GTYPE>profession
+kompositören | GTYPE>profession
+kompositörer | GTYPE>profession
+kompositörerna | GTYPE>profession
+partisan | GTYPE>profession
+partisanen | GTYPE>profession
+partisaner | GTYPE>profession
+partisanerna | GTYPE>profession
+icke-partisan | GTYPE>profession
+icke-partisanen | GTYPE>profession
+icke-partisaner | GTYPE>profession
+icke-partisanerna | GTYPE>profession
+bankman | GTYPE>profession
+bankmannen | GTYPE>profession
+bankmän | GTYPE>profession
+bankmännen | GTYPE>profession
+föreläsare | GTYPE>profession
+föreläsaren | GTYPE>profession
+föreläsarna | GTYPE>profession
+martyren | GTYPE>profession
+martyrer | GTYPE>profession
+martyrerna | GTYPE>profession
+dissidenten | GTYPE>profession
+dissidenter | GTYPE>profession
+dissidenterna | GTYPE>profession
+fiskare | GTYPE>profession
+fiskaren | GTYPE>profession
+fiskarna | GTYPE>profession
+grundare | GTYPE>profession
+grundaren | GTYPE>profession
+grundarna | GTYPE>profession
+gangster | GTYPE>profession 
+gangstern | GTYPE>profession 
+koreografen | GTYPE>profession
+koreografer | GTYPE>profession
+koreograferna | GTYPE>profession
+rektorn | GTYPE>profession
+rektorer | GTYPE>profession
+rektorerna | GTYPE>profession
+filantropen | GTYPE>profession
+filantroper | GTYPE>profession
+filantroperna | GTYPE>profession
+våldtäktsman | GTYPE>profession
+våldtäktsmannen | GTYPE>profession
+våldtäktsmän | GTYPE>profession
+våldtäktsmännen | GTYPE>profession
+sjöman | GTYPE>profession
+sjömannen | GTYPE>profession
+sjömän | GTYPE>profession
+sjömännen | GTYPE>profession
+resenären | GTYPE>profession
+resenärer | GTYPE>profession
+resenärerna | GTYPE>profession
+sparekonom | GTYPE>profession
+
+
+professor  | GTYPE>profession
+professorn | GTYPE>profession
+professorer | GTYPE>profession
+professorerna | GTYPE>profession
+
+
+juridik  | GTYPE>profession_modifier   | GSUBTYPE>education
+ekonomi | GTYPE>profession_modifier   | GSUBTYPE>education
+lingvistik | GTYPE>profession_modifier   | GSUBTYPE>education
+filosofi | GTYPE>profession_modifier   | GSUBTYPE>education
+psykologi | GTYPE>profession_modifier   | GSUBTYPE>education
+fysik | GTYPE>profession_modifier   | GSUBTYPE>education
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_qualification-sv.txt
+# content : PM lexicon for person name qualifications
+# date	  : February 2013
+# author  :  B. Pouliquen, (M. Ehrmann)
+# *********
+# TO BE REVISED
+#**********************************************
+
+andra | GTYPE>xxpersQualif
+andre | GTYPE>persQualif
+besviken | GTYPE>persQualif
+besvikna | GTYPE>persQualif
+blond | GTYPE>persQualif
+brunett | GTYPE>persQualif
+bäst | GTYPE>persQualif
+bästa | GTYPE>persQualif
+bäste | GTYPE>persQualif
+central | GTYPE>persQualif
+centrala | GTYPE>persQualif
+demokratisk | GTYPE>persQualif
+demokratiska | GTYPE>persQualif
+fascistisk | GTYPE>persQualif
+fascistiska | GTYPE>persQualif
+fascistiske | GTYPE>persQualif
+feberfri | GTYPE>persQualif
+feberfria | GTYPE>persQualif
+feberfrie | GTYPE>persQualif
+femte | GTYPE>persQualif
+frekvent | GTYPE>persQualif
+frekventa | GTYPE>persQualif
+främlingsfientlig | GTYPE>persQualif
+främlingsfientliga | GTYPE>persQualif
+främlingsfientlige | GTYPE>persQualif
+förra | GTYPE>persQualif
+förre | GTYPE>persQualif
+först | GTYPE>persQualif
+första | GTYPE>persQualif
+förste | GTYPE>persQualif
+gravid | GTYPE>persQualif
+gravida | GTYPE>persQualif
+gravide | GTYPE>persQualif
+högst | GTYPE>persQualif
+högsta | GTYPE>persQualif
+högste | GTYPE>persQualif
+internationell | GTYPE>persQualif
+internationella | GTYPE>persQualif
+internationellt | GTYPE>persQualif
+kulturella | GTYPE>persQualif
+kulturellt | GTYPE>persQualif
+kvinnlig | GTYPE>persQualif
+liten | GTYPE>persQualif
+litet | GTYPE>persQualif
+lita | GTYPE>persQualif
+ljudhyad | GTYPE>persQualif
+ljudhyade | GTYPE>persQualif
+ljushårig | GTYPE>persQualif
+ljushåriga | GTYPE>persQualif
+manlig | GTYPE>persQualif
+medicinsk | GTYPE>persQualif
+medicinska | GTYPE>persQualif
+militär | GTYPE>persQualif
+militära | GTYPE>persQualif
+militärt | GTYPE>persQualif
+mindre | GTYPE>persQualif
+minst | GTYPE>persQualif
+mörkhyad | GTYPE>persQualif
+mörkhyade | GTYPE>persQualif
+mörkhårig | GTYPE>persQualif
+mörkhåriga | GTYPE>persQualif
+nionde | GTYPE>persQualif
+ny | GTYPE>persQualif
+nya | GTYPE>persQualif
+nyaste | GTYPE>persQualif
+pensionerad | GTYPE>persQualif
+republikansk | GTYPE>persQualif
+republikanska | GTYPE>persQualif
+revanschlysten | GTYPE>persQualif
+revanschlystna | GTYPE>persQualif
+senior | GTYPE>persQualif
+seniora | GTYPE>persQualif
+seniore | GTYPE>persQualif
+sjunde | GTYPE>persQualif
+stor | GTYPE>persQualif
+stora | GTYPE>persQualif
+stort | GTYPE>persQualif
+tionde | GTYPE>persQualif
+tredje | GTYPE>persQualif
+ung | GTYPE>persQualif
+unga | GTYPE>persQualif
+ungt | GTYPE>persQualif
+utländsk | GTYPE>persQualif
+utländska | GTYPE>persQualif
+vic | GTYPE>persQualif
+vice | GTYPE>persQualif
+
+
+separatist | GTYPE>persQualif
+student | GTYPE>persQualif
+dissident | GTYPE>persQualif
+
+
+socialdemokraten | GTYPE>persQualif
+socialdemokrater | GTYPE>persQualif
+socialdemokraterna | GTYPE>persQualif
+socialdemokraternas | GTYPE>persQualif
+kristdemokraten | GTYPE>persQualif
+kristdemokrater | GTYPE>persQualif
+kristdemokraterna | GTYPE>persQualif
+kristdemokraternas | GTYPE>persQualif
+centerpartiets | GTYPE>persQualif
+centerpartisten | GTYPE>persQualif
+centerpartister | GTYPE>persQualif
+centerpartisterna | GTYPE>persQualif
+centerpartisternas | GTYPE>persQualif
+moderaten | GTYPE>persQualif
+moderater | GTYPE>persQualif
+moderaterna | GTYPE>persQualif
+moderaternas | GTYPE>persQualif
+miljöpartiets | GTYPE>persQualif
+miljöpartisten | GTYPE>persQualif
+miljöpartister | GTYPE>persQualif
+miljöpartisterna | GTYPE>persQualif
+miljöpartisternas | GTYPE>persQualif
+vänsterpartiets | GTYPE>persQualif
+vänsterpartisten | GTYPE>persQualif
+vänsterpartister | GTYPE>persQualif
+vänsterpartisterna | GTYPE>persQualif
+vänsterpartisternas | GTYPE>persQualif
+folkpartiets | GTYPE>persQualif
+folkpartisten | GTYPE>persQualif
+folkpartister | GTYPE>persQualif
+folkpartisterna | GTYPE>persQualif
+folkpartisternas | GTYPE>persQualif
+sverigedemokraten| GTYPE>persQualif
+sverigedemokrater | GTYPE>persQualif
+sverigedemokraterna | GTYPE>persQualif
+sverigedemokraternas | GTYPE>persQualif
+
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_title-sv.txt
+# content : PM lexicon for swedish title names
+# date	  : February 2013
+# author  : bruno (maud)
+#**********************************************
+
+
+kron baron | GTYPE>title
+baronen | GTYPE>title
+baroner | GTYPE>title
+baronerna | GTYPE>title
+baronessa | GTYPE>title
+baronessan | GTYPE>title
+baronessor | GTYPE>title
+baronessorna | GTYPE>title
+friherre | GTYPE>title
+friherren | GTYPE>title
+friherrar | GTYPE>title
+friherrarna | GTYPE>title
+friherrinna | GTYPE>title
+friherrinnan | GTYPE>title
+friherrinnor | GTYPE>title
+friherrinnorna | GTYPE>title
+kung | GTYPE>title
+kungen | GTYPE>title
+kungar | GTYPE>title
+kungarna | GTYPE>title
+drottning | GTYPE>title
+drottningen | GTYPE>title
+drottningar | GTYPE>title
+drottningarna | GTYPE>title
+prinsessa | GTYPE>title
+prinsessan | GTYPE>title
+prinsessor| GTYPE>title
+prinsessorna | GTYPE>title
+kron prinsessa | GTYPE>title
+kron prinsessan | GTYPE>title
+kron prinsessor| GTYPE>title
+kron prinsessorna | GTYPE>title
+kron prins | GTYPE>title
+kron prinsen| GTYPE>title
+kron prinsar | GTYPE>title
+kron prinsarna | GTYPE>title
+prins | GTYPE>title
+prinsen| GTYPE>title
+prinsar | GTYPE>title
+prinsarna | GTYPE>title
+drottningmoder| GTYPE>title
+drottningmodern| GTYPE>title
+emir | GTYPE>title
+emiren | GTYPE>title
+emirer | GTYPE>title
+emirerna | GTYPE>title
+sultan | GTYPE>title
+sultanen | GTYPE>title
+sultaner | GTYPE>title
+sultanerna | GTYPE>title
+herr | GTYPE>title
+fru | GTYPE>title
+doktor | GTYPE>title
+dr | GTYPE>title
+prof | GTYPE>title
+professor | GTYPE>title
+hans höghet | GTYPE>title
+hennes höghet | GTYPE>title
+sen | GTYPE>title
+guv | GTYPE>title
+gen | GTYPE>title
+sir | GTYPE>title
+mrs | GTYPE>title
+ms | GTYPE>title
+miss | GTYPE>title
+pappa | GTYPE>title 
+pappan | GTYPE>title 
+far | GTYPE>title
+fader | GTYPE>title 
+fadern | GTYPE>title 
+mamma | GTYPE>title 
+mamman | GTYPE>title 
+mor | GTYPE>title
+moder | GTYPE>title 
+modern | GTYPE>title 
+fru | GTYPE>title 
+frun | GTYPE>title 
+son | GTYPE>title 
+sonen | GTYPE>title 
+bror | GTYPE>title
+brodern| GTYPE>title
+bröderna | GTYPE>title
+syster | GTYPE>title
+systern | GTYPE>title
+systrarna | GTYPE>title
+flickvän | GTYPE>title 
+flickvännen | GTYPE>title 
+pojkvän | GTYPE>title 
+pojkvännen | GTYPE>title 
+farfar | GTYPE>title
+farfadern | GTYPE>title
+farfäder | GTYPE>title
+farfäderna | GTYPE>title
+morfar | GTYPE>title
+morfadern | GTYPE>title
+morfäder | GTYPE>title
+morfäderna | GTYPE>title
+farmor | GTYPE>title
+farmodern | GTYPE>title
+farmödrar | GTYPE>title
+farmödrarna | GTYPE>title
+mormor | GTYPE>title
+mormodern | GTYPE>title
+mormödrar | GTYPE>title
+mormödrarna | GTYPE>title
+farbror | GTYPE>title 
+farbrorn | GTYPE>title 
+farbröder | GTYPE>title 
+farbröderna | GTYPE>title 
+morbror | GTYPE>title 
+morbrorn | GTYPE>title 
+morbröder | GTYPE>title 
+morbröderna | GTYPE>title 
+tant | GTYPE>title 
+tanten | GTYPE>title 
+moster | GTYPE>title 
+mostern | GTYPE>title 
+faster | GTYPE>title 
+fastern | GTYPE>title 
+svåger | GTYPE>title 
+svågern | GTYPE>title 
+svågrar | GTYPE>title 
+svågrarna | GTYPE>title 
+dotter | GTYPE>title 
+dottern | GTYPE>title 
+döttrar | GTYPE>title 
+döttrarna | GTYPE>title 
+fästman | GTYPE>title 
+fästmannen | GTYPE>title 
+söner | GTYPE>title 
+sönerna | GTYPE>title 
+svärfar | GTYPE>title 
+svärfarn | GTYPE>title 
+svärfader | GTYPE>title 
+svärfadern | GTYPE>title 
+fästmö | GTYPE>title 
+fästmön | GTYPE>title 
+mödrar | GTYPE>title 
+mödrarna | GTYPE>title 
+mammor | GTYPE>title 
+mammorna | GTYPE>title 
+fäder | GTYPE>title 
+fäderna | GTYPE>title 
+pappor | GTYPE>title 
+papporna | GTYPE>title 
+svägerska | GTYPE>title 
+svägerskan | GTYPE>title 
+svägerskor | GTYPE>title 
+svägerskorna | GTYPE>title 
+matriarken | GTYPE>title
+matriarker | GTYPE>title
+matriarkerna | GTYPE>title
+patriarken | GTYPE>title
+patriarker | GTYPE>title
+patriarkerna | GTYPE>title
+änkan | GTYPE>title
+änkor | GTYPE>title
+änkorna | GTYPE>title
+änklingen | GTYPE>title
+änklingar | GTYPE>title
+änklingarna | GTYPE>title
+föräldralös | GTYPE>title 
+föräldralösa | GTYPE>title 
+född | GTYPE>title 
+födda | GTYPE>title 
+pensionären | GTYPE>title
+pensionärer | GTYPE>title
+pensionärerna | GTYPE>title
+tonåringen | GTYPE>title
+tonåringar | GTYPE>title
+tonåringarna | GTYPE>title
+sjukpensionärer | GTYPE>title
+sjukpensionärerna | GTYPE>title
+sjukpensionären | GTYPE>title
+vänen | GTYPE>title
+väner | GTYPE>title
+vänerna | GTYPE>title
+kamraten | GTYPE>title
+kamrater | GTYPE>title
+kamraterna | GTYPE>title
+kompisen | GTYPE>title
+kompisar | GTYPE>title
+kompisarna | GTYPE>title
+kompanjonen | GTYPE>title
+kompanjoner | GTYPE>title
+kompanjonerna | GTYPE>title

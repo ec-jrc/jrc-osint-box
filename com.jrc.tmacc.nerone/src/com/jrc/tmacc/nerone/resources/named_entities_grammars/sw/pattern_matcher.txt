@@ -1,0 +1,3067 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-sw.txt
+# content : PM lexicon for grammatical units (Swahili)
+# date	  : February 2013
+# author  :  Sylvia Ombuya (M. Ehrmann)
+#**********************************************
+
+
+na | GTYPE>coordination
+
+
+
+la | GTYPE> prep_for_position 
+ya | GTYPE> prep_for_position 
+cha | GTYPE> prep_for_position 
+wa | GTYPE> prep_for_position 
+za | GTYPE> prep_for_position 
+
+
+
+# articles
+yule| GTYPE>article
+huu| GTYPE>article
+hili| GTYPE>article
+ule| GTYPE>article
+ile| GTYPE>article
+hivyo| GTYPE>article
+lile| GTYPE>article
+yale| GTYPE>article
+vile| GTYPE>article
+zile| GTYPE>article
+
+# possessive
+# (coded as articles for simplicity)
+
+lake| GTYPE>article
+yake| GTYPE>article
+yao| GTYPE>article
+zao| GTYPE>article
+lao| GTYPE>article
+wake| GTYPE>article
+ya| GTYPE>article
+kwake| GTYPE>article
+kwetu| GTYPE>article
+kwenyu| GTYPE>article
+cha| GTYPE>article
+vya| GTYPE>article
+za| GTYPE>article
+wa| GTYPE>article
+huyo| GTYPE>article#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# orgapart names for Swahili
+# Resource done by S. Ombuya
+# Maud: conversion + cleaning. Feb 2013
+#**********************************************
+
+
+& co | GTYPE>org_ending
+& Co | GTYPE>org_ending
+& co. | GTYPE>org_ending | STRICT > (?i:& co\.)
+& Co. | GTYPE>org_ending | STRICT > (?i:& Co\.)
+& son | GTYPE>org_ending
+& Son | GTYPE>org_ending
+& son. | GTYPE>org_ending | STRICT > (?i:& son\.)
+& Son. | GTYPE>org_ending | STRICT > (?i:& Son\.)
+& sons | GTYPE>org_ending
+& Sons | GTYPE>org_ending
+& sons. | GTYPE>org_ending | STRICT > (?i:& sons\.)
+& Sons. | GTYPE>org_ending | STRICT > (?i:& Sons\.)
+&amp; co | GTYPE>org_ending | STRICT > (?i:&amp; co)
+&amp; Co | GTYPE>org_ending | STRICT > (?i:&amp; Co)
+&amp; co. | GTYPE>org_ending | STRICT > (?i:&amp; co\.)
+&amp; Co. | GTYPE>org_ending | STRICT > (?i:&amp; Co\.)
+&amp; son | GTYPE>org_ending | STRICT > (?i:&amp; son)
+&amp; Son | GTYPE>org_ending | STRICT > (?i:&amp; Son)
+&amp; son. | GTYPE>org_ending | STRICT > (?i:&amp; son\.)
+&amp; Son. | GTYPE>org_ending | STRICT > (?i:&amp; Son\.)
+&amp; sons | GTYPE>org_ending | STRICT > (?i:&amp; sons)
+&amp; Sons | GTYPE>org_ending | STRICT > (?i:&amp; Sons)
+&amp; sons. | GTYPE>org_ending | STRICT > (?i:&amp; sons\.)
+&amp; Sons. | GTYPE>org_ending | STRICT > (?i:&amp; Sons\.)
+&amp;son | GTYPE>org_ending | STRICT > (?i:&amp;son)
+&amp;Son | GTYPE>org_ending | STRICT > (?i:&amp;Son)
+&amp;son. | GTYPE>org_ending | STRICT > (?i:&amp;son\.)
+&amp;Son. | GTYPE>org_ending | STRICT > (?i:&amp;Son\.)
+&amp;sons | GTYPE>org_ending | STRICT > (?i:&amp;sons)
+&amp;Sons | GTYPE>org_ending | STRICT > (?i:&amp;Sons)
+&amp;sons. | GTYPE>org_ending | STRICT > (?i:&amp;sons\.)
+&amp;Sons. | GTYPE>org_ending | STRICT > (?i:&amp;Sons\.)
+&co | GTYPE>org_ending
+&Co | GTYPE>org_ending
+&co. | GTYPE>org_ending | STRICT > (?i:&co\.)
+&Co. | GTYPE>org_ending | STRICT > (?i:&Co\.)
+&son | GTYPE>org_ending
+&Son | GTYPE>org_ending
+&son. | GTYPE>org_ending | STRICT > (?i:&son\.)
+&Son. | GTYPE>org_ending | STRICT > (?i:&Son\.)
+&sons | GTYPE>org_ending
+&Sons | GTYPE>org_ending
+&sons. | GTYPE>org_ending | STRICT > (?i:&sons\.)
+&Sons. | GTYPE>org_ending | STRICT > (?i:&Sons\.)
+
+#org start or org ending??
+
+Baraza | GTYPE>org_ending
+Benki | GTYPE>org_ending
+Benki Kuu | GTYPE>org_ending
+Baraza | GTYPE>org_ending la
+Biashara ya kimataifa | GTYPE>org_ending
+Chama | GTYPE>org_ending
+Chama cha wafanyakazi | GTYPE>org_ending
+Chuo | GTYPE>org_ending
+Chuo kuu | GTYPE>org_ending
+Chombo cha habari | GTYPE>org_ending
+Co-operation | GTYPE>org_ending
+Gazeti | GTYPE>org_ending
+Idara | GTYPE>org_ending
+International | GTYPE>org_ending
+international airport | GTYPE>org_ending
+International Airport | GTYPE>org_ending
+international airports | GTYPE>org_ending
+International Airports | GTYPE>org_ending
+Wizara | GTYPE>org_ending
+Hospitali | GTYPE>org_ending
+Jumuiya | GTYPE>org_ending
+Jeshi | GTYPE>org_ending
+Kiwanja | GTYPE>org_ending
+Kiwanja cha Ndege cha Kimataifa | GTYPE>org_ending
+kamati | GTYPE>org_ending
+Kampuni | GTYPE>org_ending
+Kituo | GTYPE>org_ending
+Vituo | GTYPE>org_ending
+Kanisa | GTYPE>org_ending
+Maabara | GTYPE>org_ending
+Mahakama Kuu | GTYPE>org_ending
+Makumbusho | GTYPE>org_ending
+Mtandao | GTYPE>org_ending
+Magazeti | GTYPE>org_ending
+Muungano | GTYPE>org_ending
+Motors | GTYPE>org_ending
+Nyuklia | GTYPE>org_ending
+Nuklia | GTYPE>org_ending
+Ofisi | GTYPE>org_ending
+Programu | GTYPE>org_ending
+Reli | GTYPE>org_ending
+Shirika | GTYPE>org_ending
+Shirikisho | GTYPE>org_ending
+Serikali | GTYPE>org_ending
+Sultani | GTYPE>org_ending
+Ltd | GTYPE>org_ending
+Ltd. | GTYPE>org_ending | STRICT > (?i:Ltd\.)
+Limited | GTYPE>org_ending
+Taasisi | GTYPE>org_ending
+Taasisi Kuu | GTYPE>org_ending
+Ubalozi | GTYPE>org_ending
+Ushirika | GTYPE>org_ending
+Utendaji | GTYPE>org_ending
+Uwanja | GTYPE>org_ending
+Wafanyikazi | GTYPE>org_ending
+Vijana | GTYPE>org_ending#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# demonyms for Swahili
+# Resource done by S. Ombuya
+# Maud: conversion + cleaning. Feb 2013
+#**********************************************
+
+
+
+mwafuganistani| GTYPE>demonym
+waafuganistani| GTYPE>demonym
+mwalbania| GTYPE>demonym
+waalbania| GTYPE>demonym
+mwalgeria| GTYPE>demonym
+waalgeria| GTYPE>demonym
+msamoa ya Amerika| GTYPE>demonym
+wasamoa ya Amerika| GTYPE>demonym
+mwandora| GTYPE>demonym
+waandora| GTYPE>demonym
+mwangola| GTYPE>demonym
+waangola| GTYPE>demonym
+mwanguilla| GTYPE>demonym
+waanguilla| GTYPE>demonym
+mwantaktila| GTYPE>demonym
+waantaktila| GTYPE>demonym
+mwantigua| GTYPE>demonym
+waantigua| GTYPE>demonym
+mBarbuda| GTYPE>demonym
+waBarbuda| GTYPE>demonym
+mwargentina| GTYPE>demonym
+waargentina| GTYPE>demonym
+mwarmenia| GTYPE>demonym
+waarmenia| GTYPE>demonym
+mwaruba| GTYPE>demonym
+waaruba| GTYPE>demonym
+mwaustralia| GTYPE>demonym
+waaustralia| GTYPE>demonym
+mwaustria| GTYPE>demonym
+waaustria| GTYPE>demonym
+mwazabaijani| GTYPE>demonym
+waazabaijani| GTYPE>demonym
+mbahama| GTYPE>demonym
+wabahama| GTYPE>demonym
+mbahareni| GTYPE>demonym
+wabahareni| GTYPE>demonym
+mbangladeshi| GTYPE>demonym
+wabangladeshi| GTYPE>demonym
+mbabadosi| GTYPE>demonym
+wababadosi| GTYPE>demonym
+mbelarusi| GTYPE>demonym
+wabelarusi| GTYPE>demonym
+mbelgiji| GTYPE>demonym
+wabelgiji| GTYPE>demonym
+mbelize| GTYPE>demonym
+wabelize| GTYPE>demonym
+mbenin| GTYPE>demonym
+wabenin| GTYPE>demonym
+mbamuda| GTYPE>demonym
+wabamuda| GTYPE>demonym
+mbutani| GTYPE>demonym
+wabutani| GTYPE>demonym
+mbolivia| GTYPE>demonym
+wabolivia| GTYPE>demonym
+mbosnia| GTYPE>demonym
+wabosnia| GTYPE>demonym
+mherzegovina| GTYPE>demonym
+waherzegovina| GTYPE>demonym
+mbotswana| GTYPE>demonym
+wabotswana| GTYPE>demonym
+mbrazili| GTYPE>demonym
+wabrazili| GTYPE>demonym
+mbrunei Darussalam| GTYPE>demonym
+wabrunei Darussalam| GTYPE>demonym
+mbulgaria| GTYPE>demonym
+wabulgaria| GTYPE>demonym
+mburkina Faso| GTYPE>demonym
+waburkina Faso| GTYPE>demonym
+mburundi| GTYPE>demonym
+waburundi| GTYPE>demonym
+mkambodia| GTYPE>demonym
+wakambodia| GTYPE>demonym
+mkameruni| GTYPE>demonym
+wakameruni| GTYPE>demonym
+mcanada| GTYPE>demonym
+wacanada| GTYPE>demonym
+mkapu Vede| GTYPE>demonym
+wakapu Vede| GTYPE>demonym
+mjamhuri ya Africa ya Kati| GTYPE>demonym
+wajamhuri ya Africa ya Kati| GTYPE>demonym
+mchadi| GTYPE>demonym
+wachadi| GTYPE>demonym
+mchile| GTYPE>demonym
+wachile| GTYPE>demonym
+muchina| GTYPE>demonym
+wachina| GTYPE>demonym
+mkolombia| GTYPE>demonym
+wakolombia| GTYPE>demonym
+mkomoros| GTYPE>demonym
+wakomoros| GTYPE>demonym
+mkongo| GTYPE>demonym
+wakongo| GTYPE>demonym
+mcosta Rica| GTYPE>demonym
+wacosta Rica| GTYPE>demonym
+mcote D'Ivoire| GTYPE>demonym | STRICT > (?i:mcote D['´’‘`]Ivoire)
+wacote D'Ivoire| GTYPE>demonym | STRICT > (?i:wacote D['´’‘`]Ivoire)
+mkorasia| GTYPE>demonym
+wakorasia| GTYPE>demonym
+mkuba| GTYPE>demonym
+wakuba| GTYPE>demonym
+msaiprasi| GTYPE>demonym
+wasaiprasi| GTYPE>demonym
+mCheki| GTYPE>demonym
+waCheki| GTYPE>demonym
+mdenmarki| GTYPE>demonym
+wadenmarki| GTYPE>demonym
+mjibuti| GTYPE>demonym
+wajibuti| GTYPE>demonym
+mdominika| GTYPE>demonym
+wadominika| GTYPE>demonym
+mmisri| GTYPE>demonym
+wamisri| GTYPE>demonym
+melsavado| GTYPE>demonym
+waelsavado| GTYPE>demonym
+meritrea| GTYPE>demonym
+waeritrea| GTYPE>demonym
+mestonia| GTYPE>demonym
+waestonia| GTYPE>demonym
+mhabeshi| GTYPE>demonym
+wahabeshi| GTYPE>demonym
+mfiji| GTYPE>demonym
+wafiji| GTYPE>demonym
+mfini| GTYPE>demonym
+wafini| GTYPE>demonym
+mfaransa| GTYPE>demonym
+wafaransa| GTYPE>demonym
+mguiana ya Ufaransa| GTYPE>demonym
+waguiana ya Ufaransa| GTYPE>demonym
+mpolinesia ya Ufaransa| GTYPE>demonym
+wapolinesia ya Ufaransa| GTYPE>demonym
+mgabon| GTYPE>demonym
+wagabon| GTYPE>demonym
+mgambia| GTYPE>demonym
+wagambia| GTYPE>demonym
+mgeorgia| GTYPE>demonym
+wageorgia| GTYPE>demonym
+mjerumani| GTYPE>demonym
+wajerumani| GTYPE>demonym
+mghana| GTYPE>demonym
+waghana| GTYPE>demonym
+mjibralita| GTYPE>demonym
+wajibralita| GTYPE>demonym
+mgiriki| GTYPE>demonym
+wagiriki| GTYPE>demonym
+mgrinilandi| GTYPE>demonym
+wagrinilandi| GTYPE>demonym
+mgrenada| GTYPE>demonym
+wagrenada| GTYPE>demonym
+mguadelupe| GTYPE>demonym
+waguadelupe| GTYPE>demonym
+mguami| GTYPE>demonym
+waguami| GTYPE>demonym
+mguatemala| GTYPE>demonym
+waguatemala| GTYPE>demonym
+mgine| GTYPE>demonym
+wagine| GTYPE>demonym
+mgin[ie]Bissau| GTYPE>demonym
+wagin[ie]Bissau| GTYPE>demonym
+mguyana| GTYPE>demonym
+waguyana| GTYPE>demonym
+mhaiti| GTYPE>demonym
+wahaiti| GTYPE>demonym
+mhonduras| GTYPE>demonym
+wahonduras| GTYPE>demonym
+mhong Kong| GTYPE>demonym
+wahong Kong| GTYPE>demonym
+mhungaria| GTYPE>demonym
+wahungaria| GTYPE>demonym
+mhindi| GTYPE>demonym
+wahindi| GTYPE>demonym
+mjamaika| GTYPE>demonym
+wajamaika| GTYPE>demonym
+mjapani| GTYPE>demonym
+wajapani| GTYPE>demonym
+myordani| GTYPE>demonym
+wayordani| GTYPE>demonym
+mkazakistani| GTYPE>demonym
+wakazakistani| GTYPE>demonym
+mkenya| GTYPE>demonym
+wakenya| GTYPE>demonym
+mkiribati| GTYPE>demonym
+wakiribati| GTYPE>demonym
+mkorea| GTYPE>demonym
+wakorea| GTYPE>demonym
+mkuwaiti| GTYPE>demonym
+wakuwaiti| GTYPE>demonym
+mkirghizia| GTYPE>demonym
+wakirghizia| GTYPE>demonym
+mlao| GTYPE>demonym
+walao| GTYPE>demonym
+mlatvia| GTYPE>demonym
+walatvia| GTYPE>demonym
+mlebanoni| GTYPE>demonym
+walebanoni| GTYPE>demonym
+mlesoto| GTYPE>demonym
+walesoto| GTYPE>demonym
+mliberia| GTYPE>demonym
+waliberia| GTYPE>demonym
+mlibya| GTYPE>demonym
+walibya| GTYPE>demonym
+mlishenteni| GTYPE>demonym
+walishenteni| GTYPE>demonym
+mlithuania| GTYPE>demonym
+walithuania| GTYPE>demonym
+mlasembaji| GTYPE>demonym
+walasembaji| GTYPE>demonym
+madagascar| GTYPE>demonym
+waadagascar| GTYPE>demonym
+mmmalawi| GTYPE>demonym
+wammalawi| GTYPE>demonym
+mmalesia| GTYPE>demonym
+wamalesia| GTYPE>demonym
+mmaldova| GTYPE>demonym
+wamaldova| GTYPE>demonym
+mmali| GTYPE>demonym
+wamali| GTYPE>demonym
+mmalta| GTYPE>demonym
+wamalta| GTYPE>demonym
+mmartinike| GTYPE>demonym
+wamartinike| GTYPE>demonym
+mmoritania| GTYPE>demonym
+wamoritania| GTYPE>demonym
+mmayote| GTYPE>demonym
+wamayote| GTYPE>demonym
+mmeksiko| GTYPE>demonym
+wameksiko| GTYPE>demonym
+mmikronesia| GTYPE>demonym
+wamikronesia| GTYPE>demonym
+mmoldova| GTYPE>demonym
+wamoldova| GTYPE>demonym
+mmonaco| GTYPE>demonym
+wamonaco| GTYPE>demonym
+mmongolia| GTYPE>demonym
+wamongolia| GTYPE>demonym
+mmontserrat| GTYPE>demonym
+wamontserrat| GTYPE>demonym
+mmorocco| GTYPE>demonym
+wamorocco| GTYPE>demonym
+mmsumbiji| GTYPE>demonym
+wamsumbiji| GTYPE>demonym
+mmyama| GTYPE>demonym
+wamyama| GTYPE>demonym
+mnamibia| GTYPE>demonym
+wanamibia| GTYPE>demonym
+mnauru| GTYPE>demonym
+wanauru| GTYPE>demonym
+mnepali| GTYPE>demonym
+wanepali| GTYPE>demonym
+mholanzi | GTYPE>demonym
+waholanzi | GTYPE>demonym
+mkaledonia | GTYPE>demonym
+wakaledonia | GTYPE>demonym
+mnyuzilandi| GTYPE>demonym
+wanyuzilandi| GTYPE>demonym
+mnicaragua| GTYPE>demonym
+wanicaragua| GTYPE>demonym
+mniger| GTYPE>demonym
+waniger| GTYPE>demonym
+mnijeria| GTYPE>demonym
+wanijeria| GTYPE>demonym
+mniue| GTYPE>demonym
+waniue| GTYPE>demonym
+mnorwe| GTYPE>demonym
+wanorwe| GTYPE>demonym
+mpakistani| GTYPE>demonym
+wapakistani| GTYPE>demonym
+mpalau| GTYPE>demonym
+wapalau| GTYPE>demonym
+mpalestina| GTYPE>demonym
+wapalestina| GTYPE>demonym
+mpanama| GTYPE>demonym
+wapanama| GTYPE>demonym
+mpapua Guinea mpya| GTYPE>demonym
+wapapua Guinea mpya| GTYPE>demonym
+mparaguayi| GTYPE>demonym
+waparaguayi| GTYPE>demonym
+mperu| GTYPE>demonym
+waperu| GTYPE>demonym
+mfilpi| GTYPE>demonym
+wafilpi| GTYPE>demonym
+mPitcairn| GTYPE>demonym
+waPitcairn| GTYPE>demonym
+mPolandi| GTYPE>demonym
+waPolandi| GTYPE>demonym
+mUreno| GTYPE>demonym
+waUreno| GTYPE>demonym
+mpwetoriko| GTYPE>demonym
+wapwetoriko| GTYPE>demonym
+mkatari| GTYPE>demonym
+wakatari| GTYPE>demonym
+mreunion| GTYPE>demonym
+wareunion| GTYPE>demonym
+mromania| GTYPE>demonym
+waromania| GTYPE>demonym
+mrusi | GTYPE>demonym
+warusi | GTYPE>demonym
+msamoa| GTYPE>demonym
+wasamoa| GTYPE>demonym
+mSabia| GTYPE>demonym
+waSabia| GTYPE>demonym
+msanmarino| GTYPE>demonym
+wasanmarino| GTYPE>demonym
+msao Tome| GTYPE>demonym
+wasao Tome| GTYPE>demonym
+msaudi arabia| GTYPE>demonym
+wasaudi arabia| GTYPE>demonym
+msenegal| GTYPE>demonym
+wasenegal| GTYPE>demonym
+mserbia na Montenegro| GTYPE>demonym
+waserbia na Montenegro| GTYPE>demonym
+mserbia| GTYPE>demonym
+waserbia| GTYPE>demonym
+mmontenegro| GTYPE>demonym
+wamontenegro| GTYPE>demonym
+mshelisheli| GTYPE>demonym
+washelisheli| GTYPE>demonym
+msierra Leone| GTYPE>demonym
+wasierra Leone| GTYPE>demonym
+msingapore| GTYPE>demonym
+wasingapore| GTYPE>demonym
+mslovakia| GTYPE>demonym
+waslovakia| GTYPE>demonym
+mslovenia| GTYPE>demonym
+waslovenia| GTYPE>demonym
+msomalia| GTYPE>demonym
+wasomalia| GTYPE>demonym
+mgeorgia Kusini | GTYPE>demonym
+wageorgia Kusini | GTYPE>demonym
+mhispania| GTYPE>demonym
+wahispania| GTYPE>demonym
+msirilanka| GTYPE>demonym
+wasirilanka| GTYPE>demonym
+msudani| GTYPE>demonym
+wasudani| GTYPE>demonym
+msurinami| GTYPE>demonym
+wasurinami| GTYPE>demonym
+msvalbard| GTYPE>demonym
+wasvalbard| GTYPE>demonym
+mswazi| GTYPE>demonym
+waswazi| GTYPE>demonym
+mswidi| GTYPE>demonym
+waswidi| GTYPE>demonym
+mswisi| GTYPE>demonym
+waswisi| GTYPE>demonym
+msiria| GTYPE>demonym
+wasiria| GTYPE>demonym
+mtaiwani| GTYPE>demonym
+wataiwani| GTYPE>demonym
+mtajikistan| GTYPE>demonym
+watajikistan| GTYPE>demonym
+mtanzania| GTYPE>demonym
+watanzania| GTYPE>demonym
+mtailandi| GTYPE>demonym
+watailandi| GTYPE>demonym
+mtimor-Leste| GTYPE>demonym
+watimor-Leste| GTYPE>demonym
+mtogo| GTYPE>demonym
+watogo| GTYPE>demonym
+mtokelau| GTYPE>demonym
+watokelau| GTYPE>demonym
+mtonga| GTYPE>demonym
+watonga| GTYPE>demonym
+mtrinidad | GTYPE>demonym
+watrinidad | GTYPE>demonym
+mtobago| GTYPE>demonym
+watobago| GTYPE>demonym
+mtunisia| GTYPE>demonym
+watunisia| GTYPE>demonym
+mturuki| GTYPE>demonym
+waturuki| GTYPE>demonym
+mturukumenistani| GTYPE>demonym
+waturukumenistani| GTYPE>demonym
+mtuvalu| GTYPE>demonym
+watuvalu| GTYPE>demonym
+mganda| GTYPE>demonym
+waganda| GTYPE>demonym
+mkreni| GTYPE>demonym
+wakreni| GTYPE>demonym
+mmarekani| GTYPE>demonym
+wamarekani| GTYPE>demonym
+murugwai| GTYPE>demonym
+waurugwai| GTYPE>demonym
+mzbekistani| GTYPE>demonym
+wazbekistani| GTYPE>demonym
+mmlativia| GTYPE>demonym
+wamlativia| GTYPE>demonym
+mmalti| GTYPE>demonym
+wamalti| GTYPE>demonym
+mholanzi | GTYPE>demonym
+waholanzi | GTYPE>demonym
+mnorwe| GTYPE>demonym
+wanorwe| GTYPE>demonym
+mpolandi| GTYPE>demonym
+wapolandi| GTYPE>demonym
+mreno| GTYPE>demonym
+wareno| GTYPE>demonym
+mroma| GTYPE>demonym
+waroma| GTYPE>demonym
+mslovenia| GTYPE>demonym
+waslovenia| GTYPE>demonym
+
+# some regional 
+
+maka| GTYPE>demonym
+waaka| GTYPE>demonym
+mmaasai| GTYPE>demonym
+wamaasai| GTYPE>demonym
+mbantu| GTYPE>demonym
+wabantu| GTYPE>demonym
+mbaka| GTYPE>demonym
+wabaka| GTYPE>demonym
+mbahari ya Mediterania| GTYPE>demonym
+wabahari ya Mediterania| GTYPE>demonym
+mbengali| GTYPE>demonym
+wabengali| GTYPE>demonym
+mberber| GTYPE>demonym
+waberber| GTYPE>demonym
+mcalifornia| GTYPE>demonym
+mkalifornia| GTYPE>demonym
+wacalifonia| GTYPE>demonym
+wakalifonia| GTYPE>demonym
+mchechnia| GTYPE>demonym
+wachechnia| GTYPE>demonym
+mhamishi| GTYPE>demonym
+wahamishi| GTYPE>demonym
+mhimalayan| GTYPE>demonym
+wahimalayan| GTYPE>demonym
+mjesuiti| GTYPE>demonym
+wajesuiti| GTYPE>demonym
+mkabile| GTYPE>demonym
+wakabile| GTYPE>demonym
+mkudi| GTYPE>demonym
+wakudi| GTYPE>demonym
+mkashmiri| GTYPE>demonym
+wakashmiri| GTYPE>demonym
+mkebekwa| GTYPE>demonym
+wakebekwa| GTYPE>demonym
+mkikuyu| GTYPE>demonym
+wakikuyu| GTYPE>demonym
+mluo| GTYPE>demonym
+waluo| GTYPE>demonym
+mluhya| GTYPE>demonym
+waluhya| GTYPE>demonym
+mmaasai| GTYPE>demonym
+wamaasai| GTYPE>demonym
+mpalestina| GTYPE>demonym
+wapalestina| GTYPE>demonym
+mPashtu| GTYPE>demonym
+waPashtu| GTYPE>demonym
+mpigmi| GTYPE>demonym
+wapigmi| GTYPE>demonym
+mrumi| GTYPE>demonym
+warumi| GTYPE>demonym
+mskoti| GTYPE>demonym
+waskoti| GTYPE>demonym
+msisilia| GTYPE>demonym
+wasisilia| GTYPE>demonym
+msuni| GTYPE>demonym
+wasuni| GTYPE>demonym
+mtalibani| GTYPE>demonym
+watalibani| GTYPE>demonym
+mtamoul| GTYPE>demonym
+watamoul| GTYPE>demonym
+mtahiti| GTYPE>demonym
+watahiti| GTYPE>demonym
+mtasmania| GTYPE>demonym
+watasmania| GTYPE>demonym
+mtibeti| GTYPE>demonym
+watibeti| GTYPE>demonym
+mtuareg| GTYPE>demonym
+watuareg| GTYPE>demonym
+mzulu| GTYPE>demonym
+wazulu| GTYPE>demonym
+
+# continent
+
+machi| GTYPE>demonym
+waachi| GTYPE>demonym
+madangme| GTYPE>demonym
+waadangme| GTYPE>demonym
+madio| GTYPE>demonym
+waadio| GTYPE>demonym
+mafar| GTYPE>demonym
+waafar| GTYPE>demonym
+mafo| GTYPE>demonym
+waafo| GTYPE>demonym
+maka| GTYPE>demonym
+waaka| GTYPE>demonym
+makan| GTYPE>demonym
+waakan| GTYPE>demonym
+makyem| GTYPE>demonym
+waakyem| GTYPE>demonym
+mAkwaim| GTYPE>demonym
+waAkwaim| GTYPE>demonym
+mAlagya| GTYPE>demonym
+waAlagya| GTYPE>demonym
+mAman| GTYPE>demonym
+waAman| GTYPE>demonym
+mAmhara| GTYPE>demonym
+waAmhara| GTYPE>demonym
+mAmba| GTYPE>demonym
+waAmba| GTYPE>demonym
+mAmbo| GTYPE>demonym
+waAmbo| GTYPE>demonym
+mAngoni| GTYPE>demonym
+waAngoni| GTYPE>demonym
+mAnga| GTYPE>demonym
+waAnga| GTYPE>demonym
+mAnkwe| GTYPE>demonym
+waAnkwe| GTYPE>demonym
+mAno| GTYPE>demonym
+waAno| GTYPE>demonym
+mAnyi| GTYPE>demonym
+waAnyi| GTYPE>demonym
+mArabe| GTYPE>demonym
+waArabe| GTYPE>demonym
+mAsarte| GTYPE>demonym
+waAsarte| GTYPE>demonym
+mAshanti| GTYPE>demonym
+waAshanti| GTYPE>demonym
+mAttie| GTYPE>demonym
+waAttie| GTYPE>demonym
+mAushi| GTYPE>demonym
+waAushi| GTYPE>demonym
+mAvikam| GTYPE>demonym
+waAvikam| GTYPE>demonym
+mAzande| GTYPE>demonym
+waAzande| GTYPE>demonym
+mBabessi| GTYPE>demonym
+waBabessi| GTYPE>demonym
+mBamessing| GTYPE>demonym
+waBamessing| GTYPE>demonym
+mBabukur| GTYPE>demonym
+waBabukur| GTYPE>demonym
+mBabwa| GTYPE>demonym
+waBabwa| GTYPE>demonym
+mBadiaranke| GTYPE>demonym
+waBadiaranke| GTYPE>demonym
+mBafang| GTYPE>demonym
+waBafang| GTYPE>demonym
+mBafo| GTYPE>demonym
+waBafo| GTYPE>demonym
+mBafut| GTYPE>demonym
+waBafut| GTYPE>demonym
+mBaga| GTYPE>demonym
+waBaga| GTYPE>demonym
+mBagam| GTYPE>demonym
+waBagam| GTYPE>demonym
+mBagami| GTYPE>demonym
+waBagami| GTYPE>demonym
+mBailundu| GTYPE>demonym
+waBailundu| GTYPE>demonym
+mBaïnouk| GTYPE>demonym
+waBaïnouk| GTYPE>demonym
+mBaka| GTYPE>demonym
+waBaka| GTYPE>demonym
+mBakua Meeba| GTYPE>demonym
+waBakua Meeba| GTYPE>demonym
+mBakua Bumba| GTYPE>demonym
+waBakua Bumba| GTYPE>demonym
+mBalante| GTYPE>demonym
+waBalante| GTYPE>demonym
+mBamana| GTYPE>demonym
+waBamana| GTYPE>demonym
+mBamenda| GTYPE>demonym
+waBamenda| GTYPE>demonym
+mBamum| GTYPE>demonym
+waBamum| GTYPE>demonym
+mBandial| GTYPE>demonym
+waBandial| GTYPE>demonym
+mBandjoun| GTYPE>demonym
+waBandjoun| GTYPE>demonym
+mBanga| GTYPE>demonym
+waBanga| GTYPE>demonym
+mBanki| GTYPE>demonym
+waBanki| GTYPE>demonym
+mBambara| GTYPE>demonym
+waBambara| GTYPE>demonym
+mBamileke| GTYPE>demonym
+waBamileke| GTYPE>demonym
+mBamoun| GTYPE>demonym
+waBamoun| GTYPE>demonym
+mBanda| GTYPE>demonym
+waBanda| GTYPE>demonym
+mBandia| GTYPE>demonym
+waBandia| GTYPE>demonym
+mBangi| GTYPE>demonym
+waBangi| GTYPE>demonym
+mBantou| GTYPE>demonym
+waBantou| GTYPE>demonym
+mBanyun| GTYPE>demonym
+waBanyun| GTYPE>demonym
+mBaoule| GTYPE>demonym
+waBaoule| GTYPE>demonym
+mBarambo| GTYPE>demonym
+waBarambo| GTYPE>demonym
+mBarawa| GTYPE>demonym
+waBarawa| GTYPE>demonym
+mBargu| GTYPE>demonym
+waBargu| GTYPE>demonym
+mBashi| GTYPE>demonym
+waBashi| GTYPE>demonym
+mBassa| GTYPE>demonym
+waBassa| GTYPE>demonym
+mBassari| GTYPE>demonym
+waBassari| GTYPE>demonym
+mBaule| GTYPE>demonym
+waBaule| GTYPE>demonym
+mBedouin| GTYPE>demonym
+waBedouin| GTYPE>demonym
+mBeja| GTYPE>demonym
+waBeja| GTYPE>demonym
+mBele| GTYPE>demonym
+waBele| GTYPE>demonym
+mBemba| GTYPE>demonym
+waBemba| GTYPE>demonym
+mBembe| GTYPE>demonym
+waBembe| GTYPE>demonym
+mBena| GTYPE>demonym
+waBena| GTYPE>demonym
+mbana Muemba	| GTYPE>demonym
+bana Mwemba	| GTYPE>demonym
+bana Mwembia	| GTYPE>demonym
+bana Muembia| GTYPE>demonym
+wabana Muemba	| GTYPE>demonym
+bana Mwemba	| GTYPE>demonym
+bana Mwembia	| GTYPE>demonym
+bana Muembia| GTYPE>demonym
+mbana Kapuya| GTYPE>demonym
+wabana Kapuya| GTYPE>demonym
+mbana Nshimba| GTYPE>demonym
+wabana Nshimba| GTYPE>demonym
+mbena Muemba	| GTYPE>demonym
+bena Mwemba	| GTYPE>demonym
+bena Mwembia	| GTYPE>demonym
+bena Muembia| GTYPE>demonym
+wabena Muemba	| GTYPE>demonym
+bena Mwemba	| GTYPE>demonym
+bena Mwembia	| GTYPE>demonym
+bena Muembia| GTYPE>demonym
+mbena Kapuya| GTYPE>demonym
+wabena Kapuya| GTYPE>demonym
+mbena Nshimba| GTYPE>demonym
+wabena Nshimba| GTYPE>demonym
+mbena lulua| GTYPE>demonym
+wabena lulua| GTYPE>demonym
+mbena mpuka| GTYPE>demonym
+wabena mpuka| GTYPE>demonym
+mbena mutombo| GTYPE>demonym
+wabena mutombo| GTYPE>demonym
+mbena luntu| GTYPE>demonym
+wabena luntu| GTYPE>demonym
+mbena Biombo| GTYPE>demonym
+wabena Biombo| GTYPE>demonym
+mbena Kanioka| GTYPE>demonym
+wabena Kanioka| GTYPE>demonym
+mbena Lulua| GTYPE>demonym
+wabena Lulua| GTYPE>demonym
+mbena Luluwa| GTYPE>demonym
+wabena Luluwa| GTYPE>demonym
+mbana Biombo| GTYPE>demonym
+wabana Biombo| GTYPE>demonym
+mbana Kanioka| GTYPE>demonym
+wabana Kanioka| GTYPE>demonym
+mbana Lulua| GTYPE>demonym
+wabana Lulua| GTYPE>demonym
+mbana Luluwa| GTYPE>demonym
+wabana Luluwa| GTYPE>demonym
+mbakwanga| GTYPE>demonym
+wabakwanga| GTYPE>demonym
+mbena mukuna| GTYPE>demonym
+wabena mukuna| GTYPE>demonym
+mBena-Kalundwe| GTYPE>demonym
+waBena-Kalundwe| GTYPE>demonym
+mBenge| GTYPE>demonym
+waBenge| GTYPE>demonym
+mBerbere| GTYPE>demonym
+waBerbere| GTYPE>demonym
+mBetammaribe| GTYPE>demonym
+waBetammaribe| GTYPE>demonym
+mBete| GTYPE>demonym
+waBete| GTYPE>demonym
+mBeti| GTYPE>demonym
+waBeti| GTYPE>demonym
+mBetsi| GTYPE>demonym
+waBetsi| GTYPE>demonym
+mBijago| GTYPE>demonym
+waBijago| GTYPE>demonym
+mBinga| GTYPE>demonym
+waBinga| GTYPE>demonym
+mBini| GTYPE>demonym
+waBini| GTYPE>demonym
+
+# Bira
+# BobomBobo-Fing
+
+waBobo-Fing| GTYPE>demonym
+mBodo| GTYPE>demonym
+waBodo| GTYPE>demonym
+mBokala| GTYPE>demonym
+waBokala| GTYPE>demonym
+mBolemba| GTYPE>demonym
+waBolemba| GTYPE>demonym
+mBolia| GTYPE>demonym
+waBolia| GTYPE>demonym
+mBomwali| GTYPE>demonym
+waBomwali| GTYPE>demonym
+mBoni| GTYPE>demonym
+waBoni| GTYPE>demonym
+mBonjo| GTYPE>demonym
+waBonjo| GTYPE>demonym
+mBorana| GTYPE>demonym
+waBorana| GTYPE>demonym
+mBoudouma| GTYPE>demonym
+waBoudouma| GTYPE>demonym
+mBoyela| GTYPE>demonym
+waBoyela| GTYPE>demonym
+mBozaka| GTYPE>demonym
+waBozaka| GTYPE>demonym
+mBozo| GTYPE>demonym
+waBozo| GTYPE>demonym
+mBrong| GTYPE>demonym
+waBrong| GTYPE>demonym
+mBudja| GTYPE>demonym
+waBudja| GTYPE>demonym
+mBudu| GTYPE>demonym
+waBudu| GTYPE>demonym
+mBulu| GTYPE>demonym
+waBulu| GTYPE>demonym
+mBunu| GTYPE>demonym
+waBunu| GTYPE>demonym
+mBura| GTYPE>demonym
+waBura| GTYPE>demonym
+mBusanse| GTYPE>demonym
+waBusanse| GTYPE>demonym
+mBushman	| GTYPE>demonym
+Bushmen| GTYPE>demonym
+waBushman	| GTYPE>demonym
+Bushmen| GTYPE>demonym
+mBwa| GTYPE>demonym
+waBwa| GTYPE>demonym
+mChaga| GTYPE>demonym
+waChaga| GTYPE>demonym
+mChamba| GTYPE>demonym
+waChamba| GTYPE>demonym
+mChaoui| GTYPE>demonym
+waChaoui| GTYPE>demonym
+mChara| GTYPE>demonym
+waChara| GTYPE>demonym
+mChenoui| GTYPE>demonym
+waChenoui| GTYPE>demonym
+mChewa| GTYPE>demonym
+waChewa| GTYPE>demonym
+mChleuh| GTYPE>demonym
+waChleuh| GTYPE>demonym
+mChokwe| GTYPE>demonym
+waChokwe| GTYPE>demonym
+mChopi| GTYPE>demonym
+waChopi| GTYPE>demonym
+mChuka| GTYPE>demonym
+waChuka| GTYPE>demonym
+mConiagui| GTYPE>demonym
+waConiagui| GTYPE>demonym
+mDaba| GTYPE>demonym
+waDaba| GTYPE>demonym
+mDagomba| GTYPE>demonym
+waDagomba| GTYPE>demonym
+mDakakari| GTYPE>demonym
+waDakakari| GTYPE>demonym
+mDakpa| GTYPE>demonym
+waDakpa| GTYPE>demonym
+mDama| GTYPE>demonym
+waDama| GTYPE>demonym
+
+# DanmDendi
+
+waDendi| GTYPE>demonym
+mDenkyira| GTYPE>demonym
+waDenkyira| GTYPE>demonym
+mDiawara| GTYPE>demonym
+waDiawara| GTYPE>demonym
+mDido| GTYPE>demonym
+waDido| GTYPE>demonym
+mDinka| GTYPE>demonym
+waDinka| GTYPE>demonym
+mDiola| GTYPE>demonym
+waDiola| GTYPE>demonym
+mDjerma| GTYPE>demonym
+waDjerma| GTYPE>demonym
+mDoe| GTYPE>demonym
+waDoe| GTYPE>demonym
+mDogari| GTYPE>demonym
+waDogari| GTYPE>demonym
+mDogon| GTYPE>demonym
+waDogon| GTYPE>demonym
+mDondo| GTYPE>demonym
+waDondo| GTYPE>demonym
+mDoyayo| GTYPE>demonym
+waDoyayo| GTYPE>demonym
+mDuala| GTYPE>demonym
+waDuala| GTYPE>demonym
+mDuma| GTYPE>demonym
+waDuma| GTYPE>demonym
+mDyula| GTYPE>demonym
+waDyula| GTYPE>demonym
+mDzing| GTYPE>demonym
+waDzing| GTYPE>demonym
+mEbira| GTYPE>demonym
+waEbira| GTYPE>demonym
+mebrie| GTYPE>demonym
+waebrie| GTYPE>demonym
+mEdo| GTYPE>demonym
+waEdo| GTYPE>demonym
+mEjagham| GTYPE>demonym
+waEjagham| GTYPE>demonym
+mEkonda| GTYPE>demonym
+waEkonda| GTYPE>demonym
+mEnya| GTYPE>demonym
+waEnya| GTYPE>demonym
+mEton| GTYPE>demonym
+waEton| GTYPE>demonym
+mewe	Ewe| GTYPE>demonym
+waewe	Ewe| GTYPE>demonym
+mFang| GTYPE>demonym
+waFang| GTYPE>demonym
+mFali| GTYPE>demonym
+waFali| GTYPE>demonym
+mFanti| GTYPE>demonym
+waFanti| GTYPE>demonym
+mFingo| GTYPE>demonym
+waFingo| GTYPE>demonym
+mFloup| GTYPE>demonym
+waFloup| GTYPE>demonym
+mFon| GTYPE>demonym
+waFon| GTYPE>demonym
+mfoulankriabe| GTYPE>demonym
+wafoulankriabe| GTYPE>demonym
+
+# FourmFulani-Adamawa
+
+waFulani-Adamawa| GTYPE>demonym
+mFulani-Baudri| GTYPE>demonym
+waFulani-Baudri| GTYPE>demonym
+mFulani-Borgu| GTYPE>demonym
+waFulani-Borgu| GTYPE>demonym
+mFulani-Bornu| GTYPE>demonym
+waFulani-Bornu| GTYPE>demonym
+mFulani-Liptako| GTYPE>demonym
+waFulani-Liptako| GTYPE>demonym
+mFulani-Macina| GTYPE>demonym
+waFulani-Macina| GTYPE>demonym
+mFulani-Sokoto| GTYPE>demonym
+waFulani-Sokoto| GTYPE>demony
+
+# FurmGanda
+
+waGanda| GTYPE>demonym
+mGaya| GTYPE>demonym
+waGaya| GTYPE>demonym
+mGbaya| GTYPE>demonym
+waGbaya| GTYPE>demonym
+mGbe| GTYPE>demonym
+waGbe| GTYPE>demonym
+mGbundi| GTYPE>demonym
+waGbundi| GTYPE>demonym
+mGeleba| GTYPE>demonym
+waGeleba| GTYPE>demonym
+mGiriama| GTYPE>demonym
+waGiriama| GTYPE>demonym
+mGisu| GTYPE>demonym
+waGisu| GTYPE>demonym
+mGiziga| GTYPE>demonym
+waGiziga| GTYPE>demonym
+mGogo| GTYPE>demonym
+waGogo| GTYPE>demonym
+mGoin| GTYPE>demonym
+waGoin| GTYPE>demonym
+mGopla| GTYPE>demonym
+waGopla| GTYPE>demonym
+mGouro| GTYPE>demonym
+waGouro| GTYPE>demonym
+mGrebo| GTYPE>demonym
+waGrebo| GTYPE>demonym
+mGuang| GTYPE>demonym
+waGuang| GTYPE>demonym
+mGurma| GTYPE>demonym
+waGurma| GTYPE>demonym
+mGuro| GTYPE>demonym
+waGuro| GTYPE>demonym
+mGurunsi| GTYPE>demonym
+waGurunsi| GTYPE>demonym
+mGusii| GTYPE>demonym
+waGusii| GTYPE>demonym
+
+# HamHadimu
+
+waHadimu| GTYPE>demonym
+mHadza| GTYPE>demonym
+waHadza| GTYPE>demonym
+mHausa| GTYPE>demonym
+waHausa| GTYPE>demonym
+mHaya| GTYPE>demonym
+waHaya| GTYPE>demonym
+mHehe| GTYPE>demonym
+waHehe| GTYPE>demonym
+mHemba| GTYPE>demonym
+waHemba| GTYPE>demonym
+mHenga| GTYPE>demonym
+waHenga| GTYPE>demonym
+mHerero| GTYPE>demonym
+waHerero| GTYPE>demonym
+mHolo-Holo| GTYPE>demonym
+waHolo-Holo| GTYPE>demonym
+mHongwe| GTYPE>demonym
+waHongwe| GTYPE>demonym
+mHuambo| GTYPE>demonym
+waHuambo| GTYPE>demonym
+mHuana| GTYPE>demonym
+waHuana| GTYPE>demonym
+mHum| GTYPE>demonym
+waHum| GTYPE>demonym
+mHuna| GTYPE>demonym
+waHuna| GTYPE>demonym
+mHurutse| GTYPE>demonym
+waHurutse| GTYPE>demonym
+mHutu| GTYPE>demonym
+waHutu| GTYPE>demonym
+mIbibio| GTYPE>demonym
+waIbibio| GTYPE>demonym
+mIdoma| GTYPE>demonym
+waIdoma| GTYPE>demonym
+mIfe| GTYPE>demonym
+waIfe| GTYPE>demonym
+mIgala| GTYPE>demonym
+waIgala| GTYPE>demonym
+mIgbo| GTYPE>demonym
+waIgbo| GTYPE>demonym
+mIkenga| GTYPE>demonym
+waIkenga| GTYPE>demonym
+mIla| GTYPE>demonym
+waIla| GTYPE>demonym
+mImerina| GTYPE>demonym
+waImerina| GTYPE>demonym
+mIjo| GTYPE>demonym
+waIjo| GTYPE>demonym
+mIrangui| GTYPE>demonym
+waIrangui| GTYPE>demonym
+mIraqwe| GTYPE>demonym
+waIraqwe| GTYPE>demonym
+mIssa| GTYPE>demonym
+waIssa| GTYPE>demonym
+mJaba| GTYPE>demonym
+waJaba| GTYPE>demonym
+mJallobe| GTYPE>demonym
+waJallobe| GTYPE>demonym
+mJalonke| GTYPE>demonym
+waJalonke| GTYPE>demonym
+mJarawa| GTYPE>demonym
+waJarawa| GTYPE>demonym
+mJukun| GTYPE>demonym
+waJukun| GTYPE>demonym
+mKabyle| GTYPE>demonym
+waKabyle| GTYPE>demonym
+mKaguru| GTYPE>demonym
+waKaguru| GTYPE>demonym
+mKahe| GTYPE>demonym
+waKahe| GTYPE>demonym
+mKako| GTYPE>demonym
+waKako| GTYPE>demonym
+mKalanga| GTYPE>demonym
+waKalanga| GTYPE>demonym
+mKalebwe| GTYPE>demonym
+waKalebwe| GTYPE>demonym
+mKamba| GTYPE>demonym
+waKamba| GTYPE>demonym
+mKambari| GTYPE>demonym
+waKambari| GTYPE>demonym
+mKande| GTYPE>demonym
+waKande| GTYPE>demonym
+mKanuri| GTYPE>demonym
+waKanuri| GTYPE>demonym
+mKanyok| GTYPE>demonym
+waKanyok| GTYPE>demonym
+mKaonde| GTYPE>demonym
+waKaonde| GTYPE>demonym
+mKapsiki| GTYPE>demonym
+waKapsiki| GTYPE>demonym
+mKara| GTYPE>demonym
+waKara| GTYPE>demonym
+mKasena| GTYPE>demonym
+waKasena| GTYPE>demonym
+mKawendi| GTYPE>demonym
+waKawendi| GTYPE>demonym
+mKgatla| GTYPE>demonym
+waKgatla| GTYPE>demonym
+mKhassonke| GTYPE>demonym
+waKhassonke| GTYPE>demonym
+mKhoi-Khoi| GTYPE>demonym
+waKhoi-Khoi| GTYPE>demonym
+mKikuyu| GTYPE>demonym
+waKikuyu| GTYPE>demonym
+mKilenge| GTYPE>demonym
+waKilenge| GTYPE>demonym
+mKilinka| GTYPE>demonym
+waKilinka| GTYPE>demonym
+
+# KimmKimbu
+
+waKimbu| GTYPE>demonym
+mKimbundu| GTYPE>demonym
+waKimbundu| GTYPE>demonym
+mKinga| GTYPE>demonym
+waKinga| GTYPE>demonym
+mKipungu| GTYPE>demonym
+waKipungu| GTYPE>demonym
+mKoko| GTYPE>demonym
+waKoko| GTYPE>demonym
+mKom| GTYPE>demonym
+waKom| GTYPE>demonym
+mKoma| GTYPE>demonym
+waKoma| GTYPE>demonym
+mKombe| GTYPE>demonym
+waKombe| GTYPE>demonym
+mKomo| GTYPE>demonym
+waKomo| GTYPE>demonym
+mKongo| GTYPE>demonym
+waKongo| GTYPE>demonym
+mKonjo| GTYPE>demonym
+waKonjo| GTYPE>demonym
+mKonkomba| GTYPE>demonym
+waKonkomba| GTYPE>demonym
+mKonongo| GTYPE>demonym
+waKonongo| GTYPE>demonym
+mKonso| GTYPE>demonym
+waKonso| GTYPE>demonym
+mKopten| GTYPE>demonym
+waKopten| GTYPE>demonym
+mKoro| GTYPE>demonym
+waKoro| GTYPE>demonym
+mKossi| GTYPE>demonym
+waKossi| GTYPE>demonym
+mKota| GTYPE>demonym
+waKota| GTYPE>demonym
+mKounta| GTYPE>demonym
+waKounta| GTYPE>demonym
+
+#problematic
+waKpelle| GTYPE>demonym
+mKreish| GTYPE>demonym
+waKreish| GTYPE>demonym
+mKrobo| GTYPE>demonym
+waKrobo| GTYPE>demonym
+mKru| GTYPE>demonym
+waKru| GTYPE>demonym
+mKuanyama| GTYPE>demonym
+waKuanyama| GTYPE>demonym
+mKuba| GTYPE>demonym
+waKuba| GTYPE>demonym
+mKumdu| GTYPE>demonym
+waKumdu| GTYPE>demonym
+mKunda| GTYPE>demonym
+waKunda| GTYPE>demonym
+mKung	| GTYPE>demonym
+waKung	| GTYPE>demonym
+mKurumba| GTYPE>demonym
+waKurumba| GTYPE>demonym
+mKusasi| GTYPE>demonym
+waKusasi| GTYPE>demonym
+mKusu| GTYPE>demonym
+waKusu| GTYPE>demonym
+mKutu| GTYPE>demonym
+waKutu| GTYPE>demonym
+mKwahu| GTYPE>demonym
+waKwahu| GTYPE>demonym
+mKwange| GTYPE>demonym
+waKwange| GTYPE>demonym
+mKwele| GTYPE>demonym
+waKwele| GTYPE>demonym
+mKwere| GTYPE>demonym
+waKwere| GTYPE>demonym
+mLaka| GTYPE>demonym
+waLaka| GTYPE>demonym
+mLali| GTYPE>demonym
+waLali| GTYPE>demonym
+mLanga| GTYPE>demonym
+waLanga| GTYPE>demonym
+mLango| GTYPE>demonym
+waLango| GTYPE>demonym
+mLaobe| GTYPE>demonym
+waLaobe| GTYPE>demonym
+mLaobe Lana| GTYPE>demonym
+waLaobe Lana| GTYPE>demonym
+mLaobe Gorworo| GTYPE>demonym
+waLaobe Gorworo| GTYPE>demonym
+mLega| GTYPE>demonym
+waLega| GTYPE>demonym
+mLendu| GTYPE>demonym
+waLendu| GTYPE>demonym
+mLengola| GTYPE>demonym
+waLengola| GTYPE>demonym
+
+# LimLobala
+
+waLobala| GTYPE>demonym
+mLobi| GTYPE>demonym
+waLobi| GTYPE>demonym
+mLogoli| GTYPE>demonym
+waLogoli| GTYPE>demonym
+mLoko| GTYPE>demonym
+waLoko| GTYPE>demonym
+mLoma| GTYPE>demonym
+waLoma| GTYPE>demonym
+mLombo| GTYPE>demonym
+waLombo| GTYPE>demonym
+mLonda| GTYPE>demonym
+waLonda| GTYPE>demonym
+mLovedu| GTYPE>demonym
+waLovedu| GTYPE>demonym
+mLozi| GTYPE>demonym
+waLozi| GTYPE>demonym
+mLuba| GTYPE>demonym
+waLuba| GTYPE>demonym
+mLuena| GTYPE>demonym
+waLuena| GTYPE>demonym
+mLuembe| GTYPE>demonym
+waLuembe| GTYPE>demonym
+mLugbara| GTYPE>demonym
+waLugbara| GTYPE>demonym
+mLuguru| GTYPE>demonym
+waLuguru| GTYPE>demonym
+mLulua| GTYPE>demonym
+waLulua| GTYPE>demonym
+mLunda| GTYPE>demonym
+waLunda| GTYPE>demonym
+mLundu| GTYPE>demonym
+waLundu| GTYPE>demonym
+mLuo| GTYPE>demonym
+waLuo| GTYPE>demonym
+mMadi| GTYPE>demonym
+waMadi| GTYPE>demonym
+mMaka| GTYPE>demonym
+waMaka| GTYPE>demonym
+mMakhuwa| GTYPE>demonym
+waMakhuwa| GTYPE>demonym
+mMalinke| GTYPE>demonym
+waMalinke| GTYPE>demonym
+mMamvu| GTYPE>demonym
+waMamvu| GTYPE>demonym
+mMandingue| GTYPE>demonym
+waMandingue| GTYPE>demonym
+mMangbetu| GTYPE>demonym
+waMangbetu| GTYPE>demonym
+mManjaque| GTYPE>demonym
+waManjaque| GTYPE>demonym
+mMakonde| GTYPE>demonym
+waMakonde| GTYPE>demonym
+mMakua| GTYPE>demonym
+waMakua| GTYPE>demonym
+
+# MamamMambila
+
+waMambila| GTYPE>demonym
+mManganja| GTYPE>demonym
+waManganja| GTYPE>demonym
+
+# ManomManyema
+
+waManyema| GTYPE>demonym
+mMaravi| GTYPE>demonym
+waMaravi| GTYPE>demonym
+mmarka| GTYPE>demonym
+wamarka| GTYPE>demonym
+mmasa| GTYPE>demonym
+wamasa| GTYPE>demonym
+mmassa| GTYPE>demonym
+wamassa| GTYPE>demonym
+mmatakam| GTYPE>demonym
+wamatakam| GTYPE>demonym
+mmaure| GTYPE>demonym
+wamaure| GTYPE>demonym
+wamau| GTYPE>demonym
+mmbala| GTYPE>demonym
+wambala| GTYPE>demonym
+mmbanza| GTYPE>demonym
+wambanza| GTYPE>demonym
+mmbembe| GTYPE>demonym
+wambembe| GTYPE>demonym
+mmbete| GTYPE>demonym
+wambete| GTYPE>demonym
+mmbire| GTYPE>demonym
+wambire| GTYPE>demonym
+mmbole| GTYPE>demonym
+wambole| GTYPE>demonym
+mmbororo| GTYPE>demonym
+wambororo| GTYPE>demonym
+mmbudza| GTYPE>demonym
+wambudza| GTYPE>demonym
+mmbugu| GTYPE>demonym
+wambugu| GTYPE>demonym
+mmbula| GTYPE>demonym
+wambula| GTYPE>demonym
+mmbum| GTYPE>demonym
+wambum| GTYPE>demonym
+mMbun| GTYPE>demonym
+waMbun| GTYPE>demonym
+mmbunga| GTYPE>demonym
+wambunga| GTYPE>demonym
+mmbukushu| GTYPE>demonym
+wambukushu| GTYPE>demonym
+mmbuti| GTYPE>demonym
+wambuti| GTYPE>demonym
+mMdumbo| GTYPE>demonym
+waMdumbo| GTYPE>demonym
+mmeke| GTYPE>demonym
+wameke| GTYPE>demonym
+mmende| GTYPE>demonym
+wamende| GTYPE>demonym
+mmetoko| GTYPE>demonym
+wametoko| GTYPE>demonym
+mmijikenda| GTYPE>demonym
+wamijikenda| GTYPE>demonym
+mminianka| GTYPE>demonym
+waminianka| GTYPE>demonym
+mmoba| GTYPE>demonym
+wamoba| GTYPE>demonym
+mmondari| GTYPE>demonym
+wamondari| GTYPE>demonym
+mmongo| GTYPE>demonym
+wamongo| GTYPE>demonym
+
+# Monommontol
+
+wamontol| GTYPE>demonym
+mmossi| GTYPE>demonym
+wamossi| GTYPE>demonym
+mmotembo| GTYPE>demonym
+wamotembo| GTYPE>demonym
+mmoundang| GTYPE>demonym
+wamoundang| GTYPE>demonym
+mmozabite| GTYPE>demonym
+wamozabite| GTYPE>demonym
+mmpongwe| GTYPE>demonym
+wampongwe| GTYPE>demonym
+mmrazig| GTYPE>demonym
+wamrazig| GTYPE>demonym
+mmsalala| GTYPE>demonym
+wamsalala| GTYPE>demonym
+mmumuye| GTYPE>demonym
+wamumuye| GTYPE>demonym
+mmundu| GTYPE>demonym
+wamundu| GTYPE>demonym
+mmvai| GTYPE>demonym
+wamvai| GTYPE>demonym
+mmwera| GTYPE>demonym
+wamwera| GTYPE>demonym
+mmafana| GTYPE>demonym
+wamafana| GTYPE>demonym
+
+# Nagomnalu
+
+wanalu| GTYPE>demonym
+mnama| GTYPE>demonym
+wanama| GTYPE>demonym
+mnamba| GTYPE>demonym
+wanamba| GTYPE>demonym
+mnandi| GTYPE>demonym
+wanandi| GTYPE>demonym
+mnaudemba| GTYPE>demonym
+wanaudemba| GTYPE>demonym
+mndebele| GTYPE>demonym
+wandebele| GTYPE>demonym
+mndembu| GTYPE>demonym
+wandembu| GTYPE>demonym
+mndob| GTYPE>demonym
+wandob| GTYPE>demonym
+mndombe| GTYPE>demonym
+wandombe| GTYPE>demonym
+mndut| GTYPE>demonym
+wandut| GTYPE>demonym
+mneyo| GTYPE>demonym
+waneyo| GTYPE>demonym
+mngala| GTYPE>demonym
+wangala| GTYPE>demonym
+mngandu| GTYPE>demonym
+wangandu| GTYPE>demonym
+mngbaka| GTYPE>demonym
+wangbaka| GTYPE>demonym
+mngbandi| GTYPE>demonym
+wangbandi| GTYPE>demonym
+mngiri| GTYPE>demonym
+wangiri| GTYPE>demonym
+mngombe| GTYPE>demonym
+wangombe| GTYPE>demonym
+mngonde| GTYPE>demonym
+wangonde| GTYPE>demonym
+mngoni| GTYPE>demonym
+wangoni| GTYPE>demonym
+mnguni| GTYPE>demonym
+wanguni| GTYPE>demonym
+mngwa| GTYPE>demonym
+wangwa| GTYPE>demonym
+mngwato| GTYPE>demonym
+wangwato| GTYPE>demonym
+mnjamu| GTYPE>demonym
+wanjamu| GTYPE>demonym
+mnjembo| GTYPE>demonym
+wanjembo| GTYPE>demonym
+mnjemp| GTYPE>demonym
+wanjemp| GTYPE>demonym
+mnkole| GTYPE>demonym
+wankole| GTYPE>demonym
+mnkoya| GTYPE>demonym
+wankoya| GTYPE>demonym
+mnsapo-Nsapo| GTYPE>demonym
+wansapo-Nsapo| GTYPE>demonym
+mntunu| GTYPE>demonym
+wantunu| GTYPE>demonym
+mnuba| GTYPE>demonym
+wanuba| GTYPE>demonym
+mnuer| GTYPE>demonym
+wanuer| GTYPE>demonym
+mnumide| GTYPE>demonym
+wanumide| GTYPE>demonym
+mnunuma| GTYPE>demonym
+wanunuma| GTYPE>demonym
+mnupe| GTYPE>demonym
+wanupe| GTYPE>demonym
+mnyai| GTYPE>demonym
+wanyai| GTYPE>demonym
+mnyakyusa| GTYPE>demonym
+wanyakyusa| GTYPE>demonym
+mnyamwezi| GTYPE>demonym
+wanyamwezi| GTYPE>demonym
+mnyanga| GTYPE>demonym
+wanyanga| GTYPE>demonym
+mnyanja| GTYPE>demonym
+wanyanja| GTYPE>demonym
+mnyassa| GTYPE>demonym
+wanyassa| GTYPE>demonym
+mnyemba| GTYPE>demonym
+wanyemba| GTYPE>demonym
+mnyoro| GTYPE>demonym
+wanyoro| GTYPE>demonym
+mnzakara| GTYPE>demonym
+wanzakara| GTYPE>demonym
+mnzaman| GTYPE>demonym
+wanzaman| GTYPE>demonym
+mnzema| GTYPE>demonym
+wanzema| GTYPE>demonym
+mnzimu| GTYPE>demonym
+wanzimu| GTYPE>demonym
+mogoni| GTYPE>demonym
+waogoni| GTYPE>demonym
+mogowe| GTYPE>demonym
+waogowe| GTYPE>demonym
+mokah| GTYPE>demonym
+waokah| GTYPE>demonym
+monitsha| GTYPE>demonym
+waonitsha| GTYPE>demonym
+moromo| GTYPE>demonym
+waoromo| GTYPE>demonym
+movimbundu| GTYPE>demonym
+waovimbundu| GTYPE>demonym
+moyo| GTYPE>demonym
+waoyo| GTYPE>demonym
+
+# Omo# Papel# Parempedi
+
+wapedi| GTYPE>demonym
+mpende| GTYPE>demonym
+wapende| GTYPE>demonym
+mpere| GTYPE>demonym
+wapere| GTYPE>demonym
+mpeul| GTYPE>demonym
+wapeul| GTYPE>demonym
+mpogoro| GTYPE>demonym
+wapogoro| GTYPE>demonym
+mpomo| GTYPE>demonym
+wapomo| GTYPE>demonym
+mpondo| GTYPE>demonym
+wapondo| GTYPE>demonym
+mpoto| GTYPE>demonym
+wapoto| GTYPE>demonym
+mpunu| GTYPE>demonym
+wapunu| GTYPE>demonym
+mpygmee| GTYPE>demonym
+wapygmee| GTYPE>demonym
+mpendile| GTYPE>demonym
+wapendile| GTYPE>demonym
+mpifain| GTYPE>demonym
+wapifain| GTYPE>demonym
+mrimaibe| GTYPE>demonym
+warimaibe| GTYPE>demonym
+mrukuba| GTYPE>demonym
+warukuba| GTYPE>demonym
+msagara| GTYPE>demonym
+wasagara| GTYPE>demonym
+msakata| GTYPE>demonym
+wasakata| GTYPE>demonym
+msamburu| GTYPE>demonym
+wasamburu| GTYPE>demonym
+msamia| GTYPE>demonym
+wasamia| GTYPE>demonym
+msamo| GTYPE>demonym
+wasamo| GTYPE>demonym
+# Sanmsandawe| GTYPE>demonym
+wasandawe| GTYPE>demonym
+msanga| GTYPE>demonym
+wasanga| GTYPE>demonym
+msangu| GTYPE>demonym
+wasangu| GTYPE>demonym
+msankura| GTYPE>demonym
+wasankura| GTYPE>demonym
+msapo| GTYPE>demonym
+wasapo| GTYPE>demonym
+
+# Saramsarwa
+
+wasarwa| GTYPE>demonym
+mseke| GTYPE>demonym
+waseke| GTYPE>demonym
+msele| GTYPE>demonym
+wasele| GTYPE>demonym
+msena| GTYPE>demonym
+wasena| GTYPE>demonym
+msengele| GTYPE>demonym
+wasengele| GTYPE>demonym
+msenoufo| GTYPE>demonym
+wasenoufo| GTYPE>demonym
+msere| GTYPE>demonym
+wasere| GTYPE>demonym
+waserere| GTYPE>demonym
+mshambala| GTYPE>demonym
+washambala| GTYPE>demonym
+mshankadi| GTYPE>demonym
+washankadi| GTYPE>demonym
+mshashi| GTYPE>demonym
+washashi| GTYPE>demonym
+mshinshe| GTYPE>demonym
+washinshe| GTYPE>demonym
+mshira| GTYPE>demonym
+washira| GTYPE>demonym
+mshona| GTYPE>demonym
+washona| GTYPE>demonym
+msidamo| GTYPE>demonym
+wasidamo| GTYPE>demonym
+msisala| GTYPE>demonym
+wasisala| GTYPE>demonym
+mso| GTYPE>demonym
+waso| GTYPE>demonym
+msoko| GTYPE>demonym
+wasoko| GTYPE>demonym
+msomali| GTYPE>demonym
+wasomali| GTYPE>demonym
+msomba| GTYPE>demonym
+wasomba| GTYPE>demonym
+msomono| GTYPE>demonym
+wasomono| GTYPE>demonym
+#problematic#(m|wa)sonrhaïmsongo
+wasongo| GTYPE>demonym
+msongye| GTYPE>demonym
+wasongye| GTYPE>demonym
+moninke| GTYPE>demonym
+waoninke| GTYPE>demonym
+msotho/soussou| GTYPE>demonym | STRICT > (?i:msotho/soussou)
+wasotho/soussou| GTYPE>demonym | STRICT > (?i:wasotho/soussou)
+msubia| GTYPE>demonym
+wasubia| GTYPE>demonym
+msuku| GTYPE>demonym
+wasuku| GTYPE>demonym
+msukuma| GTYPE>demonym
+wasukuma| GTYPE>demonym
+msundi| GTYPE>demonym
+wasundi| GTYPE>demonym
+mswahili| GTYPE>demonym
+waswahili| GTYPE>demonym
+mswazi| GTYPE>demonym
+waswazi| GTYPE>demonym
+msabwa| GTYPE>demonym
+wasabwa| GTYPE>demonym
+msallensi| GTYPE>demonym
+wasallensi| GTYPE>demonym
+mtamberma| GTYPE>demonym
+watamberma| GTYPE>demonym
+mtanga| GTYPE>demonym
+watanga| GTYPE>demonym
+mteita| GTYPE>demonym
+wateita| GTYPE>demonym
+mteke| GTYPE>demonym
+wateke| GTYPE>demonym
+mtellem| GTYPE>demonym
+watellem| GTYPE>demonym
+mtem| GTYPE>demonym
+watem| GTYPE>demonym
+mtemne| GTYPE>demonym
+watemne| GTYPE>demonym
+mtende| GTYPE>demonym
+watende| GTYPE>demonym
+mtetela| GTYPE>demonym
+watetela| GTYPE>demonym
+mthonga| GTYPE>demonym
+wathonga| GTYPE>demonym
+mtikar| GTYPE>demonym
+watikar| GTYPE>demonym
+mtiv| GTYPE>demonym
+wativ| GTYPE>demonym
+mtlaping| GTYPE>demonym
+watlaping| GTYPE>demonym
+mtogbo| GTYPE>demonym
+watogbo| GTYPE>demonym
+mtoka| GTYPE>demonym
+watoka| GTYPE>demonym
+mtonga| GTYPE>demonym
+watonga| GTYPE>demonym
+mtopoke| GTYPE>demonym
+watopoke| GTYPE>demonym
+mtotela| GTYPE>demonym
+watotela| GTYPE>demonym
+mtouareg| GTYPE>demonym
+watouareg| GTYPE>demonym
+mtoucouleur| GTYPE>demonym
+watoucouleur| GTYPE>demonym
+mtoupouri| GTYPE>demonym
+watoupouri| GTYPE>demonym
+mtswana| GTYPE>demonym
+watswana| GTYPE>demonym
+mturka| GTYPE>demonym
+waturka| GTYPE>demonym
+mturkana| GTYPE>demonym
+waturkana| GTYPE>demonym
+mtura| GTYPE>demonym
+watura| GTYPE>demonym
+mturu| GTYPE>demonym
+waturu| GTYPE>demonym
+mturumbu| GTYPE>demonym
+waturumbu| GTYPE>demonym
+mtusyan| GTYPE>demonym
+watusyan| GTYPE>demonym
+mtutsi| GTYPE>demonym
+watutsi| GTYPE>demonym
+mukuambi| GTYPE>demonym
+waukuambi| GTYPE>demonym
+munga| GTYPE>demonym
+waunga| GTYPE>demonym
+mura| GTYPE>demonym
+waura| GTYPE>demonym
+murhobo| GTYPE>demonym
+waurhobo| GTYPE>demonym
+muyanga| GTYPE>demonym
+wauyanga| GTYPE>demonym
+mulele	Ulele| GTYPE>demonym
+waulele	Ulele| GTYPE>demonym
+wavenda| GTYPE>demonym
+mvere| GTYPE>demonym
+wavere| GTYPE>demonym
+mvezo| GTYPE>demonym
+wavezo| GTYPE>demonym
+mvili| GTYPE>demonym
+wavili| GTYPE>demonym
+mviye| GTYPE>demonym
+waviye| GTYPE>demonym
+mwaja| GTYPE>demonym
+wawaja| GTYPE>demonym
+
+# Warmwe
+
+wawe| GTYPE>demonym
+mwee| GTYPE>demonym
+wawee| GTYPE>demonym
+meweebe| GTYPE>demonym
+waeweebe| GTYPE>demonym
+mwidekum| GTYPE>demonym
+wawidekum| GTYPE>demonym
+mwobe| GTYPE>demonym
+wawobe| GTYPE>demonym
+mwodaabe| GTYPE>demonym
+wawodaabe| GTYPE>demonym
+mwolof| GTYPE>demonym
+wawolof| GTYPE>demonym
+mwogo| GTYPE>demonym
+wawogo| GTYPE>demonym
+mwuum| GTYPE>demonym
+wawuum| GTYPE>demonym
+mxhosa| GTYPE>demonym
+waxhosa| GTYPE>demonym
+myakoma| GTYPE>demonym
+wayakoma| GTYPE>demonym
+myangere| GTYPE>demonym
+wayangere| GTYPE>demonym
+myaka| GTYPE>demonym
+wayaka| GTYPE>demonym
+myako| GTYPE>demonym
+wayako| GTYPE>demonym
+myaure| GTYPE>demonym
+wayaure| GTYPE>demonym
+myombe| GTYPE>demonym
+wayombe| GTYPE>demonym
+myanzi| GTYPE>demonym
+wayanzi| GTYPE>demonym
+myoruba| GTYPE>demonym
+wayoruba| GTYPE>demonym
+mzande| GTYPE>demonym
+wazande| GTYPE>demonym
+mzarma| GTYPE>demonym
+wazarma| GTYPE>demonym
+mzaramo| GTYPE>demonym
+wazaramo| GTYPE>demonym
+mzayane| GTYPE>demonym
+wazayane| GTYPE>demonym
+mzerma| GTYPE>demonym
+wazerma| GTYPE>demonym
+mzigula| GTYPE>demonym
+wazigula| GTYPE>demonym
+mzimba| GTYPE>demonym
+wazimba| GTYPE>demonym
+mzinza| GTYPE>demonym
+wazinza| GTYPE>demonym
+mzoulou| GTYPE>demonym
+wazoulou| GTYPE>demonym
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : org_partName-en.txt
+# content : Swahili resource for person name recogniser
+# date	  : February 2013
+# author  : Sylvia Ombuya (M. Ehrmann)
+# *********
+# This file mix a bit everything, sorry.
+# (but difficult to categoriez more w/o looking up each word in a dict.)
+# Thus I put everything as position.
+# Source: sw.txt
+#**********************************************
+
+
+
+Bw | GTYPE>position
+Dkt | GTYPE>position
+Dr | GTYPE>position
+DK | GTYPE>position
+Prof | GTYPE>position
+Dktr | GTYPE>position
+Daktari | GTYPE>position
+Professa | GTYPE>position
+maabiria | GTYPE>position
+abiria | GTYPE>position
+bi | GTYPE>position
+Bi | GTYPE>position
+bilionea | GTYPE>position
+bwana | GTYPE>position
+marehemu | GTYPE>position
+mzee | GTYPE>position
+mwandishi | GTYPE>position
+waandishi | GTYPE>position
+msemaji | GTYPE>position
+msemi | GTYPE>position
+maalim | GTYPE>position
+Mwalimu | GTYPE>position
+hayati Mwalimu | GTYPE>position
+afisa | GTYPE>position
+ofisa | GTYPE>position
+maafisa | GTYPE>position
+maofisa | GTYPE>position
+afisa wa ngazi ya Juu | GTYPE>position
+ofisa wa ngazi ya Juu | GTYPE>position
+maafisa wa ngazi ya Juu | GTYPE>position
+maofisa wa ngazi ya Juu | GTYPE>position
+bibishamba | GTYPE>position
+mabibishamba | GTYPE>position
+Rais wa Benki ya dunia | GTYPE>position
+mwanamke | GTYPE>position
+mwanafunzi | GTYPE>position
+wanafunzi | GTYPE>position
+wanawake | GTYPE>position
+mwanaume | GTYPE>position
+wanaume | GTYPE>position
+mkulima | GTYPE>position
+wakulima | GTYPE>position
+Kansela | GTYPE>position
+Kanzela | GTYPE>position
+kansela wa zamani | GTYPE>position
+sir | GTYPE>position
+senetor | GTYPE>position
+Kiongozi wa Libya | GTYPE>position
+
+kamanda | GTYPE>position | GSUBTYPE>military
+makamanda | GTYPE>position | GSUBTYPE>military
+naibu kamanda | GTYPE>position | GSUBTYPE>military
+manaibu kamanda | GTYPE>position | GSUBTYPE>military
+jenerali | GTYPE>position | GSUBTYPE>military
+majenerali | GTYPE>position | GSUBTYPE>military
+Jemadari | GTYPE>position | GSUBTYPE>military
+maJemadari | GTYPE>position | GSUBTYPE>military
+amiri | GTYPE>position | GSUBTYPE>military
+maamiri | GTYPE>position | GSUBTYPE>military
+koplo | GTYPE>position | GSUBTYPE>military
+wakoplo | GTYPE>position | GSUBTYPE>military
+koloneli | GTYPE>position | GSUBTYPE>military
+makoloneli | GTYPE>position | GSUBTYPE>military
+inspekta | GTYPE>position | GSUBTYPE>military
+mainspekta | GTYPE>position | GSUBTYPE>military
+kapteni | GTYPE>position | GSUBTYPE>military
+makapteni | GTYPE>position | GSUBTYPE>military
+polisi | GTYPE>position | GSUBTYPE>military
+mapolisi | GTYPE>position | GSUBTYPE>military
+
+
+afisa mtendaji Mkuu wa NMB | GTYPE>position
+Baba | GTYPE>position
+mama | GTYPE>position
+mdugu | GTYPE>position
+dada | GTYPE>position
+shangazi | GTYPE>position
+mjukuu | GTYPE>position
+babu | GTYPE>position
+kaka mdogo | GTYPE>position
+kaka mkubwa | GTYPE>position
+mzazi | GTYPE>position
+jaji | GTYPE>position
+
+
+
+magistra| GTYPE>position | GSUBTYPE>gov
+seneta| GTYPE>position | GSUBTYPE>gov
+deputy| GTYPE>position | GSUBTYPE>gov
+PDG| GTYPE>position | GSUBTYPE>gov
+dikteta| GTYPE>position | GSUBTYPE>gov
+mwanadiplomasia| GTYPE>position | GSUBTYPE>gov
+wanadiplomasia| GTYPE>position | GSUBTYPE>gov
+rais| GTYPE>position | GSUBTYPE>gov
+rais wa zamani| GTYPE>position | GSUBTYPE>gov
+balozi wa _| GTYPE>position | GSUBTYPE>gov
+mabalozi wa _| GTYPE>position | GSUBTYPE>gov
+balozi| GTYPE>position | GSUBTYPE>gov
+mabalozi| GTYPE>position | GSUBTYPE>gov
+balozi wa Marekani nchini _| GTYPE>position | GSUBTYPE>gov
+mabalozi wa Marekani nchini _| GTYPE>position | GSUBTYPE>gov
+mbunge| GTYPE>position | GSUBTYPE>gov
+wabunge| GTYPE>position | GSUBTYPE>gov
+mkurugenzi| GTYPE>position | GSUBTYPE>gov
+wakurugenzi| GTYPE>position | GSUBTYPE>gov
+wenyekiti| GTYPE>position | GSUBTYPE>gov
+mwenyekiti| GTYPE>position | GSUBTYPE>gov
+mweshimiwa| GTYPE>position | GSUBTYPE>gov
+weshimiwa| GTYPE>position | GSUBTYPE>gov
+wanasiasa| GTYPE>position | GSUBTYPE>gov
+mwanasiasa| GTYPE>position | GSUBTYPE>gov
+mdemokrati| GTYPE>position | GSUBTYPE>gov
+wademokrati| GTYPE>position | GSUBTYPE>gov
+mkuu wa chama| GTYPE>position | GSUBTYPE>gov
+mkuu bw| GTYPE>position | GSUBTYPE>gov
+mpinzani| GTYPE>position | GSUBTYPE>gov
+wapinzani| GTYPE>position | GSUBTYPE>gov
+makamu wa rais| GTYPE>position | GSUBTYPE>gov
+Waziri Mkuu| GTYPE>position | GSUBTYPE>gov
+Hayati| GTYPE>position | GSUBTYPE>gov
+raisi mstaafu| GTYPE>position | GSUBTYPE>gov
+viongozi wa G-20| GTYPE>position | GSUBTYPE>gov
+naibu| GTYPE>position | GSUBTYPE>gov
+manaibu| GTYPE>position | GSUBTYPE>gov
+naibu waziri wa maswala ya Afrika| GTYPE>position | GSUBTYPE>gov
+waziri| GTYPE>position | GSUBTYPE>gov
+mawaziri| GTYPE>position | GSUBTYPE>gov
+Waziri wa Mambo ya Nchi za Nje wa Marekani| GTYPE>position | GSUBTYPE>gov
+afisa wa Kidiplomasia| GTYPE>position | GSUBTYPE>gov
+maafisa wa Kidiplomasia| GTYPE>position | GSUBTYPE>gov
+mwakilishi wa umoja wa Afrika| GTYPE>position | GSUBTYPE>gov
+wakilishi wa umoja wa Afrika| GTYPE>position | GSUBTYPE>gov
+mchambuzi wa maswala ya kisiasa| GTYPE>position | GSUBTYPE>gov
+Profesa| GTYPE>position | GSUBTYPE>gov
+mwwakilishi| GTYPE>position | GSUBTYPE>gov
+wawakilishi| GTYPE>position | GSUBTYPE>gov
+msaidizi| GTYPE>position | GSUBTYPE>gov
+wasaidizi| GTYPE>position | GSUBTYPE>gov
+viongozi| GTYPE>position | GSUBTYPE>gov
+kiongozi| GTYPE>position | GSUBTYPE>gov
+mkurugenzi maarufu| GTYPE>position | GSUBTYPE>gov
+wakurugenzi maarufu| GTYPE>position | GSUBTYPE>gov
+mheshimiwa| GTYPE>position | GSUBTYPE>gov
+chancela| GTYPE>position | GSUBTYPE>gov
+chansela| GTYPE>position | GSUBTYPE>gov
+chifu| GTYPE>position | GSUBTYPE>gov
+Mheshimiwa Spika| GTYPE>position | GSUBTYPE>gov
+Mheshimiwa Wazir| GTYPE>position | GSUBTYPE>gov
+mfanyakazi wa serikali| GTYPE>position | GSUBTYPE>gov
+wafanyakazi wa serikali| GTYPE>position | GSUBTYPE>gov
+diplomatnaibu wa bunge| GTYPE>position | GSUBTYPE>gov
+diplomatmanaibu wa bunge| GTYPE>position | GSUBTYPE>gov
+communiste| GTYPE>position | GSUBTYPE>gov
+communisti| GTYPE>position | GSUBTYPE>gov
+mrepublican| GTYPE>position | GSUBTYPE>gov
+warepublican| GTYPE>position | GSUBTYPE>gov
+msocialisti| GTYPE>position | GSUBTYPE>gov
+wasocialisti| GTYPE>position | GSUBTYPE>gov
+msocialiste| GTYPE>position | GSUBTYPE>gov
+wasocialiste| GTYPE>position | GSUBTYPE>gov
+kamishna| GTYPE>position | GSUBTYPE>gov
+afisa wa elimu| GTYPE>position | GSUBTYPE>gov
+ofisa wa elimu| GTYPE>position | GSUBTYPE>gov
+afisa wa afya| GTYPE>position | GSUBTYPE>gov
+ofisa wa afya| GTYPE>position | GSUBTYPE>gov
+afisa wa majadiliano| GTYPE>position | GSUBTYPE>gov
+ofisa wa majadiliano| GTYPE>position | GSUBTYPE>gov
+ofisa wa hospitali| GTYPE>position | GSUBTYPE>gov
+afisa wa hospitali| GTYPE>position | GSUBTYPE>gov
+maofisa wa hospitali| GTYPE>position | GSUBTYPE>gov
+maafisa wa hospitali| GTYPE>position | GSUBTYPE>gov
+ofisa wa kampuni| GTYPE>position | GSUBTYPE>gov
+afisa wa kampuni| GTYPE>position | GSUBTYPE>gov
+ofisa wa serikali| GTYPE>position | GSUBTYPE>gov
+afisa wa serikali| GTYPE>position | GSUBTYPE>gov
+idara ya mambo ya nje ya Marekani| GTYPE>position | GSUBTYPE>gov
+balozi wa elimu| GTYPE>position | GSUBTYPE>gov
+waziri wa elimu| GTYPE>position | GSUBTYPE>gov
+balozi wa afya| GTYPE>position | GSUBTYPE>gov
+waziri wa afya| GTYPE>position | GSUBTYPE>gov
+balozi wa miundombinu| GTYPE>position | GSUBTYPE>gov
+waziri wa miundombinu| GTYPE>position | GSUBTYPE>gov
+waziri wa mambo ya nje| GTYPE>position | GSUBTYPE>gov
+
+
+
+Seyyid | GTYPE>position
+mfalme | GTYPE>position
+malkia | GTYPE>position
+kibwana | GTYPE>position
+mabibi | GTYPE>position
+mabwana | GTYPE>position
+
+ 
+
+abbe | GTYPE>title| GSUBTYPE>religious
+askofu | GTYPE>title| GSUBTYPE>religious
+askofu mkuu | GTYPE>title| GSUBTYPE>religious
+ayatollah | GTYPE>title| GSUBTYPE>religious
+mtakatifu | GTYPE>title| GSUBTYPE>religious
+mchungaji | GTYPE>title| GSUBTYPE>religious
+wachungaji | GTYPE>title| GSUBTYPE>religious
+muhubiri | GTYPE>title| GSUBTYPE>religious
+wahubiri | GTYPE>title| GSUBTYPE>religious
+mwisilamu | GTYPE>title| GSUBTYPE>religious
+waisilamu | GTYPE>title| GSUBTYPE>religious
+imam | GTYPE>title| GSUBTYPE>religious
+kahini | GTYPE>title| GSUBTYPE>religious
+makahini | GTYPE>title| GSUBTYPE>religious
+mkiristo | GTYPE>title| GSUBTYPE>religious
+wakiristo | GTYPE>title| GSUBTYPE>religious
+katibu mkuu | GTYPE>title| GSUBTYPE>religious
+katibu | GTYPE>title| GSUBTYPE>religious
+katibu wa zamani wa umoja wa mataifa | GTYPE>title| GSUBTYPE>religious
+mlutherani | GTYPE>title| GSUBTYPE>religious
+walutherani | GTYPE>title| GSUBTYPE>religious
+maharaja | GTYPE>title| GSUBTYPE>religious
+nabab | GTYPE>title| GSUBTYPE>religious
+padri | GTYPE>title| GSUBTYPE>religious
+mprotestanti | GTYPE>title| GSUBTYPE>religious
+waprotestanti | GTYPE>title| GSUBTYPE>religious
+myahudi | GTYPE>title| GSUBTYPE>religious
+wayahudi | GTYPE>title| GSUBTYPE>religious
+
+
+
+daktari bingwa wa Upasuaji | GTYPE>profession
+Daktari bingwa wa Kichwa | GTYPE>profession
+Kifua na Sikio | GTYPE>profession
+
+
+
+
+
+kubwa| GTYPE>position_adjective
+kikubwa| GTYPE>position_adjective
+mkubwa| GTYPE>position_adjective
+mdogo| GTYPE>position_adjective
+ndogo| GTYPE>position_adjective
+mdefu| GTYPE>position_adjective
+ndefu| GTYPE>position_adjective
+fupi| GTYPE>position_adjective
+mfupi| GTYPE>position_adjective
+kipya| GTYPE>position_adjective
+mpya| GTYPE>position_adjective
+vipya| GTYPE>position_adjective
+madili| GTYPE>position_adjective
+wadili| GTYPE>position_adjective
+vidili| GTYPE>position_adjective
+
+mchezaji| GTYPE>position_adjective
+wachezaji| GTYPE>position_adjective
+mchanga| GTYPE>position_adjective
+wachanga| GTYPE>position_adjective
+merevu| GTYPE>position_adjective
+waerevu| GTYPE>position_adjective
+mfupi| GTYPE>position_adjective
+wafupi| GTYPE>position_adjective
+mgeni| GTYPE>position_adjective
+wageni| GTYPE>position_adjective
+nyingine| GTYPE>position_adjective
+ingine| GTYPE>position_adjective
+kijana| GTYPE>position_adjective
+vijana| GTYPE>position_adjective
+mjeuri| GTYPE>position_adjective
+wajeuri| GTYPE>position_adjective
+mkindakindaki| GTYPE>position_adjective
+wakindakindaki| GTYPE>position_adjective
+kike| GTYPE>position_adjective
+wakike| GTYPE>position_adjective
+kipara| GTYPE>position_adjective
+vipara| GTYPE>position_adjective
+kipenzi| GTYPE>position_adjective
+vipenzi| GTYPE>position_adjective
+wapenzi| GTYPE>position_adjective
+kipya| GTYPE>position_adjective
+mpya| GTYPE>position_adjective
+mkimbizi| GTYPE>position_adjective
+wakimbizi| GTYPE>position_adjective
+mchaguliwa| GTYPE>position_adjective
+wachaguliwa| GTYPE>position_adjective
+mhukumiwa| GTYPE>position_adjective
+wahukumiwa| GTYPE>position_adjective
+mhatharani | GTYPE>position_adjective
+wahatharani | GTYPE>position_adjective
+jeruhi| GTYPE>position_adjective
+majeruhi| GTYPE>position_adjective
+maskini| GTYPE>position_adjective
+wamaskini| GTYPE>position_adjective
+aliyemetameta| GTYPE>position_adjective
+atakaemetameta| GTYPE>position_adjective
+anametameta| GTYPE>position_adjective
+wanaometameta| GTYPE>position_adjective
+waliometameta| GTYPE>position_adjective
+linalometameta| GTYPE>position_adjective
+mchoyo| GTYPE>position_adjective
+wachoyo| GTYPE>position_adjective
+mdogo| GTYPE>position_adjective
+kidogo| GTYPE>position_adjective
+vidogo| GTYPE>position_adjective
+halifu| GTYPE>position_adjective
+mhalifu| GTYPE>position_adjective
+wahalifu| GTYPE>position_adjective
+amejiuzulu| GTYPE>position_adjective
+ajiuzulu| GTYPE>position_adjective
+mkaidi| GTYPE>position_adjective
+wakaidi| GTYPE>position_adjective
+mkali| GTYPE>position_adjective
+wakali| GTYPE>position_adjective
+kikali| GTYPE>position_adjective
+mkongwe| GTYPE>position_adjective
+kikongwe| GTYPE>position_adjective
+wakongwe| GTYPE>position_adjective
+mkubwa| GTYPE>position_adjective
+kikubwa| GTYPE>position_adjective
+vikubwa| GTYPE>position_adjective
+mlegevu| GTYPE>position_adjective
+walegevu| GTYPE>position_adjective
+mtendaji| GTYPE>position_adjective
+watendaji| GTYPE>position_adjective
+kitangulizi| GTYPE>position_adjective
+watangulizi| GTYPE>position_adjective
+nzuri| GTYPE>position_adjective
+kizuri| GTYPE>position_adjective
+vizuri| GTYPE>position_adjective
+wazuri| GTYPE>position_adjective
+ngumu| GTYPE>position_adjective
+kigumu| GTYPE>position_adjective
+vigumu| GTYPE>position_adjective
+wagumu| GTYPE>position_adjective
+aliyeng'aa| GTYPE>position_adjective | STRICT > (?i:aliyeng['´’‘`]aa)
+atakaeng'aa| GTYPE>position_adjective | STRICT > (?i:atakaeng['´’‘`]aa)
+anang'aa| GTYPE>position_adjective | STRICT > (?i:anang['´’‘`]aa)
+wanaong'aa| GTYPE>position_adjective | STRICT > (?i:wanaong['´’‘`]aa)
+waliong'aa| GTYPE>position_adjective | STRICT > (?i:waliong['´’‘`]aa)
+linalong'aa| GTYPE>position_adjective | STRICT > (?i:linalong['´’‘`]aa)
+mwanamuziki| GTYPE>position_adjective
+wanamuziki| GTYPE>position_adjective
+mweupe| GTYPE>position_adjective
+nyeupe| GTYPE>position_adjective
+weupe| GTYPE>position_adjective
+nyekundu| GTYPE>position_adjective
+vyekundu| GTYPE>position_adjective
+siasa| GTYPE>position_adjective
+kisiasa| GTYPE>position_adjective
+mshambuliaji| GTYPE>position_adjective
+washambuliaji| GTYPE>position_adjective
+shabaha| GTYPE>position_adjective
+mashabaha| GTYPE>position_adjective
+washabaha| GTYPE>position_adjective
+sharifu| GTYPE>position_adjective
+msharifu| GTYPE>position_adjective
+washarifu| GTYPE>position_adjective
+shoga| GTYPE>position_adjective
+mashoga| GTYPE>position_adjective
+tajiri| GTYPE>position_adjective
+majiri| GTYPE>position_adjective
+kitamaduni| GTYPE>position_adjective
+utamaduni| GTYPE>position_adjective
+tamu| GTYPE>position_adjective
+kitamu| GTYPE>position_adjective
+tao| GTYPE>position_adjective
+matao| GTYPE>position_adjective
+mtoro| GTYPE>position_adjective
+watoro| GTYPE>position_adjective
+mkubwa| GTYPE>position_adjective
+ukubwa| GTYPE>position_adjective
+tupu| GTYPE>position_adjective
+utupu| GTYPE>position_adjective
+kitupu| GTYPE>position_adjective
+kikuu| GTYPE>position_adjective
+vikuu| GTYPE>position_adjective
+mkuu| GTYPE>position_adjective
+mjamzito| GTYPE>position_adjective
+wajamzito| GTYPE>position_adjective
+wepesi| GTYPE>position_adjective
+nyepesi| GTYPE>position_adjective
+wingi| GTYPE>position_adjective
+nyingi| GTYPE>position_adjective
+nzee| GTYPE>position_adjective
+wazee| GTYPE>position_adjective
+mpiganaji| GTYPE>position_adjective
+wapiganaji| GTYPE>position_adjective
+mgaidi| GTYPE>position_adjective
+magaidi| GTYPE>position_adjective
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#********************************************** 
+# Joint Research Center - OPTIMA 
+# Copyright (c) 2012 European Commission. 
+# words that cannot be part of Swahli  NE (person and org)
+#********************************************** 
+#stop words SW 
+#Created on october 26th 2009 by Sylvia  
+
+#demonstrative pronouns
+
+ambacho  | STOPWORD>all
+ambazo | STOPWORD>all
+chochote | STOPWORD>all
+ile | STOPWORD>all
+ina | STOPWORD>all
+#interrogative pronoun
+gani| STOPWORD>all
+hapa | STOPWORD>all
+hawa | STOPWORD>all
+haya | STOPWORD>all
+hicho | STOPWORD>all
+hii | STOPWORD>all
+hilo  | STOPWORD>all
+hivi | STOPWORD>all
+hizi | STOPWORD>all
+humo | STOPWORD>all
+huo | STOPWORD>all
+huyu | STOPWORD>all
+hiyo  | STOPWORD>all
+hizo | STOPWORD>all
+huko | STOPWORD>all
+huu | STOPWORD>all
+kile | STOPWORD>all
+kina | STOPWORD>all
+kitu | STOPWORD>all
+kule | STOPWORD>all
+kwake | STOPWORD>all
+kwenye | STOPWORD>all
+lenye | STOPWORD>all
+lile | STOPWORD>all
+mwenye | STOPWORD>all
+#interrogative pronoun 
+nani| STOPWORD>all
+naye | STOPWORD>all
+ule | STOPWORD>all
+wao | STOPWORD>all
+wengine | STOPWORD>all
+wenzake | STOPWORD>all
+wowote | STOPWORD>all
+yale | STOPWORD>all
+yapo | STOPWORD>all
+yalio | STOPWORD>all
+yeyote | STOPWORD>all
+yuko | STOPWORD>all
+yule | STOPWORD>all
+yumo | STOPWORD>all
+zenye | STOPWORD>all
+zile | STOPWORD>all
+zote | STOPWORD>all
+zozote | STOPWORD>all
+
+#Adverbs and some verbs 
+
+ambaye | STOPWORD>all
+ambayo | STOPWORD>all
+ambao | STOPWORD>all
+awali | STOPWORD>all
+baada | STOPWORD>all
+badala | STOPWORD>all
+baadhi | STOPWORD>all
+bado | STOPWORD>all
+baadaye | STOPWORD>all
+baina | STOPWORD>all
+basi | STOPWORD>all
+bila | STOPWORD>all
+bure | STOPWORD>all
+chini | STOPWORD>all
+dhidi | STOPWORD>all
+ghafla | STOPWORD>all
+hataa | STOPWORD>all
+hata | STOPWORD>all
+hakika | STOPWORD>all
+halisi | STOPWORD>all
+haraka | STOPWORD>all
+hasa | STOPWORD>all
+hivyo | STOPWORD>all
+jinsi | STOPWORD>all
+Kabisa | STOPWORD>all
+kadhalika | STOPWORD>all
+kadhaa | STOPWORD>all
+kabla | STOPWORD>all
+kando | STOPWORD>all
+kama | STOPWORD>all
+Kamwe | STOPWORD>all
+karibuni | STOPWORD>all
+kati | STOPWORD>all
+kawaida | STOPWORD>all
+kesho | STOPWORD>all
+kifupi | STOPWORD>all
+kidogo | STOPWORD>all
+kiasi | STOPWORD>all
+kila | STOPWORD>all
+kipindi | STOPWORD>all
+kwani | STOPWORD>all
+Kweli | STOPWORD>all
+kufikia | STOPWORD>all
+kutwa | STOPWORD>all
+kuwa  | STOPWORD>all
+kusudi | STOPWORD>all
+labda | STOPWORD>all
+leo | STOPWORD>all
+labda | STOPWORD>all
+lakini | STOPWORD>all
+lazima | STOPWORD>all
+lilikuwa | STOPWORD>all
+mbovu | STOPWORD>all
+mbali | STOPWORD>all
+mbalimbali  | STOPWORD>all
+mbele | STOPWORD>all
+mahali | STOPWORD>all
+majizi | STOPWORD>all
+mara | STOPWORD>all
+mara tu | STOPWORD>all
+milele | STOPWORD>all
+mno | STOPWORD>all
+moja moja | STOPWORD>all
+mkoani | STOPWORD>all
+mpango | STOPWORD>all
+muda | STOPWORD>all
+mwanzo | STOPWORD>all
+namn | STOPWORD>all
+nayo | STOPWORD>all
+neno | STOPWORD>all
+nia | STOPWORD>all
+nje | STOPWORD>all
+ndani | STOPWORD>all
+ndio | STOPWORD>all
+nini | STOPWORD>all
+nyingine | STOPWORD>all
+nzuri | STOPWORD>all
+ndiyo | STOPWORD>all
+ovyo | STOPWORD>all
+pale | STOPWORD>all
+pamoja | STOPWORD>all
+pengine | STOPWORD>all
+pahali | STOPWORD>all
+pia | STOPWORD>all
+sababu  | STOPWORD>all
+sana | STOPWORD>all
+sasa | STOPWORD>all
+sawa  | STOPWORD>all
+si | STOPWORD>all
+taratibu | STOPWORD>all
+tangu | STOPWORD>all
+tena | STOPWORD>all
+tu | STOPWORD>all
+upande | STOPWORD>all
+upesi | STOPWORD>all
+upya | STOPWORD>all
+vibaya | STOPWORD>all
+vigumu | STOPWORD>all
+vile | STOPWORD>all
+vingine | STOPWORD>all
+vinginevyo | STOPWORD>all
+vivyo | STOPWORD>all
+vizuri | STOPWORD>all
+wakati | STOPWORD>all
+zaidi | STOPWORD>all
+zamani | STOPWORD>all
+
+#Adverbs of time 
+ 
+asubuhi | STOPWORD>all
+hii | STOPWORD>all
+ijayo | STOPWORD>all
+iliopitasasa | STOPWORD>all
+jana | STOPWORD>all
+jioni | STOPWORD>all
+juzi | STOPWORD>all
+kesho | STOPWORD>all
+kutwa | STOPWORD>all
+leo | STOPWORD>all
+mapema | STOPWORD>all
+mwaka   | STOPWORD>all
+siku | STOPWORD>all
+ 
+#possesives pronouns 
+
+chake | STOPWORD>all
+kwao | STOPWORD>all
+kwetu | STOPWORD>all
+lake | STOPWORD>all
+lao | STOPWORD>all
+letu | STOPWORD>all
+vya | STOPWORD>all
+vyao | STOPWORD>all
+wake | STOPWORD>all
+yangu | STOPWORD>all
+yake | STOPWORD>all
+yao | STOPWORD>all
+yetu | STOPWORD>all
+wao | STOPWORD>all
+wetu | STOPWORD>all
+zangu | STOPWORD>all
+zake | STOPWORD>all
+
+#pronouns 
+je | STOPWORD>all
+mimi  | STOPWORD>all
+hayo  | STOPWORD>all
+sisi   | STOPWORD>all
+yeye | STOPWORD>all
+vyote | STOPWORD>all
+wale | STOPWORD>all
+wenzao | STOPWORD>all
+wewe  | STOPWORD>all
+wote | STOPWORD>all
+watatu | STOPWORD>all
+
+#conjunction 
+ 
+ama | STOPWORD>all
+ambalo | STOPWORD>all
+ambavyo | STOPWORD>all
+endapo | STOPWORD>all
+eti | STOPWORD>all
+hadi | STOPWORD>all
+huku | STOPWORD>all
+ili | STOPWORD>all
+ikiwa | STOPWORD>all
+ingawa | STOPWORD>all
+ingawapo | STOPWORD>all
+iwapo | STOPWORD>all
+kisha | STOPWORD>all
+kwa | STOPWORD>all
+la | STOPWORD>all
+licha | STOPWORD>all
+maana | STOPWORD>all
+maanake | STOPWORD>all
+mpaka | STOPWORD>all
+mwa | STOPWORD>all
+nao | STOPWORD>all
+ni | STOPWORD>all
+umbali | STOPWORD>all
+wala | STOPWORD>all
+yaani | STOPWORD>all
+yaliyomo | STOPWORD>all
+ 
+ 
+#some adjectives 
+ 
+binafsi | STOPWORD>all
+bora | STOPWORD>all
+chache | STOPWORD>all
+jingine | STOPWORD>all
+kuu | STOPWORD>all
+kali | STOPWORD>all
+kidogo | STOPWORD>all
+kikubwa | STOPWORD>all
+kubwa | STOPWORD>all
+makubwa | STOPWORD>all
+mbaya | STOPWORD>all
+mbovu | STOPWORD>all
+mdogo | STOPWORD>all
+mkubwa | STOPWORD>all
+mkuu | STOPWORD>all
+wakuu | STOPWORD>all
+mpya | STOPWORD>all
+mengi | STOPWORD>all
+mengine | STOPWORD>all
+mingi | STOPWORD>all
+mkali | STOPWORD>all
+mrefu | STOPWORD>all
+msingi | STOPWORD>all
+mwingine | STOPWORD>all
+ndefu | STOPWORD>all
+ndogo | STOPWORD>all
+ngumu | STOPWORD>all
+nguvu | STOPWORD>all
+nyingi | STOPWORD>all
+nzuri | STOPWORD>all
+vyema | STOPWORD>all
+vibaya | STOPWORD>all
+vingi | STOPWORD>all
+wanne | STOPWORD>all
+watano | STOPWORD>all
+wawili | STOPWORD>all
+wazi | STOPWORD>all
+wengi | STOPWORD>all
+wingi | STOPWORD>all
+
+
+#prepositions
+au | STOPWORD>all
+cha | STOPWORD>all
+ikawa | STOPWORD>all
+juu | STOPWORD>all
+kuna | STOPWORD>all
+kutokana | STOPWORD>all
+kutoka | STOPWORD>all
+kwamba | STOPWORD>all
+na | STOPWORD>all
+nyuma | STOPWORD>all
+wa | STOPWORD>all
+wenda  | STOPWORD>all
+ya | STOPWORD>all
+za | STOPWORD>all
+
+#titles | STOPWORD>all
+
+
+bibi | STOPWORD>all
+Bi | STOPWORD>all
+ 
+ 
+#Days of the week 
+
+Jumatatu  | STOPWORD>all
+Jumanne  | STOPWORD>all
+Jumatano  | STOPWORD>all
+Alhamisi  | STOPWORD>all
+Ijumaa  | STOPWORD>all
+Jumamosi  | STOPWORD>all
+Jumapili | STOPWORD>all
+
+#Months of the year | STOPWORD>all
+
+Januari | STOPWORD>all
+Februari | STOPWORD>all
+Machi | STOPWORD>all
+Aprili  | STOPWORD>all
+Mei  | STOPWORD>all
+Juni  | STOPWORD>all
+Julai  | STOPWORD>all
+Agosti  | STOPWORD>all
+Augosti  | STOPWORD>all
+Septemba  | STOPWORD>all
+Oktoba  | STOPWORD>all
+Novemba  | STOPWORD>all
+Desemba | STOPWORD>all
+
+#Numbers | STOPWORD>all
+
+asilimia | STOPWORD>all
+moja  | STOPWORD>all
+mbili | STOPWORD>all
+pili | STOPWORD>all
+vitatu | STOPWORD>all
+tatu | STOPWORD>all
+nne | STOPWORD>all
+tano | STOPWORD>all
+sita | STOPWORD>all
+saba | STOPWORD>all
+nane | STOPWORD>all
+tisa | STOPWORD>all
+kumi | STOPWORD>all
+ishirini | STOPWORD>all
+thelathini | STOPWORD>all
+arobaini | STOPWORD>all
+hamsini | STOPWORD>all
+sitini | STOPWORD>all
+sabini | STOPWORD>all
+themanini | STOPWORD>all
+tisini | STOPWORD>all
+mia moja | STOPWORD>all
+milioni | STOPWORD>all
+elfu moja | STOPWORD>all
+
+
+#others | STOPWORD>all
+
+alifafanua | STOPWORD>all
+aliongeza | STOPWORD>all
+alisisitiza | STOPWORD>all
+akiwa | STOPWORD>all
+akizungumzia | STOPWORD>all
+alieleza | STOPWORD>all
+alisema | STOPWORD>all
+alikuwa | STOPWORD>all
+aliyekuwa | STOPWORD>all
+iliyopo | STOPWORD>all
+alisema | STOPWORD>all
+amesema | STOPWORD>all
+anaweza | STOPWORD>all
+amekuwa | STOPWORD>all
+amesema | STOPWORD>all
+aminika | STOPWORD>all
+angalia | STOPWORD>all
+ana | STOPWORD>all
+boresha | STOPWORD>all
+bariki | STOPWORD>all
+badilika | STOPWORD>all
+bidhaa | STOPWORD>all
+com | STOPWORD>all
+chebuka | STOPWORD>all
+chichimua | STOPWORD>all
+chunguza | STOPWORD>all
+dali | STOPWORD>all
+dharau | STOPWORD>all
+dhihirisha | STOPWORD>all
+dhii | STOPWORD>all
+dhulma | STOPWORD>all
+doria | STOPWORD>all
+dukuduku | STOPWORD>all
+dumisha | STOPWORD>all
+eneo | STOPWORD>all
+habari | STOPWORD>all
+haja | STOPWORD>all
+hoja | STOPWORD>all
+hawana | STOPWORD>all
+idadi | STOPWORD>all
+iko | STOPWORD>all
+ilikuwa | STOPWORD>all
+iliopta | STOPWORD>all
+ikiwemo | STOPWORD>all
+iliyokuwa | STOPWORD>all
+iliyotolewa | STOPWORD>all
+ilivyo | STOPWORD>all
+imekuwa | STOPWORD>all
+inatakiwa | STOPWORD>all
+inaweza | STOPWORD>all
+ipo | STOPWORD>all
+itakuwa | STOPWORD>all
+iwe | STOPWORD>all
+jijini | STOPWORD>all
+kazi | STOPWORD>all
+kuchukua | STOPWORD>all
+kufanya | STOPWORD>all
+kitendo | STOPWORD>all
+kiwango | STOPWORD>all
+kufanyika | STOPWORD>all
+kufuata | STOPWORD>all
+kuhakikisha | STOPWORD>all
+kuhusu | STOPWORD>all
+hakuna | STOPWORD>all
+kuboresha | STOPWORD>all
+kuelekea | STOPWORD>all
+kueleza | STOPWORD>all
+kuja | STOPWORD>all
+kulipa | STOPWORD>all
+kulipwa | STOPWORD>all
+kumpa | STOPWORD>all
+kupata | STOPWORD>all
+kupeleka | STOPWORD>all
+kuona | STOPWORD>all
+kusababisha | STOPWORD>all
+kusimamia | STOPWORD>all
+kutaka | STOPWORD>all
+kutoa | STOPWORD>all
+kutumia | STOPWORD>all
+kusema | STOPWORD>all
+kuweka | STOPWORD>all
+kuwepo | STOPWORD>all
+kuzungumzia | STOPWORD>all
+kwenda | STOPWORD>all
+mabadiliko | STOPWORD>all
+madai | STOPWORD>all
+maeneo | STOPWORD>all
+mafanikio | STOPWORD>all
+mahitaji | STOPWORD>all
+mambo | STOPWORD>all
+maneno | STOPWORD>all
+matokeo | STOPWORD>all
+matukio | STOPWORD>all
+miezi | STOPWORD>all
+miaka | STOPWORD>all
+mujibu | STOPWORD>all
+majina | STOPWORD>all
+mjini | STOPWORD>all
+mkazi | STOPWORD>all
+mwandishi | STOPWORD>all
+mwisho | STOPWORD>all
+nchi | STOPWORD>all
+niaba | STOPWORD>all
+nina | STOPWORD>all
+nafasi | STOPWORD>all
+nje | STOPWORD>all
+namba | STOPWORD>all
+nusu | STOPWORD>all
+rushwa | STOPWORD>all
+saa | STOPWORD>all
+Salaam | STOPWORD>all
+sehemu | STOPWORD>all
+serikali | STOPWORD>all
+shughuli | STOPWORD>all
+sio | STOPWORD>all
+sh | STOPWORD>all
+suala | STOPWORD>all
+sokoni | STOPWORD>all
+tukio | STOPWORD>all
+tuna | STOPWORD>all
+tunaweza | STOPWORD>all
+uamuzi | STOPWORD>all
+ukweli | STOPWORD>all
+Ulaya | STOPWORD>all
+ulikuwa | STOPWORD>all
+uliopita | STOPWORD>all
+una | STOPWORD>all
+unaweza | STOPWORD>all
+usiku | STOPWORD>all
+uwezo | STOPWORD>all
+vyombo | STOPWORD>all
+vyuo | STOPWORD>all
+wakati | STOPWORD>all
+wakiwa | STOPWORD>all
+walieleza | STOPWORD>all
+walikuwa | STOPWORD>all
+walio | STOPWORD>all
+waliokuwa | STOPWORD>all
+walisema | STOPWORD>all
+wana | STOPWORD>all
+wanataka | STOPWORD>all
+wanaweza | STOPWORD>all
+watakuwa | STOPWORD>all
+watu | STOPWORD>all
+waweze | STOPWORD>all
+Wilaya | STOPWORD>all
+yupo | STOPWORD>all
+zimeanza | STOPWORD>all
+ziko  | STOPWORD>all
+zipo | STOPWORD>all
+zungusha | STOPWORD>all
+			

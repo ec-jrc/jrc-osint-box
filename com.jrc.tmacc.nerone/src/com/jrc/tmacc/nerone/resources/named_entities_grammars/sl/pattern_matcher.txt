@@ -1,0 +1,1413 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-sl.txt
+# content : PM lexicon for grammatical units (Slovak)
+# date	  : September 2016
+# author  :  Jacquet
+# *********
+
+	
+a | GTYPE>coordination
+i | GTYPE>coordination
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_demonyms-sl.txt
+# content : PM lexicon for person demonyms, Slovenian.
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : Oct 2012
+# Entries automatically expanded from perl regex of Bruno's file sl.txt
+# Might be some mistakes, need to be checked.
+#**********************************************
+
+
+
+# (<title>) of the County /singular genitive/
+evropske komisije | GTYPE>demonym
+Afganistana | GTYPE>demonym
+Albanije | GTYPE>demonym
+Amerike | GTYPE>demonym
+Argentine | GTYPE>demonym
+Avstrije | GTYPE>demonym
+Avstralije | GTYPE>demonym
+Belgije | GTYPE>demonym
+Bosne | GTYPE>demonym
+Bolgar | GTYPE>demonym
+Britanije | GTYPE>demonym
+Filipinov | GTYPE>demonym
+Francije | GTYPE>demonym
+Hollywooda | GTYPE>demonym
+Hrvaška | GTYPE>demonym
+Irana | GTYPE>demonym
+Iraka | GTYPE>demonym
+Italije | GTYPE>demonym
+Izraela | GTYPE>demonym
+Japonske | GTYPE>demonym
+Jordanije | GTYPE>demonym
+Jugoslavije | GTYPE>demonym
+Kalifornije | GTYPE>demonym
+Kitajske | GTYPE>demonym
+Makedonije | GTYPE>demonym
+Monaka | GTYPE>demonym
+Nemčije | GTYPE>demonym
+Nizozemske | GTYPE>demonym
+Republikanske | GTYPE>demonym
+Venezuelski | GTYPE>demonym
+kubanskega | GTYPE>demonym
+Rusije | GTYPE>demonym
+Slovaške | GTYPE>demonym
+Slovenije | GTYPE>demonym
+Srbije | GTYPE>demonym
+Tunizije | GTYPE>demonym
+Češke | GTYPE>demonym
+Španije | GTYPE>demonym
+Švice | GTYPE>demonym
+# the Countryman (Frenchman, German..)
+Afganistanc | GTYPE>demonym
+Afganistanec | GTYPE>demonym
+Afganistanca | GTYPE>demonym
+Afganistaneca | GTYPE>demonym
+Afganistancu | GTYPE>demonym
+Afganistanecu | GTYPE>demonym
+Afganistancem | GTYPE>demonym
+Afganistanecem | GTYPE>demonym
+Afganistanka | GTYPE>demonym
+Afganistanke | GTYPE>demonym
+Afganistanki | GTYPE>demonym
+Afganistanko | GTYPE>demonym
+Albanc | GTYPE>demonym
+Albanec | GTYPE>demonym
+Albanca | GTYPE>demonym
+Albaneca | GTYPE>demonym
+Albancu | GTYPE>demonym
+Albanecu | GTYPE>demonym
+Albancem | GTYPE>demonym
+Albanecem | GTYPE>demonym
+Albanka | GTYPE>demonym
+Albanke | GTYPE>demonym
+Albanki | GTYPE>demonym
+Albanko | GTYPE>demonym
+Američan | GTYPE>demonym
+Američana | GTYPE>demonym
+Američanu | GTYPE>demonym
+Američanom | GTYPE>demonym
+Američanka | GTYPE>demonym
+Američanke | GTYPE>demonym
+Američanki | GTYPE>demonym
+Američanko | GTYPE>demonym
+Argentinc | GTYPE>demonym
+Argentinec | GTYPE>demonym
+Argentinca | GTYPE>demonym
+Argentineca | GTYPE>demonym
+Argentincu | GTYPE>demonym
+Argentinecu | GTYPE>demonym
+Argentincem | GTYPE>demonym
+Argentinecem | GTYPE>demonym
+Argentinka | GTYPE>demonym
+Argentinke | GTYPE>demonym
+Argentinki | GTYPE>demonym
+Argentinko | GTYPE>demonym
+Avstralc | GTYPE>demonym
+Avstralec | GTYPE>demonym
+Avstralca | GTYPE>demonym
+Avstraleca | GTYPE>demonym
+Avstralcu | GTYPE>demonym
+Avstralecu | GTYPE>demonym
+Avstralcem | GTYPE>demonym
+Avstralecem | GTYPE>demonym
+Avstralka | GTYPE>demonym
+Avstralke | GTYPE>demonym
+Avstralki | GTYPE>demonym
+Avstralko | GTYPE>demonym
+Avstrijc | GTYPE>demonym
+Avstrijec | GTYPE>demonym
+Avstrijca | GTYPE>demonym
+Avstrijeca | GTYPE>demonym
+Avstrijcu | GTYPE>demonym
+Avstrijecu | GTYPE>demonym
+Avstrijcem | GTYPE>demonym
+Avstrijecem | GTYPE>demonym
+Avstrijka | GTYPE>demonym
+Avstrijke | GTYPE>demonym
+Avstrijki | GTYPE>demonym
+Avstrijko | GTYPE>demonym
+Belgijc | GTYPE>demonym
+Belgijec | GTYPE>demonym
+Belgijca | GTYPE>demonym
+Belgijeca | GTYPE>demonym
+Belgijcu | GTYPE>demonym
+Belgijecu | GTYPE>demonym
+Belgijcem | GTYPE>demonym
+Belgijecem | GTYPE>demonym
+Belgijka | GTYPE>demonym
+Belgijke | GTYPE>demonym
+Belgijki | GTYPE>demonym
+Belgijko | GTYPE>demonym
+Bosanc | GTYPE>demonym
+Bosanec | GTYPE>demonym
+Bosanca | GTYPE>demonym
+Bosaneca | GTYPE>demonym
+Bosancu | GTYPE>demonym
+Bosanecu | GTYPE>demonym
+Bosancem | GTYPE>demonym
+Bosanecem | GTYPE>demonym
+Bosanka | GTYPE>demonym
+Bosanke | GTYPE>demonym
+Bosanki | GTYPE>demonym
+Bosanko | GTYPE>demonym
+Britanc | GTYPE>demonym
+Britanec | GTYPE>demonym
+Britanca | GTYPE>demonym
+Britaneca | GTYPE>demonym
+Britancu | GTYPE>demonym
+Britanecu | GTYPE>demonym
+Britancom | GTYPE>demonym
+Britanecom | GTYPE>demonym
+Britanka | GTYPE>demonym
+Britanke | GTYPE>demonym
+Britanki | GTYPE>demonym
+Britanko | GTYPE>demonym
+Filipinc | GTYPE>demonym
+Filipinec | GTYPE>demonym
+Filipinca | GTYPE>demonym
+Filipineca | GTYPE>demonym
+Filipincu | GTYPE>demonym
+Filipinecu | GTYPE>demonym
+Filipincom | GTYPE>demonym
+Filipinecom | GTYPE>demonym
+Filipinka | GTYPE>demonym
+Filipinke | GTYPE>demonym
+Filipinki | GTYPE>demonym
+Filipinko | GTYPE>demonym
+Francoz | GTYPE>demonym
+Francoza | GTYPE>demonym
+Francozu | GTYPE>demonym
+Francozom | GTYPE>demonym
+Francozinja | GTYPE>demonym
+Francozinje | GTYPE>demonym
+Francozinji | GTYPE>demonym
+Francozinjo | GTYPE>demonym
+Hrvat | GTYPE>demonym
+Hrvata | GTYPE>demonym
+Hrvatu | GTYPE>demonym
+Hrvatom | GTYPE>demonym
+Hrvatica | GTYPE>demonym
+Hrvatice | GTYPE>demonym
+Hrvatici | GTYPE>demonym
+Hrvatico | GTYPE>demonym
+Irančan | GTYPE>demonym
+Irančana | GTYPE>demonym
+Irančanu | GTYPE>demonym
+Irančanom | GTYPE>demonym
+Irančanka | GTYPE>demonym
+Irančanke | GTYPE>demonym
+Irančanki | GTYPE>demonym
+Irančanko | GTYPE>demonym
+Iračan | GTYPE>demonym
+Iračana | GTYPE>demonym
+Iračanu | GTYPE>demonym
+Iračanom | GTYPE>demonym
+Iračanka | GTYPE>demonym
+Iračanke | GTYPE>demonym
+Iračanki | GTYPE>demonym
+Iračanko | GTYPE>demonym
+Italijan | GTYPE>demonym
+Italijana | GTYPE>demonym
+Italijanu | GTYPE>demonym
+Italijanom | GTYPE>demonym
+Italijanka | GTYPE>demonym
+Italijanke | GTYPE>demonym
+Italijanki | GTYPE>demonym
+Italijanko | GTYPE>demonym
+Izraelc | GTYPE>demonym
+Izraelec | GTYPE>demonym
+Izraelca | GTYPE>demonym
+Izraeleca | GTYPE>demonym
+Izraelcu | GTYPE>demonym
+Izraelecu | GTYPE>demonym
+Izraelcem | GTYPE>demonym
+Izraelecem | GTYPE>demonym
+Izraelka | GTYPE>demonym
+Izraelke | GTYPE>demonym
+Izraelki | GTYPE>demonym
+Izraelko | GTYPE>demonym
+Japonc | GTYPE>demonym
+Japonec | GTYPE>demonym
+Japonca | GTYPE>demonym
+Japoneca | GTYPE>demonym
+Japoncu | GTYPE>demonym
+Japonecu | GTYPE>demonym
+Japoncem | GTYPE>demonym
+Japonecem | GTYPE>demonym
+Japonka | GTYPE>demonym
+Japonke | GTYPE>demonym
+Japonki | GTYPE>demonym
+Japonko | GTYPE>demonym
+Jordanc | GTYPE>demonym
+Jordanec | GTYPE>demonym
+Jordanca | GTYPE>demonym
+Jordaneca | GTYPE>demonym
+Jordancu | GTYPE>demonym
+Jordanecu | GTYPE>demonym
+Jordancem | GTYPE>demonym
+Jordanecem | GTYPE>demonym
+Jordanka | GTYPE>demonym
+Jordanke | GTYPE>demonym
+Jordanki | GTYPE>demonym
+Jordanko | GTYPE>demonym
+Jugoslovan | GTYPE>demonym
+Jugoslovana | GTYPE>demonym
+Jugoslovanu | GTYPE>demonym
+Jugoslovanom | GTYPE>demonym
+Jugoslovanka | GTYPE>demonym
+Jugoslovanke | GTYPE>demonym
+Jugoslovanki | GTYPE>demonym
+Jugoslovanko | GTYPE>demonym
+Kalifornijčana | GTYPE>demonym
+Kalifornijčane | GTYPE>demonym
+Kalifornijčani | GTYPE>demonym
+Kalifornijčano | GTYPE>demonym
+Kalifornijčanka | GTYPE>demonym
+Kalifornijčanke | GTYPE>demonym
+Kalifornijčanki | GTYPE>demonym
+Kalifornijčanko | GTYPE>demonym
+Kitajc | GTYPE>demonym
+Kitajec | GTYPE>demonym
+Kitajca | GTYPE>demonym
+Kitajeca | GTYPE>demonym
+Kitajcu | GTYPE>demonym
+Kitajecu | GTYPE>demonym
+Kitajcem | GTYPE>demonym
+Kitajecem | GTYPE>demonym
+Kitajka | GTYPE>demonym
+Kitajke | GTYPE>demonym
+Kitajki | GTYPE>demonym
+Kitajko | GTYPE>demonym
+Makedonc | GTYPE>demonym
+Makedonec | GTYPE>demonym
+Makedonca | GTYPE>demonym
+Makedoneca | GTYPE>demonym
+Makedoncu | GTYPE>demonym
+Makedonecu | GTYPE>demonym
+Makedoncem | GTYPE>demonym
+Makedonecem | GTYPE>demonym
+Makedonka | GTYPE>demonym
+Makedonke | GTYPE>demonym
+Makedonki | GTYPE>demonym
+Makedonko | GTYPE>demonym
+Monačan | GTYPE>demonym
+Monačana | GTYPE>demonym
+Monačanu | GTYPE>demonym
+Monačanom | GTYPE>demonym
+Monačanka | GTYPE>demonym
+Monačanke | GTYPE>demonym
+Monačanki | GTYPE>demonym
+Monačanko | GTYPE>demonym
+Nemc | GTYPE>demonym
+Nemec | GTYPE>demonym
+Nemca | GTYPE>demonym
+Nemeca | GTYPE>demonym
+Nemcu | GTYPE>demonym
+Nemecu | GTYPE>demonym
+Nemcem | GTYPE>demonym
+Nemecem | GTYPE>demonym
+Nemka | GTYPE>demonym
+Nemke | GTYPE>demonym
+Nemki | GTYPE>demonym
+Nemko | GTYPE>demonym
+Nizozemc | GTYPE>demonym
+Nizozemec | GTYPE>demonym
+Nizozemca | GTYPE>demonym
+Nizozemeca | GTYPE>demonym
+Nizozemcu | GTYPE>demonym
+Nizozemecu | GTYPE>demonym
+Nizozemcem | GTYPE>demonym
+Nizozemecem | GTYPE>demonym
+Nizozemka | GTYPE>demonym
+Nizozemke | GTYPE>demonym
+Nizozemki | GTYPE>demonym
+Nizozemko | GTYPE>demonym
+Republikanc | GTYPE>demonym
+Republikanec | GTYPE>demonym
+Republikanca | GTYPE>demonym
+Republikaneca | GTYPE>demonym
+Republikancu | GTYPE>demonym
+Republikanecu | GTYPE>demonym
+Republikancem | GTYPE>demonym
+Republikanecem | GTYPE>demonym
+Republikanka | GTYPE>demonym
+Republikanke | GTYPE>demonym
+Republikanki | GTYPE>demonym
+Republikanko | GTYPE>demonym
+Rus | GTYPE>demonym
+Rusa | GTYPE>demonym
+Rusu | GTYPE>demonym
+Rusom | GTYPE>demonym
+Rusinja | GTYPE>demonym
+Rusinje | GTYPE>demonym
+Rusinji | GTYPE>demonym
+Rusinjo | GTYPE>demonym
+Slovenc | GTYPE>demonym
+Slovenec | GTYPE>demonym
+Slovenca | GTYPE>demonym
+Sloveneca | GTYPE>demonym
+Slovencu | GTYPE>demonym
+Slovenecu | GTYPE>demonym
+Slovencem | GTYPE>demonym
+Slovenecem | GTYPE>demonym
+Slovenka | GTYPE>demonym
+Slovenke | GTYPE>demonym
+Slovenki | GTYPE>demonym
+Slovenko | GTYPE>demonym
+Srb | GTYPE>demonym
+Srba | GTYPE>demonym
+Srbu | GTYPE>demonym
+Srbom | GTYPE>demonym
+Srbkinja | GTYPE>demonym
+Srbkinje | GTYPE>demonym
+Srbkinji | GTYPE>demonym
+Srbkinjo | GTYPE>demonym
+Tunizijc | GTYPE>demonym
+Tunizijec | GTYPE>demonym
+Tunizijca | GTYPE>demonym
+Tunizijeca | GTYPE>demonym
+Tunizijcu | GTYPE>demonym
+Tunizijecu | GTYPE>demonym
+Tunizijcem | GTYPE>demonym
+Tunizijecem | GTYPE>demonym
+Tunizijc | GTYPE>demonym
+Tunizijec | GTYPE>demonym
+Tunizijca | GTYPE>demonym
+Tunizijeca | GTYPE>demonym
+Tunizijcu | GTYPE>demonym
+Tunizijecu | GTYPE>demonym
+Tunizijcem | GTYPE>demonym
+Tunizijecem | GTYPE>demonym
+Tunizijka | GTYPE>demonym
+Tunizijke | GTYPE>demonym
+Tunizijki | GTYPE>demonym
+Tunizijko | GTYPE>demonym
+Tunizijčanka | GTYPE>demonym
+Tunizijčanke | GTYPE>demonym
+Tunizijčanki | GTYPE>demonym
+Tunizijčanko | GTYPE>demonym
+Čeh | GTYPE>demonym
+Čeha | GTYPE>demonym
+Čehu | GTYPE>demonym
+Čehom | GTYPE>demonym
+Čehinja | GTYPE>demonym
+Čehinje | GTYPE>demonym
+Čehinji | GTYPE>demonym
+Čehinjo | GTYPE>demonym
+Španc | GTYPE>demonym
+Španec | GTYPE>demonym
+Španca | GTYPE>demonym
+Španeca | GTYPE>demonym
+Špancu | GTYPE>demonym
+Španecu | GTYPE>demonym
+Špancem | GTYPE>demonym
+Španecem | GTYPE>demonym
+Španka | GTYPE>demonym
+Španke | GTYPE>demonym
+Španki | GTYPE>demonym
+Španko | GTYPE>demonym
+Švicar | GTYPE>demonym
+Švicarja | GTYPE>demonym
+Švicarju | GTYPE>demonym
+Švicarjem | GTYPE>demonym
+Švicarka | GTYPE>demonym
+Švicarke | GTYPE>demonym
+Švicarki | GTYPE>demonym
+Švicarko | GTYPE>demonym
+#countrie's (Adj)
+afganistanska | GTYPE>demonym
+afganistanske | GTYPE>demonym
+afganistanskega | GTYPE>demonym
+afganistanskem | GTYPE>demonym
+afganistanskemu | GTYPE>demonym
+afganistanski | GTYPE>demonym
+afganistanskim | GTYPE>demonym
+afganistansko | GTYPE>demonym
+albanska | GTYPE>demonym
+albanske | GTYPE>demonym
+albanskega | GTYPE>demonym
+albanskem | GTYPE>demonym
+albanskemu | GTYPE>demonym
+albanski | GTYPE>demonym
+albanskim | GTYPE>demonym
+albansko | GTYPE>demonym
+ameriška | GTYPE>demonym
+ameriške | GTYPE>demonym
+ameriškega | GTYPE>demonym
+ameriškem | GTYPE>demonym
+ameriškemu | GTYPE>demonym
+ameriški | GTYPE>demonym
+ameriškim | GTYPE>demonym
+ameriško | GTYPE>demonym
+argentinska | GTYPE>demonym
+argentinske | GTYPE>demonym
+argentinskega | GTYPE>demonym
+argentinskem | GTYPE>demonym
+argentinskemu | GTYPE>demonym
+argentinski | GTYPE>demonym
+argentinskim | GTYPE>demonym
+argentinsko | GTYPE>demonym
+avstralska | GTYPE>demonym
+avstralske | GTYPE>demonym
+avstralskega | GTYPE>demonym
+avstralskem | GTYPE>demonym
+avstralskemu | GTYPE>demonym
+avstralski | GTYPE>demonym
+avstralskim | GTYPE>demonym
+avstralsko | GTYPE>demonym
+avstrijska | GTYPE>demonym
+avstrijske | GTYPE>demonym
+avstrijskega | GTYPE>demonym
+avstrijskem | GTYPE>demonym
+avstrijskemu | GTYPE>demonym
+avstrijski | GTYPE>demonym
+avstrijskim | GTYPE>demonym
+avstrijsko | GTYPE>demonym
+belgijska | GTYPE>demonym
+belgijske | GTYPE>demonym
+belgijskega | GTYPE>demonym
+belgijskem | GTYPE>demonym
+belgijskemu | GTYPE>demonym
+belgijski | GTYPE>demonym
+belgijskim | GTYPE>demonym
+belgijsko | GTYPE>demonym
+bosanska | GTYPE>demonym
+bosanske | GTYPE>demonym
+bosanskega | GTYPE>demonym
+bosanskem | GTYPE>demonym
+bosanskemu | GTYPE>demonym
+bosanski | GTYPE>demonym
+bosanskim | GTYPE>demonym
+bosansko | GTYPE>demonym
+britanska | GTYPE>demonym
+britanske | GTYPE>demonym
+britanskega | GTYPE>demonym
+britanskem | GTYPE>demonym
+britanskemu | GTYPE>demonym
+britanski | GTYPE>demonym
+britanskim | GTYPE>demonym
+britansko | GTYPE>demonym
+filipinska | GTYPE>demonym
+filipinske | GTYPE>demonym
+filipinskega | GTYPE>demonym
+filipinskem | GTYPE>demonym
+filipinskemu | GTYPE>demonym
+filipinski | GTYPE>demonym
+filipinskim | GTYPE>demonym
+filipinsko | GTYPE>demonym
+francoska | GTYPE>demonym
+francoske | GTYPE>demonym
+francoskega | GTYPE>demonym
+francoskem | GTYPE>demonym
+francoskemu | GTYPE>demonym
+francoski | GTYPE>demonym
+francoskim | GTYPE>demonym
+francosko | GTYPE>demonym
+hollywoodska | GTYPE>demonym
+hollywoodske | GTYPE>demonym
+hollywoodskega | GTYPE>demonym
+hollywoodskem | GTYPE>demonym
+hollywoodskemu | GTYPE>demonym
+hollywoodski | GTYPE>demonym
+hollywoodskim | GTYPE>demonym
+hollywoodsko | GTYPE>demonym
+hrvaška | GTYPE>demonym
+hrvaške | GTYPE>demonym
+hrvaškega | GTYPE>demonym
+hrvaškem | GTYPE>demonym
+hrvaškemu | GTYPE>demonym
+hrvaški | GTYPE>demonym
+hrvaškim | GTYPE>demonym
+hrvaško | GTYPE>demonym
+iranska | GTYPE>demonym
+iranske | GTYPE>demonym
+iranskega | GTYPE>demonym
+iranskem | GTYPE>demonym
+iranskemu | GTYPE>demonym
+iranski | GTYPE>demonym
+iranskim | GTYPE>demonym
+iransko | GTYPE>demonym
+iraška | GTYPE>demonym
+iraške | GTYPE>demonym
+iraškega | GTYPE>demonym
+iraškem | GTYPE>demonym
+iraškemu | GTYPE>demonym
+iraški | GTYPE>demonym
+iraškim | GTYPE>demonym
+iraško | GTYPE>demonym
+italijanska | GTYPE>demonym
+italijanske | GTYPE>demonym
+italijanskega | GTYPE>demonym
+italijanskem | GTYPE>demonym
+italijanskemu | GTYPE>demonym
+italijanski | GTYPE>demonym
+italijanskim | GTYPE>demonym
+italijansko | GTYPE>demonym
+italijanska | GTYPE>demonym
+italijanske | GTYPE>demonym
+italijanskega | GTYPE>demonym
+italijanskem | GTYPE>demonym
+italijanskemu | GTYPE>demonym
+italijanski | GTYPE>demonym
+italijanskim | GTYPE>demonym
+italijansko | GTYPE>demonym
+izraelska | GTYPE>demonym
+izraelske | GTYPE>demonym
+izraelskega | GTYPE>demonym
+izraelskem | GTYPE>demonym
+izraelskemu | GTYPE>demonym
+izraelski | GTYPE>demonym
+izraelskim | GTYPE>demonym
+izraelsko | GTYPE>demonym
+japonskska | GTYPE>demonym
+japonskske | GTYPE>demonym
+japonskskega | GTYPE>demonym
+japonskskem | GTYPE>demonym
+japonskskemu | GTYPE>demonym
+japonskski | GTYPE>demonym
+japonskskim | GTYPE>demonym
+japonsksko | GTYPE>demonym
+jordanijska | GTYPE>demonym
+jordanijske | GTYPE>demonym
+jordanijskega | GTYPE>demonym
+jordanijskem | GTYPE>demonym
+jordanijskemu | GTYPE>demonym
+jordanijski | GTYPE>demonym
+jordanijskim | GTYPE>demonym
+jordanijsko | GTYPE>demonym
+jugoslovanska | GTYPE>demonym
+jugoslovanske | GTYPE>demonym
+jugoslovanskega | GTYPE>demonym
+jugoslovanskem | GTYPE>demonym
+jugoslovanskemu | GTYPE>demonym
+jugoslovanski | GTYPE>demonym
+jugoslovanskim | GTYPE>demonym
+jugoslovansko | GTYPE>demonym
+kalifornijska | GTYPE>demonym
+kalifornijske | GTYPE>demonym
+kalifornijskega | GTYPE>demonym
+kalifornijskem | GTYPE>demonym
+kalifornijskemu | GTYPE>demonym
+kalifornijski | GTYPE>demonym
+kalifornijskim | GTYPE>demonym
+kalifornijsko | GTYPE>demonym
+kalifornijska | GTYPE>demonym
+kalifornijske | GTYPE>demonym
+kalifornijskega | GTYPE>demonym
+kalifornijskem | GTYPE>demonym
+kalifornijskemu | GTYPE>demonym
+kalifornijski | GTYPE>demonym
+kalifornijskim | GTYPE>demonym
+kalifornijsko | GTYPE>demonym
+makedonska | GTYPE>demonym
+makedonske | GTYPE>demonym
+makedonskega | GTYPE>demonym
+makedonskem | GTYPE>demonym
+makedonskemu | GTYPE>demonym
+makedonski | GTYPE>demonym
+makedonskim | GTYPE>demonym
+makedonsko | GTYPE>demonym
+makedonska | GTYPE>demonym
+makedonske | GTYPE>demonym
+makedonskega | GTYPE>demonym
+makedonskem | GTYPE>demonym
+makedonskemu | GTYPE>demonym
+makedonski | GTYPE>demonym
+makedonskim | GTYPE>demonym
+makedonsko | GTYPE>demonym
+monaška | GTYPE>demonym
+monaške | GTYPE>demonym
+monaškega | GTYPE>demonym
+monaškem | GTYPE>demonym
+monaškemu | GTYPE>demonym
+monaški | GTYPE>demonym
+monaškim | GTYPE>demonym
+monaško | GTYPE>demonym
+nemška | GTYPE>demonym
+nemške | GTYPE>demonym
+nemškega | GTYPE>demonym
+nemškem | GTYPE>demonym
+nemškemu | GTYPE>demonym
+nemški | GTYPE>demonym
+nemškim | GTYPE>demonym
+nemško | GTYPE>demonym
+nizozemska | GTYPE>demonym
+nizozemske | GTYPE>demonym
+nizozemskega | GTYPE>demonym
+nizozemskem | GTYPE>demonym
+nizozemskemu | GTYPE>demonym
+nizozemski | GTYPE>demonym
+nizozemskim | GTYPE>demonym
+nizozemsko | GTYPE>demonym
+republikanska | GTYPE>demonym
+republikanske | GTYPE>demonym
+republikanskega | GTYPE>demonym
+republikanskem | GTYPE>demonym
+republikanskemu | GTYPE>demonym
+republikanski | GTYPE>demonym
+republikanskim | GTYPE>demonym
+republikansko | GTYPE>demonym
+republikanska | GTYPE>demonym
+republikanske | GTYPE>demonym
+republikanskega | GTYPE>demonym
+republikanskem | GTYPE>demonym
+republikanskemu | GTYPE>demonym
+republikanski | GTYPE>demonym
+republikanskim | GTYPE>demonym
+republikansko | GTYPE>demonym
+ruska | GTYPE>demonym
+ruske | GTYPE>demonym
+ruskega | GTYPE>demonym
+ruskem | GTYPE>demonym
+ruskemu | GTYPE>demonym
+ruski | GTYPE>demonym
+ruskim | GTYPE>demonym
+rusko | GTYPE>demonym
+slovaška | GTYPE>demonym
+slovaške | GTYPE>demonym
+slovaškega | GTYPE>demonym
+slovaškem | GTYPE>demonym
+slovaškemu | GTYPE>demonym
+slovaški | GTYPE>demonym
+slovaškim | GTYPE>demonym
+slovaško | GTYPE>demonym
+slovenska | GTYPE>demonym
+slovenske | GTYPE>demonym
+slovenskega | GTYPE>demonym
+slovenskem | GTYPE>demonym
+slovenskemu | GTYPE>demonym
+slovenski | GTYPE>demonym
+slovenskim | GTYPE>demonym
+slovensko | GTYPE>demonym
+srbskaa | GTYPE>demonym
+srbskae | GTYPE>demonym
+srbskaega | GTYPE>demonym
+srbskaem | GTYPE>demonym
+srbskaemu | GTYPE>demonym
+srbskai | GTYPE>demonym
+srbskaim | GTYPE>demonym
+srbskao | GTYPE>demonym
+tunizijska | GTYPE>demonym
+tunizijske | GTYPE>demonym
+tunizijskega | GTYPE>demonym
+tunizijskem | GTYPE>demonym
+tunizijskemu | GTYPE>demonym
+tunizijski | GTYPE>demonym
+tunizijskim | GTYPE>demonym
+tunizijsko | GTYPE>demonym
+češka | GTYPE>demonym
+češke | GTYPE>demonym
+češkega | GTYPE>demonym
+češkem | GTYPE>demonym
+češkemu | GTYPE>demonym
+češki | GTYPE>demonym
+češkim | GTYPE>demonym
+češko | GTYPE>demonym
+španska | GTYPE>demonym
+španske | GTYPE>demonym
+španskega | GTYPE>demonym
+španskem | GTYPE>demonym
+španskemu | GTYPE>demonym
+španski | GTYPE>demonym
+španskim | GTYPE>demonym
+špansko | GTYPE>demonym
+švicarska | GTYPE>demonym
+švicarske | GTYPE>demonym
+švicarskega | GTYPE>demonym
+švicarskem | GTYPE>demonym
+švicarskemu | GTYPE>demonym
+švicarski | GTYPE>demonym
+švicarskim | GTYPE>demonym
+švicarsko | GTYPE>demonym
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_demonyms-sl.txt
+# content : PM lexicon for person "position", Slovenian.
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : Oct 2012
+# Entries automatically expanded from perl regex of Bruno's file sl.txt
+# Might be some mistakes, need to be checked!
+#**********************************************
+
+
+dostojanstvenik | GTYPE>position
+dostojanstvenik_ | GTYPE>position
+dostojanstvenikom | GTYPE>position
+kandidat | GTYPE>position
+kandidat_ | GTYPE>position
+kandidatom | GTYPE>position
+koleg_ | GTYPE>position
+legend_ | GTYPE>position
+milijarder | GTYPE>position
+milijarderja | GTYPE>position
+milijarderju | GTYPE>position
+milijarderjem | GTYPE>position
+morilc | GTYPE>position
+morilec | GTYPE>position
+morilca | GTYPE>position
+morileca | GTYPE>position
+morilcu | GTYPE>position
+morilecu | GTYPE>position
+morilcom | GTYPE>position
+morilecom | GTYPE>position
+nasprotnik | GTYPE>position
+nasprotnik_ | GTYPE>position
+nasprotnikom | GTYPE>position
+pedofil | GTYPE>position
+pedofil_ | GTYPE>position
+pedofilom | GTYPE>position
+pedofilem | GTYPE>position
+playboy | GTYPE>position
+playboya | GTYPE>position
+playboyu | GTYPE>position
+playboyom | GTYPE>position
+playboyem | GTYPE>position
+predstavnik | GTYPE>position
+predstavnika | GTYPE>position
+predstavniku | GTYPE>position
+predstavnikom | GTYPE>position
+protikandidat | GTYPE>position
+protikandidata | GTYPE>position
+protikandidatu | GTYPE>position
+protikandidatom | GTYPE>position
+prvak | GTYPE>position
+prvaka | GTYPE>position
+prvaku | GTYPE>position
+prvakom | GTYPE>position
+reprezentant | GTYPE>position
+reprezentanta | GTYPE>position
+reprezentantu | GTYPE>position
+reprezentantom | GTYPE>position
+socialdemokrat | GTYPE>position
+socialdemokrata | GTYPE>position
+socialdemokratu | GTYPE>position
+socialdemokratom | GTYPE>position
+socialist | GTYPE>position
+socialista | GTYPE>position
+socialistu | GTYPE>position
+socialistom | GTYPE>position
+socialistk_ | GTYPE>position
+talc | GTYPE>position
+talec | GTYPE>position
+talca | GTYPE>position
+taleca | GTYPE>position
+talcu | GTYPE>position
+talecu | GTYPE>position
+talcom | GTYPE>position
+talecom | GTYPE>position
+terorist | GTYPE>position
+terorista | GTYPE>position
+teroristu | GTYPE>position
+teroristom | GTYPE>position
+voditelj | GTYPE>position
+voditelja | GTYPE>position
+voditelju | GTYPE>position
+voditeljom | GTYPE>position
+vodj_ | GTYPE>position
+zvezdnik | GTYPE>position
+zvezdnika | GTYPE>position
+zvezdniku | GTYPE>position
+zvezdnikom | GTYPE>position
+član | GTYPE>position
+člana | GTYPE>position
+članu | GTYPE>position
+članom | GTYPE>position
+članic_ | GTYPE>position
+žrtv | GTYPE>position
+žrtev | GTYPE>position
+žrtve | GTYPE>position
+žrteve | GTYPE>position
+žrtvi | GTYPE>position
+žrtevi | GTYPE>position
+žrtvo | GTYPE>position
+žrtevo | GTYPE>position
+
+ajatol_ | GTYPE>position 
+astronavt | GTYPE>position
+astronavta | GTYPE>position
+astronavtu | GTYPE>position
+astronavtom | GTYPE>position
+diktator | GTYPE>position
+diktatorja | GTYPE>position
+diktatorju | GTYPE>position
+diktatorjem | GTYPE>position
+direktor | GTYPE>position
+direktorja | GTYPE>position
+direktorju | GTYPE>position
+direktorjom | GTYPE>position
+direktorjem | GTYPE>position
+direktork_ | GTYPE>position 
+domačin | GTYPE>position
+domačina | GTYPE>position
+domačinu | GTYPE>position
+domačinom | GTYPE>position
+glavar | GTYPE>position
+glavarja | GTYPE>position
+glavarju | GTYPE>position
+glavarjem | GTYPE>position
+guverner | GTYPE>position
+guvernerja | GTYPE>position
+guvernerju | GTYPE>position
+guvernerjom | GTYPE>position
+guvernerjem | GTYPE>position
+guvernerk_ | GTYPE>position 
+igralc | GTYPE>position
+igralec | GTYPE>position
+igralca | GTYPE>position
+igraleca | GTYPE>position
+igralcu | GTYPE>position
+igralecu | GTYPE>position
+igralcom | GTYPE>position
+igralecom | GTYPE>position
+igralk_| GTYPE>position 
+kancler | GTYPE>position
+kanclerja | GTYPE>position
+kanclerju | GTYPE>position
+kanclerjom | GTYPE>position
+kanclerjem | GTYPE>position
+komisar | GTYPE>position
+komisarja | GTYPE>position
+komisarju | GTYPE>position
+komisarjom | GTYPE>position
+komisarjem | GTYPE>position
+komisark_ | GTYPE>position 
+kolesar | GTYPE>position
+kolesara | GTYPE>position
+kolesaru | GTYPE>position
+kolesarom | GTYPE>position
+ministr | GTYPE>position
+minister | GTYPE>position
+ministra | GTYPE>position
+ministera | GTYPE>position
+ministru | GTYPE>position
+ministeru | GTYPE>position
+ministrom | GTYPE>position
+ministerom | GTYPE>position
+ministrem | GTYPE>position
+ministerem | GTYPE>position
+ministric_ | GTYPE>position 
+novinar | GTYPE>position
+novinarja | GTYPE>position
+novinarju | GTYPE>position
+novinarjem | GTYPE>position
+pevc | GTYPE>position
+pevec | GTYPE>position
+pevca | GTYPE>position
+peveca | GTYPE>position
+pevcu | GTYPE>position
+pevecu | GTYPE>position
+pevcom | GTYPE>position
+pevecom | GTYPE>position
+pevk_| GTYPE>position 
+podjetnik | GTYPE>position
+podjetnika | GTYPE>position
+podjetniku | GTYPE>position
+podjetnikem | GTYPE>position
+pogajalc | GTYPE>position
+pogajalec | GTYPE>position
+pogajalca | GTYPE>position
+pogajaleca | GTYPE>position
+pogajalcu | GTYPE>position
+pogajalecu | GTYPE>position
+pogajalcom | GTYPE>position
+pogajalecom | GTYPE>position
+policist | GTYPE>position
+policista | GTYPE>position
+policistu | GTYPE>position
+policistom | GTYPE>position
+politik | GTYPE>position
+politika | GTYPE>position
+politiku | GTYPE>position
+politikom | GTYPE>position
+poslanc | GTYPE>position
+poslanec | GTYPE>position
+poslanca | GTYPE>position
+poslaneca | GTYPE>position
+poslancu | GTYPE>position
+poslanecu | GTYPE>position
+poslancem | GTYPE>position
+poslanecem | GTYPE>position
+poslanka | GTYPE>position 
+poslanke | GTYPE>position 
+poslanki | GTYPE>position 
+poslanko | GTYPE>position 
+predsednic_| GTYPE>position 
+predsednik | GTYPE>position
+predsednika | GTYPE>position
+predsedniku | GTYPE>position
+predsednikom | GTYPE>position
+predsednikem | GTYPE>position
+premier | GTYPE>position
+premiera | GTYPE>position
+premieru | GTYPE>position
+premierom | GTYPE>position
+premierem | GTYPE>position
+sekretar | GTYPE>position
+sekretarja | GTYPE>position
+sekretarju | GTYPE>position
+sekretarjom | GTYPE>position
+sekretarjem | GTYPE>position
+sekretar | GTYPE>position
+sekretarja | GTYPE>position
+sekretarju | GTYPE>position
+sekretarjom | GTYPE>position
+sekretarjem | GTYPE>position
+selektor | GTYPE>position
+selektorja | GTYPE>position
+selektorju | GTYPE>position
+selektorjom | GTYPE>position
+selektorjem | GTYPE>position
+senator | GTYPE>position
+senatorja | GTYPE>position
+senatorju | GTYPE>position
+senatorjom | GTYPE>position
+senatorjem | GTYPE>position
+senatorka | GTYPE>position 
+senatorke | GTYPE>position 
+senatorki | GTYPE>position 
+senatorko | GTYPE>position 
+svetnica | GTYPE>position 
+svetnice | GTYPE>position 
+svetnici | GTYPE>position 
+svetnico | GTYPE>position 
+svetnik | GTYPE>position
+svetnika | GTYPE>position
+svetniku | GTYPE>position
+svetnikom | GTYPE>position
+svetnikem | GTYPE>position
+upravitelj | GTYPE>position
+upravitelja | GTYPE>position
+upravitelju | GTYPE>position
+upraviteljom | GTYPE>position
+škof | GTYPE>position
+škofa | GTYPE>position
+škofu | GTYPE>position
+škofom | GTYPE>position
+škofem | GTYPE>position
+župan | GTYPE>position
+župana | GTYPE>position
+županu | GTYPE>position
+županom | GTYPE>position
+županem | GTYPE>position
+teolog | GTYPE>position
+filozo | GTYPE>position
+
+
+predsednic_ | GTYPE>position 
+predsednic_ vlade| GTYPE>position 
+podpredsednic_ vlade| GTYPE>position 
+predsednic_ republike| GTYPE>position 
+podpredsednic_ republike| GTYPE>position 
+ministrskega | GTYPE>position 
+ministrskemu | GTYPE>position 
+ministrski | GTYPE>position 
+ministrskim | GTYPE>position 
+ministrskega predsed%| GTYPE>position 
+ministrskemu predsed%| GTYPE>position 
+ministrski predsed%| GTYPE>position 
+ministrskim predsed%| GTYPE>position 
+predsednik_ | GTYPE>position 
+predsednikom | GTYPE>position 
+državn% sekretar% | GTYPE>position 
+ministrsk_ predsednic_ | GTYPE>position 
+ministrsk_ predsednik% | GTYPE>position 
+
+bivša | GTYPE>position_adjective 
+bivše | GTYPE>position_adjective 
+bivšega | GTYPE>position_adjective 
+bivšem | GTYPE>position_adjective 
+bivšemu | GTYPE>position_adjective 
+bivši | GTYPE>position_adjective 
+bivšim | GTYPE>position_adjective 
+bivšo | GTYPE>position_adjective 
+bodoča | GTYPE>position_adjective 
+bodoče | GTYPE>position_adjective 
+bodočega | GTYPE>position_adjective 
+bodočem | GTYPE>position_adjective 
+bodočemu | GTYPE>position_adjective 
+bodoči | GTYPE>position_adjective 
+bodočim | GTYPE>position_adjective 
+bodočo | GTYPE>position_adjective 
+
+
+
+
+
+
+
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_titles-sl.txt
+# content : PM lexicon for person titles, Slovenian.
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : Oct 2012
+# Entries automatically expanded from perl regex of Bruno's file sl.txt
+# Might be some mistakes, need to be checked!
+#**********************************************
+
+
+admiral | GTYPE>title | GSUBTYPE>military
+admirala | GTYPE>title | GSUBTYPE>military
+admiralu | GTYPE>title | GSUBTYPE>military
+admiralom | GTYPE>title | GSUBTYPE>military
+admiralem | GTYPE>title | GSUBTYPE>military
+general | GTYPE>title | GSUBTYPE>military
+generala | GTYPE>title | GSUBTYPE>military
+generalu | GTYPE>title | GSUBTYPE>military
+generalom | GTYPE>title | GSUBTYPE>military
+generalem | GTYPE>title | GSUBTYPE>military
+major | GTYPE>title | GSUBTYPE>military
+majorja | GTYPE>title | GSUBTYPE>military
+majorju | GTYPE>title | GSUBTYPE>military
+majorjem | GTYPE>title | GSUBTYPE>military
+polkovnik | GTYPE>title  | GSUBTYPE>military
+polkovnikja | GTYPE>title | GSUBTYPE>military
+polkovnikju | GTYPE>title | GSUBTYPE>military
+polkovnikjem | GTYPE>title | GSUBTYPE>military
+podpolkovnik | GTYPE>title | GSUBTYPE>military
+podpolkovnikja | GTYPE>title | GSUBTYPE>military
+podpolkovnikju | GTYPE>title | GSUBTYPE>military
+podpolkovnikjem | GTYPE>title | GSUBTYPE>military

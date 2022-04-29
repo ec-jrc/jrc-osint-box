@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knimeNode icon="./sentimentAnalysis.png" type="Manipulator" xmlns="http://knime.org/node/v2.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://knime.org/node/v2.10 http://knime.org/node/v2.10.xsd">
+    <name>Sentiment Analyser</name>
+    
+    <shortDescription>
+        Perform Emotion and Sentiment analysis
+    </shortDescription>
+    
+    <fullDescription>
+        <intro>This node performs sentiment and emotion analysis on text.
+        It is possible to select which options to be performed and to show the
+        	 scoring for each result
+        <br />	 
+        <p>	 
+        	The option represents the user choice, and allows to add the proper number of
+	 		 columns with the proper labels. The options are: 
+	 		 <br />	 		 
+	 		 1. Emotion + Sentiment + Emotion Score + Sentiment Score
+	 		 <br />	 		 
+	 		 2. Emotion + Sentiment + Emotion Score
+	 		 <br />	 		 
+	 		 3. Emotion + Sentiment + Sentiment Score
+	 		 <br />	 		 
+	 		 4. Emotion + Sentiment
+	 		 <br />	 		 
+	 		 5. Emotion + Emotion Score
+	 		 <br />		 
+	 		 6. Emotion
+	 		 <br />
+	 		 7. Sentiment + Sentiment Score
+	 		 <br />
+	 		 8. Sentiment
+	 		 <br />	 		 
+        </p>        
+        <p>
+        	The model is able to perform analysis in 5 languages:
+			<br/>
+			1. English
+			<br/>
+			2. French
+			<br/>
+			3. German
+			<br/>
+			4. Italian
+			<br/>
+			5. Spanish
+			<br/>
+			All other languages are not supported 
+        </p>        
+        <br/>
+                
+        </intro>     
+        
+        <option name="Perform Emotion Analysis">Tick the box to perform emotion analysis</option>
+        <!--  
+        <option name="Enter the path for the weka features file">select the feature file for emotion analysis (in .txt format)</option>
+        <option name="Enter the path for the weka model file">select the model file for emotion analysis (in .model format)</option>
+        <option name="Enter the path for the weka header file">select the header file for emotion analysis (in .arff format)</option>
+        -->
+        <option name="Show Emotion Score">Tick the box to include the score for emotion analysis </option>
+        <option name="Perform Emotion Analysis">Tick the box to perform sentiment analysis</option>
+        <!-- 
+        <option name="Enter the path for the weka features file">select the feature file for sentiment analysis (in .txt format)</option>
+        <option name="Enter the path for the weka model file">select the feature file for sentiment analysis (in .model format)</option>
+        <option name="Enter the path for the weka header file">select the feature file for sentiment analysis (in .arff format)</option>
+        -->
+        <option name="Show Sentiment Score">Tick the box to include the score for sentiment analysis</option>
+        <option name="Input">Select the column to be processed <br/> 
+        	VERY IMPORTANT: always select an entry on the dropout menu, otherwise you will get an error ArrayOutOfBounds
+        </option>
+        <option name="consider missing values as null">Tick for having missing values treated as Missing Value; empty String otherwise</option>
+    </fullDescription>   
+     
+    <ports>
+        <inPort index="0" name="In-Port">The Input is a Table containing at least one String column</inPort>
+        <!-- possibly more input ports here-->
+        <outPort index="0" name="Out-Port">The Output is a table containing the input table plus between 1 and 4 columns of String or Double data</outPort>
+        <!-- possibly more output ports here-->
+    </ports> 
+           
+</knimeNode>

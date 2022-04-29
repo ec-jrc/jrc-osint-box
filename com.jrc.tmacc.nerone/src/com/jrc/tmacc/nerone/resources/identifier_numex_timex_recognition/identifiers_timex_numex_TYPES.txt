@@ -1,0 +1,82 @@
+
+
+%
+%  Type specification for IDENTIFIER-NUMEX-TIMEX grammar
+%  author: Jakub Piskorski
+%  last modification: September 2016
+%
+
+%
+% Types for basic processing components
+%
+
+%
+% scanner
+%
+
+letter := [TYPE,SUBTYPE,SURFACE]
+digit := [TYPE,SUBTYPE,SURFACE] 
+sym := [TYPE,SUBTYPE,SURFACE]
+separator := [TYPE,SUBTYPE,SURFACE]
+other := [TYPE,SUBTYPE,SURFACE]
+
+
+
+%
+% tokenizers
+%
+
+basic-token := [SURFACE]
+ 
+token := [TYPE,SURFACE]
+
+% 
+% gazetteer 
+%
+
+% new types for the gazetteeer 
+
+gaz_month := [GSUBTYPE,SURFACE,G_LEMMA,G_NUM_BASE,G_LANG]
+gaz_currency := [GSUBTYPE,SURFACE,G_LEMMA,G_LANG]
+gaz_numberword := [SURFACE,G_LEMMA,G_VAL,G_LANG]
+gaz_measurement := [SURFACE,G_LEMMA,G_M_TYPE,G_M_UNIT,G_LANG]
+gaz_ordinal	:= [SURFACE,G_VAL,G_LANG]
+ 
+
+%
+% types for IDENTIFIERS
+%
+
+ip_address := [SURFACE,TYPE]
+email_address := [SURFACE,TYPE,USER_NAME,DOMAIN]
+credit_card_number := [SURFACE,TYPE,ISSUER]
+coordinate := [SURFACE,TYPE,SUBTYPE,DEGREE,MINUTE,SECOND,DIRECTION]
+phone-number := [SURFACE,TYPE,PREFIX,NUMBER]
+url := [SURFACE,TYPE,PROTOCOL,DOMAIN]
+date := [TYPE,DAY,MONTH,YEAR]
+vat-number := [TYPE,SURFACE,COUNTRY,NUMBER]
+banking-identity := [TYPE,SURFACE,SUBTYPE,COUNTRY,CHECK_DIGITS,BBAN]
+social-media-identity := [SURFACE,TYPE,SUBTYPE,NAME]
+
+facility := [TYPE,SURFACE]
+
+
+%
+% types for NUMEX
+%
+
+currency-expression := [TYPE,AMOUNT,MAGNITUDE,CURRENCY]
+measurement-expression := [TYPE,AMOUNT,MAGNITUDE,UNIT]
+numerical-expression := [TYPE,AMOUNT,MAGNITUDE]
+
+%
+% types for NUMEX
+%
+
+numex := [TYPE,SUBTYPE,UNIT,VALUE]
+numex_span := [TYPE,SUBTYPE,UNIT,VALUE,VALUE_MAX]
+timex := [TYPE,YEAR,MONTH,DAY,HOUR,MINUTE,SECOND]
+timex_span := [TYPE,YEAR,MONTH,DAY,HOUR,MINUTE,SECOND,YEAR_END,MONTH_END,DAY_END,HOUR_END,MINUTE_END,SECOND_END]
+
+
+                        

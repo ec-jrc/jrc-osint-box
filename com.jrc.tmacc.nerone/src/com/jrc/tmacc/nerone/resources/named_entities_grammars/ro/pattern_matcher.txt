@@ -1,0 +1,3200 @@
+﻿#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : stopNames.txt
+# content : list of names that are definitively not personnames
+# author  : B. Pouliquen, (M. Ehrmann)
+# date	  : February 2012
+# this is a LANGUAGE INDEPENDANT list, if you want to add specific stopnames
+# for a given language edit a file cpersoned stopPartNames-LG.txt
+#**********************************************
+
+
+#STOPNAMES: 
+# for person/org/all
+# These names could not be part of a person/org name.
+# If the grammar outputs a name containing such STOPNAME, 
+#the name will be deleted.
+
+To Be | STOPNAME>all
+To Have | STOPNAME>all
+Bella Vista |STOPNAME>all 
+Primo Maggio |STOPNAME>all 
+
+Warner Európában | STOPNAME>person
+Luna Rossa | STOPNAME>person
+person rights reserved | STOPNAME>person
+all rights reserved | STOPNAME>person
+Autorităţii Naţionale |STOPNAME>person 
+Ping Pong | STOPNAME>person
+
+#STOPWORDS
+# for person/org/all
+# These strings will be deleted from the name
+# if found on the right and/or left. 
+
+Co | STOPWORD>all 
+
+
+Propriet% | STOPWORD>person
+Capital  | STOPWORD>person
+Customer  | STOPWORD>person
+Marriage | STOPWORD>person
+Germania | STOPWORD>person
+Santa | STOPWORD>person
+World | STOPWORD>person
+Vatican | STOPWORD>person
+Center | STOPWORD>person
+Cup  | STOPWORD>person
+Super | STOPWORD>person
+Postal | STOPWORD>person
+Super | STOPWORD>person
+Inc | STOPWORD>person
+Bank | STOPWORD>person
+Hotel | STOPWORD>person
+Partners | STOPWORD>person
+Corp  | STOPWORD>person
+Lundi  | STOPWORD>all
+Mardi  | STOPWORD>all
+Mercredi  | STOPWORD>all
+Jeudi  | STOPWORD>all
+Vendredi  | STOPWORD>all
+Samedi  | STOPWORD>all
+Dimanche  | STOPWORD>all
+Monday | STOPWORD>all
+Tuesday | STOPWORD>all
+Wednesday | STOPWORD>all
+Thursday | STOPWORD>all
+Friday | STOPWORD>all
+Saturday | STOPWORD>all
+Sunday | STOPWORD>all
+Yet | STOPWORD>all
+Thank | STOPWORD>all
+Help | STOPWORD>person
+Across | STOPWORD>all
+Today | STOPWORD>all
+On | STOPWORD>all
+By | STOPWORD>all
+The | STOPWORD>all
+Le | STOPWORD>all
+La | STOPWORD>all
+De | STOPWORD>all
+de | STOPWORD>all
+Il | STOPWORD>all
+El | STOPWORD>all
+el | STOPWORD>all
+Al | STOPWORD>all
+Na | STOPWORD>all
+Last | STOPWORD>all
+An | STOPWORD>all
+At | STOPWORD>all
+In | STOPWORD>all
+Out | STOPWORD>all
+Outside | STOPWORD>all
+Outgoing | STOPWORD>all
+But | STOPWORD>all
+Anche | STOPWORD>all
+Er | STOPWORD>all
+Tue | STOPWORD>all
+Wed | STOPWORD>all
+Thu | STOPWORD>all
+Fri | STOPWORD>all
+Sat | STOPWORD>all
+Sun | STOPWORD>all
+Deny | STOPWORD>all
+Tel | STOPWORD>all
+Fax | STOPWORD>all
+Designate | STOPWORD>all
+Desde | STOPWORD>all
+Wants | STOPWORD>all
+Want | STOPWORD>all
+January | STOPWORD>all
+February | STOPWORD>all
+March | STOPWORD>all
+April | STOPWORD>all
+June | STOPWORD>all
+July | STOPWORD>all
+August | STOPWORD>all
+September | STOPWORD>all
+October | STOPWORD>all
+November | STOPWORD>all
+December | STOPWORD>all
+# Jan could be first name
+#Jan    | STOPWORD>all
+Feb | STOPWORD>all
+# Mar could be first name
+Mar   | STOPWORD>all
+Apr | STOPWORD>all
+# May could be first name
+May   | STOPWORD>all
+# jun could be first name 
+Jun | STOPWORD>all
+Jul | STOPWORD>all
+Aug | STOPWORD>all
+Sep | STOPWORD>all
+Sept | STOPWORD>all
+Oct | STOPWORD>all
+Nov | STOPWORD>all
+Dec | STOPWORD>all
+All | STOPWORD>all
+Get | STOPWORD>all
+Gets | STOPWORD>all
+Can | STOPWORD>all
+Be | STOPWORD>all
+Cans | STOPWORD>all
+Its | STOPWORD>all
+His | STOPWORD>all
+Her | STOPWORD>all
+Tel | STOPWORD>all
+Especial | STOPWORD>person
+Een | STOPWORD>all
+Die | STOPWORD>all
+Im | STOPWORD>all
+Eine | STOPWORD>all
+Ein | STOPWORD>all
+Alle | STOPWORD>all
+Ende | STOPWORD>all
+Nach | STOPWORD>all
+Der | STOPWORD>all
+Anspruch | STOPWORD>all
+Reuters  | STOPWORD>person
+
+# some French usual...
+Pour | STOPWORD>all
+Car | STOPWORD>all
+Puisque | STOPWORD>all
+En | STOPWORD>all
+Le | STOPWORD>all
+Par | STOPWORD>all
+Depuis | STOPWORD>all
+Les | STOPWORD>all
+Chez | STOPWORD>all
+Avec | STOPWORD>all
+Comme | STOPWORD>all
+Selon | STOPWORD>all
+Dix | STOPWORD>all
+# usual on lalibre ex: "Union européenne: La Turquie persiste mais signe Sabine Verhest Mis en ligne le 02/08/2005 Elle remplit la dernière " 
+Mis | STOPWORD>all
+
+# Some italian usual:
+Sensa | STOPWORD>all
+Anche | STOPWORD>all
+Del | STOPWORD>all
+Dell | STOPWORD>all
+Nell | STOPWORD>all
+Nel | STOPWORD>all
+Della | STOPWORD>all
+Nella | STOPWORD>all
+Secondo | STOPWORD>all
+As | STOPWORD>all
+No | STOPWORD>all
+Should | STOPWORD>all
+Host | STOPWORD>all
+Hosts | STOPWORD>all
+Take | STOPWORD>all
+While | STOPWORD>all
+Where | STOPWORD>all
+What | STOPWORD>all
+Whatever | STOPWORD>all
+Underlining | STOPWORD>all
+Put | STOPWORD>all
+Though | STOPWORD>all
+End | STOPWORD>all
+Into | STOPWORD>all
+Forced | STOPWORD>all
+With | STOPWORD>all
+Now | STOPWORD>all
+Also | STOPWORD>all
+Although | STOPWORD>all
+Despite | STOPWORD>all
+Earlier | STOPWORD>all
+Both | STOPWORD>all
+Seam | STOPWORD>all
+Several | STOPWORD>all
+Since | STOPWORD>all
+After | STOPWORD>all
+Together | STOPWORD>all
+For | STOPWORD>all
+Meanwhile | STOPWORD>all
+Unlike | STOPWORD>all
+Like | STOPWORD>all
+When | STOPWORD>all
+This | STOPWORD>all
+Under | STOPWORD>all
+Quest | STOPWORD>all
+Point | STOPWORD>person
+Against | STOPWORD>all
+Instead | STOPWORD>all
+Perhaps | STOPWORD>all
+Este | STOPWORD>all
+Ce | STOPWORD>all
+Cette | STOPWORD>all
+Ces | STOPWORD>all
+Vor | STOPWORD>all
+Schell | STOPWORD>all
+Did | STOPWORD>all
+Neither | STOPWORD>all
+Only | STOPWORD>all
+Adds | STOPWORD>all
+Según | STOPWORD>all
+Sobre | STOPWORD>all
+Citing | STOPWORD>all
+Two  | STOPWORD>all
+Should  | STOPWORD>all
+Where | STOPWORD>all
+Per | STOPWORD>all
+Let | STOPWORD>all
+Watch | STOPWORD>all
+Frage | STOPWORD>all
+From | STOPWORD>all
+Over | STOPWORD>all
+Of | STOPWORD>all
+Accompanying | STOPWORD>all
+Suddenly | STOPWORD>all
+Zeintungen | STOPWORD>all
+Zaken | STOPWORD>all
+Tanto | STOPWORD>all
+That | STOPWORD>all
+Killing  | STOPWORD>all
+Mir  | STOPWORD>all
+Executing | STOPWORD>person
+Montag | STOPWORD>all
+Donnerstag | STOPWORD>all
+Mittwoch | STOPWORD>all
+Dienstag | STOPWORD>all
+Freitag | STOPWORD>all
+Samstag | STOPWORD>all
+Sonntag | STOPWORD>all
+Ein | STOPWORD>all
+Eine | STOPWORD>all
+Drei | STOPWORD>all
+Para | STOPWORD>all
+Not | STOPWORD>all
+Quite | STOPWORD>all
+There | STOPWORD>all
+Ready | STOPWORD>all
+Used | STOPWORD>all
+Before | STOPWORD>all
+First | STOPWORD>all
+Si | STOPWORD>all
+Afternoon  | STOPWORD>all 	
+Apartheid | STOPWORD>person 	
+Abruzzo | STOPWORD>person 	
+Basilicata | STOPWORD>person 	
+Calabria | STOPWORD>person 	
+Campania | STOPWORD>person 	
+Lazio | STOPWORD>person 	
+Liguria | STOPWORD>person 	
+Lombardia | STOPWORD>person 	
+Marche | STOPWORD>person 	
+Molise | STOPWORD>person 	
+Piemonte | STOPWORD>person 	
+Puglia | STOPWORD>person 	
+Sardegna | STOPWORD>person 	
+Sicilia | STOPWORD>person 	
+Toscana | STOPWORD>person 	
+Trentino | STOPWORD>person 	
+Trentino-Alto Adige | STOPWORD>person 	
+Umbria | STOPWORD>person 	
+Valle d'Aosta | STOPWORD>person 	
+Veneto | STOPWORD>person 	
+An| STOPWORD>all
+A | STOPWORD>all
+Any  | STOPWORD>all
+De  | STOPWORD>all
+Den  | STOPWORD>all
+Contemporanea  | STOPWORD>person
+New  | STOPWORD>person
+Ministre  | STOPWORD>person
+Twitter  | STOPWORD>person
+Kein | STOPWORD>all
+Mar[íi]tim% | STOPWORD>person
+Aeron% | STOPWORD>person
+Industri% | STOPWORD>person
+Presiden% | STOPWORD>person
+Aviati% | STOPWORD>person
+Law | STOPWORD>person
+
+Algemeen | STOPWORD>person
+Penny | STOPWORD>person
+Pharma% | STOPWORD>person
+Plantation | STOPWORD>person
+Satisfaction | STOPWORD>person
+Sport | STOPWORD>person
+Biografia | STOPWORD>all
+
+Musica | STOPWORD>person 
+Música | STOPWORD>person 
+
+Euro | STOPWORD>all 
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : grammar-ro.txt
+# content : PM lexicon for grammatical units (Romanian)
+# date	  : July 2012
+# author  :  M. Ehrmann
+#**********************************************
+
+
+and | GTYPE>coordination
+și | GTYPE>coordination
+iar | GTYPE>coordination
+
+# PREP FOR POSITION
+pentru  | GTYPE>prep_for_position 
+al  | GTYPE>prep_for_position 
+de  | GTYPE>prep_for_position 
+si  | GTYPE>prep_for_position 
+şi  | GTYPE>prep_for_position 
+de  | GTYPE>prep_for_position 
+al  | GTYPE>prep_for_position 
+
+
+
+
+
+#ARTICLES
+de la| GTYPE>article
+din | GTYPE>article
+#the | GTYPE>article
+#a | GTYPE>article
+#an | GTYPE>article
+#adj but coded as articles for simplicity
+#his | GTYPE>article
+#her | GTYPE>article
+#our | GTYPE>articleAfganistanro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Andoraro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Antigua şi Barbudaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Azerbaidjanro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Bangladeşro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Bielorusiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Belgiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Bermudero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insula Bouvetro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Braziliaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Teritoriile Britanice din Oceanul Indianro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Virgine, Britanicero | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Insulele Virgine, Britanicero)
+Burkina Fassoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Burkina Fasoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Cambodgiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Camerunro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Capul Verdero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Caymanro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Central Africanăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Centrafricanăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Ciadro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Populară Chinezăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insula Christmasro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Columbiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Comorero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Congoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Congoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Côte d'Ivoirero | GTYPE>location | SUBTYPE>countryName | CODE>ro 
+Coasta de Fildeşro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Croaţiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Cipruro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Cehăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Cehiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Coreea de Sudro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Coreea de Nordro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Congoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Congo, Republica Democraticăro | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Congo, Republica Democraticăro)
+Republica Congoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Democrată Congoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Zairro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Danemarcaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Dominicanăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Dominicanăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Guineea Ecuatorialăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Eritreearo | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Etiopiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Falklandro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Feroero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Faroero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Finlandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Franţaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Guiana Francezăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Germaniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Groenlandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Guineea-Bissauro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Guineearo | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Papua Noua Guineero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Guianaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Heard şi Mc Donaldro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Ungariaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Pitcairnro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Indoneziaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Iran (Republica islamică)ro | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Iran (Republica islamică)ro)
+Iraqro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Irlandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Irlandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insula Manro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Manro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Italiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Japoniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insula Jerseyro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Iordaniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Kazahstanro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Kenyaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Kuweitro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Kirghiziaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Kârgâzstanro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Lao, Republica Democratică Popularăro | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Lao, Republica Democratică Popularăro)
+Letoniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Libanro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Libia, Jamahiriya Arabăro | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Libia, Jamahiriya Arabăro)
+Lituaniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Luxemburgro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Macaoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Malaeziaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Malaieziaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Maldivero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insula Maltaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Marshallro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Martinicaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Mauriţiusro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Mexicro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Micronezia, Republica Federalăro | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Micronezia, Republica Federalăro)
+Marocro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Mozambicro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Olandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Ţările de Josro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Noua Zeelandăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Nigerro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insula Norfolkro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Mariane de Nordro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Norvegiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Papua Noua Guineero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Filipinero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Poloniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Portugaliaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Porto Ricoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Coreea de Sudro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Româniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Federația Rusăro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Rusiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Ruandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Sain Kitts şi Nevisro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Saint Kitts şi Nevisro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Sfântul Kitts şi Nevisro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Saint Vincent şi Grenadinesro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Sfântul Vincent şi Grenadinero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Sfântul Vincenţiu şi Grenadinero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Sao Tome şi Principero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+São Tomé şi Príncipero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Arabia Saudităro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Slovaciaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Solomonro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Africa de Sudro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Spaniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Surinamro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Suediaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Elveţiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Eleveţiaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Siriaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Tadjikistanro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Tailandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Thailandaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Macedoniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Fosta Republică Iugoslavă Macedoniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Timorul de Estro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Trinidad-Tobagoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Trinidad şi Tobagoro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Turciaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Turkmeniaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Ucrainaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Emiratele Arabe Unitero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Marea Britaniero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Regatul Unitro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Virgine, SUAro | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Insulele Virgine, SUAro)
+Statele Unite ale Americiiro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Statele Unitero | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Sahara de Vestro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Muntenegruro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Egiptro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Republica Moldovaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Moldova, Republicaro | GTYPE>location | SUBTYPE>countryName | CODE>ro | STRICT > (?i:Moldova, Republicaro)
+Reunionro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Bosnia şi Herţegovinaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Bosnia şi Herzegovinaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Insulele Cookro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+Palestinaro | GTYPE>location | SUBTYPE>countryName | CODE>ro
+
+
+Techirghiolro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Drobeta Turnu Severinro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Jularo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kuľnaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Luigaliinro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Dejro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Seleuşu Marero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Giurgiuro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Cascada Victoriaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Şiştovro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Medgidiaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Paidero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Elvaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bichiş Ciabaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Victoriaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Trbovljero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Skierniewicero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Djelfaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Rakverero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Aegviiduro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Haugesundro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Toowoombaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Velenjero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sillamäero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Askerro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Laghouatro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Tarnobrzegro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Wiener Neustadtro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Tucumánro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+The Bronxro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Guelmaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Siedlcero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bordj Bou Arreridjro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Ujgorodro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Ar Ramadiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Murska Sobotaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Ptujro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Relizanero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Slagelsero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Al Hillahro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Tebessaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Lihularo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kremsro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Pszczynaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Hlohovecro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Starachowicero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Brzeg Dolnyro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Horsensro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kamnikro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Wieliczkaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Grenaaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Colomeearo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Rahăuro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Machicoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Slovenska Bistricaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Storojineţro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Saltaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Holstebroro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Zgierzro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Silkeborgro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Lubinro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Oddaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Piasecznoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Skivero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kongsbergro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Drezdenkoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Jarocinro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Svendborgro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Rawiczro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Horodencaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Brzegro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Policero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Villachro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Tczewro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Polkowicero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bochniaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Voldaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bogatyniaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Tulcearo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Przeworskro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Nysaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Mielecro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Stalowa Wolaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sandomierzro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bartoszycero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Zawierciero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sulinaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Нове Место над Вагомro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro 
+Rîbniţaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Râbniţaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sanokro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Lubliniecro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Brzezinyro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kartuzyro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Jammuro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Feldkirchro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Altaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Alagoinhasro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Siemiatyczero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Wejheroworo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Halleinro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Goleniówro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Koronoworo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Michalovcero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Trutnovro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Prievidzaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sieradzro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kateriniro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Gryfinoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Cattolicaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Nataniaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Netaniaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Argostolionro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Prefectura Kilkisro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Viroviticaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Marinburk´ro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro | STRICT > (?i:Marinburk´ro)
+Mari(n)burk´ro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro | STRICT > (?i:Mari(n)burk´ro)
+Mariburk´ro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro | STRICT > (?i:Mariburk´ro)
+Chichinda Marero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Nové Zámkyro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Becicherecu Marero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Becicherecul Marero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bludenzro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bad Ischlro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+St. Gallenro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro | STRICT > (?i:St\. Gallenro)
+Puriro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bhubaneswarro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Megalopolisro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Tripoliro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Louvainro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Faenzaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sloboziaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+http://ro.wikipedia.org/wiki/Sloboziaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro | STRICT > (?i:http://ro\.wikipedia\.org/wiki/Sloboziaro)
+Municipiul Sloboziaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Slobozia Vechero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Agrinionro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Agnitaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Ioanninaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Pompeiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Beer Şevaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Aşdodro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Strigoniuro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Romanro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sinaiaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Turdaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Vasluiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Provincia Trentoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Alba Iuliaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Abrudro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Hunedoararo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Devaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Haminaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Hämeenlinnaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Arelro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Comitatul Veszprémro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Megararo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sinjro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Vastoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Giularo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Comitatul Békésro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Mangaliaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Oneştiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Reghinro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Blanesro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Lappeenrantaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Hyvinkääro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kirkkonummiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Järvenpääro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Karkkilaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Keravaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Biel/Biennero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro | STRICT > (?i:Biel/Biennero)
+Sparo | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sorsoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kerpenro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Wuxiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Ismailro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Cetatea Albăro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Carmonaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Rossanoro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Walldorfro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Naantaliro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Raisioro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Uusikaupunkiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Bad Homburgro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Nokiaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Coburgro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Savonlinnaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Mikkeliro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Alavusro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Ähtäriro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kajaaniro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sigmaringenro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Constanţaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Donaueschingenro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Firminyro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Savernero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kaufbeurenro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Folkestonero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Chilia-Nouăro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Chiliaro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Iisalmiro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Toulro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Pont-à-Moussonro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Raahero | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Oulainenro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Sarrebourgro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Kemijärviro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Tornioro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Aranda de Dueroro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Hounslowro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Suttonro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+Gubinro | GTYPE>location | SUBTYPE>provinceCapital | CODE>ro
+
+Seghedinro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Craiovaro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Debreţinro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Aradro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Oradearo | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Sibiuro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Bazargicro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Cluj Napocaro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Sosnowiecro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Oranro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Cernăuţiro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Rockhamptonro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Adrianopolro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Townsvillero | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Urumqiro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Santa Fero | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Santarémro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Cairnsro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Suceavaro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Salonicro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Satu Marero | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Neapolero | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Baia Marero | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Szeghedro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Brugesro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Poriro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Xī'ānro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro | STRICT > (?i:Xī['´’‘`]ānro)
+Lipscaro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Seviliaro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Marsiliaro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Petropavlovsk Kamciaţkiro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Petropavlovsk Kamciatskiro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Walsallro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Hanovraro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Brianskro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Kolomnaro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+Ufаro | GTYPE>location | SUBTYPE>regionCapital | CODE>ro
+
+Bruxellesro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro
+Budapestaro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro
+Damascro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro
+Kathmanduro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro
+Lisabonaro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro
+Copenhagaro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro
+Varşoviaro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro
+Tokholm´ro | GTYPE>location | SUBTYPE>countryCapital | CODE>ro | STRICT > (?i:Tokholm´ro)
+
+# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : name_affix.txt
+# content : pattern matcher lexicon for person name affixes (pre-in-suffix)
+# author  : M. Ehrmann
+# date	  : February 2012
+# ----------------------------------------
+
+
+# prefixes
+al | GTYPE>name_prefix 
+#al'| GTYPE>name_prefix | STRICT > (?i:al['´’‘`])
+# abu = father of, umm = mother of 
+abu| GTYPE>name_prefix
+umm| GTYPE>name_prefix
+
+
+# arabic infixes (can be prefixed as well)
+# ibn = son of, bint = daughter of 
+bin  | GTYPE>name_infix
+bint | GTYPE>name_infix
+
+de | GTYPE>name_infix
+de la | GTYPE>name_infix
+de los | GTYPE>name_infix
+#del | GTYPE>name_infix #to ambiguous and does not hram removing it
+#dal | GTYPE>name_infix #to ambiguous and does not hram removing it
+de | GTYPE>name_infix
+da | GTYPE>name_infix
+v d | GTYPE>name_infix
+v | GTYPE>name_infix
+van de | GTYPE>name_infix
+van den | GTYPE>name_infix
+van der | GTYPE>name_infix
+van | GTYPE>name_infix
+der | GTYPE>name_infix
+von d | GTYPE>name_infix
+von de | GTYPE>name_infix
+von den | GTYPE>name_infix
+von der | GTYPE>name_infix	
+von | GTYPE>name_infix
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : org_fullName-ro.txt
+# content : PM lexicon for organization full name, English
+# date	  : July 2012
+# author  : M. Ehrmann
+# *********
+# GTYPE	  	: org
+# GSUBTYPE	: commercial |health |education |event |civil |political |media |cultural |religious |other
+# SF = short form; LF = long form
+#**********************************************
+#***************
+# ORG FULL NAMES
+#***************
+
+Uniunea Europeana| GTYPE>org | GSUBTYPE>ORG-PP | ATTRIBUTE>inter  | SF>UE
+
+
+Banca | GTYPE>org_start | GSUBTYPE>ORG-CO | ATTRIBUTE>commercial
+
+Agenţiei | GTYPE>org_start | GSUBTYPE>ORG-OT
+
+Partid | GTYPE>org_start | GSUBTYPE>ORG-PP | ATTRIBUTE>political
+Partidul | GTYPE>org_start | GSUBTYPE>ORG-PP | ATTRIBUTE>political
+Partidului | GTYPE>org_start | GSUBTYPE>ORG-PP | ATTRIBUTE>political# ----------------------------------------
+
+american | GTYPE>demonym 
+americanul | GTYPE>demonym 
+americanului | GTYPE>demonym 
+americana | GTYPE>demonym 
+americanei | GTYPE>demonym
+americane | GTYPE>demonym
+americanca | GTYPE>demonym 
+ayatolahul  | GTYPE>demonym
+ayatollahul  | GTYPE>demonym 
+ayatolahului  | GTYPE>demonym 
+ayatollahului  | GTYPE>demonym 
+albanez | GTYPE>demonym 
+albanezului | GTYPE>demonym
+albanezul | GTYPE>demonym
+albaneza | GTYPE>demonym 
+albanezei | GTYPE>demonym
+albaneze | GTYPE>demonym
+african | GTYPE>demonym 
+africanului | GTYPE>demonym
+africanul | GTYPE>demonym
+africana | GTYPE>demonym 
+africanei | GTYPE>demonym
+africane | GTYPE>demonym
+afgan | GTYPE>demonym 
+afganului | GTYPE>demonym
+afganul | GTYPE>demonym
+afgana | GTYPE>demonym 
+afganei | GTYPE>demonym
+afgane | GTYPE>demonym
+argentinian | GTYPE>demonym 
+argentinianului | GTYPE>demonym
+argentinianul | GTYPE>demonym
+argentiniana | GTYPE>demonym 
+argentinianei | GTYPE>demonym
+argentiniane | GTYPE>demonym
+armean armeanului | GTYPE>demonym
+armean armeanul | GTYPE>demonym
+armeana | GTYPE>demonym 
+australian | GTYPE>demonym 
+australianului | GTYPE>demonym
+australianul | GTYPE>demonym
+australiana | GTYPE>demonym 
+australianei | GTYPE>demonym
+australiane | GTYPE>demonym
+austriac | GTYPE>demonym 
+austriacului | GTYPE>demonym
+austriacul | GTYPE>demonym
+bavarez | GTYPE>demonym 
+bavarezului | GTYPE>demonym
+bavarezul | GTYPE>demonym
+bavareza | GTYPE>demonym 
+bavarezei | GTYPE>demonym
+bavareze | GTYPE>demonym
+belgian | GTYPE>demonym 
+belgiana | GTYPE>demonym 
+belgianului | GTYPE>demonym
+belgianul | GTYPE>demonym
+belgianca | GTYPE>demonym 
+belgiane | GTYPE>demonym 
+bosniac | GTYPE>demonym 
+bosniacului | GTYPE>demonym
+bosniacul | GTYPE>demonym
+bosniaca | GTYPE>demonym 
+bosniacei | GTYPE>demonym
+bosniace | GTYPE>demonym
+bolivian | GTYPE>demonym 
+bolivianului | GTYPE>demonym
+bolivianul | GTYPE>demonym
+boliviana | GTYPE>demonym 
+bolivianei | GTYPE>demonym
+boliviane | GTYPE>demonym
+bolivianca | GTYPE>demonym 
+boliviancei | GTYPE>demonym 
+brazilian | GTYPE>demonym 
+brazilianul | GTYPE>demonym
+brazilianului | GTYPE>demonym 
+britanic | GTYPE>demonym 
+britanicului | GTYPE>demonym
+britanicul | GTYPE>demonym
+britanica | GTYPE>demonym 
+britanicei | GTYPE>demonym
+britanice | GTYPE>demonym
+bulgar | GTYPE>demonym 
+bulgarului | GTYPE>demonym
+bulgarul | GTYPE>demonym
+bulgara bulgarei | GTYPE>demonym
+bulgara bulgare | GTYPE>demonym
+canadian | GTYPE>demonym 
+canadianului | GTYPE>demonym
+canadianul | GTYPE>demonym
+canadiana | GTYPE>demonym 
+canadienei | GTYPE>demonym
+canadiene | GTYPE>demonym
+camerunez | GTYPE>demonym 
+camerunezului | GTYPE>demonym
+camerunezul | GTYPE>demonym
+cameruneza | GTYPE>demonym 
+camerunezei | GTYPE>demonym
+cameruneze | GTYPE>demonym
+catalan | GTYPE>demonym 
+catalanului | GTYPE>demonym
+catalanul | GTYPE>demonym
+catalana | GTYPE>demonym 
+catalanei | GTYPE>demonym
+catalane | GTYPE>demonym
+ceh | GTYPE>demonym 
+cehului | GTYPE>demonym
+cehul | GTYPE>demonym
+cehoaica | GTYPE>demonym 
+cehoaicei | GTYPE>demonym 
+ceha cehei | GTYPE>demonym
+ceha cehe | GTYPE>demonym
+cecen | GTYPE>demonym 
+cecenului | GTYPE>demonym
+cecenul | GTYPE>demonym
+cecena | GTYPE>demonym 
+cecenei | GTYPE>demonym
+cecene | GTYPE>demonym
+chinez | GTYPE>demonym 
+chinezului | GTYPE>demonym
+chinezul | GTYPE>demonym
+chinezoaica | GTYPE>demonym 
+chinezoaicei | GTYPE>demonym
+chinezoaice | GTYPE>demonym
+chineza | GTYPE>demonym 
+chinezei | GTYPE>demonym
+chineze | GTYPE>demonym
+cipriot | GTYPE>demonym 
+cipriotului | GTYPE>demonym
+cipriotul | GTYPE>demonym
+ciprioata ciprioatei | GTYPE>demonym
+ciprioata ciprioate | GTYPE>demonym
+chilian | GTYPE>demonym 
+chilianului | GTYPE>demonym
+chilianul | GTYPE>demonym
+chiliana | GTYPE>demonym 
+chilianei | GTYPE>demonym
+chiliane | GTYPE>demonym
+columbian | GTYPE>demonym 
+columbianului | GTYPE>demonym
+columbianul | GTYPE>demonym
+columbiana | GTYPE>demonym 
+columbianei | GTYPE>demonym
+columbiane | GTYPE>demonym
+croat | GTYPE>demonym 
+croatului | GTYPE>demonym
+croatul | GTYPE>demonym
+croata | GTYPE>demonym 
+croatei | GTYPE>demonym
+croate | GTYPE>demonym
+coreean | GTYPE>demonym 
+coreanului | GTYPE>demonym
+coreanul | GTYPE>demonym
+coreeana | GTYPE>demonym 
+coreeanei | GTYPE>demonym
+coreeane | GTYPE>demonym
+nord-coreean | GTYPE>demonym 
+nord-coreanului | GTYPE>demonym
+nord-coreanul | GTYPE>demonym
+nord-coreeana | GTYPE>demonym 
+nord-coreeanei | GTYPE>demonym
+nord-coreeane | GTYPE>demonym
+sud-coreean | GTYPE>demonym 
+sud-coreanului | GTYPE>demonym
+sud-coreanul | GTYPE>demonym
+sud-coreeana | GTYPE>demonym 
+sud-coreeanei | GTYPE>demonym
+sud-coreeane | GTYPE>demonym
+cubanez | GTYPE>demonym 
+cubanezului | GTYPE>demonym
+cubanezul | GTYPE>demonym
+cubaneza | GTYPE>demonym 
+cubanezei | GTYPE>demonym
+cubaneze | GTYPE>demonym
+danez | GTYPE>demonym 
+danezului | GTYPE>demonym
+danezul | GTYPE>demonym
+daneza | GTYPE>demonym 
+danezei | GTYPE>demonym
+daneze | GTYPE>demonym
+egiptean | GTYPE>demonym 
+egipteanului | GTYPE>demonym
+egipteanul | GTYPE>demonym
+egipteana | GTYPE>demonym 
+egiptenei | GTYPE>demonym
+egiptene | GTYPE>demonym
+elvetian | GTYPE>demonym 
+elvetianului | GTYPE>demonym
+elvetianul | GTYPE>demonym
+elvetiana | GTYPE>demonym 
+elvetienei | GTYPE>demonym
+elvetiene | GTYPE>demonym
+elveţian | GTYPE>demonym 
+elveţianului | GTYPE>demonym
+elveţianul | GTYPE>demonym
+elveţiana | GTYPE>demonym 
+elveţianei | GTYPE>demonym
+elveţiane | GTYPE>demonym
+englez | GTYPE>demonym 
+englezului | GTYPE>demonym
+englezul | GTYPE>demonym
+engleza | GTYPE>demonym 
+englezei | GTYPE>demonym
+engleze | GTYPE>demonym
+eston | GTYPE>demonym 
+estonului | GTYPE>demonym
+estonul | GTYPE>demonym
+estona | GTYPE>demonym 
+estonei | GTYPE>demonym
+estone | GTYPE>demonym
+europeanului | GTYPE>demonym
+europeanul | GTYPE>demonym
+europeana | GTYPE>demonym 
+europeenei | GTYPE>demonym
+europeene | GTYPE>demonym
+europeană | GTYPE>demonym
+ecuadoarian | GTYPE>demonym 
+ecuadoarianului | GTYPE>demonym
+ecuadoarianul | GTYPE>demonym
+ecuadoariana | GTYPE>demonym 
+ecuadoarianei | GTYPE>demonym
+ecuadoariane | GTYPE>demonym
+finlandez | GTYPE>demonym 
+finlandezului | GTYPE>demonym
+finlandezul | GTYPE>demonym
+francez | GTYPE>demonym 
+francezul | GTYPE>demonym 
+francezului | GTYPE>demonym 
+Frantei | GTYPE>demonym 
+din Franţa | GTYPE>demonym 
+franţuzoaica | GTYPE>demonym 
+franţuzoaicei | GTYPE>demonym 
+frantuzoaica | GTYPE>demonym 
+frantuzoaicei | GTYPE>demonym 
+franceza | GTYPE>demonym 
+francezei | GTYPE>demonym
+franceze | GTYPE>demonym
+german | GTYPE>demonym 
+germanul | GTYPE>demonym 
+germanului | GTYPE>demonym 
+germanca | GTYPE>demonym 
+germancei | GTYPE>demonym 
+germana | GTYPE>demonym 
+germanei | GTYPE>demonym
+germane | GTYPE>demonym
+grec | GTYPE>demonym 
+grecului | GTYPE>demonym
+grecul | GTYPE>demonym
+grecoaica | GTYPE>demonym 
+grecoaicei | GTYPE>demonym 
+greaca | GTYPE>demonym 
+grecei | GTYPE>demonym 
+iberic | GTYPE>demonym 
+ibericului | GTYPE>demonym
+ibericul | GTYPE>demonym
+iberica ibericei | GTYPE>demonym
+iberica iberice | GTYPE>demonym
+irakian | GTYPE>demonym 
+irakianului | GTYPE>demonym
+irakianul | GTYPE>demonym
+irakiana irakianei | GTYPE>demonym
+irakiana irakiane | GTYPE>demonym
+iranian | GTYPE>demonym 
+iranianului | GTYPE>demonym
+iranianul | GTYPE>demonym
+iraniana iranianei | GTYPE>demonym
+iraniana iraniane | GTYPE>demonym
+israelian | GTYPE>demonym 
+israelianului | GTYPE>demonym
+israelianul | GTYPE>demonym
+israeliana | GTYPE>demonym 
+israelianei | GTYPE>demonym
+israeliane | GTYPE>demonym
+italian | GTYPE>demonym 
+italianului | GTYPE>demonym
+italianul | GTYPE>demonym
+italiana | GTYPE>demonym 
+italianei | GTYPE>demonym
+italiane | GTYPE>demonym
+indian | GTYPE>demonym 
+indianului | GTYPE>demonym
+indianul | GTYPE>demonym
+indianca | GTYPE>demonym 
+indiancei indiana indianei? | GTYPE>demonym | STRICT > (?i:indiancei indiana indianei?)
+indiancei indiana indianei | GTYPE>demonym
+irlandez | GTYPE>demonym 
+irlandezului | GTYPE>demonym
+irlandezul | GTYPE>demonym
+irlandeza | GTYPE>demonym 
+irlandezei | GTYPE>demonym
+irlandeze | GTYPE>demonym
+indonezian | GTYPE>demonym 
+indonezianului | GTYPE>demonym
+indonezianul | GTYPE>demonym
+indoneziana | GTYPE>demonym 
+indonezianei | GTYPE>demonym
+indoneziane | GTYPE>demonym
+ivorian | GTYPE>demonym 
+ivorianului | GTYPE>demonym
+ivorianul | GTYPE>demonym
+ivoriana | GTYPE>demonym 
+ivorianei | GTYPE>demonym
+ivoriane | GTYPE>demonym
+iugoslav | GTYPE>demonym 
+iugoslavului | GTYPE>demonym
+iugoslavul | GTYPE>demonym
+iugoslava | GTYPE>demonym 
+iugoslavei | GTYPE>demonym
+iugoslave | GTYPE>demonym
+jamaican | GTYPE>demonym 
+jamaicanului | GTYPE>demonym
+jamaicanul | GTYPE>demonym
+jamaicana | GTYPE>demonym 
+jamaicanei | GTYPE>demonym
+jamaicane | GTYPE>demonym
+japonez | GTYPE>demonym 
+japonezului | GTYPE>demonym
+japonezul | GTYPE>demonym
+japoneza | GTYPE>demonym 
+japonezei | GTYPE>demonym
+japoneze | GTYPE>demonym
+kazah | GTYPE>demonym 
+kazahului | GTYPE>demonym
+kazahul | GTYPE>demonym
+kazac | GTYPE>demonym 
+kazacului | GTYPE>demonym
+kazacul | GTYPE>demonym
+kazaca | GTYPE>demonym 
+kazacei | GTYPE>demonym
+kazace | GTYPE>demonym
+kosovar | GTYPE>demonym 
+kosovarului | GTYPE>demonym
+kosovarul | GTYPE>demonym
+kosovara | GTYPE>demonym 
+kosovarei | GTYPE>demonym
+kosovare | GTYPE>demonym
+libanez | GTYPE>demonym 
+libanezului | GTYPE>demonym
+libanezul | GTYPE>demonym
+libaneza | GTYPE>demonym 
+libanezei | GTYPE>demonym
+libaneze | GTYPE>demonym
+libian | GTYPE>demonym 
+libianului | GTYPE>demonym
+libianul | GTYPE>demonym
+libiana | GTYPE>demonym 
+libianei | GTYPE>demonym
+libiane | GTYPE>demonym
+londonez | GTYPE>demonym 
+lodononezului | GTYPE>demonym
+lodononezul | GTYPE>demonym
+londoneza | GTYPE>demonym 
+londonezei | GTYPE>demonym
+londoneze | GTYPE>demonym
+luxemburghez | GTYPE>demonym 
+luxemburghezului | GTYPE>demonym
+luxemburghezul | GTYPE>demonym
+luxemburgheza | GTYPE>demonym 
+luxemburghezei | GTYPE>demonym
+luxemburgheze | GTYPE>demonym
+leton | GTYPE>demonym 
+letonului | GTYPE>demonym
+letonul | GTYPE>demonym
+letona | GTYPE>demonym 
+letonei | GTYPE>demonym
+letone | GTYPE>demonym
+maghiar | GTYPE>demonym 
+maghiarului | GTYPE>demonym
+maghiarul | GTYPE>demonym
+maghiara | GTYPE>demonym 
+maghiarei | GTYPE>demonym
+maghiare | GTYPE>demonym
+maltez | GTYPE>demonym 
+maltezului | GTYPE>demonym
+maltezul | GTYPE>demonym
+malteza | GTYPE>demonym 
+maltezei | GTYPE>demonym
+malteze | GTYPE>demonym
+mexican | GTYPE>demonym 
+mexicanului | GTYPE>demonym
+mexicanul | GTYPE>demonym
+mexicana | GTYPE>demonym 
+mexicanei? mexicanca | GTYPE>demonym | STRICT > (?i:mexicanei? mexicanca)
+mexincancei | GTYPE>demonym 
+moscovit | GTYPE>demonym 
+moscovitului | GTYPE>demonym
+moscovitul | GTYPE>demonym
+moscovita | GTYPE>demonym 
+moscovitei | GTYPE>demonym
+moscovite | GTYPE>demonym
+muntenegrean | GTYPE>demonym 
+muntenegreanului | GTYPE>demonym
+muntenegreanul | GTYPE>demonym
+muntenegreana | GTYPE>demonym 
+muntenegrenei | GTYPE>demonym
+muntenegrene | GTYPE>demonym
+nigerian | GTYPE>demonym 
+nigerianului | GTYPE>demonym
+nigerianul | GTYPE>demonym
+nigeriana | GTYPE>demonym
+nigerienei | GTYPE>demonym
+nigeriene | GTYPE>demonym
+norvegian | GTYPE>demonym 
+norvegianului | GTYPE>demonym
+norvegianul | GTYPE>demonym
+norvegiana | GTYPE>demonym 
+norvegianei | GTYPE>demonym
+norvegiane | GTYPE>demonym
+neamt | GTYPE>demonym 
+neamtului | GTYPE>demonym
+neamtul | GTYPE>demonym
+nemtoaica | GTYPE>demonym 
+nemtoaicei | GTYPE>demonym
+nemtoaice | GTYPE>demonym
+olandez | GTYPE>demonym 
+olandezului | GTYPE>demonym
+olandezul | GTYPE>demonym
+olandeza | GTYPE>demonym 
+olandezei | GTYPE>demonym
+olandeze | GTYPE>demonym
+pakistanez | GTYPE>demonym 
+pakistanezului | GTYPE>demonym
+pakistanezul | GTYPE>demonym
+pakistaneza | GTYPE>demonym 
+pakistanezei | GTYPE>demonym
+pakistaneze | GTYPE>demonym
+palestinian | GTYPE>demonym 
+palestinianului | GTYPE>demonym
+palestinianul | GTYPE>demonym
+palestiniana | GTYPE>demonym 
+palestinienei | GTYPE>demonym
+palestiniene | GTYPE>demonym
+parizian | GTYPE>demonym 
+parizianului | GTYPE>demonym
+parizianul | GTYPE>demonym
+pariziana | GTYPE>demonym 
+parizianei | GTYPE>demonym
+pariziane | GTYPE>demonym
+polonez | GTYPE>demonym 
+polonezului | GTYPE>demonym
+polonezul | GTYPE>demonym
+poloneza | GTYPE>demonym 
+polonezei | GTYPE>demonym
+poloneze | GTYPE>demonym
+portughez | GTYPE>demonym 
+portughezului | GTYPE>demonym
+portughezul | GTYPE>demonym
+portugheza | GTYPE>demonym 
+portughezei | GTYPE>demonym
+portugheze | GTYPE>demonym
+peruan | GTYPE>demonym 
+peruanului | GTYPE>demonym
+peruanul | GTYPE>demonym
+peruana | GTYPE>demonym 
+peruanei | GTYPE>demonym
+peruane | GTYPE>demonym
+panamez | GTYPE>demonym 
+panamezului | GTYPE>demonym
+panamezul | GTYPE>demonym
+panameza | GTYPE>demonym 
+panamezei | GTYPE>demonym
+panameze | GTYPE>demonym
+român | GTYPE>demonym 
+românul | GTYPE>demonym 
+românului | GTYPE>demonym 
+românca | GTYPE>demonym 
+româncei | GTYPE>demonym 
+româna | GTYPE>demonym 
+românei | GTYPE>demonym
+române | GTYPE>demonym
+roman | GTYPE>demonym 
+romanului | GTYPE>demonym
+romanul | GTYPE>demonym
+romanca | GTYPE>demonym 
+romancei | GTYPE>demonym 
+romana | GTYPE>demonym 
+romanei | GTYPE>demonym
+romane | GTYPE>demonym
+rus | GTYPE>demonym 
+rusului | GTYPE>demonym
+rusul | GTYPE>demonym
+rusoaica | GTYPE>demonym 
+rusoaicei rusa | GTYPE>demonym 
+rusei | GTYPE>demonym
+ruse | GTYPE>demonym
+slovac | GTYPE>demonym 
+slovacului | GTYPE>demonym
+slovacul | GTYPE>demonym
+slovaca | GTYPE>demonym 
+slovacei | GTYPE>demonym
+slovace | GTYPE>demonym
+spaniol | GTYPE>demonym 
+spaniolului | GTYPE>demonym
+spaniolul | GTYPE>demonym
+spaniola | GTYPE>demonym 
+spaniolei | GTYPE>demonym
+spaniole | GTYPE>demonym
+sovietic | GTYPE>demonym 
+sovieticului | GTYPE>demonym
+sovieticul | GTYPE>demonym
+sovietica | GTYPE>demonym
+sovieticei | GTYPE>demonym
+sovietice | GTYPE>demonym
+suedez | GTYPE>demonym 
+suedezului | GTYPE>demonym
+suedezul | GTYPE>demonym
+suedeza | GTYPE>demonym 
+suedezei | GTYPE>demonym
+suedeze | GTYPE>demonym
+singaporez | GTYPE>demonym 
+singaporezului | GTYPE>demonym
+singaporezul | GTYPE>demonym
+singaporeza | GTYPE>demonym 
+singaporezei | GTYPE>demonym
+singaporeze | GTYPE>demonym
+turc | GTYPE>demonym 
+turce | GTYPE>demonym 
+turcului | GTYPE>demonym
+turcul | GTYPE>demonym
+turcoaica | GTYPE>demonym 
+turcoaicei | GTYPE>demonym
+turcoaice | GTYPE>demonym
+thailandez | GTYPE>demonym 
+thailandezului | GTYPE>demonym
+thailandezul | GTYPE>demonym
+thailandeza | GTYPE>demonym 
+thailandezei | GTYPE>demonym
+thailandeze | GTYPE>demonym
+ucrainean | GTYPE>demonym 
+ucraineanului | GTYPE>demonym
+ucraineanul | GTYPE>demonym
+ucraineana | GTYPE>demonym 
+ucraineanei | GTYPE>demonym
+ucraineane | GTYPE>demonym
+ungar | GTYPE>demonym 
+ungarului | GTYPE>demonym
+ungarul | GTYPE>demonym
+ungur | GTYPE>demonym 
+ungurului | GTYPE>demonym
+ungurul | GTYPE>demonym
+unguroaica unguroaicei?  | GTYPE>demonym | STRICT > (?i:unguroaica unguroaicei?)
+uruguayan | GTYPE>demonym 
+uruguayanului | GTYPE>demonym
+uruguayanul | GTYPE>demonym
+uruguayana | GTYPE>demonym 
+uruguayanei | GTYPE>demonym
+uruguayane | GTYPE>demonym
+uzbek | GTYPE>demonym 
+uzbekului | GTYPE>demonym
+uzbekul | GTYPE>demonym
+uzbeka | GTYPE>demonym 
+uzbekei | GTYPE>demonym
+uzbeke | GTYPE>demonym
+ugandez | GTYPE>demonym 
+ugandezului | GTYPE>demonym
+ugandezul | GTYPE>demonym
+ugandeza | GTYPE>demonym 
+ugandezei | GTYPE>demonym
+ugandeze | GTYPE>demonym
+venezuelean | GTYPE>demonym 
+venezueleanului | GTYPE>demonym
+venezueleanul | GTYPE>demonym
+zimbabwean | GTYPE>demonym 
+zimbabweanului | GTYPE>demonym
+zimbabweanul | GTYPE>demonym
+zimbabweana | GTYPE>demonym 
+zimbabweanei | GTYPE>demonym
+zimbabweane | GTYPE>demonym
+kurd | GTYPE>demonym 
+kurdului | GTYPE>demonym
+kurdul | GTYPE>demonym
+kurda | GTYPE>demonym 
+kurdei | GTYPE>demonym
+kurde | GTYPE>demonym
+sarb | GTYPE>demonym 
+sarbului | GTYPE>demonym
+sarbul | GTYPE>demonym
+sarba | GTYPE>demonym 
+sarbei | GTYPE>demonym
+sarbe | GTYPE>demonym
+sirb | GTYPE>demonym 
+sirbului | GTYPE>demonym
+sirbul | GTYPE>demonym
+sirba | GTYPE>demonym 
+sirbei | GTYPE>demonym
+sirbe | GTYPE>demonym
+sârb | GTYPE>demonym 
+sârbului | GTYPE>demonym
+sârbul | GTYPE>demonym
+sârba | GTYPE>demonym 
+sârbei | GTYPE>demonym
+sârbe | GTYPE>demonym
+# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : position-ro.txt
+# content : pattern matcher lexicon for Romanian positions
+# author  : M. Ehrmann
+# date	  : July 2012
+# ----------------------------------------
+
+#---------------
+# Position names
+#---------------
+
+presedinte | GTYPE>position | GSUBTYPE>gov 
+presedintele | GTYPE>position | GSUBTYPE>gov 
+presedintelui | GTYPE>position | GSUBTYPE>gov 
+preşedinte | GTYPE>position | GSUBTYPE>gov 
+preşedintele | GTYPE>position | GSUBTYPE>gov 
+preşedintelui | GTYPE>position | GSUBTYPE>gov 
+vicepresedinte | GTYPE>position | GSUBTYPE>gov 
+vicepresedintele | GTYPE>position | GSUBTYPE>gov 
+vicepresedintelui | GTYPE>position | GSUBTYPE>gov 
+vicepreşedinte | GTYPE>position | GSUBTYPE>gov 
+vicepreşedintele | GTYPE>position | GSUBTYPE>gov 
+vicepreşedintelui | GTYPE>position | GSUBTYPE>gov 
+
+ministru | GTYPE>position | GSUBTYPE>gov 
+ministrul | GTYPE>position | GSUBTYPE>gov 
+ministrului | GTYPE>position | GSUBTYPE>gov 
+viceministru | GTYPE>position | GSUBTYPE>gov 
+viceministrul | GTYPE>position | GSUBTYPE>gov 
+viceministrului | GTYPE>position | GSUBTYPE>gov
+prim-ministru | GTYPE>position | GSUBTYPE>gov 
+primul-ministru | GTYPE>position | GSUBTYPE>gov 
+primului-ministru | GTYPE>position | GSUBTYPE>gov 
+
+cancelar | GTYPE>position | GSUBTYPE>gov 
+cancelarul | GTYPE>position | GSUBTYPE>gov 
+cancelarului | GTYPE>position| GSUBTYPE>gov 
+vicecancelar | GTYPE>position| GSUBTYPE>gov 
+vicecancelarul | GTYPE>position| GSUBTYPE>gov 
+vicecancelarului | GTYPE>position| GSUBTYPE>gov 
+vicecancelara | GTYPE>position| GSUBTYPE>gov 
+vicecancelarei | GTYPE>position| GSUBTYPE>gov 
+vicecancelare | GTYPE>position| GSUBTYPE>gov 
+
+deputat | GTYPE>position| GSUBTYPE>gov 
+deputatul | GTYPE>position| GSUBTYPE>gov 
+deputatului | GTYPE>position| GSUBTYPE>gov 
+
+secretar | GTYPE>position
+secretarul | GTYPE>position
+secretarului | GTYPE>position
+secretar de stat | GTYPE>position | GSUBTYPE>gov 
+secretarul de stat | GTYPE>position | GSUBTYPE>gov 
+omologul | GTYPE>position 
+ambasador | GTYPE>position | GSUBTYPE>gov 
+ambasadorul | GTYPE>position | GSUBTYPE>gov 
+ambasadorului | GTYPE>position | GSUBTYPE>gov 
+ambasadoarei | GTYPE>position  | GSUBTYPE>gov 
+ambasadoare | GTYPE>position | GSUBTYPE>gov 
+
+guvernator | GTYPE>position | GSUBTYPE>gov 
+guvernatorul | GTYPE>position | GSUBTYPE>gov 
+guvernatorului | GTYPE>position | GSUBTYPE>gov 
+guvernatoarea | GTYPE>position | GSUBTYPE>gov 
+guvernatoare | GTYPE>position | GSUBTYPE>gov 
+guvernatoarei | GTYPE>position | GSUBTYPE>gov 
+
+senatorul | GTYPE>position | GSUBTYPE>gov 
+senatorului | GTYPE>position | GSUBTYPE>gov 
+senatoarei | GTYPE>position | GSUBTYPE>gov 
+senatoarea | GTYPE>position | GSUBTYPE>gov 
+
+rege | GTYPE>position | GSUBTYPE>gov 
+regele | GTYPE>position | GSUBTYPE>gov 
+regelui | GTYPE>position | GSUBTYPE>gov 
+regina | GTYPE>position | GSUBTYPE>gov 
+reginei | GTYPE>position | GSUBTYPE>gov 
+
+dictator | GTYPE>position
+dictatorul | GTYPE>position
+dictatorului | GTYPE>position
+
+europarlamentar | GTYPE>position | GSUBTYPE>gov 
+europarlamentarul | GTYPE>position | GSUBTYPE>gov 
+europarlamentarului | GTYPE>position | GSUBTYPE>gov 
+europarlamentara | GTYPE>position | GSUBTYPE>gov 
+europarlamentarei | GTYPE>position | GSUBTYPE>gov 
+europarlamentare | GTYPE>position | GSUBTYPE>gov 
+parlamentarul | GTYPE>position | GSUBTYPE>gov 
+parlamentarului | GTYPE>position | GSUBTYPE>gov 
+parlamentara | GTYPE>position | GSUBTYPE>gov 
+parlamentarei | GTYPE>position | GSUBTYPE>gov 
+parlamentare | GTYPE>position | GSUBTYPE>gov 
+eurodeputat | GTYPE>position | GSUBTYPE>gov 
+eurodeputatul | GTYPE>position | GSUBTYPE>gov 
+eurodeputatului | GTYPE>position | GSUBTYPE>gov 
+eurodeputata | GTYPE>position | GSUBTYPE>gov 
+eurodeputatei | GTYPE>position | GSUBTYPE>gov 
+eurodeputate | GTYPE>position | GSUBTYPE>gov 
+eurocomisarul | GTYPE>position | GSUBTYPE>gov 
+eurocomisarului | GTYPE>position | GSUBTYPE>gov 
+
+comisarul | GTYPE>position | GSUBTYPE>gov 
+comisarului | GTYPE>position | GSUBTYPE>gov 
+
+sultan | GTYPE>position
+sultanul | GTYPE>position
+sultanului | GTYPE>position
+
+copreşedinte | GTYPE>position
+copreşedintele | GTYPE>position
+copreşedintelui | GTYPE>position
+copresedinte | GTYPE>position
+copresedintele | GTYPE>position
+copresedintelui | GTYPE>position
+
+contracandidat | GTYPE>position
+contracandidatul | GTYPE>position
+contracandidatului | GTYPE>position
+contracandidata | GTYPE>position
+contracandidatei | GTYPE>position
+
+consilier | GTYPE>position
+consilierul | GTYPE>position
+consilierului | GTYPE>position
+consiliera | GTYPE>position
+consilierei | GTYPE>position
+consiliere | GTYPE>position
+
+emisar | GTYPE>position
+liderul | GTYPE>position
+liderului | GTYPE>position
+liderul sindical | GTYPE>position
+liderului sindical | GTYPE>position
+director | GTYPE>position
+directorului | GTYPE>position
+directorul | GTYPE>position
+directorul executiv | GTYPE>position
+directorului executiv | GTYPE>position
+director executiv | GTYPE>position
+
+#primul | GTYPE>position
+#primului | GTYPE>position
+premier | GTYPE>position
+premierul | GTYPE>position
+premierului | GTYPE>position
+primar | GTYPE>position
+primarul | GTYPE>position
+primarului | GTYPE>position
+vicepremierul | GTYPE>position
+vicepremierului | GTYPE>position
+
+#-----------------
+# Position domains
+#-----------------
+#minister of something
+#something minister
+
+
+externe | GTYPE>position_domain 
+interne | GTYPE>position_domain 
+dreapta | GTYPE>position_domain 
+agriculturii | GTYPE>position_domain 
+finante | GTYPE>position_domain 
+finanţe | GTYPE>position_domain 
+atunci | GTYPE>position_domain 
+transporturilor | GTYPE>position_domain 
+economiei | GTYPE>position_domain 
+justiţie | GTYPE>position_domain 
+justitie | GTYPE>position_domain 
+justitiei | GTYPE>position_domain 
+extindere | GTYPE>position_domain 
+externe | GTYPE>position_domain 
+interne | GTYPE>position_domain 
+dreapta | GTYPE>position_domain 
+agriculturii | GTYPE>position_domain 
+pădurilor | GTYPE>position_domain 
+padurilor | GTYPE>position_domain 
+afacerilor | GTYPE>position_domain 
+sanatatii | GTYPE>position_domain 
+finante | GTYPE>position_domain 
+finanţe | GTYPE>position_domain 
+finantelor | GTYPE>position_domain 
+atunci | GTYPE>position_domain 
+transporturilor | GTYPE>position_domain 
+telecomunicatii | GTYPE>position_domain  
+comunicare | GTYPE>position_domain 
+constructiilor | GTYPE>position_domain 
+învăţământului | GTYPE>position_domain 
+invatamantului | GTYPE>position_domain 
+superior | GTYPE>position_domain  
+culturii | GTYPE>position_domain 
+cultelor | GTYPE>position_domain 
+apărării | GTYPE>position_domain 
+apararii | GTYPE>position_domain 
+padurilor | GTYPE>position_domain 
+nationale | GTYPE>position_domain 
+comertului | GTYPE>position_domain 
+publice | GTYPE>position_domain 
+externe | GTYPE>position_domain 
+ecologiei | GTYPE>position_domain 
+construcţiei | GTYPE>position_domain 
+dezvoltării | GTYPE>position_domain 
+dezvoltarii | GTYPE>position_domain 
+teritoriului | GTYPE>position_domain 
+rurale | GTYPE>position_domain 
+tehnologiei | GTYPE>position_domain 
+tehnologiei informaţiei | GTYPE>position_domain 
+turismului | GTYPE>position_domain 
+mediului | GTYPE>position_domain 
+gospodaririi  | GTYPE>position_domain 
+justitiei  | GTYPE>position_domain 
+concurenţei | GTYPE>position_domain 
+telecomunicatii  | GTYPE>position_domain 
+comunicare  | GTYPE>position_domain 
+
+#--------------------- 
+# Position adjectives 
+#--------------------- 
+sindical| GTYPE>position_adjective 
+actualul | GTYPE>position_adjective 
+actualului| GTYPE>position_adjective 
+şcolar| GTYPE>position_adjective 
+interimar| GTYPE>position_adjective 
+general| GTYPE>position_adjective 
+fostul | GTYPE>position_adjective 
+fostului| GTYPE>position_adjective 
+ultimul | GTYPE>position_adjective 
+ultimului| GTYPE>position_adjective 
+sindical| GTYPE>position_adjective 
+regionala | GTYPE>position_adjective 
+federala | GTYPE>position_adjective 
+regional | GTYPE>position_adjective 
+federal | GTYPE>position_adjective 
+internaţionala | GTYPE>position_adjective
+internaţional | GTYPE>position_adjective
+internationala | GTYPE>position_adjective
+international | GTYPE>position_adjective
+naţionala | GTYPE>position_adjective
+naţional | GTYPE>position_adjective
+nationala | GTYPE>position_adjective
+national | GTYPE>position_adjective
+celebrul | GTYPE>position_adjective
+celebru | GTYPE>position_adjective
+celebrului | GTYPE>position_adjective 
+celebra | GTYPE>position_adjective 
+celebrei  | GTYPE>position_adjective 
+prorus | GTYPE>position_adjective 
+rusofilul | GTYPE>position_adjective
+rusofil | GTYPE>position_adjective
+spiritual | GTYPE>position_adjective 
+prooccidental | GTYPE>position_adjective 
+legendar | GTYPE>position_adjective 
+legendarului | GTYPE>position_adjective
+legendarul | GTYPE>position_adjective
+noului | GTYPE>position_adjective
+noul | GTYPE>position_adjective
+noua | GTYPE>position_adjective 
+regretatului | GTYPE>position_adjective
+regretatul | GTYPE>position_adjective
+regretata | GTYPE>position_adjective 
+regretatei | GTYPE>position_adjective 
+marele | GTYPE>position_adjective 
+marelui | GTYPE>position_adjective 
+marea | GTYPE>position_adjective 
+marei | GTYPE>position_adjective 
+micutului | GTYPE>position_adjective
+micutul | GTYPE>position_adjective
+micuta | GTYPE>position_adjective 
+micutei | GTYPE>position_adjective 
+excentric | GTYPE>position_adjective 
+excentricului | GTYPE>position_adjective
+excentricul | GTYPE>position_adjective
+excentrica | GTYPE>position_adjective 
+excentricei | GTYPE>position_adjective 
+defunct | GTYPE>position_adjective 
+defunctul | GTYPE>position_adjective
+defunctului | GTYPE>position_adjective 
+defuncta | GTYPE>position_adjective 
+defunctei | GTYPE>position_adjective 
+imbatabil | GTYPE>position_adjective 
+imbatabilului | GTYPE>position_adjective
+imbatabilul | GTYPE>position_adjective
+imbatabila | GTYPE>position_adjective 
+imbatabilei | GTYPE>position_adjective 
+raposat | GTYPE>position_adjective 
+raposatului | GTYPE>position_adjective
+raposatul | GTYPE>position_adjective
+raposata | GTYPE>position_adjective 
+raposatei | GTYPE>position_adjective 
+populist | GTYPE>position_adjective 
+populistului | GTYPE>position_adjective
+populistul | GTYPE>position_adjective
+populista | GTYPE>position_adjective 
+populistei | GTYPE>position_adjective 
+suspendat | GTYPE>position_adjective 
+europeana | GTYPE>position_adjective
+european | GTYPE>position_adjective
+adolescenta | GTYPE>position_adjective
+adolescent | GTYPE>position_adjective
+spirituala | GTYPE>position_adjective
+spiritual | GTYPE>position_adjective
+binecunoscut | GTYPE>position_adjective 
+binecunoscutului | GTYPE>position_adjective
+binecunoscutul | GTYPE>position_adjective
+binecunoscuta | GTYPE>position_adjective 
+binecunoscutei | GTYPE>position_adjective 
+binecunoscutilor | GTYPE>position_adjective 
+guvernamentala | GTYPE>position_adjective
+guvernamental | GTYPE>position_adjective
+local | GTYPE>position_adjective 
+locale | GTYPE>position_adjective 
+anticapitalist | GTYPE>position_adjective 
+rural | GTYPE>position_adjective 
+rarala | GTYPE>position_adjective 
+independent | GTYPE>position_adjective 
+independenta | GTYPE>position_adjective 
+europene  | GTYPE>position_adjective 
+europeni | GTYPE>position_adjective 
+controversat  | GTYPE>position_adjective 
+controversatului | GTYPE>position_adjective
+controversatul | GTYPE>position_adjective
+controversata | GTYPE>position_adjective 
+controversatei | GTYPE>position_adjective
+controversate | GTYPE>position_adjective
+
+# ----------------------------------------
+
+american | GTYPE>position_adjective 
+americanul | GTYPE>position_adjective 
+americanului | GTYPE>position_adjective 
+americana | GTYPE>position_adjective 
+americanei | GTYPE>position_adjective
+americane | GTYPE>position_adjective
+americanca | GTYPE>position_adjective 
+ayatolahul  | GTYPE>position_adjective
+ayatollahul  | GTYPE>position_adjective 
+ayatolahului  | GTYPE>position_adjective 
+ayatollahului  | GTYPE>position_adjective 
+albanez | GTYPE>position_adjective 
+albanezului | GTYPE>position_adjective
+albanezul | GTYPE>position_adjective
+albaneza | GTYPE>position_adjective 
+albanezei | GTYPE>position_adjective
+albaneze | GTYPE>position_adjective
+african | GTYPE>position_adjective 
+africanului | GTYPE>position_adjective
+africanul | GTYPE>position_adjective
+africana | GTYPE>position_adjective 
+africanei | GTYPE>position_adjective
+africane | GTYPE>position_adjective
+afgan | GTYPE>position_adjective 
+afganului | GTYPE>position_adjective
+afganul | GTYPE>position_adjective
+afgana | GTYPE>position_adjective 
+afganei | GTYPE>position_adjective
+afgane | GTYPE>position_adjective
+argentinian | GTYPE>position_adjective 
+argentinianului | GTYPE>position_adjective
+argentinianul | GTYPE>position_adjective
+argentiniana | GTYPE>position_adjective 
+argentinianei | GTYPE>position_adjective
+argentiniane | GTYPE>position_adjective
+armean armeanului | GTYPE>position_adjective
+armean armeanul | GTYPE>position_adjective
+armeana | GTYPE>position_adjective 
+australian | GTYPE>position_adjective 
+australianului | GTYPE>position_adjective
+australianul | GTYPE>position_adjective
+australiana | GTYPE>position_adjective 
+australianei | GTYPE>position_adjective
+australiane | GTYPE>position_adjective
+austriac | GTYPE>position_adjective 
+austriacului | GTYPE>position_adjective
+austriacul | GTYPE>position_adjective
+bavarez | GTYPE>position_adjective 
+bavarezului | GTYPE>position_adjective
+bavarezul | GTYPE>position_adjective
+bavareza | GTYPE>position_adjective 
+bavarezei | GTYPE>position_adjective
+bavareze | GTYPE>position_adjective
+belgian | GTYPE>position_adjective 
+belgiana | GTYPE>position_adjective 
+belgianului | GTYPE>position_adjective
+belgianul | GTYPE>position_adjective
+belgianca | GTYPE>position_adjective 
+belgiane | GTYPE>position_adjective 
+bosniac | GTYPE>position_adjective 
+bosniacului | GTYPE>position_adjective
+bosniacul | GTYPE>position_adjective
+bosniaca | GTYPE>position_adjective 
+bosniacei | GTYPE>position_adjective
+bosniace | GTYPE>position_adjective
+bolivian | GTYPE>position_adjective 
+bolivianului | GTYPE>position_adjective
+bolivianul | GTYPE>position_adjective
+boliviana | GTYPE>position_adjective 
+bolivianei | GTYPE>position_adjective
+boliviane | GTYPE>position_adjective
+bolivianca | GTYPE>position_adjective 
+boliviancei | GTYPE>position_adjective 
+brazilian | GTYPE>position_adjective 
+brazilianul | GTYPE>position_adjective
+brazilianului | GTYPE>position_adjective 
+britanic | GTYPE>position_adjective 
+britanicului | GTYPE>position_adjective
+britanicul | GTYPE>position_adjective
+britanica | GTYPE>position_adjective 
+britanicei | GTYPE>position_adjective
+britanice | GTYPE>position_adjective
+bulgar | GTYPE>position_adjective 
+bulgarului | GTYPE>position_adjective
+bulgarul | GTYPE>position_adjective
+bulgara bulgarei | GTYPE>position_adjective
+bulgara bulgare | GTYPE>position_adjective
+canadian | GTYPE>position_adjective 
+canadianului | GTYPE>position_adjective
+canadianul | GTYPE>position_adjective
+canadiana | GTYPE>position_adjective 
+canadienei | GTYPE>position_adjective
+canadiene | GTYPE>position_adjective
+camerunez | GTYPE>position_adjective 
+camerunezului | GTYPE>position_adjective
+camerunezul | GTYPE>position_adjective
+cameruneza | GTYPE>position_adjective 
+camerunezei | GTYPE>position_adjective
+cameruneze | GTYPE>position_adjective
+catalan | GTYPE>position_adjective 
+catalanului | GTYPE>position_adjective
+catalanul | GTYPE>position_adjective
+catalana | GTYPE>position_adjective 
+catalanei | GTYPE>position_adjective
+catalane | GTYPE>position_adjective
+ceh | GTYPE>position_adjective 
+cehului | GTYPE>position_adjective
+cehul | GTYPE>position_adjective
+cehoaica | GTYPE>position_adjective 
+cehoaicei | GTYPE>position_adjective 
+ceha cehei | GTYPE>position_adjective
+ceha cehe | GTYPE>position_adjective
+cecen | GTYPE>position_adjective 
+cecenului | GTYPE>position_adjective
+cecenul | GTYPE>position_adjective
+cecena | GTYPE>position_adjective 
+cecenei | GTYPE>position_adjective
+cecene | GTYPE>position_adjective
+chinez | GTYPE>position_adjective 
+chinezului | GTYPE>position_adjective
+chinezul | GTYPE>position_adjective
+chinezoaica | GTYPE>position_adjective 
+chinezoaicei | GTYPE>position_adjective
+chinezoaice | GTYPE>position_adjective
+chineza | GTYPE>position_adjective 
+chinezei | GTYPE>position_adjective
+chineze | GTYPE>position_adjective
+cipriot | GTYPE>position_adjective 
+cipriotului | GTYPE>position_adjective
+cipriotul | GTYPE>position_adjective
+ciprioata ciprioatei | GTYPE>position_adjective
+ciprioata ciprioate | GTYPE>position_adjective
+chilian | GTYPE>position_adjective 
+chilianului | GTYPE>position_adjective
+chilianul | GTYPE>position_adjective
+chiliana | GTYPE>position_adjective 
+chilianei | GTYPE>position_adjective
+chiliane | GTYPE>position_adjective
+columbian | GTYPE>position_adjective 
+columbianului | GTYPE>position_adjective
+columbianul | GTYPE>position_adjective
+columbiana | GTYPE>position_adjective 
+columbianei | GTYPE>position_adjective
+columbiane | GTYPE>position_adjective
+croat | GTYPE>position_adjective 
+croatului | GTYPE>position_adjective
+croatul | GTYPE>position_adjective
+croata | GTYPE>position_adjective 
+croatei | GTYPE>position_adjective
+croate | GTYPE>position_adjective
+coreean | GTYPE>position_adjective 
+coreanului | GTYPE>position_adjective
+coreanul | GTYPE>position_adjective
+coreeana | GTYPE>position_adjective 
+coreeanei | GTYPE>position_adjective
+coreeane | GTYPE>position_adjective
+nord-coreean | GTYPE>position_adjective 
+nord-coreanului | GTYPE>position_adjective
+nord-coreanul | GTYPE>position_adjective
+nord-coreeana | GTYPE>position_adjective 
+nord-coreeanei | GTYPE>position_adjective
+nord-coreeane | GTYPE>position_adjective
+sud-coreean | GTYPE>position_adjective 
+sud-coreanului | GTYPE>position_adjective
+sud-coreanul | GTYPE>position_adjective
+sud-coreeana | GTYPE>position_adjective 
+sud-coreeanei | GTYPE>position_adjective
+sud-coreeane | GTYPE>position_adjective
+cubanez | GTYPE>position_adjective 
+cubanezului | GTYPE>position_adjective
+cubanezul | GTYPE>position_adjective
+cubaneza | GTYPE>position_adjective 
+cubanezei | GTYPE>position_adjective
+cubaneze | GTYPE>position_adjective
+danez | GTYPE>position_adjective 
+danezului | GTYPE>position_adjective
+danezul | GTYPE>position_adjective
+daneza | GTYPE>position_adjective 
+danezei | GTYPE>position_adjective
+daneze | GTYPE>position_adjective
+egiptean | GTYPE>position_adjective 
+egipteanului | GTYPE>position_adjective
+egipteanul | GTYPE>position_adjective
+egipteana | GTYPE>position_adjective 
+egiptenei | GTYPE>position_adjective
+egiptene | GTYPE>position_adjective
+elvetian | GTYPE>position_adjective 
+elvetianului | GTYPE>position_adjective
+elvetianul | GTYPE>position_adjective
+elvetiana | GTYPE>position_adjective 
+elvetienei | GTYPE>position_adjective
+elvetiene | GTYPE>position_adjective
+elveţian | GTYPE>position_adjective 
+elveţianului | GTYPE>position_adjective
+elveţianul | GTYPE>position_adjective
+elveţiana | GTYPE>position_adjective 
+elveţianei | GTYPE>position_adjective
+elveţiane | GTYPE>position_adjective
+englez | GTYPE>position_adjective 
+englezului | GTYPE>position_adjective
+englezul | GTYPE>position_adjective
+engleza | GTYPE>position_adjective 
+englezei | GTYPE>position_adjective
+engleze | GTYPE>position_adjective
+eston | GTYPE>position_adjective 
+estonului | GTYPE>position_adjective
+estonul | GTYPE>position_adjective
+estona | GTYPE>position_adjective 
+estonei | GTYPE>position_adjective
+estone | GTYPE>position_adjective
+europeanului | GTYPE>position_adjective
+europeanul | GTYPE>position_adjective
+europeana | GTYPE>position_adjective 
+europeenei | GTYPE>position_adjective
+europeene | GTYPE>position_adjective
+ecuadoarian | GTYPE>position_adjective 
+ecuadoarianului | GTYPE>position_adjective
+ecuadoarianul | GTYPE>position_adjective
+ecuadoariana | GTYPE>position_adjective 
+ecuadoarianei | GTYPE>position_adjective
+ecuadoariane | GTYPE>position_adjective
+finlandez | GTYPE>position_adjective 
+finlandezului | GTYPE>position_adjective
+finlandezul | GTYPE>position_adjective
+francez | GTYPE>position_adjective 
+francezul | GTYPE>position_adjective 
+francezului | GTYPE>position_adjective 
+Frantei | GTYPE>position_adjective 
+din Franţa | GTYPE>position_adjective 
+franţuzoaica | GTYPE>position_adjective 
+franţuzoaicei | GTYPE>position_adjective 
+frantuzoaica | GTYPE>position_adjective 
+frantuzoaicei | GTYPE>position_adjective 
+franceza | GTYPE>position_adjective 
+francezei | GTYPE>position_adjective
+franceze | GTYPE>position_adjective
+german | GTYPE>position_adjective 
+germanul | GTYPE>position_adjective 
+germanului | GTYPE>position_adjective 
+germanca | GTYPE>position_adjective 
+germancei | GTYPE>position_adjective 
+germana | GTYPE>position_adjective 
+germanei | GTYPE>position_adjective
+germane | GTYPE>position_adjective
+grec | GTYPE>position_adjective 
+grecului | GTYPE>position_adjective
+grecul | GTYPE>position_adjective
+grecoaica | GTYPE>position_adjective 
+grecoaicei | GTYPE>position_adjective 
+greaca | GTYPE>position_adjective 
+grecei | GTYPE>position_adjective 
+iberic | GTYPE>position_adjective 
+ibericului | GTYPE>position_adjective
+ibericul | GTYPE>position_adjective
+iberica ibericei | GTYPE>position_adjective
+iberica iberice | GTYPE>position_adjective
+irakian | GTYPE>position_adjective 
+irakianului | GTYPE>position_adjective
+irakianul | GTYPE>position_adjective
+irakiana irakianei | GTYPE>position_adjective
+irakiana irakiane | GTYPE>position_adjective
+iranian | GTYPE>position_adjective 
+iranianului | GTYPE>position_adjective
+iranianul | GTYPE>position_adjective
+iraniana iranianei | GTYPE>position_adjective
+iraniana iraniane | GTYPE>position_adjective
+israelian | GTYPE>position_adjective 
+israelianului | GTYPE>position_adjective
+israelianul | GTYPE>position_adjective
+israeliana | GTYPE>position_adjective 
+israelianei | GTYPE>position_adjective
+israeliane | GTYPE>position_adjective
+italian | GTYPE>position_adjective 
+italianului | GTYPE>position_adjective
+italianul | GTYPE>position_adjective
+italiana | GTYPE>position_adjective 
+italianei | GTYPE>position_adjective
+italiane | GTYPE>position_adjective
+indian | GTYPE>position_adjective 
+indianului | GTYPE>position_adjective
+indianul | GTYPE>position_adjective
+indianca | GTYPE>position_adjective 
+indiancei indiana indianei? | GTYPE>position_adjective | STRICT > (?i:indiancei indiana indianei?)
+indiancei indiana indianei | GTYPE>position_adjective
+irlandez | GTYPE>position_adjective 
+irlandezului | GTYPE>position_adjective
+irlandezul | GTYPE>position_adjective
+irlandeza | GTYPE>position_adjective 
+irlandezei | GTYPE>position_adjective
+irlandeze | GTYPE>position_adjective
+indonezian | GTYPE>position_adjective 
+indonezianului | GTYPE>position_adjective
+indonezianul | GTYPE>position_adjective
+indoneziana | GTYPE>position_adjective 
+indonezianei | GTYPE>position_adjective
+indoneziane | GTYPE>position_adjective
+ivorian | GTYPE>position_adjective 
+ivorianului | GTYPE>position_adjective
+ivorianul | GTYPE>position_adjective
+ivoriana | GTYPE>position_adjective 
+ivorianei | GTYPE>position_adjective
+ivoriane | GTYPE>position_adjective
+iugoslav | GTYPE>position_adjective 
+iugoslavului | GTYPE>position_adjective
+iugoslavul | GTYPE>position_adjective
+iugoslava | GTYPE>position_adjective 
+iugoslavei | GTYPE>position_adjective
+iugoslave | GTYPE>position_adjective
+jamaican | GTYPE>position_adjective 
+jamaicanului | GTYPE>position_adjective
+jamaicanul | GTYPE>position_adjective
+jamaicana | GTYPE>position_adjective 
+jamaicanei | GTYPE>position_adjective
+jamaicane | GTYPE>position_adjective
+japonez | GTYPE>position_adjective 
+japonezului | GTYPE>position_adjective
+japonezul | GTYPE>position_adjective
+japoneza | GTYPE>position_adjective 
+japonezei | GTYPE>position_adjective
+japoneze | GTYPE>position_adjective
+kazah | GTYPE>position_adjective 
+kazahului | GTYPE>position_adjective
+kazahul | GTYPE>position_adjective
+kazac | GTYPE>position_adjective 
+kazacului | GTYPE>position_adjective
+kazacul | GTYPE>position_adjective
+kazaca | GTYPE>position_adjective 
+kazacei | GTYPE>position_adjective
+kazace | GTYPE>position_adjective
+kosovar | GTYPE>position_adjective 
+kosovarului | GTYPE>position_adjective
+kosovarul | GTYPE>position_adjective
+kosovara | GTYPE>position_adjective 
+kosovarei | GTYPE>position_adjective
+kosovare | GTYPE>position_adjective
+libanez | GTYPE>position_adjective 
+libanezului | GTYPE>position_adjective
+libanezul | GTYPE>position_adjective
+libaneza | GTYPE>position_adjective 
+libanezei | GTYPE>position_adjective
+libaneze | GTYPE>position_adjective
+libian | GTYPE>position_adjective 
+libianului | GTYPE>position_adjective
+libianul | GTYPE>position_adjective
+libiana | GTYPE>position_adjective 
+libianei | GTYPE>position_adjective
+libiane | GTYPE>position_adjective
+londonez | GTYPE>position_adjective 
+lodononezului | GTYPE>position_adjective
+lodononezul | GTYPE>position_adjective
+londoneza | GTYPE>position_adjective 
+londonezei | GTYPE>position_adjective
+londoneze | GTYPE>position_adjective
+luxemburghez | GTYPE>position_adjective 
+luxemburghezului | GTYPE>position_adjective
+luxemburghezul | GTYPE>position_adjective
+luxemburgheza | GTYPE>position_adjective 
+luxemburghezei | GTYPE>position_adjective
+luxemburgheze | GTYPE>position_adjective
+leton | GTYPE>position_adjective 
+letonului | GTYPE>position_adjective
+letonul | GTYPE>position_adjective
+letona | GTYPE>position_adjective 
+letonei | GTYPE>position_adjective
+letone | GTYPE>position_adjective
+maghiar | GTYPE>position_adjective 
+maghiarului | GTYPE>position_adjective
+maghiarul | GTYPE>position_adjective
+maghiara | GTYPE>position_adjective 
+maghiarei | GTYPE>position_adjective
+maghiare | GTYPE>position_adjective
+maltez | GTYPE>position_adjective 
+maltezului | GTYPE>position_adjective
+maltezul | GTYPE>position_adjective
+malteza | GTYPE>position_adjective 
+maltezei | GTYPE>position_adjective
+malteze | GTYPE>position_adjective
+mexican | GTYPE>position_adjective 
+mexicanului | GTYPE>position_adjective
+mexicanul | GTYPE>position_adjective
+mexicana | GTYPE>position_adjective 
+mexicanei? mexicanca | GTYPE>position_adjective | STRICT > (?i:mexicanei? mexicanca)
+mexincancei | GTYPE>position_adjective 
+moscovit | GTYPE>position_adjective 
+moscovitului | GTYPE>position_adjective
+moscovitul | GTYPE>position_adjective
+moscovita | GTYPE>position_adjective 
+moscovitei | GTYPE>position_adjective
+moscovite | GTYPE>position_adjective
+muntenegrean | GTYPE>position_adjective 
+muntenegreanului | GTYPE>position_adjective
+muntenegreanul | GTYPE>position_adjective
+muntenegreana | GTYPE>position_adjective 
+muntenegrenei | GTYPE>position_adjective
+muntenegrene | GTYPE>position_adjective
+nigerian | GTYPE>position_adjective 
+nigerianului | GTYPE>position_adjective
+nigerianul | GTYPE>position_adjective
+nigeriana | GTYPE>position_adjective
+nigerienei | GTYPE>position_adjective
+nigeriene | GTYPE>position_adjective
+norvegian | GTYPE>position_adjective 
+norvegianului | GTYPE>position_adjective
+norvegianul | GTYPE>position_adjective
+norvegiana | GTYPE>position_adjective 
+norvegianei | GTYPE>position_adjective
+norvegiane | GTYPE>position_adjective
+neamt | GTYPE>position_adjective 
+neamtului | GTYPE>position_adjective
+neamtul | GTYPE>position_adjective
+nemtoaica | GTYPE>position_adjective 
+nemtoaicei | GTYPE>position_adjective
+nemtoaice | GTYPE>position_adjective
+olandez | GTYPE>position_adjective 
+olandezului | GTYPE>position_adjective
+olandezul | GTYPE>position_adjective
+olandeza | GTYPE>position_adjective 
+olandezei | GTYPE>position_adjective
+olandeze | GTYPE>position_adjective
+pakistanez | GTYPE>position_adjective 
+pakistanezului | GTYPE>position_adjective
+pakistanezul | GTYPE>position_adjective
+pakistaneza | GTYPE>position_adjective 
+pakistanezei | GTYPE>position_adjective
+pakistaneze | GTYPE>position_adjective
+palestinian | GTYPE>position_adjective 
+palestinianului | GTYPE>position_adjective
+palestinianul | GTYPE>position_adjective
+palestiniana | GTYPE>position_adjective 
+palestinienei | GTYPE>position_adjective
+palestiniene | GTYPE>position_adjective
+parizian | GTYPE>position_adjective 
+parizianului | GTYPE>position_adjective
+parizianul | GTYPE>position_adjective
+pariziana | GTYPE>position_adjective 
+parizianei | GTYPE>position_adjective
+pariziane | GTYPE>position_adjective
+polonez | GTYPE>position_adjective 
+polonezului | GTYPE>position_adjective
+polonezul | GTYPE>position_adjective
+poloneza | GTYPE>position_adjective 
+polonezei | GTYPE>position_adjective
+poloneze | GTYPE>position_adjective
+portughez | GTYPE>position_adjective 
+portughezului | GTYPE>position_adjective
+portughezul | GTYPE>position_adjective
+portugheza | GTYPE>position_adjective 
+portughezei | GTYPE>position_adjective
+portugheze | GTYPE>position_adjective
+peruan | GTYPE>position_adjective 
+peruanului | GTYPE>position_adjective
+peruanul | GTYPE>position_adjective
+peruana | GTYPE>position_adjective 
+peruanei | GTYPE>position_adjective
+peruane | GTYPE>position_adjective
+panamez | GTYPE>position_adjective 
+panamezului | GTYPE>position_adjective
+panamezul | GTYPE>position_adjective
+panameza | GTYPE>position_adjective 
+panamezei | GTYPE>position_adjective
+panameze | GTYPE>position_adjective
+român | GTYPE>position_adjective 
+românul | GTYPE>position_adjective 
+românului | GTYPE>position_adjective 
+românca | GTYPE>position_adjective 
+româncei | GTYPE>position_adjective 
+româna | GTYPE>position_adjective 
+românei | GTYPE>position_adjective
+române | GTYPE>position_adjective
+roman | GTYPE>position_adjective 
+romanului | GTYPE>position_adjective
+romanul | GTYPE>position_adjective
+romanca | GTYPE>position_adjective 
+romancei | GTYPE>position_adjective 
+romana | GTYPE>position_adjective 
+romanei | GTYPE>position_adjective
+romane | GTYPE>position_adjective
+rus | GTYPE>position_adjective 
+rusului | GTYPE>position_adjective
+rusul | GTYPE>position_adjective
+rusoaica | GTYPE>position_adjective 
+rusoaicei rusa | GTYPE>position_adjective 
+rusei | GTYPE>position_adjective
+ruse | GTYPE>position_adjective
+slovac | GTYPE>position_adjective 
+slovacului | GTYPE>position_adjective
+slovacul | GTYPE>position_adjective
+slovaca | GTYPE>position_adjective 
+slovacei | GTYPE>position_adjective
+slovace | GTYPE>position_adjective
+spaniol | GTYPE>position_adjective 
+spaniolului | GTYPE>position_adjective
+spaniolul | GTYPE>position_adjective
+spaniola | GTYPE>position_adjective 
+spaniolei | GTYPE>position_adjective
+spaniole | GTYPE>position_adjective
+sovietic | GTYPE>position_adjective 
+sovieticului | GTYPE>position_adjective
+sovieticul | GTYPE>position_adjective
+sovietica | GTYPE>position_adjective
+sovieticei | GTYPE>position_adjective
+sovietice | GTYPE>position_adjective
+suedez | GTYPE>position_adjective 
+suedezului | GTYPE>position_adjective
+suedezul | GTYPE>position_adjective
+suedeza | GTYPE>position_adjective 
+suedezei | GTYPE>position_adjective
+suedeze | GTYPE>position_adjective
+singaporez | GTYPE>position_adjective 
+singaporezului | GTYPE>position_adjective
+singaporezul | GTYPE>position_adjective
+singaporeza | GTYPE>position_adjective 
+singaporezei | GTYPE>position_adjective
+singaporeze | GTYPE>position_adjective
+turc | GTYPE>position_adjective 
+turce | GTYPE>position_adjective 
+turcului | GTYPE>position_adjective
+turcul | GTYPE>position_adjective
+turcoaica | GTYPE>position_adjective 
+turcoaicei | GTYPE>position_adjective
+turcoaice | GTYPE>position_adjective
+thailandez | GTYPE>position_adjective 
+thailandezului | GTYPE>position_adjective
+thailandezul | GTYPE>position_adjective
+thailandeza | GTYPE>position_adjective 
+thailandezei | GTYPE>position_adjective
+thailandeze | GTYPE>position_adjective
+ucrainean | GTYPE>position_adjective 
+ucraineanului | GTYPE>position_adjective
+ucraineanul | GTYPE>position_adjective
+ucraineana | GTYPE>position_adjective 
+ucraineanei | GTYPE>position_adjective
+ucraineane | GTYPE>position_adjective
+ungar | GTYPE>position_adjective 
+ungarului | GTYPE>position_adjective
+ungarul | GTYPE>position_adjective
+ungur | GTYPE>position_adjective 
+ungurului | GTYPE>position_adjective
+ungurul | GTYPE>position_adjective
+unguroaica unguroaicei?  | GTYPE>position_adjective | STRICT > (?i:unguroaica unguroaicei?)
+uruguayan | GTYPE>position_adjective 
+uruguayanului | GTYPE>position_adjective
+uruguayanul | GTYPE>position_adjective
+uruguayana | GTYPE>position_adjective 
+uruguayanei | GTYPE>position_adjective
+uruguayane | GTYPE>position_adjective
+uzbek | GTYPE>position_adjective 
+uzbekului | GTYPE>position_adjective
+uzbekul | GTYPE>position_adjective
+uzbeka | GTYPE>position_adjective 
+uzbekei | GTYPE>position_adjective
+uzbeke | GTYPE>position_adjective
+ugandez | GTYPE>position_adjective 
+ugandezului | GTYPE>position_adjective
+ugandezul | GTYPE>position_adjective
+ugandeza | GTYPE>position_adjective 
+ugandezei | GTYPE>position_adjective
+ugandeze | GTYPE>position_adjective
+venezuelean | GTYPE>position_adjective 
+venezueleanului | GTYPE>position_adjective
+venezueleanul | GTYPE>position_adjective
+zimbabwean | GTYPE>position_adjective 
+zimbabweanului | GTYPE>position_adjective
+zimbabweanul | GTYPE>position_adjective
+zimbabweana | GTYPE>position_adjective 
+zimbabweanei | GTYPE>position_adjective
+zimbabweane | GTYPE>position_adjective
+kurd | GTYPE>position_adjective 
+kurdului | GTYPE>position_adjective
+kurdul | GTYPE>position_adjective
+kurda | GTYPE>position_adjective 
+kurdei | GTYPE>position_adjective
+kurde | GTYPE>position_adjective
+sarb | GTYPE>position_adjective 
+sarbului | GTYPE>position_adjective
+sarbul | GTYPE>position_adjective
+sarba | GTYPE>position_adjective 
+sarbei | GTYPE>position_adjective
+sarbe | GTYPE>position_adjective
+sirb | GTYPE>position_adjective 
+sirbului | GTYPE>position_adjective
+sirbul | GTYPE>position_adjective
+sirba | GTYPE>position_adjective 
+sirbei | GTYPE>position_adjective
+sirbe | GTYPE>position_adjective
+sârb | GTYPE>position_adjective 
+sârbului | GTYPE>position_adjective
+sârbul | GTYPE>position_adjective
+sârba | GTYPE>position_adjective 
+sârbei | GTYPE>position_adjective
+sârbe | GTYPE>position_adjective
+
+# ----------------------------------------
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_profession-ro.txt
+# content : PM lexicon for Romanian profession  names
+# date	  : July 2012
+# author  : (B. Pouliquen), M. Ehrmann
+# ----------
+# GTYPE: profession & GSUBTYPE: general|justice|finance|health|education|sport|food|transport|agriculture|other|art
+# GTYPE: profession_modifier & GSUBTYPE: medecine|education|sport
+# ----------------------------------------
+
+
+
+playboy | GTYPE>profession
+
+jurnalistul | GTYPE>profession | GSUBTYPE>media
+jurnalistului | GTYPE>profession| GSUBTYPE>media
+
+avocat | GTYPE>profession| GSUBTYPE>justice
+avocatul | GTYPE>profession| GSUBTYPE>justice
+avocatului | GTYPE>profession| GSUBTYPE>justice
+avocata | GTYPE>profession| GSUBTYPE>justice
+avocatei | GTYPE>profession| GSUBTYPE>justice
+
+purt[ăa]torul de cuv[iaîâ]nt | GTYPE>profession
+
+procuror | GTYPE>profession| GSUBTYPE>justice
+procurorul | GTYPE>profession| GSUBTYPE>justice
+inspector | GTYPE>profession
+inspectorul | GTYPE>profession
+
+producator | GTYPE>profession
+producatorul | GTYPE>profession
+producatorului | GTYPE>profession
+producatoarea | GTYPE>profession
+producatoare | GTYPE>profession
+producatoarei | GTYPE>profession
+
+actor | GTYPE>profession
+actorul | GTYPE>profession
+actorului | GTYPE>profession
+actrita | GTYPE>profession
+actritei | GTYPE>profession
+actriţa actriţei | GTYPE>profession
+
+muzician | GTYPE>profession
+muzicianul | GTYPE>profession
+muzicianului | GTYPE>profession
+muziciana | GTYPE>profession
+muzicienei | GTYPE>profession
+cintareata | GTYPE>profession
+cintaretei | GTYPE>profession
+cântăreţ  | GTYPE>profession
+cântăreţul | GTYPE>profession
+cântăreţului | GTYPE>profession
+cântăreaţa | GTYPE>profession
+cântăreaţei  | GTYPE>profession
+regizor | GTYPE>profession
+regizorul | GTYPE>profession
+regizorului | GTYPE>profession
+
+omul de stiinta | GTYPE>profession
+omului de stiinta | GTYPE>profession
+omul de ştiinţă | GTYPE>profession
+omului de ştiinţă | GTYPE>profession
+medic | GTYPE>profession
+medicul | GTYPE>profession
+medicului | GTYPE>profession
+mijlocas | GTYPE>profession
+mijlocasul | GTYPE>profession
+mijlocasului | GTYPE>profession
+
+antrenor | GTYPE>profession
+antrenorul | GTYPE>profession
+antrenorului | GTYPE>profession
+agronom | GTYPE>profession
+agronomul | GTYPE>profession
+agronomului | GTYPE>profession
+arhitect | GTYPE>profession
+arhitectul | GTYPE>profession
+arhitectului | GTYPE>profession
+fizician | GTYPE>profession
+fizicianul | GTYPE>profession
+fizicianului | GTYPE>profession
+artist | GTYPE>profession
+artistul | GTYPE>profession
+artistului | GTYPE>profession
+artista artistei | GTYPE>profession
+aviator | GTYPE>profession
+aviatorul | GTYPE>profession
+aviatorului | GTYPE>profession
+comicul | GTYPE>profession
+comicului | GTYPE>profession
+compozitor | GTYPE>profession
+compozitorul | GTYPE>profession
+compoziotrului | GTYPE>profession
+compozitoarea | GTYPE>profession
+compozitoarei | GTYPE>profession
+economist | GTYPE>profession
+economistul | GTYPE>profession
+economistului | GTYPE>profession
+fotograf | GTYPE>profession
+fotograful | GTYPE>profession
+fotografului | GTYPE>profession
+fotbalist | GTYPE>profession
+fotbalistul | GTYPE>profession
+fotbalistului | GTYPE>profession
+inginer | GTYPE>profession
+inginerul | GTYPE>profession
+inginerului | GTYPE>profession
+istoric | GTYPE>profession
+istoricul | GTYPE>profession
+istoricului | GTYPE>profession
+jurist | GTYPE>profession
+juristul | GTYPE>profession
+juristului | GTYPE>profession
+scenarist | GTYPE>profession
+scenaristul | GTYPE>profession
+scenaristului | GTYPE>profession
+sportiv | GTYPE>profession
+sportivul | GTYPE>profession
+sportivului | GTYPE>profession
+sportiva | GTYPE>profession
+sportivei | GTYPE>profession
+terorist | GTYPE>profession
+teroristul | GTYPE>profession
+teroristului | GTYPE>profession
+teroriste | GTYPE>profession
+teroristei | GTYPE>profession
+terori[sş]tii | GTYPE>profession
+terori[sş]ti | GTYPE>profession
+teror[sş]tii | GTYPE>profession
+teror[sş]ti | GTYPE>profession
+terori[sş]tilor | GTYPE>profession
+
+cantareata | GTYPE>profession
+cantaretei | GTYPE>profession
+Cintareata | GTYPE>profession
+cintaretei | GTYPE>profession
+chitarist | GTYPE>profession
+chitaristul | GTYPE>profession
+chitaristului | GTYPE>profession
+comisar | GTYPE>profession
+comisarul | GTYPE>profession
+comisarului | GTYPE>profession
+comisara | GTYPE>profession
+comisarei | GTYPE>profession
+
+
+astronaut | GTYPE>profession
+astronautul | GTYPE>profession
+astronautului | GTYPE>profession
+
+Starleta | GTYPE>profession
+starletei | GTYPE>profession
+playmate | GTYPE>profession
+tenor | GTYPE>profession
+tenorul | GTYPE>profession
+tenorului | GTYPE>profession
+printul | GTYPE>profession
+printului | GTYPE>profession
+prinţ | GTYPE>profession
+prinţul | GTYPE>profession
+prinţului | GTYPE>profession
+
+jurnalista | GTYPE>profession
+jurnalistei | GTYPE>profession
+supermodel | GTYPE>profession
+supermodelul | GTYPE>profession
+supermodelului | GTYPE>profession
+star | GTYPE>profession
+starul | GTYPE>profession
+starului | GTYPE>profession
+vedeta | GTYPE>profession
+vedetei | GTYPE>profession
+topmodel | GTYPE>profession
+topmodelul | GTYPE>profession
+topmodelului | GTYPE>profession
+fotomodel | GTYPE>profession
+fotomodelul | GTYPE>profession
+fotomodelului | GTYPE>profession
+
+
+politistul | GTYPE>profession
+politistului | GTYPE>profession
+poliţistul | GTYPE>profession
+poliţistului | GTYPE>profession
+politicianul | GTYPE>profession
+politicianului | GTYPE>profession
+clericul | GTYPE>profession
+clericului | GTYPE>profession
+ciclist | GTYPE>profession
+ciclistul | GTYPE>profession
+ciclistului | GTYPE>profession
+
+
+
+stilist | GTYPE>profession
+stilistul | GTYPE>profession
+stilistului | GTYPE>profession
+stilista | GTYPE>profession
+stilistei | GTYPE>profession
+scriitor | GTYPE>profession
+scriitorul | GTYPE>profession
+scriitorului | GTYPE>profession
+tehnician | GTYPE>profession
+tehnicianul | GTYPE>profession
+tehnicianului | GTYPE>profession
+tenor | GTYPE>profession
+tenorul | GTYPE>profession
+tenorului | GTYPE>profession
+atacant | GTYPE>profession
+atacantul | GTYPE>profession
+atacantului | GTYPE>profession
+ziarist | GTYPE>profession
+ziaristul | GTYPE>profession
+ziaristului | GTYPE>profession
+ziarista | GTYPE>profession
+ziaristei | GTYPE>profession
+
+antrenor | GTYPE>profession
+antrenorul | GTYPE>profession
+antrenorului | GTYPE>profession
+
+spion | GTYPE>profession
+spionul | GTYPE>profession
+spionului | GTYPE>profession
+spioana | GTYPE>profession
+spioanei | GTYPE>profession
+solist | GTYPE>profession
+solistul | GTYPE>profession
+solistului | GTYPE>profession
+solista | GTYPE>profession
+solistei | GTYPE>profession
+Raportorul  | GTYPE>profession
+Raportorului | GTYPE>profession
+portar | GTYPE>profession
+portarul | GTYPE>profession
+portarului | GTYPE>profession
+judecator | GTYPE>profession
+judecatorul | GTYPE>profession
+judecatorului | GTYPE>profession
+judecatoarea | GTYPE>profession
+judecatoare | GTYPE>profession
+judecatoarei | GTYPE>profession
+
+fundas | GTYPE>profession
+fundasul | GTYPE>profession
+fundasului | GTYPE>profession
+fundaş | GTYPE>profession
+fundaşul | GTYPE>profession
+fundaşului | GTYPE>profession
+arbitru | GTYPE>profession
+arbitrul | GTYPE>profession
+arbitrului | GTYPE>profession
+
+rutier | GTYPE>profession
+rutierul | GTYPE>profession
+rutierului | GTYPE>profession
+sinucigas | GTYPE>profession
+sinucigasul | GTYPE>profession
+sinucigasului | GTYPE>profession
+sinucigasa | GTYPE>profession
+sinucigasei | GTYPE>profession
+sinucigaş | GTYPE>profession
+sinucigaşul | GTYPE>profession
+sinucigaşului | GTYPE>profession
+sinucigaşa | GTYPE>profession
+sinucigaşei | GTYPE>profession
+
+tenismen | GTYPE>profession
+tenismenul | GTYPE>profession
+tenismenului | GTYPE>profession
+
+
+
+tanar | GTYPE>profession
+tanarul | GTYPE>profession
+tanarului | GTYPE>profession
+tanara | GTYPE>profession
+tinerei | GTYPE>profession
+tinar | GTYPE>profession
+tinarul | GTYPE>profession
+tinarului | GTYPE>profession
+tinara | GTYPE>profession
+tinerei | GTYPE>profession
+batran | GTYPE>profession
+batranul | GTYPE>profession
+batranului | GTYPE>profession
+batrana | GTYPE>profession
+batranei | GTYPE>profession
+batrin | GTYPE>profession
+batrinul | GTYPE>profession
+batrinului | GTYPE>profession
+batrina | GTYPE>profession
+batrinei | GTYPE>profession
+tânar | GTYPE>profession
+tânarul | GTYPE>profession
+tânarului | GTYPE>profession
+tânara | GTYPE>profession
+tânerei | GTYPE>profession
+bătrân | GTYPE>profession
+bătrânul| GTYPE>profession
+bătrânului | GTYPE>profession
+bătrâna | GTYPE>profession
+bătrânei | GTYPE>profession
+sfantul | GTYPE>profession
+sfantului | GTYPE>profession
+sfanta | GTYPE>profession
+sfintei | GTYPE>profession
+sfântul | GTYPE>profession
+sfântului | GTYPE>profession
+sfânta | GTYPE>profession
+sef | GTYPE>profession
+seful | GTYPE>profession
+sefului | GTYPE>profession
+sefa | GTYPE>profession
+sefei | GTYPE>profession
+şef | GTYPE>profession
+şeful| GTYPE>profession
+şefului | GTYPE>profession
+şefa | GTYPE>profession
+şefei | GTYPE>profession
+reporter | GTYPE>profession
+reporterul | GTYPE>profession
+reporterului | GTYPE>profession
+reportera | GTYPE>profession
+reporterei | GTYPE>profession
+puscarias | GTYPE>profession
+puscariasul | GTYPE>profession
+puscariasului | GTYPE>profession
+puscariasa | GTYPE>profession
+puscariasei | GTYPE>profession
+puşcariaş | GTYPE>profession
+puşcariaşul | GTYPE>profession
+puşcariaşului | GTYPE>profession
+puşcariaşa | GTYPE>profession
+puşcariaşei | GTYPE>profession
+rapper | GTYPE>profession
+rapperul | GTYPE>profession
+rapperului | GTYPE>profession
+
+preot | GTYPE>profession
+preotul | GTYPE>profession
+preotului | GTYPE>profession
+pilot | GTYPE>profession
+pilotul | GTYPE>profession
+pilotului | GTYPE>profession
+
+patron | GTYPE>profession
+patronul | GTYPE>profession
+patronului | GTYPE>profession
+patroana | GTYPE>profession
+patroanei | GTYPE>profession
+patroane | GTYPE>profession
+pictor | GTYPE>profession
+pictorul | GTYPE>profession
+pictorului | GTYPE>profession
+pictorita | GTYPE>profession
+pictoritei | GTYPE>profession
+pictorite | GTYPE>profession
+pictoriţa | GTYPE>profession
+pictoriţei | GTYPE>profession
+pictoriţe | GTYPE>profession
+mediator | GTYPE>profession
+mediatorul | GTYPE>profession
+mediatorului | GTYPE>profession
+mediatoarea | GTYPE>profession
+mediatoare | GTYPE>profession
+mediatoarei | GTYPE>profession
+negociator | GTYPE>profession
+negociatorul | GTYPE>profession
+negociatorului | GTYPE>profession
+negociatoarea | GTYPE>profession
+negociatoare | GTYPE>profession
+negociatoarei | GTYPE>profession
+gazetar | GTYPE>profession
+gazetarul | GTYPE>profession
+gazetarului | GTYPE>profession
+gazetara | GTYPE>profession
+gazetarei | GTYPE>profession
+fondator | GTYPE>profession
+fondatorul | GTYPE>profession
+fondatorului | GTYPE>profession
+fondatoarea | GTYPE>profession
+fondatoare | GTYPE>profession
+fondatoarei | GTYPE>profession
+
+
+bussinesman | GTYPE>profession
+bussinesmanul | GTYPE>profession
+bussinesmanului | GTYPE>profession
+comediant | GTYPE>profession
+comediantul | GTYPE>profession
+comediantului | GTYPE>profession
+comedianta | GTYPE>profession
+comediantei | GTYPE>profession
+comediante | GTYPE>profession
+designer | GTYPE>profession
+designerul | GTYPE>profession
+designerului | GTYPE>profession
+designera | GTYPE>profession
+designerei | GTYPE>profession
+designere | GTYPE>profession
+şahist | GTYPE>profession
+şahistul | GTYPE>profession
+şahistului | GTYPE>profession
+şahista | GTYPE>profession
+şahistei | GTYPE>profession
+şahiste | GTYPE>profession
+sahist | GTYPE>profession
+sahistul | GTYPE>profession
+sahistului | GTYPE>profession
+sahista | GTYPE>profession
+sahistei | GTYPE>profession
+sahiste | GTYPE>profession
+teolog | GTYPE>profession
+teologul | GTYPE>profession
+teologului | GTYPE>profession
+pesedist | GTYPE>profession
+pesedistul | GTYPE>profession
+pesedistului | GTYPE>profession
+pesedista | GTYPE>profession
+pesedistei | GTYPE>profession
+
+scriitoarea | GTYPE>profession
+scriitoarei | GTYPE>profession
+maratonist | GTYPE>profession
+maratonistul | GTYPE>profession
+maratonistului | GTYPE>profession
+maratonista | GTYPE>profession
+maratonistei | GTYPE>profession
+maratoniste | GTYPE>profession
+
+ostatic | GTYPE>profession
+ostaticul | GTYPE>profession
+ostaticului | GTYPE>profession
+ostatica | GTYPE>profession
+ostaticei | GTYPE>profession
+ostatice | GTYPE>profession
+manechin | GTYPE>profession
+manechinul | GTYPE>profession
+manechinului | GTYPE>profession
+manechina | GTYPE>profession
+manechinei | GTYPE>profession
+manechine | GTYPE>profession
+paparazzi  | GTYPE>profession
+
+
+luptător | GTYPE>profession
+luptătorul | GTYPE>profession
+luptătorului | GTYPE>profession
+luptătoarea | GTYPE>profession
+luptătoarei | GTYPE>profession
+luptătoare | GTYPE>profession
+luptator | GTYPE>profession
+luptatorul | GTYPE>profession
+luptatorului | GTYPE>profession
+luptatoarea | GTYPE>profession
+luptatoarei | GTYPE>profession
+luptatoare | GTYPE>profession
+manager | GTYPE>profession
+managerul | GTYPE>profession
+managerului | GTYPE>profession
+managera | GTYPE>profession
+managerei | GTYPE>profession
+managere | GTYPE>profession
+jucător | GTYPE>profession
+jucătorul | GTYPE>profession
+jucătorului | GTYPE>profession
+jucătoarea | GTYPE>profession
+jucătoarei | GTYPE>profession
+jucătoare | GTYPE>profession
+jucator | GTYPE>profession
+jucatorul | GTYPE>profession
+jucatorului | GTYPE>profession
+jucatoarea | GTYPE>profession
+jucatoarei | GTYPE>profession
+jucatoare | GTYPE>profession
+electrician | GTYPE>profession
+electricianul | GTYPE>profession
+electricianului | GTYPE>profession
+electriciana | GTYPE>profession
+electricianei | GTYPE>profession
+electriciane | GTYPE>profession
+
+dramaturg | GTYPE>profession
+dramaturgul | GTYPE>profession
+dramaturgului | GTYPE>profession
+dramaturga | GTYPE>profession
+dramaturgei | GTYPE>profession
+dansator | GTYPE>profession
+dansatorul | GTYPE>profession
+dansatorului | GTYPE>profession
+dansatoarea | GTYPE>profession
+dansatoarei | GTYPE>profession
+dansatoare | GTYPE>profession
+cosmonaut | GTYPE>profession
+cosmonautul | GTYPE>profession
+cosmonautului | GTYPE>profession
+cosmonauta | GTYPE>profession
+cosmonautei | GTYPE>profession
+cosmonaute | GTYPE>profession
+critic | GTYPE>profession
+criticul | GTYPE>profession
+criticului | GTYPE>profession
+critica | GTYPE>profession
+criticei | GTYPE>profession
+critice | GTYPE>profession
+
+cineast | GTYPE>profession
+cineastul | GTYPE>profession
+cineastului | GTYPE>profession
+cineasta | GTYPE>profession
+cineastei | GTYPE>profession
+
+cercetator | GTYPE>profession
+cercetatorul | GTYPE>profession
+cercetatorului | GTYPE>profession
+cercetatoarea | GTYPE>profession
+cercetatoarei | GTYPE>profession
+cercetatoare | GTYPE>profession
+
+baschetbalist | GTYPE>profession
+baschetbalistul | GTYPE>profession
+baschetbalistului | GTYPE>profession
+baschetbalista | GTYPE>profession
+baschetbalistei | GTYPE>profession
+blonda blondei | GTYPE>profession
+
+
+succesorului lui | GTYPE>profession
+succesorul lui | GTYPE>profession
+succesoarea lui | GTYPE>profession
+succesoarei lui | GTYPE>profession
+vrajitorul | GTYPE>profession
+vrajitorului | GTYPE>profession
+
+realizatoar TV | GTYPE>profession
+realizatoarul% TV | GTYPE>profession
+realizatoarea TV | GTYPE>profession
+realizatoare_ TV | GTYPE>profession
+secretarul% apararii | GTYPE>profession
+om de afaceri | GTYPE>profession
+omul% de afaceri | GTYPE>profession
+jucatoar de tenis | GTYPE>profession
+jucatoarul% de tenis | GTYPE>profession
+jucatoarea de tenis | GTYPE>profession
+jucatoare_ de tenis | GTYPE>profession
+mostenitor | GTYPE>profession
+mostenitorul | GTYPE>profession
+mostenitorului | GTYPE>profession
+mostenitoarea | GTYPE>profession
+mostenitoarei | GTYPE>profession
+mostenitoare | GTYPE>profession
+moştenitor | GTYPE>profession
+moştenitorul | GTYPE>profession
+moştenitorului | GTYPE>profession
+moştenitoarea | GTYPE>profession
+moştenitoarei | GTYPE>profession
+moştenitoare | GTYPE>profession
+campion | GTYPE>profession
+campionul | GTYPE>profession
+campionului | GTYPE>profession
+campioana | GTYPE>profession
+campioanei | GTYPE>profession
+campioane | GTYPE>profession
+laureat | GTYPE>profession
+laureatul | GTYPE>profession
+laureatului | GTYPE>profession
+laureata | GTYPE>profession
+laureatei | GTYPE>profession
+laureate | GTYPE>profession
+boss | GTYPE>profession
+bossul | GTYPE>profession
+bossului | GTYPE>profession
+cetatean | GTYPE>profession
+cetateanul | GTYPE>profession
+cetateanului | GTYPE>profession
+cetateana | GTYPE>profession
+cetateanei | GTYPE>profession
+cetateane | GTYPE>profession
+cetăţean | GTYPE>profession
+cetăţeanul | GTYPE>profession
+cetăţeanului | GTYPE>profession
+cetăţeana | GTYPE>profession
+cetăţeanei | GTYPE>profession
+cetăţeane | GTYPE>profession
+bodyguard | GTYPE>profession
+bodyguardul | GTYPE>profession
+bodyguardului | GTYPE>profession
+artizan | GTYPE>profession
+artizanul | GTYPE>profession
+artizanului | GTYPE>profession
+artizana | GTYPE>profession
+artizanei | GTYPE>profession
+artizane | GTYPE>profession
+administrator | GTYPE>profession
+administratorul | GTYPE>profession
+administratorului | GTYPE>profession
+administratoarea | GTYPE>profession
+administratoarei | GTYPE>profession
+administratoare | GTYPE>profession
+student | GTYPE>profession
+studentul | GTYPE>profession
+studentului | GTYPE>profession
+studenta | GTYPE>profession
+studentei | GTYPE>profession
+
+soldat | GTYPE>profession
+soldatul | GTYPE>profession
+soldatului | GTYPE>profession
+şofer | GTYPE>profession
+şoferul | GTYPE>profession
+şoferului | GTYPE>profession
+selectioner | GTYPE>profession
+selectionerul | GTYPE>profession
+selectionerului | GTYPE>profession
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_qualification-ro.txt
+# content : PM lexicon for person name qualifications
+# date	  : July 2012
+# author  :  (B. Pouliquen), M. Ehrmann
+# *********
+# GTYPE	  : persQualif
+# GSUBTYPE	:crime|insurgent|other|polAffil|religAffil
+#**********************************************
+
+republican | GTYPE>persQualif | GSUBTYPE>polAffil
+republicanul | GTYPE>persQualif | GSUBTYPE>polAffil
+republicanului | GTYPE>persQualif | GSUBTYPE>polAffil
+liberal | GTYPE>persQualif | GSUBTYPE>polAffil
+liberalul | GTYPE>persQualif | GSUBTYPE>polAffil
+liberala | GTYPE>persQualif | GSUBTYPE>polAffil
+liberalei | GTYPE>persQualif | GSUBTYPE>polAffil
+radical | GTYPE>persQualif | GSUBTYPE>polAffil
+radicalul | GTYPE>persQualif | GSUBTYPE>polAffil
+radicalului | GTYPE>persQualif | GSUBTYPE>polAffil
+socialist | GTYPE>persQualif | GSUBTYPE>polAffil
+socialistul | GTYPE>persQualif | GSUBTYPE>polAffil
+socialistului | GTYPE>persQualif | GSUBTYPE>polAffil
+socialista | GTYPE>persQualif | GSUBTYPE>polAffil
+socialistei | GTYPE>persQualif | GSUBTYPE>polAffil
+comunist | GTYPE>persQualif | GSUBTYPE>polAffil
+comunistul | GTYPE>persQualif | GSUBTYPE>polAffil
+comunistului | GTYPE>persQualif | GSUBTYPE>polAffil
+comunista | GTYPE>persQualif | GSUBTYPE>polAffil
+comunistei | GTYPE>persQualif | GSUBTYPE>polAffil
+fascist | GTYPE>persQualif | GSUBTYPE>polAffil
+fascistul | GTYPE>persQualif | GSUBTYPE>polAffil
+fascista | GTYPE>persQualif | GSUBTYPE>polAffil
+fascistei | GTYPE>persQualif | GSUBTYPE>polAffil
+
+ultranationalist | GTYPE>persQualif | GSUBTYPE>polAffil
+ultranationalistul | GTYPE>persQualif | GSUBTYPE>polAffil
+ultranationalistului | GTYPE>persQualif | GSUBTYPE>polAffil
+separatist | GTYPE>persQualif | GSUBTYPE>polAffil
+separatistul | GTYPE>persQualif | GSUBTYPE>polAffil
+separatistului | GTYPE>persQualif | GSUBTYPE>polAffil
+
+democrat | GTYPE>persQualif | GSUBTYPE>polAffil
+democratul | GTYPE>persQualif | GSUBTYPE>polAffil
+democratului | GTYPE>persQualif | GSUBTYPE>polAffil
+democraţi | GTYPE>persQualif | GSUBTYPE>polAffil
+democrată | GTYPE>persQualif | GSUBTYPE>polAffil
+laburist | GTYPE>persQualif | GSUBTYPE>polAffil
+laburistul | GTYPE>persQualif | GSUBTYPE>polAffil
+laburistului | GTYPE>persQualif | GSUBTYPE>polAffil
+conservator | GTYPE>persQualif | GSUBTYPE>polAffil
+conservatorul | GTYPE>persQualif | GSUBTYPE>polAffil
+conservatorului | GTYPE>persQualif | GSUBTYPE>polAffil
+
+taliban | GTYPE>persQualif
+talibanul | GTYPE>persQualif
+talibanului | GTYPE>persQualif
+
+sunnit | GTYPE>persQualif| GSUBTYPE>religAffil
+sunnitul | GTYPE>persQualif| GSUBTYPE>religAffil
+sunnitului | GTYPE>persQualif| GSUBTYPE>religAffil
+
+musulman | GTYPE>persQualif| GSUBTYPE>religAffil
+musulmanul | GTYPE>persQualif| GSUBTYPE>religAffil
+musulmanului | GTYPE>persQualif| GSUBTYPE>religAffil
+musulmana | GTYPE>persQualif| GSUBTYPE>religAffil
+musulmanei | GTYPE>persQualif| GSUBTYPE>religAffil
+musulmane | GTYPE>persQualif| GSUBTYPE>religAffil
+budist | GTYPE>persQualif| GSUBTYPE>religAffil
+budistul | GTYPE>persQualif| GSUBTYPE>religAffil 
+budistului | GTYPE>persQualif| GSUBTYPE>religAffil
+budişti | GTYPE>persQualif| GSUBTYPE>religAffil
+budista | GTYPE>persQualif| GSUBTYPE>religAffil
+budistei | GTYPE>persQualif| GSUBTYPE>religAffil
+budiste | GTYPE>persQualif| GSUBTYPE>religAffil
+catolic | GTYPE>persQualif| GSUBTYPE>religAffil
+catolicul | GTYPE>persQualif| GSUBTYPE>religAffil
+catolicului | GTYPE>persQualif| GSUBTYPE>religAffil
+catolica | GTYPE>persQualif| GSUBTYPE>religAffil
+catolicei | GTYPE>persQualif| GSUBTYPE>religAffil
+catolice | GTYPE>persQualif| GSUBTYPE>religAffil
+
+rebel | GTYPE>persQualif | GSUBTYPE>insurgent
+rebelul | GTYPE>persQualif | GSUBTYPE>insurgent
+rebelului | GTYPE>persQualif | GSUBTYPE>insurgent
+rebela | GTYPE>persQualif | GSUBTYPE>insurgent
+rebelei | GTYPE>persQualif | GSUBTYPE>insurgent
+rebele | GTYPE>persQualif | GSUBTYPE>insurgent
+activist | GTYPE>persQualif | GSUBTYPE>insurgent
+activistul | GTYPE>persQualif | GSUBTYPE>insurgent
+activistului | GTYPE>persQualif | GSUBTYPE>insurgent
+activista | GTYPE>persQualif | GSUBTYPE>insurgent
+activistei | GTYPE>persQualif | GSUBTYPE>insurgent
+activiste | GTYPE>persQualif | GSUBTYPE>insurgent
+revoluţionar | GTYPE>persQualif | GSUBTYPE>insurgent
+revoluţionarul | GTYPE>persQualif | GSUBTYPE>insurgent
+revoluţionarului | GTYPE>persQualif | GSUBTYPE>insurgent
+revoluţionara | GTYPE>persQualif | GSUBTYPE>insurgent
+revoluţionarei | GTYPE>persQualif | GSUBTYPE>insurgent
+revoluţionare | GTYPE>persQualif | GSUBTYPE>insurgent
+
+
+mafiot | GTYPE>persQualif | GSUBTYPE>crime
+mafiotul | GTYPE>persQualif | GSUBTYPE>crime 
+mafiotului | GTYPE>persQualif | GSUBTYPE>crime
+mafioata | GTYPE>persQualif | GSUBTYPE>crime
+mafioatei | GTYPE>persQualif | GSUBTYPE>crime
+mafioate | GTYPE>persQualif | GSUBTYPE>crime
+
+ecologist | GTYPE>persQualif
+ecologistul | GTYPE>persQualif
+ecologistului | GTYPE>persQualif
+ecologista | GTYPE>persQualif
+ecologistei | GTYPE>persQualif
+
+oligarh | GTYPE>persQualif
+oligarhul | GTYPE>persQualif
+oligarhului | GTYPE>persQualif
+
+pedofil | GTYPE>persQualif
+pedofilul | GTYPE>persQualif
+pedofilului | GTYPE>persQualif
+
+partener | GTYPE>persQualif
+partenerul | GTYPE>persQualif
+partenerului | GTYPE>persQualif
+partenera | GTYPE>persQualif
+partenerei | GTYPE>persQualif
+
+miliardar | GTYPE>persQualif
+miliardarul | GTYPE>persQualif
+miliardarului | GTYPE>persQualif
+veteranul | GTYPE>persQualif
+veteranului | GTYPE>persQualif
+
+inculpat | GTYPE>persQualif
+inculpatul | GTYPE>persQualif
+inculpatului | GTYPE>persQualif
+inculpata | GTYPE>persQualif
+inculpatei | GTYPE>persQualif
+
+veteran | GTYPE>persQualif
+veteranul | GTYPE>persQualif
+veteranului | GTYPE>persQualif
+veterana | GTYPE>persQualif
+veteranei | GTYPE>persQualif
+
+
+magnatul | GTYPE>persQualif
+magnatului | GTYPE>persQualif
+presedintele | GTYPE>persQualif
+miliardarul | GTYPE>persQualif
+miliardarului | GTYPE>persQualif
+multimilionar | GTYPE>persQualif
+multimilionarul | GTYPE>persQualif
+multimilionarului | GTYPE>persQualif
+multimilionara | GTYPE>persQualif
+multimilionarei | GTYPE>persQualif
+multimilionare | GTYPE>persQualif
+
+
+
+
+#**********************************************
+# Joint Research Center - OPTIMA
+# Copyright (c) 2012 European Commission.
+# file    : person_title-en.txt
+# content : PM lexicon for Romanian titles
+# date	  : July 2012
+# author  : (B. Pouliquen), M. Ehrmann
+# *********
+# Lexical Information
+# GTYPE	  : title>formal|family|academic|aristocratic|religious
+#**********************************************
+
+
+familiei | GTYPE>title| GSUBTYPE>family
+
+domn | GTYPE>title | GSUBTYPE>formal
+domnul | GTYPE>title | GSUBTYPE>formal
+domnului | GTYPE>title | GSUBTYPE>formal
+
+
+
+papă | GTYPE>title
+papa | GTYPE>title
+papei | GTYPE>title
+
+doctor | GTYPE>title
+doctorul | GTYPE>title
+doctorului | GTYPE>title
+profesor | GTYPE>title
+profesorul | GTYPE>title
+profesorului | GTYPE>title
+
+cardinal | GTYPE>position
+cardinalul | GTYPE>position
+cardinalului | GTYPE>position
+
+episcop | GTYPE>position
+episcopul | GTYPE>position
+episcopului | GTYPE>position
+cardinal | GTYPE>position
+cardinalul | GTYPE>position
+cardinalului | GTYPE>position
+
+
+Şeic | GTYPE>title

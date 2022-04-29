@@ -1,0 +1,6 @@
+BlackListed Rules for EMM:
+
+person1_basic_initials_1 
+person1_basic_initials_3 
+person1_basic_initials_4
+person2_title_pre_1

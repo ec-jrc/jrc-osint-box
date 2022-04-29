@@ -1,0 +1,428 @@
+
+
+
+%
+%  Shared Task 2017
+%  author: Jakub Piksorski
+%  last modification: September 2018
+%
+
+
+%
+% Settings
+%
+
+SETTINGS:
+
+{  % Modules (currently use Corleone components)
+   
+    %MODULES: 
+
+    % Search mode
+
+    %SEARCH_MODE: all_match
+    SEARCH_MODE: longest_match
+
+    %SEARCH_MODE: all_longest_matches
+
+    % Output
+    OUTPUT: grammar_and_unconsumed
+}
+
+%%
+
+PATTERNS:
+
+
+
+match_other :> (shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: #orig]
+               ):out 
+-> out: shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: #orig].
+
+
+match_other_2 :> ( ( shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "jrc_names" #orig] |
+                     shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "babelnet" #orig] |
+                     shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "geonames" #orig]
+                   )
+                   ((sym & [SURFACE: "-"])
+                     (letter)+				                  
+				   )*				  					 					
+                  (separator | sym & [TYPE:"dash_punct"])
+                   ( ( shared_out & [TYPE: #type2, SURFACE: #surf2, ID: #id2, BASE: #norm2, ORIGIN: "jrc_names" #orig2] |
+				       shared_out & [TYPE: #type2, SURFACE: #surf2, ID: #id2, BASE: #norm2, ORIGIN: "babelnet" #orig2] |
+				       shared_out & [TYPE: #type2, SURFACE: #surf2, ID: #id2, BASE: #norm2, ORIGIN: "geonames" #orig2]
+				     )
+				   )
+                 ):out 
+-> out: shared_out & [TYPE: #type2, SURFACE: #surf_final, ID: #id2, BASE: #norm2, ORIGIN: #orig2]
+                   & #surf_final := ConcWithBlanks(#surf,#surf2).
+
+
+match_other_extended :> ( 
+                 ( shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "jrc_names" #orig] |
+                   shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "babelnet" #orig] |
+                   shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "geonames" #orig]
+				 )
+				 ((sym & [TYPE:"dash_punct"])
+                 (letter)+
+				 )+				 
+               ):out 
+-> out: shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: #orig].
+
+
+
+match_other_left_something :> ((separator | sym & [TYPE: "open_punct"] | sym & [TYPE: "init_quote_punct"] | sym & [TYPE: "other_punct"])
+                               ( 
+                                (((letter & [TYPE: "uppercase_letter"])			      			   
+                                   ((letter | 
+			                         digit | 
+				                     ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				                      (letter | digit)) |
+									 (sym & [SURFACE: "."])
+			                        )+ 
+			                       )
+			                      )								  								  
+			                     (separator | 
+								  ((sym & [SURFACE: "."] | sym & [TYPE:"dash_punct"]) separator?) 
+			                     )
+								 )+
+								 
+                                 ( shared_out & [ORIGIN: "jrc_names" #orig] |
+                                   shared_out & [ORIGIN: "babelnet" #orig] |
+                                   shared_out & [ORIGIN: "geonames" #orig]
+								 )								 
+								 ((sym & [TYPE:"dash_punct"])
+                                  (letter)+				                  
+								 )*								 
+								 ((separator | 
+								   ((sym & [SURFACE: "."] | sym & [TYPE:"dash_punct"]) separator?) 
+			                       )			
+                                   (letter & [TYPE: "uppercase_letter"])			      			   
+                                   ((letter | 
+			                         digit | 
+				                     ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				                      (letter | digit)) |
+									 (sym & [SURFACE: "."])
+			                        )+ 
+			                       )			                      								   								  
+			                     )*
+                               ):out 
+							   (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","]  | sym & [TYPE: "final_quote_punct"] | sym & [TYPE: "other_punct"])
+							  ) 
+-> out: shared_out & [TYPE: "EXACT-EXTENDED-NAMED-MATCH", SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: #orig].
+				   			
+match_other_right_something :> ( (separator | sym & [TYPE: "open_punct"] | sym & [TYPE: "init_quote_punct"] | sym & [TYPE: "other_punct"])
+                                ( (((letter & [TYPE: "uppercase_letter"])			      			   
+                                   ((letter | 
+			                         digit | 
+				                     ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				                      (letter | digit)) |
+									 (sym & [SURFACE: "."])
+			                        )+ 
+			                       )
+			                      )									  								  
+								 (separator | 
+								  ((sym & [SURFACE: "."] | sym & [TYPE:"dash_punct"]) separator?) 
+			                     ))*
+                                 ( shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "jrc_names" #orig] |
+                                   shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "babelnet" #orig] |
+                                   shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "geonames" #orig]								 
+								 )
+								 ((sym & [TYPE:"dash_punct"])
+                                  (letter)+				                  
+								 )*
+								 ((separator | 
+								   ((sym & [SURFACE: "."] | sym & [TYPE:"dash_punct"]) separator?) 
+			                      )								 								  
+								  ((letter & [TYPE: "uppercase_letter"])			      			   
+                                   ((letter | 
+			                         digit | 
+				                     ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				                      (letter | digit)) |
+									 (sym & [SURFACE: "."])
+			                        )+ 
+			                       )
+			                      )
+			                     )+
+                               ):out 
+							   (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","]  | sym & [TYPE: "final_quote_punct"] | sym & [TYPE: "other_punct"])
+							   )
+-> out: shared_out & [TYPE: "EXACT-EXTENDED-NAMED-MATCH", SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: #orig].
+
+
+match_two_exact_matches_plus_context :> ((separator | sym & [TYPE: "open_punct"] | sym & [TYPE: "init_quote_punct"] | sym & [TYPE: "other_punct"])
+                                         ((
+										 ((letter & [TYPE: "uppercase_letter"])			      			   
+                                          ((letter | 
+			                                digit | 
+				                            ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				                             (letter | digit)) |
+									         (sym & [SURFACE: "."])
+			                               )+ 
+			                              )
+			                             )
+										 (separator | 
+								         ((sym & [SURFACE: "."] | sym & [TYPE:"dash_punct"]) separator?) 
+			                             ))*
+										 
+										 (separator)?
+                                         (shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "jrc_names" #orig] |
+                                          shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "babelnet" #orig] |
+                                          shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "geonames" #orig]										 
+										 )
+										 ((sym & [TYPE:"dash_punct"])
+                                          (letter)+				                  
+				                         )*
+										 										 
+										 ((separator | 
+								          ((sym & [SURFACE: "."] | sym & [TYPE:"dash_punct"]) separator?) 
+			                              )								 								  
+								         ((letter & [TYPE: "uppercase_letter"])			      			   
+                                         ((letter | 
+			                               digit | 
+				                          ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				                          (letter | digit)) |
+									      (sym & [SURFACE: "."])
+			                              )+ 
+			                             )
+			                            )
+			                            )*
+										 
+										(separator)?
+										(shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "jrc_names" #orig] |
+                                         shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "babelnet" #orig] |
+                                         shared_out & [TYPE: #type, SURFACE: #surf, ID: #id, BASE: #norm, ORIGIN: "geonames" #orig]
+										
+										)
+										((sym & [TYPE:"dash_punct"])
+                                         (letter)+				                  
+				                        )*
+										 
+										((separator | 
+								          ((sym & [SURFACE: "."] | sym & [TYPE:"dash_punct"]) separator?) 
+			                              )								 								  
+								         ((letter & [TYPE: "uppercase_letter"])			      			   
+                                         ((letter | 
+			                               digit | 
+				                          ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				                          (letter | digit)) |
+									      (sym & [SURFACE: "."])
+			                              )+ 
+			                             )
+			                            )
+			                            )*										 										 									    										 										 										 										
+                                        ):out
+										 (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","]  | sym & [TYPE: "final_quote_punct"] | sym & [TYPE: "other_punct"])
+									)	 
+-> out: shared_out & [TYPE: "EXACT-EXTENDED-NAMED-MATCH"].
+
+
+guessing_s:> ((separator | sym & [TYPE: "open_punct"] | sym & [TYPE: "init_quote_punct"] | sym & [TYPE: "other_punct"])
+              ((letter & [TYPE: "uppercase_letter"])			      			   
+			   ((letter | 
+			     digit | 
+				 ((sym & [TYPE:"dash_punct"] | sym & [SURFACE: "&"] | sym & [SURFACE: "'"])
+				  (letter | digit)  
+				 ) 
+			    )+	   			   
+			   )				    			  
+			  ):org
+             (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","]  | sym & [TYPE: "final_quote_punct"] | sym & [TYPE: "other_punct"])
+		    )
+ -> org: shared_out & [TYPE: "GUESS"].	
+
+ 
+guessing :> ((separator | sym & [TYPE: "open_punct"] | sym & [TYPE: "init_quote_punct"] | sym & [TYPE: "other_punct"])
+             (((letter & [TYPE: "uppercase_letter"])			      			   
+			   ((sym & [SURFACE: "."]) |			    
+			    (letter  | 
+			     digit  | 
+				 ((sym & [TYPE:"dash_punct"] | sym & [SURFACE: "&"] | sym & [SURFACE: "'"])
+				 (letter | digit )  
+				 ) 
+			    )+	   			   
+			   )	
+			   (separator )  
+			  )
+			  
+			  (
+			  ((sym & [SURFACE: "&"])
+			   (separator)  
+			  )?			  
+			  ((letter & [TYPE: "uppercase_letter"])			      			   
+               ((letter  | 
+			     digit  | 
+				 ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				  (letter  | digit )) |
+				  (sym & [SURFACE: "."])
+			    )+ 
+			   )
+			  (separator)  
+              ))*
+			  
+              ((letter & [TYPE: "uppercase_letter"])			      			   
+			   ((sym & [SURFACE: "."]) |			    
+			    (letter & [SURFACE: "."] | 
+			     digit & [SURFACE: "."] | 
+				 ((sym & [TYPE:"dash_punct"] | sym & [SURFACE: "&"] | sym & [SURFACE: "'"])
+				 (letter & [SURFACE: "."] | digit & [SURFACE: "."])  
+				 ) 
+			    )+	   			   
+			   ) 			  	
+			  )			  
+			 ):org
+            (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","]  | sym & [TYPE: "final_quote_punct"] | sym & [TYPE: "other_punct"])
+		   )
+ -> org: shared_out & [TYPE: "GUESS"].
+	
+
+
+ 
+ 
+guessing_2 :> ((separator | sym & [TYPE: "open_punct"] | sym & [TYPE: "init_quote_punct"] | sym & [TYPE: "other_punct"])
+               (  
+               ((letter & [TYPE: "uppercase_letter"])			      			   
+			    ((letter | 
+			     digit | 
+				 ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				 (letter | digit)  
+				 ) 
+			     )+	   			   
+			    )				   
+			   )			   
+			  ((sym & [TYPE:"dash_punct"])
+			   ((letter)			      			   
+			    ((letter | 
+			     digit | 
+				 ((sym & [SURFACE: "&"] | sym & [SURFACE: "'"] | sym & [TYPE:"dash_punct"])
+				 (letter | digit)  
+				 ) 
+			     )+	   			   
+			    )				   
+			   )
+			  )+
+			  ((sym & [TYPE:"dash_punct"])
+			   (letter & [TYPE: "uppercase_letter"])			      			   
+			   ((letter | 
+			     digit | 
+				 ((sym & [TYPE:"dash_punct"] | sym & [SURFACE: "&"] | sym & [SURFACE: "'"])
+				 (letter | digit)  
+				 ) 
+			    )+	   			   
+			   )				   
+			  )			  
+			 ):org
+            (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","] | sym & [TYPE: "final_quote_punct"] | sym & [TYPE: "other_punct"])		   
+			)
+ -> org: shared_out & [TYPE: "GUESS"].
+ 
+guessing_capitalized :>	((separator | sym & [TYPE: "open_punct"] | sym & [TYPE: "init_quote_punct"] | sym & [TYPE: "other_punct"] | sym & [SUBTYPE: "opening_bracket"])
+                         ((letter & [TYPE: "uppercase_letter", SURFACE: #surf1])	
+						 (letter & [TYPE: "uppercase_letter", SURFACE: #surf2])+
+						 ):org
+                         (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","] | sym & [TYPE: "final_quote_punct"] | sym & [TYPE: "other_punct"] | sym & [SUBTYPE: "closing_bracket"])		   
+                        )		
+ -> org: shared_out & [TYPE: "GUESS", SURFACE: #all]
+                    & #all := Conc(#surf1,#surf2)
+					& StringLengthSmaller(#all,"80").	
+
+ /*
+guessing_exp :> ((separator | sym & [TYPE: "open_punct"])
+                 ( ((letter & [TYPE: "uppercase_letter"])			      			   
+			        (letter)+ 
+			       )	   			   			      
+			      ((separator)  
+				   ((letter & [TYPE: "uppercase_letter"])			      			   
+			        (letter)+ 
+			       ))*	   			   			      
+			     ):org
+                (separator | sym & [TYPE: "close_punct"] | sym & [SURFACE: "."] | sym & [SURFACE: ","])		        
+				)
+ -> org: shared_out & [TYPE: "GUESS"].	
+*/
+
+
+%
+% This rule matches all numerical expressions
+%
+
+numerical :> ((separator | sym & [TYPE: "open_punct"])
+               ((digit & [TYPE: "latin_digit", SURFACE: #dec_1])+
+			   ( ( ( separator & [SURFACE: " "]
+			         (digit & [TYPE: "latin_digit", SURFACE: #dec_2])+			 
+			       )*		
+                   ( (sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 
+			         (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+			         
+				   )?				   
+				   ( (separator & [SURFACE: " "] | sym & [SURFACE:"-"])?
+			         gaz_numberword & [G_VAL: #magnitude]			         
+				   )?  
+			     )					 
+ 				   |
+                 ( ( (sym  & [SURFACE: "."] | sym  & [SURFACE: ","])			 
+			         (digit & [TYPE: "latin_digit", SURFACE: #dec_2])<3,3>			             
+			       )*
+				   (sym  & [SURFACE: "." #sep] | sym  & [SURFACE: "," #sep])			 			       
+                   (digit & [TYPE: "latin_digit", SURFACE: #dec_3])+
+				 )  
+		       )		       
+		      ):numerical
+              (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+			  ) 	
+			 			 			 			
+-> numerical :  shared_out & [TYPE:"NUM", ORIGIN: "IDT"]. 
+
+
+%
+% pattern that covers the specific format with commas/dots separating blocks of three digits (should have preference over all other patterns for numeric expressions)
+%
+% Example:  1,234,567,890
+%           1.234.567.890
+%
+			   
+numerical_specific :> ((separator | sym & [TYPE: "open_punct"])
+                       ((digit & [TYPE: "latin_digit", SURFACE: #dec_1])+
+			            ((sym  & [SURFACE: "."]
+			               | sym  & [SURFACE: ","])			 
+			            (digit & [TYPE: "latin_digit", SURFACE: #dec_2])<3,3>			    
+			           )+			 			  			           
+			           ):numerical
+                      (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+		             ) 	
+					  
+-> numerical :  shared_out & [TYPE:"NUM", ORIGIN: "IDT"]. 			   
+			   
+			  
+
+numerical_2 :> ((separator | sym & [TYPE: "open_punct"])
+                (gaz_numberword & [G_VAL:#val]
+			    (separator
+				 gaz_numberword & [G_VAL:#magnitude])?
+		       ):numerical
+              (separator | sym & [TYPE: "close_punct"] | sym & [TYPE: "other_punct"])
+			  ) 	
+			 			 			 			
+-> numerical : shared_out & [TYPE:"NUM", ORIGIN: "IDT"].
+ 
+END_PATTERNS:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
